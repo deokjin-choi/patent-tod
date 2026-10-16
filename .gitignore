@@ -1,8 +1,9 @@
 # 환경
 **/.env
 
-# 원자료 (용량 큼)
-05_data/
+# 원자료 (용량 큼) — README만 추적
+05_data/*
+!05_data/README.md
 
 # 분석 중간 산출물
 04_src/**/out/
