@@ -1,0 +1,119 @@
+{
+  "publication_number": "US20240152768A1",
+  "title": "Efficient federated-learning model training in wireless communication system",
+  "assignee": "Nokia Technologies Oy",
+  "filing_date": "2022-04-01",
+  "publication_date": "2024-05-09",
+  "pse": {
+    "problem": "Inefficient federated-learning model training in wireless communication systems due to large amounts of model parameter data exchanged between distributed nodes (DTHs) and centralized nodes (MTH), consuming network resources.",
+    "solution_function": "Efficient model aggregation by minimizing the amount of model parameter data transferred from DTHs to MTH in each round, reducing resource consumption.",
+    "solution_structure": "Distributed Training Hosts (DTHs) and Meta Training Host (MTH). DTHs perform local model training on their individual data sets. MTH aggregates model parameters from multiple DTHs to generate a global model.",
+    "solution_implementation": "Each round of model collection, DTHs transfer local model parameters to the MTH instead of raw training data. The MTH combines these parameters to update the global model, which is then fed back to DTHs for further iterations until convergence.",
+    "effect": "Reduced network resource consumption during federated-learning model training in wireless communication systems"
+  },
+  "knowledge_graph": [
+    [
+      "Efficient Model Aggregation",
+      "Addresses_Problem",
+      "Inefficient Federated-Learning Model Training"
+    ],
+    [
+      "Efficient Model Aggregation",
+      "Comprises_Component",
+      "Distributed Training Hosts (DTHs)"
+    ],
+    [
+      "Efficient Model Aggregation",
+      "Comprises_Component",
+      "Meta Training Host (MTH)"
+    ],
+    [
+      "Efficient Model Aggregation",
+      "Implemented_By",
+      "Round-based Parameter Transfer"
+    ],
+    [
+      "Efficient Model Aggregation",
+      "Achieves_Effect",
+      "Reduced Network Resource Consumption"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated-Learning Model Training",
+      "causes",
+      "Large Amounts of Model Parameter Data Exchanged"
+    ],
+    [
+      "Distributed Training Hosts (DTHs)",
+      "controls",
+      "Local Model Training"
+    ],
+    [
+      "Meta Training Host (MTH)",
+      "monitors",
+      "Global Model Parameters"
+    ],
+    [
+      "Distributed Training Hosts (DTHs)",
+      "transmits_to",
+      "Meta Training Host (MTH)"
+    ],
+    [
+      "Meta Training Host (MTH)",
+      "processes",
+      "Local Model Parameters"
+    ],
+    [
+      "Federated-Learning Model Training",
+      "reduces",
+      "Network Resource Consumption"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Distributed Training Hosts (DTHs)",
+    "Efficient Model Aggregation",
+    "Inefficient Federated-Learning Model Training",
+    "Meta Training Host (MTH)",
+    "Reduced Network Resource Consumption",
+    "Round-based Parameter Transfer"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Distributed Training Hosts (DTHs)",
+    "Federated-Learning Model Training",
+    "Global Model Parameters",
+    "Large Amounts of Model Parameter Data Exchanged",
+    "Local Model Parameters",
+    "Local Model Training",
+    "Meta Training Host (MTH)",
+    "Network Resource Consumption"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "controls",
+    "monitors",
+    "processes",
+    "reduces",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F2209/503",
+    "G06F2209/505",
+    "G06F9/5066",
+    "G06F9/5072",
+    "G06F9/5094",
+    "G06N20/00",
+    "G06N3/098",
+    "H04L41/12",
+    "H04L67/1008",
+    "H04L67/101",
+    "H04W24/02",
+    "H04W84/20"
+  ]
+}

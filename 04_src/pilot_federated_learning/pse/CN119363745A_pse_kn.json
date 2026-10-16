@@ -1,0 +1,146 @@
+{
+  "publication_number": "CN119363745A",
+  "title": "Federated learning method, server, client and system",
+  "assignee": "China Telecom Technology Innovation Center",
+  "filing_date": "2024-10-29",
+  "publication_date": "2025-01-24",
+  "pse": {
+    "problem": "Improving the accuracy of analysis services provided by a network through distributed collaborative training.",
+    "solution_function": "The server coordinates multiple clients to perform inference and generates an inference result based on intermediate results. Clients receive sample alignment requests, generate sample alignment results, and use them for intermediate inference. The server determines weights for each client based on the models used and aggregates intermediate results to generate final inference results.",
+    "solution_structure": "The system consists of a federal learning server (coordinator) and multiple clients (participants).",
+    "solution_implementation": "Inference requests are sent to multiple clients, containing model identifications. Clients perform inferences and send their intermediate results back to the server. The server receives and aggregates these results to generate a final result. Sample alignment requests contain internal and external identification of the analysis target. Samples are aligned based on this information.",
+    "effect": "The distributed collaborative training method improves the accuracy of network analysis services while protecting data privacy."
+  },
+  "knowledge_graph": [
+    [
+      "Distributed Collaborative Training Server",
+      "Addresses_Problem",
+      "Improving Accuracy of Network Analysis Services"
+    ],
+    [
+      "Distributed Collaborative Training Server",
+      "Comprises_Component",
+      "Federal Learning Server (Coordinator)"
+    ],
+    [
+      "Distributed Collaborative Training Server",
+      "Comprises_Component",
+      "Clients (Participants)"
+    ],
+    [
+      "Distributed Collaborative Training Server",
+      "Implemented_By",
+      "Sending Inference Requests to Clients"
+    ],
+    [
+      "Distributed Collaborative Training Server",
+      "Implemented_By",
+      "Aggregating Intermediate Results"
+    ],
+    [
+      "Distributed Collaborative Training Server",
+      "Achieves_Effect",
+      "Protecting Data Privacy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Server (coordinator)",
+      "controls",
+      "Clients (participants)"
+    ],
+    [
+      "Federal Learning Server (coordinator)",
+      "processes",
+      "Inference Results"
+    ],
+    [
+      "Clients (participants)",
+      "receives",
+      "Inference Requests"
+    ],
+    [
+      "Clients (participants)",
+      "performs",
+      "Intermediate Inferences"
+    ],
+    [
+      "Clients (participants)",
+      "sends",
+      "Intermediate Results back to Server"
+    ],
+    [
+      "Server",
+      "determines",
+      "Weights for each Client based on Models Used"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Intermediate Results"
+    ],
+    [
+      "Sample Alignment Request",
+      "contains",
+      "Internal and External Identification of Analysis Target"
+    ],
+    [
+      "Distributed Collaborative Training Method",
+      "improves",
+      "Accuracy of Network Analysis Services"
+    ],
+    [
+      "Distributed Collaborative Training Method",
+      "protects",
+      "Data Privacy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregating Intermediate Results",
+    "Clients (Participants)",
+    "Distributed Collaborative Training Server",
+    "Federal Learning Server (Coordinator)",
+    "Improving Accuracy of Network Analysis Services",
+    "Protecting Data Privacy",
+    "Sending Inference Requests to Clients"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy of Network Analysis Services",
+    "Clients (participants)",
+    "Data Privacy",
+    "Distributed Collaborative Training Method",
+    "Federal Learning Server (coordinator)",
+    "Inference Requests",
+    "Inference Results",
+    "Intermediate Inferences",
+    "Intermediate Results",
+    "Intermediate Results back to Server",
+    "Internal and External Identification of Analysis Target",
+    "Sample Alignment Request",
+    "Server",
+    "Weights for each Client based on Models Used"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "contains",
+    "controls",
+    "determines",
+    "improves",
+    "performs",
+    "processes",
+    "protects",
+    "receives",
+    "sends"
+  ],
+  "cpc_code": [
+    "G06N5/04",
+    "H04L41/16",
+    "H04L67/10"
+  ]
+}

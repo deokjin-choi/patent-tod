@@ -1,0 +1,180 @@
+{
+  "publication_number": "CN114548419A",
+  "title": "Longitudinal federated learning sample unbalanced processing method based on OT protocol",
+  "assignee": "China Telecom Bestpay Co Ltd",
+  "filing_date": "2021-12-30",
+  "publication_date": "2022-05-27",
+  "pse": {
+    "problem": "The method addresses the problem of unbalanced sample distribution in vertical federated learning, where the difference between positive and negative samples is more than 100 times. This leads to poor model fitting and insufficient learning when using a general federated learning model.",
+    "solution_function": "The OT protocol-based method performs secure, privacy-preserving processing of imbalanced vertical federated learning samples by utilizing an OT protocol. The method sorts the aligned samples in ascending order according to id and normalizes the features for distance calculation. It then balances the distribution of positive and negative samples during training by controlling false positive rate (fp) using a threshold.",
+    "solution_structure": "The key components include parties involved in federated learning, sorting algorithm, feature normalization method, OT protocol, and classification threshold.",
+    "solution_implementation": "Each party sorts their samples according to the alignment id. The features are then normalized for distance calculation. An OT protocol ensures secure communication between parties while balancing the sample distribution during training by controlling the false positive rate using a threshold in a cascade boosting approach.",
+    "effect": "The method results in improved model fitting and better learning of positive samples due to balanced sample distribution, ensuring privacy and security through the use of multi-party secure computing technology."
+  },
+  "knowledge_graph": [
+    [
+      "OT Protocol-based Method",
+      "Addresses_Problem",
+      "Unbalanced Sample Distribution in Vertical Federated Learning"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Comprises_Component",
+      "Parties Involved in Federated Learning"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Comprises_Component",
+      "Sorting Algorithm"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Comprises_Component",
+      "Feature Normalization Method"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Comprises_Component",
+      "OT Protocol"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Implemented_By",
+      "Secure Communication between Parties"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Implemented_By",
+      "Controlling False Positive Rate (fp) using a threshold"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Achieves_Effect",
+      "Improved Model Fitting"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Achieves_Effect",
+      "Better Learning of Positive Samples"
+    ],
+    [
+      "OT Protocol-based Method",
+      "Achieves_Effect",
+      "Ensuring Privacy and Security"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Unbalanced Sample Distribution",
+      "causes",
+      "Poor Model Fitting"
+    ],
+    [
+      "Unbalanced Sample Distribution",
+      "causes",
+      "Insufficient Learning"
+    ],
+    [
+      "General Federated Learning Model",
+      "suffers from",
+      "Poor Model Fitting"
+    ],
+    [
+      "General Federated Learning Model",
+      "suffers from",
+      "Insufficient Learning"
+    ],
+    [
+      "OT Protocol-based Method",
+      "addresses",
+      "Unbalanced Sample Distribution"
+    ],
+    [
+      "OT Protocol-based Method",
+      "ensures",
+      "Privacy-Preserving Processing"
+    ],
+    [
+      "OT Protocol",
+      "enables",
+      "Secure Communication between Parties"
+    ],
+    [
+      "OT Protocol",
+      "controls",
+      "False Positive Rate using a threshold"
+    ],
+    [
+      "Cascade Boosting Approach",
+      "uses",
+      "OT Protocol to balance sample distribution"
+    ],
+    [
+      "Improved Model Fitting",
+      "results from",
+      "Balanced Sample Distribution"
+    ],
+    [
+      "Better Learning of Positive Samples",
+      "results from",
+      "Balanced Sample Distribution"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Better Learning of Positive Samples",
+    "Controlling False Positive Rate (fp) using a threshold",
+    "Ensuring Privacy and Security",
+    "Feature Normalization Method",
+    "Improved Model Fitting",
+    "OT Protocol",
+    "OT Protocol-based Method",
+    "Parties Involved in Federated Learning",
+    "Secure Communication between Parties",
+    "Sorting Algorithm",
+    "Unbalanced Sample Distribution in Vertical Federated Learning"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Balanced Sample Distribution",
+    "Better Learning of Positive Samples",
+    "Cascade Boosting Approach",
+    "False Positive Rate using a threshold",
+    "General Federated Learning Model",
+    "Improved Model Fitting",
+    "Insufficient Learning",
+    "OT Protocol",
+    "OT Protocol to balance sample distribution",
+    "OT Protocol-based Method",
+    "Poor Model Fitting",
+    "Privacy-Preserving Processing",
+    "Secure Communication between Parties",
+    "Unbalanced Sample Distribution"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "causes",
+    "controls",
+    "enables",
+    "ensures",
+    "results from",
+    "suffers from",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N20/00",
+    "H04L2209/46",
+    "H04L63/06",
+    "H04L69/26",
+    "H04L9/0819",
+    "H04L9/30",
+    "Y02D10/00"
+  ]
+}

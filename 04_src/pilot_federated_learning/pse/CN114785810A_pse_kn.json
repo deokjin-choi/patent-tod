@@ -1,0 +1,256 @@
+{
+  "publication_number": "CN114785810A",
+  "title": "Tree broadcast data synchronization algorithm suitable for federal learning",
+  "assignee": "Hainan Normal University",
+  "filing_date": "2022-03-31",
+  "publication_date": "2022-07-22",
+  "pse": {
+    "problem": "Increased synchronization time, bandwidth pressure on central server, and lack of scalability in traditional federated learning model synchronization process",
+    "solution_function": "Tree-based broadcast data synchronization algorithm distributes model files among participating clients and verifies their integrity to reduce synchronization time, stabilize bandwidth occupancy, and improve scalability",
+    "solution_structure": "Complete binary tree with central server as root node, clients as child nodes and leaf nodes",
+    "solution_implementation": "Central server generates server information, splits global model file into seed files, calculates hash values, generates public/private key pairs, signs iteration configuration files, sends them to clients for verification and data exchange between clients",
+    "effect": "Shortened federated learning data synchronization time, stabilized bandwidth occupancy, and improved scalability of participant scale and model training efficiency"
+  },
+  "knowledge_graph": [
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Addresses_Problem",
+      "Increased synchronization time"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Addresses_Problem",
+      "Bandwidth pressure on central server"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Addresses_Problem",
+      "Lack of scalability in traditional federated learning model synchronization process"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Comprises_Component",
+      "Complete binary tree"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Comprises_Component",
+      "Clients"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Implemented_By",
+      "Central server generates server information"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Implemented_By",
+      "Splits global model file into seed files"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Implemented_By",
+      "Calculates hash values"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Implemented_By",
+      "Generates public/private key pairs"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Implemented_By",
+      "Signs iteration configuration files"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Implemented_By",
+      "Sends them to clients for verification and data exchange between clients"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Achieves_Effect",
+      "Shortened federated learning data synchronization time"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Achieves_Effect",
+      "Stabilized bandwidth occupancy"
+    ],
+    [
+      "Tree-based broadcast data synchronization algorithm",
+      "Achieves_Effect",
+      "Improved scalability of participant scale and model training efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Federated Learning Model",
+      "causes",
+      "Increased Synchronization Time"
+    ],
+    [
+      "Traditional Federated Learning Model",
+      "causes",
+      "Bandwidth Pressure on Central Server"
+    ],
+    [
+      "Traditional Federated Learning Model",
+      "lacks",
+      "Scalability"
+    ],
+    [
+      "Tree-based Broadcast Data Synchronization Algorithm",
+      "reduces",
+      "Synchronization Time"
+    ],
+    [
+      "Tree-based Broadcast Data Synchronization Algorithm",
+      "stabilizes",
+      "Bandwidth Occupancy"
+    ],
+    [
+      "Tree-based Broadcast Data Synchronization Algorithm",
+      "improves",
+      "Scalability"
+    ],
+    [
+      "Complete Binary Tree",
+      "comprises",
+      "Central Server"
+    ],
+    [
+      "Complete Binary Tree",
+      "comprises",
+      "Clients"
+    ],
+    [
+      "Central Server",
+      "generates",
+      "Server Information"
+    ],
+    [
+      "Global Model File",
+      "splits_into",
+      "Seed Files"
+    ],
+    [
+      "Central Server",
+      "calculates",
+      "Hash Values"
+    ],
+    [
+      "Central Server",
+      "generates",
+      "Public/Private Key Pairs"
+    ],
+    [
+      "Central Server",
+      "signs",
+      "Iteration Configuration Files"
+    ],
+    [
+      "Central Server",
+      "sends_to",
+      "Clients"
+    ],
+    [
+      "Clients",
+      "verifies",
+      "Data Integrity"
+    ],
+    [
+      "Clients",
+      "exchanges_data",
+      "with each other"
+    ],
+    [
+      "Federated Learning Data Synchronization Process",
+      "Shortens"
+    ],
+    [
+      "Bandwidth Occupancy",
+      "Stabilizes"
+    ],
+    [
+      "Scalability of Participant Scale",
+      "Improves"
+    ],
+    [
+      "Model Training Efficiency",
+      "Improves"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Bandwidth pressure on central server",
+    "Calculates hash values",
+    "Central server",
+    "Central server generates server information",
+    "Clients",
+    "Complete binary tree",
+    "Generates public/private key pairs",
+    "Improved scalability of participant scale and model training efficiency",
+    "Increased synchronization time",
+    "Lack of scalability in traditional federated learning model synchronization process",
+    "Sends them to clients for verification and data exchange between clients",
+    "Shortened federated learning data synchronization time",
+    "Signs iteration configuration files",
+    "Splits global model file into seed files",
+    "Stabilized bandwidth occupancy",
+    "Tree-based broadcast data synchronization algorithm"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Bandwidth Occupancy",
+    "Bandwidth Pressure on Central Server",
+    "Central Server",
+    "Clients",
+    "Complete Binary Tree",
+    "Data Integrity",
+    "Global Model File",
+    "Hash Values",
+    "Increased Synchronization Time",
+    "Iteration Configuration Files",
+    "Public/Private Key Pairs",
+    "Scalability",
+    "Seed Files",
+    "Server Information",
+    "Synchronization Time",
+    "Traditional Federated Learning Model",
+    "Tree-based Broadcast Data Synchronization Algorithm",
+    "with each other"
+  ],
+  "knowledge_graph2_relation": [
+    "calculates",
+    "causes",
+    "comprises",
+    "exchanges_data",
+    "generates",
+    "improves",
+    "lacks",
+    "reduces",
+    "sends_to",
+    "signs",
+    "splits_into",
+    "stabilizes",
+    "verifies"
+  ],
+  "cpc_code": [
+    "H04L67/06",
+    "H04L67/1095",
+    "H04L67/30",
+    "H04L9/0643",
+    "H04L9/3247",
+    "Y02D10/00"
+  ]
+}

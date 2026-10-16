@@ -1,0 +1,150 @@
+{
+  "publication_number": "CN116582568A",
+  "title": "Time-sensitive Federated Learning Participation Device Incentive Method in Industrial Internet of Things",
+  "assignee": "Zhengzhou University",
+  "filing_date": "2023-05-17",
+  "publication_date": "2023-08-11",
+  "pse": {
+    "problem": "Information asymmetry between edge server and device in existing federated learning leads to additional cost.",
+    "solution_function": "Design an efficient mechanism to mitigate the impact of information asymmetry, enabling more devices to participate in federated learning while preserving data privacy.",
+    "solution_structure": "Includes edge servers and industrial IoT devices. Edge servers facilitate federated learning tasks, while IoT devices contribute their own resources and data.",
+    "solution_implementation": "Uses a time-sensitive incentive mechanism that considers data freshness, device reputation value, local data quality, and available resources. The mechanism encourages fair quantification of participant contribution in federated learning tasks.",
+    "effect": "Improves the performance of federated learning models by encouraging more devices to participate and addressing information asymmetry."
+  },
+  "knowledge_graph": [
+    [
+      "Mitigation Mechanism for Information Asymmetry",
+      "Addresses_Problem",
+      "Information Asymmetry Between Edge Server and Device"
+    ],
+    [
+      "Mitigation Mechanism for Information Asymmetry",
+      "Comprises_Component",
+      "Edge Servers"
+    ],
+    [
+      "Mitigation Mechanism for Information Asymmetry",
+      "Comprises_Component",
+      "Industrial IoT Devices"
+    ],
+    [
+      "Mitigation Mechanism for Information Asymmetry",
+      "Implemented_By",
+      "Time-sensitive Incentive Mechanism"
+    ],
+    [
+      "Mitigation Mechanism for Information Asymmetry",
+      "Achieves_Effect",
+      "Performance Improvement of Federated Learning Models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Information Asymmetry",
+      "causes",
+      "Additional Cost"
+    ],
+    [
+      "Edge Server",
+      "controls",
+      "Federated Learning Tasks"
+    ],
+    [
+      "Industrial IoT Devices",
+      "contributes",
+      "Own Resources and Data"
+    ],
+    [
+      "Edge Server",
+      "connects_to",
+      "Industrial IoT Devices"
+    ],
+    [
+      "Time-Sensitive Incentive Mechanism",
+      "considers",
+      "Data Freshness"
+    ],
+    [
+      "Time-Sensitive Incentive Mechanism",
+      "considers",
+      "Device Reputation Value"
+    ],
+    [
+      "Time-Sensitive Incentive Mechanism",
+      "considers",
+      "Local Data Quality"
+    ],
+    [
+      "Time-Sensitive Incentive Mechanism",
+      "considers",
+      "Available Resources"
+    ],
+    [
+      "Time-Sensitive Incentive Mechanism",
+      "encourages",
+      "Fair Quantification of Participant Contribution"
+    ],
+    [
+      "Improved Performance",
+      "addresses",
+      "Information Asymmetry"
+    ],
+    [
+      "Improved Performance",
+      "enables",
+      "More Devices to Participate in Federated Learning"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Edge Servers",
+    "Industrial IoT Devices",
+    "Information Asymmetry Between Edge Server and Device",
+    "Mitigation Mechanism for Information Asymmetry",
+    "Performance Improvement of Federated Learning Models",
+    "Time-sensitive Incentive Mechanism"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Additional Cost",
+    "Available Resources",
+    "Data Freshness",
+    "Device Reputation Value",
+    "Edge Server",
+    "Fair Quantification of Participant Contribution",
+    "Federated Learning Tasks",
+    "Improved Performance",
+    "Industrial IoT Devices",
+    "Information Asymmetry",
+    "Local Data Quality",
+    "More Devices to Participate in Federated Learning",
+    "Own Resources and Data",
+    "Time-Sensitive Incentive Mechanism"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "causes",
+    "connects_to",
+    "considers",
+    "contributes",
+    "controls",
+    "enables",
+    "encourages"
+  ],
+  "cpc_code": [
+    "G06F9/4843",
+    "G06F9/5038",
+    "G06F9/5066",
+    "G06N20/00",
+    "G16Y10/25",
+    "G16Y20/30",
+    "H04L41/145",
+    "H04L67/12",
+    "H04L9/50",
+    "Y02P90/30"
+  ]
+}

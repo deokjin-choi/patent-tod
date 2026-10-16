@@ -1,0 +1,188 @@
+{
+  "publication_number": "US20230297849A1",
+  "title": "Federated learning method and device, and storage medium",
+  "assignee": "Tencent Technology Shenzhen Co Ltd",
+  "filing_date": "2023-05-24",
+  "publication_date": "2023-09-21",
+  "pse": {
+    "problem": "Inefficient communication overhead and slow federated learning due to iterative adjustment process between a server and multiple devices.",
+    "solution_function": "A federated learning method that determines candidate features from data, constructs multiple decision tree models based on the candidate features, selects the best model(s) based on prediction results, and transmits them to another device for fusion to obtain a federated learning model.",
+    "solution_structure": "First computing device (server or participant): processor, memory. Second computing device: processor, memory.",
+    "solution_implementation": "1. Determine candidate features from data features in the training dataset. 2. Obtain n first decision tree models using the candidate feature(s). 3. Determine at least one second decision tree model from the n first decision tree models based on their prediction results. 4. Transmit the second decision tree model to a second computing device for fusion.",
+    "effect": "Reduced communication overhead, faster federated learning, and potentially improved model performance through selecting the best decision trees."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Inefficient Communication Overhead and Slow Federated Learning"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "First Computing Device"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Second Computing Device"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Communication Overhead"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Faster Federated Learning"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Improved Model Performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Inefficient communication overhead",
+      "causes",
+      "Slow federated learning"
+    ],
+    [
+      "Iterative adjustment process",
+      "causes",
+      "Inefficient communication overhead"
+    ],
+    [
+      "First computing device (server or participant)",
+      "comprises",
+      "Processor"
+    ],
+    [
+      "First computing device (server or participant)",
+      "comprises",
+      "Memory"
+    ],
+    [
+      "Second computing device",
+      "comprises",
+      "Processor"
+    ],
+    [
+      "Second computing device",
+      "comprises",
+      "Memory"
+    ],
+    [
+      "Data features in the training dataset",
+      "processes",
+      "Candidate feature(s) determination"
+    ],
+    [
+      "n first decision tree models",
+      "controls",
+      "Selection process"
+    ],
+    [
+      "n first decision tree models",
+      "transmits_to",
+      "Second computing device"
+    ],
+    [
+      "Second computing device",
+      "fuses",
+      "Decision trees"
+    ],
+    [
+      "Fused decision tree(s)",
+      "transmits_to",
+      "Remote Server"
+    ],
+    [
+      "Remote Server",
+      "processes",
+      "Selection of best model(s)"
+    ],
+    [
+      "Best model(s)",
+      "transmits_to",
+      "Second computing device for fusion"
+    ],
+    [
+      "Fusion process",
+      "achieves",
+      "Reduced communication overhead"
+    ],
+    [
+      "Fusion process",
+      "speeds_up",
+      "Federated learning"
+    ],
+    [
+      "Selection of best decision trees",
+      "potentially improves",
+      "Model performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Faster Federated Learning",
+    "Federated Learning Method",
+    "First Computing Device",
+    "Improved Model Performance",
+    "Inefficient Communication Overhead and Slow Federated Learning",
+    "Reduced Communication Overhead",
+    "Second Computing Device"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Best model(s)",
+    "Candidate feature(s) determination",
+    "Data features in the training dataset",
+    "Decision trees",
+    "Federated learning",
+    "First computing device (server or participant)",
+    "Fused decision tree(s)",
+    "Fusion process",
+    "Inefficient communication overhead",
+    "Iterative adjustment process",
+    "Memory",
+    "Model performance",
+    "Processor",
+    "Reduced communication overhead",
+    "Remote Server",
+    "Second computing device",
+    "Second computing device for fusion",
+    "Selection of best decision trees",
+    "Selection of best model(s)",
+    "Selection process",
+    "Slow federated learning",
+    "n first decision tree models"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "comprises",
+    "controls",
+    "fuses",
+    "potentially improves",
+    "processes",
+    "speeds_up",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N5/01"
+  ]
+}

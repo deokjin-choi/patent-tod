@@ -1,0 +1,150 @@
+{
+  "publication_number": "KR20250023162A",
+  "title": "Electronic device performing federated learning based on plurality of client terminals and method for operating the same",
+  "assignee": "(no assignee found)",
+  "filing_date": "2023-08-09",
+  "publication_date": "2025-02-18",
+  "pse": {
+    "problem": "The rapid increase in smartphones and IoT devices generates large amounts of distributed data, leading to challenges in federated learning due to system heterogeneity and class imbalance.",
+    "solution_function": "Selects a client terminal with the most local data, determines learning data distribution and amount based on it, selects another client terminal with data for the least-represented class, checks if the learning data distribution is uniform, and updates the learning data amount accordingly before transmission to the selected client terminals.",
+    "solution_structure": "Plurality of client terminals, server.",
+    "solution_implementation": "The electronic device collects class-specific data amount information from each client terminal, selects a first and second client terminal based on this information, determines learning data distribution and amount, checks the uniformity of updated learning data distribution, and transmits updated learning data amount to the selected client terminals.",
+    "effect": "Improves learning efficiency by addressing class imbalance and system heterogeneity in federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Data Selection Algorithm",
+      "Addresses_Problem",
+      "Federated Learning Challenges"
+    ],
+    [
+      "Data Selection Algorithm",
+      "Comprises_Component",
+      "Client Terminals"
+    ],
+    [
+      "Data Selection Algorithm",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Data Selection Algorithm",
+      "Implemented_By",
+      "Selection and Data Distribution Logic"
+    ],
+    [
+      "Data Selection Algorithm",
+      "Achieves_Effect",
+      "Learning Efficiency Improvement"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Smartphone",
+      "generates",
+      "Large Amounts of Distributed Data"
+    ],
+    [
+      "IoT Device",
+      "generates",
+      "Large Amounts of Distributed Data"
+    ],
+    [
+      "Distributed Data",
+      "causes",
+      "Challenges in Federated Learning"
+    ],
+    [
+      "System Heterogeneity",
+      "causes",
+      "Challenges in Federated Learning"
+    ],
+    [
+      "Class Imbalance",
+      "causes",
+      "Challenges in Federated Learning"
+    ],
+    [
+      "Client Terminal",
+      "collects",
+      "Class-specific Data Amount Information"
+    ],
+    [
+      "Client Terminal",
+      "comprises",
+      "Electronic Device"
+    ],
+    [
+      "Server",
+      "receives",
+      "Updated Learning Data Amount"
+    ],
+    [
+      "First Client Terminal",
+      "selected_based_on",
+      "Most Local Data"
+    ],
+    [
+      "Second Client Terminal",
+      "selected_based_on",
+      "Least-represented Class"
+    ],
+    [
+      "Client Terminal",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Updated Learning Data Amount",
+      "improves",
+      "Learning Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client Terminals",
+    "Data Selection Algorithm",
+    "Federated Learning Challenges",
+    "Learning Efficiency Improvement",
+    "Selection and Data Distribution Logic",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Challenges in Federated Learning",
+    "Class Imbalance",
+    "Class-specific Data Amount Information",
+    "Client Terminal",
+    "Distributed Data",
+    "Electronic Device",
+    "First Client Terminal",
+    "IoT Device",
+    "Large Amounts of Distributed Data",
+    "Learning Efficiency",
+    "Least-represented Class",
+    "Most Local Data",
+    "Second Client Terminal",
+    "Server",
+    "Smartphone",
+    "System Heterogeneity",
+    "Updated Learning Data Amount"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "collects",
+    "comprises",
+    "generates",
+    "improves",
+    "receives",
+    "selected_based_on",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/098"
+  ]
+}

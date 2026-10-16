@@ -1,0 +1,223 @@
+{
+  "publication_number": "US20240386282A1",
+  "title": "Method for communication between ai/ml capable clients during federated learning",
+  "assignee": "Tencent America LLC",
+  "filing_date": "2024-05-14",
+  "publication_date": "2024-11-21",
+  "pse": {
+    "problem": "The limitation lies in the lack of an efficient communication method between devices with AI/ML capability for federated learning in 5G networks, causing deficiencies in computer technology.",
+    "solution_function": "The system envelopes federated learning messages with a control message format containing fields indicating message identifier, size, type, and body. The controlled AI/ML federated learning allows the server to manage multiple devices, implement federated portions of the learning, and receive reports from each device.",
+    "solution_structure": "The system consists of memory storing computer program code and a processor that accesses and operates according to the code.",
+    "solution_implementation": "The system implements AI/ML federated learning in rounds, with each round involving iterations between the server and multiple devices. The federated learning begins simultaneously at all devices, and the body of the message indicates device eligibility, synchronization, model evaluation, update, and error information.",
+    "effect": "The system improves communication efficiency during AI/ML federated learning in 5G networks, enabling parallel execution for increased speedup and resource optimization"
+  },
+  "knowledge_graph": [
+    [
+      "AI/ML Federated Learning System",
+      "Addresses_Problem",
+      "Inefficient Communication Method in 5G Networks"
+    ],
+    [
+      "AI/ML Federated Learning System",
+      "Comprises_Component",
+      "Memory"
+    ],
+    [
+      "AI/ML Federated Learning System",
+      "Comprises_Component",
+      "Processor"
+    ],
+    [
+      "AI/ML Federated Learning System",
+      "Implemented_By",
+      "Control Message Format"
+    ],
+    [
+      "AI/ML Federated Learning System",
+      "Achieves_Effect",
+      "Improved Communication Efficiency in AI/ML Federated Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Device with AI/ML capability",
+      "lacks",
+      "Efficient Communication Method"
+    ],
+    [
+      "Devices with AI/ML capability",
+      "communicate_with",
+      "Server"
+    ],
+    [
+      "Federated Learning Messages",
+      "enveloped_by",
+      "Control Message Format"
+    ],
+    [
+      "Control Message Format",
+      "contains",
+      "Message Identifier"
+    ],
+    [
+      "Control Message Format",
+      "contains",
+      "Size"
+    ],
+    [
+      "Control Message Format",
+      "contains",
+      "Type"
+    ],
+    [
+      "Control Message Format",
+      "contains",
+      "Body"
+    ],
+    [
+      "AI/ML Federated Learning",
+      "managed_by",
+      "Server"
+    ],
+    [
+      "AI/ML Federated Learning",
+      "implemented_at",
+      "Multiple Devices"
+    ],
+    [
+      "AI/ML Federated Learning",
+      "synchronizes",
+      "Iterations between Server and Multiple Devices"
+    ],
+    [
+      "AI/ML Federated Learning",
+      "receives_reports_from",
+      "Each Device"
+    ],
+    [
+      "Computer Program Code",
+      "stored_in",
+      "Memory"
+    ],
+    [
+      "Processor",
+      "accesses",
+      "Memory"
+    ],
+    [
+      "Processor",
+      "operates_according_to",
+      "Computer Program Code"
+    ],
+    [
+      "AI/ML Federated Learning",
+      "occurs_in",
+      "Rounds"
+    ],
+    [
+      "Each Round of AI/ML Federated Learning",
+      "consists_of",
+      "Iterations between Server and Multiple Devices"
+    ],
+    [
+      "Device Eligibility",
+      "indicated_in",
+      "Message Body"
+    ],
+    [
+      "Synchronization",
+      "indicated_in",
+      "Message Body"
+    ],
+    [
+      "Model Evaluation",
+      "indicated_in",
+      "Message Body"
+    ],
+    [
+      "Update",
+      "indicated_in",
+      "Message Body"
+    ],
+    [
+      "Error Information",
+      "indicated_in",
+      "Message Body"
+    ],
+    [
+      "AI/ML Federated Learning",
+      "improves",
+      "Communication Efficiency during AI/ML Federated Learning in 5G Networks"
+    ],
+    [
+      "AI/ML Federated Learning",
+      "enables",
+      "Parallel Execution for Increased Speedup and Resource Optimization"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "AI/ML Federated Learning System",
+    "Control Message Format",
+    "Improved Communication Efficiency in AI/ML Federated Learning",
+    "Inefficient Communication Method in 5G Networks",
+    "Memory",
+    "Processor"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "AI/ML Federated Learning",
+    "Body",
+    "Communication Efficiency during AI/ML Federated Learning in 5G Networks",
+    "Computer Program Code",
+    "Control Message Format",
+    "Device Eligibility",
+    "Device with AI/ML capability",
+    "Devices with AI/ML capability",
+    "Each Device",
+    "Each Round of AI/ML Federated Learning",
+    "Efficient Communication Method",
+    "Error Information",
+    "Federated Learning Messages",
+    "Iterations between Server and Multiple Devices",
+    "Memory",
+    "Message Body",
+    "Message Identifier",
+    "Model Evaluation",
+    "Multiple Devices",
+    "Parallel Execution for Increased Speedup and Resource Optimization",
+    "Processor",
+    "Rounds",
+    "Server",
+    "Size",
+    "Synchronization",
+    "Type",
+    "Update"
+  ],
+  "knowledge_graph2_relation": [
+    "accesses",
+    "communicate_with",
+    "consists_of",
+    "contains",
+    "enables",
+    "enveloped_by",
+    "implemented_at",
+    "improves",
+    "indicated_in",
+    "lacks",
+    "managed_by",
+    "occurs_in",
+    "operates_according_to",
+    "receives_reports_from",
+    "stored_in",
+    "synchronizes"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/098"
+  ]
+}

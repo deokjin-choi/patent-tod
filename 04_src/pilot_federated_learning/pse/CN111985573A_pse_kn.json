@@ -1,0 +1,165 @@
+{
+  "publication_number": "CN111985573A",
+  "title": "Factorization machine classification model construction method and device and readable storage medium",
+  "assignee": "WeBank Co Ltd",
+  "filing_date": "2020-08-28",
+  "publication_date": "2020-11-24",
+  "pse": {
+    "problem": "Inefficient computational process during training a classification model based on federated learning due to large amounts of computation required for sparse matrix data",
+    "solution_function": "Performs vertical federated interaction between two devices to calculate a secret sharing classification model error, and updates the model parameters based on this error to obtain a more efficient federated factorization machine classification model",
+    "solution_structure": "Two devices, first sparse data corresponding to the to-be-trained classification model, secretly shared initial model parameters, preset weight information",
+    "solution_implementation": "Obtaining the to-be-trained model parameters and first sparse data, secret sharing of initial model parameters with a second device, calculating secret sharing classification model error through federated interaction based on the first non-zero part in the first sparse data and the secret sharing initial model parameters, updating the model parameters based on this error",
+    "effect": "Improved computational efficiency during training of the classification model based on federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Vertical Federated Interaction",
+      "Addresses_Problem",
+      "Inefficient Computational Process"
+    ],
+    [
+      "Vertical Federated Interaction",
+      "Comprises_Component",
+      "First Device"
+    ],
+    [
+      "Vertical Federated Interaction",
+      "Comprises_Component",
+      "Sparse Data Corresponding to Classification Model"
+    ],
+    [
+      "Vertical Federated Interaction",
+      "Comprises_Component",
+      "Initial Model Parameters"
+    ],
+    [
+      "Vertical Federated Interaction",
+      "Implemented_By",
+      "Secret Sharing of Initial Model Parameters"
+    ],
+    [
+      "Vertical Federated Interaction",
+      "Implemented_By",
+      "Calculating Secret Sharing Classification Error"
+    ],
+    [
+      "Vertical Federated Interaction",
+      "Implemented_By",
+      "Updating Model Parameters Based on Error"
+    ],
+    [
+      "Vertical Federated Interaction",
+      "Achieves_Effect",
+      "Improved Computational Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Computational Process",
+      "is_inefficient_due_to",
+      "Large Amounts of Computation"
+    ],
+    [
+      "Sparse Matrix Data",
+      "requires",
+      "Large Amounts of Computation"
+    ],
+    [
+      "Classification Model (based on Federated Learning)",
+      "experiences",
+      "Inefficient Computational Process"
+    ],
+    [
+      "Two Devices",
+      "perform",
+      "Vertical Federated Interaction"
+    ],
+    [
+      "Two Devices",
+      "share",
+      "Secret Sharing Classification Model Error"
+    ],
+    [
+      "Two Devices",
+      "update",
+      "Model Parameters"
+    ],
+    [
+      "Initial Model Parameters",
+      "are_secretly_shared",
+      "Second Device"
+    ],
+    [
+      "First Sparse Data",
+      "corresponds_to",
+      "To-be-Trained Classification Model"
+    ],
+    [
+      "Secret Sharing Initial Model Parameters",
+      "and First Non-Zero Part in the First Sparse Data",
+      "calculate",
+      "Secret Sharing Classification Model Error"
+    ],
+    [
+      "Updated Model Parameters",
+      "lead_to",
+      "More Efficient Federated Factorization Machine Classification Model"
+    ],
+    [
+      "Classification Model (based on Federated Learning)",
+      "benefits",
+      "Improved Computational Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculating Secret Sharing Classification Error",
+    "First Device",
+    "Improved Computational Efficiency",
+    "Inefficient Computational Process",
+    "Initial Model Parameters",
+    "Secret Sharing of Initial Model Parameters",
+    "Sparse Data Corresponding to Classification Model",
+    "Updating Model Parameters Based on Error",
+    "Vertical Federated Interaction"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Classification Model (based on Federated Learning)",
+    "Computational Process",
+    "First Sparse Data",
+    "Improved Computational Efficiency",
+    "Inefficient Computational Process",
+    "Initial Model Parameters",
+    "Large Amounts of Computation",
+    "Model Parameters",
+    "More Efficient Federated Factorization Machine Classification Model",
+    "Second Device",
+    "Secret Sharing Classification Model Error",
+    "Sparse Matrix Data",
+    "To-be-Trained Classification Model",
+    "Two Devices",
+    "Updated Model Parameters",
+    "Vertical Federated Interaction"
+  ],
+  "knowledge_graph2_relation": [
+    "are_secretly_shared",
+    "benefits",
+    "corresponds_to",
+    "experiences",
+    "is_inefficient_due_to",
+    "lead_to",
+    "perform",
+    "requires",
+    "share",
+    "update"
+  ],
+  "cpc_code": [
+    "G06F18/241",
+    "G06N20/00"
+  ]
+}

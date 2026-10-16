@@ -1,0 +1,210 @@
+{
+  "publication_number": "CN113379067A",
+  "title": "Method for improving performance of federal learning in Non-IID and Mismatched scenes",
+  "assignee": "University of Science and Technology of China USTC",
+  "filing_date": "2021-06-28",
+  "publication_date": "2021-09-10",
+  "pse": {
+    "problem": "Performance degradation in federal learning when data is Non-IID or Mismatched due to utilization of only model parameters without consideration of other parameters in the conventional method.",
+    "solution_function": "Improve the performance of federal learning under Non-IID and Mismatched scenes by using a local generation countermeasure network in each client, predicting false data, selecting the false data subset, uploading it to the server for processing, and training the intermediate state model with the obtained pseudo data set with approximate IID distribution.",
+    "solution_structure": "A network system consisting of at least one server side communicating with a plurality of clients, each client having a local model and a pre-trained local generation countermeasure network.",
+    "solution_implementation": "Each client updates its local model in each round of training. The server side aggregates the local models of the clients into an intermediate model, transmits it back to the clients. After receiving the intermediate state model, each client uses it for predicting false data, selects the false data subset, and uploads it to the server. The server processes the pseudo data subsets received from the clients to obtain a pseudo data set with approximate IID distribution, which is used for training the intermediate state model.",
+    "effect": "Enhanced performance of federal learning under Non-IID and Mismatched scenes by utilizing both model parameters and other parameters in the method, resulting in improved efficiency and potential reduction in resource usage."
+  },
+  "knowledge_graph": [
+    [
+      "Local Generation Countermeasure Network",
+      "Addresses_Problem",
+      "Performance Degradation in Federal Learning under Non-IID or Mismatched Scenes"
+    ],
+    [
+      "Local Generation Countermeasure Network",
+      "Comprises_Component",
+      "Client Side Local Model"
+    ],
+    [
+      "Local Generation Countermeasure Network",
+      "Comprises_Component",
+      "Server Side"
+    ],
+    [
+      "Local Generation Countermeasure Network",
+      "Implemented_By",
+      "Data Prediction Process"
+    ],
+    [
+      "Local Generation Countermeasure Network",
+      "Implemented_By",
+      "False Data Selection"
+    ],
+    [
+      "Local Generation Countermeasure Network",
+      "Implemented_By",
+      "Pseudo Data Upload"
+    ],
+    [
+      "Local Generation Countermeasure Network",
+      "Achieves_Effect",
+      "Enhanced Performance of Federal Learning under Non-IID and Mismatched Scenes"
+    ],
+    [
+      "Local Generation Countermeasure Network",
+      "Achieves_Effect",
+      "Improved Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning System",
+      "addresses",
+      "Performance Degradation"
+    ],
+    [
+      "Model Parameters",
+      "controls",
+      "Federal Learning Performance (in conventional method)"
+    ],
+    [
+      "Other Parameters",
+      "ignored",
+      "in Conventional Method"
+    ],
+    [
+      "Client",
+      "comprises",
+      "Local Model"
+    ],
+    [
+      "Client",
+      "includes",
+      "Pre-trained Local Generation Countermeasure Network"
+    ],
+    [
+      "Server Side",
+      "aggregates",
+      "Clients' Local Models"
+    ],
+    [
+      "Intermediate State Model",
+      "transmits_to",
+      "Clients"
+    ],
+    [
+      "Client",
+      "predicts",
+      "False Data"
+    ],
+    [
+      "Client",
+      "selects",
+      "False Data Subset"
+    ],
+    [
+      "Client",
+      "uploads",
+      "Pseudo Data Set"
+    ],
+    [
+      "Server Side",
+      "processes",
+      "Pseudo Data Sets"
+    ],
+    [
+      "Pseudo Data Set",
+      "achieves",
+      "Approximate IID Distribution"
+    ],
+    [
+      "Pseudo Data Set",
+      "used_for",
+      "Training Intermediate State Model"
+    ],
+    [
+      "Local Generation Countermeasure Network",
+      "reduces",
+      "False Data Influence"
+    ],
+    [
+      "Federal Learning System (Improved)",
+      "utilizes",
+      "Both Model Parameters and Other Parameters"
+    ],
+    [
+      "Improved Federal Learning System",
+      "results_in",
+      "Enhanced Performance"
+    ],
+    [
+      "Improved Federal Learning System",
+      "reduces",
+      "Resource Usage Potential"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client Side Local Model",
+    "Data Prediction Process",
+    "Enhanced Performance of Federal Learning under Non-IID and Mismatched Scenes",
+    "False Data Selection",
+    "Improved Efficiency",
+    "Local Generation Countermeasure Network",
+    "Performance Degradation in Federal Learning under Non-IID or Mismatched Scenes",
+    "Pseudo Data Upload",
+    "Server Side"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Approximate IID Distribution",
+    "Both Model Parameters and Other Parameters",
+    "Client",
+    "Clients",
+    "Clients' Local Models",
+    "Enhanced Performance",
+    "False Data",
+    "False Data Influence",
+    "False Data Subset",
+    "Federal Learning Performance (in conventional method)",
+    "Federal Learning System",
+    "Federal Learning System (Improved)",
+    "Improved Federal Learning System",
+    "Intermediate State Model",
+    "Local Generation Countermeasure Network",
+    "Local Model",
+    "Model Parameters",
+    "Other Parameters",
+    "Performance Degradation",
+    "Pre-trained Local Generation Countermeasure Network",
+    "Pseudo Data Set",
+    "Pseudo Data Sets",
+    "Resource Usage Potential",
+    "Server Side",
+    "Training Intermediate State Model",
+    "in Conventional Method"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "addresses",
+    "aggregates",
+    "comprises",
+    "controls",
+    "ignored",
+    "includes",
+    "predicts",
+    "processes",
+    "reduces",
+    "results_in",
+    "selects",
+    "transmits_to",
+    "uploads",
+    "used_for",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

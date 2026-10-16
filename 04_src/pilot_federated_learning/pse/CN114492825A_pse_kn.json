@@ -1,0 +1,141 @@
+{
+  "publication_number": "CN114492825A",
+  "title": "Data processing method, device, equipment and storage medium",
+  "assignee": "WeBank Co Ltd",
+  "filing_date": "2020-11-11",
+  "publication_date": "2022-05-13",
+  "pse": {
+    "problem": "Determining which data from multiple parties should participate in federated learning for improving the accuracy of model training.",
+    "solution_function": "The system coordinates client terminals to extract sample data according to common rules for participation in horizontal federated learning, improving the quality and representativeness of the training dataset.",
+    "solution_structure": "Client terminals, each with local sample data sets and a processing unit (possibly software) to interpret instructions and apply sample extraction rules.",
+    "solution_implementation": "Client terminals receive data processing instructions containing sample extraction rules. The instructions are used to determine the sample data value ranges for extraction based on target features. For each range, the system selects relevant samples from the local dataset and combines them as multiple pieces of target sample data.",
+    "effect": "Improved model training accuracy due to more diverse and representative data participation in federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Data Participation Problem"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Client Terminals"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Processing Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Data Processing Instructions"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Improved Model Training Accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning System",
+      "controls",
+      "Client Terminals"
+    ],
+    [
+      "Client Terminals",
+      "comprises",
+      "Local Sample Data Sets"
+    ],
+    [
+      "Client Terminals",
+      "includes",
+      "Processing Unit"
+    ],
+    [
+      "Federated Learning System",
+      "transmits_to",
+      "Client Terminals"
+    ],
+    [
+      "Client Terminals",
+      "receives",
+      "Data Processing Instructions"
+    ],
+    [
+      "Data Processing Instructions",
+      "defines",
+      "Sample Extraction Rules"
+    ],
+    [
+      "Local Sample Data Sets",
+      "comprises",
+      "Sample Data Value Ranges"
+    ],
+    [
+      "Federated Learning System",
+      "selects",
+      "Relevant Samples"
+    ],
+    [
+      "Federated Learning System",
+      "combines",
+      "Selected Samples"
+    ],
+    [
+      "Combined Samples",
+      "constitutes",
+      "Target Sample Data"
+    ],
+    [
+      "Target Sample Data",
+      "improves",
+      "Model Training Accuracy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client Terminals",
+    "Data Participation Problem",
+    "Data Processing Instructions",
+    "Federated Learning System",
+    "Improved Model Training Accuracy",
+    "Processing Unit"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client Terminals",
+    "Combined Samples",
+    "Data Processing Instructions",
+    "Federated Learning System",
+    "Local Sample Data Sets",
+    "Model Training Accuracy",
+    "Processing Unit",
+    "Relevant Samples",
+    "Sample Data Value Ranges",
+    "Sample Extraction Rules",
+    "Selected Samples",
+    "Target Sample Data"
+  ],
+  "knowledge_graph2_relation": [
+    "combines",
+    "comprises",
+    "constitutes",
+    "controls",
+    "defines",
+    "improves",
+    "includes",
+    "receives",
+    "selects",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "publication_number": "KR20240010226A",
+  "title": "Electronic apparatus and anomaly detection method thereof",
+  "assignee": "(no assignee found)",
+  "filing_date": "2022-07-15",
+  "publication_date": "2024-01-23",
+  "pse": {
+    "problem": "The invention aims to solve the limitation of performing anomaly detection on electronic devices without an efficient method for aggregating learning weights and optimizing hypersphere parameters in a federated learning environment.",
+    "solution_function": "The system performs semi-supervised anomaly detection using a modified FedAvg algorithm. It updates global learning parameters (global learning weight, center of a global hypersphere, and radius of the global hypersphere) based on learning parameters from multiple local models (one per terminal). The system then transmits the updated global model parameters back to the terminals.",
+    "solution_structure": "The system consists of central server, which aggregates and updates global model parameters, and multiple terminals, each with a local model that learns using its own data. The global hypersphere classifier is a key component used for anomaly detection.",
+    "solution_implementation": "During inference, the hypersphere-based classifier maps data into a latent space and calculates the distance between each data point's latent vector and the center of the global hypersphere. If the distance is greater than a certain threshold (radius), the data is considered anomalous.",
+    "effect": "The system allows for efficient anomaly detection in a federated learning environment, improving resource utilization and privacy protection by minimizing data exchanges."
+  },
+  "knowledge_graph": [
+    [
+      "FedAvg Algorithm with Modifications",
+      "Addresses_Problem",
+      "Efficient Method for Aggregating Learning Weights and Optimizing Hypersphere Parameters in Federated Learning Environment"
+    ],
+    [
+      "FedAvg Algorithm with Modifications",
+      "Comprises_Component",
+      "Global Learning Weight"
+    ],
+    [
+      "FedAvg Algorithm with Modifications",
+      "Composes_Component",
+      "Center of Global Hypersphere"
+    ],
+    [
+      "FedAvg Algorithm with Modifications",
+      "Composes_Component",
+      "Radius of Global Hypersphere"
+    ],
+    [
+      "FedAvg Algorithm with Modifications",
+      "Comprises_Component",
+      "Multiple Local Models"
+    ],
+    [
+      "FedAvg Algorithm with Modifications",
+      "Implemented_By",
+      "Core Operation Logic: Updating Global Model Parameters"
+    ],
+    [
+      "FedAvg Algorithm with Modifications",
+      "Achieves_Effect",
+      "Efficient Anomaly Detection in Federated Learning Environment"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Electronic Devices",
+      "lacks",
+      "Efficient Method for Aggregating Learning Weights"
+    ],
+    [
+      "Electronic Devices",
+      "lacks",
+      "Optimized Hypersphere Parameters"
+    ],
+    [
+      "Federated Learning Environment",
+      "has_limitation",
+      "Performing Anomaly Detection Efficiently"
+    ],
+    [
+      "Semi-Supervised Anomaly Detection",
+      "uses",
+      "Modified FedAvg Algorithm"
+    ],
+    [
+      "System",
+      "updates",
+      "Global Learning Parameters"
+    ],
+    [
+      "System",
+      "comprises",
+      "Central Server"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Global Model Parameters"
+    ],
+    [
+      "Terminal",
+      "has",
+      "Local Model"
+    ],
+    [
+      "Terminal",
+      "learns",
+      "Using Its Own Data"
+    ],
+    [
+      "Global Hypersphere Classifier",
+      "is_a_key_component"
+    ],
+    [
+      "Hypersphere-Based Classifier",
+      "maps",
+      "Data into a Latent Space"
+    ],
+    [
+      "Latent Vector",
+      "calculates",
+      "Distance to Global Hypersphere's Center"
+    ],
+    [
+      "Distance",
+      "compares",
+      "to Radius of the Global Hypersphere"
+    ],
+    [
+      "Anomalous Data",
+      "is_determined_when",
+      "Distance > Threshold"
+    ],
+    [
+      "System",
+      "improves",
+      "Resource Utilization"
+    ],
+    [
+      "System",
+      "improves",
+      "Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Center of Global Hypersphere",
+    "Core Operation Logic: Updating Global Model Parameters",
+    "Efficient Anomaly Detection in Federated Learning Environment",
+    "Efficient Method for Aggregating Learning Weights and Optimizing Hypersphere Parameters in Federated Learning Environment",
+    "FedAvg Algorithm with Modifications",
+    "Global Learning Weight",
+    "Multiple Local Models",
+    "Radius of Global Hypersphere"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Composes_Component",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Anomalous Data",
+    "Central Server",
+    "Data into a Latent Space",
+    "Distance",
+    "Distance > Threshold",
+    "Distance to Global Hypersphere's Center",
+    "Efficient Method for Aggregating Learning Weights",
+    "Electronic Devices",
+    "Federated Learning Environment",
+    "Global Learning Parameters",
+    "Global Model Parameters",
+    "Hypersphere-Based Classifier",
+    "Latent Vector",
+    "Local Model",
+    "Modified FedAvg Algorithm",
+    "Optimized Hypersphere Parameters",
+    "Performing Anomaly Detection Efficiently",
+    "Privacy Protection",
+    "Resource Utilization",
+    "Semi-Supervised Anomaly Detection",
+    "System",
+    "Terminal",
+    "Using Its Own Data",
+    "to Radius of the Global Hypersphere"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "calculates",
+    "compares",
+    "comprises",
+    "has",
+    "has_limitation",
+    "improves",
+    "is_determined_when",
+    "lacks",
+    "learns",
+    "maps",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F11/2263",
+    "G06N3/04",
+    "G06N3/08"
+  ]
+}

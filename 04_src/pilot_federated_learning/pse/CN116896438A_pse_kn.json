@@ -1,0 +1,214 @@
+{
+  "publication_number": "CN116896438A",
+  "title": "Safety aggregation and model pruning method and system based on multi-stage alliance chain",
+  "assignee": "Zhejiang University ZJU",
+  "filing_date": "2023-08-28",
+  "publication_date": "2023-10-17",
+  "pse": {
+    "problem": "Secure federated learning settings face high security risks of privacy leakage due to sharing gradient information or model parameters in the alliance.",
+    "solution_function": "The invention proposes a secure aggregation method for multi-level consortium chains, which includes global parameter initialization, local model training, and encrypted gradient homomorphic aggregation steps. The method aims to protect data privacy while reducing communication complexity and ensuring integrity of the model aggregation results.",
+    "solution_structure": "The key components include global alliance chain, equity nodes (AN), aggregation node, secondary alliance chain, and data nodes (DN).",
+    "solution_implementation": "Equity nodes initialize model, training method, and parameters in the first-level alliance chain. They then designate a specific data node as an aggregation node for training. Each data node performs local training and encrypts the gradient results using homomorphic encryption. The aggregation node collects these encrypted gradients and performs a homomorphic aggregation operation. The equity node decrypts the aggregated result, releases it to the secondary alliance chain, and the process is repeated for multiple rounds until convergence.",
+    "effect": "The method reduces communication complexity and achieves comparable privacy protection to plain text while maintaining calculation and communication efficiency."
+  },
+  "knowledge_graph": [
+    [
+      "Secure Aggregation Method for Multi-level Consortium Chains",
+      "Addresses_Problem",
+      "High Security Risks in Federated Learning"
+    ],
+    [
+      "Secure Aggregation Method for Multi-level Consortium Chains",
+      "Comprises_Component",
+      "Global Alliance Chain"
+    ],
+    [
+      "Secure Aggregation Method for Multi-level Consortium Chains",
+      "Comprises_Component",
+      "Equity Nodes (AN)"
+    ],
+    [
+      "Secure Aggregation Method for Multi-level Consortium Chains",
+      "Comprises_Component",
+      "Aggregation Node"
+    ],
+    [
+      "Secure Aggregation Method for Multi-level Consortium Chains",
+      "Implemented_By",
+      "Local Model Training"
+    ],
+    [
+      "Secure Aggregation Method for Multi-level Consortium Chains",
+      "Implemented_By",
+      "Encrypted Gradient Homomorphic Aggregation"
+    ],
+    [
+      "Secure Aggregation Method for Multi-level Consortium Chains",
+      "Achieves_Effect",
+      "Reduced Communication Complexity"
+    ],
+    [
+      "Secure Aggregation Method for Multi-level Consortium Chains",
+      "Achieves_Effect",
+      "Comparable Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Secure Federated Learning Settings",
+      "faces",
+      "High Security Risks"
+    ],
+    [
+      "Secure Federated Learning Settings",
+      "shares",
+      "Gradient Information"
+    ],
+    [
+      "Secure Federated Learning Settings",
+      "shares",
+      "Model Parameters"
+    ],
+    [
+      "Secure Federated Learning Settings",
+      "risks",
+      "Privacy Leakage"
+    ],
+    [
+      "Global Alliance Chain",
+      "comprises",
+      "Key Components"
+    ],
+    [
+      "Equity Nodes (AN)",
+      "initialize",
+      "Model"
+    ],
+    [
+      "Equity Nodes (AN)",
+      "initialize",
+      "Training Method"
+    ],
+    [
+      "Equity Nodes (AN)",
+      "initialize",
+      "Parameters"
+    ],
+    [
+      "Equity Nodes (AN)",
+      "designate",
+      "Aggregation Node"
+    ],
+    [
+      "Data Nodes (DN)",
+      "perform",
+      "Local Training"
+    ],
+    [
+      "Data Nodes (DN)",
+      "encrypt",
+      "Gradient Results"
+    ],
+    [
+      "Aggregation Node",
+      "collects",
+      "Encrypted Gradients"
+    ],
+    [
+      "Aggregation Node",
+      "performs",
+      "Homomorphic Aggregation Operation"
+    ],
+    [
+      "Equity Node",
+      "decrypts",
+      "Agregated Result"
+    ],
+    [
+      "Equity Node",
+      "releases",
+      "Result to Secondary Alliance Chain"
+    ],
+    [
+      "Method",
+      "reduces",
+      "Communication Complexity"
+    ],
+    [
+      "Method",
+      "achieves",
+      "Comparable Privacy Protection"
+    ],
+    [
+      "Method",
+      "maintains",
+      "Calculation and Communication Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregation Node",
+    "Comparable Privacy Protection",
+    "Encrypted Gradient Homomorphic Aggregation",
+    "Equity Nodes (AN)",
+    "Global Alliance Chain",
+    "High Security Risks in Federated Learning",
+    "Local Model Training",
+    "Reduced Communication Complexity",
+    "Secure Aggregation Method for Multi-level Consortium Chains"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregation Node",
+    "Agregated Result",
+    "Calculation and Communication Efficiency",
+    "Communication Complexity",
+    "Comparable Privacy Protection",
+    "Data Nodes (DN)",
+    "Encrypted Gradients",
+    "Equity Node",
+    "Equity Nodes (AN)",
+    "Global Alliance Chain",
+    "Gradient Information",
+    "Gradient Results",
+    "High Security Risks",
+    "Homomorphic Aggregation Operation",
+    "Key Components",
+    "Local Training",
+    "Method",
+    "Model",
+    "Model Parameters",
+    "Parameters",
+    "Privacy Leakage",
+    "Result to Secondary Alliance Chain",
+    "Secure Federated Learning Settings",
+    "Training Method"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "collects",
+    "comprises",
+    "decrypts",
+    "designate",
+    "encrypt",
+    "faces",
+    "initialize",
+    "maintains",
+    "perform",
+    "performs",
+    "reduces",
+    "releases",
+    "risks",
+    "shares"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00",
+    "H04L9/008",
+    "H04L9/50"
+  ]
+}

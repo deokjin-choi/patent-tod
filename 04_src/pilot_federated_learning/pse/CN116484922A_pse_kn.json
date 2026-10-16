@@ -1,0 +1,142 @@
+{
+  "publication_number": "CN116484922A",
+  "title": "Federal learning method, system, equipment and storage medium",
+  "assignee": "Shenzhen University",
+  "filing_date": "2023-04-23",
+  "publication_date": "2023-07-25",
+  "pse": {
+    "problem": "Real-time intelligent services require processing of continuously generated data samples in a timely manner while minimizing communication overhead between client and server.",
+    "solution_function": "The system determines a target scheduling probability for each client based on scheduling-related information (sample delay, length, and communication overhead). The server uses this information to schedule a target client for training a neural network model using data samples from the client.",
+    "solution_structure": "The system consists of a server and multiple clients. Each client has access to scheduling-related information and is capable of determining its own target scheduling probability.",
+    "solution_implementation": "Clients send their target scheduling probabilities to the server, which uses this information to schedule training tasks on specific clients. Clients then receive neural network models from the server and train them using local data samples.",
+    "effect": "The proposed method reduces communication overhead between the client and server while ensuring timely processing of continuously generated data samples."
+  },
+  "knowledge_graph": [
+    [
+      "Real-time Intelligent Services System",
+      "Addresses_Problem",
+      "Timely Data Processing and Minimized Communication Overhead"
+    ],
+    [
+      "Real-time Intelligent Services System",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Real-time Intelligent Services System",
+      "Comprises_Component",
+      "Clients"
+    ],
+    [
+      "Real-time Intelligent Services System",
+      "Implemented_By",
+      "Scheduling Task Allocation"
+    ],
+    [
+      "Real-time Intelligent Services System",
+      "Achieves_Effect",
+      "Reduced Communication Overhead and Timely Data Processing"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Real-time Intelligent Services",
+      "requires",
+      "Timely Processing"
+    ],
+    [
+      "Continuously Generated Data Samples",
+      "needed_for",
+      "Real-time Intelligent Services"
+    ],
+    [
+      "Client and Server",
+      "have communication",
+      "Overhead"
+    ],
+    [
+      "Server",
+      "scheduled",
+      "Training Tasks"
+    ],
+    [
+      "Specific Clients",
+      "selected",
+      "For Training"
+    ],
+    [
+      "Neural Network Model",
+      "sent_from",
+      "Server"
+    ],
+    [
+      "Local Data Samples",
+      "used_by",
+      "Clients"
+    ],
+    [
+      "Client's Target Scheduling Probability",
+      "sent_to",
+      "Server"
+    ],
+    [
+      "Timely Processing",
+      "achieved_by",
+      "Target Scheduling Probability"
+    ],
+    [
+      "Communication Overhead",
+      "minimized_by",
+      "Target Scheduling Probability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Clients",
+    "Real-time Intelligent Services System",
+    "Reduced Communication Overhead and Timely Data Processing",
+    "Scheduling Task Allocation",
+    "Server",
+    "Timely Data Processing and Minimized Communication Overhead"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client and Server",
+    "Client's Target Scheduling Probability",
+    "Clients",
+    "Communication Overhead",
+    "Continuously Generated Data Samples",
+    "For Training",
+    "Local Data Samples",
+    "Neural Network Model",
+    "Overhead",
+    "Real-time Intelligent Services",
+    "Server",
+    "Specific Clients",
+    "Target Scheduling Probability",
+    "Timely Processing",
+    "Training Tasks"
+  ],
+  "knowledge_graph2_relation": [
+    "achieved_by",
+    "have communication",
+    "minimized_by",
+    "needed_for",
+    "requires",
+    "scheduled",
+    "selected",
+    "sent_from",
+    "sent_to",
+    "used_by"
+  ],
+  "cpc_code": [
+    "G06N3/04",
+    "G06N3/047",
+    "G06N3/08",
+    "Y02D10/00"
+  ]
+}

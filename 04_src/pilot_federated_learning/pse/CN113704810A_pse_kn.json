@@ -1,0 +1,145 @@
+{
+  "publication_number": "CN113704810A",
+  "title": "Federated learning oriented chain-crossing consensus method and system",
+  "assignee": "Huazhong University of Science and Technology",
+  "filing_date": "2021-05-07",
+  "publication_date": "2021-11-26",
+  "pse": {
+    "problem": "Central server-based collaborative learning architecture faces challenges such as termination upon coordination server crash, privacy leakage due to malicious coordination server, model poisoning by malicious parties, and lack of incentive mechanism.",
+    "solution_function": "Blockchain-based Federated Learning (BFL) provides a decentralized control system that ensures continuous updates to the machine learning models through smart contracts.",
+    "solution_structure": "The solution includes a model training module for machine learning model update and aggregation, and a smart contract module for decentralized control using blockchain technology.",
+    "solution_implementation": "Smart contracts are used to manage keys and provide control functions, ensuring the federated learning system continues even if a node crashes.",
+    "effect": "BFL addresses the central server challenges by providing an immutable, decentralized, and incentivized collaborative learning framework."
+  },
+  "knowledge_graph": [
+    [
+      "Blockchain-based Federated Learning (BFL)",
+      "Addresses_Problem",
+      "Central server challenges"
+    ],
+    [
+      "Blockchain-based Federated Learning (BFL)",
+      "Comprises_Component",
+      "Model training module"
+    ],
+    [
+      "Blockchain-based Federated Learning (BFL)",
+      "Comprises_Component",
+      "Smart contract module"
+    ],
+    [
+      "Blockchain-based Federated Learning (BFL)",
+      "Implemented_By",
+      "Smart contracts"
+    ],
+    [
+      "Blockchain-based Federated Learning (BFL)",
+      "Achieves_Effect",
+      "Immutable, decentralized, and incentivized collaborative learning framework"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Central Server",
+      "causes",
+      "Termination"
+    ],
+    [
+      "Central Server",
+      "leaks",
+      "Privacy Information"
+    ],
+    [
+      "Malicious Coordination Server",
+      "causes",
+      "Model Poisoning"
+    ],
+    [
+      "Federated Learning Architecture",
+      "comprises",
+      "Machine Learning Models"
+    ],
+    [
+      "Federated Learning Architecture",
+      "faces",
+      "Lack of Incentive Mechanism"
+    ],
+    [
+      "Blockchain Technology",
+      "provides",
+      "Decentralized Control"
+    ],
+    [
+      "Smart Contracts",
+      "manage",
+      "Keys"
+    ],
+    [
+      "Smart Contracts",
+      "control",
+      "Functions"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "ensures",
+      "Continuous Updates"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "provides",
+      "Immutable Framework"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain-based Federated Learning (BFL)",
+    "Central server challenges",
+    "Immutable, decentralized, and incentivized collaborative learning framework",
+    "Model training module",
+    "Smart contract module",
+    "Smart contracts"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Blockchain Technology",
+    "Blockchain-based Federated Learning",
+    "Central Server",
+    "Continuous Updates",
+    "Decentralized Control",
+    "Federated Learning Architecture",
+    "Functions",
+    "Immutable Framework",
+    "Keys",
+    "Lack of Incentive Mechanism",
+    "Machine Learning Models",
+    "Malicious Coordination Server",
+    "Model Poisoning",
+    "Privacy Information",
+    "Smart Contracts",
+    "Termination"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "comprises",
+    "control",
+    "ensures",
+    "faces",
+    "leaks",
+    "manage",
+    "provides"
+  ],
+  "cpc_code": [
+    "G06F16/27",
+    "G06F18/214",
+    "G06F21/6245",
+    "G06F21/64",
+    "G06N20/00",
+    "G06N20/20",
+    "G06N7/01",
+    "G06Q40/04"
+  ]
+}

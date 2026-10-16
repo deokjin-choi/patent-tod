@@ -1,0 +1,186 @@
+{
+  "publication_number": "CN119251513A",
+  "title": "A ship detection network training method based on federated learning and its application method",
+  "assignee": "Wuhan University of Technology WUT",
+  "filing_date": "2024-09-06",
+  "publication_date": "2025-01-03",
+  "pse": {
+    "problem": "The existing federal learning method is difficult to utilize training data with unbalanced distribution and uneven quality effectively, causing reduced model accuracy for ship detection networks.",
+    "solution_function": "The method performs iterative training of a ship detection network using local detection networks from multiple clients. It enhances the ship image data through double-branch attention enhancement and feature fusion detection. The prediction total loss is determined using a dynamic non-monotonic focusing method. Local parameters are updated based on this loss, and global parameters are obtained by self-adaptive weighted aggregation of local parameters. The local and global parameters are iteratively updated until network performance no longer improves.",
+    "solution_structure": "The system consists of a ship detection network, local detection networks from multiple clients, and data for ship images. There is also a dynamic non-monotonic focusing method used to determine the prediction total loss.",
+    "solution_implementation": "Each client processes their acquired ship image data through the local detection network, performing double-branch attention enhancement and feature fusion detection. The prediction total loss is determined using the dynamic non-monotonic focusing method. Local parameters are updated based on this loss, and global parameters are obtained by self-adaptive weighted aggregation of local parameters. The local parameters are then updated according to the global parameters.",
+    "effect": "The method can effectively utilize training data with unbalanced distribution and uneven quality, improving model accuracy for ship detection networks."
+  },
+  "knowledge_graph": [
+    [
+      "Ship Detection Network",
+      "Addresses_Problem",
+      "Core Problem Concept"
+    ],
+    [
+      "Ship Detection Network",
+      "Comprises_Component",
+      "Local Detection Network(s)"
+    ],
+    [
+      "Ship Detection Network",
+      "Comprises_Component",
+      "Double-branch Attention Enhancement"
+    ],
+    [
+      "Ship Detection Network",
+      "Comprises_Component",
+      "Feature Fusion Detection"
+    ],
+    [
+      "Ship Detection Network",
+      "Implemented_By",
+      "Dynamic Non-monotonic Focusing Method"
+    ],
+    [
+      "Ship Detection Network",
+      "Implemented_By",
+      "Self-adaptive Weighted Aggregation"
+    ],
+    [
+      "Ship Detection Network",
+      "Achieves_Effect",
+      "Improved Model Accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Method",
+      "causes",
+      "Reduced Model Accuracy"
+    ],
+    [
+      "Training Data (unbalanced distribution, uneven quality)",
+      "affects",
+      "Model Accuracy"
+    ],
+    [
+      "Local Detection Networks",
+      "comprises",
+      "Ship Detection Network"
+    ],
+    [
+      "Clients",
+      "operates",
+      "Local Detection Networks"
+    ],
+    [
+      "Data for Ship Images",
+      "provides",
+      "Input to Local Detection Networks"
+    ],
+    [
+      "Double-branch Attention Enhancement",
+      "applies_to",
+      "Ship Image Data"
+    ],
+    [
+      "Feature Fusion Detection",
+      "applies_to",
+      "Ship Image Data"
+    ],
+    [
+      "Dynamic Non-monotonic Focusing Method",
+      "determines",
+      "Prediction Total Loss"
+    ],
+    [
+      "Local Parameters",
+      "updates_based_on",
+      "Prediction Total Loss"
+    ],
+    [
+      "Global Parameters",
+      "obtains",
+      "Self-adaptive Weighted Aggregation of Local Parameters"
+    ],
+    [
+      "Local Parameters",
+      "iteratively_updates",
+      "Global Parameters"
+    ],
+    [
+      "Model Accuracy for Ship Detection Networks",
+      "improves",
+      "Effectively Utilizes Training Data"
+    ],
+    [
+      "Local Detection Network",
+      "processes",
+      "Ship Image Data"
+    ],
+    [
+      "Self-adaptive Weighted Aggregation of Local Parameters",
+      "updates",
+      "Global Parameters"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Problem Concept",
+    "Double-branch Attention Enhancement",
+    "Dynamic Non-monotonic Focusing Method",
+    "Feature Fusion Detection",
+    "Improved Model Accuracy",
+    "Local Detection Network(s)",
+    "Self-adaptive Weighted Aggregation",
+    "Ship Detection Network"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Clients",
+    "Data for Ship Images",
+    "Double-branch Attention Enhancement",
+    "Dynamic Non-monotonic Focusing Method",
+    "Effectively Utilizes Training Data",
+    "Feature Fusion Detection",
+    "Federal Learning Method",
+    "Global Parameters",
+    "Input to Local Detection Networks",
+    "Local Detection Network",
+    "Local Detection Networks",
+    "Local Parameters",
+    "Model Accuracy",
+    "Model Accuracy for Ship Detection Networks",
+    "Prediction Total Loss",
+    "Reduced Model Accuracy",
+    "Self-adaptive Weighted Aggregation of Local Parameters",
+    "Ship Detection Network",
+    "Ship Image Data",
+    "Training Data (unbalanced distribution, uneven quality)"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "applies_to",
+    "causes",
+    "comprises",
+    "determines",
+    "improves",
+    "iteratively_updates",
+    "obtains",
+    "operates",
+    "processes",
+    "provides",
+    "updates",
+    "updates_based_on"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06V10/40",
+    "G06V10/764",
+    "G06V10/766",
+    "G06V10/778",
+    "G06V10/806",
+    "G06V10/82",
+    "G06V2201/08"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "publication_number": "CN117422154A",
+  "title": "Cluster federation learning realization method and system with feature alignment",
+  "assignee": "Chongqing Academy of Science and Technology",
+  "filing_date": "2023-11-29",
+  "publication_date": "2024-01-19",
+  "pse": {
+    "problem": "Data heterogeneity in federated learning hinders the generalization ability of each cluster model and affects final model accuracy.",
+    "solution_function": "The system performs cluster federated learning with feature alignment, which includes training local models on client's private data sets, knowledge transfer through global model update, spectral clustering of clients, and weighted aggregation of cluster models to form a global model.",
+    "solution_structure": "The key components include clients with local models, servers for aggregating client models, and spectral clustering method as part of the server.",
+    "solution_implementation": "In each round, clients train their local models, update them by incorporating the global model (feature alignment), upload the weight updates to the server. The server performs spectral clustering on the uploaded data, evaluates clustering results using Calinski-Harabasz index, selects the best result, aggregates cluster models to form a global model, and sends it back to clients for further iterations.",
+    "effect": "The proposed method improves generalization ability by sharing knowledge between clusters through feature alignment, and mitigates errors caused by incorrect clustering evaluations."
+  },
+  "knowledge_graph": [
+    [
+      "Cluster Federated Learning with Feature Alignment",
+      "Addresses_Problem",
+      "Data Heterogeneity Problem"
+    ],
+    [
+      "Cluster Federated Learning with Feature Alignment",
+      "Comprises_Component",
+      "Clients with Local Models"
+    ],
+    [
+      "Cluster Federated Learning with Feature Alignment",
+      "Comprises_Component",
+      "Servers for Aggregating Client Models"
+    ],
+    [
+      "Cluster Federated Learning with Feature Alignment",
+      "Implemented_By",
+      "In-round Training and Global Model Update"
+    ],
+    [
+      "Cluster Federated Learning with Feature Alignment",
+      "Achieves_Effect",
+      "Improved Generalization Ability"
+    ],
+    [
+      "Cluster Federated Learning with Feature Alignment",
+      "Achieves_Effect",
+      "Error Mitigation"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Heterogeneity",
+      "hinders",
+      "Generalization Ability"
+    ],
+    [
+      "Federated Learning System",
+      "performs",
+      "Cluster Federated Learning"
+    ],
+    [
+      "Federated Learning System",
+      "includes",
+      "Training Local Models"
+    ],
+    [
+      "Federated Learning System",
+      "implements",
+      "Feature Alignment"
+    ],
+    [
+      "Local Model",
+      "processes",
+      "Client's Private Data Sets"
+    ],
+    [
+      "Global Model",
+      "updates",
+      "Local Model (Feature Alignment)"
+    ],
+    [
+      "Clients",
+      "upload",
+      "Weight Updates"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Client Models"
+    ],
+    [
+      "Spectral Clustering Method",
+      "evaluates",
+      "Clustering Results"
+    ],
+    [
+      "Server",
+      "uses",
+      "Calinski-Harabasz Index"
+    ],
+    [
+      "Server",
+      "selects",
+      "Best Result"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Cluster Models"
+    ],
+    [
+      "Global Model",
+      "returns",
+      "to Clients"
+    ],
+    [
+      "Proposed Method",
+      "improves",
+      "Generalization Ability"
+    ],
+    [
+      "Proposed Method",
+      "mitigates",
+      "Errors caused by incorrect clustering evaluations"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Clients with Local Models",
+    "Cluster Federated Learning with Feature Alignment",
+    "Data Heterogeneity Problem",
+    "Error Mitigation",
+    "Improved Generalization Ability",
+    "In-round Training and Global Model Update",
+    "Servers for Aggregating Client Models"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Best Result",
+    "Calinski-Harabasz Index",
+    "Client Models",
+    "Client's Private Data Sets",
+    "Clients",
+    "Cluster Federated Learning",
+    "Cluster Models",
+    "Clustering Results",
+    "Data Heterogeneity",
+    "Errors caused by incorrect clustering evaluations",
+    "Feature Alignment",
+    "Federated Learning System",
+    "Generalization Ability",
+    "Global Model",
+    "Local Model",
+    "Local Model (Feature Alignment)",
+    "Proposed Method",
+    "Server",
+    "Spectral Clustering Method",
+    "Training Local Models",
+    "Weight Updates",
+    "to Clients"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "evaluates",
+    "hinders",
+    "implements",
+    "improves",
+    "includes",
+    "mitigates",
+    "performs",
+    "processes",
+    "returns",
+    "selects",
+    "updates",
+    "upload",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F17/16",
+    "G06F18/211",
+    "G06F18/22",
+    "G06F18/23213",
+    "G06F18/2323",
+    "G06N20/00",
+    "Y02D10/00"
+  ]
+}

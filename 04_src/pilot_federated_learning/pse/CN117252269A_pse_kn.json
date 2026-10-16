@@ -1,0 +1,242 @@
+{
+  "publication_number": "CN117252269A",
+  "title": "D2D industrial Internet of things federation learning system and method based on millimeter wave link",
+  "assignee": "Nanjing Yunze Youxing Technology Co ltd",
+  "filing_date": "2023-05-29",
+  "publication_date": "2023-12-19",
+  "pse": {
+    "problem": "Traditional machine learning data sets are concentrated for training, which is not feasible in real-life scenarios due to privacy and security concerns, as well as the need for timely processing in the industrial IoT environment where data is distributed across various locations. Millimeter wave federated learning model transmission still has limitations in terms of device access and energy consumption.",
+    "solution_function": "The system performs decentralized training of a federated learning model, protecting data privacy while utilizing advantages from all parties to improve the accuracy and generalization ability of the model. It also implements efficient communication and edge aggregation within the industrial IoT based on millimeter wave links. Key functionality includes establishing D2D connections with non-LOS devices using appropriate LOS devices as relays for model relay propagation, reducing processing and transmission delays, and reducing energy consumption.",
+    "solution_structure": "The system consists of a central server, multiple edge platforms, and multiple devices. Edge platform set is utilized for efficient communication and edge aggregation in the industrial IoT.",
+    "solution_implementation": "During operation, appropriate LOS devices establish D2D connections with non-LOS devices for model relay propagation. This process takes into account millimeter wave link propagation loss and utilizes idle waiting time after LOS device model transmission is completed.",
+    "effect": "The system provides a measurable benefit by improving response speed, real-time performance, industrial production efficiency, and quality in the industrial IoT environment. It also reduces energy consumption and ensures efficient connections and transmissions between systems."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Model",
+      "Addresses_Problem",
+      "Data Distribution Privacy and Security Concerns"
+    ],
+    [
+      "Federated Learning Model",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Federated Learning Model",
+      "Comprises_Component",
+      "Edge Platform"
+    ],
+    [
+      "Federated Learning Model",
+      "Implemented_By",
+      "D2D Connections with Non-LOS Devices via LOS Relays"
+    ],
+    [
+      "Federated Learning Model",
+      "Achieves_Effect",
+      "Improved Response Speed and Real-Time Performance"
+    ],
+    [
+      "Federated Learning Model",
+      "Achieves_Effect",
+      "Efficient Connections and Transmissions"
+    ],
+    [
+      "Federated Learning Model",
+      "Achieves_Effect",
+      "Reduced Energy Consumption"
+    ],
+    [
+      "Federated Learning Model",
+      "Achieves_Effect",
+      "Improved Industrial Production Efficiency and Quality"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Machine Learning Data Sets",
+      "concentrated_for",
+      "Training"
+    ],
+    [
+      "Industrial IoT Environment",
+      "requires",
+      "Timely Processing"
+    ],
+    [
+      "Data",
+      "located_in",
+      "Various Locations"
+    ],
+    [
+      "Federated Learning Model Transmission",
+      "has_limitations",
+      "Device Access"
+    ],
+    [
+      "Federated Learning Model Transmission",
+      "has_limitations",
+      "Energy Consumption"
+    ],
+    [
+      "Central Server",
+      "comprises",
+      "System"
+    ],
+    [
+      "Multiple Edge Platforms",
+      "comprises",
+      "System"
+    ],
+    [
+      "Multiple Devices",
+      "comprises",
+      "System"
+    ],
+    [
+      "Edge Platform Set",
+      "implements",
+      "Efficient Communication"
+    ],
+    [
+      "Edge Platform Set",
+      "implements",
+      "Edge Aggregation"
+    ],
+    [
+      "Millimeter Wave Links",
+      "used_for",
+      "Communication"
+    ],
+    [
+      "LOS Devices",
+      "establish",
+      "D2D Connections"
+    ],
+    [
+      "LOS Devices",
+      "used_as",
+      "Relays"
+    ],
+    [
+      "Non-LOS Devices",
+      "connected_to",
+      "LOS Devices"
+    ],
+    [
+      "Model Relay Propagation",
+      "aimed_at",
+      "Reducing Processing Delays"
+    ],
+    [
+      "Model Relay Propagation",
+      "aimed_at",
+      "Reducing Energy Consumption"
+    ],
+    [
+      "Industrial IoT Environment",
+      "benefited_by",
+      "Improved Response Speed"
+    ],
+    [
+      "Industrial IoT Environment",
+      "benefited_by",
+      "Real-Time Performance"
+    ],
+    [
+      "Industrial Production Efficiency",
+      "improved_by",
+      "System"
+    ],
+    [
+      "Quality",
+      "improved_by",
+      "System"
+    ],
+    [
+      "Energy Consumption",
+      "reduced_by",
+      "System"
+    ],
+    [
+      "Connections and Transmissions between Systems",
+      "ensured_by",
+      "System"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "D2D Connections with Non-LOS Devices via LOS Relays",
+    "Data Distribution Privacy and Security Concerns",
+    "Edge Platform",
+    "Efficient Connections and Transmissions",
+    "Federated Learning Model",
+    "Improved Industrial Production Efficiency and Quality",
+    "Improved Response Speed and Real-Time Performance",
+    "Reduced Energy Consumption"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Communication",
+    "Connections and Transmissions between Systems",
+    "D2D Connections",
+    "Data",
+    "Device Access",
+    "Edge Aggregation",
+    "Edge Platform Set",
+    "Efficient Communication",
+    "Energy Consumption",
+    "Federated Learning Model Transmission",
+    "Improved Response Speed",
+    "Industrial IoT Environment",
+    "Industrial Production Efficiency",
+    "LOS Devices",
+    "Millimeter Wave Links",
+    "Model Relay Propagation",
+    "Multiple Devices",
+    "Multiple Edge Platforms",
+    "Non-LOS Devices",
+    "Quality",
+    "Real-Time Performance",
+    "Reducing Energy Consumption",
+    "Reducing Processing Delays",
+    "Relays",
+    "System",
+    "Timely Processing",
+    "Traditional Machine Learning Data Sets",
+    "Training",
+    "Various Locations"
+  ],
+  "knowledge_graph2_relation": [
+    "aimed_at",
+    "benefited_by",
+    "comprises",
+    "concentrated_for",
+    "connected_to",
+    "ensured_by",
+    "establish",
+    "has_limitations",
+    "implements",
+    "improved_by",
+    "located_in",
+    "reduced_by",
+    "requires",
+    "used_as",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G16Y30/00",
+    "H04W24/02",
+    "H04W4/70",
+    "H04W40/22",
+    "Y02D30/70"
+  ]
+}

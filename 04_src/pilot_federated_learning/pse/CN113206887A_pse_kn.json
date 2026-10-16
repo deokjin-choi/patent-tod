@@ -1,0 +1,174 @@
+{
+  "publication_number": "CN113206887A",
+  "title": "Method for accelerating federal learning aiming at data and equipment isomerism under edge calculation",
+  "assignee": "Wuhan University of Technology WUT",
+  "filing_date": "2021-05-08",
+  "publication_date": "2021-08-03",
+  "pse": {
+    "problem": "Inefficient Federal Learning (FL) training under Edge Computing due to heterogeneous terminal devices with varying hardware characteristics and non-independent and unevenly distributed data sets.",
+    "solution_function": "Cooperative model training between terminal equipment and edge node server to reduce terminal energy consumption and alleviate computational power deficiency.",
+    "solution_structure": "Terminal devices, edge node servers, global model, auxiliary data set on edge servers, candidate set of terminal devices per area.",
+    "solution_implementation": "Random sampling of data sets on terminal equipment, uploading sampled data sets to edge nodes, distributing global model to edge nodes and selected terminal equipment, training auxiliary models on edge servers using artificial set, performing collaborative training on terminal equipment and edge node servers, aggregating and updating the model.",
+    "effect": "Reduced energy consumption of terminal equipment, alleviated computational power deficiency, potential for shorter training times and increased model accuracy"
+  },
+  "knowledge_graph": [
+    [
+      "Cooperative model training",
+      "Addresses_Problem",
+      "Inefficient Federal Learning (FL) training under Edge Computing"
+    ],
+    [
+      "Cooperative model training",
+      "Comprises_Component",
+      "Terminal devices"
+    ],
+    [
+      "Cooperative model training",
+      "Comprises_Component",
+      "Edge node servers"
+    ],
+    [
+      "Cooperative model training",
+      "Implemented_By",
+      "Random sampling of data sets on terminal equipment, uploading sampled data sets to edge nodes, distributing global model, training auxiliary models, collaborative training, aggregating and updating the model"
+    ],
+    [
+      "Cooperative model training",
+      "Achieves_Effect",
+      "Reduced energy consumption of terminal equipment"
+    ],
+    [
+      "Cooperative model training",
+      "Achieves_Effect",
+      "Alleviated computational power deficiency"
+    ],
+    [
+      "Cooperative model training",
+      "Achieves_Effect",
+      "Potential for shorter training times and increased model accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning (FL)",
+      "applies_to",
+      "Terminal Devices"
+    ],
+    [
+      "Federal Learning (FL)",
+      "applies_to",
+      "Edge Node Servers"
+    ],
+    [
+      "Federal Learning (FL)",
+      "uses",
+      "Global Model"
+    ],
+    [
+      "Federal Learning (FL)",
+      "uses",
+      "Auxiliary Data Set"
+    ],
+    [
+      "Terminal Device",
+      "consumes",
+      "Energy"
+    ],
+    [
+      "Terminal Device",
+      "suffers_from",
+      "Computational Power Deficiency"
+    ],
+    [
+      "Edge Node Server",
+      "provides",
+      "Computational Power"
+    ],
+    [
+      "Edge Node Server",
+      "manages",
+      "Candidate Set of Terminal Devices"
+    ],
+    [
+      "Global Model",
+      "distributed_to",
+      "Edge Node Servers"
+    ],
+    [
+      "Global Model",
+      "distributed_to",
+      "Selected Terminal Equipment"
+    ],
+    [
+      "Terminal Device",
+      "trains",
+      "Auxiliary Models"
+    ],
+    [
+      "Terminal Device",
+      "collaborates_with",
+      "Edge Node Server"
+    ],
+    [
+      "Edge Node Server",
+      "aggregates",
+      "Model"
+    ],
+    [
+      "Edge Node Server",
+      "updates",
+      "Model"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Alleviated computational power deficiency",
+    "Cooperative model training",
+    "Edge node servers",
+    "Inefficient Federal Learning (FL) training under Edge Computing",
+    "Potential for shorter training times and increased model accuracy",
+    "Random sampling of data sets on terminal equipment, uploading sampled data sets to edge nodes, distributing global model, training auxiliary models, collaborative training, aggregating and updating the model",
+    "Reduced energy consumption of terminal equipment",
+    "Terminal devices"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Auxiliary Data Set",
+    "Auxiliary Models",
+    "Candidate Set of Terminal Devices",
+    "Computational Power",
+    "Computational Power Deficiency",
+    "Edge Node Server",
+    "Edge Node Servers",
+    "Energy",
+    "Federal Learning (FL)",
+    "Global Model",
+    "Model",
+    "Selected Terminal Equipment",
+    "Terminal Device",
+    "Terminal Devices"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "applies_to",
+    "collaborates_with",
+    "consumes",
+    "distributed_to",
+    "manages",
+    "provides",
+    "suffers_from",
+    "trains",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F9/5072",
+    "G06N20/20",
+    "H04L41/14",
+    "H04L67/10"
+  ]
+}

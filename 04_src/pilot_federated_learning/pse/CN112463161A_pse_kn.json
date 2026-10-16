@@ -1,0 +1,172 @@
+{
+  "publication_number": "CN112463161A",
+  "title": "Code annotation generation method, system and device based on federal learning",
+  "assignee": "Ping An Technology Shenzhen Co Ltd",
+  "filing_date": "2020-11-27",
+  "publication_date": "2021-03-09",
+  "pse": {
+    "problem": "Existing methods for automatic generation of code annotations are often based on open-source projects, which may not meet specific company or organization's requirements. Also, due to limited internal data volume, an efficient model cannot be trained solely using existing data.",
+    "solution_function": "The system generates a high-performance code annotation model by forming a federal learning framework between a server and multiple clients. Each client trains their local model based on the initial parameter set sent from the server, then sends their optimized parameters back to the server for aggregation. The aggregated optimization parameters are used to train new models, which generate annotations for code sequences.",
+    "solution_structure": "The system consists of a server and multiple clients, each client has a code annotation generation model. A blockchain stores the predefined sample data set, which includes source code samples and comment word samples.",
+    "solution_implementation": "The server initializes the model parameters and sends them to the clients. Each client performs initial training using their local data and the provided sample data from the blockchain. The optimized parameters are sent back to the server for aggregation. The aggregated optimization parameters are used to retrain all models, resulting in new code annotation generation models.",
+    "effect": "The solution offers a method that doesn't expose source code between companies and can be trained efficiently using both internal and external data."
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning Framework",
+      "Addresses_Problem",
+      "Inefficient Code Annotation Model Training"
+    ],
+    [
+      "Federal Learning Framework",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Federal Learning Framework",
+      "Comprises_Component",
+      "Clients"
+    ],
+    [
+      "Federal Learning Framework",
+      "Implemented_By",
+      "Parameter Initialization and Aggregation"
+    ],
+    [
+      "Federal Learning Framework",
+      "Achieves_Effect",
+      "Efficient Code Annotation Generation"
+    ],
+    [
+      "Blockchain",
+      "Comprises_Component",
+      "Predefined Sample Data Set"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Methods",
+      "based_on",
+      "Open-Source Projects"
+    ],
+    [
+      "Open-Source Projects",
+      "may not meet",
+      "Company/Organization's Requirements"
+    ],
+    [
+      "Limited Internal Data Volume",
+      "limits",
+      "Efficient Model Training"
+    ],
+    [
+      "Server",
+      "initializes",
+      "Model Parameters"
+    ],
+    [
+      "Clients",
+      "receive",
+      "Initial Parameter Set from Server"
+    ],
+    [
+      "Clients",
+      "train",
+      "Local Models using Local Data and Sample Data"
+    ],
+    [
+      "Optimized Parameters (from Clients)",
+      "sent to",
+      "Server for Aggregation"
+    ],
+    [
+      "Aggregated Optimization Parameters",
+      "used to retrain",
+      "Models"
+    ],
+    [
+      "Retrained Models",
+      "generate",
+      "Code Annotations"
+    ],
+    [
+      "Blockchain",
+      "stores",
+      "Predefined Sample Data Set"
+    ],
+    [
+      "Source Code Samples and Comment Word Samples",
+      "included in",
+      "Predefined Sample Data Set"
+    ],
+    [
+      "Solution",
+      "offers",
+      "Method that doesn't expose source code between companies"
+    ],
+    [
+      "Solution",
+      "can be trained efficiently using both",
+      "Internal and External Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain",
+    "Clients",
+    "Efficient Code Annotation Generation",
+    "Federal Learning Framework",
+    "Inefficient Code Annotation Model Training",
+    "Parameter Initialization and Aggregation",
+    "Predefined Sample Data Set",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Optimization Parameters",
+    "Blockchain",
+    "Clients",
+    "Code Annotations",
+    "Company/Organization's Requirements",
+    "Efficient Model Training",
+    "Existing Methods",
+    "Initial Parameter Set from Server",
+    "Internal and External Data",
+    "Limited Internal Data Volume",
+    "Local Models using Local Data and Sample Data",
+    "Method that doesn't expose source code between companies",
+    "Model Parameters",
+    "Models",
+    "Open-Source Projects",
+    "Optimized Parameters (from Clients)",
+    "Predefined Sample Data Set",
+    "Retrained Models",
+    "Server",
+    "Server for Aggregation",
+    "Solution",
+    "Source Code Samples and Comment Word Samples"
+  ],
+  "knowledge_graph2_relation": [
+    "based_on",
+    "can be trained efficiently using both",
+    "generate",
+    "included in",
+    "initializes",
+    "limits",
+    "may not meet",
+    "offers",
+    "receive",
+    "sent to",
+    "stores",
+    "train",
+    "used to retrain"
+  ],
+  "cpc_code": [
+    "G06F8/44",
+    "G06N20/20"
+  ]
+}

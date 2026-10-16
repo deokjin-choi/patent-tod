@@ -1,0 +1,165 @@
+{
+  "publication_number": "EP4568217A1",
+  "title": "Data analysis method and apparatus",
+  "assignee": "Huawei Technologies Co Ltd",
+  "filing_date": "2023-04-25",
+  "publication_date": "2025-06-11",
+  "pse": {
+    "problem": "Determining clients for federated learning based on their feedback evaluation of models, without sending local data to another client.",
+    "solution_function": "The server MTLF sends a first model, receives first accuracy evaluation information from candidate client MTLFs, and determines client MTLFs participating in federated learning based on the evaluation information. If a difference between evaluated values fed back by any two of the client MTLFs is less than or equal to a threshold, they are considered for federated learning.",
+    "solution_structure": "Server MTLF and N candidate client MTLFs",
+    "solution_implementation": "The server MTLF sends a first model evaluation request message with the first model to each candidate client MTLF. The clients evaluate the model using local data and send back the first accuracy evaluation information in response.",
+    "effect": "Improving prediction accuracy of models trained through federated learning by selecting client MTLFs whose distribution of local data is similar"
+  },
+  "knowledge_graph": [
+    [
+      "Server MTLF",
+      "Addresses_Problem",
+      "Determining clients for federated learning"
+    ],
+    [
+      "Server MTLF",
+      "Comprises_Component",
+      "First Model"
+    ],
+    [
+      "Server MTLF",
+      "Comprises_Component",
+      "Threshold Evaluation"
+    ],
+    [
+      "Server MTLF",
+      "Implemented_By",
+      "Model evaluation request and response"
+    ],
+    [
+      "Server MTLF",
+      "Achieves_Effect",
+      "Improving prediction accuracy of models trained through federated learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Server MTLF",
+      "sends",
+      "First Model Evaluation Request Message"
+    ],
+    [
+      "Server MTLF",
+      "sends",
+      "First Model"
+    ],
+    [
+      "Candidate Client MTLFs",
+      "receives",
+      "First Model Evaluation Request Message"
+    ],
+    [
+      "Candidate Client MTLFs",
+      "evaluates",
+      "First Model"
+    ],
+    [
+      "Candidate Client MTLFs",
+      "sends",
+      "First Accuracy Evaluation Information"
+    ],
+    [
+      "Server MTLF",
+      "receives",
+      "First Accuracy Evaluation Information"
+    ],
+    [
+      "Server MTLF",
+      "determines",
+      "Client MTLFs Participating in Federated Learning"
+    ],
+    [
+      "Threshold",
+      "controls",
+      "Selection of Client MTLFs"
+    ],
+    [
+      "Client MTLFs",
+      "feeds back",
+      "Evaluated Values"
+    ],
+    [
+      "Two Client MTLFs",
+      "has_difference_less_than_or_equal_to",
+      "Threshold"
+    ],
+    [
+      "Server MTLF",
+      "selects",
+      "Participating Client MTLFs"
+    ],
+    [
+      "Federated Learning",
+      "improves",
+      "Prediction Accuracy of Models"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Determining clients for federated learning",
+    "First Model",
+    "Improving prediction accuracy of models trained through federated learning",
+    "Model evaluation request and response",
+    "Server MTLF",
+    "Threshold Evaluation"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Candidate Client MTLFs",
+    "Client MTLFs",
+    "Client MTLFs Participating in Federated Learning",
+    "Evaluated Values",
+    "Federated Learning",
+    "First Accuracy Evaluation Information",
+    "First Model",
+    "First Model Evaluation Request Message",
+    "Participating Client MTLFs",
+    "Prediction Accuracy of Models",
+    "Selection of Client MTLFs",
+    "Server MTLF",
+    "Threshold",
+    "Two Client MTLFs"
+  ],
+  "knowledge_graph2_relation": [
+    "controls",
+    "determines",
+    "evaluates",
+    "feeds back",
+    "has_difference_less_than_or_equal_to",
+    "improves",
+    "receives",
+    "selects",
+    "sends"
+  ],
+  "cpc_code": [
+    "G06F2111/02",
+    "G06F30/27",
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/098",
+    "G06N5/04",
+    "H04L41/0893",
+    "H04L41/14",
+    "H04L41/145",
+    "H04L41/147",
+    "H04L41/16",
+    "H04L43/028",
+    "H04L43/0823",
+    "H04L43/16",
+    "H04L67/12",
+    "H04W24/02",
+    "H04W24/04",
+    "H04W24/06",
+    "H04W4/40"
+  ]
+}

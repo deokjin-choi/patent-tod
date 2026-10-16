@@ -1,0 +1,192 @@
+{
+  "publication_number": "CN113409134A",
+  "title": "Enterprise financing trust method and device based on federal learning",
+  "assignee": "Industrial and Commercial Bank of China Ltd ICBC",
+  "filing_date": "2021-06-30",
+  "publication_date": "2021-09-17",
+  "pse": {
+    "problem": "Inefficient and inaccurate credit admission and risk prevention methods in mini-micro enterprise financing due to relying on traditional 'expert loan curing' methods.",
+    "solution_function": "The invention offers a federal learning-based enterprise financing credit method that integrates data from all parties while maintaining data privacy, improving the accuracy of enterprise financing credit granting. It involves training a federal learning model using gradient and loss data acquired through homomorphic encryption rules, carrying out sample alignment operations, and updating the model based on newly added bank and government dimension data.",
+    "solution_structure": "The solution includes a bank dimension data determining module, federal learning model, and a third-party system. The bank dimension data is used for receiving financing requests, acquiring corresponding bank dimension data, and determining credit admission results. The federal learning model is trained using the acquired gradient and loss data. The third-party system acquires government affair dimension data through homomorphic encryption rules.",
+    "solution_implementation": "The method involves acquiring bank dimension data and corresponding government affair data, carrying out sample alignment operations on all data using asymmetric encryption rules, establishing an initial federal learning model with a preset random forest algorithm, training the model using mutual transmission of gradient and loss data through homomorphic encryption rules, updating the model based on newly added data, and determining credit admission results using historical admission data, historical financing data, loan amount labels, and the federal learning model.",
+    "effect": "Improved accuracy in enterprise financing credit granting and continued integration of data for improved risk prevention and control"
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning-based Enterprise Financing Credit Method",
+      "Addresses_Problem",
+      "Inefficient and inaccurate credit admission and risk prevention methods"
+    ],
+    [
+      "Federal Learning-based Enterprise Financing Credit Method",
+      "Comprises_Component",
+      "Bank Dimension Data Determining Module"
+    ],
+    [
+      "Federal Learning-based Enterprise Financing Credit Method",
+      "Comprises_Component",
+      "Federal Learning Model"
+    ],
+    [
+      "Federal Learning-based Enterprise Financing Credit Method",
+      "Comprises_Component",
+      "Third-Party System"
+    ],
+    [
+      "Federal Learning-based Enterprise Financing Credit Method",
+      "Implemented_By",
+      "Data Acquisition and Alignment Operations"
+    ],
+    [
+      "Federal Learning-based Enterprise Financing Credit Method",
+      "Implemented_By",
+      "Model Training and Updating Logic"
+    ],
+    [
+      "Federal Learning-based Enterprise Financing Credit Method",
+      "Achieves_Effect",
+      "Improved accuracy in enterprise financing credit granting"
+    ],
+    [
+      "Federal Learning-based Enterprise Financing Credit Method",
+      "Achieves_Effect",
+      "Continued integration of data for improved risk prevention and control"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning-Based Enterprise Financing Credit Method",
+      "controls",
+      "Credit Admission and Risk Prevention"
+    ],
+    [
+      "Traditional 'Expert Loan Curing' Methods",
+      "causes",
+      "Inefficient and inaccurate credit admission"
+    ],
+    [
+      "Gradient and Loss Data",
+      "used_for",
+      "Training the Federal Learning Model"
+    ],
+    [
+      "Homomorphic Encryption Rules",
+      "enables",
+      "Data privacy during model training"
+    ],
+    [
+      "Bank Dimension Data",
+      "provides",
+      "Financing Requests"
+    ],
+    [
+      "Bank Dimension Data",
+      "determines",
+      "Credit Admission Results"
+    ],
+    [
+      "Federal Learning Model",
+      "learns_from",
+      "Gradient and Loss Data"
+    ],
+    [
+      "Asymmetric Encryption Rules",
+      "used_for",
+      "Sample Alignment Operations"
+    ],
+    [
+      "Third-Party System",
+      "acquires",
+      "Government Affair Dimension Data"
+    ],
+    [
+      "Bank and Government Dimension Data",
+      "transmitted to",
+      "Federal Learning Model"
+    ],
+    [
+      "Mutual Transmission of Gradient and Loss Data",
+      "updates",
+      "Federal Learning Model"
+    ],
+    [
+      "Historical Admission Data",
+      "used_for",
+      "Determining Credit Admission Results"
+    ],
+    [
+      "Historical Financing Data",
+      "used_for",
+      "Determining Credit Admission Results"
+    ],
+    [
+      "Loan Amount Labels",
+      "used_for",
+      "Determining Credit Admission Results"
+    ],
+    [
+      "Federal Learning Model",
+      "achieves",
+      "Improved accuracy in enterprise financing credit granting"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Bank Dimension Data Determining Module",
+    "Continued integration of data for improved risk prevention and control",
+    "Data Acquisition and Alignment Operations",
+    "Federal Learning Model",
+    "Federal Learning-based Enterprise Financing Credit Method",
+    "Improved accuracy in enterprise financing credit granting",
+    "Inefficient and inaccurate credit admission and risk prevention methods",
+    "Model Training and Updating Logic",
+    "Third-Party System"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Asymmetric Encryption Rules",
+    "Bank Dimension Data",
+    "Bank and Government Dimension Data",
+    "Credit Admission Results",
+    "Credit Admission and Risk Prevention",
+    "Data privacy during model training",
+    "Determining Credit Admission Results",
+    "Federal Learning Model",
+    "Federal Learning-Based Enterprise Financing Credit Method",
+    "Financing Requests",
+    "Government Affair Dimension Data",
+    "Gradient and Loss Data",
+    "Historical Admission Data",
+    "Historical Financing Data",
+    "Homomorphic Encryption Rules",
+    "Improved accuracy in enterprise financing credit granting",
+    "Inefficient and inaccurate credit admission",
+    "Loan Amount Labels",
+    "Mutual Transmission of Gradient and Loss Data",
+    "Sample Alignment Operations",
+    "Third-Party System",
+    "Traditional 'Expert Loan Curing' Methods",
+    "Training the Federal Learning Model"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "acquires",
+    "causes",
+    "controls",
+    "determines",
+    "enables",
+    "learns_from",
+    "provides",
+    "transmitted to",
+    "updates",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06Q40/03"
+  ]
+}

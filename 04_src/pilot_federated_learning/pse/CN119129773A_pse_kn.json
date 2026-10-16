@@ -1,0 +1,177 @@
+{
+  "publication_number": "CN119129773A",
+  "title": "A device management method based on edge device contribution in federated learning",
+  "assignee": "Dalian Maritime University",
+  "filing_date": "2024-09-06",
+  "publication_date": "2024-12-13",
+  "pse": {
+    "problem": "High energy consumption during local model training on mobile terminals in federal learning due to irregular data sets, varying contribution degrees of edge devices, and dependence on test data sets.",
+    "solution_function": "Optimizes local model training power consumption by iteratively adjusting CPU working frequency and training precision at user equipment end, and minimizing maximum time delay during uploading model parameters to distribute power effectively.",
+    "solution_structure": "Cell-FreemMIMO network, user equipment with CPU.",
+    "solution_implementation": "Iterative adjustment of CPU working frequency and local model training precision, power distribution during model parameter uploading based on minimizing maximum time delay.",
+    "effect": "Saves energy consumption by optimizing local model training power consumption and effectively distributing power."
+  },
+  "knowledge_graph": [
+    [
+      "Optimized Local Model Training",
+      "Addresses_Problem",
+      "High Energy Consumption During Local Model Training"
+    ],
+    [
+      "Optimized Local Model Training",
+      "Comprises_Component",
+      "Cell-FreemMIMO Network"
+    ],
+    [
+      "Optimized Local Model Training",
+      "Comprises_Component",
+      "User Equipment with CPU"
+    ],
+    [
+      "Optimized Local Model Training",
+      "Implemented_By",
+      "Iterative Adjustment of CPU Working Frequency and Local Model Training Precision"
+    ],
+    [
+      "Optimized Local Model Training",
+      "Implemented_By",
+      "Power Distribution during Model Parameter Uploading Based on Minimizing Maximum Time Delay"
+    ],
+    [
+      "Optimized Local Model Training",
+      "Achieves_Effect",
+      "Energy Savings"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning",
+      "causes",
+      "High Energy Consumption"
+    ],
+    [
+      "Local Model Training",
+      "consumes",
+      "Energy"
+    ],
+    [
+      "Mobile Terminals",
+      "undergo",
+      "Local Model Training"
+    ],
+    [
+      "Data Sets",
+      "are",
+      "Irregular"
+    ],
+    [
+      "Edge Devices",
+      "contribute",
+      "Varyingly to Energy Consumption"
+    ],
+    [
+      "Test Data Sets",
+      "dependence",
+      "Local Model Training"
+    ],
+    [
+      "User Equipment",
+      "endows",
+      "CPU"
+    ],
+    [
+      "Cell-Free MIMO Network",
+      "supports",
+      "User Equipment"
+    ],
+    [
+      "CPU",
+      "iteratively adjusts",
+      "Working Frequency"
+    ],
+    [
+      "CPU",
+      "iteratively adjusts",
+      "Training Precision"
+    ],
+    [
+      "Model Parameter Uploading",
+      "distributes",
+      "Power"
+    ],
+    [
+      "Model Parameter Uploading",
+      "minimizes",
+      "Maximum Time Delay"
+    ],
+    [
+      "Local Model Training Power Consumption",
+      "is optimized by",
+      "Iterative Adjustment"
+    ],
+    [
+      "Power Distribution",
+      "occurs during",
+      "Model Parameter Uploading"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Cell-FreemMIMO Network",
+    "Energy Savings",
+    "High Energy Consumption During Local Model Training",
+    "Iterative Adjustment of CPU Working Frequency and Local Model Training Precision",
+    "Optimized Local Model Training",
+    "Power Distribution during Model Parameter Uploading Based on Minimizing Maximum Time Delay",
+    "User Equipment with CPU"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "CPU",
+    "Cell-Free MIMO Network",
+    "Data Sets",
+    "Edge Devices",
+    "Energy",
+    "Federal Learning",
+    "High Energy Consumption",
+    "Irregular",
+    "Iterative Adjustment",
+    "Local Model Training",
+    "Local Model Training Power Consumption",
+    "Maximum Time Delay",
+    "Mobile Terminals",
+    "Model Parameter Uploading",
+    "Power",
+    "Power Distribution",
+    "Test Data Sets",
+    "Training Precision",
+    "User Equipment",
+    "Varyingly to Energy Consumption",
+    "Working Frequency"
+  ],
+  "knowledge_graph2_relation": [
+    "are",
+    "causes",
+    "consumes",
+    "contribute",
+    "dependence",
+    "distributes",
+    "endows",
+    "is optimized by",
+    "iteratively adjusts",
+    "minimizes",
+    "occurs during",
+    "supports",
+    "undergo"
+  ],
+  "cpc_code": [
+    "G06F18/22",
+    "G06F18/23213",
+    "G06F18/24",
+    "G06N20/00"
+  ]
+}

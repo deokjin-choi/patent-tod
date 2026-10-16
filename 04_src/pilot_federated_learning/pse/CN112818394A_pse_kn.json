@@ -1,0 +1,307 @@
+{
+  "publication_number": "CN112818394A",
+  "title": "Self-adaptive asynchronous federal learning method with local privacy protection",
+  "assignee": "Xian Jiaotong University",
+  "filing_date": "2021-01-29",
+  "publication_date": "2021-05-18",
+  "pse": {
+    "problem": "The invention addresses three disadvantages in existing federal learning methods: overlook of asynchronous learning, lack of consideration for central server untrustworthiness, and lack of adaptive gradient clipping criteria for local privacy protection.",
+    "solution_function": "The self-adaptive asynchronous federal learning method with local privacy protection performs the following functions: initializes a global model by the central server, broadcasts global model parameters, gradient clipping standards, a noise mechanism, and noise variances to all participating users; trains the global model locally using user samples, applies adaptive gradient clipping, and disturbs gradients with noise; sends disturbed gradients back to the central server.",
+    "solution_structure": "Key components include: central server, participating users, a global model, local data, gradient clipping standards, a noise mechanism, and noise variances.",
+    "solution_implementation": "The process includes: initialization of global model by the central server; broadcasting of global model parameters, gradient clipping standards, a noise mechanism, and noise variances to all participating users; local training by each user using samples from their data; adaptive gradient clipping at the user level; addition of noise to disturbed gradients; sending disturbed gradients back to the central server.",
+    "effect": "The method ensures user privacy through local encryption and noise addition, improves learning efficiency with asynchronous learning, and provides a final model utility comparable to centralized mode due to adaptive gradient clipping."
+  },
+  "knowledge_graph": [
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Addresses_Problem",
+      "Overlook of Asynchronous Learning"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Addresses_Problem",
+      "Central Server Untrustworthiness"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Addresses_Problem",
+      "Lack of Adaptive Gradient Clipping Criteria for Local Privacy Protection"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Comprises_Component",
+      "Participating Users"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Comprises_Component",
+      "Global Model"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Comprises_Component",
+      "Local Data"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Comprises_Component",
+      "Gradient Clipping Standards"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Comprises_Component",
+      "Noise Mechanism"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Comprises_Component",
+      "Noise Variances"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Initialization of Global Model by the Central Server"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Broadcasting of Global Model Parameters"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Broadcasting of Gradient Clipping Standards"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Broadcasting of Noise Mechanism"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Broadcasting of Noise Variances"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Local Training by Each User"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Adaptive Gradient Clipping at the User Level"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Addition of Noise to Disturbed Gradients"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Implemented_By",
+      "Sending Disturbed Gradients Back to the Central Server"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Achieves_Effect",
+      "User Privacy"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Achieves_Effect",
+      "Improved Learning Efficiency"
+    ],
+    [
+      "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "Achieves_Effect",
+      "Final Model Utility Comparable to Centralized Mode"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Methods",
+      "overlooks",
+      "Asynchronous Learning"
+    ],
+    [
+      "Federal Learning Methods",
+      "lacks",
+      "Consideration for Central Server Untrustworthiness"
+    ],
+    [
+      "Federal Learning Methods",
+      "lacks",
+      "Adaptive Gradient Clipping Criteria for Local Privacy Protection"
+    ],
+    [
+      "Self-adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+      "initializes",
+      "Global Model by the Central Server"
+    ],
+    [
+      "Central Server",
+      "broadcasts",
+      "Global Model Parameters"
+    ],
+    [
+      "Central Server",
+      "broadcasts",
+      "Gradient Clipping Standards"
+    ],
+    [
+      "Central Server",
+      "broadcasts",
+      "Noise Mechanism"
+    ],
+    [
+      "Central Server",
+      "broadcasts",
+      "Noise Variances"
+    ],
+    [
+      "Participating Users",
+      "receives",
+      "Global Model Parameters from Central Server"
+    ],
+    [
+      "Participating Users",
+      "receives",
+      "Gradient Clipping Standards from Central Server"
+    ],
+    [
+      "Participating Users",
+      "receives",
+      "Noise Mechanism from Central Server"
+    ],
+    [
+      "Participating Users",
+      "receives",
+      "Noise Variances from Central Server"
+    ],
+    [
+      "Participating Users",
+      "trains",
+      "Global Model Locally using User Samples"
+    ],
+    [
+      "Participating Users",
+      "applies",
+      "Adaptive Gradient Clipping"
+    ],
+    [
+      "Participating Users",
+      "disturbs",
+      "Gradients with Noise"
+    ],
+    [
+      "Participating Users",
+      "sends",
+      "Disturbed Gradients Back to Central Server"
+    ],
+    [
+      "Local Data",
+      "is_used_for",
+      "Training Global Model Locally"
+    ],
+    [
+      "Global Model",
+      "ensures",
+      "User Privacy through Local Encryption and Noise Addition"
+    ],
+    [
+      "Global Model",
+      "improves",
+      "Learning Efficiency with Asynchronous Learning"
+    ],
+    [
+      "Global Model",
+      "provides",
+      "Final Model Utility Comparable to Centralized Mode due to Adaptive Gradient Clipping"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adaptive Gradient Clipping at the User Level",
+    "Addition of Noise to Disturbed Gradients",
+    "Broadcasting of Global Model Parameters",
+    "Broadcasting of Gradient Clipping Standards",
+    "Broadcasting of Noise Mechanism",
+    "Broadcasting of Noise Variances",
+    "Central Server",
+    "Central Server Untrustworthiness",
+    "Final Model Utility Comparable to Centralized Mode",
+    "Global Model",
+    "Gradient Clipping Standards",
+    "Improved Learning Efficiency",
+    "Initialization of Global Model by the Central Server",
+    "Lack of Adaptive Gradient Clipping Criteria for Local Privacy Protection",
+    "Local Data",
+    "Local Training by Each User",
+    "Noise Mechanism",
+    "Noise Variances",
+    "Overlook of Asynchronous Learning",
+    "Participating Users",
+    "Self-Adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+    "Sending Disturbed Gradients Back to the Central Server",
+    "User Privacy"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adaptive Gradient Clipping",
+    "Adaptive Gradient Clipping Criteria for Local Privacy Protection",
+    "Asynchronous Learning",
+    "Central Server",
+    "Consideration for Central Server Untrustworthiness",
+    "Disturbed Gradients Back to Central Server",
+    "Federal Learning Methods",
+    "Final Model Utility Comparable to Centralized Mode due to Adaptive Gradient Clipping",
+    "Global Model",
+    "Global Model Locally using User Samples",
+    "Global Model Parameters",
+    "Global Model Parameters from Central Server",
+    "Global Model by the Central Server",
+    "Gradient Clipping Standards",
+    "Gradient Clipping Standards from Central Server",
+    "Gradients with Noise",
+    "Learning Efficiency with Asynchronous Learning",
+    "Local Data",
+    "Noise Mechanism",
+    "Noise Mechanism from Central Server",
+    "Noise Variances",
+    "Noise Variances from Central Server",
+    "Participating Users",
+    "Self-adaptive Asynchronous Federal Learning Method with Local Privacy Protection",
+    "Training Global Model Locally",
+    "User Privacy through Local Encryption and Noise Addition"
+  ],
+  "knowledge_graph2_relation": [
+    "applies",
+    "broadcasts",
+    "disturbs",
+    "ensures",
+    "improves",
+    "initializes",
+    "is_used_for",
+    "lacks",
+    "overlooks",
+    "provides",
+    "receives",
+    "sends",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06F16/2462",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

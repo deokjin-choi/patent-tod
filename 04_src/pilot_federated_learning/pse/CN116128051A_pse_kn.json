@@ -1,0 +1,222 @@
+{
+  "publication_number": "CN116128051A",
+  "title": "An incentive-driven on-chain semi-asynchronous federated learning method",
+  "assignee": "Zhejiang University ZJU",
+  "filing_date": "2022-11-08",
+  "publication_date": "2023-05-16",
+  "pse": {
+    "problem": "Existing federated learning methods lack economic incentives for data holders to participate actively, suffer from centralization vulnerabilities, and lack a robust defense against malicious participants.",
+    "solution_function": "The invention introduces an on-chain semi-asynchronous federated learning method that incentivizes participation using a blockchain-based reward system. Data holders perform local computations and upload the results to a decentralized network, allowing the global model to be updated iteratively without exposing original data. The system's control flow is managed by smart contracts, which enforce reward distribution based on contributions and monitor model training results for potential attacks.",
+    "solution_structure": "The solution consists of multiple data holders connected through a decentralized network, each with local data storage and computation capabilities. A blockchain serves as the backbone, hosting smart contracts that manage rewards, control data flow, and oversee the federated learning process. Participating nodes include a manager node and worker nodes.",
+    "solution_implementation": "In each round of iteration, the manager node initiates the training process by broadcasting the current global model to worker nodes. Each worker node performs local computations on its private data, updates the model parameters, and signs the results using its digital identity before submitting them back to the manager node. The manager node collects signed results from all worker nodes and aggregates them to update the global model. Smart contracts on the blockchain manage rewards, distributing incentives based on each node's contribution to the federated learning process. To combat malicious behavior, smart contracts also monitor the quality of submitted results and penalize nodes that provide incorrect or low-quality data.",
+    "effect": "The proposed solution addresses the identified limitations by enhancing collaboration through economic incentives, reducing centralization vulnerabilities by employing a decentralized network, and implementing robust defense mechanisms against malicious participants. The outcome is a more credible and efficient federated learning method that encourages active participation and ensures data privacy."
+  },
+  "knowledge_graph": [
+    [
+      "On-chain Semi-Asynchronous Federated Learning Method",
+      "Addresses_Problem",
+      "Core Problem Concept: Lack of Economic Incentives, Centralization Vulnerabilities, Robust Defense Against Malicious Participants"
+    ],
+    [
+      "On-chain Semi-Asynchronous Federated Learning Method",
+      "Comprises_Component",
+      "Key Component 1: Decentralized Network"
+    ],
+    [
+      "On-chain Semi-Asynchronous Federated Learning Method",
+      "Comprises_Component",
+      "Key Component 2: Blockchain-based Reward System"
+    ],
+    [
+      "On-chain Semi-Asynchronous Federated Learning Method",
+      "Implemented_By",
+      "Core Operation Logic: Smart Contracts Managing Rewards, Data Flow, and Federation Learning Process"
+    ],
+    [
+      "On-chain Semi-Asynchronous Federated Learning Method",
+      "Achieves_Effect",
+      "Primary Benefit: Enhanced Collaboration, Reduced Centralization Vulnerabilities, Robust Defense Against Malicious Participants"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Methods",
+      "lacks",
+      "Economic Incentives"
+    ],
+    [
+      "Federated Learning Methods",
+      "suffers_from",
+      "Centralization Vulnerabilities"
+    ],
+    [
+      "Federated Learning Methods",
+      "lacks",
+      "Robust Defense Against Malicious Participants"
+    ],
+    [
+      "Blockchain-based Reward System",
+      "incentivizes",
+      "Participation"
+    ],
+    [
+      "Data Holders",
+      "perform",
+      "Local Computations"
+    ],
+    [
+      "Data Holders",
+      "upload_results_to",
+      "Decentralized Network"
+    ],
+    [
+      "Smart Contracts",
+      "manage",
+      "Rewards"
+    ],
+    [
+      "Smart Contracts",
+      "control",
+      "Data Flow"
+    ],
+    [
+      "Smart Contracts",
+      "oversee",
+      "Federated Learning Process"
+    ],
+    [
+      "Worker Nodes",
+      "receive",
+      "Global Model"
+    ],
+    [
+      "Worker Nodes",
+      "update_model_parameters",
+      "Local Computations"
+    ],
+    [
+      "Manager Node",
+      "broadcasts",
+      "Current Global Model"
+    ],
+    [
+      "Manager Node",
+      "collects",
+      "Signed Results"
+    ],
+    [
+      "Manager Node",
+      "aggregates",
+      "Model Updates"
+    ],
+    [
+      "Smart Contracts",
+      "distribute_incentives",
+      "Based on Contributions"
+    ],
+    [
+      "Smart Contracts",
+      "monitor",
+      "Model Training Results"
+    ],
+    [
+      "Smart Contracts",
+      "penalize",
+      "Nodes with Incorrect Data"
+    ],
+    [
+      "Federated Learning Method",
+      "addresses",
+      "Centralization Vulnerabilities"
+    ],
+    [
+      "Federated Learning Method",
+      "implements",
+      "Robust Defense Mechanisms"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "encourages",
+      "Active Participation"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "ensures",
+      "Data Privacy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Smart Contracts Managing Rewards, Data Flow, and Federation Learning Process",
+    "Core Problem Concept: Lack of Economic Incentives, Centralization Vulnerabilities, Robust Defense Against Malicious Participants",
+    "Key Component 1: Decentralized Network",
+    "Key Component 2: Blockchain-based Reward System",
+    "On-chain Semi-Asynchronous Federated Learning Method",
+    "Primary Benefit: Enhanced Collaboration, Reduced Centralization Vulnerabilities, Robust Defense Against Malicious Participants"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Active Participation",
+    "Based on Contributions",
+    "Blockchain-based Federated Learning",
+    "Blockchain-based Reward System",
+    "Centralization Vulnerabilities",
+    "Current Global Model",
+    "Data Flow",
+    "Data Holders",
+    "Data Privacy",
+    "Decentralized Network",
+    "Economic Incentives",
+    "Federated Learning Method",
+    "Federated Learning Methods",
+    "Federated Learning Process",
+    "Global Model",
+    "Local Computations",
+    "Manager Node",
+    "Model Training Results",
+    "Model Updates",
+    "Nodes with Incorrect Data",
+    "Participation",
+    "Rewards",
+    "Robust Defense Against Malicious Participants",
+    "Robust Defense Mechanisms",
+    "Signed Results",
+    "Smart Contracts",
+    "Worker Nodes"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "broadcasts",
+    "collects",
+    "control",
+    "distribute_incentives",
+    "encourages",
+    "ensures",
+    "implements",
+    "incentivizes",
+    "lacks",
+    "manage",
+    "monitor",
+    "oversee",
+    "penalize",
+    "perform",
+    "receive",
+    "suffers_from",
+    "update_model_parameters",
+    "upload_results_to"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6218",
+    "G06N3/08",
+    "H04L63/0428",
+    "H04L9/0869",
+    "H04L9/3239",
+    "Y02D10/00"
+  ]
+}

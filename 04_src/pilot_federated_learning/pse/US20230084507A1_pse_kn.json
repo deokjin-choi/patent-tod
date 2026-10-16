@@ -1,0 +1,236 @@
+{
+  "publication_number": "US20230084507A1",
+  "title": "Servers, methods and systems for fair and secure vertical federated learning",
+  "assignee": "Huawei Cloud Computing Technologies Co Ltd",
+  "filing_date": "2022-09-08",
+  "publication_date": "2023-03-16",
+  "pse": {
+    "problem": "The technical limitation is the need for a fair and secure system for vertical federated learning that preserves data privacy, maintains high accuracy, efficiency, security, and can be applied to various machine learning models.",
+    "solution_function": "The system performs federated learning, allowing multiple computing systems of different data owners to train a centralized global model without sharing their private data. The system ensures model fairness by training the machine learning model to satisfy a fairness metric. High security is maintained by only allowing entities to obtain model outputs and preventing acquisition of private information. High accuracy and efficiency are achieved through accurate computation and efficient communication. The system can be applied to various machine learning models.",
+    "solution_structure": "The system consists of multiple computing systems (data owners) with local datasets, a server that maintains the centralized global model, and a communication network for transmitting information between data owners and the server.",
+    "solution_implementation": "Each data owner performs local training of a local model using machine learning algorithms and its respective set of local data. The learnable parameters of the local model are adjusted based on local learned parameter information transmitted to the server, which updates the centralized global model accordingly. The system uses deep learning or other machine learning techniques such as a deep neural network (DNN) for model implementation.",
+    "effect": "The solution provides a fair and secure vertical federated learning system that preserves data privacy, maintains high accuracy, efficiency, and can be applied to various machine learning models."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Vertical Federated Learning Challenge"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Data Owners"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Centralized Global Model"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Communication Network"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Local Training"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Parameter Adjustment"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Deep Learning or DNN"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Data Privacy Preservation"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "High Accuracy"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Efficiency"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Applicability to Various ML Models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning System",
+      "performs",
+      "Local Training"
+    ],
+    [
+      "Multiple Computing Systems",
+      "comprises",
+      "Data Owners"
+    ],
+    [
+      "Server",
+      "maintains",
+      "Centralized Global Model"
+    ],
+    [
+      "Communication Network",
+      "connects_to",
+      "Data Owners"
+    ],
+    [
+      "Communication Network",
+      "connects_to",
+      "Server"
+    ],
+    [
+      "Machine Learning Algorithms",
+      "controls",
+      "Local Training"
+    ],
+    [
+      "Local Datasets",
+      "provides_input_for",
+      "Local Training"
+    ],
+    [
+      "Learned Parameters of Local Model",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Server",
+      "updates",
+      "Centralized Global Model"
+    ],
+    [
+      "Deep Neural Network (DNN)",
+      "implements",
+      "Model Implementation"
+    ],
+    [
+      "Machine Learning Models",
+      "applies_to",
+      "Federated Learning System"
+    ],
+    [
+      "Data Owners",
+      "preserves",
+      "Private Data"
+    ],
+    [
+      "Centralized Global Model",
+      "ensures",
+      "Model Fairness"
+    ],
+    [
+      "Server",
+      "prevents_acquisition_of",
+      "Private Information"
+    ],
+    [
+      "System",
+      "maintains",
+      "High Security"
+    ],
+    [
+      "System",
+      "achieves",
+      "High Accuracy"
+    ],
+    [
+      "System",
+      "achieves",
+      "Efficiency"
+    ],
+    [
+      "Federated Learning System",
+      "preserves",
+      "Data Privacy"
+    ],
+    [
+      "Model Fairness Metric",
+      "trains",
+      "Machine Learning Model"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Applicability to Various ML Models",
+    "Centralized Global Model",
+    "Communication Network",
+    "Data Owners",
+    "Data Privacy Preservation",
+    "Deep Learning or DNN",
+    "Efficiency",
+    "Federated Learning System",
+    "High Accuracy",
+    "Local Training",
+    "Parameter Adjustment",
+    "Vertical Federated Learning Challenge"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Centralized Global Model",
+    "Communication Network",
+    "Data Owners",
+    "Data Privacy",
+    "Deep Neural Network (DNN)",
+    "Efficiency",
+    "Federated Learning System",
+    "High Accuracy",
+    "High Security",
+    "Learned Parameters of Local Model",
+    "Local Datasets",
+    "Local Training",
+    "Machine Learning Algorithms",
+    "Machine Learning Model",
+    "Machine Learning Models",
+    "Model Fairness",
+    "Model Fairness Metric",
+    "Model Implementation",
+    "Multiple Computing Systems",
+    "Private Data",
+    "Private Information",
+    "Server",
+    "System"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "applies_to",
+    "comprises",
+    "connects_to",
+    "controls",
+    "ensures",
+    "implements",
+    "maintains",
+    "performs",
+    "preserves",
+    "prevents_acquisition_of",
+    "provides_input_for",
+    "trains",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/045",
+    "G06N3/09",
+    "G06N3/098"
+  ]
+}

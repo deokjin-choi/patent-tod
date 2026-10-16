@@ -1,0 +1,222 @@
+{
+  "publication_number": "CN115796309A",
+  "title": "Horizontal and vertical combination algorithm for federated learning",
+  "assignee": "China Telecom Bestpay Co Ltd",
+  "filing_date": "2022-09-20",
+  "publication_date": "2023-03-14",
+  "pse": {
+    "problem": "Existing federated learning algorithms cannot achieve simultaneous expansion of dimensional features and sample size for global model training and deployment in uncertain data sources and diverse data collection forms.",
+    "solution_function": "The invention presents a federated learning algorithm that performs horizontal-vertical combination, expanding dimensional features and sample size for global model training and deployment through data synchronization, model initialization, data alignment, and vertical federated learning. It improves the overall accuracy of the model by transferring gradients between vertical and horizontal federations.",
+    "solution_structure": "The algorithm consists of participating nodes (participants), databases with latitude characteristics, a horizontal global parameter, vertical model parameters, unique weights w for each participant, feature x for each participant, and a gradient transfer ratio.",
+    "solution_implementation": "The algorithm begins with data synchronization and model initialization, followed by data alignment. Afterward, it trains the vertical federated learning model on aligned data by using each participant's unique weight w and feature x to obtain gradients that are transferred proportionally between vertical and horizontal federations.",
+    "effect": "The solution results in a more accurate federation model due to simultaneous expansion of dimensional features and sample size for global training and deployment."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Addresses_Problem",
+      "Existing federated learning algorithms' inability to expand dimensional features and sample size for global training"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Comprises_Component",
+      "Participating nodes (participants)"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Comprises_Component",
+      "Databases with latitude characteristics"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Comprises_Component",
+      "Horizontal global parameter"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Comprises_Component",
+      "Vertical model parameters"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertex Combination)",
+      "Comprises_Component",
+      "Unique weights w for each participant"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Comprises_Component",
+      "Feature x for each participant"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Implemented_By",
+      "Data synchronization and model initialization"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertex Combination)",
+      "Implemented_By",
+      "Data alignment"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Implemented_By",
+      "Gradient transfer between vertical and horizontal federations"
+    ],
+    [
+      "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+      "Achieves_Effect",
+      "More accurate federation model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Cloud Computing",
+      "causes",
+      "Packet Delay"
+    ],
+    [
+      "Wireless Router",
+      "causes",
+      "Packet Delay"
+    ],
+    [
+      "Sensor",
+      "monitors",
+      "Environmental Parameters"
+    ],
+    [
+      "Sensor",
+      "transmits_to",
+      "Valve"
+    ],
+    [
+      "Valve",
+      "controls",
+      "Actuating Mechanism"
+    ],
+    [
+      "Sensor",
+      "transmits_to",
+      "Router"
+    ],
+    [
+      "Router",
+      "transmits_to",
+      "Remote Server"
+    ],
+    [
+      "Remote Server",
+      "processes",
+      "Data"
+    ],
+    [
+      "Remote Server",
+      "relays_to",
+      "Cloud Storage"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Network Delay"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Processed Data"
+    ],
+    [
+      "Wireless Router",
+      "connects_to",
+      "Internet"
+    ],
+    [
+      "Sensor",
+      "comprises",
+      "Sensing Unit"
+    ],
+    [
+      "Valve",
+      "comprises",
+      "Actuator"
+    ],
+    [
+      "Actuating Mechanism",
+      "controls",
+      "Valve Position"
+    ],
+    [
+      "Edge Node",
+      "communicates_with",
+      "Wireless Router"
+    ],
+    [
+      "Remote Server",
+      "connects_to",
+      "Internet"
+    ],
+    [
+      "Cloud Storage",
+      "connects_to",
+      "Internet"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data alignment",
+    "Data synchronization and model initialization",
+    "Databases with latitude characteristics",
+    "Existing federated learning algorithms' inability to expand dimensional features and sample size for global training",
+    "Feature x for each participant",
+    "Federated Learning Algorithm (Horizontal-Vertex Combination)",
+    "Federated Learning Algorithm (Horizontal-Vertical Combination)",
+    "Gradient transfer between vertical and horizontal federations",
+    "Horizontal global parameter",
+    "More accurate federation model",
+    "Participating nodes (participants)",
+    "Unique weights w for each participant",
+    "Vertical model parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Actuating Mechanism",
+    "Actuator",
+    "Cloud Computing",
+    "Cloud Storage",
+    "Data",
+    "Edge Node",
+    "Environmental Parameters",
+    "Internet",
+    "Network Delay",
+    "Packet Delay",
+    "Processed Data",
+    "Remote Server",
+    "Router",
+    "Sensing Unit",
+    "Sensor",
+    "Valve",
+    "Valve Position",
+    "Wireless Router"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "communicates_with",
+    "comprises",
+    "connects_to",
+    "controls",
+    "monitors",
+    "processes",
+    "reduces",
+    "relays_to",
+    "stores",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F16/28",
+    "G06N20/20",
+    "Y02D10/00"
+  ]
+}

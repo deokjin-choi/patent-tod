@@ -1,0 +1,275 @@
+{
+  "publication_number": "CN119210465A",
+  "title": "A hierarchical federated learning method with adaptive compression coding",
+  "assignee": "Hunan University of Science and Technology",
+  "filing_date": "2024-11-07",
+  "publication_date": "2024-12-27",
+  "pse": {
+    "problem": "Inefficient and asynchronous training in hierarchical federal learning methods lead to accumulation and amplification of deviations or errors, affecting the use of the method.",
+    "solution_function": "The invention presents a self-adaptive compression coding method that constructs a hierarchical federal learning architecture. It evaluates data processing performance indexes of each terminal device, matches edge servers according to predefined performance index intervals, collects environmental data, generates an environmental data training model for each terminal device, monitors network transmission performance indexes of each input end of the edge servers, matches compression rates, aggregates models based on compression rates and cloud service quality, and judges global quality of the cloud service.",
+    "solution_structure": "The structure consists of multiple terminal devices, edge servers, a cloud platform for environmental data storage, and a hierarchical federal learning architecture. The architecture includes input ends of the edge servers and a cloud service.",
+    "solution_implementation": "The method starts by constructing the hierarchical federal learning architecture. It then acquires data processing related information of each terminal device, evaluates their performance indexes, matches edge servers based on predefined performance index intervals, collects environmental data from the cloud platform, generates an environmental data training model for each terminal device, monitors network transmission performance indexes of each input end of the edge servers, matches compression rates, aggregates models based on compression rates and cloud service quality, and judges global quality of the cloud service.",
+    "effect": "This method reduces deviations or errors in training by adapting compression coding to improve the synchronization and efficiency of hierarchical federal learning."
+  },
+  "knowledge_graph": [
+    [
+      "Hierarchical Federal Learning Architecture",
+      "Addresses_Problem",
+      "Inefficient and asynchronous training in hierarchical federal learning methods"
+    ],
+    [
+      "Hierarchical Federal Learning Architecture",
+      "Comprises_Component",
+      "Multiple Terminal Devices"
+    ],
+    [
+      "Hierarchical Federal Learning Architecture",
+      "Comprises_Component",
+      "Edge Servers"
+    ],
+    [
+      "Hierarchical Federal Learning Architecture",
+      "Comprises_Component",
+      "Cloud Platform for Environmental Data Storage"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Constructing the hierarchical federal learning architecture"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Acquiring data processing related information of each terminal device"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Evaluating their performance indexes"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Matching edge servers based on predefined performance index intervals"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Collecting environmental data from the cloud platform"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Generating an environmental data training model for each terminal device"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Monitoring network transmission performance indexes of each input end of the edge servers"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Matching compression rates"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Aggregating models based on compression rates and cloud service quality"
+    ],
+    [
+      "Implementation Logic of Hierarchical Federal Learning Architecture",
+      "Implemented_By",
+      "Judging global quality of the cloud service"
+    ],
+    [
+      "Hierarchical Federal Learning Architecture",
+      "Achieves_Effect",
+      "Reducing deviations or errors in training"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Hierarchical Federal Learning Method",
+      "causes",
+      "Inefficiency"
+    ],
+    [
+      "Hierarchical Federal Learning Method",
+      "leads_to",
+      "Accumulation and Amplification of Errors"
+    ],
+    [
+      "Self-Adaptive Compression Coding Method",
+      "reduces",
+      "Deviations or Errors"
+    ],
+    [
+      "Self-Adaptive Compression Coding Method",
+      "improves",
+      "Synchronization"
+    ],
+    [
+      "Self-Adaptive Compression Coding Method",
+      "improves",
+      "Efficiency of Hierarchical Federal Learning"
+    ],
+    [
+      "Terminal Device",
+      "comprises",
+      "Data Processing Unit"
+    ],
+    [
+      "Edge Server",
+      "comprises",
+      "Input End"
+    ],
+    [
+      "Edge Server",
+      "connected_to",
+      "Cloud Platform"
+    ],
+    [
+      "Edge Server",
+      "transmits_data_to",
+      "Remote Server"
+    ],
+    [
+      "Cloud Platform",
+      "stores",
+      "Environmental Data"
+    ],
+    [
+      "Cloud Platform",
+      "provides",
+      "Environmental Data for Training Model Generation"
+    ],
+    [
+      "Terminal Device",
+      "generates",
+      "Training Model"
+    ],
+    [
+      "Edge Server",
+      "monitors",
+      "Network Transmission Performance Indexes"
+    ],
+    [
+      "Terminal Device",
+      "matches_compression_rates",
+      "Edge Servers"
+    ],
+    [
+      "Terminal Device",
+      "aggregates_models",
+      "Based on Compression Rates and Cloud Service Quality"
+    ],
+    [
+      "Cloud Platform",
+      "evaluates",
+      "Data Processing Performance Indexes of Terminal Devices"
+    ],
+    [
+      "Edge Server",
+      "judges",
+      "Global Quality of Cloud Service"
+    ],
+    [
+      "Terminal Device",
+      "has_connection_with",
+      "Edge Server"
+    ],
+    [
+      "Remote Server",
+      "processes",
+      "Training Data"
+    ],
+    [
+      "Remote Server",
+      "relays",
+      "Data to Cloud Storage"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Processed Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Acquiring data processing related information of each terminal device",
+    "Aggregating models based on compression rates and cloud service quality",
+    "Cloud Platform for Environmental Data Storage",
+    "Collecting environmental data from the cloud platform",
+    "Constructing the hierarchical federal learning architecture",
+    "Edge Servers",
+    "Evaluating their performance indexes",
+    "Generating an environmental data training model for each terminal device",
+    "Hierarchical Federal Learning Architecture",
+    "Implementation Logic of Hierarchical Federal Learning Architecture",
+    "Inefficient and asynchronous training in hierarchical federal learning methods",
+    "Judging global quality of the cloud service",
+    "Matching compression rates",
+    "Matching edge servers based on predefined performance index intervals",
+    "Monitoring network transmission performance indexes of each input end of the edge servers",
+    "Multiple Terminal Devices",
+    "Reducing deviations or errors in training"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accumulation and Amplification of Errors",
+    "Based on Compression Rates and Cloud Service Quality",
+    "Cloud Platform",
+    "Cloud Storage",
+    "Data Processing Performance Indexes of Terminal Devices",
+    "Data Processing Unit",
+    "Data to Cloud Storage",
+    "Deviations or Errors",
+    "Edge Server",
+    "Edge Servers",
+    "Efficiency of Hierarchical Federal Learning",
+    "Environmental Data",
+    "Environmental Data for Training Model Generation",
+    "Global Quality of Cloud Service",
+    "Hierarchical Federal Learning Method",
+    "Inefficiency",
+    "Input End",
+    "Network Transmission Performance Indexes",
+    "Processed Data",
+    "Remote Server",
+    "Self-Adaptive Compression Coding Method",
+    "Synchronization",
+    "Terminal Device",
+    "Training Data",
+    "Training Model"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates_models",
+    "causes",
+    "comprises",
+    "connected_to",
+    "evaluates",
+    "generates",
+    "has_connection_with",
+    "improves",
+    "judges",
+    "leads_to",
+    "matches_compression_rates",
+    "monitors",
+    "processes",
+    "provides",
+    "reduces",
+    "relays",
+    "stores",
+    "transmits_data_to"
+  ],
+  "cpc_code": [
+    "G06F9/5072",
+    "G06N20/00",
+    "H03M7/30"
+  ]
+}

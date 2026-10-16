@@ -1,0 +1,133 @@
+{
+  "publication_number": "CN114239862A",
+  "title": "anti-Byzantine attack federal learning method for protecting user data privacy",
+  "assignee": "University of Electronic Science and Technology of China",
+  "filing_date": "2021-12-23",
+  "publication_date": "2022-03-25",
+  "pse": {
+    "problem": "Privacy inference and Byzantine attack threats in federated learning systems used for medical diagnosis",
+    "solution_function": "The system uses homomorphic encryption technology to encrypt gradients uploaded by computing parties for privacy protection. It also implements data analysis on gradient data to resist Byzantine attacks, filtering out abnormal nodes and updating the model with data from normal nodes.",
+    "solution_structure": "The system consists of local medical institutions (nodes) that hold sensitive data, a central server that aggregates gradients, and encryption technology for secure communication.",
+    "solution_implementation": "The local nodes perform local training using their data and encrypt the gradients using homomorphic encryption. The central server aggregates these encrypted gradients without decryption, performs data analysis to filter out abnormal nodes, and updates the model with normal nodes' data after decryption.",
+    "effect": "Improved security against privacy leakage and Byzantine attacks in federated learning systems for medical diagnosis, maintaining user data privacy while ensuring accurate training of deep learning models."
+  },
+  "knowledge_graph": [
+    [
+      "Homomorphic Encryption",
+      "Addresses_Problem",
+      "Privacy inference and Byzantine attack threats"
+    ],
+    [
+      "Homomorphic Encryption",
+      "Comprises_Component",
+      "Local medical institutions (nodes)"
+    ],
+    [
+      "Homomorphic Encryption",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Homomorphic Encryption",
+      "Implemented_By",
+      "Encrypting gradients using homomorphic encryption"
+    ],
+    [
+      "Homomorphic Encryption",
+      "Achieves_Effect",
+      "Improved security against privacy leakage and Byzantine attacks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Systems",
+      "causes",
+      "Privacy Inference Threats"
+    ],
+    [
+      "Federated Learning Systems",
+      "causes",
+      "Byzantine Attack Threats"
+    ],
+    [
+      "Homomorphic Encryption Technology",
+      "controls",
+      "Privacy Protection"
+    ],
+    [
+      "Gradients",
+      "transmits_to",
+      "Central Server"
+    ],
+    [
+      "Central Server",
+      "processes",
+      "Data Analysis"
+    ],
+    [
+      "Central Server",
+      "filters_out",
+      "Abnormal Nodes"
+    ],
+    [
+      "Central Server",
+      "updates",
+      "Model"
+    ],
+    [
+      "Normal Nodes",
+      "comprises",
+      "Local Medical Institutions"
+    ],
+    [
+      "Deep Learning Models",
+      "achieves",
+      "Medical Diagnosis"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central server",
+    "Encrypting gradients using homomorphic encryption",
+    "Homomorphic Encryption",
+    "Improved security against privacy leakage and Byzantine attacks",
+    "Local medical institutions (nodes)",
+    "Privacy inference and Byzantine attack threats"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Abnormal Nodes",
+    "Byzantine Attack Threats",
+    "Central Server",
+    "Data Analysis",
+    "Deep Learning Models",
+    "Federated Learning Systems",
+    "Gradients",
+    "Homomorphic Encryption Technology",
+    "Local Medical Institutions",
+    "Medical Diagnosis",
+    "Model",
+    "Normal Nodes",
+    "Privacy Inference Threats",
+    "Privacy Protection"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "comprises",
+    "controls",
+    "filters_out",
+    "processes",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6263",
+    "G06N20/20"
+  ]
+}

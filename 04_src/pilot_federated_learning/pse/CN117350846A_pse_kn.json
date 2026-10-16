@@ -1,0 +1,129 @@
+{
+  "publication_number": "CN117350846A",
+  "title": "Personal credit assessment method and system based on federated learning decision forest",
+  "assignee": "Shandong University",
+  "filing_date": "2023-09-28",
+  "publication_date": "2024-01-05",
+  "pse": {
+    "problem": "Limitations in traditional personal credit assessment methods due to privacy concerns and inefficiencies in handling heterogeneous data.",
+    "solution_function": "Constructs a decision forest for personal credit assessment in federated learning scenarios while maintaining user privacy protection and high classification accuracy.",
+    "solution_structure": "Uses local optimal attributes and global optimal attributes to create new nodes in the decision forest.",
+    "solution_implementation": "In federated learning, each data holder trains a local model using their own private data. The local models are then aggregated to form a global model which is used for personal credit assessment.",
+    "effect": "Improved privacy protection and high classification accuracy in heterogeneous data scenarios"
+  },
+  "knowledge_graph": [
+    [
+      "Decision Forest",
+      "Addresses_Problem",
+      "Traditional Personal Credit Assessment Method Limitations"
+    ],
+    [
+      "Decision Forest",
+      "Comprises_Component",
+      "Local Optimal Attributes"
+    ],
+    [
+      "Decision Forest",
+      "Comprises_Component",
+      "Global Optimal Attributes"
+    ],
+    [
+      "Decision Forest",
+      "Implemented_By",
+      "Federated Learning Operation"
+    ],
+    [
+      "Decision Forest",
+      "Achieves_Effect",
+      "Improved Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional personal credit assessment methods",
+      "is limited by",
+      "privacy concerns and inefficiencies"
+    ],
+    [
+      "Federated learning scenarios",
+      "provides",
+      "user privacy protection"
+    ],
+    [
+      "Federated learning",
+      "allows",
+      "each data holder to train a local model using their own private data"
+    ],
+    [
+      "Local models",
+      "are aggregated",
+      "to form a global model"
+    ],
+    [
+      "Global model",
+      "is used for",
+      "personal credit assessment"
+    ],
+    [
+      "Decision forest",
+      "used in",
+      "federated learning for personal credit assessment"
+    ],
+    [
+      "Decision forest",
+      "includes",
+      "local optimal attributes and global optimal attributes"
+    ],
+    [
+      "Heterogeneous data",
+      "improves classification accuracy for"
+    ],
+    [
+      "Federated learning",
+      "ensures high classification accuracy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Decision Forest",
+    "Federated Learning Operation",
+    "Global Optimal Attributes",
+    "Improved Privacy Protection",
+    "Local Optimal Attributes",
+    "Traditional Personal Credit Assessment Method Limitations"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Decision forest",
+    "Federated learning",
+    "Federated learning scenarios",
+    "Global model",
+    "Local models",
+    "Traditional personal credit assessment methods",
+    "each data holder to train a local model using their own private data",
+    "federated learning for personal credit assessment",
+    "local optimal attributes and global optimal attributes",
+    "personal credit assessment",
+    "privacy concerns and inefficiencies",
+    "to form a global model",
+    "user privacy protection"
+  ],
+  "knowledge_graph2_relation": [
+    "allows",
+    "are aggregated",
+    "includes",
+    "is limited by",
+    "is used for",
+    "provides",
+    "used in"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00",
+    "G06Q40/03"
+  ]
+}

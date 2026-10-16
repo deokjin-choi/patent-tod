@@ -1,0 +1,193 @@
+{
+  "publication_number": "CN114745383A",
+  "title": "Mobile edge calculation assisted multilayer federal learning method",
+  "assignee": "Zhejiang Jinyichang Technology Co ltd",
+  "filing_date": "2022-04-08",
+  "publication_date": "2022-07-12",
+  "pse": {
+    "problem": "Limited computing power of car networking devices and long transmission distance between local device and remote data center in smart car networking network, leading to low training accuracy and reduced learning performance under the training time budget.",
+    "solution_function": "Mobile edge computing-assisted multi-layer federated learning method that offloads latency-sensitive and computationally intensive tasks from distributed mobile devices to nearby edge servers to bring model training closer to connected vehicles, improving training accuracy and learning performance within the given time budget.",
+    "solution_structure": "Mobile edge servers as nearby computing nodes and multiple user devices with sensing capabilities as clients. The system consists of federated learning layers, each layer responsible for a specific aspect of the learning process.",
+    "solution_implementation": "Each client performs local data processing and updates its model parameters. Edge servers aggregate model parameters from multiple clients, applying techniques such as client selection to optimize resource allocation. The federated learning process is repeated across multiple layers to achieve high-accuracy training results.",
+    "effect": "Improved training accuracy and learning performance compared to traditional federated learning methods, while reducing transmission cost and improving latency."
+  },
+  "knowledge_graph": [
+    [
+      "Mobile edge computing-assisted multi-layer federated learning method",
+      "Addresses_Problem",
+      "Limited computing power and long transmission distance"
+    ],
+    [
+      "Mobile edge computing-assisted multi-layer federated learning method",
+      "Comprises_Component",
+      "Mobile edge servers"
+    ],
+    [
+      "Mobile edge computing-assisted multi-layer federated learning method",
+      "Comprises_Component",
+      "Multiple user devices with sensing capabilities"
+    ],
+    [
+      "Mobile edge computing-assisted multi-layer federated learning method",
+      "Implemented_By",
+      "Local data processing and model parameter updates by clients, edge servers' aggregation of model parameters, and client selection techniques for optimized resource allocation"
+    ],
+    [
+      "Mobile edge computing-assisted multi-layer federated learning method",
+      "Achieves_Effect",
+      "Improved training accuracy and learning performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Car Networking Devices",
+      "has_limited_computing_power"
+    ],
+    [
+      "Smart Car Networking Network",
+      "has_long_transmission_distance"
+    ],
+    [
+      "Limited Computing Power",
+      "causes",
+      "Low Training Accuracy"
+    ],
+    [
+      "Long Transmission Distance",
+      "causes",
+      "Reduced Learning Performance"
+    ],
+    [
+      "Time Budget",
+      "constrains",
+      "Learning Performance"
+    ],
+    [
+      "Mobile Edge Computing",
+      "offloads",
+      "Latency-Sensitive Tasks"
+    ],
+    [
+      "Mobile Edge Computing",
+      "improves",
+      "Training Accuracy"
+    ],
+    [
+      "Mobile Edge Computing",
+      "improves",
+      "Learning Performance"
+    ],
+    [
+      "Mobile Edge Computing",
+      "reduces",
+      "Transmission Cost"
+    ],
+    [
+      "Mobile Edge Computing",
+      "improves",
+      "Latency"
+    ],
+    [
+      "Edge Servers",
+      "comprises",
+      "Nearby Computing Nodes"
+    ],
+    [
+      "User Devices",
+      "comprises",
+      "Clients"
+    ],
+    [
+      "Sensing Capabilities",
+      "monitors",
+      "Environmental Parameters"
+    ],
+    [
+      "Local Data Processing",
+      "updates",
+      "Model Parameters"
+    ],
+    [
+      "Edge Servers",
+      "aggregates",
+      "Model Parameters"
+    ],
+    [
+      "Client Selection",
+      "optimizes",
+      "Resource Allocation"
+    ],
+    [
+      "Federated Learning Layers",
+      "processes",
+      "Learning Tasks"
+    ],
+    [
+      "Federated Learning Layers",
+      "achieves",
+      "High-Accuracy Training Results"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Improved training accuracy and learning performance",
+    "Limited computing power and long transmission distance",
+    "Local data processing and model parameter updates by clients, edge servers' aggregation of model parameters, and client selection techniques for optimized resource allocation",
+    "Mobile edge computing-assisted multi-layer federated learning method",
+    "Mobile edge servers",
+    "Multiple user devices with sensing capabilities"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client Selection",
+    "Clients",
+    "Edge Servers",
+    "Environmental Parameters",
+    "Federated Learning Layers",
+    "High-Accuracy Training Results",
+    "Latency",
+    "Latency-Sensitive Tasks",
+    "Learning Performance",
+    "Learning Tasks",
+    "Limited Computing Power",
+    "Local Data Processing",
+    "Long Transmission Distance",
+    "Low Training Accuracy",
+    "Mobile Edge Computing",
+    "Model Parameters",
+    "Nearby Computing Nodes",
+    "Reduced Learning Performance",
+    "Resource Allocation",
+    "Sensing Capabilities",
+    "Time Budget",
+    "Training Accuracy",
+    "Transmission Cost",
+    "User Devices"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "aggregates",
+    "causes",
+    "comprises",
+    "constrains",
+    "improves",
+    "monitors",
+    "offloads",
+    "optimizes",
+    "processes",
+    "reduces",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F9/44594",
+    "H04L41/145",
+    "H04L67/10",
+    "H04L67/12",
+    "Y02D30/70"
+  ]
+}

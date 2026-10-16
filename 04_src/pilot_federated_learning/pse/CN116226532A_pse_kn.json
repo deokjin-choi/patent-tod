@@ -1,0 +1,164 @@
+{
+  "publication_number": "CN116226532A",
+  "title": "Information recommendation method and related device based on federated learning",
+  "assignee": "Shenzhen Dongjian Intelligent Technology Co ltd",
+  "filing_date": "2023-03-03",
+  "publication_date": "2023-06-06",
+  "pse": {
+    "problem": "The rapid development of the Internet has led to challenges in the traditional insurance industry, specifically the high cost of acquiring customers. Traditional marketing methods are less effective due to difficulties in attracting customers and high online advertising costs.",
+    "solution_function": "An information recommendation method based on federated learning is proposed to improve customer recommendation accuracy while reducing costs. The method evaluates a user's likelihood of being a target customer group by aggregating predictive evaluation results from the local slice model (a partial model of the vertical federation model) sent by the platform party and at least one predictive evaluation result calculated by one or more data providers based on the user's data.",
+    "solution_structure": "The system includes a platform party, a traffic platform, a coordinator, and P data providers (where P is a positive integer). The device consists of a sending unit, a computing unit, and a recommending unit.",
+    "solution_implementation": "The sending unit sends the local slice model to the traffic platform when needed. The computing unit calculates the first predictive evaluation result through the traffic platform and at least one second predictive evaluation result based on the user's data from at least one data provider. The recommending unit aggregates the first predictive evaluation result and the at least one second predictive evaluation result to obtain a final predictive evaluation value, which is used to recommend the user if they are a target customer group.",
+    "effect": "This solution reduces costs by improving the accuracy of customer recommendations."
+  },
+  "knowledge_graph": [
+    [
+      "An information recommendation method based on federated learning",
+      "Addresses_Problem",
+      "High cost of acquiring customers"
+    ],
+    [
+      "An information recommendation method based on federated learning",
+      "Comprises_Component",
+      "Local slice model"
+    ],
+    [
+      "An information recommendation method based on federated learning",
+      "Comprises_Component",
+      "Coordinator"
+    ],
+    [
+      "An information recommendation method based on federated learning",
+      "Comprises_Component",
+      "P data providers"
+    ],
+    [
+      "An information recommendation method based on federated learning",
+      "Implemented_By",
+      "Sending unit"
+    ],
+    [
+      "An information recommendation method based on federated learning",
+      "Implemented_By",
+      "Computing unit"
+    ],
+    [
+      "An information recommendation method based on federated learning",
+      "Implemented_By",
+      "Recommending unit"
+    ],
+    [
+      "An information recommendation method based on federated learning",
+      "Achieves_Effect",
+      "Cost reduction"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Internet Development",
+      "causes",
+      "High Customer Acquisition Cost"
+    ],
+    [
+      "Traditional Marketing Methods",
+      "are less effective at Attracting Customers"
+    ],
+    [
+      "Online Advertising",
+      "is costly"
+    ],
+    [
+      "Federated Learning System",
+      "proposes an Information Recommendation Method"
+    ],
+    [
+      "Information Recommendation Method",
+      "improves Customer Recommendation Accuracy"
+    ],
+    [
+      "Information Recommendation Method",
+      "reduces Costs"
+    ],
+    [
+      "Local Slice Model",
+      "is sent by Platform Party to Traffic Platform"
+    ],
+    [
+      "Platform Party",
+      "includes a Sending Unit"
+    ],
+    [
+      "Traffic Platform",
+      "processes Local Slice Model"
+    ],
+    [
+      "Device",
+      "includes a Computing Unit"
+    ],
+    [
+      "Computing Unit",
+      "calculates Predictive Evaluation Result"
+    ],
+    [
+      "Data Providers",
+      "provide User Data to Computing Unit"
+    ],
+    [
+      "User's Data",
+      "is used by at least one Data Provider to calculate Predictive Evaluation Result"
+    ],
+    [
+      "Recommending Unit",
+      "aggregates Predictive Evaluation Results"
+    ],
+    [
+      "Recommending Unit",
+      "obtains Final Predictive Evaluation Value"
+    ],
+    [
+      "Final Predictive Evaluation Value",
+      "is used to Recommend User"
+    ],
+    [
+      "System",
+      "includes a Coordinator"
+    ],
+    [
+      "Coordinator",
+      "coordinates Communication between Parties"
+    ],
+    [
+      "P Data Providers",
+      "participate in Federated Learning Process"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "An information recommendation method based on federated learning",
+    "Computing unit",
+    "Coordinator",
+    "Cost reduction",
+    "High cost of acquiring customers",
+    "Local slice model",
+    "P data providers",
+    "Recommending unit",
+    "Sending unit"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "High Customer Acquisition Cost",
+    "Internet Development"
+  ],
+  "knowledge_graph2_relation": [
+    "causes"
+  ],
+  "cpc_code": [
+    "G06F16/9535",
+    "G06N3/08",
+    "G06Q40/08"
+  ]
+}

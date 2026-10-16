@@ -1,0 +1,137 @@
+{
+  "publication_number": "EP4414905A1",
+  "title": "Federated learning method and related apparatus",
+  "assignee": "Huawei Technologies Co Ltd",
+  "filing_date": "2022-10-25",
+  "publication_date": "2024-08-14",
+  "pse": {
+    "problem": "Reduced convergence speed and precision of federated learning training due to non-uniform distribution of training datasets across terminal devices.",
+    "solution_function": "The method performs model training in a first network device using local training data from multiple terminal devices, sends the model gradient to a second network device for integration, resulting in a trained federated learning model that improves convergence and performance.",
+    "solution_structure": "The system consists of first and second network devices, and multiple terminal devices storing local training data.",
+    "solution_implementation": "In the first network device, the local training data is preprocessed, cached, and a local data resource list is maintained. Model training is performed on the cached, preprocessed local training data to obtain a model gradient. The model gradient is then sent to the second network device.",
+    "effect": "Improved convergence speed and precision of federated learning training resulting in better performance."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Model",
+      "Addresses_Problem",
+      "Non-uniform distribution of training datasets across terminal devices"
+    ],
+    [
+      "Federated Learning Model",
+      "Comprises_Component",
+      "First network device"
+    ],
+    [
+      "Federated Learning Model",
+      "Comprises_Component",
+      "Second network device"
+    ],
+    [
+      "Federated Learning Model",
+      "Implemented_By",
+      "Local data preprocessing, caching, and maintenance in the first network device"
+    ],
+    [
+      "Federated Learning Model",
+      "Achieves_Effect",
+      "Improved convergence speed and precision of federated learning training"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "First Network Device",
+      "performs",
+      "Model Training"
+    ],
+    [
+      "Second Network Device",
+      "integrates",
+      "Model Gradient"
+    ],
+    [
+      "Local Training Data",
+      "stored_in",
+      "Multiple Terminal Devices"
+    ],
+    [
+      "Local Training Data",
+      "preprocessed",
+      "In First Network Device"
+    ],
+    [
+      "First Network Device",
+      "maintains",
+      "Local Data Resource List"
+    ],
+    [
+      "First Network Device",
+      "sends",
+      "Model Gradient"
+    ],
+    [
+      "Terminal Devices",
+      "comprises",
+      "Training Datasets"
+    ],
+    [
+      "Non-uniform Distribution",
+      "affects",
+      "Convergence Speed and Precision"
+    ],
+    [
+      "Improved Convergence Speed",
+      "improves",
+      "Performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated Learning Model",
+    "First network device",
+    "Improved convergence speed and precision of federated learning training",
+    "Local data preprocessing, caching, and maintenance in the first network device",
+    "Non-uniform distribution of training datasets across terminal devices",
+    "Second network device"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Convergence Speed and Precision",
+    "First Network Device",
+    "Improved Convergence Speed",
+    "In First Network Device",
+    "Local Data Resource List",
+    "Local Training Data",
+    "Model Gradient",
+    "Model Training",
+    "Multiple Terminal Devices",
+    "Non-uniform Distribution",
+    "Performance",
+    "Second Network Device",
+    "Terminal Devices",
+    "Training Datasets"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "comprises",
+    "improves",
+    "integrates",
+    "maintains",
+    "performs",
+    "preprocessed",
+    "sends",
+    "stored_in"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/0464",
+    "G06N3/08",
+    "G06N3/09",
+    "G06N3/098"
+  ]
+}

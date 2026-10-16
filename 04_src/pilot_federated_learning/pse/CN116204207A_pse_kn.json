@@ -1,0 +1,137 @@
+{
+  "publication_number": "CN116204207A",
+  "title": "Model updating method, server, system and medium for federal learning",
+  "assignee": "Shenzhen Technology University",
+  "filing_date": "2022-12-29",
+  "publication_date": "2023-06-02",
+  "pse": {
+    "problem": "Long time consumption or low accuracy in federated learning during model updates due to inconsistent computing capabilities among edge devices, synchronous and asynchronous update methods.",
+    "solution_function": "Performs iterative model updating process on each node device. Consistency is ensured by initializing the system time stamp and global model before sending them to each node device. A model update threshold is set to aggregate gradients from multiple nodes. Gradient staleness is calculated based on the system timestamp, average gradient is computed, and models of participating nodes are updated accordingly. The process continues until a preset number of update rounds is reached.",
+    "solution_structure": "System includes edge devices (nodes), server for sending global model, and time synchronization mechanism. Each node has a local model and the capability to train and upload gradients.",
+    "solution_implementation": "Upon initialization, system timestamp and global model are established. The global model is sent to each node device. Once a threshold of training models is reached from nodes, gradient staleness is calculated for each node based on system time stamp. Average gradient is computed from these gradients. Each node's local model is updated according to the average gradient. The process repeats until a preset number of update rounds are completed.",
+    "effect": "Reduces time consumption and enhances accuracy in federated learning model updates, as each node's model is updated based on an average gradient derived from multiple nodes."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Updating Process",
+      "Addresses_Problem",
+      "Inconsistent Computing Capabilities in Federated Learning"
+    ],
+    [
+      "Federated Learning Updating Process",
+      "Comprises_Component",
+      "Time Synchronization Mechanism"
+    ],
+    [
+      "Federated Learning Updating Process",
+      "Comprises_Component",
+      "Edge Devices (Nodes)"
+    ],
+    [
+      "Federated Learning Updating Process",
+      "Implemented_By",
+      "Iterative Model Updating Procedure"
+    ],
+    [
+      "Federated Learning Updating Process",
+      "Achieves_Effect",
+      "Reduced Time Consumption in Federated Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Edge Device",
+      "comprises",
+      "Local Model"
+    ],
+    [
+      "Edge Device",
+      "comprises",
+      "Gradient Training Capability"
+    ],
+    [
+      "Edge Device",
+      "connects_to",
+      "Server"
+    ],
+    [
+      "Server",
+      "stores",
+      "Global Model"
+    ],
+    [
+      "Server",
+      "transmits_to",
+      "Edge Devices"
+    ],
+    [
+      "System Time Synchronization Mechanism",
+      "located_in",
+      "Server"
+    ],
+    [
+      "Gradient Staleness Calculation",
+      "controls",
+      "Model Update Process"
+    ],
+    [
+      "Average Gradient Computation",
+      "controls",
+      "Model Update Process"
+    ],
+    [
+      "Model Update Process",
+      "updates",
+      "Local Model (Edge Devices)"
+    ],
+    [
+      "Consistency Mechanism",
+      "achieves",
+      "Consistent Updating"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Edge Devices (Nodes)",
+    "Federated Learning Updating Process",
+    "Inconsistent Computing Capabilities in Federated Learning",
+    "Iterative Model Updating Procedure",
+    "Reduced Time Consumption in Federated Learning",
+    "Time Synchronization Mechanism"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Average Gradient Computation",
+    "Consistency Mechanism",
+    "Consistent Updating",
+    "Edge Device",
+    "Edge Devices",
+    "Global Model",
+    "Gradient Staleness Calculation",
+    "Gradient Training Capability",
+    "Local Model",
+    "Local Model (Edge Devices)",
+    "Model Update Process",
+    "Server",
+    "System Time Synchronization Mechanism"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "comprises",
+    "connects_to",
+    "controls",
+    "located_in",
+    "stores",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F8/65",
+    "G06N20/20",
+    "Y02D10/00"
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "publication_number": "CN116910541A",
+  "title": "Federal learning method and device based on cluster training and gradient sparsity",
+  "assignee": "Donghua University",
+  "filing_date": "2023-06-30",
+  "publication_date": "2023-10-20",
+  "pse": {
+    "problem": "Inefficiencies and privacy concerns in traditional federated learning due to data imbalance, low communication efficiency, and non-independent and identically distributed (Non-IID) data among clients",
+    "solution_function": "Addresses the problem by proposing a federated learning method based on cluster training and gradient sparsity that improves local model updates and global model aggregation in Non-IID scenarios, reducing oscillations during training and enhancing privacy protection.",
+    "solution_structure": "Includes multiple clients (Client1 to Client n) for distributed data processing, a central server for model aggregation, and sparsity constraints to control the importance of each client's update in the global model",
+    "solution_implementation": "Clients perform local training using their own datasets, sending updates to the central server. The central server aggregates updates from clients, applies cluster training, and implements gradient sparsity to minimize the impact of noisy or small-data clients on the final global model.",
+    "effect": "Improves communication efficiency by reducing the amount of data transmitted between clients and the central server, enhances privacy protection by not exposing user data, and maintains comparable accuracy to centralized training (CL) in Non-IID scenarios"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Addresses_Problem",
+      "Inefficiencies and privacy concerns in traditional federated learning"
+    ],
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Comprises_Component",
+      "Multiple Clients"
+    ],
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Implemented_By",
+      "Local training using clients' datasets"
+    ],
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Implemented_By",
+      "Model aggregation"
+    ],
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Implemented_By",
+      "Gradient sparsity constraints"
+    ],
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Achieves_Effect",
+      "Improved communication efficiency"
+    ],
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Achieves_Effect",
+      "Enhanced privacy protection"
+    ],
+    [
+      "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+      "Achieves_Effect",
+      "Comparable accuracy to centralized training in Non-IID scenarios"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Inefficiencies",
+      "causes",
+      "Traditional Federated Learning"
+    ],
+    [
+      "Privacy Concerns",
+      "causes",
+      "Traditional Federated Learning"
+    ],
+    [
+      "Data Imbalance",
+      "affects",
+      "Traditional Federated Learning"
+    ],
+    [
+      "Low Communication Efficiency",
+      "affects",
+      "Traditional Federated Learning"
+    ],
+    [
+      "Non-IID Data",
+      "affects",
+      "Traditional Federated Learning"
+    ],
+    [
+      "Federated Learning Method",
+      "addresses",
+      "Inefficiencies in Traditional Federated Learning"
+    ],
+    [
+      "Federated Learning Method",
+      "addresses",
+      "Privacy Concerns in Traditional Federated Learning"
+    ],
+    [
+      "Cluster Training",
+      "improves",
+      "Local Model Updates"
+    ],
+    [
+      "Gradient Sparsity",
+      "improves",
+      "Global Model Aggregation"
+    ],
+    [
+      "Cluster Training",
+      "reduces",
+      "Oscillations during Training"
+    ],
+    [
+      "Gradient Sparsity",
+      "enhances",
+      "Privacy Protection"
+    ],
+    [
+      "Clients (Client1 to Client n)",
+      "comprises",
+      "Multiple Clients"
+    ],
+    [
+      "Central Server",
+      "receives",
+      "Updates from Clients"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Updates"
+    ],
+    [
+      "Global Model",
+      "affects",
+      "Oscillations during Training"
+    ],
+    [
+      "Non-IID Scenarios",
+      "improves",
+      "Comparison to Centralized Training (CL)"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Comparable accuracy to centralized training in Non-IID scenarios",
+    "Enhanced privacy protection",
+    "Federated Learning Method (Based on Cluster Training and Gradient Sparsity)",
+    "Gradient sparsity constraints",
+    "Improved communication efficiency",
+    "Inefficiencies and privacy concerns in traditional federated learning",
+    "Local training using clients' datasets",
+    "Model aggregation",
+    "Multiple Clients"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Clients (Client1 to Client n)",
+    "Cluster Training",
+    "Comparison to Centralized Training (CL)",
+    "Data Imbalance",
+    "Federated Learning Method",
+    "Global Model",
+    "Global Model Aggregation",
+    "Gradient Sparsity",
+    "Inefficiencies",
+    "Inefficiencies in Traditional Federated Learning",
+    "Local Model Updates",
+    "Low Communication Efficiency",
+    "Multiple Clients",
+    "Non-IID Data",
+    "Non-IID Scenarios",
+    "Oscillations during Training",
+    "Privacy Concerns",
+    "Privacy Concerns in Traditional Federated Learning",
+    "Privacy Protection",
+    "Traditional Federated Learning",
+    "Updates",
+    "Updates from Clients"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "affects",
+    "aggregates",
+    "causes",
+    "comprises",
+    "enhances",
+    "improves",
+    "receives",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

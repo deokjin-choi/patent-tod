@@ -1,0 +1,170 @@
+{
+  "publication_number": "CN118301668A",
+  "title": "Mobile perception edge caching system and method for asynchronous federation and reinforcement learning",
+  "assignee": "Wuhan University WHU",
+  "filing_date": "2024-03-25",
+  "publication_date": "2024-07-05",
+  "pse": {
+    "problem": "The limited cache capacity of roadside units makes system performance severely dependent on well-designed cache policies. The popularity and availability of regional content are constantly changing due to the quick movement of vehicles, which causes outdated caches and privacy concerns.",
+    "solution_function": "Asynchronous federated reinforcement learning is used to predict content popularity by training Vehicle User (VU) data, ensuring context and mobility awareness for improved caching performance without requiring raw data transmission from vehicles. The prediction results inform cache decisions while maintaining privacy.",
+    "solution_structure": "The system consists of roadside units (RSUs), vehicles equipped with VUs, and a global model updated by exchanging local model parameters between vehicles and RSUs.",
+    "solution_implementation": "Local models are trained on each vehicle's VU data. Instead of uploading raw data, only model parameters are sent to the RSUs for aggregation and updating the global model. The asynchronous nature of federated learning allows for ongoing updates without synchronization, reducing idle resources and addressing mobility issues.",
+    "effect": "The system improves caching performance by predicting content popularity based on real-time VU data while protecting privacy, ensuring timely global model updates, and effectively utilizing cache capacity despite diverse content."
+  },
+  "knowledge_graph": [
+    [
+      "Asynchronous federated reinforcement learning",
+      "Addresses_Problem",
+      "Core Problem Concept: Limited cache capacity dependency on cache policies"
+    ],
+    [
+      "Asynchronous federated reinforcement learning",
+      "Comprises_Component",
+      "Key Component 1: Roadside units (RSUs)"
+    ],
+    [
+      "Asynchronous federated reinforcement learning",
+      "Comprises_Component",
+      "Key Component 2: Vehicles with Vehicle User (VU) data"
+    ],
+    [
+      "Asynchronous federated reinforcement learning",
+      "Implemented_By",
+      "Core Operation Logic: Predicting content popularity using VU data"
+    ],
+    [
+      "Asynchronous federated reinforcement learning",
+      "Achieves_Effect",
+      "Primary Benefit: Improved caching performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Vehicles",
+      "equipped_with",
+      "Vehicle User (VU)"
+    ],
+    [
+      "Roadside Units (RSUs)",
+      "comprises",
+      "Cloud Computing"
+    ],
+    [
+      "Roadside Units (RSUs)",
+      "comprises",
+      "Wireless Router"
+    ],
+    [
+      "Roadside Units (RSUs)",
+      "causes",
+      "Packet Delay"
+    ],
+    [
+      "Roadside Units (RSUs)",
+      "transmits_to",
+      "Remote Server"
+    ],
+    [
+      "Vehicle User Data",
+      "processes",
+      "Asynchronous Federated Reinforcement Learning"
+    ],
+    [
+      "Vehicle User Data",
+      "achieves",
+      "Context and Mobility Awareness"
+    ],
+    [
+      "Local Models",
+      "trained_on",
+      "Vehicle User Data"
+    ],
+    [
+      "Local Models",
+      "transmits_to",
+      "Roadside Units (RSUs)"
+    ],
+    [
+      "Roadside Units (RSUs)",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Roadside Units (RSUs)",
+      "maintains",
+      "Privacy"
+    ],
+    [
+      "Global Model",
+      "processes",
+      "Cache Decisions"
+    ],
+    [
+      "Content Popularity",
+      "predicted_by",
+      "Asynchronous Federated Reinforcement Learning"
+    ],
+    [
+      "Caching Performance",
+      "improves",
+      "System"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Asynchronous federated reinforcement learning",
+    "Core Operation Logic: Predicting content popularity using VU data",
+    "Core Problem Concept: Limited cache capacity dependency on cache policies",
+    "Key Component 1: Roadside units (RSUs)",
+    "Key Component 2: Vehicles with Vehicle User (VU) data",
+    "Primary Benefit: Improved caching performance"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Asynchronous Federated Reinforcement Learning",
+    "Cache Decisions",
+    "Caching Performance",
+    "Cloud Computing",
+    "Content Popularity",
+    "Context and Mobility Awareness",
+    "Global Model",
+    "Local Models",
+    "Packet Delay",
+    "Privacy",
+    "Remote Server",
+    "Roadside Units (RSUs)",
+    "System",
+    "Vehicle User (VU)",
+    "Vehicle User Data",
+    "Vehicles",
+    "Wireless Router"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "comprises",
+    "equipped_with",
+    "improves",
+    "maintains",
+    "predicted_by",
+    "processes",
+    "trained_on",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F9/5072",
+    "G06N3/092",
+    "G06N3/098",
+    "H04L67/10",
+    "H04L67/12",
+    "H04W28/082",
+    "H04W28/084",
+    "H04W28/0925",
+    "H04W4/44"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "publication_number": "US20230274192A1",
+  "title": "Federated learning method, apparatus, and system",
+  "assignee": "Huawei Technologies Co Ltd",
+  "filing_date": "2023-05-09",
+  "publication_date": "2023-08-31",
+  "pse": {
+    "problem": "Unbalanced and varying datasets in participant nodes lead to precision reduction in federated learning models",
+    "solution_function": "The system selects specific participant nodes with relevant data classes based on their data distribution information, then applies data preprocessing techniques to balance the data before federated averaging is performed",
+    "solution_structure": "The system consists of a coordinator node and multiple participant nodes. Each participant node has local storage for data and processing capabilities. The coordinator node communicates with all participant nodes and aggregates model updates from them.",
+    "solution_implementation": "1. Coordinator node obtains data distribution information of each participant node based on a target feature. 2. Coordinator node selects relevant participant nodes for training based on the target class and data distribution information. 3. Selected participant nodes preprocess their data to balance it. 4. Each participant node trains the AI model using its preprocessed data and sends updated model parameters/gradient values to the coordinator node. 5. Coordinator node aggregates the updates using federated averaging algorithm.",
+    "effect": "Improved precision of federated learning models by accounting for unbalanced and varying datasets in participant nodes"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Unbalanced Datasets Variation Problem"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Coordinator Node"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Participant Nodes"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Data Selection Logic"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Data Preprocessing Techniques"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Federated Averaging Algorithm"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Improved Precision"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Unbalanced Datasets",
+      "causes",
+      "Precision Reduction"
+    ],
+    [
+      "Varying Datasets",
+      "causes",
+      "Precision Reduction"
+    ],
+    [
+      "Participant Node",
+      "possesses",
+      "Relevant Data Classes"
+    ],
+    [
+      "Participant Node",
+      "provides",
+      "Data Distribution Information"
+    ],
+    [
+      "Coordinator Node",
+      "uses",
+      "Target Feature"
+    ],
+    [
+      "Coordinator Node",
+      "selects",
+      "Relevant Participant Nodes"
+    ],
+    [
+      "Participant Node",
+      "applies",
+      "Data Preprocessing Techniques"
+    ],
+    [
+      "Participant Node",
+      "balances",
+      "Data"
+    ],
+    [
+      "Federated Averaging",
+      "is_performed",
+      "After Data Balancing"
+    ],
+    [
+      "Coordinator Node",
+      "aggregates",
+      "Model Updates"
+    ],
+    [
+      "AI Model",
+      "receives",
+      "Updates from Participant Nodes"
+    ],
+    [
+      "Federated Learning Models",
+      "experiences",
+      "Improved Precision"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Coordinator Node",
+    "Data Preprocessing Techniques",
+    "Data Selection Logic",
+    "Federated Averaging Algorithm",
+    "Federated Learning System",
+    "Improved Precision",
+    "Participant Nodes",
+    "Unbalanced Datasets Variation Problem"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "AI Model",
+    "After Data Balancing",
+    "Coordinator Node",
+    "Data",
+    "Data Distribution Information",
+    "Data Preprocessing Techniques",
+    "Federated Averaging",
+    "Federated Learning Models",
+    "Improved Precision",
+    "Model Updates",
+    "Participant Node",
+    "Precision Reduction",
+    "Relevant Data Classes",
+    "Relevant Participant Nodes",
+    "Target Feature",
+    "Unbalanced Datasets",
+    "Updates from Participant Nodes",
+    "Varying Datasets"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "applies",
+    "balances",
+    "causes",
+    "experiences",
+    "is_performed",
+    "possesses",
+    "provides",
+    "receives",
+    "selects",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/0464",
+    "G06N3/098"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "publication_number": "CN114186694A",
+  "title": "An Efficient, Secure, and Low-Communication Vertical Federated Learning Approach",
+  "assignee": "Zhejiang University ZJU",
+  "filing_date": "2021-11-16",
+  "publication_date": "2022-03-15",
+  "pse": {
+    "problem": "The patent addresses the issue of security and low efficiency in vertical federated learning, where different devices belong to the same user but have different characteristics.",
+    "solution_function": "The invention presents a method for efficient, secure, and low-communication vertical federated learning. It involves participants sending selected feature data with added noise that satisfies differential privacy to other participants, aligning the data using received feature data as labels, and training multiple models with the original held data at the same data index.",
+    "solution_structure": "The key components include participating devices that hold different characteristic data and add noise to it before transmission. There is also a process for aligning data using indices.",
+    "solution_implementation": "Steps include selecting features, adding noise, sending data with indices, aligning the data, using received feature data as labels, training multiple models, and predicting and filling labels when necessary. The method follows differential privacy principles.",
+    "effect": "The solution allows for more efficient and quicker complete training at a minimal accuracy loss compared to traditional vertical federated learning methods."
+  },
+  "knowledge_graph": [
+    [
+      "Efficient Secure Low-communication Vertical Federated Learning Method",
+      "Addresses_Problem",
+      "Security and Low Efficiency in Vertical Federated Learning"
+    ],
+    [
+      "Efficient Secure Low-communication Vertical Federated Learning Method",
+      "Comprises_Component",
+      "Participating Devices with Different Characteristic Data"
+    ],
+    [
+      "Efficient Secure Low-communication Vertical Federated Learning Method",
+      "Composes_Component",
+      "Noise Addition Process"
+    ],
+    [
+      "Efficient Secure Low-communication Vertical Federated Learning Method",
+      "Implemented_By",
+      "Feature Selection, Noise Addition, Data Sending with Indices, Data Alignment, Multiple Model Training, Prediction and Filling Labels"
+    ],
+    [
+      "Efficient Secure Low-communication Vertical Federated Learning Method",
+      "Achieves_Effect",
+      "Quick Complete Training and Minimal Accuracy Loss"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Vertical Federated Learning",
+      "causes",
+      "Security Issue"
+    ],
+    [
+      "Vertical Federated Learning",
+      "causes",
+      "Low Efficiency"
+    ],
+    [
+      "Participating Devices",
+      "comprises",
+      "Different Characteristic Data"
+    ],
+    [
+      "Participants",
+      "controls",
+      "Noise Addition"
+    ],
+    [
+      "Noise",
+      "applies_to",
+      "Feature Data"
+    ],
+    [
+      "Feature Data",
+      "transmits_to",
+      "Other Participants"
+    ],
+    [
+      "Data Alignment Process",
+      "uses",
+      "Received Feature Data As Labels"
+    ],
+    [
+      "Training Models",
+      "processes",
+      "Original Held Data"
+    ],
+    [
+      "Efficient and Secure Vertical Federated Learning Method",
+      "achieves",
+      "Quick Complete Training"
+    ],
+    [
+      "Efficient and Secure Vertical Federated Learning Method",
+      "achieves",
+      "Minimal Accuracy Loss"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Efficient Secure Low-communication Vertical Federated Learning Method",
+    "Feature Selection, Noise Addition, Data Sending with Indices, Data Alignment, Multiple Model Training, Prediction and Filling Labels",
+    "Noise Addition Process",
+    "Participating Devices with Different Characteristic Data",
+    "Quick Complete Training and Minimal Accuracy Loss",
+    "Security and Low Efficiency in Vertical Federated Learning"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Composes_Component",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Data Alignment Process",
+    "Different Characteristic Data",
+    "Efficient and Secure Vertical Federated Learning Method",
+    "Feature Data",
+    "Low Efficiency",
+    "Minimal Accuracy Loss",
+    "Noise",
+    "Noise Addition",
+    "Original Held Data",
+    "Other Participants",
+    "Participants",
+    "Participating Devices",
+    "Quick Complete Training",
+    "Received Feature Data As Labels",
+    "Security Issue",
+    "Training Models",
+    "Vertical Federated Learning"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "applies_to",
+    "causes",
+    "comprises",
+    "controls",
+    "processes",
+    "transmits_to",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "publication_number": "CN115422562A",
+  "title": "Method and system for aggregating coding fields of multi-party gradients in federated learning",
+  "assignee": "Peng Cheng Laboratory",
+  "filing_date": "2022-08-19",
+  "publication_date": "2022-12-02",
+  "pse": {
+    "problem": "The existing federated learning process introduces computational cost and communication burden due to the use of homomorphic encryption.",
+    "solution_function": "The invention provides a coding domain aggregation method that encodes gradients from multiple participating terminals, aggregates them on the server, decodes them back to obtain a decoding gradient, and updates the federated learning model.",
+    "solution_structure": "Multiple participating terminals have their own data sets. There is a server with an encoder, decoder, and quantization parameters. A training data set is generated according to the quantization parameters.",
+    "solution_implementation": "Participating terminals calculate original gradients based on neural network, quantize them, map to an integer domain, and input into the pre-trained encoder. The server initializes the encoder, decoder, and quantization parameters; samples vectors from the training data set; trains and updates the encoder; aggregates all coding gradients; inputs the aggregation result into a pre-trained decoder to obtain a decoding gradient.",
+    "effect": "The invention reduces computational cost and communication burden in comparison to existing federated learning methods that use homomorphic encryption."
+  },
+  "knowledge_graph": [
+    [
+      "Coding Domain Aggregation Method",
+      "Addresses_Problem",
+      "Computational Cost and Communication Burden due to Homomorphic Encryption"
+    ],
+    [
+      "Coding Domain Aggregation Method",
+      "Comprises_Component",
+      "Multiple Participating Terminals with Own Data Sets"
+    ],
+    [
+      "Coding Domain Aggregation Method",
+      "Comprises_Component",
+      "Server with Encoder, Decoder, and Quantization Parameters"
+    ],
+    [
+      "Coding Domain Aggregation Method",
+      "Implemented_By",
+      "Participating Terminals Calculate Original Gradients"
+    ],
+    [
+      "Coding Domain Aggregation Method",
+      "Implemented_By",
+      "Server Initializes the Encoder, Decoder, and Quantization Parameters"
+    ],
+    [
+      "Coding Domain Aggregation Method",
+      "Achieves_Effect",
+      "Reduction of Computational Cost and Communication Burden"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Federated Learning Process",
+      "causes",
+      "Computational Cost"
+    ],
+    [
+      "Existing Federated Learning Process",
+      "causes",
+      "Communication Burden"
+    ],
+    [
+      "Homomorphic Encryption",
+      "causes",
+      "Computational Cost"
+    ],
+    [
+      "Homomorphic Encryption",
+      "causes",
+      "Communication Burden"
+    ],
+    [
+      "Coding Domain Aggregation Method",
+      "reduces",
+      "Computational Cost"
+    ],
+    [
+      "Coding Domain Aggregation Method",
+      "reduces",
+      "Communication Burden"
+    ],
+    [
+      "Participating Terminals",
+      "comprises",
+      "Data Sets"
+    ],
+    [
+      "Server",
+      "processes",
+      "Coding Gradients"
+    ],
+    [
+      "Server",
+      "stores",
+      "Quantization Parameters"
+    ],
+    [
+      "Training Data Set",
+      "is_generated_according_to",
+      "Quantization Parameters"
+    ],
+    [
+      "Participating Terminals",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Encoder",
+      "implemented_by",
+      "Remote Server"
+    ],
+    [
+      "Decoder",
+      "implemented_by",
+      "Remote Server"
+    ],
+    [
+      "Quantization Parameters",
+      "is_initialized_by",
+      "Remote Server"
+    ],
+    [
+      "Neural Network",
+      "operates_on",
+      "Participating Terminals' Data Sets"
+    ],
+    [
+      "Original Gradients",
+      "are_calculated_based_on",
+      "Neural Network"
+    ],
+    [
+      "Original Gradients",
+      "are_quantized_by",
+      "Participating Terminals"
+    ],
+    [
+      "Quantized Gradients",
+      "are_mapped_to",
+      "Integer Domain"
+    ],
+    [
+      "Quantized Gradients",
+      "are_input_into",
+      "Encoder"
+    ],
+    [
+      "Aggregated Coding Gradients",
+      "are_processed_by",
+      "Server"
+    ],
+    [
+      "Decoding Gradient",
+      "is_obtained_from",
+      "Decoder"
+    ],
+    [
+      "Federated Learning Model",
+      "is_updated_by",
+      "Aggregated Coding Gradients"
+    ],
+    [
+      "Processed Data",
+      "is_stored_in",
+      "Cloud Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Coding Domain Aggregation Method",
+    "Computational Cost and Communication Burden due to Homomorphic Encryption",
+    "Multiple Participating Terminals with Own Data Sets",
+    "Participating Terminals Calculate Original Gradients",
+    "Reduction of Computational Cost and Communication Burden",
+    "Server Initializes the Encoder, Decoder, and Quantization Parameters",
+    "Server with Encoder, Decoder, and Quantization Parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Coding Gradients",
+    "Cloud Storage",
+    "Coding Domain Aggregation Method",
+    "Coding Gradients",
+    "Communication Burden",
+    "Computational Cost",
+    "Data Sets",
+    "Decoder",
+    "Decoding Gradient",
+    "Encoder",
+    "Existing Federated Learning Process",
+    "Federated Learning Model",
+    "Homomorphic Encryption",
+    "Integer Domain",
+    "Neural Network",
+    "Original Gradients",
+    "Participating Terminals",
+    "Participating Terminals' Data Sets",
+    "Processed Data",
+    "Quantization Parameters",
+    "Quantized Gradients",
+    "Remote Server",
+    "Server",
+    "Training Data Set"
+  ],
+  "knowledge_graph2_relation": [
+    "are_calculated_based_on",
+    "are_input_into",
+    "are_mapped_to",
+    "are_processed_by",
+    "are_quantized_by",
+    "causes",
+    "comprises",
+    "implemented_by",
+    "is_generated_according_to",
+    "is_initialized_by",
+    "is_obtained_from",
+    "is_stored_in",
+    "is_updated_by",
+    "operates_on",
+    "processes",
+    "reduces",
+    "stores",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06N3/04",
+    "G06N3/08"
+  ]
+}

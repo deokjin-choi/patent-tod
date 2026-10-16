@@ -1,0 +1,163 @@
+{
+  "publication_number": "CN116502223A",
+  "title": "A method to protect user data privacy and resist malicious attackers under federated learning",
+  "assignee": "Jinan University",
+  "filing_date": "2023-04-03",
+  "publication_date": "2023-07-28",
+  "pse": {
+    "problem": "The traditional federated learning method faces challenges in protecting user privacy and resisting malicious attacks.",
+    "solution_function": "The invention presents a method that protects the privacy of user's local training model and ensures the accuracy of the global model under federated learning. It achieves this by using differential privacy to protect users and multi-party secure computing to resist data uploaded by malicious attackers.",
+    "solution_structure": "The system consists of local devices, a server, and key components for implementing differential privacy and multi-party secure computing.",
+    "solution_implementation": "In the local device, user data is used for local training. Differential privacy is applied to inject noise into the model to protect user privacy. The trained local model is then securely sent to the server using multi-party secure computing. On the server, the global model is updated by aggregating the received local models.",
+    "effect": "The solution improves user data privacy protection and resists malicious attacks, thereby ensuring the accuracy of the global model and reducing computational burdens on honest users."
+  },
+  "knowledge_graph": [
+    [
+      "Privacy-Protecting Federated Learning Method",
+      "Addresses_Problem",
+      "Core Problem Concept: Traditional Federated Learning Challenges"
+    ],
+    [
+      "Privacy-Protecting Federated Learning Method",
+      "Comprises_Component",
+      "Key Component 1: Differential Privacy"
+    ],
+    [
+      "Privacy-Protecting Federated Learning Method",
+      "Comprises_Component",
+      "Key Component 2: Multi-party Secure Computing"
+    ],
+    [
+      "Privacy-Protecting Federated Learning Method",
+      "Implemented_By",
+      "Core Operation Logic: Local Training, Noise Injection, Model Aggregation"
+    ],
+    [
+      "Privacy-Protecting Federated Learning Method",
+      "Achieves_Effect",
+      "Primary Benefit: Improved User Data Privacy, Resistance to Malicious Attacks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Federated Learning Method",
+      "causes",
+      "Privacy Challenges"
+    ],
+    [
+      "Traditional Federated Learning Method",
+      "vulnerable_to",
+      "Malicious Attacks"
+    ],
+    [
+      "Invention",
+      "solves",
+      "Privacy Challenges"
+    ],
+    [
+      "Invention",
+      "resists",
+      "Malicious Attacks"
+    ],
+    [
+      "Local Devices",
+      "comprises",
+      "User Data"
+    ],
+    [
+      "Local Devices",
+      "performs",
+      "Local Training"
+    ],
+    [
+      "Differential Privacy",
+      "applies_to",
+      "Local Model"
+    ],
+    [
+      "Differential Privacy",
+      "injects",
+      "Noise"
+    ],
+    [
+      "Secure Sending",
+      "uses",
+      "Multi-party Secure Computing"
+    ],
+    [
+      "Server",
+      "receives",
+      "Trained Local Models"
+    ],
+    [
+      "Global Model",
+      "updates_by",
+      "Aggregating Local Models"
+    ],
+    [
+      "Differential Privacy",
+      "protects",
+      "User Privacy"
+    ],
+    [
+      "Multi-party Secure Computing",
+      "resists",
+      "Malicious Attackers"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Local Training, Noise Injection, Model Aggregation",
+    "Core Problem Concept: Traditional Federated Learning Challenges",
+    "Key Component 1: Differential Privacy",
+    "Key Component 2: Multi-party Secure Computing",
+    "Primary Benefit: Improved User Data Privacy, Resistance to Malicious Attacks",
+    "Privacy-Protecting Federated Learning Method"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregating Local Models",
+    "Differential Privacy",
+    "Global Model",
+    "Invention",
+    "Local Devices",
+    "Local Model",
+    "Local Training",
+    "Malicious Attackers",
+    "Malicious Attacks",
+    "Multi-party Secure Computing",
+    "Noise",
+    "Privacy Challenges",
+    "Secure Sending",
+    "Server",
+    "Traditional Federated Learning Method",
+    "Trained Local Models",
+    "User Data",
+    "User Privacy"
+  ],
+  "knowledge_graph2_relation": [
+    "applies_to",
+    "causes",
+    "comprises",
+    "injects",
+    "performs",
+    "protects",
+    "receives",
+    "resists",
+    "solves",
+    "updates_by",
+    "uses",
+    "vulnerable_to"
+  ],
+  "cpc_code": [
+    "G06F21/56",
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N20/00",
+    "Y02D30/50"
+  ]
+}

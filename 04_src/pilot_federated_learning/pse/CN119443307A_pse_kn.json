@@ -1,0 +1,228 @@
+{
+  "publication_number": "CN119443307A",
+  "title": "A method, device, equipment and storage medium for hierarchical federated learning of electricity consumption data",
+  "assignee": "Wuhan University WHU",
+  "filing_date": "2024-10-14",
+  "publication_date": "2025-02-14",
+  "pse": {
+    "problem": "Limited enthusiasm of participants due to existing federal learning framework deficiencies: high time consumption in synchronous aggregation, non-comprehensive reward mechanism, lack of consideration for task publishers rewards and benefits, unsuitable rewarding form.",
+    "solution_function": "A hierarchical federal learning method facilitates privacy protection and data island resolution by enabling model training on local equipment without exposing user data. The system coordinates between participants (home energy management systems and load integrators) for real-time electricity data collection, local training, parameter updates, asynchronous local aggregation, and issuance of local aggregation parameters.",
+    "solution_structure": "The system consists of participating units (home energy management systems and load integrators), each home energy management system collects real-time electricity data and performs local training based on it to update local model parameters, which are then submitted to the corresponding load integrator.",
+    "solution_implementation": "In this method, a participant obtains initial model parameters and begins training based on these parameters. The household energy management system collects real-time electricity data and conducts local training using it to update the local model parameters. These updated local model parameters are submitted to the load integrator in the corresponding area. The load integrator performs asynchronous local aggregation based on the local model parameters and the current global model parameters to obtain local aggregation parameters.",
+    "effect": "By addressing the deficiencies of existing federal learning frameworks, this solution promotes increased participation enthusiasm due to reduced time consumption, a more comprehensive reward mechanism, consideration for task publishers rewards and benefits, and a suitable rewarding form."
+  },
+  "knowledge_graph": [
+    [
+      "Hierarchical Federal Learning Method",
+      "Addresses_Problem",
+      "Limited enthusiasm due to federal learning framework deficiencies"
+    ],
+    [
+      "Hierarchical Federal Learning Method",
+      "Comprises_Component",
+      "Home Energy Management Systems"
+    ],
+    [
+      "Hierarchical Federal Learning Method",
+      "Comprises_Component",
+      "Load Integrators"
+    ],
+    [
+      "Hierarchical Federal Learning Method",
+      "Implemented_By",
+      "Participant Operation Logic"
+    ],
+    [
+      "Hierarchical Federal Learning Method",
+      "Achieves_Effect",
+      "Increased participation enthusiasm"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Framework",
+      "causes",
+      "Limited Enthusiasm of Participants"
+    ],
+    [
+      "High Time Consumption",
+      "belongs_to",
+      "Synchronous Aggregation"
+    ],
+    [
+      "Non-Comprehensive Reward Mechanism",
+      "belongs_to",
+      "Existing Federal Learning Framework"
+    ],
+    [
+      "Lack of Consideration for Task Publishers Rewards and Benefits",
+      "belongs_to",
+      "Existing Federal Learning Framework"
+    ],
+    [
+      "Unsuitable Rewarding Form",
+      "belongs_to",
+      "Existing Federal Learning Framework"
+    ],
+    [
+      "Hierarchical Federal Learning Method",
+      "addresses",
+      "Deficiencies of Existing Federal Learning Frameworks"
+    ],
+    [
+      "Hierarchical Federal Learning Method",
+      "enables",
+      "Model Training on Local Equipment"
+    ],
+    [
+      "Hierarchical Federal Learning Method",
+      "prevents",
+      "Exposure of User Data"
+    ],
+    [
+      "Home Energy Management System",
+      "collects",
+      "Real-Time Electricity Data"
+    ],
+    [
+      "Home Energy Management System",
+      "performs",
+      "Local Training"
+    ],
+    [
+      "Load Integrator",
+      "receives",
+      "Updated Local Model Parameters"
+    ],
+    [
+      "Participating Units",
+      "includes",
+      "Home Energy Management Systems"
+    ],
+    [
+      "Participating Units",
+      "includes",
+      "Load Integrators"
+    ],
+    [
+      "Local Equipment",
+      "comprises",
+      "Home Energy Management System"
+    ],
+    [
+      "Local Model Parameters",
+      "updates",
+      "Based on Real-Time Electricity Data"
+    ],
+    [
+      "Local Model Parameters",
+      "submitted_to",
+      "Corresponding Load Integrator"
+    ],
+    [
+      "Asynchronous Local Aggregation",
+      "performed_by",
+      "Load Integrator"
+    ],
+    [
+      "Local Aggregation Parameters",
+      "obtained_by",
+      "Load Integrator"
+    ],
+    [
+      "Increased Participation Enthusiasm",
+      "promoted_by",
+      "Solution"
+    ],
+    [
+      "Reduced Time Consumption",
+      "promotes",
+      "Increased Participation Enthusiasm"
+    ],
+    [
+      "Comprehensive Reward Mechanism",
+      "promotes",
+      "Increased Participation Enthusiasm"
+    ],
+    [
+      "Consideration for Task Publishers Rewards and Benefits",
+      "promotes",
+      "Increased Participation Enthusiasm"
+    ],
+    [
+      "Suitable Rewarding Form",
+      "promotes",
+      "Increased Participation Enthusiasm"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Hierarchical Federal Learning Method",
+    "Home Energy Management Systems",
+    "Increased participation enthusiasm",
+    "Limited enthusiasm due to federal learning framework deficiencies",
+    "Load Integrators",
+    "Participant Operation Logic"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Asynchronous Local Aggregation",
+    "Based on Real-Time Electricity Data",
+    "Comprehensive Reward Mechanism",
+    "Consideration for Task Publishers Rewards and Benefits",
+    "Corresponding Load Integrator",
+    "Deficiencies of Existing Federal Learning Frameworks",
+    "Existing Federal Learning Framework",
+    "Exposure of User Data",
+    "Federal Learning Framework",
+    "Hierarchical Federal Learning Method",
+    "High Time Consumption",
+    "Home Energy Management System",
+    "Home Energy Management Systems",
+    "Increased Participation Enthusiasm",
+    "Lack of Consideration for Task Publishers Rewards and Benefits",
+    "Limited Enthusiasm of Participants",
+    "Load Integrator",
+    "Load Integrators",
+    "Local Aggregation Parameters",
+    "Local Equipment",
+    "Local Model Parameters",
+    "Local Training",
+    "Model Training on Local Equipment",
+    "Non-Comprehensive Reward Mechanism",
+    "Participating Units",
+    "Real-Time Electricity Data",
+    "Reduced Time Consumption",
+    "Solution",
+    "Suitable Rewarding Form",
+    "Synchronous Aggregation",
+    "Unsuitable Rewarding Form",
+    "Updated Local Model Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "belongs_to",
+    "causes",
+    "collects",
+    "comprises",
+    "enables",
+    "includes",
+    "obtained_by",
+    "performed_by",
+    "performs",
+    "prevents",
+    "promoted_by",
+    "promotes",
+    "receives",
+    "submitted_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06Q50/06"
+  ]
+}

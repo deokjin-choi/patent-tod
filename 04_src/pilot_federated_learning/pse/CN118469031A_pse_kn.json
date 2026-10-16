@@ -1,0 +1,235 @@
+{
+  "publication_number": "CN118469031A",
+  "title": "Model training method and system among multiple IoT platforms based on federated learning",
+  "assignee": "China Standard Intelligent Security Technology Co Ltd",
+  "filing_date": "2024-03-28",
+  "publication_date": "2024-08-09",
+  "pse": {
+    "problem": "Long model training cycle and low efficiency in federated learning across multiple IoT platforms due to heterogeneity of models among different manufacturers.",
+    "solution_function": "The system collects data from multiple IoT platforms, pre-processes them as sample data. It migrates the teacher model's data to the student model. The student model exchanges and aggregates knowledge between multiple IoT platforms, using an aggregation algorithm to create a meta-model. The teacher model extracts features, maps them to an abstraction level, generates soft labels, and sends them to the student model for weight update.",
+    "solution_structure": "Key components include personalized models (P-Model), knowledge exchange models (C-Model), meta-models (M-Model), data sets, feature extractors, abstraction layers, soft label generators, and gradient descent weight updaters.",
+    "solution_implementation": "The teacher model performs feature extraction, mapping, soft label generation, and sends them to the student model. The student model calculates loss using the soft labels and updates its weights via gradient descent. Data preprocessing involves cleaning, duplicate removal, alienation, and data set replacement.",
+    "effect": "Improved efficiency in federated learning across multiple IoT platforms by reducing the model training cycle."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Heterogeneous Model Issue"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "P-Model"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "C-Model"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "M-Model"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Teacher Model Operations"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Efficient Federated Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Multiple IoT Platforms",
+      "comprises",
+      "Heterogeneous Models"
+    ],
+    [
+      "System",
+      "collects",
+      "Data"
+    ],
+    [
+      "System",
+      "pre-processes",
+      "Sample Data"
+    ],
+    [
+      "System",
+      "migrates",
+      "Teacher Model's Data"
+    ],
+    [
+      "Student Model",
+      "receives",
+      "Migrated Data"
+    ],
+    [
+      "Student Model",
+      "exchanges",
+      "Knowledge"
+    ],
+    [
+      "Student Model",
+      "aggregates",
+      "Knowledge"
+    ],
+    [
+      "Aggregation Algorithm",
+      "creates",
+      "Meta-Model"
+    ],
+    [
+      "Teacher Model",
+      "extracts",
+      "Features"
+    ],
+    [
+      "Teacher Model",
+      "maps",
+      "Features"
+    ],
+    [
+      "Teacher Model",
+      "generates",
+      "Soft Labels"
+    ],
+    [
+      "Teacher Model",
+      "sends",
+      "Soft Labels"
+    ],
+    [
+      "Student Model",
+      "receives",
+      "Soft Labels"
+    ],
+    [
+      "Student Model",
+      "updates",
+      "Weights"
+    ],
+    [
+      "Student Model",
+      "uses",
+      "Gradient Descent Weight Updater"
+    ],
+    [
+      "Data Preprocessing",
+      "involves",
+      "Cleaning"
+    ],
+    [
+      "Data Preprocessing",
+      "involves",
+      "Duplicate Removal"
+    ],
+    [
+      "Data Preprocessing",
+      "involves",
+      "Alienation"
+    ],
+    [
+      "Data Preprocessing",
+      "involves",
+      "Data Set Replacement"
+    ],
+    [
+      "Personalized Model (P-Model)",
+      "is a Key Component"
+    ],
+    [
+      "Knowledge Exchange Model (C-Model)",
+      "is a Key Component"
+    ],
+    [
+      "Meta-Model (M-Model)",
+      "is a Key Component"
+    ],
+    [
+      "DataSet",
+      "is a Key Component"
+    ],
+    [
+      "Feature Extractor",
+      "is a Key Component"
+    ],
+    [
+      "Abstraction Layer",
+      "is a Key Component"
+    ],
+    [
+      "Soft Label Generator",
+      "is a Key Component"
+    ],
+    [
+      "Gradient Descent Weight Updater",
+      "is a Key Component"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "C-Model",
+    "Efficient Federated Learning",
+    "Federated Learning System",
+    "Heterogeneous Model Issue",
+    "M-Model",
+    "P-Model",
+    "Teacher Model Operations"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregation Algorithm",
+    "Alienation",
+    "Cleaning",
+    "Data",
+    "Data Preprocessing",
+    "Data Set Replacement",
+    "Duplicate Removal",
+    "Features",
+    "Gradient Descent Weight Updater",
+    "Heterogeneous Models",
+    "Knowledge",
+    "Meta-Model",
+    "Migrated Data",
+    "Multiple IoT Platforms",
+    "Sample Data",
+    "Soft Labels",
+    "Student Model",
+    "System",
+    "Teacher Model",
+    "Teacher Model's Data",
+    "Weights"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "collects",
+    "comprises",
+    "creates",
+    "exchanges",
+    "extracts",
+    "generates",
+    "involves",
+    "maps",
+    "migrates",
+    "pre-processes",
+    "receives",
+    "sends",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06N20/00",
+    "G16Y30/00"
+  ]
+}

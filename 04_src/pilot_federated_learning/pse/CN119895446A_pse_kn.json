@@ -1,0 +1,157 @@
+{
+  "publication_number": "CN119895446A",
+  "title": "Management of federal learning",
+  "assignee": "Qualcomm Inc",
+  "filing_date": "2023-08-28",
+  "publication_date": "2025-04-25",
+  "pse": {
+    "problem": "Inefficient and decentralized machine learning model training in wireless communication systems",
+    "solution_function": "Centralized federal learning process that allows multiple User Equipments (UE) to participate in a training configuration, with the server selecting UEs, Model Structure (MS), baseline Parameter Set (PS) for a predictive model, determining training parameters, and activating training rounds simultaneously across all participating UEs.",
+    "solution_structure": "Servers for federal learning process, User Equipments (UE), Model Repository (MR)",
+    "solution_implementation": "Server sends training configuration to UE, each UE trains predictive model locally according to the configuration and based on its data set, UE reports model parameters to server, server aggregates model parameters from all UEs and updates parameter set",
+    "effect": "Improved efficiency and consistency in machine learning model training across multiple UEs"
+  },
+  "knowledge_graph": [
+    [
+      "Centralized Federal Learning Process",
+      "Addresses_Problem",
+      "Inefficient and decentralized machine learning model training in wireless communication systems"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Comprises_Component",
+      "Servers for federal learning process"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Comprises_Component",
+      "User Equipments (UE)"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Comprises_Component",
+      "Model Repository (MR)"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Implemented_By",
+      "Server sends training configuration to UE"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Implemented_By",
+      "Each UE trains predictive model locally"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Implemented_By",
+      "UE reports model parameters to server"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Implemented_By",
+      "Server aggregates model parameters"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Achieves_Effect",
+      "Improved efficiency in machine learning model training"
+    ],
+    [
+      "Centralized Federal Learning Process",
+      "Achieves_Effect",
+      "Consistency in machine learning model training across multiple UEs"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Centralized Federal Learning Process",
+      "controls",
+      "Machine Learning Model Training"
+    ],
+    [
+      "Server",
+      "selects",
+      "User Equipments (UE)"
+    ],
+    [
+      "Server",
+      "determines",
+      "Training Parameters"
+    ],
+    [
+      "Server",
+      "activates",
+      "Training Rounds"
+    ],
+    [
+      "User Equipment (UE)",
+      "participates_in",
+      "Training Configuration"
+    ],
+    [
+      "Model Structure (MS)",
+      "is_selected_for",
+      "Training"
+    ],
+    [
+      "Baseline Parameter Set (PS)",
+      "is_used_during",
+      "Training"
+    ],
+    [
+      "Server",
+      "updates",
+      "Parameter Set"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Centralized Federal Learning Process",
+    "Consistency in machine learning model training across multiple UEs",
+    "Each UE trains predictive model locally",
+    "Improved efficiency in machine learning model training",
+    "Inefficient and decentralized machine learning model training in wireless communication systems",
+    "Model Repository (MR)",
+    "Server aggregates model parameters",
+    "Server sends training configuration to UE",
+    "Servers for federal learning process",
+    "UE reports model parameters to server",
+    "User Equipments (UE)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Baseline Parameter Set (PS)",
+    "Centralized Federal Learning Process",
+    "Machine Learning Model Training",
+    "Model Structure (MS)",
+    "Parameter Set",
+    "Server",
+    "Training",
+    "Training Configuration",
+    "Training Parameters",
+    "Training Rounds",
+    "User Equipment (UE)",
+    "User Equipments (UE)"
+  ],
+  "knowledge_graph2_relation": [
+    "activates",
+    "controls",
+    "determines",
+    "is_selected_for",
+    "is_used_during",
+    "participates_in",
+    "selects",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/084",
+    "G06N3/098",
+    "H04W24/02"
+  ]
+}

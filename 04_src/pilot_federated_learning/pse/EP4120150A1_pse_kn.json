@@ -1,0 +1,197 @@
+{
+  "publication_number": "EP4120150A1",
+  "title": "Calculation method for vertical federated learning, apparatus, device, and medium",
+  "assignee": "Tencent Technology Shenzhen Co Ltd",
+  "filing_date": "2021-09-14",
+  "publication_date": "2023-01-18",
+  "pse": {
+    "problem": "The solution addresses the high security risk associated with keeping a private key by a central node in multi-participant vertical federated learning.",
+    "solution_function": "The system performs secure two-party joint computation between an upper-layer participation node and multiple lower-layer participation nodes, using homomorphic encryption for forward computation of a submodel. The goal is to obtain outputs of the federated model that can be aggregated to form a joint model output.",
+    "solution_structure": "The system consists of multiple participation nodes arranged in a multi-way tree topology, each node having a locally deployed submodel. Each node also has a public key and (in upper-layer nodes) a first public key that is distributed to lower-layer nodes.",
+    "solution_implementation": "The secure two-party joint computation involves the upper-layer participation node and a lower-layer participation node working together to perform homomorphic encryption for the submodel using their respective data. The resulting two-party joint outputs are then aggregated by the upper-layer participation node.",
+    "effect": "By eliminating the need for a central node to keep a private key, this method reduces the security risk concentrated in that node."
+  },
+  "knowledge_graph": [
+    [
+      "Secure Two-Party Joint Computation",
+      "Addresses_Problem",
+      "High Security Risk in Multi-Participant Vertical Federated Learning"
+    ],
+    [
+      "Secure Two-Party Joint Computation",
+      "Comprises_Component",
+      "Homomorphic Encryption for Forward Computation of a Submodel"
+    ],
+    [
+      "Secure Two-Party Joint Computation",
+      "Comprises_Component",
+      "Multi-way Tree Topology Participation Nodes"
+    ],
+    [
+      "Secure Two-Party Joint Computation",
+      "Implemented_By",
+      "Two-Party Joint Operations using Respective Data"
+    ],
+    [
+      "Secure Two-Party Joint Computation",
+      "Achieves_Effect",
+      "Reduction of Security Risk Concentrated in a Central Node"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Multi-participant Vertical Federated Learning",
+      "associated_with",
+      "High Security Risk"
+    ],
+    [
+      "Central Node",
+      "keeps",
+      "Private Key"
+    ],
+    [
+      "System",
+      "addresses",
+      "High Security Risk"
+    ],
+    [
+      "Secure Two-Party Joint Computation",
+      "performed_by",
+      "Upper-Layer Participation Node"
+    ],
+    [
+      "Secure Two-Party Joint Computation",
+      "performed_by",
+      "Lower-Layer Participation Node"
+    ],
+    [
+      "Homomorphic Encryption",
+      "used_for",
+      "Forward Computation of a Submodel"
+    ],
+    [
+      "Submodel",
+      "located_in",
+      "Upper-Layer Participation Node"
+    ],
+    [
+      "Submodel",
+      "located_in",
+      "Lower-Layer Participation Node"
+    ],
+    [
+      "Public Key",
+      "distributed_to",
+      "Lower-Layer Participation Nodes"
+    ],
+    [
+      "Secure Two-Party Joint Computation",
+      "results_in",
+      "Two-Party Joint Outputs"
+    ],
+    [
+      "Upper-Layer Participation Node",
+      "aggregates",
+      "Two-Party Joint Outputs"
+    ],
+    [
+      "Federated Model",
+      "outputs",
+      "Joint Model Output"
+    ],
+    [
+      "System",
+      "comprises",
+      "Multiple Participation Nodes"
+    ],
+    [
+      "Multiple Participation Nodes",
+      "arranged_in",
+      "Multi-way Tree Topology"
+    ],
+    [
+      "Participation Node",
+      "has",
+      "Locally Deployed Submodel"
+    ],
+    [
+      "Two-Party Joint Computation",
+      "achieves",
+      "Secure Model Updates"
+    ],
+    [
+      "Private Key",
+      "eliminated_from",
+      "Central Node"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "High Security Risk in Multi-Participant Vertical Federated Learning",
+    "Homomorphic Encryption for Forward Computation of a Submodel",
+    "Multi-way Tree Topology Participation Nodes",
+    "Reduction of Security Risk Concentrated in a Central Node",
+    "Secure Two-Party Joint Computation",
+    "Two-Party Joint Operations using Respective Data"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Node",
+    "Federated Model",
+    "Forward Computation of a Submodel",
+    "High Security Risk",
+    "Homomorphic Encryption",
+    "Joint Model Output",
+    "Locally Deployed Submodel",
+    "Lower-Layer Participation Node",
+    "Lower-Layer Participation Nodes",
+    "Multi-participant Vertical Federated Learning",
+    "Multi-way Tree Topology",
+    "Multiple Participation Nodes",
+    "Participation Node",
+    "Private Key",
+    "Public Key",
+    "Secure Model Updates",
+    "Secure Two-Party Joint Computation",
+    "Submodel",
+    "System",
+    "Two-Party Joint Computation",
+    "Two-Party Joint Outputs",
+    "Upper-Layer Participation Node"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "addresses",
+    "aggregates",
+    "arranged_in",
+    "associated_with",
+    "comprises",
+    "distributed_to",
+    "eliminated_from",
+    "has",
+    "keeps",
+    "located_in",
+    "outputs",
+    "performed_by",
+    "results_in",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06N20/10",
+    "G06N20/20",
+    "G06N3/045",
+    "G06N3/08",
+    "G06N3/084",
+    "G06N3/098",
+    "H04L2209/04",
+    "H04L9/008",
+    "H04L9/0819",
+    "H04L9/0869",
+    "H04L9/14",
+    "H04L9/30"
+  ]
+}

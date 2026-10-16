@@ -1,0 +1,180 @@
+{
+  "publication_number": "CN118940865A",
+  "title": "Robust and efficient decentralized federated learning method and system based on committee consensus",
+  "assignee": "Quancheng Provincial Laboratory",
+  "filing_date": "2024-10-12",
+  "publication_date": "2024-11-12",
+  "pse": {
+    "problem": "Privacy data disclosure risk in centralized machine learning due to data uploading",
+    "solution_function": "Decentralization of machine learning through committee consensus using blockchain to replace the central server, increasing security and decentralization while reducing single-point failure and resource waste.",
+    "solution_structure": "Blockchain network with participating nodes that perform workload certification or rights proving for consensus.",
+    "solution_implementation": "Workload certification involves computation by nodes to compete for accounting rights, while rights proving competes for accounting rights based on node ownership. Bayesian robust federal learning algorithms such as TRIMMED MEAN and krum are used to resist malicious models.",
+    "effect": "Improved privacy protection, increased system security, reduced resource waste, enhanced decentralization, and resistance to poisoning attacks"
+  },
+  "knowledge_graph": [
+    [
+      "Decentralization",
+      "Addresses_Problem",
+      "Privacy data disclosure risk"
+    ],
+    [
+      "Decentralization",
+      "Comprises_Component",
+      "Blockchain network"
+    ],
+    [
+      "Decentralization",
+      "Comprises_Component",
+      "Participating nodes"
+    ],
+    [
+      "Decentralization",
+      "Implemented_By",
+      "Workload certification"
+    ],
+    [
+      "Decentralization",
+      "Implemented_By",
+      "Rights proving"
+    ],
+    [
+      "Decentralization",
+      "Implemented_By",
+      "Bayesian robust federal learning algorithms"
+    ],
+    [
+      "Decentralization",
+      "Achieves_Effect",
+      "Improved privacy protection"
+    ],
+    [
+      "Decentralization",
+      "Achieves_Effect",
+      "Increased system security"
+    ],
+    [
+      "Decentralization",
+      "Achieves_Effect",
+      "Reduced resource waste"
+    ],
+    [
+      "Decentralization",
+      "Achieves_Effect",
+      "Enhanced decentralization"
+    ],
+    [
+      "Decentralization",
+      "Achieves_Effect",
+      "Resistance to poisoning attacks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Centralized Machine Learning",
+      "causes",
+      "Privacy Data Disclosure Risk"
+    ],
+    [
+      "Data Uploading",
+      "causes",
+      "Privacy Data Disclosure Risk"
+    ],
+    [
+      "Decentralization of Machine Learning",
+      "reduces",
+      "Privacy Data Disclosure Risk"
+    ],
+    [
+      "Blockchain",
+      "replaces",
+      "Central Server"
+    ],
+    [
+      "Blockchain Network",
+      "comprises",
+      "Participating Nodes"
+    ],
+    [
+      "Participating Nodes",
+      "perform",
+      "Workload Certification"
+    ],
+    [
+      "Participating Nodes",
+      "perform",
+      "Rights Providing"
+    ],
+    [
+      "Workload Certification",
+      "involves",
+      "Computation by Nodes"
+    ],
+    [
+      "Rights Providing",
+      "competition",
+      "Accounting Rights Based on Node Ownership"
+    ],
+    [
+      "Bayesian Robust Federal Learning Algorithms",
+      "resist",
+      "Malicious Models"
+    ],
+    [
+      "TRIMMED MEAN and krum",
+      "are used for",
+      "Bayesian Robust Federal Learning Algorithms"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Bayesian robust federal learning algorithms",
+    "Blockchain network",
+    "Decentralization",
+    "Enhanced decentralization",
+    "Improved privacy protection",
+    "Increased system security",
+    "Participating nodes",
+    "Privacy data disclosure risk",
+    "Reduced resource waste",
+    "Resistance to poisoning attacks",
+    "Rights proving",
+    "Workload certification"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accounting Rights Based on Node Ownership",
+    "Bayesian Robust Federal Learning Algorithms",
+    "Blockchain",
+    "Blockchain Network",
+    "Central Server",
+    "Centralized Machine Learning",
+    "Computation by Nodes",
+    "Data Uploading",
+    "Decentralization of Machine Learning",
+    "Malicious Models",
+    "Participating Nodes",
+    "Privacy Data Disclosure Risk",
+    "Rights Providing",
+    "TRIMMED MEAN and krum",
+    "Workload Certification"
+  ],
+  "knowledge_graph2_relation": [
+    "are used for",
+    "causes",
+    "competition",
+    "comprises",
+    "involves",
+    "perform",
+    "reduces",
+    "replaces",
+    "resist"
+  ],
+  "cpc_code": [
+    "G06F21/56",
+    "G06N20/00"
+  ]
+}

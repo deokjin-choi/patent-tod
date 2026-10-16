@@ -1,0 +1,120 @@
+{
+  "publication_number": "CN116821958A",
+  "title": "A privacy data set quality assessment method and system",
+  "assignee": "South China University of Technology SCUT",
+  "filing_date": "2023-06-15",
+  "publication_date": "2023-09-29",
+  "pse": {
+    "problem": "Evaluation of privacy data set quality in a private state without revealing plaintext data or modifying the evaluation results.",
+    "solution_function": "A method that modifies a federated learning neural network model into a data quality assessment model, uses zero-knowledge proof protocol to generate and verify data quality certificates, ensuring the accuracy of the inference results.",
+    "solution_structure": "Training data set (valid and random invalid data), data quality assessment neural network, zk-SNARK key generation algorithm, Pedersen commitment algorithm.",
+    "solution_implementation": "1. Merge valid and random invalid data into a training data set; 2. Modify the last fully connected layer of the federated learning neural network model to create a data quality assessment neural network; 3. Train the data quality assessment neural network based on the training data set; 4. Quantify the operation data of the data quality assessment model and convert it into unsigned integers; 5. Apply zk-SNARK key generation algorithm to generate proof and verification keys corresponding to the data quality assessment model; 6. Use zero-knowledge proof protocol and Pedersen commitment algorithm to generate Pedersen commitments of input data, evaluation results, and the proof of the data verification process as data quality proof.",
+    "effect": "Improves efficiency and accuracy of private data quality assessment while maintaining privacy."
+  },
+  "knowledge_graph": [
+    [
+      "Data Quality Assessment Model Modified FLNN",
+      "Addresses_Problem",
+      "Evaluation of privacy data set quality"
+    ],
+    [
+      "Data Quality Assessment Model Modified FLNN",
+      "Comprises_Component",
+      "Training Data Set"
+    ],
+    [
+      "Data Quality Assessment Model Modified FLNN",
+      "Comprises_Component",
+      "Pedersen commitment algorithm"
+    ],
+    [
+      "Data Quality Assessment Model Modified FLNN",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Data Quality Assessment Model Modified FLNN",
+      "Achieves_Effect",
+      "Improved efficiency and accuracy of private data quality assessment"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Neural Network Model",
+      "is_modified_into",
+      "Data Quality Assessment Neural Network Model"
+    ],
+    [
+      "Training Data Set",
+      "comprises",
+      "Valid Data"
+    ],
+    [
+      "Training Data Set",
+      "comprises",
+      "Random Invalid Data"
+    ],
+    [
+      "Data Quality Assessment Neural Network",
+      "processes",
+      "Evaluation Results"
+    ],
+    [
+      "Zero-Knowledge Proof Protocol",
+      "generates_and_verifies",
+      "Data Quality Certificates"
+    ],
+    [
+      "zk-SNARK Key Generation Algorithm",
+      "generates",
+      "Proof and Verification Keys"
+    ],
+    [
+      "Pedersen Commitment Algorithm",
+      "converts",
+      "Operation Data into Unsigned Integers"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Data Quality Assessment Model Modified FLNN",
+    "Evaluation of privacy data set quality",
+    "Improved efficiency and accuracy of private data quality assessment",
+    "Pedersen commitment algorithm",
+    "Training Data Set"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Data Quality Assessment Neural Network",
+    "Data Quality Assessment Neural Network Model",
+    "Data Quality Certificates",
+    "Evaluation Results",
+    "Federated Learning Neural Network Model",
+    "Operation Data into Unsigned Integers",
+    "Pedersen Commitment Algorithm",
+    "Proof and Verification Keys",
+    "Random Invalid Data",
+    "Training Data Set",
+    "Valid Data",
+    "Zero-Knowledge Proof Protocol",
+    "zk-SNARK Key Generation Algorithm"
+  ],
+  "knowledge_graph2_relation": [
+    "comprises",
+    "converts",
+    "generates",
+    "generates_and_verifies",
+    "is_modified_into",
+    "processes"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N3/0464",
+    "G06N3/08"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "publication_number": "CN112328698A",
+  "title": "Longitudinal federal learning incentive training method, electronic device and storage medium",
+  "assignee": "Hangzhou Qulian Technology Co Ltd",
+  "filing_date": "2020-11-19",
+  "publication_date": "2021-02-05",
+  "pse": {
+    "problem": "The problem is the poor training effect in federal learning due to simple arithmetic mean operation for calculating incentives.",
+    "solution_function": "The solution involves determining a learning mode, acquiring total model parameters and semi-incentive parameters from member parties (initiator and participant), linking total model parameters with semi-excitation parameters, acquiring semi-excitation parameters from a blockchain, using them as input for an excitation model to generate excitation parameters for all member parties.",
+    "solution_structure": "The key components include initiator, participant, blockchain, and an excitation model.",
+    "solution_implementation": "Initiator determines the learning mode, member parties acquire total model parameters and calculate loss values and semi-excitation parameters based on data. Initiator (if it has data) calculates sub-models and overall model. Semi-excitation parameters are obtained from blockchain and used as input for excitation model.",
+    "effect": "Improved federal learning training effect through effective incentivization of member parties"
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning Optimization",
+      "Addresses_Problem",
+      "Poor Training Effect"
+    ],
+    [
+      "Federal Learning Optimization",
+      "Comprises_Component",
+      "Initiator"
+    ],
+    [
+      "Federal Learning Optimization",
+      "Comprises_Component",
+      "Participant"
+    ],
+    [
+      "Federal Learning Optimization",
+      "Comprises_Component",
+      "Blockchain"
+    ],
+    [
+      "Federal Learning Optimization",
+      "Implemented_By",
+      "Learning Mode Determination"
+    ],
+    [
+      "Federal Learning Optimization",
+      "Implemented_By",
+      "Model Parameters and Loss Calculation"
+    ],
+    [
+      "Federal Learning Optimization",
+      "Implemented_By",
+      "Sub-Models and Overall Model Calculation"
+    ],
+    [
+      "Federal Learning Optimization",
+      "Implemented_By",
+      "Excitation Model"
+    ],
+    [
+      "Federal Learning Optimization",
+      "Achieves_Effect",
+      "Improved Training Effect"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning",
+      "suffers",
+      "Poor Training Effect"
+    ],
+    [
+      "Arithmetic Mean Operation",
+      "causes",
+      "Poor Training Effect"
+    ],
+    [
+      "Initiator",
+      "determines",
+      "Learning Mode"
+    ],
+    [
+      "Member Parties",
+      "acquire",
+      "Total Model Parameters"
+    ],
+    [
+      "Member Parties",
+      "calculate",
+      "Loss Values"
+    ],
+    [
+      "Member Parties",
+      "calculate",
+      "Semi-Excitation Parameters"
+    ],
+    [
+      "Initiator",
+      "calculates",
+      "Sub-Models"
+    ],
+    [
+      "Initiator",
+      "calculates",
+      "Overall Model"
+    ],
+    [
+      "Blockchain",
+      "stores",
+      "Semi-Excitation Parameters"
+    ],
+    [
+      "Blockchain",
+      "provides",
+      "Semi-Excitation Parameters"
+    ],
+    [
+      "Excitation Model",
+      "processes",
+      "Semi-Excitation Parameters"
+    ],
+    [
+      "Excitation Model",
+      "generates",
+      "Excitation Parameters"
+    ],
+    [
+      "Excitation Model",
+      "provides",
+      "Excitation Parameters"
+    ],
+    [
+      "Member Parties",
+      "receive",
+      "Excitation Parameters"
+    ],
+    [
+      "Improved Federal Learning",
+      "achieves",
+      "Effective Incentivization"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain",
+    "Excitation Model",
+    "Federal Learning Optimization",
+    "Improved Training Effect",
+    "Initiator",
+    "Learning Mode Determination",
+    "Model Parameters and Loss Calculation",
+    "Participant",
+    "Poor Training Effect",
+    "Sub-Models and Overall Model Calculation"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Arithmetic Mean Operation",
+    "Blockchain",
+    "Effective Incentivization",
+    "Excitation Model",
+    "Excitation Parameters",
+    "Federal Learning",
+    "Improved Federal Learning",
+    "Initiator",
+    "Learning Mode",
+    "Loss Values",
+    "Member Parties",
+    "Overall Model",
+    "Poor Training Effect",
+    "Semi-Excitation Parameters",
+    "Sub-Models",
+    "Total Model Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "acquire",
+    "calculate",
+    "calculates",
+    "causes",
+    "determines",
+    "generates",
+    "processes",
+    "provides",
+    "receive",
+    "stores",
+    "suffers"
+  ],
+  "cpc_code": [
+    "G06F16/27",
+    "G06F21/602",
+    "G06F21/64",
+    "G06N20/00"
+  ]
+}

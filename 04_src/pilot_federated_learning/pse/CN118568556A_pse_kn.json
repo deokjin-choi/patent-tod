@@ -1,0 +1,203 @@
+{
+  "publication_number": "CN118568556A",
+  "title": "A differential federated learning method for abnormal power consumption identification based on updated contribution weighted aggregation",
+  "assignee": "North China Electric Power University",
+  "filing_date": "2024-05-11",
+  "publication_date": "2024-08-30",
+  "pse": {
+    "problem": "The existing methods for identifying abnormal power consumption have dependencies on data concentration, risk of data leakage during transmission, and do not consider differences in client contributions to global model updates which affects efficiency.",
+    "solution_function": "Differential federated learning method with updated contribution weighted aggregation identifies abnormal power consumption behavior by local training, generating noise perturbation gradients, calculating global contribution, aggregating gradients according to the weighted average criterion of the global contribution, and updating the global model.",
+    "solution_structure": "The solution comprises distributed federated learning identification model, local monitoring client, and central server.",
+    "solution_implementation": "Local clients collect, pre-process electricity consumption information; local training generates noise perturbation gradients; central server calculates global contribution, aggregates gradients using weighted average criterion of the global contribution, updates the global model; global model identifies abnormal power consumption behavior and records identification results.",
+    "effect": "Improves operation and maintenance efficiency of the power distribution network and secures distribution network data by considering privacy protection during training process."
+  },
+  "knowledge_graph": [
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Addresses_Problem",
+      "Abnormal power consumption identification dependencies"
+    ],
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Comprises_Component",
+      "Distributed federated learning identification model"
+    ],
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Comprises_Component",
+      "Local monitoring client"
+    ],
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Implemented_By",
+      "Local training and noise perturbation gradients generation"
+    ],
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Implemented_By",
+      "Global contribution calculation and weighted average criterion of the global contribution for gradient aggregation"
+    ],
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Implemented_By",
+      "Global model update"
+    ],
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Achieves_Effect",
+      "Improved operation and maintenance efficiency of the power distribution network"
+    ],
+    [
+      "Differential Federated Learning Method with updated contribution weighted aggregation",
+      "Achieves_Effect",
+      "Secured distribution network data by considering privacy protection during training process"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Methods",
+      "controls",
+      "Identifying Abnormal Power Consumption"
+    ],
+    [
+      "Data Concentration",
+      "risks",
+      "Data Leakage during Transmission"
+    ],
+    [
+      "Data Transmission",
+      "risks",
+      "Data Leakage"
+    ],
+    [
+      "Existing Methods",
+      "does not consider",
+      "Differences in Client Contributions"
+    ],
+    [
+      "Global Model Updates",
+      "affects",
+      "Efficiency"
+    ],
+    [
+      "Differential Federated Learning Method",
+      "identifies",
+      "Abnormal Power Consumption Behavior"
+    ],
+    [
+      "Local Training",
+      "generates",
+      "Noise Perturbation Gradients"
+    ],
+    [
+      "Central Server",
+      "calculates",
+      "Global Contribution"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Gradients"
+    ],
+    [
+      "Weighted Average Criterion",
+      "is used for",
+      "Aggregating Gradients"
+    ],
+    [
+      "Global Contribution",
+      "determines",
+      "Gradient Weight"
+    ],
+    [
+      "Global Model",
+      "identifies",
+      "Abnormal Power Consumption Behavior"
+    ],
+    [
+      "Global Model",
+      "records",
+      "Identification Results"
+    ],
+    [
+      "Operation and Maintenance Efficiency",
+      "is improved",
+      "Power Distribution Network"
+    ],
+    [
+      "Distribution Network Data",
+      "is secured",
+      "During Training Process"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Abnormal power consumption identification dependencies",
+    "Central server",
+    "Differential Federated Learning Method with updated contribution weighted aggregation",
+    "Distributed federated learning identification model",
+    "Global contribution calculation and weighted average criterion of the global contribution for gradient aggregation",
+    "Global model update",
+    "Improved operation and maintenance efficiency of the power distribution network",
+    "Local monitoring client",
+    "Local training and noise perturbation gradients generation",
+    "Secured distribution network data by considering privacy protection during training process"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Abnormal Power Consumption Behavior",
+    "Aggregating Gradients",
+    "Central Server",
+    "Data Concentration",
+    "Data Leakage",
+    "Data Leakage during Transmission",
+    "Data Transmission",
+    "Differences in Client Contributions",
+    "Differential Federated Learning Method",
+    "Distribution Network Data",
+    "During Training Process",
+    "Efficiency",
+    "Existing Methods",
+    "Global Contribution",
+    "Global Model",
+    "Global Model Updates",
+    "Gradient Weight",
+    "Gradients",
+    "Identification Results",
+    "Identifying Abnormal Power Consumption",
+    "Local Training",
+    "Noise Perturbation Gradients",
+    "Operation and Maintenance Efficiency",
+    "Power Distribution Network",
+    "Weighted Average Criterion"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "aggregates",
+    "calculates",
+    "controls",
+    "determines",
+    "does not consider",
+    "generates",
+    "identifies",
+    "is improved",
+    "is secured",
+    "is used for",
+    "records",
+    "risks"
+  ],
+  "cpc_code": [
+    "G06F18/241",
+    "G06N20/00",
+    "G06Q50/06"
+  ]
+}

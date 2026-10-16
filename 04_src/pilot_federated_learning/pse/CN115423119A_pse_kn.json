@@ -1,0 +1,176 @@
+{
+  "publication_number": "CN115423119A",
+  "title": "Distributed federal learning medical institution data sharing method based on trust",
+  "assignee": "Nanjing Agricultural University",
+  "filing_date": "2022-09-23",
+  "publication_date": "2022-12-02",
+  "pse": {
+    "problem": "Decentralized sharing of medical data while ensuring privacy protection and robustness",
+    "solution_function": "A trust-based decentralized federated learning method that enables safe sharing of medical data through the following steps: training model parameters on local datasets, encrypting gradient values using homomorphic encryption, averaging internal model parameters, calculating credibility, selecting representative institutions based on Dijkstra algorithm, and updating global model.",
+    "solution_structure": "Medical institutions divided into groups, each group having a representative medical institution, and data sets at individual institutions.",
+    "solution_implementation": "Training local models, homomorphic encryption of gradient values, calculation of average values, credibility assessment, Euclidean distance computation, selection of participating representative institutions, calculation of global model update.",
+    "effect": "Improved privacy security and robustness in decentralized federated learning for medical data sharing"
+  },
+  "knowledge_graph": [
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Addresses_Problem",
+      "Decentralized sharing of medical data"
+    ],
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Comprises_Component",
+      "Local datasets training"
+    ],
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Comprises_Component",
+      "Homomorphic encryption of gradient values"
+    ],
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Implemented_By",
+      "Averaging internal model parameters"
+    ],
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Implemented_By",
+      "Calculation of credibility"
+    ],
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Implemented_By",
+      "Selection of representative institutions using Dijkstra algorithm"
+    ],
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Implemented_By",
+      "Updating global model"
+    ],
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Achieves_Effect",
+      "Improved privacy security"
+    ],
+    [
+      "Trust-based Decentralized Federated Learning Method",
+      "Achieves_Effect",
+      "Robustness in decentralized federated learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Trust-based decentralized federated learning method",
+      "causes",
+      "Improved privacy security"
+    ],
+    [
+      "Trust-based decentralized federated learning method",
+      "causes",
+      "Improved robustness"
+    ],
+    [
+      "Medical institutions",
+      "comprises",
+      "Groups"
+    ],
+    [
+      "Group",
+      "includes",
+      "Representative medical institution"
+    ],
+    [
+      "Local datasets",
+      "stores",
+      "Medical data"
+    ],
+    [
+      "Model parameters",
+      "controls",
+      "Training process"
+    ],
+    [
+      "Gradient values",
+      "encrypts_using",
+      "Homomorphic encryption"
+    ],
+    [
+      "Averaging internal model parameters",
+      "processes",
+      "Data"
+    ],
+    [
+      "Credibility",
+      "assesses",
+      "Institutions' data"
+    ],
+    [
+      "Dijkstra algorithm",
+      "selects",
+      "Representative institutions"
+    ],
+    [
+      "Global model",
+      "updates",
+      "With updated values from representative institutions"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Averaging internal model parameters",
+    "Calculation of credibility",
+    "Decentralized sharing of medical data",
+    "Homomorphic encryption of gradient values",
+    "Improved privacy security",
+    "Local datasets training",
+    "Robustness in decentralized federated learning",
+    "Selection of representative institutions using Dijkstra algorithm",
+    "Trust-based Decentralized Federated Learning Method",
+    "Updating global model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Averaging internal model parameters",
+    "Credibility",
+    "Data",
+    "Dijkstra algorithm",
+    "Global model",
+    "Gradient values",
+    "Group",
+    "Groups",
+    "Homomorphic encryption",
+    "Improved privacy security",
+    "Improved robustness",
+    "Institutions' data",
+    "Local datasets",
+    "Medical data",
+    "Medical institutions",
+    "Model parameters",
+    "Representative institutions",
+    "Representative medical institution",
+    "Training process",
+    "Trust-based decentralized federated learning method",
+    "With updated values from representative institutions"
+  ],
+  "knowledge_graph2_relation": [
+    "assesses",
+    "causes",
+    "comprises",
+    "controls",
+    "encrypts_using",
+    "includes",
+    "processes",
+    "selects",
+    "stores",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "publication_number": "CN119312395A",
+  "title": "A lattice-based personalized privacy-preserving vertical federated learning system",
+  "assignee": "Individual",
+  "filing_date": "2024-10-16",
+  "publication_date": "2025-01-14",
+  "pse": {
+    "problem": "Data heterogeneity and privacy concerns in traditional processing of collaborative machine learning models",
+    "solution_function": "A personalized privacy protection longitudinal federal learning system performs distributed training of a joint model without sharing sensitive data directly. Each user updates their local model with the global model, trains it with their local data, and sends encrypted gradients back to the central server for secure aggregation using homomorphic encryption.",
+    "solution_structure": "The system consists of multiple users and a central server. The central server has a global model that undergoes training over many learning cycles. Each user has a local model and a local dataset.",
+    "solution_implementation": "In one round of learning, the central server provides the global model to all users, who then update their local models with it. Users train their local models using their own data, encrypt gradients using homomorphic encryption, and send them back to the central server for aggregation. The server decrypts and adds ciphertexts to perform secure aggregation.",
+    "effect": "The system ensures privacy of sensitive data while allowing collaboration in training large-scale machine learning models. It enables high-precision models in various fields such as traffic control, healthcare, industrial IoT, and cybersecurity."
+  },
+  "knowledge_graph": [
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "Addresses_Problem",
+      "Data heterogeneity and privacy concerns in traditional processing of collaborative machine learning models"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "Comprises_Component",
+      "Multiple users"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "Implemented_By",
+      "Local model update with global model"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "Implemented_By",
+      "Encrypted gradient aggregation using homomorphic encryption"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "Achieves_Effect",
+      "Privacy of sensitive data while allowing collaboration in training large-scale machine learning models"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "Achieves_Effect",
+      "High-precision models in various fields such as traffic control, healthcare, industrial IoT, and cybersecurity"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Heterogeneity",
+      "causes",
+      "Problem in Traditional Processing"
+    ],
+    [
+      "Traditional Processing",
+      "has_issue",
+      "Privacy Concerns"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "provides_solution_to",
+      "Data Heterogeneity and Privacy Concerns"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "consists_of",
+      "Multiple Users"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "contains",
+      "Central Server"
+    ],
+    [
+      "Central Server",
+      "possesses",
+      "Global Model"
+    ],
+    [
+      "Central Server",
+      "performs",
+      "Distributed Training"
+    ],
+    [
+      "Users",
+      "receive",
+      "Global Model"
+    ],
+    [
+      "Users",
+      "update",
+      "Local Models"
+    ],
+    [
+      "Users",
+      "uses",
+      "Local Data"
+    ],
+    [
+      "Encrypted Gradients",
+      "are_sent",
+      "Central Server"
+    ],
+    [
+      "Central Server",
+      "performs",
+      "Secure Aggregation"
+    ],
+    [
+      "Central Server",
+      "utilizes",
+      "Homomorphic Encryption"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "ensures",
+      "Privacy of Sensitive Data"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "allows",
+      "Collaboration in Training"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "applies_to",
+      "Traffic Control"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "applies_to",
+      "Healthcare"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "applies_to",
+      "Industrial IoT"
+    ],
+    [
+      "Personalized Privacy Protection Longitudinal Federal Learning System",
+      "applies_to",
+      "Cybersecurity"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central server",
+    "Data heterogeneity and privacy concerns in traditional processing of collaborative machine learning models",
+    "Encrypted gradient aggregation using homomorphic encryption",
+    "High-precision models in various fields such as traffic control, healthcare, industrial IoT, and cybersecurity",
+    "Local model update with global model",
+    "Multiple users",
+    "Personalized Privacy Protection Longitudinal Federal Learning System",
+    "Privacy of sensitive data while allowing collaboration in training large-scale machine learning models"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Collaboration in Training",
+    "Cybersecurity",
+    "Data Heterogeneity",
+    "Data Heterogeneity and Privacy Concerns",
+    "Distributed Training",
+    "Encrypted Gradients",
+    "Global Model",
+    "Healthcare",
+    "Homomorphic Encryption",
+    "Industrial IoT",
+    "Local Data",
+    "Local Models",
+    "Multiple Users",
+    "Personalized Privacy Protection Longitudinal Federal Learning System",
+    "Privacy Concerns",
+    "Privacy of Sensitive Data",
+    "Problem in Traditional Processing",
+    "Secure Aggregation",
+    "Traditional Processing",
+    "Traffic Control",
+    "Users"
+  ],
+  "knowledge_graph2_relation": [
+    "allows",
+    "applies_to",
+    "are_sent",
+    "causes",
+    "consists_of",
+    "contains",
+    "ensures",
+    "has_issue",
+    "performs",
+    "possesses",
+    "provides_solution_to",
+    "receive",
+    "update",
+    "uses",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/604",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

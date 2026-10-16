@@ -1,0 +1,205 @@
+{
+  "publication_number": "CN117808571A",
+  "title": "Risk prediction method and device for bank card transaction, computing equipment and storage medium",
+  "assignee": "China Mobile Communications Group Co Ltd",
+  "filing_date": "2022-09-23",
+  "publication_date": "2024-04-02",
+  "pse": {
+    "problem": "Bank card transactions lack accurate risk identification due to limited information and delayed risk assessment.",
+    "solution_function": "The system predicts risks in bank card transactions by using a pre-trained model that analyzes the characteristics of the target website and bank card account from DPI bills, with sample data obtained through federated learning.",
+    "solution_structure": "Components include a DPI processor for bill extraction, URL parser for identification, Luhn algorithm verifier, and risk prediction model.",
+    "solution_implementation": "The process involves DPI bill analysis to identify the target website identifier and bank card account, URL parsing to determine if it contains a bank card number, Luhn algorithm verification of identified fields, and risk prediction based on the pre-trained model with sample data from operator side and bank side.",
+    "effect": "Improved security for bank card transactions by predicting risks in real-time and using both transaction and account characteristics."
+  },
+  "knowledge_graph": [
+    [
+      "Risk Prediction System",
+      "Addresses_Problem",
+      "Bank Card Transactions Risk Identification"
+    ],
+    [
+      "Risk Prediction System",
+      "Comprises_Component",
+      "DPI Processor"
+    ],
+    [
+      "Risk Prediction System",
+      "Comprises_Component",
+      "URL Parser"
+    ],
+    [
+      "Risk Prediction System",
+      "Comprises_Component",
+      "Luhn Algorithm Verifier"
+    ],
+    [
+      "Risk Prediction System",
+      "Comprises_Component",
+      "Risk Prediction Model"
+    ],
+    [
+      "Risk Prediction System",
+      "Implemented_By",
+      "DPI Bill Analysis"
+    ],
+    [
+      "Risk Prediction System",
+      "Implemented_By",
+      "URL Parsing"
+    ],
+    [
+      "Risk Prediction System",
+      "Implemented_By",
+      "Luhn Algorithm Verification"
+    ],
+    [
+      "Risk Prediction System",
+      "Implemented_By",
+      "Risk Prediction"
+    ],
+    [
+      "Risk Prediction System",
+      "Achieves_Effect",
+      "Improved Security for Bank Card Transactions"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Bank Card Transactions",
+      "lacks",
+      "Accurate Risk Identification"
+    ],
+    [
+      "Limited Information",
+      "prevents",
+      "Accurate Risk Identification"
+    ],
+    [
+      "Delayed Risk Assessment",
+      "prevents",
+      "Accurate Risk Identification"
+    ],
+    [
+      "Pre-trained Model",
+      "analyzes",
+      "DPI Bills"
+    ],
+    [
+      "Pre-trained Model",
+      "analyzes",
+      "Target Website Characteristics"
+    ],
+    [
+      "Pre-trained Model",
+      "analyzes",
+      "Bank Card Account Characteristics"
+    ],
+    [
+      "Federated Learning",
+      "provides",
+      "Sample Data"
+    ],
+    [
+      "DPI Processor",
+      "extracts",
+      "Bills"
+    ],
+    [
+      "URL Parser",
+      "identifies",
+      "Target Website Identifier"
+    ],
+    [
+      "Luhn Algorithm Verifier",
+      "verifies",
+      "Identified Fields"
+    ],
+    [
+      "Risk Prediction Model",
+      "predicts",
+      "Risks"
+    ],
+    [
+      "Risk Prediction Model",
+      "uses",
+      "Sample Data from Operator Side"
+    ],
+    [
+      "Risk Prediction Model",
+      "uses",
+      "Sample Data from Bank Side"
+    ],
+    [
+      "Improved Security",
+      "results_from",
+      "Real-Time Risk Prediction"
+    ],
+    [
+      "Bank Card Transactions",
+      "benefits_from",
+      "Improved Security"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Bank Card Transactions Risk Identification",
+    "DPI Bill Analysis",
+    "DPI Processor",
+    "Improved Security for Bank Card Transactions",
+    "Luhn Algorithm Verification",
+    "Luhn Algorithm Verifier",
+    "Risk Prediction",
+    "Risk Prediction Model",
+    "Risk Prediction System",
+    "URL Parser",
+    "URL Parsing"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accurate Risk Identification",
+    "Bank Card Account Characteristics",
+    "Bank Card Transactions",
+    "Bills",
+    "DPI Bills",
+    "DPI Processor",
+    "Delayed Risk Assessment",
+    "Federated Learning",
+    "Identified Fields",
+    "Improved Security",
+    "Limited Information",
+    "Luhn Algorithm Verifier",
+    "Pre-trained Model",
+    "Real-Time Risk Prediction",
+    "Risk Prediction Model",
+    "Risks",
+    "Sample Data",
+    "Sample Data from Bank Side",
+    "Sample Data from Operator Side",
+    "Target Website Characteristics",
+    "Target Website Identifier",
+    "URL Parser"
+  ],
+  "knowledge_graph2_relation": [
+    "analyzes",
+    "benefits_from",
+    "extracts",
+    "identifies",
+    "lacks",
+    "predicts",
+    "prevents",
+    "provides",
+    "results_from",
+    "uses",
+    "verifies"
+  ],
+  "cpc_code": [
+    "G06F16/9566",
+    "G06N20/20",
+    "G06Q10/04",
+    "G06Q40/04"
+  ]
+}

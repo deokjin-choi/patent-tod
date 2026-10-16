@@ -1,0 +1,180 @@
+{
+  "publication_number": "JP2023184198A",
+  "title": "Federated learning system and method",
+  "assignee": "Hitachi Ltd",
+  "filing_date": "2022-06-17",
+  "publication_date": "2023-12-28",
+  "pse": {
+    "problem": "The current federated learning systems suffer from potential data leakage risks due to direct sharing of data between organizations. There's also the issue of decreased efficiency as the number of participating devices increases in some cryptography-based solutions.",
+    "solution_function": "The invention presents a secure federated learning system that operates with multiple data transmitting devices and a central server. The system employs homomorphic encryption to allow each device to perform calculations on encrypted data, ensuring privacy. The central server aggregates the encrypted results, decodes them, and updates the learning model.",
+    "solution_structure": "The system consists of data transmitting devices, a central server with homomorphic encryption capabilities, and a learning model.",
+    "solution_implementation": "Each device processes its local data using homomorphically encrypted calculations. The encrypted results are sent to the central server which aggregates them, decodes the aggregate, and updates the learning model. This process is repeated iteratively until convergence.",
+    "effect": "The solution ensures privacy as no raw data is shared between devices or the server. It also maintains efficiency as the calculation and communication costs are independent of the number of participating devices."
+  },
+  "knowledge_graph": [
+    [
+      "Secure Federated Learning System",
+      "Addresses_Problem",
+      "Potential Data Leakage Risks"
+    ],
+    [
+      "Secure Federated Learning System",
+      "Comprises_Component",
+      "Data Transmitting Devices"
+    ],
+    [
+      "Secure Federated Learning System",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Secure Federated Learning System",
+      "Implemented_By",
+      "Homomorphic Encryption"
+    ],
+    [
+      "Secure Federated Learning System",
+      "Achieves_Effect",
+      "Data Privacy"
+    ],
+    [
+      "Secure Federated Learning System",
+      "Achieves_Effect",
+      "Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Systems",
+      "suffers_from",
+      "Potential Data Leakage Risks"
+    ],
+    [
+      "Federated Learning Systems",
+      "causes",
+      "Direct Sharing of Data between Organizations"
+    ],
+    [
+      "Federated Learning Systems",
+      "experiences",
+      "Decreased Efficiency"
+    ],
+    [
+      "Cryptography-based Solutions",
+      "suffers",
+      "Decreased Efficiency"
+    ],
+    [
+      "Secure Federated Learning System",
+      "operates_with",
+      "Multiple Data Transmitting Devices"
+    ],
+    [
+      "Secure Federated Learning System",
+      "comprises",
+      "Central Server with Homomorphic Encryption Capabilities"
+    ],
+    [
+      "Secure Federated Learning System",
+      "comprises",
+      "A Learning Model"
+    ],
+    [
+      "Device",
+      "processes",
+      "Local Data"
+    ],
+    [
+      "Device",
+      "uses",
+      "Homomorphically Encrypted Calculations"
+    ],
+    [
+      "Encrypted Results",
+      "transmits_to",
+      "Central Server"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Encrypted Results"
+    ],
+    [
+      "Central Server",
+      "decodes",
+      "Aggregated Encrypted Results"
+    ],
+    [
+      "Central Server",
+      "updates",
+      "Learning Model"
+    ],
+    [
+      "Secure Federated Learning System",
+      "ensures",
+      "Privacy"
+    ],
+    [
+      "Secure Federated Learning System",
+      "maintains",
+      "Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Data Privacy",
+    "Data Transmitting Devices",
+    "Efficiency",
+    "Homomorphic Encryption",
+    "Potential Data Leakage Risks",
+    "Secure Federated Learning System"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "A Learning Model",
+    "Aggregated Encrypted Results",
+    "Central Server",
+    "Central Server with Homomorphic Encryption Capabilities",
+    "Cryptography-based Solutions",
+    "Decreased Efficiency",
+    "Device",
+    "Direct Sharing of Data between Organizations",
+    "Efficiency",
+    "Encrypted Results",
+    "Federated Learning Systems",
+    "Homomorphically Encrypted Calculations",
+    "Learning Model",
+    "Local Data",
+    "Multiple Data Transmitting Devices",
+    "Potential Data Leakage Risks",
+    "Privacy",
+    "Secure Federated Learning System"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "causes",
+    "comprises",
+    "decodes",
+    "ensures",
+    "experiences",
+    "maintains",
+    "operates_with",
+    "processes",
+    "suffers",
+    "suffers_from",
+    "transmits_to",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G09C1/00",
+    "H04L9/14",
+    "H04L9/30"
+  ]
+}

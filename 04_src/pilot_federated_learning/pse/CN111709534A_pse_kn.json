@@ -1,0 +1,111 @@
+{
+  "publication_number": "CN111709534A",
+  "title": "Federated learning method, device, equipment and medium based on evolutionary computing",
+  "assignee": "WeBank Co Ltd",
+  "filing_date": "2020-06-19",
+  "publication_date": "2020-09-25",
+  "pse": {
+    "problem": "Low efficiency in determining hyperparameters in existing federated learning affects performance indicators",
+    "solution_function": "Federated learning based on evolutionary computing optimizes hyperparameters iteratively to achieve better performance indices",
+    "solution_structure": "First and second groups of devices with initial model parameters, hyperparameter set",
+    "solution_implementation": "1. Determine initial hyperparameters for first group devices for federated learning; 2. Receive performance indicators from second group devices and iteratively evolve hyperparameters based on these indicators and the hyperparameter set; 3. Adjust initial model parameters of both groups based on optimized hyperparameters, and perform federated learning to obtain target models",
+    "effect": "Improved efficiency in determining hyperparameters, better performance indices for federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Low efficiency in determining hyperparameters"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "First group of devices with initial model parameters"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Second group of devices"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Iterative optimization of hyperparameters"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Improved efficiency in determining hyperparameters"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "causes",
+      "Low efficiency in determining hyperparameters"
+    ],
+    [
+      "Existing Federated Learning",
+      "affects",
+      "Performance indicators"
+    ],
+    [
+      "Evolutionary Computing",
+      "optimizes",
+      "Hyperparameters"
+    ],
+    [
+      "Initial Hyperparameters",
+      "applies_to",
+      "First group devices"
+    ],
+    [
+      "Iterative process",
+      "updates",
+      "Hyperparameters based on performance indicators"
+    ],
+    [
+      "Federated Learning",
+      "achieves",
+      "Better performance indices"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated Learning",
+    "First group of devices with initial model parameters",
+    "Improved efficiency in determining hyperparameters",
+    "Iterative optimization of hyperparameters",
+    "Low efficiency in determining hyperparameters",
+    "Second group of devices"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Better performance indices",
+    "Evolutionary Computing",
+    "Existing Federated Learning",
+    "Federated Learning",
+    "First group devices",
+    "Hyperparameters",
+    "Hyperparameters based on performance indicators",
+    "Initial Hyperparameters",
+    "Iterative process",
+    "Low efficiency in determining hyperparameters",
+    "Performance indicators"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "affects",
+    "applies_to",
+    "causes",
+    "optimizes",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/20"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "publication_number": "CN111310938A",
+  "title": "Semi-supervised horizontal federated learning optimization method, equipment and storage medium",
+  "assignee": "WeBank Co Ltd",
+  "filing_date": "2020-02-10",
+  "publication_date": "2020-06-19",
+  "pse": {
+    "problem": "The limitation lies in horizontal federated learning's requirement for a large amount of labeled data from clients, which is often unavailable, making it challenging to train models effectively.",
+    "solution_function": "The method performs semi-supervised training on the local model using global model parameters and pseudo-labels generated from unlabeled samples. The server updates the global model with these local model parameters and shares updated global model parameters back with clients.",
+    "solution_structure": "Hardware: Participating clients, servers (software components).\nSoftware: Global model, local models (one per client), pseudo-label generator.",
+    "solution_implementation": "1. Receive global model parameters from the server.\n2. Perform pseudo-supervised training on local models using generated pseudo-labels.\n3. Send updated local model parameters to the server.\n4. Server updates global model and sends new global model parameters back to clients.\n5. Repeat steps 1-4 until a preset condition is met to stop training.",
+    "effect": "The method allows for effective training of models in federated learning scenarios where labeled data is scarce or non-existent."
+  },
+  "knowledge_graph": [
+    [
+      "Semi-supervised Training Method",
+      "Addresses_Problem",
+      "Horizontally Federated Learning Problem"
+    ],
+    [
+      "Semi-supervised Training Method",
+      "Comprises_Component",
+      "Global Model"
+    ],
+    [
+      "Semi-supervised Training Method",
+      "Comprises_Component",
+      "Local Model"
+    ],
+    [
+      "Semi-supervised Training Method",
+      "Implemented_By",
+      "Pseudo-Supervised Learning"
+    ],
+    [
+      "Semi-supervised Training Method",
+      "Achieves_Effect",
+      "Effective Training in Scarce Data Scenarios"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Horizontal Federated Learning",
+      "requires",
+      "Large Amount of Labeled Data"
+    ],
+    [
+      "Clients",
+      "possesses",
+      "Unlabeled Data"
+    ],
+    [
+      "Semi-supervised Training",
+      "utilizes",
+      "Global Model Parameters"
+    ],
+    [
+      "Pseudo-Labels Generator",
+      "generates",
+      "Pseudo-labels"
+    ],
+    [
+      "Local Model",
+      "updates",
+      "With Pseudo-labels"
+    ],
+    [
+      "Server",
+      "receives",
+      "Updated Local Model Parameters"
+    ],
+    [
+      "Server",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Server",
+      "sends",
+      "Updated Global Model Parameters"
+    ],
+    [
+      "Clients",
+      "receives",
+      "Updated Global Model Parameters"
+    ],
+    [
+      "Semi-supervised Training",
+      "achieves",
+      "Effective Model Training"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Effective Training in Scarce Data Scenarios",
+    "Global Model",
+    "Horizontally Federated Learning Problem",
+    "Local Model",
+    "Pseudo-Supervised Learning",
+    "Semi-supervised Training Method"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Clients",
+    "Effective Model Training",
+    "Global Model",
+    "Global Model Parameters",
+    "Horizontal Federated Learning",
+    "Large Amount of Labeled Data",
+    "Local Model",
+    "Pseudo-Labels Generator",
+    "Pseudo-labels",
+    "Semi-supervised Training",
+    "Server",
+    "Unlabeled Data",
+    "Updated Global Model Parameters",
+    "Updated Local Model Parameters",
+    "With Pseudo-labels"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "generates",
+    "possesses",
+    "receives",
+    "requires",
+    "sends",
+    "updates",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06F18/2155",
+    "G06N20/20"
+  ]
+}

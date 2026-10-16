@@ -1,0 +1,165 @@
+{
+  "publication_number": "CN116248249A",
+  "title": "A gap-based group confusion attack method in federated learning",
+  "assignee": "Southeast University",
+  "filing_date": "2023-04-23",
+  "publication_date": "2023-06-09",
+  "pse": {
+    "problem": "The gap-based group confusion attack method aims to exploit limitations in Byzantine federated learning defense systems by manipulating local data or parameters without assuming full knowledge of benign clients and servers (black-box attack).",
+    "solution_function": "The GGO attacker measures the gap between two iterations element by element, locates important elements based on the size of the gap, and uses a specific attack function to collaboratively attack these important elements for optimization and cost reduction.",
+    "solution_structure": "Key components include: local clients, global models, local datasets, central servers, and an attack function.",
+    "solution_implementation": "The GGO attacker measures the gap between two iterations element by element, judges the importance of different elements based on the size of the gap, and uses a specific attack function to collude with other attackers and manipulate important elements in the model updates.",
+    "effect": "By manipulating important elements in the model updates, the GGO attacker can optimize the attack performance and reduce attack consumption cost."
+  },
+  "knowledge_graph": [
+    [
+      "GGO Attacker",
+      "Addresses_Problem",
+      "Byzantine Federated Learning Defense Systems Vulnerability"
+    ],
+    [
+      "GGO Attacker",
+      "Comprises_Component",
+      "Local Clients"
+    ],
+    [
+      "GGO Attacker",
+      "Comprises_Component",
+      "Global Models"
+    ],
+    [
+      "GGO Attacker",
+      "Comprises_Component",
+      "Local Datasets"
+    ],
+    [
+      "GGO Attacker",
+      "Comprises_Component",
+      "Central Servers"
+    ],
+    [
+      "GGO Attacker",
+      "Implemented_By",
+      "Gap-based Measurement and Judgement"
+    ],
+    [
+      "GGO Attacker",
+      "Implemented_By",
+      "Collaborative Manipulation of Important Elements"
+    ],
+    [
+      "GGO Attacker",
+      "Achieves_Effect",
+      "Optimized Attack Performance"
+    ],
+    [
+      "GGO Attacker",
+      "Achieves_Effect",
+      "Reduced Attack Consumption Cost"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Gap-based group confusion attack method",
+      "exploits",
+      "Byzantine federated learning defense systems"
+    ],
+    [
+      "GGO attacker",
+      "manipulates",
+      "local data or parameters"
+    ],
+    [
+      "GGO attacker",
+      "assumes",
+      "black-box attack"
+    ],
+    [
+      "Local clients",
+      "participate_in",
+      "Byzantine federated learning"
+    ],
+    [
+      "Global models",
+      "are_updated",
+      "by local clients"
+    ],
+    [
+      "Central servers",
+      "coordinate",
+      "Byzantine federated learning"
+    ],
+    [
+      "Attack function",
+      "collaborates_with",
+      "other attackers"
+    ],
+    [
+      "Important elements",
+      "are_manipulated",
+      "in the model updates"
+    ],
+    [
+      "GGO attacker",
+      "optimizes",
+      "attack performance"
+    ],
+    [
+      "GGO attacker",
+      "reduces",
+      "attack consumption cost"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Byzantine Federated Learning Defense Systems Vulnerability",
+    "Central Servers",
+    "Collaborative Manipulation of Important Elements",
+    "GGO Attacker",
+    "Gap-based Measurement and Judgement",
+    "Global Models",
+    "Local Clients",
+    "Local Datasets",
+    "Optimized Attack Performance",
+    "Reduced Attack Consumption Cost"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Attack function",
+    "Byzantine federated learning",
+    "Byzantine federated learning defense systems",
+    "Central servers",
+    "GGO attacker",
+    "Gap-based group confusion attack method",
+    "Global models",
+    "Important elements",
+    "Local clients",
+    "attack consumption cost",
+    "attack performance",
+    "black-box attack",
+    "by local clients",
+    "in the model updates",
+    "local data or parameters",
+    "other attackers"
+  ],
+  "knowledge_graph2_relation": [
+    "are_manipulated",
+    "are_updated",
+    "assumes",
+    "collaborates_with",
+    "coordinate",
+    "exploits",
+    "manipulates",
+    "optimizes",
+    "participate_in",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06N3/08",
+    "H04L9/002"
+  ]
+}

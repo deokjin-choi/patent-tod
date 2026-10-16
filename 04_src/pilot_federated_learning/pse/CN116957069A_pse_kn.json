@@ -1,0 +1,133 @@
+{
+  "publication_number": "CN116957069A",
+  "title": "Federal learning method and device under heterogeneous data and heterogeneous system conditions",
+  "assignee": "Chinese University of Hong Kong Shenzhen",
+  "filing_date": "2023-07-27",
+  "publication_date": "2023-10-27",
+  "pse": {
+    "problem": "The technical limitation lies in addressing data heterogeneity and system heterogeneity issues during federated learning, which can cause a global model to be biased towards some clients and reduce its accuracy for others.",
+    "solution_function": "The solution performs federated learning by determining the comprehensive heterogeneity index of each client after N rounds, using this index to select clients participating in the N1 round of global model aggregation, thus alleviating heterogeneity without affecting the global model training effect.",
+    "solution_structure": "Key components include servers and multiple clients. Each client has local data and a processor for local training. The server has a processor for server-side computations, including aggregation of model parameters from clients.",
+    "solution_implementation": "The system calculates the data heterogeneity index of each client after N rounds by comparing local gradients with the global gradient. It also determines the system heterogeneity index based on unsampled round intervals. The comprehensive heterogeneity index is calculated using both indices, and clients are selected for global aggregation based on this index.",
+    "effect": "The solution provides a more accurate global model by alleviating heterogeneity without causing the global model to diverge or preventing clients from training a good model for themselves."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Data Heterogeneity and System Heterogeneity Issues"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Multiple Clients"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Gradient Comparison and Heterogeneity Index Calculation"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "More Accurate Global Model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "causes",
+      "Data Heterogeneity"
+    ],
+    [
+      "Federated Learning",
+      "reduces",
+      "Accuracy"
+    ],
+    [
+      "Comprehensive Heterogeneity Index",
+      "controls",
+      "Client Selection"
+    ],
+    [
+      "Server-side Processor",
+      "processes",
+      "Global Model Aggregation"
+    ],
+    [
+      "Local Data",
+      "comprises",
+      "Client Information"
+    ],
+    [
+      "Local Processor",
+      "processes",
+      "Local Training"
+    ],
+    [
+      "Server-side Processor",
+      "calculates",
+      "Data Heterogeneity Index"
+    ],
+    [
+      "Server-side Processor",
+      "determines",
+      "System Heterogeneity Index"
+    ],
+    [
+      "Comprehensive Heterogeneity Index",
+      "achieves",
+      "Balanced Global Model"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Heterogeneity and System Heterogeneity Issues",
+    "Federated Learning System",
+    "Gradient Comparison and Heterogeneity Index Calculation",
+    "More Accurate Global Model",
+    "Multiple Clients",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Balanced Global Model",
+    "Client Information",
+    "Client Selection",
+    "Comprehensive Heterogeneity Index",
+    "Data Heterogeneity",
+    "Data Heterogeneity Index",
+    "Federated Learning",
+    "Global Model Aggregation",
+    "Local Data",
+    "Local Processor",
+    "Local Training",
+    "Server-side Processor",
+    "System Heterogeneity Index"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "calculates",
+    "causes",
+    "comprises",
+    "controls",
+    "determines",
+    "processes",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06F18/22",
+    "G06N3/098",
+    "H04L67/10"
+  ]
+}

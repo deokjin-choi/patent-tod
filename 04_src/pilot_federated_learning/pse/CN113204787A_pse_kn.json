@@ -1,0 +1,179 @@
+{
+  "publication_number": "CN113204787A",
+  "title": "Block chain-based federated learning privacy protection method, system, device and medium",
+  "assignee": "Guangzhou University",
+  "filing_date": "2021-05-06",
+  "publication_date": "2021-08-03",
+  "pse": {
+    "problem": "Limitation in protecting data content privacy in blockchain-based federal learning, neglecting client weight protection, and high computational cost for server aggregation model",
+    "solution_function": "Performs a blockchain-based federated learning with enhanced privacy protection by generating encryption keys, decryption keys, and using a master public key and master private key for secure data transmission. Maintains client weight protection during the training process to prevent indirect deduction of training data source.",
+    "solution_structure": "Involves a blockchain network, federated learning nodes (clients), a server, and cryptographic keys (master public key, master private key, encryption key, decryption key).",
+    "solution_implementation": "The process includes generating master public key and master private key by the server, distributing these to the clients. Clients use their own data to locally train a model and encrypt it using encryption keys before sharing with other clients on the blockchain. The aggregated model is decrypted by the server after verification.",
+    "effect": "Enhanced privacy protection for data content in federal learning, improved client weight protection, and reduced computational cost for the server aggregation model"
+  },
+  "knowledge_graph": [
+    [
+      "Blockchain-based Federated Learning",
+      "Addresses_Problem",
+      "Data Content Privacy Limitations"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "Comprises_Component",
+      "Blockchain Network"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "Comprises_Component",
+      "Federated Learning Nodes (Clients)"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "Implemented_By",
+      "Key Generation Process (Master Public Key, Master Private Key)"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "Implemented_By",
+      "Data Encryption and Decryption Process (Encryption Keys, Decryption Keys)"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "Achieves_Effect",
+      "Enhanced Data Content Privacy Protection"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "Achieves_Effect",
+      "Improved Client Weight Protection"
+    ],
+    [
+      "Blockchain-based Federated Learning",
+      "Achieves_Effect",
+      "Reduced Computational Cost for Server Aggregation Model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Blockchain Network",
+      "comprises",
+      "Federated Learning Nodes (Clients)"
+    ],
+    [
+      "Federated Learning Nodes (Clients)",
+      "processes",
+      "Data Locally"
+    ],
+    [
+      "Federated Learning Nodes (Clients)",
+      "encrypts",
+      "Encrypted Model"
+    ],
+    [
+      "Federated Learning Nodes (Clients)",
+      "shares",
+      "Encrypted Model on Blockchain"
+    ],
+    [
+      "Server",
+      "generates",
+      "Master Public Key"
+    ],
+    [
+      "Server",
+      "generates",
+      "Master Private Key"
+    ],
+    [
+      "Server",
+      "distributes",
+      "Master Public Key and Master Private Key to Clients"
+    ],
+    [
+      "Client's Encrypted Model",
+      "verified by",
+      "Server"
+    ],
+    [
+      "Server",
+      "decrypts",
+      "Aggregated Model"
+    ],
+    [
+      "Blockchain Network",
+      "stores",
+      "Aggregated Model"
+    ],
+    [
+      "Privacy Protection Solution",
+      "causes",
+      "Enhanced Privacy Protection for Data Content"
+    ],
+    [
+      "Privacy Protection Solution",
+      "improves",
+      "Client Weight Protection"
+    ],
+    [
+      "Privacy Protection Solution",
+      "reduces",
+      "Computational Cost for Server Aggregation"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain Network",
+    "Blockchain-based Federated Learning",
+    "Data Content Privacy Limitations",
+    "Data Encryption and Decryption Process (Encryption Keys, Decryption Keys)",
+    "Enhanced Data Content Privacy Protection",
+    "Federated Learning Nodes (Clients)",
+    "Improved Client Weight Protection",
+    "Key Generation Process (Master Public Key, Master Private Key)",
+    "Reduced Computational Cost for Server Aggregation Model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Model",
+    "Blockchain Network",
+    "Client Weight Protection",
+    "Client's Encrypted Model",
+    "Computational Cost for Server Aggregation",
+    "Data Locally",
+    "Encrypted Model",
+    "Encrypted Model on Blockchain",
+    "Enhanced Privacy Protection for Data Content",
+    "Federated Learning Nodes (Clients)",
+    "Master Private Key",
+    "Master Public Key",
+    "Master Public Key and Master Private Key to Clients",
+    "Privacy Protection Solution",
+    "Server"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "comprises",
+    "decrypts",
+    "distributes",
+    "encrypts",
+    "generates",
+    "improves",
+    "processes",
+    "reduces",
+    "shares",
+    "stores",
+    "verified by"
+  ],
+  "cpc_code": [
+    "G06F16/27",
+    "G06F21/602",
+    "G06F21/6245",
+    "G06F21/64",
+    "G06N20/00",
+    "Y04S40/20"
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "publication_number": "CN118917441A",
+  "title": "A federated learning approach for edge heterogeneous environments",
+  "assignee": "University of Electronic Science and Technology of China",
+  "filing_date": "2024-10-10",
+  "publication_date": "2024-11-08",
+  "pse": {
+    "problem": "Federated learning algorithms in edge heterogeneous environments face problems such as data heterogeneity, device heterogeneity, and limited resources, which affect the accuracy and efficiency of model training.",
+    "solution_function": "The federated learning method proposed in this invention performs local model training on edge clients, partitions edge clients based on data distribution using a wavelet clustering algorithm, selectively involves edge clients in training, calculates weights for model aggregation, and saves the trained model.",
+    "solution_structure": "The system includes servers and edge clients. Edge clients perform local computations (CPU, GPU), and there's network communication between edge clients and servers.",
+    "solution_implementation": "In step S1, the server tests the CPU, GPU, and network status of each edge client and removes underperforming devices. In step S2, the wavelet clustering algorithm is used to partition the remaining edge clients based on data distribution. In step S3, the server selectively involves edge clients in training and performs model aggregation with calculated weights.",
+    "effect": "The proposed method addresses technical problems in prior art by realizing reliable federated learning task execution under limited resources in edge heterogeneous environments, improving model training accuracy and efficiency."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Data Heterogeneity Problem"
+    ],
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Device Heterogeneity Problem"
+    ],
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Limited Resource Problem"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Local Model Training"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Wavelet Clustering Algorithm"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Selective Involvement of Edge Clients"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Device Performance Testing"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Edge Client Partitioning"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Model Aggregation"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Improved Model Training Accuracy"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Efficient Model Training"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Algorithms",
+      "causes",
+      "Problems such as data heterogeneity, device heterogeneity, and limited resources"
+    ],
+    [
+      "Wavelet Clustering Algorithm",
+      "controls",
+      "Edge Client Partitioning"
+    ],
+    [
+      "Server",
+      "selectively involves",
+      "Edge Clients in training"
+    ],
+    [
+      "Server",
+      "performs",
+      "Model Aggregation"
+    ],
+    [
+      "Server",
+      "calculates",
+      "Weights for model aggregation"
+    ],
+    [
+      "Edge Clients",
+      "comprises",
+      "CPU, GPU"
+    ],
+    [
+      "Edge Clients",
+      "connected_to",
+      "Network"
+    ],
+    [
+      "Edge Clients",
+      "participates_in",
+      "Local Model Training"
+    ],
+    [
+      "Federated Learning Method",
+      "addresses",
+      "Technical Problems in Prior Art"
+    ],
+    [
+      "Federated Learning Method",
+      "improves",
+      "Model Training Accuracy and Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Heterogeneity Problem",
+    "Device Heterogeneity Problem",
+    "Device Performance Testing",
+    "Edge Client Partitioning",
+    "Efficient Model Training",
+    "Federated Learning Method",
+    "Improved Model Training Accuracy",
+    "Limited Resource Problem",
+    "Local Model Training",
+    "Model Aggregation",
+    "Selective Involvement of Edge Clients",
+    "Wavelet Clustering Algorithm"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "CPU, GPU",
+    "Edge Client Partitioning",
+    "Edge Clients",
+    "Edge Clients in training",
+    "Federated Learning Algorithms",
+    "Federated Learning Method",
+    "Local Model Training",
+    "Model Aggregation",
+    "Model Training Accuracy and Efficiency",
+    "Network",
+    "Problems such as data heterogeneity, device heterogeneity, and limited resources",
+    "Server",
+    "Technical Problems in Prior Art",
+    "Wavelet Clustering Algorithm",
+    "Weights for model aggregation"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "calculates",
+    "causes",
+    "comprises",
+    "connected_to",
+    "controls",
+    "improves",
+    "participates_in",
+    "performs",
+    "selectively involves"
+  ],
+  "cpc_code": [
+    "G06F18/2131",
+    "G06F18/214",
+    "G06F18/23",
+    "G06N20/00"
+  ]
+}

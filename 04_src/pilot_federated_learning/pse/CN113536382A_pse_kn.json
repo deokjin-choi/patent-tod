@@ -1,0 +1,198 @@
+{
+  "publication_number": "CN113536382A",
+  "title": "Blockchain-based medical data sharing privacy-preserving method using federated learning",
+  "assignee": "Beijing Institute of Technology BIT",
+  "filing_date": "2021-08-09",
+  "publication_date": "2021-10-22",
+  "pse": {
+    "problem": "Risk of personal privacy information exposure during collection, storage, sharing, and analysis of medical data in a big data environment",
+    "solution_function": "Combines blockchain, IPFS, and federal learning to implement a privacy-protection method for medical data. The blockchain ensures data safety through its distributed storage mechanism and transparency, differential privacy adds noise to the data, and federal learning aggregates updates from multiple participants while preserving user privacy.",
+    "solution_structure": "Blockchain network with nodes, IPFS for hash encryption of mass data, Federal Learning system with central server and multiple participants",
+    "solution_implementation": "Data is hashed by IPFS to generate a permanent IPFS address, which is then uploaded to the blockchain. The federal learning model is used to train the model using local data sets and update the model weights on the central server. Differential privacy techniques add noise to the data and energy cost concentrations in the blockchain.",
+    "effect": "Enhanced medical data privacy protection, increased data reliability, and improved scalability of the blockchain"
+  },
+  "knowledge_graph": [
+    [
+      "Blockchain",
+      "Addresses_Problem",
+      "Risk of personal privacy information exposure"
+    ],
+    [
+      "Blockchain",
+      "Comprises_Component",
+      "Blockchain network"
+    ],
+    [
+      "Blockchain",
+      "Comprises_Component",
+      "IPFS"
+    ],
+    [
+      "Blockchain",
+      "Implemented_By",
+      "Data hashing and IPFS addressing"
+    ],
+    [
+      "Blockchain",
+      "Achieves_Effect",
+      "Enhanced medical data privacy protection"
+    ],
+    [
+      "IPFS",
+      "Comprises_Component",
+      "Hash encryption of mass data"
+    ],
+    [
+      "Federal Learning",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Federal Learning",
+      "Comprises_Component",
+      "Multiple participants"
+    ],
+    [
+      "Federal Learning",
+      "Implemented_By",
+      "Training model and updating weights"
+    ],
+    [
+      "Differential Privacy",
+      "Implemented_By",
+      "Adding noise to the data"
+    ],
+    [
+      "Blockchain",
+      "Achieves_Effect",
+      "Increased data reliability"
+    ],
+    [
+      "Blockchain",
+      "Achieves_Effect",
+      "Improved scalability"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Medical Data",
+      "is_collected",
+      "Big Data Environment"
+    ],
+    [
+      "Medical Data",
+      "is_stored",
+      "Blockchain Network"
+    ],
+    [
+      "Blockchain Network",
+      "comprises",
+      "Blockchain Nodes"
+    ],
+    [
+      "Blockchain",
+      "ensures",
+      "Data Safety"
+    ],
+    [
+      "Blockchain",
+      "provides",
+      "Transparency"
+    ],
+    [
+      "IPFS",
+      "encrypts",
+      "Mass Data"
+    ],
+    [
+      "Federal Learning System",
+      "comprises",
+      "Central Server"
+    ],
+    [
+      "Federal Learning System",
+      "comprises",
+      "Multiple Participants"
+    ],
+    [
+      "Differential Privacy",
+      "adds",
+      "Noise to Data"
+    ],
+    [
+      "Blockchain",
+      "preserves",
+      "User Privacy"
+    ],
+    [
+      "Blockchain",
+      "ensures",
+      "Data Reliability"
+    ],
+    [
+      "Blockchain",
+      "improves",
+      "Scalability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adding noise to the data",
+    "Blockchain",
+    "Blockchain network",
+    "Central server",
+    "Data hashing and IPFS addressing",
+    "Differential Privacy",
+    "Enhanced medical data privacy protection",
+    "Federal Learning",
+    "Hash encryption of mass data",
+    "IPFS",
+    "Improved scalability",
+    "Increased data reliability",
+    "Multiple participants",
+    "Risk of personal privacy information exposure",
+    "Training model and updating weights"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Big Data Environment",
+    "Blockchain",
+    "Blockchain Network",
+    "Blockchain Nodes",
+    "Central Server",
+    "Data Reliability",
+    "Data Safety",
+    "Differential Privacy",
+    "Federal Learning System",
+    "IPFS",
+    "Mass Data",
+    "Medical Data",
+    "Multiple Participants",
+    "Noise to Data",
+    "Scalability",
+    "Transparency",
+    "User Privacy"
+  ],
+  "knowledge_graph2_relation": [
+    "adds",
+    "comprises",
+    "encrypts",
+    "ensures",
+    "improves",
+    "is_collected",
+    "is_stored",
+    "preserves",
+    "provides"
+  ],
+  "cpc_code": [
+    "G06F16/27",
+    "G06F21/6245",
+    "G06F21/64",
+    "G06N20/00",
+    "G16H10/60"
+  ]
+}

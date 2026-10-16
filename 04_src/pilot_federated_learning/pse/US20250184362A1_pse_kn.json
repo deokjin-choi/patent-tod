@@ -1,0 +1,256 @@
+{
+  "publication_number": "US20250184362A1",
+  "title": "Federated mining method and system for multimodal data based on multiple security policies",
+  "assignee": "Xuzhou Medical College",
+  "filing_date": "2024-12-30",
+  "publication_date": "2025-06-05",
+  "pse": {
+    "problem": "The system aims to address security risks, such as data theft, illegal access, tampering, lack of transparency, and privacy disclosures in edge computing for multimodal data.",
+    "solution_function": "The system performs federated mining on multimodal data using a multi-security policy. It includes a multiple authentication mechanism, a generalized multimodal data feature fusion model based on a multi-head attention mechanism, and an adaptive perturbation mechanism based on cyclic correlation analysis and differential privacy. The federated learning framework serves as the data mining model for distributed data mining.",
+    "solution_structure": "The system consists of multiple authentication components, a generalized multimodal data feature fusion model with a multi-head attention mechanism, an adaptive perturbation mechanism based on cyclic correlation analysis and differential privacy, and a federated learning framework as the data mining model.",
+    "solution_implementation": "The system operates in a distributed manner through the federated learning framework. The multiple authentication components authenticate nodes. The generalized multimodal data feature fusion model uses a multi-head attention mechanism to combine features from different modalities. The adaptive perturbation mechanism applies cyclic correlation analysis and differential privacy to protect data privacy. The stochastic gradient descent process is used in the machine learning process.",
+    "effect": "The system improves security by addressing privacy disclosures, reducing computational burden for model training and usage, and increasing efficiency. It also verifies the security of edge nodes, improving overall security and making it more suitable for practical applications."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Mining System",
+      "Addresses_Problem",
+      "Security Risks in Edge Computing for Multimodal Data"
+    ],
+    [
+      "Federated Mining System",
+      "Comprises_Component",
+      "Multiple Authentication Mechanism"
+    ],
+    [
+      "Federated Mining System",
+      "Comprises_Component",
+      "Generalized Multimodal Data Feature Fusion Model with Multi-head Attention Mechanism"
+    ],
+    [
+      "Federated Mining System",
+      "Comprises_Component",
+      "Adaptive Perturbation Mechanism based on Cyclic Correlation Analysis and Differential Privacy"
+    ],
+    [
+      "Federated Mining System",
+      "Implemented_By",
+      "Distributed Operation through Federated Learning Framework"
+    ],
+    [
+      "Federated Mining System",
+      "Implemented_By",
+      "Machine Learning Process using Stochastic Gradient Descent"
+    ],
+    [
+      "Federated Mining System",
+      "Achieves_Effect",
+      "Improved Security"
+    ],
+    [
+      "Federated Mining System",
+      "Achieves_Effect",
+      "Reduced Computational Burden for Model Training and Usage"
+    ],
+    [
+      "Federated Mining System",
+      "Achieves_Effect",
+      "Increased Efficiency"
+    ],
+    [
+      "Federated Mining System",
+      "Achieves_Effect",
+      "Secure Edge Nodes Verification"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Edge Computing",
+      "causes",
+      "Security Risks"
+    ],
+    [
+      "Edge Computing",
+      "addresses",
+      "Data Theft"
+    ],
+    [
+      "Edge Computing",
+      "addresses",
+      "Illegal Access"
+    ],
+    [
+      "Edge Computing",
+      "addresses",
+      "Tampering"
+    ],
+    [
+      "Edge Computing",
+      "addresses",
+      "Lack of Transparency"
+    ],
+    [
+      "Edge Computing",
+      "addresses",
+      "Privacy Disclosures"
+    ],
+    [
+      "Federated Mining",
+      "processes",
+      "Multimodal Data"
+    ],
+    [
+      "Multi-security Policy",
+      "controls",
+      "Federated Mining"
+    ],
+    [
+      "Multiple Authentication Mechanism",
+      "authenticates",
+      "Nodes"
+    ],
+    [
+      "Generalized Multimodal Data Feature Fusion Model",
+      "combines",
+      "Features"
+    ],
+    [
+      "Generalized Multimodal Data Feature Fusion Model",
+      "uses",
+      "Multi-head Attention Mechanism"
+    ],
+    [
+      "Adaptive Perturbation Mechanism",
+      "applies",
+      "Cyclic Correlation Analysis"
+    ],
+    [
+      "Adaptive Perturbation Mechanism",
+      "applies",
+      "Differential Privacy"
+    ],
+    [
+      "Federated Learning Framework",
+      "serves as",
+      "Data Mining Model"
+    ],
+    [
+      "System",
+      "improves",
+      "Security"
+    ],
+    [
+      "System",
+      "addresses",
+      "Privacy Disclosures"
+    ],
+    [
+      "System",
+      "reduces",
+      "Computational Burden"
+    ],
+    [
+      "System",
+      "increases",
+      "Efficiency"
+    ],
+    [
+      "System",
+      "verifies",
+      "Security of Edge Nodes"
+    ],
+    [
+      "Federated Learning Framework",
+      "operates in",
+      "Distributed Manner"
+    ],
+    [
+      "Multiple Authentication Components",
+      "belongs to",
+      "System"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adaptive Perturbation Mechanism based on Cyclic Correlation Analysis and Differential Privacy",
+    "Distributed Operation through Federated Learning Framework",
+    "Federated Mining System",
+    "Generalized Multimodal Data Feature Fusion Model with Multi-head Attention Mechanism",
+    "Improved Security",
+    "Increased Efficiency",
+    "Machine Learning Process using Stochastic Gradient Descent",
+    "Multiple Authentication Mechanism",
+    "Reduced Computational Burden for Model Training and Usage",
+    "Secure Edge Nodes Verification",
+    "Security Risks in Edge Computing for Multimodal Data"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adaptive Perturbation Mechanism",
+    "Computational Burden",
+    "Cyclic Correlation Analysis",
+    "Data Mining Model",
+    "Data Theft",
+    "Differential Privacy",
+    "Distributed Manner",
+    "Edge Computing",
+    "Efficiency",
+    "Features",
+    "Federated Learning Framework",
+    "Federated Mining",
+    "Generalized Multimodal Data Feature Fusion Model",
+    "Illegal Access",
+    "Lack of Transparency",
+    "Multi-head Attention Mechanism",
+    "Multi-security Policy",
+    "Multimodal Data",
+    "Multiple Authentication Components",
+    "Multiple Authentication Mechanism",
+    "Nodes",
+    "Privacy Disclosures",
+    "Security",
+    "Security Risks",
+    "Security of Edge Nodes",
+    "System",
+    "Tampering"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "applies",
+    "authenticates",
+    "belongs to",
+    "causes",
+    "combines",
+    "controls",
+    "improves",
+    "increases",
+    "operates in",
+    "processes",
+    "reduces",
+    "serves as",
+    "uses",
+    "verifies"
+  ],
+  "cpc_code": [
+    "G06F18/253",
+    "G06F18/256",
+    "G06F40/279",
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/045",
+    "G06N3/0464",
+    "G06N3/08",
+    "G06V10/82",
+    "G10L15/02",
+    "G10L17/02",
+    "G10L17/04",
+    "G10L25/51",
+    "H04L63/08",
+    "H04L63/126",
+    "H04L63/20"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "publication_number": "KR20230135785A",
+  "title": "Federated Learning System Based on Intelligent Resource Sharing Scheme",
+  "assignee": "(no assignee found)",
+  "filing_date": "2022-03-17",
+  "publication_date": "2023-09-26",
+  "pse": {
+    "problem": "Inefficiency in implementing machine learning algorithms for mobile service applications due to privacy protection restrictions for user data",
+    "solution_function": "Federated Learning system performs global model learning by collecting and updating learning models from local devices without transmitting large-scale user data to a centralized edge/cloud server, addressing data privacy issues",
+    "solution_structure": "Next-Generation Mobile Network (NGMN), 5G and 6G mobile communications adopt NR technology for wireless access between terminals and base stations. The system uses mobile edge computing (MEC) to migrate important cloud infrastructure, services, and platforms from Mobile Cloud Computing (MCC). Machine learning algorithms are implemented in a decentralized manner using network function virtualization (NFV), software defined networking (SDN), and self-organizing networking (SON)",
+    "solution_implementation": "Local machine learning models are collected from terminals, and these models are used to learn and update the global model at the edge/cloud server. The system uses SDN for control flow and computation roles to manage data flows and optimize network resources",
+    "effect": "Enables efficient implementation of machine learning algorithms in mobile service applications while addressing data privacy issues"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning system",
+      "Addresses_Problem",
+      "Inefficiency in implementing machine learning algorithms for mobile service applications due to privacy protection restrictions for user data"
+    ],
+    [
+      "Federated Learning system",
+      "Comprises_Component",
+      "Next-Generation Mobile Network (NGMN)"
+    ],
+    [
+      "Federated Learning system",
+      "Comprises_Component",
+      "5G and 6G mobile communications"
+    ],
+    [
+      "Federated Learning system",
+      "Comprises_Component",
+      "NR technology"
+    ],
+    [
+      "Federated Learning system",
+      "Comprises_Component",
+      "Mobile edge computing (MEC)"
+    ],
+    [
+      "Federated Learning system",
+      "Comprises_Component",
+      "Machine learning algorithms"
+    ],
+    [
+      "Federated Learning system",
+      "Comprises_Component",
+      "Network function virtualization (NFV)"
+    ],
+    [
+      "Federated Learning system",
+      "Comprises_Component",
+      "Software defined networking (SDN)"
+    ],
+    [
+      "Federated Learning system",
+      "Comprises_Component",
+      "Self-organizing networking (SON)"
+    ],
+    [
+      "Federated Learning system",
+      "Implemented_By",
+      "Local machine learning models collection"
+    ],
+    [
+      "Federated Learning system",
+      "Implemented_By",
+      "Control flow and computation roles management"
+    ],
+    [
+      "Federated Learning system",
+      "Achieves_Effect",
+      "Efficient implementation of machine learning algorithms in mobile service applications"
+    ],
+    [
+      "Federated Learning system",
+      "Achieves_Effect",
+      "Addressing data privacy issues"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Machine Learning Algorithms",
+      "controls",
+      "Mobile Service Applications"
+    ],
+    [
+      "Privacy Protection Restrictions",
+      "affects",
+      "Implementation of Machine Learning Algorithms"
+    ],
+    [
+      "Federated Learning System",
+      "addresses",
+      "Data Privacy Issues"
+    ],
+    [
+      "Federated Learning System",
+      "comprises",
+      "Global Model Learning"
+    ],
+    [
+      "Federated Learning System",
+      "transmits_to",
+      "Local Devices"
+    ],
+    [
+      "Next-Generation Mobile Network (NGMN)",
+      "uses",
+      "NR Technology"
+    ],
+    [
+      "5G and 6G Mobile Communications",
+      "adopts",
+      "NR Technology"
+    ],
+    [
+      "Mobile Edge Computing (MEC)",
+      "migrates",
+      "Cloud Infrastructure"
+    ],
+    [
+      "Network Function Virtualization (NFV)",
+      "implements",
+      "Machine Learning Algorithms"
+    ],
+    [
+      "Software Defined Networking (SDN)",
+      "controls",
+      "Data Flows"
+    ],
+    [
+      "Software Defined Networking (SDN)",
+      "optimizes",
+      "Network Resources"
+    ],
+    [
+      "Local Machine Learning Models",
+      "collected_from",
+      "Terminals"
+    ],
+    [
+      "Local Machine Learning Models",
+      "learns_and_updates",
+      "Global Model"
+    ],
+    [
+      "Edge/Cloud Server",
+      "stores",
+      "Updated Global Model"
+    ],
+    [
+      "NR Technology",
+      "enables",
+      "Wireless Access"
+    ],
+    [
+      "Base Stations",
+      "connects_to",
+      "Terminals"
+    ],
+    [
+      "Mobile Cloud Computing (MCC)",
+      "replaced_by",
+      "Mobile Edge Computing (MEC)"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "5G and 6G mobile communications",
+    "Addressing data privacy issues",
+    "Control flow and computation roles management",
+    "Efficient implementation of machine learning algorithms in mobile service applications",
+    "Federated Learning system",
+    "Inefficiency in implementing machine learning algorithms for mobile service applications due to privacy protection restrictions for user data",
+    "Local machine learning models collection",
+    "Machine learning algorithms",
+    "Mobile edge computing (MEC)",
+    "NR technology",
+    "Network function virtualization (NFV)",
+    "Next-Generation Mobile Network (NGMN)",
+    "Self-organizing networking (SON)",
+    "Software defined networking (SDN)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "5G and 6G Mobile Communications",
+    "Base Stations",
+    "Cloud Infrastructure",
+    "Data Flows",
+    "Data Privacy Issues",
+    "Edge/Cloud Server",
+    "Federated Learning System",
+    "Global Model",
+    "Global Model Learning",
+    "Implementation of Machine Learning Algorithms",
+    "Local Devices",
+    "Local Machine Learning Models",
+    "Machine Learning Algorithms",
+    "Mobile Cloud Computing (MCC)",
+    "Mobile Edge Computing (MEC)",
+    "Mobile Service Applications",
+    "NR Technology",
+    "Network Function Virtualization (NFV)",
+    "Network Resources",
+    "Next-Generation Mobile Network (NGMN)",
+    "Privacy Protection Restrictions",
+    "Software Defined Networking (SDN)",
+    "Terminals",
+    "Updated Global Model",
+    "Wireless Access"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "adopts",
+    "affects",
+    "collected_from",
+    "comprises",
+    "connects_to",
+    "controls",
+    "enables",
+    "implements",
+    "learns_and_updates",
+    "migrates",
+    "optimizes",
+    "replaced_by",
+    "stores",
+    "transmits_to",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F2009/45595",
+    "G06F9/45558",
+    "G06N20/00",
+    "H04L12/66",
+    "H04L67/101"
+  ]
+}

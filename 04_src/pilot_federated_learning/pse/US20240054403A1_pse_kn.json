@@ -1,0 +1,164 @@
+{
+  "publication_number": "US20240054403A1",
+  "title": "Resource efficient federated edge learning with hyperdimensional computing",
+  "assignee": "Intel Corp",
+  "filing_date": "2023-10-27",
+  "publication_date": "2024-02-15",
+  "pse": {
+    "problem": "Resource constraints in federated Hyper-Dimensional Computing (HDC) training result in sacrificed predictive performance.",
+    "solution_function": "The Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC) framework trains and fine-tunes multiple smaller independent HDC sub-models, achieving comparable or higher predictive performance and lower processing times.",
+    "solution_structure": "The full-sized HDC model is divided into multiple HDC sub-models. Each sub-model is trained on different devices (nodes or edge devices). The server aggregates the HDC sub-models and concatenates them to create the full-sized HDC model.",
+    "solution_implementation": "Upon reception of the full-sized HDC model, devices select one or more identical subsets of positions from the full-sized HDC model and apply iterative training to these subsets. A position refers to a particular index of each hyperdimensional prototype or as a column of a CD matrix representing the HDC model.",
+    "effect": "Reduced computational and communication costs, lower processing times, comparable or higher predictive performance compared to conventional federated HDC implementation."
+  },
+  "knowledge_graph": [
+    [
+      "Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC)",
+      "Addresses_Problem",
+      "Resource constraints in federated Hyper-Dimensional Computing (HDC)"
+    ],
+    [
+      "Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC)",
+      "Comprises_Component",
+      "HDC sub-models"
+    ],
+    [
+      "Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC)",
+      "Comprises_Component",
+      "Devices"
+    ],
+    [
+      "Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC)",
+      "Implemented_By",
+      "Iterative training on selected subsets of positions"
+    ],
+    [
+      "Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC)",
+      "Achieves_Effect",
+      "Reduced computational and communication costs"
+    ],
+    [
+      "Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC)",
+      "Achieves_Effect",
+      "Lower processing times"
+    ],
+    [
+      "Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC)",
+      "Achieves_Effect",
+      "Comparable or higher predictive performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Resource Constraints",
+      "causes",
+      "Sacrificed Predictive Performance"
+    ],
+    [
+      "Federated Hyper-Dimensional Computing (HDC)",
+      "controls",
+      "Predictive Performance"
+    ],
+    [
+      "RE-FHDC Framework",
+      "achieves",
+      "Comparable or Higher Predictive Performance"
+    ],
+    [
+      "RE-FHDC Framework",
+      "reduces",
+      "Processing Times"
+    ],
+    [
+      "HDC Model",
+      "comprises",
+      "Multiple HDC Sub-Models"
+    ],
+    [
+      "Devices (nodes or edge devices)",
+      "trains",
+      "HDC Sub-Models"
+    ],
+    [
+      "HDC Sub-Models",
+      "located_in",
+      "Devices"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "HDC Sub-Models"
+    ],
+    [
+      "Server",
+      "concatenates",
+      "HDC Sub-Models"
+    ],
+    [
+      "Full-sized HDC Model",
+      "divided_into",
+      "Multiple HDC Sub-Models"
+    ],
+    [
+      "Position",
+      "refers_to",
+      "Particular Index of Each Hyperdimensional Prototype"
+    ],
+    [
+      "Position",
+      "refers_to",
+      "Column of a CD Matrix representing the HDC Model"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Comparable or higher predictive performance",
+    "Devices",
+    "HDC sub-models",
+    "Iterative training on selected subsets of positions",
+    "Lower processing times",
+    "Reduced computational and communication costs",
+    "Resource constraints in federated Hyper-Dimensional Computing (HDC)",
+    "Resource-Efficient Federated Hyper-Dimensional Computing (RE-FHDC)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Column of a CD Matrix representing the HDC Model",
+    "Comparable or Higher Predictive Performance",
+    "Devices",
+    "Devices (nodes or edge devices)",
+    "Federated Hyper-Dimensional Computing (HDC)",
+    "Full-sized HDC Model",
+    "HDC Model",
+    "HDC Sub-Models",
+    "Multiple HDC Sub-Models",
+    "Particular Index of Each Hyperdimensional Prototype",
+    "Position",
+    "Predictive Performance",
+    "Processing Times",
+    "RE-FHDC Framework",
+    "Resource Constraints",
+    "Sacrificed Predictive Performance",
+    "Server"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "aggregates",
+    "causes",
+    "comprises",
+    "concatenates",
+    "controls",
+    "divided_into",
+    "located_in",
+    "reduces",
+    "refers_to",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

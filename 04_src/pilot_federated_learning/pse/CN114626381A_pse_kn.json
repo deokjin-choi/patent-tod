@@ -1,0 +1,147 @@
+{
+  "publication_number": "CN114626381A",
+  "title": "Hydropower signal entity extraction method, system and terminal based on federal learning",
+  "assignee": "Guoneng Daduhe Big Data Service Co ltd",
+  "filing_date": "2022-04-13",
+  "publication_date": "2022-06-14",
+  "pse": {
+    "problem": "Inadequate training data for a single system and non-IID distribution of data between different hydropower stations in the hydropower industry, leading to poor named entity recognition results.",
+    "solution_function": "The method performs federated learning, enabling personalized model parameters to improve accuracy and overcome insufficient training data for a single system. It also addresses non-IID distribution of data between different systems by controlling some layers.",
+    "solution_structure": "The method utilizes the BERT pre-training model for sentence embedding and bidirectional GRU layer for processing embedded sentences.",
+    "solution_implementation": "The system first embeds the hydroelectric signal content using the BERT pre-training model, then passes the embedded sentence to a bidirectional GRU layer. The federated learning algorithm coordinates training across multiple systems and some layers are adapted to achieve personalized model parameters.",
+    "effect": "Improved named entity recognition accuracy, reduced manual workload, and increased efficiency in judging equipment operation status in the hydropower industry"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Inadequate training data and non-IID distribution of data"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "BERT pre-training model"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "bidirectional GRU layer"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Embeds hydroelectric signal content, coordinates training across multiple systems, and adapts some layers"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Improved named entity recognition accuracy"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Reduced manual workload"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Increased efficiency in judging equipment operation status"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "addresses",
+      "Inadequate training data for a single system"
+    ],
+    [
+      "Federated Learning",
+      "addresses",
+      "Non-IID distribution of data between different hydropower stations"
+    ],
+    [
+      "BERT Pre-training Model",
+      "embeds",
+      "Hydroelectric Signal Content"
+    ],
+    [
+      "Bidirectional GRU Layer",
+      "processes",
+      "Embedded Sentences"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "coordinates",
+      "Training across multiple systems"
+    ],
+    [
+      "Some Layers",
+      "adapted to achieve",
+      "Personalized Model Parameters"
+    ],
+    [
+      "Named Entity Recognition",
+      "results",
+      "Improved accuracy"
+    ],
+    [
+      "Manual Workload",
+      "reduced",
+      "Improved named entity recognition"
+    ],
+    [
+      "Equipment Operation Status",
+      "judged efficiently",
+      "Improved named entity recognition"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "BERT pre-training model",
+    "Embeds hydroelectric signal content, coordinates training across multiple systems, and adapts some layers",
+    "Federated Learning",
+    "Improved named entity recognition accuracy",
+    "Inadequate training data and non-IID distribution of data",
+    "Increased efficiency in judging equipment operation status",
+    "Reduced manual workload",
+    "bidirectional GRU layer"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "BERT Pre-training Model",
+    "Bidirectional GRU Layer",
+    "Embedded Sentences",
+    "Equipment Operation Status",
+    "Federated Learning",
+    "Federated Learning Algorithm",
+    "Hydroelectric Signal Content",
+    "Improved accuracy",
+    "Improved named entity recognition",
+    "Inadequate training data for a single system",
+    "Manual Workload",
+    "Named Entity Recognition",
+    "Non-IID distribution of data between different hydropower stations",
+    "Personalized Model Parameters",
+    "Some Layers",
+    "Training across multiple systems"
+  ],
+  "knowledge_graph2_relation": [
+    "adapted to achieve",
+    "addresses",
+    "coordinates",
+    "embeds",
+    "judged efficiently",
+    "processes",
+    "reduced",
+    "results"
+  ],
+  "cpc_code": [
+    "G06F40/169",
+    "G06F40/295",
+    "G06N20/20"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "source": "data/edge-ai-all-2010-2025.csv",
+  "n_source": 50000,
+  "n_kept": 4467,
+  "n_title_hit": 3467,
+  "n_abstract_only": 1000,
+  "n_fetched_copied": 2590,
+  "n_pse_copied": 264,
+  "include_regex": "(?:\n        federated\\s+(?:learn|training|train|machine\\s+learning|ml|model)\n      | federal\\s+learn\n      | federation\\s+learn\n      | \\bfedavg\\b\n      | \\bfedprox\\b\n      | \\bfedsgd\\b\n      | hierarchical\\s+federated\n      | vertical\\s+federated\n      | horizontal\\s+federated\n      | federated\\s+edge\\s+learn\n      | 연합\\s*학습\n    )",
+  "exclude_regex": "mec\\s+federation|federation\\s+of\\s+(?:mec|multi-access)|neutral\\s+host",
+  "notes": [
+    "federal learn / federation learn included (common CN mistranslation of 联邦学习)",
+    "MEC federation / neutral host excluded (not federated learning)",
+    "title_hit=1 means the include regex matched the title",
+    "fetched/ and pse/ are copies of matching files only; missing sidecar is not an error"
+  ],
+  "years": {
+    "2018": 1,
+    "2019": 19,
+    "2020": 196,
+    "2021": 592,
+    "2022": 957,
+    "2023": 975,
+    "2024": 1084,
+    "2025": 643
+  },
+  "jurisdiction_top": {
+    "CN": 3376,
+    "US": 535,
+    "WO": 342,
+    "EP": 90,
+    "KR": 87,
+    "JP": 18,
+    "GB": 11,
+    "AU": 3,
+    "TW": 3,
+    "LU": 1
+  }
+}

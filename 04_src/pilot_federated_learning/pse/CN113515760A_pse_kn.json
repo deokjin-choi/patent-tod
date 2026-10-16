@@ -1,0 +1,225 @@
+{
+  "publication_number": "CN113515760A",
+  "title": "Horizontal federal learning method, device, computer equipment and storage medium",
+  "assignee": "Ping An International Smart City Technology Co Ltd",
+  "filing_date": "2021-05-28",
+  "publication_date": "2021-10-19",
+  "pse": {
+    "problem": "Data leakage during communication in a distributed machine learning scenario due to poor data transmission security.",
+    "solution_function": "A horizontal federated learning method uses homomorphic encryption, homomorphic averaging processing, and model updating parameter calculation to protect privacy while combining trained model parameters from different nodes without revealing the original data.",
+    "solution_structure": "The system consists of a main node and at least two participant nodes that communicate with each other. Each participant node possesses local data and a machine learning model.",
+    "solution_implementation": "1. Participant nodes download the machine learning model (e.g., gradient boosting decision tree) from the main node, train it using local data to obtain trained model parameters. 2. Participant nodes perform homomorphic encryption on their trained model parameters and send encrypted data to the main node. 3. The master node performs homomorphic averaging processing on the encrypted data and sends the processed data back to each participant node. 4. Participant nodes decrypt the homomorphic averaged data, calculate the decrypted data based on a preset rule, remove interference data, and update the machine learning model with the obtained model update parameters.",
+    "effect": "Improved data transmission security, reduced data leakage risk, and efficient use of storage space by avoiding duplicate data storage"
+  },
+  "knowledge_graph": [
+    [
+      "Horizontal Federated Learning",
+      "Addresses_Problem",
+      "Data Leakage in Distributed ML"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Comprises_Component",
+      "Homomorphic Encryption"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Comprises_Component",
+      "Homomorphic Averaging Processing"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Comprises_Component",
+      "Model Updating Parameter Calculation"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Implemented_By",
+      "Encrypted Data Transmission"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Implemented_By",
+      "Homomorphic Averaged Data Processing"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Implemented_By",
+      "Model Update Parameter Calculation"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Achieves_Effect",
+      "Improved Data Transmission Security"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Achieves_Effect",
+      "Reduced Data Leakage Risk"
+    ],
+    [
+      "Horizontal Federated Learning",
+      "Achieves_Effect",
+      "Efficient Use of Storage Space"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Distributed Machine Learning Scenario",
+      "causes",
+      "Data Leakage"
+    ],
+    [
+      "Data Transmission Security",
+      "controls",
+      "Data Leakage"
+    ],
+    [
+      "Poor Data Transmission Security",
+      "causes",
+      "Data Leakage"
+    ],
+    [
+      "Horizontal Federated Learning Method",
+      "addresses",
+      "Data Leakage"
+    ],
+    [
+      "Homomorphic Encryption",
+      "protects",
+      "Privacy"
+    ],
+    [
+      "Homomorphic Averaging Processing",
+      "processes",
+      "Encrypted Data"
+    ],
+    [
+      "Model Updating Parameter Calculation",
+      "updates",
+      "Machine Learning Model"
+    ],
+    [
+      "Main Node",
+      "stores",
+      "Machine Learning Model"
+    ],
+    [
+      "Participant Nodes",
+      "possesses",
+      "Local Data"
+    ],
+    [
+      "Gradient Boosting Decision Tree",
+      "used_for",
+      "Training Machine Learning Model"
+    ],
+    [
+      "Participant Nodes",
+      "trains",
+      "Machine Learning Model"
+    ],
+    [
+      "Encrypted Data",
+      "transmitted_to",
+      "Main Node"
+    ],
+    [
+      "Master Node",
+      "processes",
+      "Encrypted Data"
+    ],
+    [
+      "Homomorphic Averaged Data",
+      "decrypted",
+      "Decrypted Data"
+    ],
+    [
+      "Participant Nodes",
+      "calculates",
+      "Decrypted Data"
+    ],
+    [
+      "Participant Nodes",
+      "updates",
+      "Machine Learning Model"
+    ],
+    [
+      "Improved Data Transmission Security",
+      "reduces",
+      "Data Leakage Risk"
+    ],
+    [
+      "Efficient Use of Storage Space",
+      "avoids",
+      "Duplicate Data Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Leakage in Distributed ML",
+    "Efficient Use of Storage Space",
+    "Encrypted Data Transmission",
+    "Homomorphic Averaged Data Processing",
+    "Homomorphic Averaging Processing",
+    "Homomorphic Encryption",
+    "Horizontal Federated Learning",
+    "Improved Data Transmission Security",
+    "Model Update Parameter Calculation",
+    "Model Updating Parameter Calculation",
+    "Reduced Data Leakage Risk"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Data Leakage",
+    "Data Leakage Risk",
+    "Data Transmission Security",
+    "Decrypted Data",
+    "Distributed Machine Learning Scenario",
+    "Duplicate Data Storage",
+    "Efficient Use of Storage Space",
+    "Encrypted Data",
+    "Gradient Boosting Decision Tree",
+    "Homomorphic Averaged Data",
+    "Homomorphic Averaging Processing",
+    "Homomorphic Encryption",
+    "Horizontal Federated Learning Method",
+    "Improved Data Transmission Security",
+    "Local Data",
+    "Machine Learning Model",
+    "Main Node",
+    "Master Node",
+    "Model Updating Parameter Calculation",
+    "Participant Nodes",
+    "Poor Data Transmission Security",
+    "Privacy",
+    "Training Machine Learning Model"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "avoids",
+    "calculates",
+    "causes",
+    "controls",
+    "decrypted",
+    "possesses",
+    "processes",
+    "protects",
+    "reduces",
+    "stores",
+    "trains",
+    "transmitted_to",
+    "updates",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F21/602",
+    "G06F21/72",
+    "G06N20/00"
+  ]
+}

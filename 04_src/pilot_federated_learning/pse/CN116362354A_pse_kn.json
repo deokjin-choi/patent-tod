@@ -1,0 +1,217 @@
+{
+  "publication_number": "CN116362354A",
+  "title": "Missing completion method, device, node equipment and computer readable storage medium",
+  "assignee": "Iflytek Huazhong Wuhan Co ltd",
+  "filing_date": "2022-12-30",
+  "publication_date": "2023-06-30",
+  "pse": {
+    "problem": "Lack of accurate methods for missing completion due to data privacy and export restrictions",
+    "solution_function": "Performs longitudinal federated learning on local node device sample time series data and a specified model to obtain a federated target model. The model is used to generate an initial generator for missing completion, which is then fine-tuned with the missing data. The generated data is tested by a discriminator to determine if it can replace the original data.",
+    "solution_structure": "Federated learning module, federated filling module, generation confrontation module, and completion testing module. The system also includes a node device with a communication circuit, memory, and processor.",
+    "solution_implementation": "The federated learning module performs longitudinal learning on local sample data and the specified model. The federated filling module uses the obtained federated target model to generate an initial generator for missing completion. The generation confrontation module trains the target discriminator and generator based on the initial generator and sample data. The completion testing module completes missing test data using the generated model and tests its quality using the discriminator.",
+    "effect": "Improved accuracy of missing data completion in federated learning systems"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Lack of Accurate Methods for Missing Completion"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Federated Learning Module"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Federated Filling Module"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Generation Confrontation Module"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Completion Testing Module"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Longitudinal Learning on Local Sample Data"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Training Target Discriminator and Generator"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Improved Accuracy of Missing Data Completion"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Local Node Device",
+      "comprises",
+      "Communication Circuit"
+    ],
+    [
+      "Local Node Device",
+      "comprises",
+      "Memory"
+    ],
+    [
+      "Local Node Device",
+      "comprises",
+      "Processor"
+    ],
+    [
+      "Federated Learning Module",
+      "processes",
+      "Local Sample Data"
+    ],
+    [
+      "Federated Learning Module",
+      "controls",
+      "Specified Model"
+    ],
+    [
+      "Federated Learning Module",
+      "achieves",
+      "Longitudinal Learning"
+    ],
+    [
+      "Federated Filling Module",
+      "uses",
+      "Federated Target Model"
+    ],
+    [
+      "Federated Filling Module",
+      "generates",
+      "Initial Generator"
+    ],
+    [
+      "Generation Confrontation Module",
+      "trains",
+      "Target Discriminator"
+    ],
+    [
+      "Generation Confrontation Module",
+      "generates",
+      "Generated Data"
+    ],
+    [
+      "Completion Testing Module",
+      "completes",
+      "Missing Test Data"
+    ],
+    [
+      "Completion Testing Module",
+      "tests",
+      "Quality of Generated Data"
+    ],
+    [
+      "Data Privacy",
+      "causes",
+      "Lack of Accurate Methods"
+    ],
+    [
+      "Export Restrictions",
+      "causes",
+      "Lack of Accurate Methods"
+    ],
+    [
+      "Local Sample Time Series Data",
+      "provides",
+      "Input for Learning"
+    ],
+    [
+      "Specified Model",
+      "receives",
+      "Updates from Learning"
+    ],
+    [
+      "Federated Target Model",
+      "generates",
+      "Initial Generator"
+    ],
+    [
+      "Generated Initial Generator",
+      "fine-tuned_with",
+      "Missing Data"
+    ],
+    [
+      "Generated Data",
+      "replaces",
+      "Original Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Completion Testing Module",
+    "Federated Filling Module",
+    "Federated Learning Module",
+    "Federated Learning System",
+    "Generation Confrontation Module",
+    "Improved Accuracy of Missing Data Completion",
+    "Lack of Accurate Methods for Missing Completion",
+    "Longitudinal Learning on Local Sample Data",
+    "Training Target Discriminator and Generator"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Communication Circuit",
+    "Completion Testing Module",
+    "Data Privacy",
+    "Export Restrictions",
+    "Federated Filling Module",
+    "Federated Learning Module",
+    "Federated Target Model",
+    "Generated Data",
+    "Generated Initial Generator",
+    "Generation Confrontation Module",
+    "Initial Generator",
+    "Input for Learning",
+    "Lack of Accurate Methods",
+    "Local Node Device",
+    "Local Sample Data",
+    "Local Sample Time Series Data",
+    "Longitudinal Learning",
+    "Memory",
+    "Missing Data",
+    "Missing Test Data",
+    "Original Data",
+    "Processor",
+    "Quality of Generated Data",
+    "Specified Model",
+    "Target Discriminator",
+    "Updates from Learning"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "completes",
+    "comprises",
+    "controls",
+    "fine-tuned_with",
+    "generates",
+    "processes",
+    "provides",
+    "receives",
+    "replaces",
+    "tests",
+    "trains",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N20/20"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "publication_number": "CN119227058A",
+  "title": "An adaptive dynamic parameter replacement strategy to defend against hidden backdoor attacks in federated learning",
+  "assignee": "Lianyungang Zhiru Huixin Technology Co ltd",
+  "filing_date": "2024-09-27",
+  "publication_date": "2024-12-31",
+  "pse": {
+    "problem": "Federal learning (FL) systems are vulnerable to hidden back door attacks due to their black box nature for servers. These attacks manipulate model parameters in a way that they show malicious behaviors under specific conditions and remain normal otherwise.",
+    "solution_function": "A self-adaptive dynamic parameter replacement strategy monitors less updated model parameters using small-scale clean data sets held by each client, and replaces these parameters to eliminate hidden back doors.",
+    "solution_structure": "Each client has a small-scale clean data set and the global model. The system includes a parameter monitoring module for tracking model parameter updates in the rounds.",
+    "solution_implementation": "The system dynamically identifies and replaces the k% parameter at the bottom of the hidden back door attack, ensuring normal model training and enhancing the system's robustness.",
+    "effect": "The solution effectively copes with hidden back door attacks in federal learning systems, improving their safety and stability."
+  },
+  "knowledge_graph": [
+    [
+      "Self-adaptive dynamic parameter replacement strategy",
+      "Addresses_Problem",
+      "Hidden back door attacks in federal learning systems"
+    ],
+    [
+      "Self-adaptive dynamic parameter replacement strategy",
+      "Comprises_Component",
+      "Parameter monitoring module"
+    ],
+    [
+      "Self-adaptive dynamic parameter replacement strategy",
+      "Comprises_Component",
+      "Small-scale clean data sets held by each client"
+    ],
+    [
+      "Self-adaptive dynamic parameter replacement strategy",
+      "Implemented_By",
+      "Dynamically identifying and replacing k% parameter"
+    ],
+    [
+      "Self-adaptive dynamic parameter replacement strategy",
+      "Achieves_Effect",
+      "Improved safety and stability in federal learning systems"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Systems",
+      "are_vulnerable_to",
+      "Hidden Back Door Attacks"
+    ],
+    [
+      "Hidden Back Door Attacks",
+      "manipulate",
+      "Model Parameters"
+    ],
+    [
+      "Hidden Back Door Attacks",
+      "show_malicious_behaviors",
+      "Specific Conditions"
+    ],
+    [
+      "Hidden Back Door Attacks",
+      "remain_normal",
+      "Otherwise"
+    ],
+    [
+      "Self-Adaptive Dynamic Parameter Replacement Strategy",
+      "monitors",
+      "Less Updated Model Parameters"
+    ],
+    [
+      "Self-Adaptive Dynamic Parameter Replacement Strategy",
+      "replaces",
+      "Model Parameters"
+    ],
+    [
+      "Clients",
+      "have",
+      "Small-Scale Clean Data Sets"
+    ],
+    [
+      "Clients",
+      "have",
+      "Global Model"
+    ],
+    [
+      "System",
+      "includes",
+      "Parameter Monitoring Module"
+    ],
+    [
+      "Parameter Monitoring Module",
+      "tracks",
+      "Model Parameter Updates"
+    ],
+    [
+      "System",
+      "dynamically_identifies",
+      "k% Parameter"
+    ],
+    [
+      "System",
+      "replaces",
+      "k% Parameter"
+    ],
+    [
+      "System",
+      "ensures",
+      "Normal Model Training"
+    ],
+    [
+      "Solution",
+      "enhances",
+      "System's Robustness"
+    ],
+    [
+      "Hidden Back Door Attacks",
+      "are_coped_with",
+      "Federal Learning Systems"
+    ],
+    [
+      "Solution",
+      "improves",
+      "Safety of Federal Learning Systems"
+    ],
+    [
+      "Solution",
+      "improves",
+      "Stability of Federal Learning Systems"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Dynamically identifying and replacing k% parameter",
+    "Hidden back door attacks in federal learning systems",
+    "Improved safety and stability in federal learning systems",
+    "Parameter monitoring module",
+    "Self-adaptive dynamic parameter replacement strategy",
+    "Small-scale clean data sets held by each client"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Clients",
+    "Federal Learning Systems",
+    "Global Model",
+    "Hidden Back Door Attacks",
+    "Less Updated Model Parameters",
+    "Model Parameter Updates",
+    "Model Parameters",
+    "Normal Model Training",
+    "Otherwise",
+    "Parameter Monitoring Module",
+    "Safety of Federal Learning Systems",
+    "Self-Adaptive Dynamic Parameter Replacement Strategy",
+    "Small-Scale Clean Data Sets",
+    "Solution",
+    "Specific Conditions",
+    "Stability of Federal Learning Systems",
+    "System",
+    "System's Robustness",
+    "k% Parameter"
+  ],
+  "knowledge_graph2_relation": [
+    "are_coped_with",
+    "are_vulnerable_to",
+    "dynamically_identifies",
+    "enhances",
+    "ensures",
+    "have",
+    "improves",
+    "includes",
+    "manipulate",
+    "monitors",
+    "remain_normal",
+    "replaces",
+    "show_malicious_behaviors",
+    "tracks"
+  ],
+  "cpc_code": [
+    "G06F21/554",
+    "G06N20/00"
+  ]
+}

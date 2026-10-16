@@ -1,0 +1,142 @@
+{
+  "publication_number": "CN110633805A",
+  "title": "Vertical federated learning system optimization method, device, equipment and readable storage medium",
+  "assignee": "WeBank Co Ltd",
+  "filing_date": "2019-09-26",
+  "publication_date": "2019-12-31",
+  "pse": {
+    "problem": "Inefficiency in utilizing a model trained through vertical federated learning when participants require cooperation with each other to make predictions for new customers due to missing data.",
+    "solution_function": "Trains an interpolation model using first sample data from a first device and second sample data from a second device, which are aligned during the optimization process. The interpolation model is used to predict data characteristics of the first device based on data characteristics of the second device.",
+    "solution_structure": "Includes a first device for collecting first sample data and a second device for collecting second sample data. Also includes an interpolation model that serves as the key component coordinating the interaction between the first and second devices.",
+    "solution_implementation": "Performs sample alignment between the first and second devices, then uses the aligned first sample data to train the interpolation model cooperatively with the second device. The trained interpolation model can take data from the first device as input and output corresponding data for the second device.",
+    "effect": "Allows participants of a vertical federated learning system to utilize the trained model independently, reducing the need for communication and cooperation between participants for making predictions."
+  },
+  "knowledge_graph": [
+    [
+      "Interpolation Model",
+      "Addresses_Problem",
+      "Inefficiency in utilizing a model trained through vertical federated learning"
+    ],
+    [
+      "Interpolation Model",
+      "Comprises_Component",
+      "First Device"
+    ],
+    [
+      "Interpolation Model",
+      "Comprises_Component",
+      "Second Device"
+    ],
+    [
+      "Interpolation Model",
+      "Implemented_By",
+      "Sample alignment and cooperative training"
+    ],
+    [
+      "Interpolation Model",
+      "Achieves_Effect",
+      "Independent utilization of the trained model by participants"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Vertical Federated Learning System",
+      "causes",
+      "Communication and Cooperation"
+    ],
+    [
+      "First Device",
+      "collects",
+      "First Sample Data"
+    ],
+    [
+      "Second Device",
+      "collects",
+      "Second Sample Data"
+    ],
+    [
+      "Interpolation Model",
+      "coordinates",
+      "Interaction Between Devices"
+    ],
+    [
+      "First Device",
+      "comprises",
+      "First Sample Data Collector"
+    ],
+    [
+      "Second Device",
+      "comprises",
+      "Second Sample Data Collector"
+    ],
+    [
+      "Interpolation Model",
+      "cooperatively trains with",
+      "Second Device"
+    ],
+    [
+      "Interpolation Model",
+      "takes data from",
+      "First Device"
+    ],
+    [
+      "Interpolation Model",
+      "outputs corresponding data for",
+      "Second Device"
+    ],
+    [
+      "Trained Interpolation Model",
+      "allows",
+      "Participants to Utilize the Trained Model Independently"
+    ],
+    [
+      "Trained Interpolation Model",
+      "reduces",
+      "Need for Communication and Cooperation Between Participants"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "First Device",
+    "Independent utilization of the trained model by participants",
+    "Inefficiency in utilizing a model trained through vertical federated learning",
+    "Interpolation Model",
+    "Sample alignment and cooperative training",
+    "Second Device"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Communication and Cooperation",
+    "First Device",
+    "First Sample Data",
+    "First Sample Data Collector",
+    "Interaction Between Devices",
+    "Interpolation Model",
+    "Need for Communication and Cooperation Between Participants",
+    "Participants to Utilize the Trained Model Independently",
+    "Second Device",
+    "Second Sample Data",
+    "Second Sample Data Collector",
+    "Trained Interpolation Model",
+    "Vertical Federated Learning System"
+  ],
+  "knowledge_graph2_relation": [
+    "allows",
+    "causes",
+    "collects",
+    "comprises",
+    "cooperatively trains with",
+    "coordinates",
+    "outputs corresponding data for",
+    "reduces",
+    "takes data from"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06Q30/0202"
+  ]
+}

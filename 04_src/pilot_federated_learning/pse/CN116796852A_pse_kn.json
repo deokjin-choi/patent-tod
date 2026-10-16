@@ -1,0 +1,197 @@
+{
+  "publication_number": "CN116796852A",
+  "title": "Model training method and model training device",
+  "assignee": "Midea Group Co Ltd",
+  "filing_date": "2022-12-22",
+  "publication_date": "2023-09-22",
+  "pse": {
+    "problem": "Inefficient communication and processing due to large amounts of data in vertical federated learning, impacting training speed and accuracy.",
+    "solution_function": "Random sparse processing algorithm applied during model training for vertical federated learning to improve randomness of training samples, reducing the adverse impact on model training process and improving accuracy and universality while also minimizing communication volume.",
+    "solution_structure": "Vertical federated learning model consisting of multiple first sub-models and a second sub-model, with interconnected output and input ends. The solution involves randomization vector, target real number, vectors of elements, and subscript-encoded data.",
+    "solution_implementation": "Performing random sparse processing on the first intermediate result to obtain the sample intermediate result by determining a randomization vector based on the formula r(r 1 U(0x 1 )...r N U(0X N )) and retaining elements corresponding to the subscripts of the second target number with the largest absolute value. Decompression of the sample intermediate results to obtain the sample decompression results.",
+    "effect": "Improved training efficiency, accuracy, and universality of the model due to reduced communication volume and improved randomness of training samples."
+  },
+  "knowledge_graph": [
+    [
+      "Random sparse processing algorithm",
+      "Addresses_Problem",
+      "Inefficient communication and processing due to large amounts of data in vertical federated learning"
+    ],
+    [
+      "Random sparse processing algorithm",
+      "Comprises_Component",
+      "Vertical federated learning model"
+    ],
+    [
+      "Random sparse processing algorithm",
+      "Comprises_Component",
+      "First sub-model"
+    ],
+    [
+      "Random sparse processing algorithm",
+      "Comprises_Component",
+      "Second sub-model"
+    ],
+    [
+      "Random sparse processing algorithm",
+      "Implemented_By",
+      "Core Operation Logic: Performing random sparse processing on the first intermediate result to obtain the sample intermediate result by determining a randomization vector and retaining elements corresponding to the subscripts of the second target number with the largest absolute value. Decompression of the sample intermediate results to obtain the sample decompression results."
+    ],
+    [
+      "Random sparse processing algorithm",
+      "Achieves_Effect",
+      "Improved training efficiency, accuracy, and universality of the model due to reduced communication volume and improved randomness of training samples."
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Vertical Federated Learning Model",
+      "comprises",
+      "Multiple First Sub-Models"
+    ],
+    [
+      "Vertical Federated Learning Model",
+      "comprises",
+      "Second Sub-Model"
+    ],
+    [
+      "First Intermediate Result",
+      "connected_to",
+      "Randomization Vector"
+    ],
+    [
+      "First Intermediate Result",
+      "connected_to",
+      "Target Real Number"
+    ],
+    [
+      "First Intermediate Result",
+      "connected_to",
+      "Vectors of Elements"
+    ],
+    [
+      "Data",
+      "stored_as",
+      "Subscript-Encoded Data"
+    ],
+    [
+      "Randomization Vector",
+      "created_by",
+      "Formula r(r 1 U(0x 1 )...r N U(0X N ))"
+    ],
+    [
+      "Sample Intermediate Result",
+      "obtained_from",
+      "First Intermediate Result"
+    ],
+    [
+      "Sample Intermediate Result",
+      "connected_to",
+      "Randomization Vector"
+    ],
+    [
+      "Sample Decompression Results",
+      "obtained_from",
+      "Sample Intermediate Results"
+    ],
+    [
+      "Model Training Process",
+      "affected_by",
+      "Inefficient Communication and Processing"
+    ],
+    [
+      "Model Training Process",
+      "improved_by",
+      "Random Sparse Processing Algorithm"
+    ],
+    [
+      "Random Sparse Processing Algorithm",
+      "applied_during",
+      "Model Training"
+    ],
+    [
+      "Random Sparse Processing Algorithm",
+      "reduces",
+      "Adverse Impact on Model Training"
+    ],
+    [
+      "Random Sparse Processing Algorithm",
+      "improves",
+      "Accuracy and Universality"
+    ],
+    [
+      "Random Sparse Processing Algorithm",
+      "minimizes",
+      "Communication Volume"
+    ],
+    [
+      "Model",
+      "improved_property",
+      "Training Efficiency"
+    ],
+    [
+      "Model",
+      "improved_property",
+      "Training Accuracy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Performing random sparse processing on the first intermediate result to obtain the sample intermediate result by determining a randomization vector and retaining elements corresponding to the subscripts of the second target number with the largest absolute value. Decompression of the sample intermediate results to obtain the sample decompression results.",
+    "First sub-model",
+    "Improved training efficiency, accuracy, and universality of the model due to reduced communication volume and improved randomness of training samples.",
+    "Inefficient communication and processing due to large amounts of data in vertical federated learning",
+    "Random sparse processing algorithm",
+    "Second sub-model",
+    "Vertical federated learning model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy and Universality",
+    "Adverse Impact on Model Training",
+    "Communication Volume",
+    "Data",
+    "First Intermediate Result",
+    "Formula r(r 1 U(0x 1 )...r N U(0X N ))",
+    "Inefficient Communication and Processing",
+    "Model",
+    "Model Training",
+    "Model Training Process",
+    "Multiple First Sub-Models",
+    "Random Sparse Processing Algorithm",
+    "Randomization Vector",
+    "Sample Decompression Results",
+    "Sample Intermediate Result",
+    "Sample Intermediate Results",
+    "Second Sub-Model",
+    "Subscript-Encoded Data",
+    "Target Real Number",
+    "Training Accuracy",
+    "Training Efficiency",
+    "Vectors of Elements",
+    "Vertical Federated Learning Model"
+  ],
+  "knowledge_graph2_relation": [
+    "affected_by",
+    "applied_during",
+    "comprises",
+    "connected_to",
+    "created_by",
+    "improved_by",
+    "improved_property",
+    "improves",
+    "minimizes",
+    "obtained_from",
+    "reduces",
+    "stored_as"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/04",
+    "G06N3/08"
+  ]
+}

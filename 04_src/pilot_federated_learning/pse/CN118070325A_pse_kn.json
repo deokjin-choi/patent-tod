@@ -1,0 +1,187 @@
+{
+  "publication_number": "CN118070325A",
+  "title": "Client data authenticity verification method, medium and device based on federated learning",
+  "assignee": "Zhejiang Non Line Digital Technology Co ltd",
+  "filing_date": "2024-01-25",
+  "publication_date": "2024-05-24",
+  "pse": {
+    "problem": "Verification of client data authenticity in federated learning scenario, where the central client cannot determine the authenticity and reliability of local client data.",
+    "solution_function": "Method for verifying the authenticity of client data by collaboratively training a global model using features and labels of all participants' data. The global model aggregates local information to authenticate client data.",
+    "solution_structure": "Mixed dataset, local models (for each participant), FedMix algorithm, cosine similarity calculation, weighted aggregation mechanism",
+    "solution_implementation": "Step S1: Construct mixed dataset by determining the number of samples and combining global data with locally determined labels. Step S2: Train client's local model using local data with different reliability labels. Step S3: Utilize FedMix algorithm for training and optimization to handle data heterogeneity issues. Step S4: Calculate cosine similarity between the client model gradient and the global model gradient in each training round, obtaining the client model as the weight of the global aggregation. Step S5: Aggregate local model parameters from all participants through weighted aggregation. Step S6: Determine the authenticity of client data based on global information.",
+    "effect": "Reduced risk of malicious behavior, data bias, unreliable gradient updates, and data leakage in federated learning scenarios"
+  },
+  "knowledge_graph": [
+    [
+      "Collaborative Data Verification Method",
+      "Addresses_Problem",
+      "Client Data Authenticity Verification Problem in Federated Learning"
+    ],
+    [
+      "Collaborative Data Verification Method",
+      "Comprises_Component",
+      "Mixed Dataset"
+    ],
+    [
+      "Collaborative Data Verification Method",
+      "Comprises_Component",
+      "Local Models"
+    ],
+    [
+      "Collaborative Data Verification Method",
+      "Comprises_Component",
+      "FedMix Algorithm"
+    ],
+    [
+      "Collaborative Data Verification Method",
+      "Implemented_By",
+      "Cosine Similarity Calculation"
+    ],
+    [
+      "Collaborative Data Verification Method",
+      "Implemented_By",
+      "Weighted Aggregation Mechanism"
+    ],
+    [
+      "Collaborative Data Verification Method",
+      "Achieves_Effect",
+      "Reduced Risk of Malicious Behavior"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Scenario",
+      "addresses",
+      "Central Client"
+    ],
+    [
+      "Local Clients",
+      "provides",
+      "Client Data"
+    ],
+    [
+      "Central Client",
+      "cannot determine",
+      "Authenticity and Reliability of Local Client Data"
+    ],
+    [
+      "Global Model",
+      "collaboratively trains",
+      "using features and labels of all participants' data"
+    ],
+    [
+      "Global Model",
+      "aggregates",
+      "Local Information"
+    ],
+    [
+      "Global Model",
+      "authenticates",
+      "Client Data"
+    ],
+    [
+      "FedMix Algorithm",
+      "handles",
+      "Data Heterogeneity Issues"
+    ],
+    [
+      "FedMix Algorithm",
+      "trains and optimizes",
+      "Client's Local Model"
+    ],
+    [
+      "Local Client Gradient",
+      "calculates cosine similarity with",
+      "Global Model Gradient"
+    ],
+    [
+      "Client Model",
+      "obtained as the weight of the global aggregation"
+    ],
+    [
+      "Local Model Parameters",
+      "aggregated through weighted aggregation"
+    ],
+    [
+      "Global Information",
+      "determines",
+      "Authenticity of Client Data"
+    ],
+    [
+      "Federated Learning Scenarios",
+      "reduces",
+      "Risk of Malicious Behavior"
+    ],
+    [
+      "Federated Learning Scenarios",
+      "reduces",
+      "Data Bias"
+    ],
+    [
+      "Federated Learning Scenarios",
+      "reduces",
+      "Unreliable Gradient Updates"
+    ],
+    [
+      "Federated Learning Scenarios",
+      "reduces",
+      "Data Leakage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client Data Authenticity Verification Problem in Federated Learning",
+    "Collaborative Data Verification Method",
+    "Cosine Similarity Calculation",
+    "FedMix Algorithm",
+    "Local Models",
+    "Mixed Dataset",
+    "Reduced Risk of Malicious Behavior",
+    "Weighted Aggregation Mechanism"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Authenticity and Reliability of Local Client Data",
+    "Authenticity of Client Data",
+    "Central Client",
+    "Client Data",
+    "Client's Local Model",
+    "Data Bias",
+    "Data Heterogeneity Issues",
+    "Data Leakage",
+    "FedMix Algorithm",
+    "Federated Learning Scenario",
+    "Federated Learning Scenarios",
+    "Global Information",
+    "Global Model",
+    "Global Model Gradient",
+    "Local Client Gradient",
+    "Local Clients",
+    "Local Information",
+    "Risk of Malicious Behavior",
+    "Unreliable Gradient Updates",
+    "using features and labels of all participants' data"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "authenticates",
+    "calculates cosine similarity with",
+    "cannot determine",
+    "collaboratively trains",
+    "determines",
+    "handles",
+    "provides",
+    "reduces",
+    "trains and optimizes"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06F21/64",
+    "G06N20/00"
+  ]
+}

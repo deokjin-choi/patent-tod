@@ -1,0 +1,185 @@
+{
+  "publication_number": "CN119886826A",
+  "title": "Risk assessment method for instruction and electronic equipment",
+  "assignee": "China Telecom Technology Innovation Center",
+  "filing_date": "2024-12-27",
+  "publication_date": "2025-04-25",
+  "pse": {
+    "problem": "Inefficient and risk-prone instruction auditing method for electronic equipment due to single machine checking and manual rechecking",
+    "solution_function": "A federal learning architecture-based risk assessment method that constructs an instruction risk joint assessment model, performs risk evaluation on instruction data, protects data privacy, avoids original data leakage, improves accuracy, and increases efficiency.",
+    "solution_structure": "The solution consists of child nodes and a fusion node. Each child node is equipped with an instruction execution module, an evaluation module, and a local instruction risk assessment model. The fusion node constructs the instruction risk joint assessment model based on the models trained by each child node.",
+    "solution_implementation": "Each child node trains its local instruction risk assessment model based on instruction type risk and instruction parameter compliance risk. The fusion node constructs an instruction risk joint assessment model using the trained models from each child node, evaluates the instruction data of each child node, and outputs the risk level of the instruction data. The child node executes the instruction based on the risk level and a preset execution program, and optimizes the program based on the evaluation result.",
+    "effect": "Improved accuracy and efficiency in instruction auditing, enhanced data privacy protection, and reduced original data leakage risks"
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning Architecture-based Risk Assessment Method",
+      "Addresses_Problem",
+      "Inefficient and risk-prone instruction auditing method"
+    ],
+    [
+      "Federal Learning Architecture-based Risk Assessment Method",
+      "Comprises_Component",
+      "Child Node"
+    ],
+    [
+      "Child Node",
+      "Comprises_Component",
+      "Instruction Execution Module"
+    ],
+    [
+      "Child Node",
+      "Comprises_Component",
+      "Evaluation Module"
+    ],
+    [
+      "Child Node",
+      "Comprises_Component",
+      "Local Instruction Risk Assessment Model"
+    ],
+    [
+      "Federal Learning Architecture-based Risk Assessment Method",
+      "Composes_Component",
+      "Fusion Node"
+    ],
+    [
+      "Fusion Node",
+      "Implemented_By",
+      "Instruction Risk Joint Assessment Model Construction"
+    ],
+    [
+      "Federal Learning Architecture-based Risk Assessment Method",
+      "Achieves_Effect",
+      "Improved Accuracy"
+    ],
+    [
+      "Federal Learning Architecture-based Risk Assessment Method",
+      "Achieves_Effect",
+      "Enhanced Data Privacy Protection"
+    ],
+    [
+      "Federal Learning Architecture-based Risk Assessment Method",
+      "Achieves_Effect",
+      "Reduced Original Data Leakage Risks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Inefficient and risk-prone instruction auditing method",
+      "causes",
+      "Risk in electronic equipment audit"
+    ],
+    [
+      "Federal learning architecture",
+      "constructs",
+      "Instruction risk joint assessment model"
+    ],
+    [
+      "Instruction risk joint assessment model",
+      "protects",
+      "Data privacy"
+    ],
+    [
+      "Instruction risk joint assessment model",
+      "avoids",
+      "Original data leakage"
+    ],
+    [
+      "Instruction risk joint assessment model",
+      "improves",
+      "Accuracy"
+    ],
+    [
+      "Instruction risk joint assessment model",
+      "increases",
+      "Efficiency"
+    ],
+    [
+      "Child node",
+      "trains",
+      "Local instruction risk assessment model"
+    ],
+    [
+      "Child node",
+      "executes",
+      "Instruction based on risk level"
+    ],
+    [
+      "Child node",
+      "optimizes",
+      "Execution program"
+    ],
+    [
+      "Fusion node",
+      "constructs",
+      "Instruction risk joint assessment model"
+    ],
+    [
+      "Evaluation module",
+      "evaluates",
+      "Instruction data"
+    ],
+    [
+      "Preset execution program",
+      "depends on",
+      "Risk level"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Child Node",
+    "Enhanced Data Privacy Protection",
+    "Evaluation Module",
+    "Federal Learning Architecture-based Risk Assessment Method",
+    "Fusion Node",
+    "Improved Accuracy",
+    "Inefficient and risk-prone instruction auditing method",
+    "Instruction Execution Module",
+    "Instruction Risk Joint Assessment Model Construction",
+    "Local Instruction Risk Assessment Model",
+    "Reduced Original Data Leakage Risks"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Composes_Component",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Child node",
+    "Data privacy",
+    "Efficiency",
+    "Evaluation module",
+    "Execution program",
+    "Federal learning architecture",
+    "Fusion node",
+    "Inefficient and risk-prone instruction auditing method",
+    "Instruction based on risk level",
+    "Instruction data",
+    "Instruction risk joint assessment model",
+    "Local instruction risk assessment model",
+    "Original data leakage",
+    "Preset execution program",
+    "Risk in electronic equipment audit",
+    "Risk level"
+  ],
+  "knowledge_graph2_relation": [
+    "avoids",
+    "causes",
+    "constructs",
+    "depends on",
+    "evaluates",
+    "executes",
+    "improves",
+    "increases",
+    "optimizes",
+    "protects",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/048",
+    "G06Q10/0635"
+  ]
+}

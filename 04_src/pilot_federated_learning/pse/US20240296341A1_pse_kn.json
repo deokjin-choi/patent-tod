@@ -1,0 +1,170 @@
+{
+  "publication_number": "US20240296341A1",
+  "title": "Apparatus and method for tackling data heterogeneity in federated learning using intermediate layer representation regularization",
+  "assignee": "Kyung Hee University",
+  "filing_date": "2023-11-15",
+  "publication_date": "2024-09-05",
+  "pse": {
+    "problem": "Limitation in centralized training of deep neural network models due to security concerns and privacy regulations",
+    "solution_function": "Collaborative model training among edge devices using Federated Averaging (FedAvg) algorithm to create a global model without sharing local data",
+    "solution_structure": "Edge devices for data collection, each device with local model for training, central server for aggregating trained parameters and creating a global model",
+    "solution_implementation": "Each edge device trains its local model using its own data, sends the trained parameter to the server, which then aggregates the received parameters into a single global model",
+    "effect": "Enables large-scale distributed deep learning with data privacy preservation and potential for improved performance due to heterogeneous data"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Averaging (FedAvg)",
+      "Addresses_Problem",
+      "Centralized training limitation"
+    ],
+    [
+      "Edge Devices",
+      "Comprises_Component",
+      "Data Collection Points"
+    ],
+    [
+      "Local Model per Device",
+      "Comprises_Component",
+      "Training Units"
+    ],
+    [
+      "Central Server",
+      "Comprises_Component",
+      "Aggregation Point"
+    ],
+    [
+      "Federated Averaging (FedAvg)",
+      "Implemented_By",
+      "Distributed Training Process"
+    ],
+    [
+      "Federated Averaging (FedAvg)",
+      "Achieves_Effect",
+      "Data Privacy Preservation"
+    ],
+    [
+      "Federated Averaging (FedAvg)",
+      "Achieves_Effect",
+      "Improved Performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Deep Neural Network Models",
+      "are_limited_by",
+      "Centralized Training"
+    ],
+    [
+      "Security Concerns",
+      "limit",
+      "Centralized Training"
+    ],
+    [
+      "Privacy Regulations",
+      "limit",
+      "Centralized Training"
+    ],
+    [
+      "Edge Devices",
+      "perform",
+      "Data Collection"
+    ],
+    [
+      "Edge Device",
+      "has_local_model",
+      "Deep Neural Network Model"
+    ],
+    [
+      "Edge Device",
+      "executes",
+      "Federated Averaging Algorithm"
+    ],
+    [
+      "Local Model",
+      "trains",
+      "Using Own Data"
+    ],
+    [
+      "Trained Parameters",
+      "are_sent_to",
+      "Central Server"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Trained Parameters"
+    ],
+    [
+      "Aggregated Parameters",
+      "create",
+      "Global Model"
+    ],
+    [
+      "Data Privacy Preservation",
+      "is_achieved_by",
+      "Federated Averaging Algorithm"
+    ],
+    [
+      "Heterogeneous Data",
+      "potentially_improves",
+      "Performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregation Point",
+    "Central Server",
+    "Centralized training limitation",
+    "Data Collection Points",
+    "Data Privacy Preservation",
+    "Distributed Training Process",
+    "Edge Devices",
+    "Federated Averaging (FedAvg)",
+    "Improved Performance",
+    "Local Model per Device",
+    "Training Units"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Parameters",
+    "Central Server",
+    "Centralized Training",
+    "Data Collection",
+    "Data Privacy Preservation",
+    "Deep Neural Network Model",
+    "Deep Neural Network Models",
+    "Edge Device",
+    "Edge Devices",
+    "Federated Averaging Algorithm",
+    "Global Model",
+    "Heterogeneous Data",
+    "Local Model",
+    "Performance",
+    "Privacy Regulations",
+    "Security Concerns",
+    "Trained Parameters",
+    "Using Own Data"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "are_limited_by",
+    "are_sent_to",
+    "create",
+    "executes",
+    "has_local_model",
+    "is_achieved_by",
+    "limit",
+    "perform",
+    "potentially_improves",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06N3/045",
+    "G06N3/08",
+    "G06N3/098"
+  ]
+}

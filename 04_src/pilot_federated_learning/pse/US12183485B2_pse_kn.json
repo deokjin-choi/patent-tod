@@ -1,0 +1,159 @@
+{
+  "publication_number": "US12183485B2",
+  "title": "Method and system for detecting typical object of transmission line based on unmanned aerial vehicle (UAV) federated learning",
+  "assignee": "North China Electric Power University",
+  "filing_date": "2022-11-15",
+  "publication_date": "2024-12-31",
+  "pse": {
+    "problem": "Inefficient detection of transmission line objects due to congested communication links in conventional UAV-based methods",
+    "solution_function": "Federated learning based method for training and updating a YOLOv3 object detection model on distributed UAVs for detecting insulators, wires, or pins of a transmission line",
+    "solution_structure": "A network of UAVs divided into multiple federated learning units, each with access to local data of transmission line objects and a Horovod and FATE federated learning framework",
+    "solution_implementation": "Training process involves using a prior database of transmission line object images and tags to create a detection model. Federated learning updates the model locally on each UAV without centralized data upload, reducing communication congestion.",
+    "effect": "Improved detection efficiency for transmission line objects by minimizing communication delays and bandwidth usage"
+  },
+  "knowledge_graph": [
+    [
+      "Federated learning based method",
+      "Addresses_Problem",
+      "Inefficient detection of transmission line objects due to congested communication links"
+    ],
+    [
+      "Federated learning based method",
+      "Comprises_Component",
+      "UAVs divided into federated learning units"
+    ],
+    [
+      "Federated learning based method",
+      "Comprises_Component",
+      "Horovod and FATE federated learning framework"
+    ],
+    [
+      "Federated learning based method",
+      "Implemented_By",
+      "Training process involving a prior database of transmission line object images and tags"
+    ],
+    [
+      "Federated learning based method",
+      "Achieves_Effect",
+      "Improved detection efficiency for transmission line objects"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Conventional UAV-based methods",
+      "causes",
+      "Inefficient detection of transmission line objects"
+    ],
+    [
+      "Federated learning based method",
+      "addresses",
+      "Inefficient detection of transmission line objects"
+    ],
+    [
+      "UAVs",
+      "comprises",
+      "Multiple federated learning units"
+    ],
+    [
+      "Local data",
+      "stores",
+      "Transmission line object images"
+    ],
+    [
+      "Horovod and FATE federated learning framework",
+      "processes",
+      "Model updates"
+    ],
+    [
+      "YOLOv3 object detection model",
+      "controls",
+      "Object detection process"
+    ],
+    [
+      "UAVs",
+      "transmits_to",
+      "Each other (data)"
+    ],
+    [
+      "Federated learning based method",
+      "reduces",
+      "Communication congestion"
+    ],
+    [
+      "Remote Server",
+      "stores",
+      "Updated model"
+    ],
+    [
+      "Transmission line objects images and tags",
+      "provides",
+      "Data for creating a detection model"
+    ],
+    [
+      "Improved detection efficiency",
+      "results_in",
+      "Minimized communication delays and bandwidth usage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated learning based method",
+    "Horovod and FATE federated learning framework",
+    "Improved detection efficiency for transmission line objects",
+    "Inefficient detection of transmission line objects due to congested communication links",
+    "Training process involving a prior database of transmission line object images and tags",
+    "UAVs divided into federated learning units"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Communication congestion",
+    "Conventional UAV-based methods",
+    "Data for creating a detection model",
+    "Each other (data)",
+    "Federated learning based method",
+    "Horovod and FATE federated learning framework",
+    "Improved detection efficiency",
+    "Inefficient detection of transmission line objects",
+    "Local data",
+    "Minimized communication delays and bandwidth usage",
+    "Model updates",
+    "Multiple federated learning units",
+    "Object detection process",
+    "Remote Server",
+    "Transmission line object images",
+    "Transmission line objects images and tags",
+    "UAVs",
+    "Updated model",
+    "YOLOv3 object detection model"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "causes",
+    "comprises",
+    "controls",
+    "processes",
+    "provides",
+    "reduces",
+    "results_in",
+    "stores",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "B64C39/024",
+    "B64U2101/30",
+    "G06F18/214",
+    "G06N20/00",
+    "G06V10/255",
+    "G06V10/70",
+    "G06V10/82",
+    "G06V20/17",
+    "G06V20/176",
+    "G06V2201/07",
+    "H01B7/32",
+    "Y04S10/50"
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "publication_number": "CN113723621A",
+  "title": "Longitudinal federated learning modeling method, device, equipment and computer medium",
+  "assignee": "JD Digital Technology Holdings Co Ltd",
+  "filing_date": "2021-04-19",
+  "publication_date": "2021-11-30",
+  "pse": {
+    "problem": "Inefficiency in longitudinal federated learning modeling due to consumption of large computing resources and time during data encryption and transmission.",
+    "solution_function": "Improves efficiency of longitudinal federated learning by reducing data encrypted and transmitted through selective label decomposition, sub-label sequencing, and target sub-tag determination.",
+    "solution_structure": "Includes a business side that stores labels, multiple data parties corresponding to each label for local data processing during federal learning, and optional components for label decomposition and sub-label sequencing.",
+    "solution_implementation": "Label is decomposed into sub-labels, sorted by descending normalized amplitude values, and a target sub-tag is determined based on an energy loss calculation method that involves calculating a first loss value using MSE loss calculation. Each data party performs federal learning modeling with the distributed target sub-label and their local data.",
+    "effect": "Reduction in computational resources and time consumed during data encryption and transmission, leading to increased efficiency of longitudinal federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Improved Longitudinal Federated Learning",
+      "Addresses_Problem",
+      "Inefficiency in longitudinal federated learning modeling"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Comprises_Component",
+      "Business Side"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Comprises_Component",
+      "Multiple Data Parties"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Comprises_Component",
+      "(Optional) Label Decomposition Component"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Comprises_Component",
+      "(Optional) Sub-Label Sequencing Component"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Implemented_By",
+      "Sub-label Decomposition"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Implemented_By",
+      "Sub-label Sorting"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Implemented_By",
+      "Target Sub-tag Determination"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Implemented_By",
+      "Federal Learning Modeling"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Achieves_Effect",
+      "Reduction in computational resources"
+    ],
+    [
+      "Improved Longitudinal Federated Learning",
+      "Achieves_Effect",
+      "Time reduction during data encryption and transmission"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Longitudinal Federated Learning",
+      "causes",
+      "Inefficiency"
+    ],
+    [
+      "Computing Resources",
+      "consumed_by",
+      "Longitudinal Federated Learning"
+    ],
+    [
+      "Time",
+      "consumed_by",
+      "Longitudinal Federated Learning"
+    ],
+    [
+      "Data Encryption",
+      "consumed_by",
+      "Longitudinal Federated Learning"
+    ],
+    [
+      "Data Transmission",
+      "consumed_by",
+      "Longitudinal Federated Learning"
+    ],
+    [
+      "Label Decomposition",
+      "performed_by",
+      "Solution"
+    ],
+    [
+      "Sub-label Sequencing",
+      "performed_by",
+      "Solution"
+    ],
+    [
+      "Target Sub-tag Determination",
+      "performed_by",
+      "Solution"
+    ],
+    [
+      "Business Side",
+      "stores",
+      "Labels"
+    ],
+    [
+      "Data Parties",
+      "correspond_to",
+      "Each Label"
+    ],
+    [
+      "Data Party",
+      "processes",
+      "Federal Learning Modeling"
+    ],
+    [
+      "Data Party",
+      "uses",
+      "Local Data"
+    ],
+    [
+      "Target Sub-label",
+      "used_for",
+      "Federal Learning Modeling"
+    ],
+    [
+      "Sub-labels",
+      "sorted_by",
+      "Descending Normalized Amplitude Values"
+    ],
+    [
+      "Energy Loss Calculation Method",
+      "calculates",
+      "First Loss Value"
+    ],
+    [
+      "MSE Loss Calculation",
+      "used_in",
+      "Energy Loss Calculation Method"
+    ],
+    [
+      "Solution",
+      "reduces",
+      "Data Encrypted and Transmitted"
+    ],
+    [
+      "Solution Implementation",
+      "implements",
+      "Label Decomposition"
+    ],
+    [
+      "Solution Implementation",
+      "implements",
+      "Sub-label Sequencing"
+    ],
+    [
+      "Solution Implementation",
+      "implements",
+      "Target Sub-tag Determination"
+    ],
+    [
+      "Solution Improvement",
+      "achieves",
+      "Increased Efficiency of Longitudinal Federated Learning"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "(Optional) Label Decomposition Component",
+    "(Optional) Sub-Label Sequencing Component",
+    "Business Side",
+    "Federal Learning Modeling",
+    "Improved Longitudinal Federated Learning",
+    "Inefficiency in longitudinal federated learning modeling",
+    "Multiple Data Parties",
+    "Reduction in computational resources",
+    "Sub-label Decomposition",
+    "Sub-label Sorting",
+    "Target Sub-tag Determination",
+    "Time reduction during data encryption and transmission"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Business Side",
+    "Computing Resources",
+    "Data Encrypted and Transmitted",
+    "Data Encryption",
+    "Data Parties",
+    "Data Party",
+    "Data Transmission",
+    "Descending Normalized Amplitude Values",
+    "Each Label",
+    "Energy Loss Calculation Method",
+    "Federal Learning Modeling",
+    "First Loss Value",
+    "Increased Efficiency of Longitudinal Federated Learning",
+    "Inefficiency",
+    "Label Decomposition",
+    "Labels",
+    "Local Data",
+    "Longitudinal Federated Learning",
+    "MSE Loss Calculation",
+    "Solution",
+    "Solution Implementation",
+    "Solution Improvement",
+    "Sub-label Sequencing",
+    "Sub-labels",
+    "Target Sub-label",
+    "Target Sub-tag Determination",
+    "Time"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "calculates",
+    "causes",
+    "consumed_by",
+    "correspond_to",
+    "implements",
+    "performed_by",
+    "processes",
+    "reduces",
+    "sorted_by",
+    "stores",
+    "used_for",
+    "used_in",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "Y02D10/00"
+  ]
+}

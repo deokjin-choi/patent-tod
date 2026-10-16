@@ -1,0 +1,217 @@
+{
+  "publication_number": "CN118734999A",
+  "title": "IoT device data aggregation method based on continuous knowledge distillation and federated learning",
+  "assignee": "Guangzhou Lianrong Information Technology Co ltd",
+  "filing_date": "2024-07-01",
+  "publication_date": "2024-10-01",
+  "pse": {
+    "problem": "Data privacy and security issues, computing resource and bandwidth limitation issues, data heterogeneity and standardization issues, real-time and latency issues in IoT device data aggregation.",
+    "solution_function": "The method performs distributed training using federated learning to aggregate model updates from different devices. This results in a global optimization model, enhancing data privacy and security, reducing dependence on computing resources, handling diverse data formats, and meeting real-time requirements.",
+    "solution_structure": "The system includes IoT devices, a local model (on each device), a server for coordination and aggregation of updates, and a global model.",
+    "solution_implementation": "Each device trains its local model on locally collected data. The local model is periodically sent to the server where it gets distilled into the global model without sharing raw data. The global model is then sent back to each device for further updates.",
+    "effect": "Enhanced data privacy and security, reduced dependency on computing resources, handling of diverse data formats, meeting real-time requirements"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Data Privacy and Security Issues"
+    ],
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Computing Resource and Bandwidth Limitations"
+    ],
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Data Heterogeneity and Standardization Issues"
+    ],
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Real-time and Latency Issues in IoT Device Data Aggregation"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "IoT Devices"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Local Model (on each device)"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Server for coordination and aggregation of updates"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Global Model"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Device Trains Local Model on Locally Collected Data"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Local Model Sent to Server for Aggregation"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Distillation of Local Model into Global Model without Sharing Raw Data"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Global Model Sent Back to Each Device for Further Updates"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Enhanced Data Privacy and Security"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Reduced Dependency on Computing Resources"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Handling of Diverse Data Formats"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Meeting Real-Time Requirements"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "achieves",
+      "Data Privacy and Security"
+    ],
+    [
+      "Federated Learning",
+      "reduces",
+      "Dependence on Computing Resources"
+    ],
+    [
+      "Federated Learning",
+      "handles",
+      "Diverse Data Formats"
+    ],
+    [
+      "Federated Learning",
+      "meets",
+      "Real-Time Requirements"
+    ],
+    [
+      "IoT Device",
+      "monitors",
+      "Local Data"
+    ],
+    [
+      "IoT Device",
+      "processes",
+      "Local Model"
+    ],
+    [
+      "IoT Device",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Model Updates"
+    ],
+    [
+      "Server",
+      "distills",
+      "Global Model"
+    ],
+    [
+      "Server",
+      "transmits_to",
+      "IoT Device"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Global Model"
+    ],
+    [
+      "Local Model",
+      "is_a_part_of",
+      "IoT Device"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Computing Resource and Bandwidth Limitations",
+    "Data Heterogeneity and Standardization Issues",
+    "Data Privacy and Security Issues",
+    "Device Trains Local Model on Locally Collected Data",
+    "Distillation of Local Model into Global Model without Sharing Raw Data",
+    "Enhanced Data Privacy and Security",
+    "Federated Learning",
+    "Global Model",
+    "Global Model Sent Back to Each Device for Further Updates",
+    "Handling of Diverse Data Formats",
+    "IoT Devices",
+    "Local Model (on each device)",
+    "Local Model Sent to Server for Aggregation",
+    "Meeting Real-Time Requirements",
+    "Real-time and Latency Issues in IoT Device Data Aggregation",
+    "Reduced Dependency on Computing Resources",
+    "Server for coordination and aggregation of updates"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Cloud Storage",
+    "Data Privacy and Security",
+    "Dependence on Computing Resources",
+    "Diverse Data Formats",
+    "Federated Learning",
+    "Global Model",
+    "IoT Device",
+    "Local Data",
+    "Local Model",
+    "Model Updates",
+    "Real-Time Requirements",
+    "Server"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "aggregates",
+    "distills",
+    "handles",
+    "is_a_part_of",
+    "meets",
+    "monitors",
+    "processes",
+    "reduces",
+    "stores",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F17/18",
+    "G06N20/00",
+    "G06N3/084",
+    "G06N5/02",
+    "G06Q10/04"
+  ]
+}

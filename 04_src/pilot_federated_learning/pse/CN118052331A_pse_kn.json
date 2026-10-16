@@ -1,0 +1,168 @@
+{
+  "publication_number": "CN118052331A",
+  "title": "Resident electricity consumption prediction method based on deep learning and federal learning",
+  "assignee": "Beijing Tsingsoft Technology Co ltd",
+  "filing_date": "2024-03-25",
+  "publication_date": "2024-05-17",
+  "pse": {
+    "problem": "Existing residential electricity consumption prediction methods struggle with varying resident habits, privacy concerns, and poor convergence speed, leading to decreased accuracy.",
+    "solution_function": "The method proposes a residential electricity consumption prediction model based on deep learning and federated learning. The model uses cloud-edge collaboration for training on edge devices while maintaining user data privacy. Federated learning personalizes the prediction, reducing errors.",
+    "solution_structure": "A cloud-edge collaborative architecture is established to combine edge computing with cloud computing. A federated learning edge model based on EMD-LSTM (Empirical Mode Decomposition Long Short-Term Memory) is constructed for residential electricity consumption prediction.",
+    "solution_implementation": "The model collects data from edge devices, trains the model using federated learning, and personalizes the predictions. The cloud server aggregates models from multiple users to improve accuracy.",
+    "effect": "The method improves prediction accuracy while protecting user privacy by addressing resident-specific electricity consumption patterns."
+  },
+  "knowledge_graph": [
+    [
+      "Deep Learning & Federated Learning Model",
+      "Addresses_Problem",
+      "Core Problem Concept: Varying resident habits, privacy concerns, and poor convergence speed"
+    ],
+    [
+      "Deep Learning & Federated Learning Model",
+      "Comprises_Component",
+      "Key Component 1: Cloud-Edge Collaborative Architecture"
+    ],
+    [
+      "Deep Learning & Federated Learning Model",
+      "Comprises_Component",
+      "Key Component 2: EMD-LSTM"
+    ],
+    [
+      "Deep Learning & Federated Learning Model",
+      "Implemented_By",
+      "Core Operation Logic: Data collection, model training, personalized predictions"
+    ],
+    [
+      "Deep Learning & Federated Learning Model",
+      "Achieves_Effect",
+      "Primary Benefit: Improved prediction accuracy while protecting user privacy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Residential Electricity Consumption Prediction Methods",
+      "causes",
+      "Decreased Accuracy"
+    ],
+    [
+      "Residential Electricity Consumption Prediction Model",
+      "addresses",
+      "Varying Resident Habits"
+    ],
+    [
+      "Residential Electricity Consumption Prediction Model",
+      "addresses",
+      "Privacy Concerns"
+    ],
+    [
+      "Residential Electricity Consumption Prediction Model",
+      "addresses",
+      "Poor Convergence Speed"
+    ],
+    [
+      "Deep Learning and Federated Learning",
+      "implemented_by",
+      "Residential Electricity Consumption Prediction Model"
+    ],
+    [
+      "Cloud-Edge Collaborative Architecture",
+      "comprises",
+      "Edge Computing"
+    ],
+    [
+      "Cloud-Edge Collaborative Architecture",
+      "comprises",
+      "Cloud Computing"
+    ],
+    [
+      "Federated Learning Edge Model",
+      "comprises",
+      "EMD-LSTM"
+    ],
+    [
+      "Residential Electricity Consumption Prediction Model",
+      "collects_data_from",
+      "Edge Devices"
+    ],
+    [
+      "Federated Learning Edge Model",
+      "personalizes",
+      "Predictions"
+    ],
+    [
+      "Cloud Server",
+      "aggregates",
+      "Models"
+    ],
+    [
+      "Cloud Server",
+      "improves",
+      "Accuracy"
+    ],
+    [
+      "Residential Electricity Consumption Prediction Method",
+      "achieves",
+      "Improved Prediction Accuracy"
+    ],
+    [
+      "Residential Electricity Consumption Prediction Method",
+      "protects",
+      "User Privacy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Data collection, model training, personalized predictions",
+    "Core Problem Concept: Varying resident habits, privacy concerns, and poor convergence speed",
+    "Deep Learning & Federated Learning Model",
+    "Key Component 1: Cloud-Edge Collaborative Architecture",
+    "Key Component 2: EMD-LSTM",
+    "Primary Benefit: Improved prediction accuracy while protecting user privacy"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Cloud Computing",
+    "Cloud Server",
+    "Cloud-Edge Collaborative Architecture",
+    "Decreased Accuracy",
+    "Deep Learning and Federated Learning",
+    "EMD-LSTM",
+    "Edge Computing",
+    "Edge Devices",
+    "Existing Residential Electricity Consumption Prediction Methods",
+    "Federated Learning Edge Model",
+    "Improved Prediction Accuracy",
+    "Models",
+    "Poor Convergence Speed",
+    "Predictions",
+    "Privacy Concerns",
+    "Residential Electricity Consumption Prediction Method",
+    "Residential Electricity Consumption Prediction Model",
+    "User Privacy",
+    "Varying Resident Habits"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "addresses",
+    "aggregates",
+    "causes",
+    "collects_data_from",
+    "comprises",
+    "implemented_by",
+    "improves",
+    "personalizes",
+    "protects"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/0442",
+    "G06N3/098",
+    "G06Q10/04",
+    "G06Q50/06"
+  ]
+}

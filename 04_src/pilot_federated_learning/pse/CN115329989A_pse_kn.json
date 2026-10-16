@@ -1,0 +1,179 @@
+{
+  "publication_number": "CN115329989A",
+  "title": "Synchronous federated learning acceleration method based on model segmentation under edge calculation scene",
+  "assignee": "Hefei Benyuan Internet Of Things Technology Co ltd",
+  "filing_date": "2022-10-13",
+  "publication_date": "2022-11-11",
+  "pse": {
+    "problem": "Inefficiency and waste of computing resources in synchronous federated learning under edge calculation scene due to difference in computing capabilities among terminal devices.",
+    "solution_function": "Accelerates synchronous federated learning by segmenting models on each terminal device, calculating the first half part locally, sending the second half part calculation task to a matched edge server, and minimizing the total time for model training through optimized model segmentation strategy and edge server matching strategy.",
+    "solution_structure": "N terminal devices and m edge servers; each terminal device segments its model into first half part and second half part; edge servers match with terminal devices for computation.",
+    "solution_implementation": "Model segmentation, edge server matching, local calculation of first half part by terminal device, sending calculation task of second half part to matched edge server, receiving results from edge server, and model optimization based on the results.",
+    "effect": "Reduction in overall training time of synchronous federated learning, minimizing idle operation, and efficient utilization of computing resources"
+  },
+  "knowledge_graph": [
+    [
+      "Accelerated Federated Learning Strategy",
+      "Addresses_Problem",
+      "Inefficiency and waste of computing resources in synchronous federated learning"
+    ],
+    [
+      "Accelerated Federated Learning Strategy",
+      "Comprises_Component",
+      "Model Segmentation"
+    ],
+    [
+      "Accelerated Federated Learning Strategy",
+      "Comprises_Component",
+      "Edge Server Matching"
+    ],
+    [
+      "Accelerated Federated Learning Strategy",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Accelerated Federated Learning Strategy",
+      "Achieves_Effect",
+      "Reduction in overall training time of synchronous federated learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Synchronous Federated Learning",
+      "causes",
+      "Inefficiency and waste of computing resources"
+    ],
+    [
+      "Edge Calculation Scene",
+      "contributes_to",
+      "Inefficiency and waste of computing resources"
+    ],
+    [
+      "Terminal Devices",
+      "have_different",
+      "Computing Capabilities"
+    ],
+    [
+      "Terminal Device",
+      "segments",
+      "Model"
+    ],
+    [
+      "Terminal Device",
+      "locally_calculates",
+      "First Half Part of Model"
+    ],
+    [
+      "Terminal Device",
+      "transmits_to",
+      "Edge Server"
+    ],
+    [
+      "Edge Server",
+      "matches_with",
+      "Terminal Device"
+    ],
+    [
+      "Edge Server",
+      "processes",
+      "Second Half Part of Model"
+    ],
+    [
+      "Model Segmentation Strategy",
+      "optimizes",
+      "Model Segmentation"
+    ],
+    [
+      "Edge Server Matching Strategy",
+      "optimizes",
+      "Edge Server Matching"
+    ],
+    [
+      "Edge Server",
+      "sends_results_to",
+      "Terminal Device"
+    ],
+    [
+      "Model",
+      "gets_optimized",
+      "Based on Results"
+    ],
+    [
+      "Synchronous Federated Learning",
+      "is_accelerated_by",
+      "Optimized Model Segmentation Strategy and Edge Server Matching Strategy"
+    ],
+    [
+      "Synchronous Federated Learning",
+      "reduces",
+      "Overall Training Time"
+    ],
+    [
+      "Synchronous Federated Learning",
+      "minimizes",
+      "Idle Operation"
+    ],
+    [
+      "Synchronous Federated Learning",
+      "efficiently_utilizes",
+      "Computing Resources"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Accelerated Federated Learning Strategy",
+    "Core Operation Logic",
+    "Edge Server Matching",
+    "Inefficiency and waste of computing resources in synchronous federated learning",
+    "Model Segmentation",
+    "Reduction in overall training time of synchronous federated learning"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Based on Results",
+    "Computing Capabilities",
+    "Computing Resources",
+    "Edge Calculation Scene",
+    "Edge Server",
+    "Edge Server Matching",
+    "Edge Server Matching Strategy",
+    "First Half Part of Model",
+    "Idle Operation",
+    "Inefficiency and waste of computing resources",
+    "Model",
+    "Model Segmentation",
+    "Model Segmentation Strategy",
+    "Optimized Model Segmentation Strategy and Edge Server Matching Strategy",
+    "Overall Training Time",
+    "Second Half Part of Model",
+    "Synchronous Federated Learning",
+    "Terminal Device",
+    "Terminal Devices"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "contributes_to",
+    "efficiently_utilizes",
+    "gets_optimized",
+    "have_different",
+    "is_accelerated_by",
+    "locally_calculates",
+    "matches_with",
+    "minimizes",
+    "optimizes",
+    "processes",
+    "reduces",
+    "segments",
+    "sends_results_to",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F9/5061",
+    "G06N20/20"
+  ]
+}

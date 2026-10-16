@@ -1,0 +1,161 @@
+{
+  "publication_number": "CN118468186A",
+  "title": "A wind power data anomaly detection method and system based on federated learning mechanism",
+  "assignee": "State Grid Jiangsu Electric Power Co Ltd",
+  "filing_date": "2024-05-27",
+  "publication_date": "2024-08-09",
+  "pse": {
+    "problem": "The challenge is to efficiently analyze spatiotemporal graph data from wind farms for anomaly detection in a distributed storage environment with privacy and security concerns.",
+    "solution_function": "The solution involves using a federated learning enabled Graph Neural Network (GNN) to analyze spatiotemporal graphs, capturing both spatial and temporal dependencies and trends. GNN processes node features (time series data) and graph structure information to learn node representations by aggregating neighboring nodes' feature information multiple times.",
+    "solution_structure": "The key components include terminal devices (with local datasets), a central server, and the federated learning mechanism integrated into the Graph Neural Network.",
+    "solution_implementation": "The process consists of: (1) The central server sends initial model parameters to terminal devices. (2) Each device updates its model parameters using local data sets and sends the updated parameters back to the central server. (3) The central server aggregates the updated parameters to generate an updated global model. This process ensures data security by only transmitting model parameters, not raw data.",
+    "effect": "This solution provides efficient anomaly detection for wind power data in a distributed storage environment while addressing privacy and security concerns."
+  },
+  "knowledge_graph": [
+    [
+      "Graph Neural Network (GNN)",
+      "Addresses_Problem",
+      "Efficient analysis of spatiotemporal graph data for anomaly detection in a distributed storage environment"
+    ],
+    [
+      "Graph Neural Network (GNN)",
+      "Comprises_Component",
+      "Terminal devices with local datasets"
+    ],
+    [
+      "Graph Neural Network (GNN)",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Graph Neural Network (GNN)",
+      "Implemented_By",
+      "Federated learning mechanism"
+    ],
+    [
+      "Graph Neural Network (GNN)",
+      "Achieves_Effect",
+      "Efficient anomaly detection for wind power data in a distributed storage environment while addressing privacy and security concerns"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Wind Farm",
+      "provides",
+      "Graph Data"
+    ],
+    [
+      "Graph Data",
+      "contains",
+      "Spatiotemporal Information"
+    ],
+    [
+      "GNN (Graph Neural Network)",
+      "controls",
+      "Data Analysis Process"
+    ],
+    [
+      "GNN",
+      "aggregates",
+      "Neighboring Nodes' Feature Information"
+    ],
+    [
+      "Federated Learning Mechanism",
+      "integrated_into",
+      "GNN"
+    ],
+    [
+      "Terminal Devices",
+      "comprises",
+      "Local Datasets"
+    ],
+    [
+      "Central Server",
+      "sends",
+      "Initial Model Parameters"
+    ],
+    [
+      "Terminal Device",
+      "updates",
+      "Model Parameters"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Updated Parameters"
+    ],
+    [
+      "Graph Neural Network",
+      "achieves",
+      "Efficient Anomaly Detection"
+    ],
+    [
+      "Graph Neural Network",
+      "addresses",
+      "Privacy and Security Concerns"
+    ],
+    [
+      "Data",
+      "remains_private",
+      "During Transmission"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central server",
+    "Efficient analysis of spatiotemporal graph data for anomaly detection in a distributed storage environment",
+    "Efficient anomaly detection for wind power data in a distributed storage environment while addressing privacy and security concerns",
+    "Federated learning mechanism",
+    "Graph Neural Network (GNN)",
+    "Terminal devices with local datasets"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Data",
+    "Data Analysis Process",
+    "During Transmission",
+    "Efficient Anomaly Detection",
+    "Federated Learning Mechanism",
+    "GNN",
+    "GNN (Graph Neural Network)",
+    "Graph Data",
+    "Graph Neural Network",
+    "Initial Model Parameters",
+    "Local Datasets",
+    "Model Parameters",
+    "Neighboring Nodes' Feature Information",
+    "Privacy and Security Concerns",
+    "Spatiotemporal Information",
+    "Terminal Device",
+    "Terminal Devices",
+    "Updated Parameters",
+    "Wind Farm"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "addresses",
+    "aggregates",
+    "comprises",
+    "contains",
+    "controls",
+    "integrated_into",
+    "provides",
+    "remains_private",
+    "sends",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F18/22",
+    "G06F18/2433",
+    "G06N20/00",
+    "G06N3/042",
+    "G06N3/0895",
+    "G06N3/092",
+    "G06N3/098"
+  ]
+}

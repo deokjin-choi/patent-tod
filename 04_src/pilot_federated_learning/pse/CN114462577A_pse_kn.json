@@ -1,0 +1,201 @@
+{
+  "publication_number": "CN114462577A",
+  "title": "A federated learning system, method, computer equipment and storage medium",
+  "assignee": "State Grid Fujian Electric Power Co Ltd",
+  "filing_date": "2022-01-30",
+  "publication_date": "2022-05-10",
+  "pse": {
+    "problem": "Strong dependence on the central server and poor anti-risk capability of traditional federated learning methods.",
+    "solution_function": "A decentralized federated learning system that protects data privacy of edge terminal devices while improving its anti-risk capability. The system performs parameter training on the received initial fully connected network at the edge server based on feature vectors obtained from private data sets at edge terminal devices.",
+    "solution_structure": "The system consists of multiple edge servers and multiple edge terminal devices. Each edge server is connected to at least one edge terminal device. The edge servers each have two identical initial global models, a pre-trained feature extraction network, and an initial fully connected network.",
+    "solution_implementation": "Edge terminal devices input their private data sets into the pre-trained feature extraction network to obtain feature vectors. Edge servers perform parameter training on the received initial fully connected network based on the feature vectors to create edge training models. The aggregation node collects and aggregates these edge training models to create an aggregated global model, which is then updated and sent back to the edge servers if it does not converge.",
+    "effect": "Improved decentralization, data privacy protection, and anti-risk capability compared to traditional federated learning methods"
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Federated Learning System",
+      "Addresses_Problem",
+      "Strong Dependence on Central Server and Poor Anti-Risk Capability"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Comprises_Component",
+      "Multiple Edge Servers"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Comprises_Component",
+      "Multiple Edge Terminal Devices"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Implemented_By",
+      "Parameter Training on Initial Fully Connected Network"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Achieves_Effect",
+      "Improved Decentralization"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Achieves_Effect",
+      "Data Privacy Protection"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Achieves_Effect",
+      "Enhanced Anti-Risk Capability"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Decentralized Federated Learning System",
+      "controls",
+      "Strong Dependence on Central Server"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "improves",
+      "Poor Anti-Risk Capability"
+    ],
+    [
+      "Edge Terminal Device",
+      "contains",
+      "Private Data Set"
+    ],
+    [
+      "Pre-trained Feature Extraction Network",
+      "processes",
+      "Private Data Sets"
+    ],
+    [
+      "Edge Terminal Device",
+      "provides",
+      "Feature Vectors"
+    ],
+    [
+      "Initial Fully Connected Network",
+      "receives",
+      "Parameter Training"
+    ],
+    [
+      "Multiple Edge Servers",
+      "comprises",
+      "Two Identical Initial Global Models"
+    ],
+    [
+      "Multiple Edge Servers",
+      "comprises",
+      "A Pre-trained Feature Extraction Network"
+    ],
+    [
+      "Multiple Edge Servers",
+      "comprises",
+      "An Initial Fully Connected Network"
+    ],
+    [
+      "Edge Server",
+      "connects_to",
+      "At Least One Edge Terminal Device"
+    ],
+    [
+      "Aggregation Node",
+      "collects",
+      "Edge Training Models"
+    ],
+    [
+      "Aggregation Node",
+      "aggregates",
+      "Edge Training Models"
+    ],
+    [
+      "Aggregated Global Model",
+      "updates",
+      "If It Does Not Converge"
+    ],
+    [
+      "Aggregated Global Model",
+      "transmits_to",
+      "Edge Servers"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "achieves",
+      "Improved Decentralization"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "protects",
+      "Data Privacy"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "improves",
+      "Anti-Risk Capability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Privacy Protection",
+    "Decentralized Federated Learning System",
+    "Enhanced Anti-Risk Capability",
+    "Improved Decentralization",
+    "Multiple Edge Servers",
+    "Multiple Edge Terminal Devices",
+    "Parameter Training on Initial Fully Connected Network",
+    "Strong Dependence on Central Server and Poor Anti-Risk Capability"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "A Pre-trained Feature Extraction Network",
+    "Aggregated Global Model",
+    "Aggregation Node",
+    "An Initial Fully Connected Network",
+    "Anti-Risk Capability",
+    "At Least One Edge Terminal Device",
+    "Data Privacy",
+    "Decentralized Federated Learning System",
+    "Edge Server",
+    "Edge Servers",
+    "Edge Terminal Device",
+    "Edge Training Models",
+    "Feature Vectors",
+    "If It Does Not Converge",
+    "Improved Decentralization",
+    "Initial Fully Connected Network",
+    "Multiple Edge Servers",
+    "Parameter Training",
+    "Poor Anti-Risk Capability",
+    "Pre-trained Feature Extraction Network",
+    "Private Data Set",
+    "Private Data Sets",
+    "Strong Dependence on Central Server",
+    "Two Identical Initial Global Models"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "aggregates",
+    "collects",
+    "comprises",
+    "connects_to",
+    "contains",
+    "controls",
+    "improves",
+    "processes",
+    "protects",
+    "provides",
+    "receives",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/044",
+    "G06N3/08"
+  ]
+}

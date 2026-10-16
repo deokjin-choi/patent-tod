@@ -1,0 +1,226 @@
+{
+  "publication_number": "CN120087492A",
+  "title": "A Federated Learning Method Based on Client Selection and Model Pruning",
+  "assignee": "Hangzhou Zhiyuan Research Institute Co ltd",
+  "filing_date": "2024-11-01",
+  "publication_date": "2025-06-03",
+  "pse": {
+    "problem": "Limited resources in IoT systems cause high communication overhead and inefficiency in federal learning.",
+    "solution_function": "The system selects a subset of clients for model training, prunes models using Top-K sparsity, aggregates updated local models at the server, and performs weighted average aggregation on the global model.",
+    "solution_structure": "The system comprises N clients, a server, and parameters such as total communication round T, current communication round T, total local iteration round E, current local iteration round E, sets M t ,S t ,K t , a global model w t and others initialized by the system.",
+    "solution_implementation": "In each iteration, the server randomly selects clients for model training; each client performs local model updating with Top-K sparsity, sends updated local model parameters to the server. In each communication round, the server calculates indexes and selects clients based on local model parameters sent by clients, aggregates global model using weighted average.",
+    "effect": "Reduced extra communication overhead, improved convergence rate, and training efficiency while ensuring model training accuracy"
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning System Optimization",
+      "Addresses_Problem",
+      "Limited Resources in IoT Systems"
+    ],
+    [
+      "Federal Learning System Optimization",
+      "Comprises_Component",
+      "Client Selection Module"
+    ],
+    [
+      "Federal Learning System Optimization",
+      "Comprises_Component",
+      "Model Pruning Module"
+    ],
+    [
+      "Federal Learning System Optimization",
+      "Implemented_By",
+      "Iterative Client-Server Interaction"
+    ],
+    [
+      "Federal Learning System Optimization",
+      "Achieves_Effect",
+      "Reduced Communication Overhead"
+    ],
+    [
+      "Federal Learning System Optimization",
+      "Achieves_Effect",
+      "Improved Convergence Rate"
+    ],
+    [
+      "Federal Learning System Optimization",
+      "Achieves_Effect",
+      "Efficient Training"
+    ],
+    [
+      "Federal Learning System Optimization",
+      "Achieves_Effect",
+      "Model Training Accuracy Maintenance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "IoT Systems",
+      "causes",
+      "High Communication Overhead"
+    ],
+    [
+      "Federal Learning",
+      "is_implemented_by",
+      "IoT Systems"
+    ],
+    [
+      "IoT Systems",
+      "addresses",
+      "Limited Resources"
+    ],
+    [
+      "Clients",
+      "comprises",
+      "Subset of Clients"
+    ],
+    [
+      "Server",
+      "comprises",
+      "Global Model"
+    ],
+    [
+      "Parameters",
+      "includes",
+      "Total Communication Round T"
+    ],
+    [
+      "Parameters",
+      "includes",
+      "Current Communication Round T"
+    ],
+    [
+      "Parameters",
+      "includes",
+      "Total Local Iteration Round E"
+    ],
+    [
+      "Parameters",
+      "includes",
+      "Current Local Iteration Round E"
+    ],
+    [
+      "Parameters",
+      "includes",
+      "Sets M t ,S t ,K t"
+    ],
+    [
+      "Server",
+      "selects",
+      "Clients for Model Training"
+    ],
+    [
+      "Clients",
+      "updates",
+      "Local Models with Top-K Sparsity"
+    ],
+    [
+      "Clients",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Updated Local Models"
+    ],
+    [
+      "Global Model",
+      "undergoes",
+      "Weighted Average Aggregation"
+    ],
+    [
+      "Server",
+      "calculates",
+      "Indexes"
+    ],
+    [
+      "Server",
+      "selects",
+      "Clients based on local model parameters"
+    ],
+    [
+      "IoT Systems",
+      "improves",
+      "Convergence Rate"
+    ],
+    [
+      "IoT Systems",
+      "improves",
+      "Training Efficiency"
+    ],
+    [
+      "IoT Systems",
+      "ensures",
+      "Model Training Accuracy"
+    ],
+    [
+      "IoT Systems",
+      "reduces",
+      "Extra Communication Overhead"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client Selection Module",
+    "Efficient Training",
+    "Federal Learning System Optimization",
+    "Improved Convergence Rate",
+    "Iterative Client-Server Interaction",
+    "Limited Resources in IoT Systems",
+    "Model Pruning Module",
+    "Model Training Accuracy Maintenance",
+    "Reduced Communication Overhead"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Clients",
+    "Clients based on local model parameters",
+    "Clients for Model Training",
+    "Convergence Rate",
+    "Current Communication Round T",
+    "Current Local Iteration Round E",
+    "Extra Communication Overhead",
+    "Federal Learning",
+    "Global Model",
+    "High Communication Overhead",
+    "Indexes",
+    "IoT Systems",
+    "Limited Resources",
+    "Local Models with Top-K Sparsity",
+    "Model Training Accuracy",
+    "Parameters",
+    "Server",
+    "Sets M t ,S t ,K t",
+    "Subset of Clients",
+    "Total Communication Round T",
+    "Total Local Iteration Round E",
+    "Training Efficiency",
+    "Updated Local Models",
+    "Weighted Average Aggregation"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "calculates",
+    "causes",
+    "comprises",
+    "ensures",
+    "improves",
+    "includes",
+    "is_implemented_by",
+    "reduces",
+    "selects",
+    "transmits_to",
+    "undergoes",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F18/2136",
+    "G06N20/00"
+  ]
+}

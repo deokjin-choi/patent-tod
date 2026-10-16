@@ -1,0 +1,242 @@
+{
+  "publication_number": "CN114219159A",
+  "title": "A Production Line Scheduling Method Based on Federated Learning and Attention Mechanism",
+  "assignee": "Hunan University",
+  "filing_date": "2021-12-20",
+  "publication_date": "2022-03-22",
+  "pse": {
+    "problem": "Existing production line scheduling methods have limitations in accuracy, efficiency, and cost due to inaccurate predictions and differences between theoretical and actual results.",
+    "solution_function": "The system solves the scheduling problem of a job shop by adopting a federal learning and attention mechanism. It integrates the predicted production scheduling data from multiple part manufacturers, generates a global production part data model, and uses an attention mechanism to optimize the production line schedule.",
+    "solution_structure": "The system consists of long-term and short-term memory networks for generating and training individual part manufacturer's production part data models. It also includes encryption, longitudinal federal learning, and an attention mechanism for collaborative training and optimization.",
+    "solution_implementation": "The system initially establishes a production part data model using a long-term and short-term memory network. The model is trained with historical production part data, using gate control splicing training, selective memorization and forgetting, combination of selected inputs, optimization through a loss function, and normalization. Once the precision requirement is met, it generates a trained production part data model for prediction and conversion to original values.",
+    "effect": "The system promises accurate and efficient production line scheduling, potentially reducing costs and improving efficiency."
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning and Attention Mechanism",
+      "Addresses_Problem",
+      "Core Problem Concept"
+    ],
+    [
+      "Federal Learning and Attention Mechanism",
+      "Comprises_Component",
+      "Long-term Memory Network"
+    ],
+    [
+      "Federal Learning and Attention Mechanism",
+      "Comprises_Component",
+      "Short-term Memory Network"
+    ],
+    [
+      "Federal Learning and Attention Mechanism",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Federal Learning and Attention Mechanism",
+      "Achieves_Effect",
+      "Primary Benefit"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning and Attention Mechanism",
+      "solves",
+      "Scheduling Problem"
+    ],
+    [
+      "Job Shop",
+      "affected by",
+      "Limitation in Accuracy"
+    ],
+    [
+      "Job Shop",
+      "affected by",
+      "Inefficiency"
+    ],
+    [
+      "Job Shop",
+      "affected by",
+      "Cost"
+    ],
+    [
+      "Job Shop",
+      "affected by",
+      "Inaccurate Predictions"
+    ],
+    [
+      "Job Shop",
+      "affected by",
+      "Differences between Theoretical and Actual Results"
+    ],
+    [
+      "Federal Learning and Attention Mechanism",
+      "adopts",
+      "Federal Learning"
+    ],
+    [
+      "Federal Learning and Attention Mechanism",
+      "adopts",
+      "Attention Mechanism"
+    ],
+    [
+      "Federal Learning and Attention Mechanism",
+      "integrates",
+      "Predicted Production Scheduling Data"
+    ],
+    [
+      "Multiple Part Manufacturers",
+      "provides",
+      "Production Scheduling Data"
+    ],
+    [
+      "Federal Learning and Attention Mechanism",
+      "generates",
+      "Global Production Part Data Model"
+    ],
+    [
+      "Historical Production Part Data",
+      "used for",
+      "Training Individual Part's Data Models"
+    ],
+    [
+      "Long-term and Short-term Memory Networks",
+      "used for",
+      "Generating and Training Individual Part's Data Models"
+    ],
+    [
+      "Long-term and Short-term Memory Networks",
+      "implemented by",
+      "System"
+    ],
+    [
+      "Gate Control Splicing Training",
+      "used for",
+      "Training Individual Part's Data Models"
+    ],
+    [
+      "Selective Memorization and Forgetting",
+      "used for",
+      "Training Individual Part's Data Models"
+    ],
+    [
+      "Combination of Selected Inputs",
+      "used for",
+      "Optimizing Production Line Schedule"
+    ],
+    [
+      "Loss Function",
+      "used for",
+      "Optimizing Production Line Schedule"
+    ],
+    [
+      "Normalization",
+      "used for",
+      "Optimizing Production Line Schedule"
+    ],
+    [
+      "Precision Requirement",
+      "met by",
+      "System"
+    ],
+    [
+      "Trained Production Part Data Model",
+      "used for",
+      "Prediction"
+    ],
+    [
+      "Trained Production Part Data Model",
+      "used for",
+      "Conversion to Original Values"
+    ],
+    [
+      "Accurate and Efficient Production Line Scheduling",
+      "promised by",
+      "System"
+    ],
+    [
+      "Accurate and Efficient Production Line Scheduling",
+      "potentially reduces",
+      "Costs"
+    ],
+    [
+      "Accurate and Efficient Production Line Scheduling",
+      "improves",
+      "Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Core Problem Concept",
+    "Federal Learning and Attention Mechanism",
+    "Long-term Memory Network",
+    "Primary Benefit",
+    "Short-term Memory Network"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accurate and Efficient Production Line Scheduling",
+    "Attention Mechanism",
+    "Combination of Selected Inputs",
+    "Conversion to Original Values",
+    "Cost",
+    "Costs",
+    "Differences between Theoretical and Actual Results",
+    "Efficiency",
+    "Federal Learning",
+    "Federal Learning and Attention Mechanism",
+    "Gate Control Splicing Training",
+    "Generating and Training Individual Part's Data Models",
+    "Global Production Part Data Model",
+    "Historical Production Part Data",
+    "Inaccurate Predictions",
+    "Inefficiency",
+    "Job Shop",
+    "Limitation in Accuracy",
+    "Long-term and Short-term Memory Networks",
+    "Loss Function",
+    "Multiple Part Manufacturers",
+    "Normalization",
+    "Optimizing Production Line Schedule",
+    "Precision Requirement",
+    "Predicted Production Scheduling Data",
+    "Prediction",
+    "Production Scheduling Data",
+    "Scheduling Problem",
+    "Selective Memorization and Forgetting",
+    "System",
+    "Trained Production Part Data Model",
+    "Training Individual Part's Data Models"
+  ],
+  "knowledge_graph2_relation": [
+    "adopts",
+    "affected by",
+    "generates",
+    "implemented by",
+    "improves",
+    "integrates",
+    "met by",
+    "potentially reduces",
+    "promised by",
+    "provides",
+    "solves",
+    "used for"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/044",
+    "G06Q10/04",
+    "G06Q10/0631",
+    "G06Q10/06316",
+    "G06Q50/04",
+    "H04L63/0442",
+    "H04L9/0825",
+    "H04L9/0861",
+    "Y02P90/30"
+  ]
+}

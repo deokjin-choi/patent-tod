@@ -1,0 +1,232 @@
+{
+  "publication_number": "US20210326757A1",
+  "title": "Federated Learning with Only Positive Labels",
+  "assignee": "Google LLC",
+  "filing_date": "2021-04-12",
+  "publication_date": "2021-10-21",
+  "pse": {
+    "problem": "Limitation in federated learning when each user has access to primarily or solely positive training examples associated with a limited number of classes",
+    "solution_function": "Learning a multi-class classification model in a federated learning setting by performing spreadout regularization to enable learning from users with only positive labels for limited classes, without allowing communication between users or access to other users' class parameters.",
+    "solution_structure": "System consists of distributed devices (user devices such as smartphones), a server, and neural networks. The user devices hold local data samples, the server facilitates iterative training by keeping track of a global model.",
+    "solution_implementation": "During each round of the training process: \n1. Server sends the current global model to a set of participating users.\n2. Each user updates the model with its local data and computes the logits for the instance x as Wg(x), where W is the classification matrix learned by the user.\n3. Users send the model delta to the server, who averages (via Federated Averaging) the deltas collected from the participating users and updates the global model.",
+    "effect": "Leverages computational power of edge devices, reduces necessity of sending user data to server, improves trust/security, privacy, and fairness in federated learning scenarios with limited positive labels"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Limitation in Federated Learning"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Distributed Devices"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Neural Networks"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Iterative Training Process"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Leverages Computational Power of Edge Devices"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Reduces Necessity of Sending User Data to Server"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Improves Trust/Security"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Privacy"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Fairness"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "is affected by",
+      "Limitation"
+    ],
+    [
+      "User Devices",
+      "store",
+      "Local Data Samples"
+    ],
+    [
+      "Server",
+      "facilitates",
+      "Iterative Training"
+    ],
+    [
+      "Global Model",
+      "gets updated",
+      "Federated Averaging"
+    ],
+    [
+      "Users",
+      "update",
+      "Model Delta"
+    ],
+    [
+      "Server",
+      "communicates with",
+      "Participating Users"
+    ],
+    [
+      "Classification Matrix",
+      "is learned by",
+      "User"
+    ],
+    [
+      "Local Data",
+      "associated with",
+      "Limited Classes"
+    ],
+    [
+      "Local Data",
+      "has",
+      "Primaryly or Solely Positive Training Examples"
+    ],
+    [
+      "Server",
+      "holds",
+      "Global Model"
+    ],
+    [
+      "Multi-class Classification Model",
+      "is learned",
+      "Federated Learning Setting"
+    ],
+    [
+      "Spreadout Regularization",
+      "enables",
+      "Learning from Users with Only Positive Labels"
+    ],
+    [
+      "Spreadout Regularization",
+      "prevents",
+      "Communication between Users or Access to Other Users' Class Parameters"
+    ],
+    [
+      "System",
+      "consists of",
+      "Distributed Devices, Server, and Neural Networks"
+    ],
+    [
+      "Edge Computing",
+      "leverages",
+      "Computational Power"
+    ],
+    [
+      "Federated Learning",
+      "reduces",
+      "Necessity of Sending User Data to Server"
+    ],
+    [
+      "Federated Learning",
+      "improves",
+      "Trust/Security, Privacy, and Fairness"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Distributed Devices",
+    "Fairness",
+    "Federated Learning",
+    "Improves Trust/Security",
+    "Iterative Training Process",
+    "Leverages Computational Power of Edge Devices",
+    "Limitation in Federated Learning",
+    "Neural Networks",
+    "Privacy",
+    "Reduces Necessity of Sending User Data to Server",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Classification Matrix",
+    "Communication between Users or Access to Other Users' Class Parameters",
+    "Computational Power",
+    "Distributed Devices, Server, and Neural Networks",
+    "Edge Computing",
+    "Federated Averaging",
+    "Federated Learning",
+    "Federated Learning Setting",
+    "Global Model",
+    "Iterative Training",
+    "Learning from Users with Only Positive Labels",
+    "Limitation",
+    "Limited Classes",
+    "Local Data",
+    "Local Data Samples",
+    "Model Delta",
+    "Multi-class Classification Model",
+    "Necessity of Sending User Data to Server",
+    "Participating Users",
+    "Primaryly or Solely Positive Training Examples",
+    "Server",
+    "Spreadout Regularization",
+    "System",
+    "Trust/Security, Privacy, and Fairness",
+    "User",
+    "User Devices",
+    "Users"
+  ],
+  "knowledge_graph2_relation": [
+    "associated with",
+    "communicates with",
+    "consists of",
+    "enables",
+    "facilitates",
+    "gets updated",
+    "has",
+    "holds",
+    "improves",
+    "is affected by",
+    "is learned",
+    "is learned by",
+    "leverages",
+    "prevents",
+    "reduces",
+    "store",
+    "update"
+  ],
+  "cpc_code": [
+    "G06F17/11",
+    "G06F17/16",
+    "G06N20/00",
+    "G06N3/045",
+    "G06N3/0499",
+    "G06N3/063",
+    "G06N3/084",
+    "G06N3/0895",
+    "G06N3/098",
+    "G06N5/027"
+  ]
+}

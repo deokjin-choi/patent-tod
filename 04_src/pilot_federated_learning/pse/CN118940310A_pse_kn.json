@@ -1,0 +1,210 @@
+{
+  "publication_number": "CN118940310A",
+  "title": "A privacy-preserving quantitative federated learning approach",
+  "assignee": "Nantong University",
+  "filing_date": "2024-07-12",
+  "publication_date": "2024-11-12",
+  "pse": {
+    "problem": "Limited resources in intelligent Internet of Things (IoT) devices for deep learning neural network operations, including computing power, storage capacity, battery service life, bandwidth, and privacy protection during data transmission of model parameters or gradients.",
+    "solution_function": "A quantized federal learning method that addresses resource constraints by compressing models through quantization and ensuring privacy protection via differential privacy, homomorphic encryption, and secure multiparty computing. The method involves locally training on devices, aggregating local model parameters at a central server, and performing arithmetic operations without decrypting data to protect privacy.",
+    "solution_structure": "IoT devices: low power embedded processors, limited memory and storage; Central Server: responsible for aggregating and updating the global model.",
+    "solution_implementation": "Model compression through quantization of floating point representation to a low bit representation; Privacy protection through differential privacy (Laplace or Gaussian noise), homomorphic encryption, and secure multiparty computing (data division between multiple encrypted portions).",
+    "effect": "Reduced resource consumption in IoT devices due to model compression and improved privacy protection during data transmission of model parameters or gradients."
+  },
+  "knowledge_graph": [
+    [
+      "Quantized Federal Learning Method",
+      "Addresses_Problem",
+      "Limited Resources in IoT Devices"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "Comprises_Component",
+      "Low Power Embedded Processors"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "Implemented_By",
+      "Model Compression through Quantization"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "Implemented_By",
+      "Privacy Protection through Differential Privacy, Homomorphic Encryption, Secure Multiparty Computing"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "Achieves_Effect",
+      "Reduced Resource Consumption in IoT Devices"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Intelligent IoT Devices",
+      "comprises",
+      "Low Power Embedded Processors"
+    ],
+    [
+      "Intelligent IoT Devices",
+      "comprises",
+      "Limited Memory"
+    ],
+    [
+      "Intelligent IoT Devices",
+      "comprises",
+      "Limited Storage"
+    ],
+    [
+      "Intelligent IoT Devices",
+      "controls",
+      "Deep Learning Neural Network Operations"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "addresses",
+      "Resource Constraints"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "uses",
+      "Quantization"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "uses",
+      "Differential Privacy"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "uses",
+      "Homomorphic Encryption"
+    ],
+    [
+      "Quantized Federal Learning Method",
+      "uses",
+      "Secure Multiparty Computing"
+    ],
+    [
+      "Local Model Parameters",
+      "transmits_to",
+      "Central Server"
+    ],
+    [
+      "Local Model Parameters",
+      "undergoes",
+      "Arithmetic Operations"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Local Model Parameters"
+    ],
+    [
+      "Deep Learning Neural Network Operations",
+      "consumes",
+      "Computing Power"
+    ],
+    [
+      "Deep Learning Neural Network Operations",
+      "consumes",
+      "Storage Capacity"
+    ],
+    [
+      "Deep Learning Neural Network Operations",
+      "consumes",
+      "Battery Service Life"
+    ],
+    [
+      "Deep Learning Neural Network Operations",
+      "consumes",
+      "Bandwidth"
+    ],
+    [
+      "Deep Learning Neural Network Operations",
+      "requires",
+      "Privacy Protection"
+    ],
+    [
+      "Model Parameters or Gradients",
+      "is_transmitted",
+      "With Privacy Protection"
+    ],
+    [
+      "Reduced Resource Consumption",
+      "occurs_in",
+      "IoT Devices"
+    ],
+    [
+      "Improved Privacy Protection",
+      "occurs_during",
+      "Data Transmission"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Limited Resources in IoT Devices",
+    "Low Power Embedded Processors",
+    "Model Compression through Quantization",
+    "Privacy Protection through Differential Privacy, Homomorphic Encryption, Secure Multiparty Computing",
+    "Quantized Federal Learning Method",
+    "Reduced Resource Consumption in IoT Devices"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Arithmetic Operations",
+    "Bandwidth",
+    "Battery Service Life",
+    "Central Server",
+    "Computing Power",
+    "Data Transmission",
+    "Deep Learning Neural Network Operations",
+    "Differential Privacy",
+    "Homomorphic Encryption",
+    "Improved Privacy Protection",
+    "Intelligent IoT Devices",
+    "IoT Devices",
+    "Limited Memory",
+    "Limited Storage",
+    "Local Model Parameters",
+    "Low Power Embedded Processors",
+    "Model Parameters or Gradients",
+    "Privacy Protection",
+    "Quantization",
+    "Quantized Federal Learning Method",
+    "Reduced Resource Consumption",
+    "Resource Constraints",
+    "Secure Multiparty Computing",
+    "Storage Capacity",
+    "With Privacy Protection"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "comprises",
+    "consumes",
+    "controls",
+    "is_transmitted",
+    "occurs_during",
+    "occurs_in",
+    "requires",
+    "transmits_to",
+    "undergoes",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N20/00",
+    "H04L9/0825"
+  ]
+}

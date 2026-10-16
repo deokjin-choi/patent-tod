@@ -1,0 +1,197 @@
+{
+  "publication_number": "US20250209383A1",
+  "title": "Systems and methods for federated learning",
+  "assignee": "Meta Platforms Inc",
+  "filing_date": "2020-09-09",
+  "publication_date": "2025-06-26",
+  "pse": {
+    "problem": "Inefficient and uncontrolled data sharing among multiple federated learning nodes, leading to potential privacy concerns and inconsistencies in trained machine-learning models.",
+    "solution_function": "The system maintains one or more knowledge graphs that enforce data sharing conditions for federated learning. The graphs track relationships between federated nodes (local sites) and associate each relationship with specific data sharing conditions (privacy policies).",
+    "solution_structure": "The key components include a central server, local sites, graph nodes representing each federated node or sub-graph, edges connecting nodes to represent relationships, and node profiles containing information about associated ML models, policies, parameters, etc. Each edge is associated with data sharing conditions.",
+    "solution_implementation": "The system generates a global knowledge graph (and one or more federated knowledge graphs) that captures both global and local policies. The graphs are updated to reflect changes in relationships and data sharing conditions between federated nodes.",
+    "effect": "Improved control over data sharing leads to enhanced privacy protection, consistency in trained machine-learning models, and the ability to apply global policies across all federated learning nodes."
+  },
+  "knowledge_graph": [
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Addresses_Problem",
+      "Inefficient Data Sharing among Federated Nodes"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Comprises_Component",
+      "Local Sites"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Comprises_Component",
+      "Graph Nodes"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Comprises_Component",
+      "Edges Connecting Nodes"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Comprises_Component",
+      "Node Profiles"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Implemented_By",
+      "Generating Global and Federated Knowledge Graphs"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Achieves_Effect",
+      "Improved Privacy Protection"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Achieves_Effect",
+      "Consistency in Trained Machine-Learning Models"
+    ],
+    [
+      "Knowledge Graphs for Federated Learning",
+      "Achieves_Effect",
+      "Applying Global Policies Across All Federated Learning Nodes"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Nodes",
+      "causes",
+      "Inefficient Data Sharing"
+    ],
+    [
+      "Multiple Federated Learning Nodes",
+      "potentially causes",
+      "Privacy Concerns"
+    ],
+    [
+      "Federated Learning Nodes",
+      "may lead to",
+      "Inconsistencies in Trained ML Models"
+    ],
+    [
+      "Central Server",
+      "comprises",
+      "Graph Nodes"
+    ],
+    [
+      "Local Sites",
+      "connected_to",
+      "Graph Nodes"
+    ],
+    [
+      "Graph Node",
+      "represents",
+      "Federated Node or Sub-graph"
+    ],
+    [
+      "Edge",
+      "connects",
+      "Nodes"
+    ],
+    [
+      "Node Profile",
+      "contains",
+      "Information about associated ML models, policies, parameters, etc."
+    ],
+    [
+      "Global Knowledge Graph (and one or more Federated Knowledge Graphs)",
+      "captures",
+      "Both Global and Local Policies"
+    ],
+    [
+      "Knowledge Graph(s)",
+      "updates",
+      "to reflect changes in relationships and data sharing conditions between federated nodes"
+    ],
+    [
+      "Enhanced Control over Data Sharing",
+      "leads to",
+      "Improved Privacy Protection"
+    ],
+    [
+      "Enhanced Control over Data Sharing",
+      "results in",
+      "Consistency in Trained Machine-Learning Models"
+    ],
+    [
+      "Enhanced Control over Data Sharing",
+      "allows",
+      "Applying Global Policies Across All Federated Learning Nodes"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Applying Global Policies Across All Federated Learning Nodes",
+    "Central Server",
+    "Consistency in Trained Machine-Learning Models",
+    "Edges Connecting Nodes",
+    "Generating Global and Federated Knowledge Graphs",
+    "Graph Nodes",
+    "Improved Privacy Protection",
+    "Inefficient Data Sharing among Federated Nodes",
+    "Knowledge Graphs for Federated Learning",
+    "Local Sites",
+    "Node Profiles"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Applying Global Policies Across All Federated Learning Nodes",
+    "Both Global and Local Policies",
+    "Central Server",
+    "Consistency in Trained Machine-Learning Models",
+    "Edge",
+    "Enhanced Control over Data Sharing",
+    "Federated Learning Nodes",
+    "Federated Node or Sub-graph",
+    "Global Knowledge Graph (and one or more Federated Knowledge Graphs)",
+    "Graph Node",
+    "Graph Nodes",
+    "Improved Privacy Protection",
+    "Inconsistencies in Trained ML Models",
+    "Inefficient Data Sharing",
+    "Information about associated ML models, policies, parameters, etc.",
+    "Knowledge Graph(s)",
+    "Local Sites",
+    "Multiple Federated Learning Nodes",
+    "Node Profile",
+    "Nodes",
+    "Privacy Concerns",
+    "to reflect changes in relationships and data sharing conditions between federated nodes"
+  ],
+  "knowledge_graph2_relation": [
+    "allows",
+    "captures",
+    "causes",
+    "comprises",
+    "connected_to",
+    "connects",
+    "contains",
+    "leads to",
+    "may lead to",
+    "potentially causes",
+    "represents",
+    "results in",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F16/9024",
+    "G06N20/20",
+    "G06N5/02",
+    "G06N5/04"
+  ]
+}

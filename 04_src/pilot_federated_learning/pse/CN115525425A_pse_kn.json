@@ -1,0 +1,159 @@
+{
+  "publication_number": "CN115525425A",
+  "title": "Federal learning calculation engine arrangement method and device based on cloud native technology",
+  "assignee": "China Telecom Corp Ltd",
+  "filing_date": "2022-09-16",
+  "publication_date": "2022-12-27",
+  "pse": {
+    "problem": "The computational requirements problem faced by federal learning, which includes high parallelism, dense data calculation, repeated lightweight operations, and large batch data during training.",
+    "solution_function": "A method for orchestrating a federated learning computing engine based on a cloud native technology. The method acquires a management unit scheduling requirement from a calculation engine controller of a federal learning platform, checks the current resource scheduling policy, binds the management unit and a calculation engine according to the scheduling requirement and current strategy, and returns binding information to the federal learning platform.",
+    "solution_structure": "The solution involves a cloud native platform with an API server and a resource scheduler.",
+    "solution_implementation": "The API server acquires a management unit scheduling requirement from the calculation engine controller of the federal learning platform, requests the resource scheduler based on this requirement, and the resource scheduler binds the management unit and the calculation engine according to the scheduling requirement.",
+    "effect": "This solution provides a flexible way to allocate computing resources for federal learning, potentially reducing costs and improving performance."
+  },
+  "knowledge_graph": [
+    [
+      "Cloud Native Technology",
+      "Addresses_Problem",
+      "High Parallelism, Dense Data Calculation, Repeated Lightweight Operations, Large Batch Data"
+    ],
+    [
+      "Cloud Native Technology",
+      "Comprises_Component",
+      "API Server"
+    ],
+    [
+      "Cloud Native Technology",
+      "Comprises_Component",
+      "Resource Scheduler"
+    ],
+    [
+      "Method for Orchestrating a Federated Learning Computing Engine",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Method for Orchestrating a Federated Learning Computing Engine",
+      "Achieves_Effect",
+      "Flexible Resource Allocation, Potential Cost Reduction, Improved Performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Platform",
+      "causes",
+      "High Parallelism"
+    ],
+    [
+      "Federal Learning Platform",
+      "involves",
+      "Dense Data Calculation"
+    ],
+    [
+      "Federal Learning Platform",
+      "involves",
+      "Repeated Lightweight Operations"
+    ],
+    [
+      "Federal Learning Platform",
+      "handles",
+      "Large Batch Data During Training"
+    ],
+    [
+      "Cloud Native Technology",
+      "orchestrates",
+      "Computing Engine"
+    ],
+    [
+      "Cloud Native Technology",
+      "provides",
+      "Management Unit Scheduling Requirement"
+    ],
+    [
+      "Cloud Native Technology",
+      "checks",
+      "Current Resource Scheduling Policy"
+    ],
+    [
+      "Cloud Native Technology",
+      "binds",
+      "Management Unit and Calculation Engine"
+    ],
+    [
+      "Calculation Engine Controller",
+      "sends",
+      "Management Unit Scheduling Requirement"
+    ],
+    [
+      "Resource Scheduler",
+      "receives",
+      "Request Based on Requirement"
+    ],
+    [
+      "Resource Scheduler",
+      "binds",
+      "Management Unit and Calculation Engine"
+    ],
+    [
+      "Flexible Resource Allocation",
+      "reduces",
+      "Costs"
+    ],
+    [
+      "Flexible Resource Allocation",
+      "improves",
+      "Performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "API Server",
+    "Cloud Native Technology",
+    "Core Operation Logic",
+    "Flexible Resource Allocation, Potential Cost Reduction, Improved Performance",
+    "High Parallelism, Dense Data Calculation, Repeated Lightweight Operations, Large Batch Data",
+    "Method for Orchestrating a Federated Learning Computing Engine",
+    "Resource Scheduler"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Calculation Engine Controller",
+    "Cloud Native Technology",
+    "Computing Engine",
+    "Costs",
+    "Current Resource Scheduling Policy",
+    "Dense Data Calculation",
+    "Federal Learning Platform",
+    "Flexible Resource Allocation",
+    "High Parallelism",
+    "Large Batch Data During Training",
+    "Management Unit Scheduling Requirement",
+    "Management Unit and Calculation Engine",
+    "Performance",
+    "Repeated Lightweight Operations",
+    "Request Based on Requirement",
+    "Resource Scheduler"
+  ],
+  "knowledge_graph2_relation": [
+    "binds",
+    "causes",
+    "checks",
+    "handles",
+    "improves",
+    "involves",
+    "orchestrates",
+    "provides",
+    "receives",
+    "reduces",
+    "sends"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06F9/5027",
+    "G06N20/00"
+  ]
+}

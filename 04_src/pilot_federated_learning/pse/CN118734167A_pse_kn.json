@@ -1,0 +1,205 @@
+{
+  "publication_number": "CN118734167A",
+  "title": "A CNC tool health status assessment system and method based on federated learning under edge-cloud collaborative architecture",
+  "assignee": "Tongji University",
+  "filing_date": "2024-06-27",
+  "publication_date": "2024-10-01",
+  "pse": {
+    "problem": "Data isolation and privacy leakage in CNC tool health status assessment using centralized deep learning methods",
+    "solution_function": "A federated learning-based system that assesses CNC tool health status across multiple edge devices in an edge-cloud collaborative architecture, reducing data transmission and improving accuracy without compromising privacy.",
+    "solution_structure": "Edge devices collect local data on CNC tool health status, a gateway aggregates and processes the data, and a cloud server coordinates the federated learning process and provides high-level predictions.",
+    "solution_implementation": "Edge devices perform local feature extraction and model training using the federated averaging algorithm. The gateway combines the local models to generate an aggregate model, which is further refined by the cloud server through a centralized optimization process.",
+    "effect": "Improved accuracy in CNC tool health status assessment with reduced data transmission, minimal privacy leakage, and distributed computation that scales better with increasing numbers of edge devices."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning-based System",
+      "Addresses_Problem",
+      "Data Isolation and Privacy Leakage"
+    ],
+    [
+      "Federated Learning-based System",
+      "Comprises_Component",
+      "Edge Devices"
+    ],
+    [
+      "Federated Learning-based System",
+      "Comprises_Component",
+      "Gateway"
+    ],
+    [
+      "Federated Learning-based System",
+      "Comprises_Component",
+      "Cloud Server"
+    ],
+    [
+      "Federated Learning-based System",
+      "Implemented_By",
+      "Local Feature Extraction and Model Training"
+    ],
+    [
+      "Federated Learning-based System",
+      "Implemented_By",
+      "Centralized Optimization Process"
+    ],
+    [
+      "Federated Learning-based System",
+      "Achieves_Effect",
+      "Improved Accuracy in CNC Tool Health Status Assessment"
+    ],
+    [
+      "Federated Learning-based System",
+      "Achieves_Effect",
+      "Reduced Data Transmission"
+    ],
+    [
+      "Federated Learning-based System",
+      "Achieves_Effect",
+      "Minimal Privacy Leakage"
+    ],
+    [
+      "Federated Learning-based System",
+      "Achieves_Effect",
+      "Distributed Computation Scalability"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "CNC Tool Health Status Assessment",
+      "causes",
+      "Data Isolation"
+    ],
+    [
+      "Centralized Deep Learning Methods",
+      "causes",
+      "Data Privacy Leakage"
+    ],
+    [
+      "Federated Learning-based System",
+      "addresses",
+      "Data Isolation"
+    ],
+    [
+      "Federated Learning-based System",
+      "reduces",
+      "Data Transmission"
+    ],
+    [
+      "Federated Learning-based System",
+      "improves",
+      "Accuracy"
+    ],
+    [
+      "Edge Devices",
+      "comprises",
+      "CNC Tool Health Status Data Collector"
+    ],
+    [
+      "Gateway",
+      "processes",
+      "Aggregate Model"
+    ],
+    [
+      "Cloud Server",
+      "coordinates",
+      "Federated Learning Process"
+    ],
+    [
+      "Cloud Server",
+      "provides",
+      "High-Level Predictions"
+    ],
+    [
+      "Edge Devices",
+      "performs",
+      "Local Feature Extraction"
+    ],
+    [
+      "Edge Devices",
+      "trains",
+      "Model Using Federated Averaging Algorithm"
+    ],
+    [
+      "Gateways",
+      "combines",
+      "Local Models"
+    ],
+    [
+      "Cloud Server",
+      "refines",
+      "Aggregate Model"
+    ],
+    [
+      "Cloud Server",
+      "implements",
+      "Centralized Optimization Process"
+    ],
+    [
+      "Edge Nodes",
+      "improves",
+      "Distributed Computation Scalability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Centralized Optimization Process",
+    "Cloud Server",
+    "Data Isolation and Privacy Leakage",
+    "Distributed Computation Scalability",
+    "Edge Devices",
+    "Federated Learning-based System",
+    "Gateway",
+    "Improved Accuracy in CNC Tool Health Status Assessment",
+    "Local Feature Extraction and Model Training",
+    "Minimal Privacy Leakage",
+    "Reduced Data Transmission"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Aggregate Model",
+    "CNC Tool Health Status Assessment",
+    "CNC Tool Health Status Data Collector",
+    "Centralized Deep Learning Methods",
+    "Centralized Optimization Process",
+    "Cloud Server",
+    "Data Isolation",
+    "Data Privacy Leakage",
+    "Data Transmission",
+    "Distributed Computation Scalability",
+    "Edge Devices",
+    "Edge Nodes",
+    "Federated Learning Process",
+    "Federated Learning-based System",
+    "Gateway",
+    "Gateways",
+    "High-Level Predictions",
+    "Local Feature Extraction",
+    "Local Models",
+    "Model Using Federated Averaging Algorithm"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "causes",
+    "combines",
+    "comprises",
+    "coordinates",
+    "implements",
+    "improves",
+    "performs",
+    "processes",
+    "provides",
+    "reduces",
+    "refines",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06F18/241",
+    "G06N3/098",
+    "H04L67/10"
+  ]
+}

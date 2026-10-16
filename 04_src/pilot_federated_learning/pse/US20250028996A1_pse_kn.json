@@ -1,0 +1,132 @@
+{
+  "publication_number": "US20250028996A1",
+  "title": "An adaptive personalized federated learning method supporting heterogeneous model",
+  "assignee": "Zhejiang University Zhongyuan Institute",
+  "filing_date": "2023-03-17",
+  "publication_date": "2025-01-23",
+  "pse": {
+    "problem": "Excessive collection and use of personal privacy data in artificial intelligence model training",
+    "solution_function": "Adaptive personalized federated learning method that enables cooperative training of machine learning models while protecting data privacy, allowing each participant to use a model tailored to their business data.",
+    "solution_structure": "Each participant holds two different models: a private model and a global shared model.",
+    "solution_implementation": "Participants train both private and global shared models simultaneously. The private model is kept locally, while the structure and parameters of the global shared model are consistent across all participants. A central server aggregates and distributes model updates periodically.",
+    "effect": "Improved accuracy of the model by averaging output predictions from the two models, and increased data privacy protection due to differentiated model structures"
+  },
+  "knowledge_graph": [
+    [
+      "Adaptive Personalized Federated Learning Method",
+      "Addresses_Problem",
+      "Excessive collection and use of personal privacy data in artificial intelligence model training"
+    ],
+    [
+      "Adaptive Personalized Federated Learning Method",
+      "Comprises_Component",
+      "Private Model"
+    ],
+    [
+      "Adaptive Personalized Federated Learning Method",
+      "Comprises_Component",
+      "Global Shared Model"
+    ],
+    [
+      "Adaptive Personalized Federated Learning Method",
+      "Implemented_By",
+      "Simultaneous training of private and global shared models"
+    ],
+    [
+      "Adaptive Personalized Federated Learning Method",
+      "Achieves_Effect",
+      "Improved accuracy of the model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Adaptive Personalized Federated Learning",
+      "applies_to",
+      "Artificial Intelligence Model Training"
+    ],
+    [
+      "Federated Learning",
+      "enables",
+      "Cooperative Training"
+    ],
+    [
+      "Participant",
+      "holds",
+      "Private Model"
+    ],
+    [
+      "Participant",
+      "holds",
+      "Global Shared Model"
+    ],
+    [
+      "Global Shared Model",
+      "consists_of",
+      "Consistent Structure and Parameters"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Model Updates"
+    ],
+    [
+      "Central Server",
+      "distributes",
+      "Model Updates"
+    ],
+    [
+      "Federated Learning",
+      "improves",
+      "Accuracy of Model"
+    ],
+    [
+      "Federated Learning",
+      "protects",
+      "Data Privacy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adaptive Personalized Federated Learning Method",
+    "Excessive collection and use of personal privacy data in artificial intelligence model training",
+    "Global Shared Model",
+    "Improved accuracy of the model",
+    "Private Model",
+    "Simultaneous training of private and global shared models"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy of Model",
+    "Adaptive Personalized Federated Learning",
+    "Artificial Intelligence Model Training",
+    "Central Server",
+    "Consistent Structure and Parameters",
+    "Cooperative Training",
+    "Data Privacy",
+    "Federated Learning",
+    "Global Shared Model",
+    "Model Updates",
+    "Participant",
+    "Private Model"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "applies_to",
+    "consists_of",
+    "distributes",
+    "enables",
+    "holds",
+    "improves",
+    "protects"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00",
+    "G06N3/08",
+    "G06V10/764"
+  ]
+}

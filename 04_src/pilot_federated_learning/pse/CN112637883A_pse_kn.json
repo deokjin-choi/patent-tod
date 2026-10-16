@@ -1,0 +1,253 @@
+{
+  "publication_number": "CN112637883A",
+  "title": "Federal learning method with robustness to wireless environment change in power Internet of things",
+  "assignee": "State Grid Information and Telecommunication Group Co Ltd",
+  "filing_date": "2020-12-09",
+  "publication_date": "2021-04-09",
+  "pse": {
+    "problem": "Limitation in implementing powerful machine learning solutions due to latency, bandwidth, privacy, and data isolation issues in wireless edge networks",
+    "solution_function": "Federated learning method robust to wireless environment changes: Collects and processes training data from multiple User Equipment (UEs), trains a neural network model locally on each UE, aggregates the weights of trained models at an Access Point (AP), and updates global federated learning model based on aggregate weights",
+    "solution_structure": "Neural Network Model, Weight Parameters, User Equipment (UEs), Wireless Access Point (AP)",
+    "solution_implementation": "Local training on UEs, aggregation of weight parameters at AP, simulation of wireless environment factors, analysis of convergence performance, and selection of client for federated learning",
+    "effect": "Robust federated learning solution that reduces latency, bandwidth requirements, and privacy concerns while utilizing isolated data sources"
+  },
+  "knowledge_graph": [
+    [
+      "Federated learning method",
+      "Addresses_Problem",
+      "Limitation in implementing powerful machine learning solutions"
+    ],
+    [
+      "Federated learning method",
+      "Comprises_Component",
+      "Neural Network Model"
+    ],
+    [
+      "Federated learning method",
+      "Comprises_Component",
+      "Weight Parameters"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "Local training on UEs"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "Aggregation of weight parameters at AP"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "Simulation of wireless environment factors"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "Analysis of convergence performance"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "Selection of client for federated learning"
+    ],
+    [
+      "Federated learning method",
+      "Achieves_Effect",
+      "Reduced latency"
+    ],
+    [
+      "Federated learning method",
+      "Achieves_Effect",
+      "Reduced bandwidth requirements"
+    ],
+    [
+      "Federated learning method",
+      "Achieves_Effect",
+      "Privacy concerns mitigation"
+    ],
+    [
+      "Federated learning method",
+      "Achieves_Effect",
+      "Utilization of isolated data sources"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Machine Learning Solution",
+      "is limited by",
+      "Latency"
+    ],
+    [
+      "Machine Learning Solution",
+      "is limited by",
+      "Bandwidth"
+    ],
+    [
+      "Machine Learning Solution",
+      "is limited by",
+      "Privacy Concerns"
+    ],
+    [
+      "Machine Learning Solution",
+      "is limited by",
+      "Data Isolation"
+    ],
+    [
+      "Wireless Edge Networks",
+      "has issue with",
+      "Latency"
+    ],
+    [
+      "Wireless Edge Networks",
+      "has issue with",
+      "Bandwidth"
+    ],
+    [
+      "Wireless Edge Networks",
+      "has issue with",
+      "Privacy Concerns"
+    ],
+    [
+      "Wireless Edge Networks",
+      "has issue with",
+      "Data Isolation"
+    ],
+    [
+      "Federated Learning Method",
+      "is robust to",
+      "Environment Changes"
+    ],
+    [
+      "User Equipment (UEs)",
+      "collects and processes",
+      "Training Data"
+    ],
+    [
+      "User Equipment (UEs)",
+      "trains",
+      "Neural Network Model locally"
+    ],
+    [
+      "Access Point (AP)",
+      "aggregates",
+      "Weight Parameters"
+    ],
+    [
+      "Federated Learning Method",
+      "updates",
+      "Global Federated Learning Model"
+    ],
+    [
+      "Neural Network Model",
+      "is used for",
+      "Processing Data"
+    ],
+    [
+      "Weight Parameters",
+      "are updated based on",
+      "Aggregate Weights"
+    ],
+    [
+      "Wireless Environment Factors",
+      "are simulated"
+    ],
+    [
+      "Convergence Performance",
+      "is analyzed"
+    ],
+    [
+      "Client Selection",
+      "occurs for",
+      "Federated Learning"
+    ],
+    [
+      "Federated Learning Solution",
+      "reduces",
+      "Latency"
+    ],
+    [
+      "Federated Learning Solution",
+      "reduces",
+      "Bandwidth Requirements"
+    ],
+    [
+      "Federated Learning Solution",
+      "addresses",
+      "Privacy Concerns"
+    ],
+    [
+      "Federated Learning Solution",
+      "utilizes",
+      "Isolated Data Sources"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregation of weight parameters at AP",
+    "Analysis of convergence performance",
+    "Federated learning method",
+    "Limitation in implementing powerful machine learning solutions",
+    "Local training on UEs",
+    "Neural Network Model",
+    "Privacy concerns mitigation",
+    "Reduced bandwidth requirements",
+    "Reduced latency",
+    "Selection of client for federated learning",
+    "Simulation of wireless environment factors",
+    "Utilization of isolated data sources",
+    "Weight Parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Access Point (AP)",
+    "Aggregate Weights",
+    "Bandwidth",
+    "Bandwidth Requirements",
+    "Client Selection",
+    "Data Isolation",
+    "Environment Changes",
+    "Federated Learning",
+    "Federated Learning Method",
+    "Federated Learning Solution",
+    "Global Federated Learning Model",
+    "Isolated Data Sources",
+    "Latency",
+    "Machine Learning Solution",
+    "Neural Network Model",
+    "Neural Network Model locally",
+    "Privacy Concerns",
+    "Processing Data",
+    "Training Data",
+    "User Equipment (UEs)",
+    "Weight Parameters",
+    "Wireless Edge Networks"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "are updated based on",
+    "collects and processes",
+    "has issue with",
+    "is limited by",
+    "is robust to",
+    "is used for",
+    "occurs for",
+    "reduces",
+    "trains",
+    "updates",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06N3/045",
+    "G06N3/08",
+    "H04L41/145",
+    "H04W24/06",
+    "Y02D30/70"
+  ]
+}

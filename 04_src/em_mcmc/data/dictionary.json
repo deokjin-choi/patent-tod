@@ -1,0 +1,81 @@
+{
+  "comment": "Technical origins taken from the CASI-style note for Edge AI: low-power, lightweight, real-time. Levels on the same axis are treated as alternatives. Phrases are matched as case-insensitive substrings in title+abstract.",
+  "axes": {
+    "power": {
+      "label": "energy / compute intensity",
+      "levels": {
+        "low": {
+          "label": "low-power",
+          "phrases": [
+            "low-power", "low power", "ultralow power", "ultra-low power",
+            "energy-efficient", "energy efficient", "energy efficiency",
+            "energy consumption", "energy saving", "energy-saving",
+            "power consumption", "power-efficient", "power efficient",
+            "battery-powered", "battery powered", "energy-aware", "energy aware",
+            "green computing", "power constrained", "power-constrained"
+          ]
+        },
+        "high": {
+          "label": "high-performance",
+          "phrases": [
+            "high-performance", "high performance", "high throughput",
+            "compute-intensive", "compute intensive", "computationally intensive",
+            "graphics processing unit", "neural processing unit",
+            "hardware accelerator", "heavy computation"
+          ]
+        }
+      }
+    },
+    "footprint": {
+      "label": "model / system size",
+      "levels": {
+        "compact": {
+          "label": "lightweight",
+          "phrases": [
+            "lightweight", "light-weight", "light weight",
+            "model compression", "pruning", "quantization", "quantized",
+            "tiny model", "tinyml", "tiny ml", "on-device", "on device",
+            "memory-constrained", "memory constrained",
+            "resource-constrained", "resource constrained",
+            "compact model", "knowledge distillation", "model size"
+          ]
+        },
+        "full": {
+          "label": "full-scale",
+          "phrases": [
+            "large-scale", "large scale", "large model",
+            "full precision", "full-precision",
+            "data center", "datacenter", "cloud server",
+            "high-capacity", "high capacity"
+          ]
+        }
+      }
+    },
+    "latency": {
+      "label": "timing requirement",
+      "levels": {
+        "realtime": {
+          "label": "real-time",
+          "phrases": [
+            "real-time", "realtime", "real time",
+            "low-latency", "low latency", "ultra-low latency",
+            "millisecond", "inference latency",
+            "delay-sensitive", "delay sensitive",
+            "time-critical", "time critical", "on-the-fly"
+          ]
+        },
+        "batch": {
+          "label": "batch / offline",
+          "phrases": [
+            "offline", "batch processing", "batch inference",
+            "non-real-time", "non real-time",
+            "throughput-oriented", "throughput oriented"
+          ]
+        }
+      }
+    }
+  },
+  "cpc_prefixes": [
+    "G06N", "G06F", "G06V", "H04W", "H04L", "H04N", "Y02D", "G16Y", "G05B", "B60W"
+  ]
+}

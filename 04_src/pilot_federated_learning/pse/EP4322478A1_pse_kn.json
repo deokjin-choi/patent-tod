@@ -1,0 +1,219 @@
+{
+  "publication_number": "EP4322478A1",
+  "title": "Method, apparatus and computer program",
+  "assignee": "Nokia Technologies Oy",
+  "filing_date": "2023-08-09",
+  "publication_date": "2024-02-14",
+  "pse": {
+    "problem": "Limitation in securely managing authorization for federated learning operations across multiple user equipments in a wireless communication system",
+    "solution_function": "The apparatus performs the following functions: receives an authorization request, determines user equipment authorization status, generates encryption keys, creates session identities, and manages records for authorized federated learning operations. It also handles confirmation messages from user equipments.",
+    "solution_structure": "The apparatus includes components for receiving/transmitting data, determining authorization status, generating encryption keys, creating session identities, managing records, and handling confirmations.",
+    "solution_implementation": "Upon receiving an authorization request, the apparatus queries subscription data to determine user equipment eligibility. If multiple user equipments are eligible, it generates encryption keys, creates session identities, and creates records for the federated learning operation. It then sends messages containing these details to the authorized user equipments. Upon receiving confirmation messages, it verifies successful message reception and provides this information to the server.",
+    "effect": "The solution enhances security by providing encrypted communication keys for federated learning operations, facilitates the management of multiple user equipments in a wireless communication system, and ensures secure exchange of session and identity information."
+  },
+  "knowledge_graph": [
+    [
+      "Authorisation Management System",
+      "Addresses_Problem",
+      "Limitation in securely managing authorization for federated learning operations across multiple user equipments in a wireless communication system"
+    ],
+    [
+      "Authorisation Management System",
+      "Comprises_Component",
+      "Data Receiving/Transmitting Component"
+    ],
+    [
+      "Authorisation Management System",
+      "Comprises_Component",
+      "Authorization Status Determining Component"
+    ],
+    [
+      "Authorisation Management System",
+      "Comprises_Component",
+      "Encryption Key Generating Component"
+    ],
+    [
+      "Authorisation Management System",
+      "Comprises_Component",
+      "Session Identity Creating Component"
+    ],
+    [
+      "Authorisation Management System",
+      "Comprises_Component",
+      "Record Managing Component"
+    ],
+    [
+      "Authorisation Management System",
+      "Comprises_Component",
+      "Confirmation Handling Component"
+    ],
+    [
+      "Authorisation Management System",
+      "Implemented_By",
+      "Authorization Request Processing Logic"
+    ],
+    [
+      "Authorisation Management System",
+      "Implemented_By",
+      "Eligibility Checking Logic"
+    ],
+    [
+      "Authorisation Management System",
+      "Implemented_By",
+      "Encryption Key Generation Logic"
+    ],
+    [
+      "Authorisation Management System",
+      "Implemented_By",
+      "Session Identity Creation Logic"
+    ],
+    [
+      "Authorisation Management System",
+      "Implemented_By",
+      "Record Management Logic"
+    ],
+    [
+      "Authorisation Management System",
+      "Implemented_By",
+      "Confirmation Verification Logic"
+    ],
+    [
+      "Authorisation Management System",
+      "Achieves_Effect",
+      "Secure Communication Key Provision for Federated Learning Operations"
+    ],
+    [
+      "Authorisation Management System",
+      "Achieves_Effect",
+      "Management of Multiple User Equipments in a Wireless Communication System"
+    ],
+    [
+      "Authorisation Management System",
+      "Achieves_Effect",
+      "Secure Exchange of Session and Identity Information"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Authorization Request",
+      "transmits_to",
+      "Apparatus"
+    ],
+    [
+      "User Equipment",
+      "sends",
+      "Authorization Request"
+    ],
+    [
+      "Apparatus",
+      "receives",
+      "Authorization Request"
+    ],
+    [
+      "Apparatus",
+      "queries",
+      "Subscription Data"
+    ],
+    [
+      "Subscription Data",
+      "provides",
+      "User Equipment Eligibility Information"
+    ],
+    [
+      "Apparatus",
+      "generates",
+      "Encryption Keys"
+    ],
+    [
+      "Apparatus",
+      "creates",
+      "Session Identities"
+    ],
+    [
+      "Apparatus",
+      "manages",
+      "Records for Federated Learning Operations"
+    ],
+    [
+      "Authorized User Equipments",
+      "receives",
+      "Confirmation Messages"
+    ],
+    [
+      "Apparatus",
+      "verifies",
+      "Successful Message Reception"
+    ],
+    [
+      "Apparatus",
+      "provides",
+      "Information to Server"
+    ],
+    [
+      "Apparatus",
+      "ensures",
+      "Secure Exchange of Session and Identity Information"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Authorisation Management System",
+    "Authorization Request Processing Logic",
+    "Authorization Status Determining Component",
+    "Confirmation Handling Component",
+    "Confirmation Verification Logic",
+    "Data Receiving/Transmitting Component",
+    "Eligibility Checking Logic",
+    "Encryption Key Generating Component",
+    "Encryption Key Generation Logic",
+    "Limitation in securely managing authorization for federated learning operations across multiple user equipments in a wireless communication system",
+    "Management of Multiple User Equipments in a Wireless Communication System",
+    "Record Management Logic",
+    "Record Managing Component",
+    "Secure Communication Key Provision for Federated Learning Operations",
+    "Secure Exchange of Session and Identity Information",
+    "Session Identity Creating Component",
+    "Session Identity Creation Logic"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Apparatus",
+    "Authorization Request",
+    "Authorized User Equipments",
+    "Confirmation Messages",
+    "Encryption Keys",
+    "Information to Server",
+    "Records for Federated Learning Operations",
+    "Secure Exchange of Session and Identity Information",
+    "Session Identities",
+    "Subscription Data",
+    "Successful Message Reception",
+    "User Equipment",
+    "User Equipment Eligibility Information"
+  ],
+  "knowledge_graph2_relation": [
+    "creates",
+    "ensures",
+    "generates",
+    "manages",
+    "provides",
+    "queries",
+    "receives",
+    "sends",
+    "transmits_to",
+    "verifies"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/098",
+    "H04L63/062",
+    "H04L63/10",
+    "H04L9/0819",
+    "H04W12/04",
+    "H04W12/08"
+  ]
+}

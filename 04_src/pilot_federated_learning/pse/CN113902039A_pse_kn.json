@@ -1,0 +1,221 @@
+{
+  "publication_number": "CN113902039A",
+  "title": "Black product user identification method, system, electronic device and storage medium",
+  "assignee": "China United Network Communications Group Co Ltd",
+  "filing_date": "2021-11-08",
+  "publication_date": "2022-01-07",
+  "pse": {
+    "problem": "The prior art black product user identification method suffers from low accuracy and low identification efficiency due to limitations in local learning models, information collection methods, and insufficient privacy and data safety measures.",
+    "solution_function": "The invention optimizes a local learning model through joint learning while ensuring user privacy and data safety, providing more accurate and rapid black product user identification for enterprise customers. It combines modeling on the trained identification model and encrypted user data sets uploaded by all operators to obtain a combined model.",
+    "solution_structure": "The solution consists of local hardware (processing units) that acquires user fixed network data, trains local recognition models, and encrypts local user data. It also includes a federated learning platform as a central software component where the combined modeling takes place.",
+    "solution_implementation": "The local hardware collects user data, processes it to create a local user dataset, trains local recognition models with black product labeled data from this dataset, and encrypts user attribute information. The encrypted local user data set and the trained identification model are then uploaded to the federated learning platform for combined modeling. The platform uses user data uploaded by all operators to train the combined model, which is returned with its coefficient to each operator.",
+    "effect": "The solution results in more accurate and rapid black product user identification for enterprise customers, purifies network space for operators, reduces property loss."
+  },
+  "knowledge_graph": [
+    [
+      "Optimized Local Learning Model",
+      "Addresses_Problem",
+      "Low Accuracy and Low Identification Efficiency"
+    ],
+    [
+      "Optimized Local Learning Model",
+      "Comprises_Component",
+      "Local Hardware (Processing Units)"
+    ],
+    [
+      "Optimized Local Learning Model",
+      "Comprises_Component",
+      "Federated Learning Platform"
+    ],
+    [
+      "Optimized Local Learning Model",
+      "Implemented_By",
+      "Data Collection and Encryption"
+    ],
+    [
+      "Optimized Local Learning Model",
+      "Implemented_By",
+      "Training Identification Models"
+    ],
+    [
+      "Optimized Local Learning Model",
+      "Achieves_Effect",
+      "More Accurate User Identification"
+    ],
+    [
+      "Optimized Local Learning Model",
+      "Achieves_Effect",
+      "Rapid Black Product User Identification"
+    ],
+    [
+      "Optimized Local Learning Model",
+      "Achieves_Effect",
+      "Purified Network Space"
+    ],
+    [
+      "Optimized Local Learning Model",
+      "Achieves_Effect",
+      "Reduced Property Loss"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Local Learning Model",
+      "controls",
+      "User Identification Accuracy"
+    ],
+    [
+      "Local Learning Model",
+      "controls",
+      "User Identification Efficiency"
+    ],
+    [
+      "Information Collection Methods",
+      "affects",
+      "Local Learning Model Effectiveness"
+    ],
+    [
+      "Privacy and Data Safety Measures",
+      "affects",
+      "User Identification Accuracy"
+    ],
+    [
+      "Privacy and Data Safety Measures",
+      "affects",
+      "User Identification Efficiency"
+    ],
+    [
+      "Joint Learning",
+      "improves",
+      "Local Learning Model"
+    ],
+    [
+      "Encrypted User Data Sets",
+      "provides",
+      "Data Privacy"
+    ],
+    [
+      "Operators",
+      "provides",
+      "Encrypted User Data Sets"
+    ],
+    [
+      "Federated Learning Platform",
+      "comprises",
+      "Combined Modeling"
+    ],
+    [
+      "Trained Identification Model",
+      "processes",
+      "User Data"
+    ],
+    [
+      "Local Hardware",
+      "collects",
+      "User Fixed Network Data"
+    ],
+    [
+      "Local Hardware",
+      "trains",
+      "Local Recognition Models"
+    ],
+    [
+      "Local Hardware",
+      "encrypts",
+      "User Attribute Information"
+    ],
+    [
+      "Federated Learning Platform",
+      "uses",
+      "Encrypted Local User Data Sets"
+    ],
+    [
+      "Combined Modeling",
+      "improves",
+      "User Identification Accuracy"
+    ],
+    [
+      "Combined Modeling",
+      "increases",
+      "User Identification Efficiency"
+    ],
+    [
+      "Operators",
+      "benefits_from",
+      "More Accurate User Identification"
+    ],
+    [
+      "Operators",
+      "benefits_from",
+      "Rapid User Identification"
+    ],
+    [
+      "Network Space",
+      "purifies",
+      "Operators"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Collection and Encryption",
+    "Federated Learning Platform",
+    "Local Hardware (Processing Units)",
+    "Low Accuracy and Low Identification Efficiency",
+    "More Accurate User Identification",
+    "Optimized Local Learning Model",
+    "Purified Network Space",
+    "Rapid Black Product User Identification",
+    "Reduced Property Loss",
+    "Training Identification Models"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Combined Modeling",
+    "Data Privacy",
+    "Encrypted Local User Data Sets",
+    "Encrypted User Data Sets",
+    "Federated Learning Platform",
+    "Information Collection Methods",
+    "Joint Learning",
+    "Local Hardware",
+    "Local Learning Model",
+    "Local Learning Model Effectiveness",
+    "Local Recognition Models",
+    "More Accurate User Identification",
+    "Network Space",
+    "Operators",
+    "Privacy and Data Safety Measures",
+    "Rapid User Identification",
+    "Trained Identification Model",
+    "User Attribute Information",
+    "User Data",
+    "User Fixed Network Data",
+    "User Identification Accuracy",
+    "User Identification Efficiency"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "benefits_from",
+    "collects",
+    "comprises",
+    "controls",
+    "encrypts",
+    "improves",
+    "increases",
+    "processes",
+    "provides",
+    "purifies",
+    "trains",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F16/25",
+    "G06F18/214",
+    "G06F21/602",
+    "G06N20/20"
+  ]
+}

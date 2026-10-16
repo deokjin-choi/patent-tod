@@ -1,0 +1,186 @@
+{
+  "publication_number": "CN113592102A",
+  "title": "Parking prediction model training method and system based on federal learning and block chain",
+  "assignee": "Qingdao E Link Information Technology Co ltd",
+  "filing_date": "2021-07-23",
+  "publication_date": "2021-11-02",
+  "pse": {
+    "problem": "Existing parking prediction model has a timeliness problem due to training only on fixed historical data",
+    "solution_function": "A method combining federal learning and blockchain technology for continuous training of a parking prediction model. The method collects and processes historical parking data, trains local models using the processed data, aggregates parameters of the local models through intelligent contracts, updates the global model based on aggregated parameters, and checks convergence. If not converged, it acquires global model parameters from the blockchain and updates local models.",
+    "solution_structure": "A parking lot with historical data collection system, a federation of nodes (each node has a local model), a blockchain network with intelligent contracts managing model parameters, and each participant's system for updating the local model.",
+    "solution_implementation": "Data collection, processing, and training are done locally. Parameters of the trained local models are uploaded to the blockchain through smart contracts where they are aggregated to form global model parameters. The global model is established based on these parameters. If not converged, the global model parameters are acquired from the blockchain and sent to each participant for updating their local models.",
+    "effect": "The proposed method addresses the timeliness problem by continuously training the parking prediction model using real-time data from the blockchain."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning & Blockchain",
+      "Addresses_Problem",
+      "Timeliness Problem in Parking Prediction Model"
+    ],
+    [
+      "Federated Learning & Blockchain",
+      "Comprises_Component",
+      "Historical Data Collection System"
+    ],
+    [
+      "Federated Learning & Blockchain",
+      "Comprises_Component",
+      "Parking Lot Network"
+    ],
+    [
+      "Federated Learning & Blockchain",
+      "Comprises_Component",
+      "Blockchain Network with Intelligent Contracts"
+    ],
+    [
+      "Federated Learning & Blockchain",
+      "Implemented_By",
+      "Data Collection, Processing and Training"
+    ],
+    [
+      "Federated Learning & Blockchain",
+      "Implemented_By",
+      "Parameter Aggregation"
+    ],
+    [
+      "Federated Learning & Blockchain",
+      "Implemented_By",
+      "Global Model Establishment"
+    ],
+    [
+      "Federated Learning & Blockchain",
+      "Implemented_By",
+      "Convergence Checking and Global Parameter Acquisition"
+    ],
+    [
+      "Federated Learning & Blockchain",
+      "Achieves_Effect",
+      "Continuous Training of Parking Prediction Model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Parking Prediction Model",
+      "has_timeliness_problem",
+      "True"
+    ],
+    [
+      "Federal Learning and Blockchain Technology",
+      "solves",
+      "Timeliness Problem"
+    ],
+    [
+      "Blockchain Network",
+      "stores",
+      "Aggregated Parameters"
+    ],
+    [
+      "Intelligent Contracts",
+      "aggregates",
+      "Model Parameters"
+    ],
+    [
+      "Local Models",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Blockchain Network",
+      "communicates",
+      "Global Model Parameters"
+    ],
+    [
+      "Participants' Systems",
+      "updates",
+      "Local Models"
+    ],
+    [
+      "Parking Lot",
+      "has",
+      "Historical Data Collection System"
+    ],
+    [
+      "Federation of Nodes",
+      "includes",
+      "Local Models"
+    ],
+    [
+      "Blockchain Network",
+      "implements",
+      "Intelligent Contracts"
+    ],
+    [
+      "Proposed Method",
+      "continuously_trains",
+      "Parking Prediction Model"
+    ],
+    [
+      "Real-time Data",
+      "feeds",
+      "Blockchain Network"
+    ],
+    [
+      "Proposed Method",
+      "addresses",
+      "Timeliness Problem"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain Network with Intelligent Contracts",
+    "Continuous Training of Parking Prediction Model",
+    "Convergence Checking and Global Parameter Acquisition",
+    "Data Collection, Processing and Training",
+    "Federated Learning & Blockchain",
+    "Global Model Establishment",
+    "Historical Data Collection System",
+    "Parameter Aggregation",
+    "Parking Lot Network",
+    "Timeliness Problem in Parking Prediction Model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Parameters",
+    "Blockchain Network",
+    "Existing Parking Prediction Model",
+    "Federal Learning and Blockchain Technology",
+    "Federation of Nodes",
+    "Global Model",
+    "Global Model Parameters",
+    "Historical Data Collection System",
+    "Intelligent Contracts",
+    "Local Models",
+    "Model Parameters",
+    "Parking Lot",
+    "Parking Prediction Model",
+    "Participants' Systems",
+    "Proposed Method",
+    "Real-time Data",
+    "Timeliness Problem",
+    "True"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "communicates",
+    "continuously_trains",
+    "feeds",
+    "has",
+    "has_timeliness_problem",
+    "implements",
+    "includes",
+    "solves",
+    "stores",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F11/1448",
+    "G06F16/27",
+    "G06N20/20",
+    "G06Q10/04"
+  ]
+}

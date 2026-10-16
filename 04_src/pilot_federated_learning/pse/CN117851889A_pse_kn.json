@@ -1,0 +1,217 @@
+{
+  "publication_number": "CN117851889A",
+  "title": "Power Internet of things abnormal operation data detection method based on federal learning",
+  "assignee": "Electric Power Research Institute of State Grid Chongqing Electric Power Co Ltd",
+  "filing_date": "2024-01-10",
+  "publication_date": "2024-04-09",
+  "pse": {
+    "problem": "Insufficient accuracy in detecting abnormal data under massive data of a power Internet of Things",
+    "solution_function": "The method constructs a federated learning-based anomaly detection model that efficiently identifies and analyzes complex data in the power Internet of Things",
+    "solution_structure": "The system includes convolutional neural networks (CNN), support vector machines (SVM), autoencoders (AE), and Long Short Term Memory networks (LSTM) for data extraction, state classification, anomaly detection, and network state analysis respectively",
+    "solution_implementation": "The model is trained and learned continuously to build a complete data state type library. During operation, the input data's information features are compared with the data sample library for efficient identification and analysis.",
+    "effect": "Improved accuracy in detecting abnormal data, supporting stable and reliable operation of smart five-link systems in power Internet of Things"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning-based Anomaly Detection Model",
+      "Addresses_Problem",
+      "Insufficient Accuracy in Detecting Abnormal Data"
+    ],
+    [
+      "Federated Learning-based Anomaly Detection Model",
+      "Comprises_Component",
+      "Convolutional Neural Networks (CNN)"
+    ],
+    [
+      "Federated Learning-based Anomaly Detection Model",
+      "Comprises_Component",
+      "Support Vector Machines (SVM)"
+    ],
+    [
+      "Federated Learning-based Anomaly Detection Model",
+      "Comprises_Component",
+      "Autoencoders (AE)"
+    ],
+    [
+      "Federated Learning-based Anomaly Detection Model",
+      "Comprises_Component",
+      "Long Short Term Memory networks (LSTM)"
+    ],
+    [
+      "Federated Learning-based Anomaly Detection Model",
+      "Implemented_By",
+      "Continuous Training and Learning"
+    ],
+    [
+      "Federated Learning-based Anomaly Detection Model",
+      "Implemented_By",
+      "Complete Data State Type Library"
+    ],
+    [
+      "Federated Learning-based Anomaly Detection Model",
+      "Achieves_Effect",
+      "Improved Accuracy in Detecting Abnormal Data"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Power Internet of Things",
+      "suffers_from",
+      "Insufficient accuracy"
+    ],
+    [
+      "Power Internet of Things",
+      "benefits_from",
+      "Improved accuracy"
+    ],
+    [
+      "Federated Learning",
+      "enables",
+      "Efficient identification and analysis"
+    ],
+    [
+      "Federated Learning Model",
+      "comprises",
+      "CNN"
+    ],
+    [
+      "Federated Learning Model",
+      "comprises",
+      "SVM"
+    ],
+    [
+      "Federated Learning Model",
+      "comprises",
+      "AE"
+    ],
+    [
+      "Federated Learning Model",
+      "comprises",
+      "LSTM"
+    ],
+    [
+      "Data Extraction",
+      "is_performed_by",
+      "CNN"
+    ],
+    [
+      "State Classification",
+      "is_performed_by",
+      "SVM"
+    ],
+    [
+      "Anomaly Detection",
+      "is_performed_by",
+      "AE"
+    ],
+    [
+      "Network State Analysis",
+      "is_performed_by",
+      "LSTM"
+    ],
+    [
+      "Data",
+      "contains",
+      "Information Features"
+    ],
+    [
+      "Data",
+      "compared_with",
+      "Data Sample Library"
+    ],
+    [
+      "Federated Learning Model",
+      "performs",
+      "Continuous training and learning"
+    ],
+    [
+      "Smart Five-Link Systems",
+      "benefits_from",
+      "Improved accuracy"
+    ],
+    [
+      "Environmental Parameters",
+      "are_monitored_by",
+      "Sensor"
+    ],
+    [
+      "Actuating Mechanism",
+      "is_controlled_by",
+      "Valve"
+    ],
+    [
+      "Data",
+      "transmitted_to",
+      "Remote Server"
+    ],
+    [
+      "Processed Data",
+      "stored_in",
+      "Cloud Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Autoencoders (AE)",
+    "Complete Data State Type Library",
+    "Continuous Training and Learning",
+    "Convolutional Neural Networks (CNN)",
+    "Federated Learning-based Anomaly Detection Model",
+    "Improved Accuracy in Detecting Abnormal Data",
+    "Insufficient Accuracy in Detecting Abnormal Data",
+    "Long Short Term Memory networks (LSTM)",
+    "Support Vector Machines (SVM)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "AE",
+    "Actuating Mechanism",
+    "Anomaly Detection",
+    "CNN",
+    "Cloud Storage",
+    "Continuous training and learning",
+    "Data",
+    "Data Extraction",
+    "Data Sample Library",
+    "Efficient identification and analysis",
+    "Environmental Parameters",
+    "Federated Learning",
+    "Federated Learning Model",
+    "Improved accuracy",
+    "Information Features",
+    "Insufficient accuracy",
+    "LSTM",
+    "Network State Analysis",
+    "Power Internet of Things",
+    "Processed Data",
+    "Remote Server",
+    "SVM",
+    "Sensor",
+    "Smart Five-Link Systems",
+    "State Classification",
+    "Valve"
+  ],
+  "knowledge_graph2_relation": [
+    "are_monitored_by",
+    "benefits_from",
+    "compared_with",
+    "comprises",
+    "contains",
+    "enables",
+    "is_controlled_by",
+    "is_performed_by",
+    "performs",
+    "stored_in",
+    "suffers_from",
+    "transmitted_to"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F18/241",
+    "G06N20/20"
+  ]
+}

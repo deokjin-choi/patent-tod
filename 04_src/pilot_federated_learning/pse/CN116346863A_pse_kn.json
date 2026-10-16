@@ -1,0 +1,190 @@
+{
+  "publication_number": "CN116346863A",
+  "title": "In-vehicle network data processing method, device, equipment and medium based on federated learning",
+  "assignee": "Xiangjiang Laboratory",
+  "filing_date": "2023-05-29",
+  "publication_date": "2023-06-27",
+  "pse": {
+    "problem": "Efficient processing of heterogeneous in-vehicle network data, ensuring real-time response, security, data privacy, and accuracy.",
+    "solution_function": "Constructs a hierarchical vehicle network structure, groups nodes based on vehicle feature information, deploys message queues, performs local federated learning within each group, aggregates and updates local models, performs global multi-center federated learning to obtain global models for processing in-vehicle network communication data.",
+    "solution_structure": "Hierarchical structure of the vehicle network, basic layers, basic groups, message queues, vehicles associated with target groups, computing nodes.",
+    "solution_implementation": "Constructing a hierarchical structure based on historical communication message data and hardware configuration information (bandwidth, communication capabilities); grouping nodes based on vehicle feature information; deploying message queues inside each basic group to obtain target groups; associating and assigning vehicle identifications to target groups; local federated learning within each group; global multi-center federated learning.",
+    "effect": "Ensures data privacy, accuracy, and efficient processing of in-vehicle network data, meeting real-time response and security requirements."
+  },
+  "knowledge_graph": [
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Addresses_Problem",
+      "Efficient processing of heterogeneous in-vehicle network data"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Comprises_Component",
+      "Basic Layers"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Comprises_Component",
+      "Basic Groups"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Comprises_Component",
+      "Message Queues"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Implemented_By",
+      "Grouping Nodes Based on Vehicle Feature Information"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Implemented_By",
+      "Local Federated Learning"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Implemented_By",
+      "Global Multi-Center Federated Learning"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Achieves_Effect",
+      "Data Privacy"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Achieves_Effect",
+      "Accuracy"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Achieves_Effect",
+      "Real-Time Response"
+    ],
+    [
+      "Hierarchical Vehicle Network Structure",
+      "Achieves_Effect",
+      "Security"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Heterogeneous in-vehicle network data",
+      "processes",
+      "Real-time response"
+    ],
+    [
+      "Heterogeneous in-vehicle network data",
+      "ensures",
+      "Data privacy"
+    ],
+    [
+      "Heterogeneous in-vehicle network data",
+      "ensures",
+      "Accuracy"
+    ],
+    [
+      "Hierarchical vehicle network structure",
+      "comprises",
+      "Basic layers"
+    ],
+    [
+      "Hierarchical vehicle network structure",
+      "comprises",
+      "Basic groups"
+    ],
+    [
+      "Hierarchical vehicle network structure",
+      "includes",
+      "Message queues"
+    ],
+    [
+      "Vehicles",
+      "associated_with",
+      "Target Groups"
+    ],
+    [
+      "Communication Message Data",
+      "used_for",
+      "Constructing a hierarchical structure"
+    ],
+    [
+      "Hardware Configuration Information",
+      "used_for",
+      "Constructing a hierarchical structure"
+    ],
+    [
+      "Local Federated Learning",
+      "performed_by",
+      "Computing Nodes"
+    ],
+    [
+      "Global Multi-center Federated Learning",
+      "performed_by",
+      "Remote Server"
+    ],
+    [
+      "Local Models",
+      "aggregated_and_updated",
+      "Global Models"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Accuracy",
+    "Basic Groups",
+    "Basic Layers",
+    "Data Privacy",
+    "Efficient processing of heterogeneous in-vehicle network data",
+    "Global Multi-Center Federated Learning",
+    "Grouping Nodes Based on Vehicle Feature Information",
+    "Hierarchical Vehicle Network Structure",
+    "Local Federated Learning",
+    "Message Queues",
+    "Real-Time Response",
+    "Security"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Basic groups",
+    "Basic layers",
+    "Communication Message Data",
+    "Computing Nodes",
+    "Constructing a hierarchical structure",
+    "Data privacy",
+    "Global Models",
+    "Global Multi-center Federated Learning",
+    "Hardware Configuration Information",
+    "Heterogeneous in-vehicle network data",
+    "Hierarchical vehicle network structure",
+    "Local Federated Learning",
+    "Local Models",
+    "Message queues",
+    "Real-time response",
+    "Remote Server",
+    "Target Groups",
+    "Vehicles"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregated_and_updated",
+    "associated_with",
+    "comprises",
+    "ensures",
+    "includes",
+    "performed_by",
+    "processes",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06N3/08",
+    "H04L67/12",
+    "H04W4/12",
+    "H04W4/40"
+  ]
+}

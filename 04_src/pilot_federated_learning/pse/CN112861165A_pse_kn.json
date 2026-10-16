@@ -1,0 +1,185 @@
+{
+  "publication_number": "CN112861165A",
+  "title": "Model parameter updating method, device, equipment, storage medium and program product",
+  "assignee": "WeBank Co Ltd",
+  "filing_date": "2021-03-17",
+  "publication_date": "2021-05-28",
+  "pse": {
+    "problem": "Risk of information leakage in current longitudinal federal learning scheme due to gradient exchange",
+    "solution_function": "A method for updating model parameters in a first device by calculating prediction loss, optimizing it, and sending the updated original model output to a second device for parameter update in the second model based on error between original and optimized model outputs.",
+    "solution_structure": "First and second devices in communication, each with a local model and capable of processing training data sets.",
+    "solution_implementation": "Calculating prediction loss using local model output and received original model output, optimizing prediction loss to update parameters, updating prediction loss based on updated first model and original model output, and updating original model output according to gradient value.",
+    "effect": "Reduction of information leakage risks in longitudinal federal learning"
+  },
+  "knowledge_graph": [
+    [
+      "Model Update Method",
+      "Addresses_Problem",
+      "Risk of information leakage in current longitudinal federal learning scheme"
+    ],
+    [
+      "Model Update Method",
+      "Comprises_Component",
+      "First Device"
+    ],
+    [
+      "Model Update Method",
+      "Comprises_Component",
+      "Second Device"
+    ],
+    [
+      "Model Update Method",
+      "Implemented_By",
+      "Calculating prediction loss"
+    ],
+    [
+      "Model Update Method",
+      "Implemented_By",
+      "Optimizing prediction loss"
+    ],
+    [
+      "Model Update Method",
+      "Implemented_By",
+      "Sending updated original model output"
+    ],
+    [
+      "Model Update Method",
+      "Implemented_By",
+      "Updating prediction loss"
+    ],
+    [
+      "Model Update Method",
+      "Implemented_By",
+      "Updating original model output"
+    ],
+    [
+      "Model Update Method",
+      "Achieves_Effect",
+      "Reduction of information leakage risks in longitudinal federal learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Longitudinal Federal Learning Scheme",
+      "causes",
+      "Information Leakage Risk"
+    ],
+    [
+      "Gradient Exchange",
+      "leads_to",
+      "Information Leakage"
+    ],
+    [
+      "First Device",
+      "contains",
+      "Local Model"
+    ],
+    [
+      "First Device",
+      "communicates_with",
+      "Second Device"
+    ],
+    [
+      "First Device",
+      "calculates",
+      "Prediction Loss"
+    ],
+    [
+      "First Device",
+      "optimizes",
+      "Prediction Loss"
+    ],
+    [
+      "First Device",
+      "sends",
+      "Updated Original Model Output"
+    ],
+    [
+      "Second Device",
+      "receives",
+      "Updated Original Model Output"
+    ],
+    [
+      "Second Device",
+      "updates",
+      "Parameters based on Error"
+    ],
+    [
+      "Second Device",
+      "contains",
+      "Local Model"
+    ],
+    [
+      "Reduced Information Leakage Risk",
+      "results_from",
+      "Updating Model Parameters"
+    ],
+    [
+      "First Device",
+      "processes",
+      "Training Data Sets"
+    ],
+    [
+      "First Device",
+      "updates",
+      "Prediction Loss based on Updated First Model"
+    ],
+    [
+      "First Device",
+      "updates",
+      "Original Model Output according to Gradient Value"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculating prediction loss",
+    "First Device",
+    "Model Update Method",
+    "Optimizing prediction loss",
+    "Reduction of information leakage risks in longitudinal federal learning",
+    "Risk of information leakage in current longitudinal federal learning scheme",
+    "Second Device",
+    "Sending updated original model output",
+    "Updating original model output",
+    "Updating prediction loss"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "First Device",
+    "Gradient Exchange",
+    "Information Leakage",
+    "Information Leakage Risk",
+    "Local Model",
+    "Longitudinal Federal Learning Scheme",
+    "Original Model Output according to Gradient Value",
+    "Parameters based on Error",
+    "Prediction Loss",
+    "Prediction Loss based on Updated First Model",
+    "Reduced Information Leakage Risk",
+    "Second Device",
+    "Training Data Sets",
+    "Updated Original Model Output",
+    "Updating Model Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "calculates",
+    "causes",
+    "communicates_with",
+    "contains",
+    "leads_to",
+    "optimizes",
+    "processes",
+    "receives",
+    "results_from",
+    "sends",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F21/60",
+    "G06N20/20"
+  ]
+}

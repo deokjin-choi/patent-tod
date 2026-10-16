@@ -1,0 +1,147 @@
+{
+  "publication_number": "CN112256874A",
+  "title": "Model training method, text classification method, device, computer equipment and medium",
+  "assignee": "Ping An Technology Shenzhen Co Ltd",
+  "filing_date": "2020-10-21",
+  "publication_date": "2021-01-22",
+  "pse": {
+    "problem": "Existing text classification models cannot ensure the security of sensitive text data during model training process.",
+    "solution_function": "The system performs joint learning on encrypted local classification results and model parameters from multiple clients at a federal learning server to obtain updated model parameters for a local text classification model.",
+    "solution_structure": "The system consists of local classification models, data uploading modules, model training modules, and a federal learning server.",
+    "solution_implementation": "Local classification models are trained on a text training set. Encrypted model parameters and local classification results are uploaded to the federal learning server for joint learning. The server updates the model parameters based on encrypted data from different clients. Updated model parameters are sent back to local classification models.",
+    "effect": "Improved security of sensitive text data during the model training process"
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning Server and Joint Learning",
+      "Addresses_Problem",
+      "Sensitive Text Data Security Issue During Model Training"
+    ],
+    [
+      "Local Classification Models",
+      "Comprises_Component",
+      "Key Component 1"
+    ],
+    [
+      "Data Uploading Modules, Model Training Modules",
+      "Comprises_Component",
+      "Key Component 2"
+    ],
+    [
+      "Core Operation Logic",
+      "Implemented_By",
+      "Joint Learning on Encrypted Local Classification Results and Model Parameters"
+    ],
+    [
+      "Main Technology Entity",
+      "Achieves_Effect",
+      "Improved Security of Sensitive Text Data During Model Training"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Text Classification Model",
+      "cannot ensure",
+      "Security of Sensitive Text Data"
+    ],
+    [
+      "Existing Text Classification Model",
+      "does not provide",
+      "Data Security During Training"
+    ],
+    [
+      "System",
+      "performs joint learning",
+      "Encrypted Local Classification Results and Model Parameters"
+    ],
+    [
+      "Federal Learning Server",
+      "obtains updated model parameters",
+      "Local Text Classification Model"
+    ],
+    [
+      "Local Classification Model",
+      "is trained",
+      "Text Training Set"
+    ],
+    [
+      "Encrypted Model Parameters",
+      "are uploaded",
+      "Federal Learning Server"
+    ],
+    [
+      "Local Classification Results",
+      "are uploaded",
+      "Federal Learning Server"
+    ],
+    [
+      "Joint Learning",
+      "updates model parameters",
+      "Based on Encrypted Data from Different Clients"
+    ],
+    [
+      "Updated Model Parameters",
+      "are sent back",
+      "Local Classification Models"
+    ],
+    [
+      "System",
+      "improves security",
+      "Sensitive Text Data During Training Process"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Data Uploading Modules, Model Training Modules",
+    "Federal Learning Server and Joint Learning",
+    "Improved Security of Sensitive Text Data During Model Training",
+    "Joint Learning on Encrypted Local Classification Results and Model Parameters",
+    "Key Component 1",
+    "Key Component 2",
+    "Local Classification Models",
+    "Main Technology Entity",
+    "Sensitive Text Data Security Issue During Model Training"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Based on Encrypted Data from Different Clients",
+    "Data Security During Training",
+    "Encrypted Local Classification Results and Model Parameters",
+    "Encrypted Model Parameters",
+    "Existing Text Classification Model",
+    "Federal Learning Server",
+    "Joint Learning",
+    "Local Classification Model",
+    "Local Classification Models",
+    "Local Classification Results",
+    "Local Text Classification Model",
+    "Security of Sensitive Text Data",
+    "Sensitive Text Data During Training Process",
+    "System",
+    "Text Classification Model",
+    "Text Training Set",
+    "Updated Model Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "are sent back",
+    "are uploaded",
+    "cannot ensure",
+    "does not provide",
+    "improves security",
+    "is trained",
+    "obtains updated model parameters",
+    "performs joint learning",
+    "updates model parameters"
+  ],
+  "cpc_code": [
+    "G06F16/35",
+    "G06F18/214",
+    "G06N20/20",
+    "Y02D10/00"
+  ]
+}

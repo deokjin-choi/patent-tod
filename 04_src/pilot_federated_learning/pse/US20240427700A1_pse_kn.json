@@ -1,0 +1,186 @@
+{
+  "publication_number": "US20240427700A1",
+  "title": "Method for federated-learning-based mobile edge cache optimization",
+  "assignee": "Beijing University of Technology",
+  "filing_date": "2022-05-13",
+  "publication_date": "2024-12-26",
+  "pse": {
+    "problem": "The limitation is that traditional intelligent algorithms for predicting content popularity in mobile edge computing require sending unprocessed user data to a central server for training, which puts pressure on the network and threatens user privacy.",
+    "solution_function": "Predict content popularity based on federated learning to cache popular content while protecting client data privacy, reducing network link congestion and request delay.",
+    "solution_structure": "A layered architecture with each user having a hybrid filtering method on stacked autoencoders for local data training; server aggregates model parameters of clients to build a global model.",
+    "solution_implementation": "Each user trains local data, predicts content popularity based on local data, the server averagely aggregates model parameters of clients to build a global model, selects the most popular files for edge caching.",
+    "effect": "Improves user Quality of Experience by reducing network link congestion and request delay while protecting client data privacy"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Traditional Intelligent Algorithms for Predicting Content Popularity"
+    ],
+    [
+      "Layered Architecture",
+      "Comprises_Component",
+      "Key Component 1"
+    ],
+    [
+      "Hybrid Filtering Method on Stacked Autoencoders",
+      "Comprises_Component",
+      "Key Component 2"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Local Data Training and Global Model Building"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Improved User Quality of Experience"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Intelligent Algorithms",
+      "sends",
+      "Unprocessed User Data"
+    ],
+    [
+      "Central Server",
+      "receives",
+      "Unprocessed User Data"
+    ],
+    [
+      "Central Server",
+      "causes",
+      "Network Pressure"
+    ],
+    [
+      "Central Server",
+      "threatens",
+      "User Privacy"
+    ],
+    [
+      "Federated Learning",
+      "predicts",
+      "Content Popularity"
+    ],
+    [
+      "Federated Learning",
+      "protects",
+      "Client Data Privacy"
+    ],
+    [
+      "Layered Architecture",
+      "comprises",
+      "Hybrid Filtering Method"
+    ],
+    [
+      "Stacked Autoencoders",
+      "are used in",
+      "Hybrid Filtering Method"
+    ],
+    [
+      "User",
+      "trains",
+      "Local Data"
+    ],
+    [
+      "User",
+      "predicts",
+      "Content Popularity"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Model Parameters"
+    ],
+    [
+      "Server",
+      "builds",
+      "Global Model"
+    ],
+    [
+      "Edge Caching",
+      "selects",
+      "Most Popular Files"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Request Delay"
+    ],
+    [
+      "Edge Cache",
+      "stores",
+      "Popular Content"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated Learning",
+    "Hybrid Filtering Method on Stacked Autoencoders",
+    "Improved User Quality of Experience",
+    "Key Component 1",
+    "Key Component 2",
+    "Layered Architecture",
+    "Local Data Training and Global Model Building",
+    "Traditional Intelligent Algorithms for Predicting Content Popularity"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Client Data Privacy",
+    "Content Popularity",
+    "Edge Cache",
+    "Edge Caching",
+    "Edge Node",
+    "Federated Learning",
+    "Global Model",
+    "Hybrid Filtering Method",
+    "Layered Architecture",
+    "Local Data",
+    "Model Parameters",
+    "Most Popular Files",
+    "Network Pressure",
+    "Popular Content",
+    "Request Delay",
+    "Server",
+    "Stacked Autoencoders",
+    "Traditional Intelligent Algorithms",
+    "Unprocessed User Data",
+    "User",
+    "User Privacy"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "are used in",
+    "builds",
+    "causes",
+    "comprises",
+    "predicts",
+    "protects",
+    "receives",
+    "reduces",
+    "selects",
+    "sends",
+    "stores",
+    "threatens",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06F12/0802",
+    "G06F18/23",
+    "G06F2119/02",
+    "G06F30/27",
+    "G06N20/00",
+    "G06N3/044",
+    "G06N3/08",
+    "H04L67/568",
+    "H04L67/5681",
+    "Y02D30/70"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "publication_number": "CN119277450A",
+  "title": "A method for offloading tasks in Internet of Vehicles based on federated learning",
+  "assignee": "Jilin University",
+  "filing_date": "2024-10-08",
+  "publication_date": "2025-01-07",
+  "pse": {
+    "problem": "The continuous progress of information technology and wireless communication leads to insufficient resources for task loading in a cloud network for high-quality low-delay communication services.",
+    "solution_function": "Minimizes processing time delay of vehicle computing tasks and enables the internet of vehicles to obtain an optimal unloading decision under minimum task processing time delay by using a federal learning-based algorithm.",
+    "solution_structure": "Client-server architecture with two participants: participant vehicle and server, utilizing Double Deep Q Network (DDQN) for dynamic adaptation to the internet of vehicles environment.",
+    "solution_implementation": "Steps include establishing communication and calculation models between Internet of vehicles and edge servers, introducing DDQN for task unloading decisions, and implementing a federal learning algorithm for Internet of vehicles task offloading.",
+    "effect": "Reduces energy consumption and time delay by offloading computing tasks from vehicles to edge servers, optimizing resource allocation under the constraint of edge server resource limitations"
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning-based Algorithm",
+      "Addresses_Problem",
+      "Insufficient resources for task loading in a cloud network"
+    ],
+    [
+      "Federal Learning-based Algorithm",
+      "Comprises_Component",
+      "Client-server architecture"
+    ],
+    [
+      "Federal Learning-based Algorithm",
+      "Comprises_Component",
+      "Double Deep Q Network (DDQN)"
+    ],
+    [
+      "Federal Learning-based Algorithm",
+      "Implemented_By",
+      "Steps for implementing the algorithm"
+    ],
+    [
+      "Federal Learning-based Algorithm",
+      "Achieves_Effect",
+      "Reduction of energy consumption and time delay"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Internet of Vehicles",
+      "causes",
+      "Insufficient Resources"
+    ],
+    [
+      "Cloud Network",
+      "has_constraint",
+      "Resource Limitations"
+    ],
+    [
+      "Federal Learning-Based Algorithm",
+      "controls",
+      "Task Loading"
+    ],
+    [
+      "Federal Learning-Based Algorithm",
+      "reduces",
+      "Processing Time Delay"
+    ],
+    [
+      "Vehicle",
+      "performs",
+      "Computing Tasks"
+    ],
+    [
+      "Edge Servers",
+      "processes",
+      "Offloaded Computing Tasks"
+    ],
+    [
+      "Double Deep Q Network (DDQN)",
+      "adapts_to",
+      "Internet of Vehicles Environment"
+    ],
+    [
+      "Client-Server Architecture",
+      "comprises",
+      "Participant Vehicle"
+    ],
+    [
+      "Client-Server Architecture",
+      "comprises",
+      "Server"
+    ],
+    [
+      "Edge Servers",
+      "reduces",
+      "Energy Consumption"
+    ],
+    [
+      "Edge Servers",
+      "reduces",
+      "Time Delay"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client-server architecture",
+    "Double Deep Q Network (DDQN)",
+    "Federal Learning-based Algorithm",
+    "Insufficient resources for task loading in a cloud network",
+    "Reduction of energy consumption and time delay",
+    "Steps for implementing the algorithm"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client-Server Architecture",
+    "Cloud Network",
+    "Computing Tasks",
+    "Double Deep Q Network (DDQN)",
+    "Edge Servers",
+    "Energy Consumption",
+    "Federal Learning-Based Algorithm",
+    "Insufficient Resources",
+    "Internet of Vehicles",
+    "Internet of Vehicles Environment",
+    "Offloaded Computing Tasks",
+    "Participant Vehicle",
+    "Processing Time Delay",
+    "Resource Limitations",
+    "Server",
+    "Task Loading",
+    "Time Delay",
+    "Vehicle"
+  ],
+  "knowledge_graph2_relation": [
+    "adapts_to",
+    "causes",
+    "comprises",
+    "controls",
+    "has_constraint",
+    "performs",
+    "processes",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06N3/098",
+    "H04L67/10",
+    "H04L67/12",
+    "H04W28/082",
+    "H04W28/084",
+    "H04W28/0975",
+    "Y02T10/40"
+  ]
+}

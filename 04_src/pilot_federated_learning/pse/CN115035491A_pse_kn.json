@@ -1,0 +1,226 @@
+{
+  "publication_number": "CN115035491A",
+  "title": "A road condition warning method for driving behavior based on federated learning",
+  "assignee": "Shenzhen Jilian Technology Co ltd",
+  "filing_date": "2022-05-27",
+  "publication_date": "2022-09-09",
+  "pse": {
+    "problem": "Inefficiency in predicting and avoiding potential traffic accidents due to lack of real-time information about surrounding drivers' behavior and road conditions",
+    "solution_function": "The method collects driver identity, driving behavior data, and road condition analysis data. It uses federated learning combined with differential privacy algorithm for data collection, deep learning for analyzing driving habits, image processing for analyzing driving process risk factors, and calculates the probability of traffic accidents based on the collected data. The system plans driving operation plans according to the calculated potential traffic accident probability.",
+    "solution_structure": "The key components are in-vehicle camera, face recognition technology, driving recorder, query interface of the traffic control bureau, neural network model, local model parameters, global model parameters, and differential privacy algorithm.",
+    "solution_implementation": "The in-vehicle camera collects driver's face image when entering the cab for identity determination. The current driver's driving behavior information is collected by calling the query interface of the traffic control bureau and through the in-vehicle camera and driving recorder. The driver's data is protected using differential privacy algorithm combined with federated learning. Each neural network model is trained based on federated learning, local model parameters are obtained, random noise is added to them, and server aggregates the local model parameters to obtain new global model parameters.",
+    "effect": "The method improves the ability to predict and avoid potential traffic accidents by providing real-time information about surrounding drivers' behavior and road conditions."
+  },
+  "knowledge_graph": [
+    [
+      "Traffic Accident Prediction System",
+      "Addresses_Problem",
+      "Inefficiency in predicting traffic accidents"
+    ],
+    [
+      "Traffic Accident Prediction System",
+      "Comprises_Component",
+      "In-vehicle camera"
+    ],
+    [
+      "Traffic Accident Prediction System",
+      "Comprises_Component",
+      "Face Recognition Technology"
+    ],
+    [
+      "Traffic Accident Prediction System",
+      "Comprises_Component",
+      "Driving Recorder"
+    ],
+    [
+      "Traffic Accident Prediction System",
+      "Comprises_Component",
+      "Query Interface of Traffic Control Bureau"
+    ],
+    [
+      "Traffic Accident Prediction System",
+      "Comprises_Component",
+      "Neural Network Model"
+    ],
+    [
+      "Traffic Accident Prediction System",
+      "Implemented_By",
+      "Federated Learning"
+    ],
+    [
+      "Traffic Accident Prediction System",
+      "Implemented_By",
+      "Differential Privacy Algorithm"
+    ],
+    [
+      "Traffic Accident Prediction System",
+      "Achieves_Effect",
+      "Improved ability to predict traffic accidents"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Driver Identity Determination",
+      "performs",
+      "Face Recognition"
+    ],
+    [
+      "In-vehicle Camera",
+      "captures",
+      "Images of Drivers"
+    ],
+    [
+      "Driving Recorder",
+      "collects",
+      "Driving Behavior Data"
+    ],
+    [
+      "Traffic Control Bureau Query Interface",
+      "provides",
+      "Road Condition Analysis Data"
+    ],
+    [
+      "Deep Learning Model",
+      "analyzes",
+      "Driving Habits"
+    ],
+    [
+      "Image Processing Algorithm",
+      "identifies",
+      "Risk Factors"
+    ],
+    [
+      "Neural Network Model",
+      "calculates",
+      "Potential Traffic Accident Probability"
+    ],
+    [
+      "System",
+      "generates",
+      "Operating Plans"
+    ],
+    [
+      "In-vehicle Camera",
+      "comprises",
+      "Camera Component"
+    ],
+    [
+      "Face Recognition Technology",
+      "includes",
+      "Algorithm for Identity Determination"
+    ],
+    [
+      "Driving Recorder",
+      "includes",
+      "Recording Device"
+    ],
+    [
+      "Neural Network Model",
+      "comprises",
+      "Machine Learning Model"
+    ],
+    [
+      "Local Model Parameters",
+      "are_obtained_from",
+      "Federated Learning"
+    ],
+    [
+      "Global Model Parameters",
+      "are_obtained_from",
+      "Server Aggregation"
+    ],
+    [
+      "Differential Privacy Algorithm",
+      "protects",
+      "Driver's Data"
+    ],
+    [
+      "Federated Learning",
+      "combines_with",
+      "Differential Privacy Algorithm"
+    ],
+    [
+      "In-vehicle Camera",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Operating Plans",
+      "are_based_on",
+      "Potential Traffic Accident Probability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Differential Privacy Algorithm",
+    "Driving Recorder",
+    "Face Recognition Technology",
+    "Federated Learning",
+    "Improved ability to predict traffic accidents",
+    "In-vehicle camera",
+    "Inefficiency in predicting traffic accidents",
+    "Neural Network Model",
+    "Query Interface of Traffic Control Bureau",
+    "Traffic Accident Prediction System"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Algorithm for Identity Determination",
+    "Camera Component",
+    "Deep Learning Model",
+    "Differential Privacy Algorithm",
+    "Driver Identity Determination",
+    "Driver's Data",
+    "Driving Behavior Data",
+    "Driving Habits",
+    "Driving Recorder",
+    "Face Recognition",
+    "Face Recognition Technology",
+    "Federated Learning",
+    "Global Model Parameters",
+    "Image Processing Algorithm",
+    "Images of Drivers",
+    "In-vehicle Camera",
+    "Local Model Parameters",
+    "Machine Learning Model",
+    "Neural Network Model",
+    "Operating Plans",
+    "Potential Traffic Accident Probability",
+    "Recording Device",
+    "Risk Factors",
+    "Road Condition Analysis Data",
+    "Server",
+    "Server Aggregation",
+    "System",
+    "Traffic Control Bureau Query Interface"
+  ],
+  "knowledge_graph2_relation": [
+    "analyzes",
+    "are_based_on",
+    "are_obtained_from",
+    "calculates",
+    "captures",
+    "collects",
+    "combines_with",
+    "comprises",
+    "generates",
+    "identifies",
+    "includes",
+    "performs",
+    "protects",
+    "provides",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N3/08",
+    "G06V10/764",
+    "G06V10/774",
+    "G06V10/82",
+    "G06V20/588",
+    "Y02T10/40"
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "publication_number": "CN118629674A",
+  "title": "A method and platform for urban and rural joint smart medical treatment based on federated learning, edge computing, and cloud-edge collaboration",
+  "assignee": "Zhongtongfu Network Information Technology Co ltd",
+  "filing_date": "2024-05-16",
+  "publication_date": "2024-09-10",
+  "pse": {
+    "problem": "Uneven distribution of medical resources in cities and rural areas, difficulty and high cost of medical treatment for rural patients, deficiencies in data processing and privacy protection in existing smart medical systems.",
+    "solution_function": "Integration of urban and rural medical resources, secure sharing and intelligent analysis of medical data, improvement of accuracy and efficiency of diagnosis and treatment through federated learning, edge computing, and cloud-edge collaboration. Preliminary analysis of patient cases, screening out the cases that need further diagnosis, giving a preliminary treatment plan by edge computing device AI algorithm.",
+    "solution_structure": "End-side devices in each township medical institution, edge devices near end-side devices, smart medical treatment platform connecting terminal devices and edge devices, resource base of township and urban doctors, AI algorithm model for federated learning, kubeEdge, cloud Kubernetes.",
+    "solution_implementation": "Installation of end-side devices and edge devices, deployment of smart medical treatment platform, packaging of AI algorithm model, federated learning, and collection program into an image, sending the image to edge device through cloud Kubernetes and kubeEdge for container mode run, uploading of patient examination data and medical treatment data by end-side devices and doctors, preliminary analysis and treatment plan generation by edge computing device AI algorithm.",
+    "effect": "Improved accuracy and efficiency of diagnosis and treatment, cross-regional and cross-institutional medical data sharing, joint diagnosis and treatment by urban and rural doctors"
+  },
+  "knowledge_graph": [
+    [
+      "Integration of urban and rural medical resources",
+      "Addresses_Problem",
+      "Uneven distribution of medical resources"
+    ],
+    [
+      "Integration of urban and rural medical resources",
+      "Comprises_Component",
+      "End-side devices"
+    ],
+    [
+      "Integration of urban and rural medical resources",
+      "Comprises_Component",
+      "Smart medical treatment platform"
+    ],
+    [
+      "Integration of urban and rural medical resources",
+      "Implemented_By",
+      "AI algorithm model for federated learning"
+    ],
+    [
+      "Integration of urban and rural medical resources",
+      "Achieves_Effect",
+      "Improved accuracy and efficiency of diagnosis and treatment"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Medical System",
+      "causes",
+      "Uneven Resource Distribution"
+    ],
+    [
+      "Smart Medical System",
+      "has_deficiency",
+      "Data Processing"
+    ],
+    [
+      "Smart Medical System",
+      "has_deficiency",
+      "Privacy Protection"
+    ],
+    [
+      "Integrated Medical System",
+      "improves",
+      "Accuracy of Diagnosis"
+    ],
+    [
+      "Integrated Medical System",
+      "improves",
+      "Efficiency of Treatment"
+    ],
+    [
+      "Integrated Medical System",
+      "enables",
+      "Cross-Regional Data Sharing"
+    ],
+    [
+      "Integrated Medical System",
+      "enables",
+      "Cross-Institutional Data Sharing"
+    ],
+    [
+      "Urban and Rural Doctors",
+      "collaborate_on",
+      "Joint Diagnosis"
+    ],
+    [
+      "Edge Computing Device",
+      "generates",
+      "Preliminary Treatment Plan"
+    ],
+    [
+      "Edge Computing Device",
+      "uses",
+      "AI Algorithm"
+    ],
+    [
+      "AI Algorithm",
+      "follows",
+      "Federated Learning"
+    ],
+    [
+      "AI Algorithm",
+      "achieves",
+      "Efficient Diagnosis"
+    ],
+    [
+      "AI Algorithm",
+      "achieves",
+      "Accurate Treatment"
+    ],
+    [
+      "Edge Device",
+      "comprises",
+      "AI Algorithm Model"
+    ],
+    [
+      "End-side Devices",
+      "transmit_to",
+      "Smart Medical Treatment Platform"
+    ],
+    [
+      "Smart Medical Treatment Platform",
+      "processes",
+      "Patient Data"
+    ],
+    [
+      "Smart Medical Treatment Platform",
+      "connects_to",
+      "Edge Device"
+    ],
+    [
+      "Smart Medical Treatment Platform",
+      "connects_to",
+      "Terminal Devices"
+    ],
+    [
+      "Cloud Kubernetes",
+      "deploys",
+      "Smart Medical Treatment Platform"
+    ],
+    [
+      "kubeEdge",
+      "deploys",
+      "AI Algorithm Model"
+    ],
+    [
+      "kubeEdge",
+      "deploys",
+      "Federated Learning"
+    ],
+    [
+      "Image",
+      "contains",
+      "AI Algorithm Model"
+    ],
+    [
+      "Image",
+      "contains",
+      "Federated Learning"
+    ],
+    [
+      "Image",
+      "transmits_to",
+      "Edge Device"
+    ],
+    [
+      "Data",
+      "stored_in",
+      "Cloud Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "AI algorithm model for federated learning",
+    "End-side devices",
+    "Improved accuracy and efficiency of diagnosis and treatment",
+    "Integration of urban and rural medical resources",
+    "Smart medical treatment platform",
+    "Uneven distribution of medical resources"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "AI Algorithm",
+    "AI Algorithm Model",
+    "Accuracy of Diagnosis",
+    "Accurate Treatment",
+    "Cloud Kubernetes",
+    "Cloud Storage",
+    "Cross-Institutional Data Sharing",
+    "Cross-Regional Data Sharing",
+    "Data",
+    "Data Processing",
+    "Edge Computing Device",
+    "Edge Device",
+    "Efficiency of Treatment",
+    "Efficient Diagnosis",
+    "End-side Devices",
+    "Federated Learning",
+    "Image",
+    "Integrated Medical System",
+    "Joint Diagnosis",
+    "Medical System",
+    "Patient Data",
+    "Preliminary Treatment Plan",
+    "Privacy Protection",
+    "Smart Medical System",
+    "Smart Medical Treatment Platform",
+    "Terminal Devices",
+    "Uneven Resource Distribution",
+    "Urban and Rural Doctors",
+    "kubeEdge"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "collaborate_on",
+    "comprises",
+    "connects_to",
+    "contains",
+    "deploys",
+    "enables",
+    "follows",
+    "generates",
+    "has_deficiency",
+    "improves",
+    "processes",
+    "stored_in",
+    "transmit_to",
+    "transmits_to",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06F9/5072",
+    "G06N20/00",
+    "G16H80/00"
+  ]
+}

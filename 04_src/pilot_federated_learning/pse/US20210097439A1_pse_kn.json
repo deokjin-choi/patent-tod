@@ -1,0 +1,145 @@
+{
+  "publication_number": "US20210097439A1",
+  "title": "Method and system for scalable and decentralized incremental machine learning which protects data privacy",
+  "assignee": "Siemens Healthineers AG",
+  "filing_date": "2020-09-17",
+  "publication_date": "2021-04-01",
+  "pse": {
+    "problem": "Data privacy concerns prevent bringing sensitive patient data to an external processing unit for machine learning, limiting the effectiveness of centralized machine learning methods and algorithms",
+    "solution_function": "Distributed and decentralized incremental machine learning: A shared machine learned model is continuously optimized by the joint action of multiple client units using local updates based on their own data. The model is not distributed outside of the client units, maintaining data privacy.",
+    "solution_structure": "Central server unit manages a single machine learned model, client units possess local versions of the model and gather data for local updates.",
+    "solution_implementation": "Local updates summarize changes to the machine learned model based on local data. The central server unit uses these local updates to improve the shared model and downloads modified models back to the client units.",
+    "effect": "Allows for scalable, decentralized machine learning while preserving privacy of sensitive patient data"
+  },
+  "knowledge_graph": [
+    [
+      "Distributed and decentralized incremental machine learning",
+      "Addresses_Problem",
+      "Data privacy concerns"
+    ],
+    [
+      "Distributed and decentralized incremental machine learning",
+      "Comprises_Component",
+      "Central server unit"
+    ],
+    [
+      "Distributed and decentralized incremental machine learning",
+      "Comprises_Component",
+      "Client units"
+    ],
+    [
+      "Distributed and decentralized incremental machine learning",
+      "Implemented_By",
+      "Local updates"
+    ],
+    [
+      "Distributed and decentralized incremental machine learning",
+      "Achieves_Effect",
+      "Scalable, decentralized machine learning while preserving privacy of sensitive patient data"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data privacy concerns",
+      "prevents",
+      "bringing sensitive patient data"
+    ],
+    [
+      "Data privacy concerns",
+      "limits",
+      "effectiveness of centralized machine learning methods and algorithms"
+    ],
+    [
+      "Distributed and decentralized incremental machine learning",
+      "allows for",
+      "scalable, decentralized machine learning"
+    ],
+    [
+      "Distributed and decentralized incremental machine learning",
+      "preserves",
+      "privacy of sensitive patient data"
+    ],
+    [
+      "Central server unit",
+      "manages",
+      "single machine learned model"
+    ],
+    [
+      "Client units",
+      "possess local versions of the model"
+    ],
+    [
+      "Client units",
+      "gather data for local updates"
+    ],
+    [
+      "Local updates",
+      "summarize changes to the machine learned model"
+    ],
+    [
+      "Central server unit",
+      "uses",
+      "local updates"
+    ],
+    [
+      "Central server unit",
+      "improves",
+      "shared model"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central server unit",
+    "Client units",
+    "Data privacy concerns",
+    "Distributed and decentralized incremental machine learning",
+    "Local updates",
+    "Scalable, decentralized machine learning while preserving privacy of sensitive patient data"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central server unit",
+    "Data privacy concerns",
+    "Distributed and decentralized incremental machine learning",
+    "bringing sensitive patient data",
+    "effectiveness of centralized machine learning methods and algorithms",
+    "local updates",
+    "privacy of sensitive patient data",
+    "scalable, decentralized machine learning",
+    "shared model",
+    "single machine learned model"
+  ],
+  "knowledge_graph2_relation": [
+    "allows for",
+    "improves",
+    "limits",
+    "manages",
+    "preserves",
+    "prevents",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F18/217",
+    "G06F8/71",
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/044",
+    "G06N3/045",
+    "G06N3/0464",
+    "G06N3/047",
+    "G06N3/0895",
+    "G06N3/09",
+    "G06N3/096",
+    "G06N3/098",
+    "G06N3/0985",
+    "G06N3/126",
+    "G06N5/01",
+    "G06N5/025",
+    "G06N7/01"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "publication_number": "US20240169094A1",
+  "title": "Mitigating private data leakage in a federated learning system",
+  "assignee": "Intel Corp",
+  "filing_date": "2022-11-23",
+  "publication_date": "2024-05-23",
+  "pse": {
+    "problem": "Private data leakage in a federated learning system when model parameters are sent back to a centralized server",
+    "solution_function": "A system that improves data privacy by training a local model on each client device, exchanging encrypted model updates with the central server, and verifying data privacy at the server before aggregating the updates",
+    "solution_structure": "Client devices (e.g., smartphones, tablets), central federated server, encrypted communication channels, privacy checking logic",
+    "solution_implementation": "Local model training on client devices, encryption of model updates, transmission of encrypted updates to the server, privacy checking at the server, decryption and aggregation of valid updates",
+    "effect": "Reduced risk of private data leakage and enhanced data privacy protection"
+  },
+  "knowledge_graph": [
+    [
+      "System for Enhanced Data Privacy",
+      "Addresses_Problem",
+      "Private data leakage in federated learning system"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Comprises_Component",
+      "Client devices"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Composes_Component",
+      "Central federated server"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Comprises_Component",
+      "Encrypted communication channels"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Comprises_Component",
+      "Privacy checking logic"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Implemented_By",
+      "Local model training on client devices"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Implemented_By",
+      "Encryption of model updates"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Implemented_By",
+      "Transmission of encrypted updates to the server"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Implemented_By",
+      "Privacy checking at the server"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Implemented_By",
+      "Decryption and aggregation of valid updates"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Achieves_Effect",
+      "Reduced risk of private data leakage"
+    ],
+    [
+      "System for Enhanced Data Privacy",
+      "Achieves_Effect",
+      "Enhanced data privacy protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning System",
+      "causes",
+      "Private Data Leakage"
+    ],
+    [
+      "Model Parameters",
+      "transmits_to",
+      "Centralized Server"
+    ],
+    [
+      "Local Model",
+      "processes",
+      "Data (on Client Devices)"
+    ],
+    [
+      "Encrypted Communication Channels",
+      "controls",
+      "Secure Transmission of Model Updates"
+    ],
+    [
+      "Central Federated Server",
+      "receives",
+      "Encrypted Model Updates"
+    ],
+    [
+      "Central Federated Server",
+      "contains",
+      "Privacy Checking Logic"
+    ],
+    [
+      "Privacy Checking Logic",
+      "verifies",
+      "Data Privacy"
+    ],
+    [
+      "Central Federated Server",
+      "aggregates",
+      "Valid Updates"
+    ],
+    [
+      "Decrypted Updates",
+      "transmits_to",
+      "Cloud Storage"
+    ],
+    [
+      "Local Model",
+      "reduces",
+      "Risk of Private Data Leakage"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Encrypted Processed Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central federated server",
+    "Client devices",
+    "Decryption and aggregation of valid updates",
+    "Encrypted communication channels",
+    "Encryption of model updates",
+    "Enhanced data privacy protection",
+    "Local model training on client devices",
+    "Privacy checking at the server",
+    "Privacy checking logic",
+    "Private data leakage in federated learning system",
+    "Reduced risk of private data leakage",
+    "System for Enhanced Data Privacy",
+    "Transmission of encrypted updates to the server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Composes_Component",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Federated Server",
+    "Centralized Server",
+    "Cloud Storage",
+    "Data (on Client Devices)",
+    "Data Privacy",
+    "Decrypted Updates",
+    "Encrypted Communication Channels",
+    "Encrypted Model Updates",
+    "Encrypted Processed Data",
+    "Federated Learning System",
+    "Local Model",
+    "Model Parameters",
+    "Privacy Checking Logic",
+    "Private Data Leakage",
+    "Risk of Private Data Leakage",
+    "Secure Transmission of Model Updates",
+    "Valid Updates"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "causes",
+    "contains",
+    "controls",
+    "processes",
+    "receives",
+    "reduces",
+    "stores",
+    "transmits_to",
+    "verifies"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06F21/6254",
+    "G06N20/00"
+  ]
+}

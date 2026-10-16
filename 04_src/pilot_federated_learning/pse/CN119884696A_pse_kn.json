@@ -1,0 +1,252 @@
+{
+  "publication_number": "CN119884696A",
+  "title": "Data value determining method and device in federal learning",
+  "assignee": "China Telecom Corp Ltd",
+  "filing_date": "2024-12-27",
+  "publication_date": "2025-04-25",
+  "pse": {
+    "problem": "Accurate evaluation of each participant's data contribution in a federal learning scenario is challenging.",
+    "solution_function": "The system performs federation learning results prediction for a given data set, extracts features with random substitution, trains a data value evaluation model based on factorizer, and predicts the data value of the federal learning object using feature weights and hidden vector matrixes.",
+    "solution_structure": "The system comprises components for obtaining data sets, determining feature sets, performing feature extraction, federation learning, sample labeling, training data value evaluation model, and predicting data values.",
+    "solution_implementation": "The system follows a process of multiple iterations of feature extraction with random substitution, federation learning based on the resulting feature sets, labeling samples according to federation learning results, training data value evaluation model using these samples and labels, and predicting data values using the trained model.",
+    "effect": "The proposed method enables accurate evaluation of each participant's data contribution in a federal learning scenario, improving the fairness of data transaction pricing."
+  },
+  "knowledge_graph": [
+    [
+      "Federation Learning Results Prediction System",
+      "Addresses_Problem",
+      "Accurate Evaluation of Data Contribution"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Comprises_Component",
+      "Data Obtaining Component"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Comprises_Component",
+      "Feature Determining Component"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Comprises_Component",
+      "Feature Extraction Component"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Comprises_Component",
+      "Federation Learning Component"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Comprises_Component",
+      "Sample Labeling Component"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Comprises_Component",
+      "Data Value Evaluation Model Training Component"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Comprises_Component",
+      "Data Values Predicting Component"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Implemented_By",
+      "Feature Extraction with Random Substitution Process"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Implemented_By",
+      "Federation Learning Based on Resulting Feature Sets"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Implemented_By",
+      "Sample Labeling According to Federation Learning Results"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Implemented_By",
+      "Training Data Value Evaluation Model"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Implemented_By",
+      "Predicting Data Values using Trained Model"
+    ],
+    [
+      "Federation Learning Results Prediction System",
+      "Achieves_Effect",
+      "Improved Fairness of Data Transaction Pricing"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Scenario",
+      "challenges",
+      "Accurate evaluation of each participant's data contribution"
+    ],
+    [
+      "System",
+      "performs",
+      "Federation learning results prediction"
+    ],
+    [
+      "System",
+      "extracts",
+      "Features with random substitution"
+    ],
+    [
+      "System",
+      "trains",
+      "Data value evaluation model based on factorizer"
+    ],
+    [
+      "System",
+      "predicts",
+      "Data value of the federal learning object"
+    ],
+    [
+      "System Components",
+      "comprises",
+      "Obtaining data sets component"
+    ],
+    [
+      "System Components",
+      "comprises",
+      "Determining feature sets component"
+    ],
+    [
+      "System Components",
+      "comprises",
+      "Feature extraction component"
+    ],
+    [
+      "System Components",
+      "comprises",
+      "Federation learning component"
+    ],
+    [
+      "System Components",
+      "comprises",
+      "Sample labeling component"
+    ],
+    [
+      "System Components",
+      "comprises",
+      "Training data value evaluation model component"
+    ],
+    [
+      "System Components",
+      "comprises",
+      "Predicting data values component"
+    ],
+    [
+      "Data Sets",
+      "provides",
+      "Input for Feature Extraction Component"
+    ],
+    [
+      "Feature Sets",
+      "provides",
+      "Input for Federation Learning Component"
+    ],
+    [
+      "Federation Learning Results",
+      "provides",
+      "Input for Sample Labeling Component"
+    ],
+    [
+      "Samples and Labels",
+      "trains",
+      "Data Value Evaluation Model"
+    ],
+    [
+      "Trained Data Value Evaluation Model",
+      "predicts",
+      "Data Values"
+    ],
+    [
+      "Proposed Method",
+      "enables",
+      "Accurate evaluation of each participant's data contribution"
+    ],
+    [
+      "Proposed Method",
+      "improves",
+      "Fairness of data transaction pricing"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Accurate Evaluation of Data Contribution",
+    "Data Obtaining Component",
+    "Data Value Evaluation Model Training Component",
+    "Data Values Predicting Component",
+    "Feature Determining Component",
+    "Feature Extraction Component",
+    "Feature Extraction with Random Substitution Process",
+    "Federation Learning Based on Resulting Feature Sets",
+    "Federation Learning Component",
+    "Federation Learning Results Prediction System",
+    "Improved Fairness of Data Transaction Pricing",
+    "Predicting Data Values using Trained Model",
+    "Sample Labeling According to Federation Learning Results",
+    "Sample Labeling Component",
+    "Training Data Value Evaluation Model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accurate evaluation of each participant's data contribution",
+    "Data Sets",
+    "Data Value Evaluation Model",
+    "Data Values",
+    "Data value evaluation model based on factorizer",
+    "Data value of the federal learning object",
+    "Determining feature sets component",
+    "Fairness of data transaction pricing",
+    "Feature Sets",
+    "Feature extraction component",
+    "Features with random substitution",
+    "Federal Learning Scenario",
+    "Federation Learning Results",
+    "Federation learning component",
+    "Federation learning results prediction",
+    "Input for Feature Extraction Component",
+    "Input for Federation Learning Component",
+    "Input for Sample Labeling Component",
+    "Obtaining data sets component",
+    "Predicting data values component",
+    "Proposed Method",
+    "Sample labeling component",
+    "Samples and Labels",
+    "System",
+    "System Components",
+    "Trained Data Value Evaluation Model",
+    "Training data value evaluation model component"
+  ],
+  "knowledge_graph2_relation": [
+    "challenges",
+    "comprises",
+    "enables",
+    "extracts",
+    "improves",
+    "performs",
+    "predicts",
+    "provides",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06F18/2115",
+    "G06F18/214",
+    "G06F18/217",
+    "G06N20/00"
+  ]
+}

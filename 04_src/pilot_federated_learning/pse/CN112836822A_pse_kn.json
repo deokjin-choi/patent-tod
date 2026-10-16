@@ -1,0 +1,153 @@
+{
+  "publication_number": "CN112836822A",
+  "title": "Federated learning strategy optimization method and device based on breadth learning",
+  "assignee": "Zhejiang University of Technology ZJUT",
+  "filing_date": "2021-02-26",
+  "publication_date": "2021-05-25",
+  "pse": {
+    "problem": "High communication cost, data heterogeneity leading to slow model convergence in federated learning.",
+    "solution_function": "Optimizes federated learning strategy by reducing communication rounds and using important parameters for model update to improve training speed.",
+    "solution_structure": "Includes a central parameter server, edge devices with local data, and a method for selecting the largest k values of parameter update in a single model.",
+    "solution_implementation": "The central parameter server aggregates updates from edge devices using a method that selects the largest k values. This results in model compression and reduces communication cost.",
+    "effect": "Improved training speed in federated learning due to reduced communication rounds and the use of important parameters for model update."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Optimization Strategy",
+      "Addresses_Problem",
+      "High Communication Cost, Data Heterogeneity Slowing Model Convergence"
+    ],
+    [
+      "Federated Learning Optimization Strategy",
+      "Comprises_Component",
+      "Central Parameter Server"
+    ],
+    [
+      "Federated Learning Optimization Strategy",
+      "Comprises_Component",
+      "Edge Devices with Local Data"
+    ],
+    [
+      "Federated Learning Optimization Strategy",
+      "Implemented_By",
+      "Method for selecting the largest k values of parameter update"
+    ],
+    [
+      "Federated Learning Optimization Strategy",
+      "Achieves_Effect",
+      "Improved Training Speed in Federated Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "causes",
+      "High Communication Cost"
+    ],
+    [
+      "Data Heterogeneity",
+      "causes",
+      "Slow Model Convergence"
+    ],
+    [
+      "Federated Learning Strategy",
+      "controls",
+      "Communication Rounds"
+    ],
+    [
+      "Federated Learning Strategy",
+      "controls",
+      "Model Update Parameters"
+    ],
+    [
+      "Central Parameter Server",
+      "comprises",
+      "Aggregation Method"
+    ],
+    [
+      "Edge Devices",
+      "stores",
+      "Local Data"
+    ],
+    [
+      "Method for selecting k values",
+      "selects",
+      "Largest Values"
+    ],
+    [
+      "Parameter Update",
+      "comprises",
+      "k Largest Values"
+    ],
+    [
+      "Central Parameter Server",
+      "aggregates",
+      "Parameter Updates"
+    ],
+    [
+      "Federated Learning Strategy",
+      "implements",
+      "Model Compression"
+    ],
+    [
+      "Federated Learning Strategy",
+      "achieves",
+      "Reduced Communication Cost"
+    ],
+    [
+      "Federated Learning",
+      "results_in",
+      "Improved Training Speed"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Parameter Server",
+    "Edge Devices with Local Data",
+    "Federated Learning Optimization Strategy",
+    "High Communication Cost, Data Heterogeneity Slowing Model Convergence",
+    "Improved Training Speed in Federated Learning",
+    "Method for selecting the largest k values of parameter update"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregation Method",
+    "Central Parameter Server",
+    "Communication Rounds",
+    "Data Heterogeneity",
+    "Edge Devices",
+    "Federated Learning",
+    "Federated Learning Strategy",
+    "High Communication Cost",
+    "Improved Training Speed",
+    "Largest Values",
+    "Local Data",
+    "Method for selecting k values",
+    "Model Compression",
+    "Model Update Parameters",
+    "Parameter Update",
+    "Parameter Updates",
+    "Reduced Communication Cost",
+    "Slow Model Convergence",
+    "k Largest Values"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "aggregates",
+    "causes",
+    "comprises",
+    "controls",
+    "implements",
+    "results_in",
+    "selects",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/08"
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "publication_number": "KR20230105317A",
+  "title": "Method and apparatus for communication efficient federated learning with global model compression",
+  "assignee": "(no assignee found)",
+  "filing_date": "2022-12-28",
+  "publication_date": "2023-07-11",
+  "pse": {
+    "problem": "The patent aims to solve the communication inefficiency issues in federated learning, particularly when dealing with large numbers of devices (e.g., millions of smartphones) that have limited bandwidth and battery power compared to traditional distributed learning in data centers.",
+    "solution_function": "The solution provides a framework for communication-efficient federated learning, reducing downlink communication cost by compressing the global model, restoring feature maps to the server from local updates, performing quantization bias correction, and recognizing quantization.",
+    "solution_structure": "The system includes multiple clients (devices), a server, and potentially parameter servers. The clients have local datasets, and the server aggregates local updates to update the global model.",
+    "solution_implementation": "The method involves downloading the global model from the server by a subset of clients, locally updating it using their dataset, uploading local updates back to the server, aggregating received local updates at the server to update the global model, compressing (e.g., quantizing) the global model for downlink communication cost reduction, and reconstructing feature maps in the server for quantization bias correction.",
+    "effect": "The benefits include reduced downlink communication cost, restoration of feature maps, quantization bias correction, and reduced compression loss, thereby improving the efficiency of federated learning in wireless settings."
+  },
+  "knowledge_graph": [
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Addresses_Problem",
+      "Communication Inefficiency in Federated Learning"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Comprises_Component",
+      "Local Clients"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Implemented_By",
+      "Model Compression"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Implemented_By",
+      "Quantization Bias Correction"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Achieves_Effect",
+      "Reduced Downlink Communication Cost"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Achieves_Effect",
+      "Restored Feature Maps"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Achieves_Effect",
+      "Quantization Bias Correction"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "Achieves_Effect",
+      "Reduced Compression Loss"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "has_issue",
+      "Communication Inefficiency"
+    ],
+    [
+      "Federated Learning in Wireless Settings",
+      "has_issue",
+      "Large Number of Devices"
+    ],
+    [
+      "Large Number of Devices",
+      "has_limitations",
+      "Bandwidth and Battery Power"
+    ],
+    [
+      "Traditional Distributed Learning",
+      "location",
+      "Data Centers"
+    ],
+    [
+      "Communication-Efficient Federated Learning Framework",
+      "reduces",
+      "Downlink Communication Cost"
+    ],
+    [
+      "Global Model",
+      "subject_to_compression",
+      "Quantization"
+    ],
+    [
+      "Local Updates",
+      "transmitted_from",
+      "Clients to Server"
+    ],
+    [
+      "Local Updates",
+      "aggregated_at",
+      "Server"
+    ],
+    [
+      "Server",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Quantization",
+      "requires",
+      "Bias Correction"
+    ],
+    [
+      "Feature Maps",
+      "reconstructed_in",
+      "Server"
+    ],
+    [
+      "Federated Learning in Wireless Settings",
+      "benefit",
+      "Reduced Downlink Communication Cost"
+    ],
+    [
+      "Federated Learning in Wireless Settings",
+      "benefit",
+      "Restored Feature Maps"
+    ],
+    [
+      "Federated Learning in Wireless Settings",
+      "benefit",
+      "Quantization Bias Correction"
+    ],
+    [
+      "Federated Learning in Wireless Settings",
+      "benefit",
+      "Reduced Compression Loss"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Communication Inefficiency in Federated Learning",
+    "Communication-Efficient Federated Learning Framework",
+    "Local Clients",
+    "Model Compression",
+    "Quantization Bias Correction",
+    "Reduced Compression Loss",
+    "Reduced Downlink Communication Cost",
+    "Restored Feature Maps",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Bandwidth and Battery Power",
+    "Bias Correction",
+    "Clients to Server",
+    "Communication Inefficiency",
+    "Communication-Efficient Federated Learning Framework",
+    "Data Centers",
+    "Downlink Communication Cost",
+    "Feature Maps",
+    "Federated Learning",
+    "Federated Learning in Wireless Settings",
+    "Global Model",
+    "Large Number of Devices",
+    "Local Updates",
+    "Quantization",
+    "Quantization Bias Correction",
+    "Reduced Compression Loss",
+    "Reduced Downlink Communication Cost",
+    "Restored Feature Maps",
+    "Server",
+    "Traditional Distributed Learning"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregated_at",
+    "benefit",
+    "has_issue",
+    "has_limitations",
+    "location",
+    "reconstructed_in",
+    "reduces",
+    "requires",
+    "subject_to_compression",
+    "transmitted_from",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/0495",
+    "G06N3/094",
+    "G06N3/098"
+  ]
+}

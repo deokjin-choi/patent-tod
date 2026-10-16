@@ -1,0 +1,254 @@
+{
+  "publication_number": "CN111738440A",
+  "title": "A model training method and system based on domain adaptation and federated learning",
+  "assignee": "Alipay Hangzhou Information Technology Co Ltd",
+  "filing_date": "2020-07-31",
+  "publication_date": "2020-10-02",
+  "pse": {
+    "problem": "The problem is the inability to accurately identify business object types in the target business domain while considering data privacy requirements of various business parties.",
+    "solution_function": "The method performs iterative model training using domain adaptation and federated learning. The source service side device processes labeled samples from the source business domain, calculates local training gradients, and sends them to a training coordinator device. Simultaneously, the target service side device processes unlabeled samples from the target business domain and sends feature sets to the training coordinator. The training coordinator calculates a comprehensive training gradient for model updates based on local gradients and feature sets.",
+    "solution_structure": "The system consists of source service side devices, target service side devices, and a training coordinator device.",
+    "solution_implementation": "The process begins with initializing neural network models on both the source and target service side devices. Each iteration involves local processing of samples by source and target devices to generate feature sets, calculation of local gradients by the source device, and transmission of these data to the training coordinator. The coordinator then calculates a comprehensive training gradient for model updates.",
+    "effect": "The solution provides accurate identification of business object types in the target business domain while maintaining privacy requirements."
+  },
+  "knowledge_graph": [
+    [
+      "Iterative Model Training",
+      "Addresses_Problem",
+      "Inaccurate Business Object Identification"
+    ],
+    [
+      "Iterative Model Training",
+      "Comprises_Component",
+      "Domain Adaptation"
+    ],
+    [
+      "Iterative Model Training",
+      "Comprises_Component",
+      "Federated Learning"
+    ],
+    [
+      "Iterative Model Training",
+      "Implemented_By",
+      "Neural Network Models Initialization"
+    ],
+    [
+      "Iterative Model Training",
+      "Implemented_By",
+      "Local Processing of Samples"
+    ],
+    [
+      "Iterative Model Training",
+      "Implemented_By",
+      "Calculation of Local Gradients"
+    ],
+    [
+      "Iterative Model Training",
+      "Implemented_By",
+      "Data Transmission to Training Coordinator"
+    ],
+    [
+      "Iterative Model Training",
+      "Implemented_By",
+      "Comprehensive Training Gradient Calculation"
+    ],
+    [
+      "Training Coordinator Device",
+      "Addresses_Problem",
+      "Inaccurate Business Object Identification"
+    ],
+    [
+      "Training Coordinator Device",
+      "Comprises_Component",
+      "Data Reception from Source Device"
+    ],
+    [
+      "Training Coordinator Device",
+      "Comprises_Component",
+      "Data Reception from Target Device"
+    ],
+    [
+      "Source Service Side Devices",
+      "Addresses_Problem",
+      "Inaccurate Business Object Identification"
+    ],
+    [
+      "Source Service Side Devices",
+      "Comprises_Component",
+      "Labeled Samples Processing"
+    ],
+    [
+      "Source Service Side Devices",
+      "Implemented_By",
+      "Local Training Gradients Calculation"
+    ],
+    [
+      "Target Service Side Devices",
+      "Addresses_Problem",
+      "Inaccurate Business Object Identification"
+    ],
+    [
+      "Target Service Side Devices",
+      "Comprises_Component",
+      "Unlabeled Samples Processing"
+    ],
+    [
+      "Target Service Side Devices",
+      "Implemented_By",
+      "Feature Sets Generation"
+    ],
+    [
+      "System",
+      "Comprises_Component",
+      "Source Service Side Devices"
+    ],
+    [
+      "System",
+      "Comprises_Component",
+      "Target Service Side Devices"
+    ],
+    [
+      "System",
+      "Comprises_Component",
+      "Training Coordinator Device"
+    ],
+    [
+      "Solution",
+      "Achieves_Effect",
+      "Accurate Business Object Identification"
+    ],
+    [
+      "Solution",
+      "Achieves_Effect",
+      "Privacy Requirements Maintenance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Domain Adaptation",
+      "applies_to",
+      "Model Training"
+    ],
+    [
+      "Federated Learning",
+      "applies_to",
+      "Model Training"
+    ],
+    [
+      "Source Service Side Device",
+      "processes",
+      "Labeled Samples"
+    ],
+    [
+      "Source Service Side Device",
+      "calculates",
+      "Local Training Gradients"
+    ],
+    [
+      "Source Service Side Device",
+      "sends",
+      "Local Training Gradients"
+    ],
+    [
+      "Target Service Side Device",
+      "processes",
+      "Unlabeled Samples"
+    ],
+    [
+      "Target Service Side Device",
+      "sends",
+      "Feature Sets"
+    ],
+    [
+      "Training Coordinator Device",
+      "receives",
+      "Local Training Gradients"
+    ],
+    [
+      "Training Coordinator Device",
+      "receives",
+      "Feature Sets"
+    ],
+    [
+      "Training Coordinator Device",
+      "calculates",
+      "Comprehensive Training Gradient"
+    ],
+    [
+      "Training Coordinator Device",
+      "updates",
+      "Neural Network Models"
+    ],
+    [
+      "Neural Network Models",
+      "improves",
+      "Business Object Type Identification"
+    ],
+    [
+      "Neural Network Models",
+      "respects",
+      "Data Privacy Requirements"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Accurate Business Object Identification",
+    "Calculation of Local Gradients",
+    "Comprehensive Training Gradient Calculation",
+    "Data Reception from Source Device",
+    "Data Reception from Target Device",
+    "Data Transmission to Training Coordinator",
+    "Domain Adaptation",
+    "Feature Sets Generation",
+    "Federated Learning",
+    "Inaccurate Business Object Identification",
+    "Iterative Model Training",
+    "Labeled Samples Processing",
+    "Local Processing of Samples",
+    "Local Training Gradients Calculation",
+    "Neural Network Models Initialization",
+    "Privacy Requirements Maintenance",
+    "Solution",
+    "Source Service Side Devices",
+    "System",
+    "Target Service Side Devices",
+    "Training Coordinator Device",
+    "Unlabeled Samples Processing"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Business Object Type Identification",
+    "Comprehensive Training Gradient",
+    "Data Privacy Requirements",
+    "Domain Adaptation",
+    "Feature Sets",
+    "Federated Learning",
+    "Labeled Samples",
+    "Local Training Gradients",
+    "Model Training",
+    "Neural Network Models",
+    "Source Service Side Device",
+    "Target Service Side Device",
+    "Training Coordinator Device",
+    "Unlabeled Samples"
+  ],
+  "knowledge_graph2_relation": [
+    "applies_to",
+    "calculates",
+    "improves",
+    "processes",
+    "receives",
+    "respects",
+    "sends",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N3/045",
+    "G06N3/08"
+  ]
+}

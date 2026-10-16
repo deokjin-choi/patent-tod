@@ -1,0 +1,255 @@
+{
+  "publication_number": "US20250132929A1",
+  "title": "Intermediate server intermediating federated learning, user device, and system including intermediate server and user device",
+  "assignee": "Samsung Electronics Co Ltd",
+  "filing_date": "2024-12-20",
+  "publication_date": "2025-04-24",
+  "pse": {
+    "problem": "Inefficiency in updating a global model in federated learning due to reliance on a central server for model updates and potential single point of failure.",
+    "solution_function": "The intermediate server receives a global model from a central server, transmits it to user devices, updates the global model based on local models received from the user devices, and issues certificates to the central server. User devices receive the global model, generate local models by training the global model using individual data, encrypt or decrypt the global model and individual data based on a key manager in the machine learning core, and transmit the generated local model to the intermediate server.",
+    "solution_structure": "The intermediate server consists of memory and at least one processor. User devices consist of memory, at least one processor, and optionally a machine learning core. A root server issues certificates with key pairs for signing and encryption.",
+    "solution_implementation": "The intermediate server executes instructions causing it to perform the described functions. User devices execute instructions causing them to generate local models, encrypt or decrypt data based on the key manager, and transmit local models. The system control logic involves the exchange of global and local models between the intermediate server and user devices.",
+    "effect": "Improved scalability, resilience, and security in federated learning by reducing dependency on a central server, improving model updates through multiple data sources, and adding an additional layer of security through certificates."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Inefficiency in updating a global model"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Intermediate Server"
+    ],
+    [
+      "Intermediate Server",
+      "Comprises_Component",
+      "Memory"
+    ],
+    [
+      "Intermediate Server",
+      "Comprises_Component",
+      "Processor"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "User Devices",
+      "Comprises_Component",
+      "Memory"
+    ],
+    [
+      "User Devices",
+      "Comprises_Component",
+      "Processor"
+    ],
+    [
+      "Optional",
+      "Comprises_Component",
+      "Machine Learning Core"
+    ],
+    [
+      "Root Server",
+      "Comprises_Component",
+      "Certificate Issuer"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Improved Scalability"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Resilience"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Security"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Central Server",
+      "controls",
+      "Model Updates"
+    ],
+    [
+      "Intermediate Server",
+      "comprises",
+      "Memory"
+    ],
+    [
+      "Intermediate Server",
+      "comprises",
+      "Processor"
+    ],
+    [
+      "User Device",
+      "comprises",
+      "Memory"
+    ],
+    [
+      "User Device",
+      "comprises",
+      "Processor"
+    ],
+    [
+      "User Device",
+      "optionally includes",
+      "Machine Learning Core"
+    ],
+    [
+      "Root Server",
+      "issues",
+      "Certificates"
+    ],
+    [
+      "Intermediate Server",
+      "receives",
+      "Global Model from Central Server"
+    ],
+    [
+      "Intermediate Server",
+      "transmits_to",
+      "User Devices"
+    ],
+    [
+      "Intermediate Server",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Intermediate Server",
+      "issues_certificates_to",
+      "Central Server"
+    ],
+    [
+      "User Device",
+      "generates",
+      "Local Models"
+    ],
+    [
+      "User Device",
+      "encrypts",
+      "Global Model"
+    ],
+    [
+      "User Device",
+      "decrypts",
+      "Individual Data"
+    ],
+    [
+      "User Device",
+      "transmits_to",
+      "Intermediate Server"
+    ],
+    [
+      "Key Manager in Machine Learning Core",
+      "manages",
+      "Encryption/Decryption Key"
+    ],
+    [
+      "System Control Logic",
+      "involves",
+      "Exchange of Global and Local Models"
+    ],
+    [
+      "Improved Scalability",
+      "achieves",
+      "Improved Model Updates"
+    ],
+    [
+      "Improved Resilience",
+      "achieves",
+      "Reduced Dependency on Central Server"
+    ],
+    [
+      "Additional Layer of Security",
+      "achieves",
+      "Security through Certificates"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Certificate Issuer",
+    "Core Operation Logic",
+    "Federated Learning System",
+    "Improved Scalability",
+    "Inefficiency in updating a global model",
+    "Intermediate Server",
+    "Machine Learning Core",
+    "Memory",
+    "Optional",
+    "Processor",
+    "Resilience",
+    "Root Server",
+    "Security",
+    "User Devices"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Additional Layer of Security",
+    "Central Server",
+    "Certificates",
+    "Encryption/Decryption Key",
+    "Exchange of Global and Local Models",
+    "Global Model",
+    "Global Model from Central Server",
+    "Improved Model Updates",
+    "Improved Resilience",
+    "Improved Scalability",
+    "Individual Data",
+    "Intermediate Server",
+    "Key Manager in Machine Learning Core",
+    "Local Models",
+    "Machine Learning Core",
+    "Memory",
+    "Model Updates",
+    "Processor",
+    "Reduced Dependency on Central Server",
+    "Root Server",
+    "Security through Certificates",
+    "System Control Logic",
+    "User Device",
+    "User Devices"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "comprises",
+    "controls",
+    "decrypts",
+    "encrypts",
+    "generates",
+    "involves",
+    "issues",
+    "issues_certificates_to",
+    "manages",
+    "optionally includes",
+    "receives",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/098",
+    "H04L9/0825",
+    "H04L9/14",
+    "H04L9/3263"
+  ]
+}

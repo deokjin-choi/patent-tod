@@ -1,0 +1,187 @@
+{
+  "publication_number": "CN112132292A",
+  "title": "Block chain-based longitudinal federated learning data processing method, device and system",
+  "assignee": "CCB Finetech Co Ltd",
+  "filing_date": "2020-09-16",
+  "publication_date": "2020-12-25",
+  "pse": {
+    "problem": "Lack of an effective evidence storage and auditing scheme for longitudinal federal learning among enterprises, preventing trust between enterprises and hindering the performance of longitudinal federal learning modeling.",
+    "solution_function": "The method performs identification alignment on local and partner full data samples to generate an intersection, receives encrypted partner model training intermediate results, and trains a local longitudinal federal learning model using the partner's model training intermediate result and a local data sample corresponding to the identifier intersection. The system then uploads hash operation results, data identifications, usage sequences of local data samples, scheduling logs, encrypted partner model training intermediate results, and trained hash operation results of the local longitudinal federal learning model to a blockchain for auditing purposes.",
+    "solution_structure": "The apparatus includes a sample acquisition unit for acquiring local full data samples, a sample receiving unit for receiving encrypted partner full data samples, and a block chain for auditing purposes.",
+    "solution_implementation": "The method involves obtaining local full-volume data samples, performing identification alignment operations, receiving encrypted partner model training intermediate results, training local longitudinal federal learning models, and uploading various results to the blockchain. The apparatus performs sample acquisition and receiving functions.",
+    "effect": "The solution provides an effective evidence storage and auditing scheme for longitudinal federal learning among enterprises, enabling trust between enterprises and facilitating the performance of longitudinal federal learning modeling."
+  },
+  "knowledge_graph": [
+    [
+      "Longitudinal Federal Learning Model",
+      "Addresses_Problem",
+      "Core Problem Concept: Lack of effective evidence storage and auditing scheme for federal learning"
+    ],
+    [
+      "Longitudinal Federal Learning Model",
+      "Comprises_Component",
+      "Key Component 1: Sample Acquisition Unit"
+    ],
+    [
+      "Longitudinal Federal Learning Model",
+      "Comprises_Component",
+      "Key Component 2: Blockchain for auditing purposes"
+    ],
+    [
+      "Longitudinal Federal Learning Model",
+      "Implemented_By",
+      "Core Operation Logic: Identification alignment, training, and uploading of results to the blockchain"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Identification Alignment",
+      "performs_on",
+      "Local and Partner Full Data Samples"
+    ],
+    [
+      "Local Longitudinal Federal Learning Model",
+      "trains_using",
+      "Partner's Model Training Intermediate Result"
+    ],
+    [
+      "Local Longitudinal Federal Learning Model",
+      "trains_using",
+      "Local Data Sample"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Hash Operation Results"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Data Identifications"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Usage Sequences of Local Data Samples"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Scheduling Logs"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Encrypted Partner Model Training Intermediate Results"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Trained Hash Operation Results of the Local Longitudinal Federal Learning Model"
+    ],
+    [
+      "Apparatus",
+      "includes",
+      "Sample Acquisition Unit"
+    ],
+    [
+      "Apparatus",
+      "includes",
+      "Sample Receiving Unit"
+    ],
+    [
+      "Identification Alignment",
+      "performs_on",
+      "Local and Partner Full Data Samples"
+    ],
+    [
+      "Local Longitudinal Federal Learning Model",
+      "trains_using",
+      "Partner's Model Training Intermediate Result"
+    ],
+    [
+      "Local Longitudinal Federal Learning Model",
+      "trains_using",
+      "Local Data Sample"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Hash Operation Results"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Data Identifications"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Usage Sequences of Local Data Samples"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Scheduling Logs"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Encrypted Partner Model Training Intermediate Results"
+    ],
+    [
+      "Blockchain",
+      "audits",
+      "Trained Hash Operation Results of the Local Longitudinal Federal Learning Model"
+    ],
+    [
+      "Apparatus",
+      "includes",
+      "Sample Acquisition Unit"
+    ],
+    [
+      "Apparatus",
+      "includes",
+      "Sample Receiving Unit"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Identification alignment, training, and uploading of results to the blockchain",
+    "Core Problem Concept: Lack of effective evidence storage and auditing scheme for federal learning",
+    "Key Component 1: Sample Acquisition Unit",
+    "Key Component 2: Blockchain for auditing purposes",
+    "Longitudinal Federal Learning Model"
+  ],
+  "knowledge_graph_relation": [
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Apparatus",
+    "Blockchain",
+    "Data Identifications",
+    "Encrypted Partner Model Training Intermediate Results",
+    "Hash Operation Results",
+    "Identification Alignment",
+    "Local Data Sample",
+    "Local Longitudinal Federal Learning Model",
+    "Local and Partner Full Data Samples",
+    "Partner's Model Training Intermediate Result",
+    "Sample Acquisition Unit",
+    "Sample Receiving Unit",
+    "Scheduling Logs",
+    "Trained Hash Operation Results of the Local Longitudinal Federal Learning Model",
+    "Usage Sequences of Local Data Samples"
+  ],
+  "knowledge_graph2_relation": [
+    "audits",
+    "includes",
+    "performs_on",
+    "trains_using"
+  ],
+  "cpc_code": [
+    "G06F16/27",
+    "G06N20/00"
+  ]
+}

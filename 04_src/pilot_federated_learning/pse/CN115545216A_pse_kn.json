@@ -1,0 +1,147 @@
+{
+  "publication_number": "CN115545216A",
+  "title": "Service index prediction method, device, equipment and storage medium",
+  "assignee": "Shanghai Lingshuzhonghe Information Technology Co ltd",
+  "filing_date": "2022-10-19",
+  "publication_date": "2022-12-30",
+  "pse": {
+    "problem": "The problem is to ensure accuracy while improving the training efficiency of a linear model in longitudinal federated learning.",
+    "solution_function": "The solution performs service index prediction by determining an initiator and partner data sets, encrypting the initiator data set, acquiring a ciphertext correlation coefficient matrix between initiator and partner, decrypting the ciphertext correlation coefficient matrix, determining correlation coefficient matrices for initiator and partner, performing multiple collinearity analysis on initiator and partner, determining model training data, and training a federal learning model.",
+    "solution_structure": "The solution consists of a data set determining module, a data set encryption transmission module, and a federal learning model.",
+    "solution_implementation": "The data set determining module determines the initiator and partner data sets. The data set encryption transmission module encrypts the initiator data set and sends it to the partner equipment. The partner device acquires a ciphertext correlation coefficient matrix, which is then decrypted by the initiator device. The plaintext correlation coefficient matrix is determined based on the decryption result. Correlation coefficient matrices for initiator and partner are calculated, multiple collinearity analysis is performed, model training data is determined, and a federal learning model is trained using the model training data.",
+    "effect": "The solution improves the calculation efficiency and precision of a linear model in longitudinal federated learning, resulting in improved prediction precision for user business indexes."
+  },
+  "knowledge_graph": [
+    [
+      "Service Index Prediction",
+      "Addresses_Problem",
+      "Ensuring Accuracy & Improving Efficiency in Linear Model Training"
+    ],
+    [
+      "Service Index Prediction",
+      "Comprises_Component",
+      "DataSet Determining Module"
+    ],
+    [
+      "Service Index Prediction",
+      "Comprises_Component",
+      "Data Set Encryption Transmission Module"
+    ],
+    [
+      "Service Index Prediction",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Service Index Prediction",
+      "Achieves_Effect",
+      "Improved Calculation Efficiency & Precision in Linear Model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Linear Model",
+      "controls",
+      "Prediction"
+    ],
+    [
+      "Longitudinal Federated Learning",
+      "improves",
+      "Calculation Efficiency"
+    ],
+    [
+      "Longitudinal Federated Learning",
+      "improves",
+      "Precision"
+    ],
+    [
+      "Data Set Determining Module",
+      "comprises",
+      "Initiator Data Set Determining"
+    ],
+    [
+      "Data Set Encryption Transmission Module",
+      "comprises",
+      "Initiator Data Set Encryption"
+    ],
+    [
+      "Data Set Encryption Transmission Module",
+      "connects_to",
+      "Partner Equipment"
+    ],
+    [
+      "Ciphertext Correlation Coefficient Matrix",
+      "transmits_to",
+      "Initiator Device"
+    ],
+    [
+      "Plaintext Correlation Coefficient Matrix",
+      "is_determined_by",
+      "Decryption Result"
+    ],
+    [
+      "Initiator Device",
+      "performs",
+      "Multiple Collinearity Analysis"
+    ],
+    [
+      "Federal Learning Model",
+      "comprises",
+      "Model Training Data"
+    ],
+    [
+      "Federal Learning Model",
+      "processes",
+      "Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Data Set Encryption Transmission Module",
+    "DataSet Determining Module",
+    "Ensuring Accuracy & Improving Efficiency in Linear Model Training",
+    "Improved Calculation Efficiency & Precision in Linear Model",
+    "Service Index Prediction"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Calculation Efficiency",
+    "Ciphertext Correlation Coefficient Matrix",
+    "Data",
+    "Data Set Determining Module",
+    "Data Set Encryption Transmission Module",
+    "Decryption Result",
+    "Federal Learning Model",
+    "Initiator Data Set Determining",
+    "Initiator Data Set Encryption",
+    "Initiator Device",
+    "Linear Model",
+    "Longitudinal Federated Learning",
+    "Model Training Data",
+    "Multiple Collinearity Analysis",
+    "Partner Equipment",
+    "Plaintext Correlation Coefficient Matrix",
+    "Precision",
+    "Prediction"
+  ],
+  "knowledge_graph2_relation": [
+    "comprises",
+    "connects_to",
+    "controls",
+    "improves",
+    "is_determined_by",
+    "performs",
+    "processes",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F17/16",
+    "G06N20/00",
+    "H04L9/008"
+  ]
+}

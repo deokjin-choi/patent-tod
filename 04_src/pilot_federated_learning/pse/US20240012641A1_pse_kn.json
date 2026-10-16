@@ -1,0 +1,267 @@
+{
+  "publication_number": "US20240012641A1",
+  "title": "Model construction method and apparatus, and medium and electronic device",
+  "assignee": "Lemon Inc Cayman Island",
+  "filing_date": "2021-11-16",
+  "publication_date": "2024-01-11",
+  "pse": {
+    "problem": "Data silos and data privacy issues in federated learning, where multiple participants need to train models together without exchanging sensitive data.",
+    "solution_function": "The system performs co-training based on two model tasks (one from the first participant and one from the second participant) to obtain a federated learning model. The first participant's platform associates its pre-created configuration information with the second participant's pre-created configuration information, verifies the first configuration information, sends a creation request to the second participant's platform if verification passes, receives confirmation when the second configuration information is verified, and creates a first model task. The second participant's platform verifies its own configuration information when it receives the creation request, creates a second model task based on its own configuration information if verification passes, and sends a confirmation message to the first participant's platform.",
+    "solution_structure": "The system comprises association, verification, sending, and creation modules in the first participant's platform, and a similar setup in the second participant's platform.",
+    "solution_implementation": "The system operates by associating configuration information between participants, verifying configuration information, sending creation requests, creating model tasks, and performing co-training based on these tasks.",
+    "effect": "The solution allows for data privacy preservation while still enabling multiple participants to train a federated learning model together."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Data Silos and Data Privacy Issues"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Association Module (First Participant)"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Verification Module (First Participant)"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Sending Module (First Participant)"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Creation Module (First Participant)"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Association Module (Second Participant)"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Verification Module (Second Participant)"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Sending Module (Second Participant)"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Co-Training Process"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Data Privacy Preservation"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Silos",
+      "causes",
+      "Problem"
+    ],
+    [
+      "Data Privacy Issues",
+      "causes",
+      "Problem"
+    ],
+    [
+      "Federated Learning",
+      "addresses",
+      "Problem"
+    ],
+    [
+      "First Participant's Platform",
+      "comprises",
+      "Association Module"
+    ],
+    [
+      "First Participant's Platform",
+      "comprises",
+      "Verification Module"
+    ],
+    [
+      "First Participant's Platform",
+      "comprises",
+      "Sending Module"
+    ],
+    [
+      "First Participant's Platform",
+      "comprises",
+      "Creation Module"
+    ],
+    [
+      "Second Participant's Platform",
+      "comprises",
+      "Association Module"
+    ],
+    [
+      "Second Participant's Platform",
+      "comprises",
+      "Verification Module"
+    ],
+    [
+      "Second Participant's Platform",
+      "comprises",
+      "Sending Module"
+    ],
+    [
+      "Second Participant's Platform",
+      "comprises",
+      "Creation Module"
+    ],
+    [
+      "First Participant's Platform",
+      "associates_with",
+      "Second Participant's Platform"
+    ],
+    [
+      "First Participant's Configuration Information",
+      "is_associated_with",
+      "Second Participant's Configuration Information"
+    ],
+    [
+      "First Participant's Platform",
+      "verifies",
+      "First Participant's Configuration Information"
+    ],
+    [
+      "Second Participant's Platform",
+      "verifies",
+      "Second Participant's Configuration Information"
+    ],
+    [
+      "First Participant's Platform",
+      "sends_request_to",
+      "Second Participant's Platform"
+    ],
+    [
+      "Second Participant's Platform",
+      "receives_request_from",
+      "First Participant's Platform"
+    ],
+    [
+      "Second Participant's Platform",
+      "confirms_verification",
+      "First Participant's Platform"
+    ],
+    [
+      "First Participant's Platform",
+      "creates_model_task",
+      ""
+    ],
+    [
+      "Second Participant's Platform",
+      "creates_model_task",
+      ""
+    ],
+    [
+      "First Model Task",
+      "is_based_on",
+      "First Participant's Configuration Information"
+    ],
+    [
+      "Second Model Task",
+      "is_based_on",
+      "Second Participant's Configuration Information"
+    ],
+    [
+      "System",
+      "performs",
+      "Co-Training"
+    ],
+    [
+      "Co-Training",
+      "uses",
+      "Model Tasks"
+    ],
+    [
+      "Federated Learning Model",
+      "is_obtained_through",
+      "Co-Training"
+    ],
+    [
+      "Solution",
+      "preserves",
+      "Data Privacy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Association Module (First Participant)",
+    "Association Module (Second Participant)",
+    "Co-Training Process",
+    "Creation Module (First Participant)",
+    "Data Privacy Preservation",
+    "Data Silos and Data Privacy Issues",
+    "Federated Learning System",
+    "Sending Module (First Participant)",
+    "Sending Module (Second Participant)",
+    "Verification Module (First Participant)",
+    "Verification Module (Second Participant)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "",
+    "Association Module",
+    "Co-Training",
+    "Creation Module",
+    "Data Privacy",
+    "Data Privacy Issues",
+    "Data Silos",
+    "Federated Learning",
+    "Federated Learning Model",
+    "First Model Task",
+    "First Participant's Configuration Information",
+    "First Participant's Platform",
+    "Model Tasks",
+    "Problem",
+    "Second Model Task",
+    "Second Participant's Configuration Information",
+    "Second Participant's Platform",
+    "Sending Module",
+    "Solution",
+    "System",
+    "Verification Module"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "associates_with",
+    "causes",
+    "comprises",
+    "confirms_verification",
+    "creates_model_task",
+    "is_associated_with",
+    "is_based_on",
+    "is_obtained_through",
+    "performs",
+    "preserves",
+    "receives_request_from",
+    "sends_request_to",
+    "uses",
+    "verifies"
+  ],
+  "cpc_code": [
+    "G06F16/9558",
+    "G06F30/27",
+    "G06F8/71",
+    "G06F9/44505",
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/098",
+    "H04L63/101"
+  ]
+}

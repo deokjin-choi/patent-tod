@@ -1,0 +1,240 @@
+{
+  "publication_number": "CN118114243A",
+  "title": "A federated learning backdoor defense method based on similarity filtering",
+  "assignee": "Shenzhen Research Institute Of Nanjing University Of Aeronautics And Astronautics",
+  "filing_date": "2023-12-20",
+  "publication_date": "2024-05-31",
+  "pse": {
+    "problem": "Backdoor attacks on federated learning by contaminating dataset lead to a global model that behaves normally with benign samples but shows specified state with trigger samples.",
+    "solution_function": "Defends against backdoor attacks in federated learning by identifying and excluding malicious updates based on similarity filtering (cosine similarity, Euclidean distance, Manhattan distance, Mahalanobis distance) to maintain a secure global model.",
+    "solution_structure": "Involves multiple clients with their individual datasets, a global model for aggregation of updates, and possible dynamic indicator identification systems.",
+    "solution_implementation": "Updates are processed based on similarity functions (cosine similarity, Euclidean distance, Manhattan distance), malicious updates are identified and excluded or weighted dynamically to mitigate the backdoor effect.",
+    "effect": "Reduces vulnerability of federated learning to backdoor attacks by ensuring secure global model updates."
+  },
+  "knowledge_graph": [
+    [
+      "Defends Against Backdoor Attacks",
+      "Addresses_Problem",
+      "Backdoor attacks on federated learning by contaminating dataset"
+    ],
+    [
+      "Defends Against Backdoor Attacks",
+      "Comprises_Component",
+      "Multiple clients with their individual datasets"
+    ],
+    [
+      "Defends Against Backdoor Attacks",
+      "Comprises_Component",
+      "Global model for aggregation of updates"
+    ],
+    [
+      "Defends Against Backdoor Attacks",
+      "Implemented_By",
+      "Updates processed based on similarity functions (cosine similarity, Euclidean distance, Manhattan distance)"
+    ],
+    [
+      "Defends Against Backdoor Attacks",
+      "Achieves_Effect",
+      "Reduces vulnerability of federated learning to backdoor attacks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Backdoor Attacks",
+      "causes",
+      "Global Model Malfunction"
+    ],
+    [
+      "Federated Learning",
+      "vulnerable_to",
+      "Backdoor Attacks"
+    ],
+    [
+      "Dataset Contamination",
+      "leads_to",
+      "Global Model Malfunction"
+    ],
+    [
+      "Trigger Samples",
+      "induces",
+      "Specified State"
+    ],
+    [
+      "Malicious Updates",
+      "affects",
+      "Global Model"
+    ],
+    [
+      "Similarity Filtering",
+      "identifies",
+      "Malicious Updates"
+    ],
+    [
+      "Federated Learning",
+      "secured_by",
+      "Similarity Filtering"
+    ],
+    [
+      "Secure Global Model",
+      "maintained_by",
+      "Excluded Malicious Updates"
+    ],
+    [
+      "Cloud Computing",
+      "causes",
+      "Packet Delay"
+    ],
+    [
+      "Wireless Router",
+      "causes",
+      "Packet Delay"
+    ],
+    [
+      "Sensor",
+      "monitors",
+      "Environmental Parameters"
+    ],
+    [
+      "Sensor",
+      "transmits_to",
+      "Valve"
+    ],
+    [
+      "Valve",
+      "controls",
+      "Actuating Mechanism"
+    ],
+    [
+      "Sensor",
+      "transmits_to",
+      "Router"
+    ],
+    [
+      "Router",
+      "transmits_to",
+      "Remote Server"
+    ],
+    [
+      "Remote Server",
+      "processes",
+      "Data"
+    ],
+    [
+      "Remote Server",
+      "relays_to",
+      "Cloud Storage"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Network Delay"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Processed Data"
+    ],
+    [
+      "Backdoor Attacks",
+      "causes",
+      "Global Model Malfunction"
+    ],
+    [
+      "Federated Learning",
+      "vulnerable_to",
+      "Backdoor Attacks"
+    ],
+    [
+      "Dataset Contamination",
+      "leads_to",
+      "Global Model Malfunction"
+    ],
+    [
+      "Trigger Samples",
+      "induces",
+      "Specified State"
+    ],
+    [
+      "Malicious Updates",
+      "affects",
+      "Global Model"
+    ],
+    [
+      "Similarity Filtering",
+      "identifies",
+      "Malicious Updates"
+    ],
+    [
+      "Federated Learning",
+      "secured_by",
+      "Similarity Filtering"
+    ],
+    [
+      "Secure Global Model",
+      "maintained_by",
+      "Excluded Malicious Updates"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Backdoor attacks on federated learning by contaminating dataset",
+    "Defends Against Backdoor Attacks",
+    "Global model for aggregation of updates",
+    "Multiple clients with their individual datasets",
+    "Reduces vulnerability of federated learning to backdoor attacks",
+    "Updates processed based on similarity functions (cosine similarity, Euclidean distance, Manhattan distance)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Actuating Mechanism",
+    "Backdoor Attacks",
+    "Cloud Computing",
+    "Cloud Storage",
+    "Data",
+    "Dataset Contamination",
+    "Edge Node",
+    "Environmental Parameters",
+    "Excluded Malicious Updates",
+    "Federated Learning",
+    "Global Model",
+    "Global Model Malfunction",
+    "Malicious Updates",
+    "Network Delay",
+    "Packet Delay",
+    "Processed Data",
+    "Remote Server",
+    "Router",
+    "Secure Global Model",
+    "Sensor",
+    "Similarity Filtering",
+    "Specified State",
+    "Trigger Samples",
+    "Valve",
+    "Wireless Router"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "causes",
+    "controls",
+    "identifies",
+    "induces",
+    "leads_to",
+    "maintained_by",
+    "monitors",
+    "processes",
+    "reduces",
+    "relays_to",
+    "secured_by",
+    "stores",
+    "transmits_to",
+    "vulnerable_to"
+  ],
+  "cpc_code": [
+    "G06F21/56",
+    "G06N20/00"
+  ]
+}

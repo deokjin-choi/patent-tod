@@ -1,0 +1,141 @@
+{
+  "publication_number": "CN116644433A",
+  "title": "Data privacy and model safety test method for longitudinal federal learning",
+  "assignee": "Zhejiang University ZJU",
+  "filing_date": "2023-05-29",
+  "publication_date": "2023-08-25",
+  "pse": {
+    "problem": "The lack of access to training data labels and server models in vertical federated learning creates challenges for backdoor attacks.",
+    "solution_function": "Implement label inference attacks and backdoor attacks to test the privacy and model security of vertical federated learning algorithms and defense methods.",
+    "solution_structure": "Not explicitly stated, but involves participants with local data and a centralized server.",
+    "solution_implementation": "Label inference is performed to obtain target data label information. Triggers are constructed to implant backdoors into the black box model on the server.",
+    "effect": "Provides a new tool for testing the privacy protection and model security capabilities of vertical federated learning algorithms and corresponding defense methods."
+  },
+  "knowledge_graph": [
+    [
+      "Vertical Federated Learning Algorithms and Defense Methods",
+      "Addresses_Problem",
+      "Lack of access to training data labels and server models in vertical federated learning"
+    ],
+    [
+      "Vertical Federated Learning Algorithms and Defense Methods",
+      "Comprises_Component",
+      "Participants with local data"
+    ],
+    [
+      "Vertical Federated Learning Algorithms and Defense Methods",
+      "Comprises_Component",
+      "Centralized Server"
+    ],
+    [
+      "Label Inference Attacks and Backdoor Attacks",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Label Inference Attacks and Backdoor Attacks",
+      "Achieves_Effect",
+      "Testing the privacy protection and model security capabilities of vertical federated learning algorithms and corresponding defense methods"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Vertical Federated Learning",
+      "causes",
+      "Challenges for Backdoor Attacks"
+    ],
+    [
+      "Label Inference Attack",
+      "controls",
+      "Target Data Label Information Obtaining"
+    ],
+    [
+      "Backdoor Attack",
+      "controls",
+      "Black Box Model on the Server"
+    ],
+    [
+      "Triggers",
+      "constructs",
+      "Backdoors into Black Box Model"
+    ],
+    [
+      "Triggers",
+      "transmits_to",
+      "Server Models"
+    ],
+    [
+      "Privacy and Model Security",
+      "tests",
+      "Vertical Federated Learning Algorithms"
+    ],
+    [
+      "Defense Methods",
+      "tests",
+      "Vertical Federated Learning Algorithms"
+    ],
+    [
+      "Label Inference Attack",
+      "provides",
+      "New Tool for Testing Privacy Protection"
+    ],
+    [
+      "Label Inference Attack",
+      "provides",
+      "New Tool for Testing Model Security Capabilities"
+    ],
+    [
+      "Vertical Federated Learning Algorithms and Defense Methods",
+      "evaluates",
+      "Privacy Protection and Model Security Capabilities"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Centralized Server",
+    "Core Operation Logic",
+    "Label Inference Attacks and Backdoor Attacks",
+    "Lack of access to training data labels and server models in vertical federated learning",
+    "Participants with local data",
+    "Testing the privacy protection and model security capabilities of vertical federated learning algorithms and corresponding defense methods",
+    "Vertical Federated Learning Algorithms and Defense Methods"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Backdoor Attack",
+    "Backdoors into Black Box Model",
+    "Black Box Model on the Server",
+    "Challenges for Backdoor Attacks",
+    "Defense Methods",
+    "Label Inference Attack",
+    "New Tool for Testing Model Security Capabilities",
+    "New Tool for Testing Privacy Protection",
+    "Privacy Protection and Model Security Capabilities",
+    "Privacy and Model Security",
+    "Server Models",
+    "Target Data Label Information Obtaining",
+    "Triggers",
+    "Vertical Federated Learning",
+    "Vertical Federated Learning Algorithms",
+    "Vertical Federated Learning Algorithms and Defense Methods"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "constructs",
+    "controls",
+    "evaluates",
+    "provides",
+    "tests",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F21/577",
+    "G06F21/62",
+    "G06N20/20",
+    "Y02D30/50"
+  ]
+}

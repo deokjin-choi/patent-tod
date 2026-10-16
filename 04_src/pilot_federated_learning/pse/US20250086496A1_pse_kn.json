@@ -1,0 +1,224 @@
+{
+  "publication_number": "US20250086496A1",
+  "title": "Method and apparatus for augmenting knowledge using information of federated learning",
+  "assignee": "Soongsil University",
+  "filing_date": "2024-01-04",
+  "publication_date": "2025-03-13",
+  "pse": {
+    "problem": "The existing federated learning methods have limitations in generating a model optimized for the data distributions of each individual device, particularly when dealing with low-end IoT devices.",
+    "solution_function": "The system collects local information from multiple devices (including low-end devices), generates a federated global parameter for a global model using the collected parameters of local models, and uses this parameter to learn a large model. The learned large model approximates true labels for further learning.",
+    "solution_structure": "The system comprises a transceiver unit, a data storage unit, a federated learning execution unit, and a large model learning unit.",
+    "solution_implementation": "Local devices transmit their global parameter, local latent vector, and local loss value to the system. The federated learning execution unit collects these parameters, generates a federated global parameter, and sends it back to the devices. The large model learning unit uses both the local information and the federated global parameter to learn and approximate true labels for the large model.",
+    "effect": "The proposed method allows low-end IoT devices to participate in federated learning, enabling the creation of a global model optimized for various data distributions without exposing private data. The use of a large model further improves the accuracy of label approximations."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Core Problem Concept: Limitations in optimized model generation for low-end IoT devices"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Key Component 1: Transceiver Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Key Component 2: Data Storage Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Key Component 3: Federated Learning Execution Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Key Component 4: Large Model Learning Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Core Operation Logic: Data collection, parameter generation, and label approximation"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Primary Benefit: Participation of low-end IoT devices in federated learning, optimized global model creation, and improved accuracy of label approximations"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Federated Learning Methods",
+      "causes",
+      "Limitation in generating optimized model"
+    ],
+    [
+      "Low-end IoT Devices",
+      "encounters",
+      "Limitations"
+    ],
+    [
+      "Local Information",
+      "collected_from",
+      "Multiple Devices"
+    ],
+    [
+      "Local Models",
+      "comprises",
+      "Global Parameters"
+    ],
+    [
+      "Federated Global Parameter",
+      "used_for",
+      "Learning a Large Model"
+    ],
+    [
+      "Large Model",
+      "approximate",
+      "True Labels"
+    ],
+    [
+      "System",
+      "comprises",
+      "Transceiver Unit"
+    ],
+    [
+      "System",
+      "comprises",
+      "Data Storage Unit"
+    ],
+    [
+      "System",
+      "comprises",
+      "Federated Learning Execution Unit"
+    ],
+    [
+      "System",
+      "comprises",
+      "Large Model Learning Unit"
+    ],
+    [
+      "Local Devices",
+      "transmits_to",
+      "System"
+    ],
+    [
+      "Global Parameter",
+      "sent_from",
+      "Local Devices"
+    ],
+    [
+      "Local Latent Vector",
+      "sent_from",
+      "Local Devices"
+    ],
+    [
+      "Local Loss Value",
+      "sent_from",
+      "Local Devices"
+    ],
+    [
+      "Federated Learning Execution Unit",
+      "collects",
+      "Parameters"
+    ],
+    [
+      "Federated Learning Execution Unit",
+      "generates",
+      "Federated Global Parameter"
+    ],
+    [
+      "System",
+      "transmits",
+      "Federated Global Parameter to Devices"
+    ],
+    [
+      "Large Model Learning Unit",
+      "uses",
+      "Local Information"
+    ],
+    [
+      "Large Model Learning Unit",
+      "uses",
+      "Federated Global Parameter"
+    ],
+    [
+      "Proposed Method",
+      "enables",
+      "Participation of Low-end IoT Devices"
+    ],
+    [
+      "Global Model",
+      "optimized_for",
+      "Various Data Distributions"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Data collection, parameter generation, and label approximation",
+    "Core Problem Concept: Limitations in optimized model generation for low-end IoT devices",
+    "Federated Learning System",
+    "Key Component 1: Transceiver Unit",
+    "Key Component 2: Data Storage Unit",
+    "Key Component 3: Federated Learning Execution Unit",
+    "Key Component 4: Large Model Learning Unit",
+    "Primary Benefit: Participation of low-end IoT devices in federated learning, optimized global model creation, and improved accuracy of label approximations"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Data Storage Unit",
+    "Existing Federated Learning Methods",
+    "Federated Global Parameter",
+    "Federated Global Parameter to Devices",
+    "Federated Learning Execution Unit",
+    "Global Model",
+    "Global Parameter",
+    "Global Parameters",
+    "Large Model",
+    "Large Model Learning Unit",
+    "Learning a Large Model",
+    "Limitation in generating optimized model",
+    "Limitations",
+    "Local Devices",
+    "Local Information",
+    "Local Latent Vector",
+    "Local Loss Value",
+    "Local Models",
+    "Low-end IoT Devices",
+    "Multiple Devices",
+    "Parameters",
+    "Participation of Low-end IoT Devices",
+    "Proposed Method",
+    "System",
+    "Transceiver Unit",
+    "True Labels",
+    "Various Data Distributions"
+  ],
+  "knowledge_graph2_relation": [
+    "approximate",
+    "causes",
+    "collected_from",
+    "collects",
+    "comprises",
+    "enables",
+    "encounters",
+    "generates",
+    "optimized_for",
+    "sent_from",
+    "transmits",
+    "transmits_to",
+    "used_for",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/045"
+  ]
+}

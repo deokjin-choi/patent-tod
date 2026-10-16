@@ -1,0 +1,164 @@
+{
+  "publication_number": "CN114519434A",
+  "title": "Intelligent learning method and system",
+  "assignee": "Shenzhen Samoye Digital Technology Co ltd",
+  "filing_date": "2021-12-17",
+  "publication_date": "2022-05-20",
+  "pse": {
+    "problem": "The existing intelligent learning method requires two parties to perform interactive modeling, which is complicated and error-prone.",
+    "solution_function": "The system integrates federated learning and non-federated learning. It allows both host and guest sides to select datasets for uploading to the modeling platform, establishes at least one federated learning mathematical model, unilaterally establishes non-federated learning mathematical models using own data with target variables, learns using the established models in either federated or non-federated mode, and switches learning modes as needed.",
+    "solution_structure": "The system comprises a modeling platform where federated and non-federated learning mathematical models are established. It also includes components for data selection, model learning, and mode switching on both the host and guest sides.",
+    "solution_implementation": "In federated learning mode, offline training and online prediction steps are performed to establish a federated learning mathematical model. In non-federated learning mode, only unilateral modeling is done using own data with target variables. The system switches learning modes based on user selection.",
+    "effect": "The system improves the operation flow of intelligent learning and increases work efficiency by simplifying the uploading process of federated learning data and reducing errors."
+  },
+  "knowledge_graph": [
+    [
+      "Integrated Federated and Non-Federated Learning",
+      "Addresses_Problem",
+      "Complex Interactive Modeling"
+    ],
+    [
+      "Integrated Federated and Non-Federated Learning",
+      "Comprises_Component",
+      "Modeling Platform"
+    ],
+    [
+      "Integrated Federated and Non-Federated Learning",
+      "Comprises_Component",
+      "Data Selection Components (Host & Guest)"
+    ],
+    [
+      "Integrated Federated and Non-Federated Learning",
+      "Implemented_By",
+      "Offline Training & Online Prediction"
+    ],
+    [
+      "Integrated Federated and Non-Federated Learning",
+      "Achieves_Effect",
+      "Streamlined Intelligent Learning Operation Flow"
+    ],
+    [
+      "Integrated Federated and Non-Federated Learning",
+      "Achieves_Effect",
+      "Increased Work Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Intelligent Learning Method",
+      "requires",
+      "Interactive Modeling"
+    ],
+    [
+      "System",
+      "integrates",
+      "Federated Learning"
+    ],
+    [
+      "System",
+      "integrates",
+      "Non-federated Learning"
+    ],
+    [
+      "System",
+      "allows",
+      "Host Side",
+      "Dataset Upload"
+    ],
+    [
+      "System",
+      "allows",
+      "Guest Side",
+      "Dataset Upload"
+    ],
+    [
+      "System",
+      "establishes",
+      "Federated Learning Mathematical Model"
+    ],
+    [
+      "System",
+      "establishes",
+      "Non-federated Learning Mathematical Model"
+    ],
+    [
+      "System",
+      "unilaterally establishes",
+      "Non-federated Learning Mathematical Model",
+      "using own data with target variables"
+    ],
+    [
+      "System",
+      "learns",
+      "Federated or Non-federated Mode"
+    ],
+    [
+      "System",
+      "switches",
+      "Learning Modes",
+      "based on user selection"
+    ],
+    [
+      "Federated Learning Mode",
+      "includes",
+      "Offline Training Step"
+    ],
+    [
+      "Federated Learning Mode",
+      "includes",
+      "Online Prediction Step"
+    ],
+    [
+      "System",
+      "improves",
+      "Intelligent Learning Operation Flow"
+    ],
+    [
+      "System",
+      "increases",
+      "Work Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Complex Interactive Modeling",
+    "Data Selection Components (Host & Guest)",
+    "Increased Work Efficiency",
+    "Integrated Federated and Non-Federated Learning",
+    "Modeling Platform",
+    "Offline Training & Online Prediction",
+    "Streamlined Intelligent Learning Operation Flow"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Federated Learning",
+    "Federated Learning Mathematical Model",
+    "Federated Learning Mode",
+    "Federated or Non-federated Mode",
+    "Intelligent Learning Method",
+    "Intelligent Learning Operation Flow",
+    "Interactive Modeling",
+    "Non-federated Learning",
+    "Non-federated Learning Mathematical Model",
+    "Offline Training Step",
+    "Online Prediction Step",
+    "System",
+    "Work Efficiency"
+  ],
+  "knowledge_graph2_relation": [
+    "establishes",
+    "improves",
+    "includes",
+    "increases",
+    "integrates",
+    "learns",
+    "requires"
+  ],
+  "cpc_code": [
+    "G06N20/20"
+  ]
+}

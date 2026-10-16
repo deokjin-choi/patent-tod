@@ -1,0 +1,119 @@
+{
+  "publication_number": "CN120218274A",
+  "title": "An analysis method and corresponding defense method for federated learning backdoor attacks",
+  "assignee": "Shanghai Jiao Tong University",
+  "filing_date": "2023-12-27",
+  "publication_date": "2025-06-27",
+  "pse": {
+    "problem": "Significant reduction in model accuracy when federal learning system encounters data heterogeneity.",
+    "solution_function": "Analyzes federal learning back door attacks by selecting partial data for processing according to a backdoor type, generating backdoor data, initializing a local model, and calculating a regular term about the characteristic similarity based on the output of the feature extractor of the local model and an average value.",
+    "solution_structure": "Client with a local model that includes a feature extractor and server side with a global model.",
+    "solution_implementation": "Client selects partial data, generates backdoor data, initializes local model, replaces certain proportion of batch data with back door data, inputs normal data into feature extractor to output average value, replaces data in batch with back door data, calculates regular term about characteristic similarity.",
+    "effect": "Improved defense capability of federal learning on attacks of partial virus injection of a feature extractor of a model."
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning Backdoor Attack Analyzer",
+      "Addresses_Problem",
+      "Significant Reduction in Model Accuracy"
+    ],
+    [
+      "Federal Learning Backdoor Attack Analyzer",
+      "Comprises_Component",
+      "Partial Data Processing Selection"
+    ],
+    [
+      "Federal Learning Backdoor Attack Analyzer",
+      "Comprises_Component",
+      "Backdoor Data Generation"
+    ],
+    [
+      "Federal Learning Backdoor Attack Analyzer",
+      "Comprises_Component",
+      "Local Model Initialization"
+    ],
+    [
+      "Federal Learning Backdoor Attack Analyzer",
+      "Implemented_By",
+      "Regular Term Calculation about Characteristic Similarity"
+    ],
+    [
+      "Federal Learning Backdoor Attack Analyzer",
+      "Achieves_Effect",
+      "Improved Defense Capability on Partial Virus Injection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning System",
+      "encounters",
+      "Data Heterogeneity"
+    ],
+    [
+      "Data Heterogeneity",
+      "reduces",
+      "Model Accuracy"
+    ],
+    [
+      "Local Model",
+      "includes",
+      "Feature Extractor"
+    ],
+    [
+      "Global Model",
+      "processes",
+      "Data"
+    ],
+    [
+      "Feature Extractor",
+      "outputs",
+      "Average Value"
+    ],
+    [
+      "Local Model",
+      "defends against",
+      "Partial Virus Injection"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Backdoor Data Generation",
+    "Federal Learning Backdoor Attack Analyzer",
+    "Improved Defense Capability on Partial Virus Injection",
+    "Local Model Initialization",
+    "Partial Data Processing Selection",
+    "Regular Term Calculation about Characteristic Similarity",
+    "Significant Reduction in Model Accuracy"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Average Value",
+    "Data",
+    "Data Heterogeneity",
+    "Feature Extractor",
+    "Federal Learning System",
+    "Global Model",
+    "Local Model",
+    "Model Accuracy",
+    "Partial Virus Injection"
+  ],
+  "knowledge_graph2_relation": [
+    "defends against",
+    "encounters",
+    "includes",
+    "outputs",
+    "processes",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06F18/213",
+    "G06N20/00",
+    "G06V10/42",
+    "G06V10/44",
+    "G06V10/765"
+  ]
+}

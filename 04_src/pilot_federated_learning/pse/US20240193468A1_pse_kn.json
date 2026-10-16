@@ -1,0 +1,133 @@
+{
+  "publication_number": "US20240193468A1",
+  "title": "Federated learning for media content recommendation",
+  "assignee": "Lemon Inc Cayman Island",
+  "filing_date": "2022-12-08",
+  "publication_date": "2024-06-13",
+  "pse": {
+    "problem": "Inefficient media content recommendation in applications due to lack of real-time user interaction data",
+    "solution_function": "Federated learning for media content recommendation where a machine learning model updates itself based on user interactions with recommended media content at client devices, improving the accuracy of recommended media content",
+    "solution_structure": "A server that provides and receives updates to a machine learning model, and client devices equipped with processors and memory units",
+    "solution_implementation": "The server initially provides a version of the machine learning model to client devices. The client devices recommend media content based on local information using the provided model. User interactions with recommended media content are used to determine updates to the model, which are then sent back to the server. The server updates the model based on received updates from multiple client devices",
+    "effect": "Improved accuracy in recommending media content that users are interested in, leading to increased user satisfaction and potential for increased application engagement"
+  },
+  "knowledge_graph": [
+    [
+      "Federated learning",
+      "Addresses_Problem",
+      "Inefficient media content recommendation"
+    ],
+    [
+      "Federated learning",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Federated learning",
+      "Comprises_Component",
+      "Client devices"
+    ],
+    [
+      "Federated learning",
+      "Implemented_By",
+      "Update and receive model updates process"
+    ],
+    [
+      "Federated learning",
+      "Achieves_Effect",
+      "Improved accuracy in media content recommendation"
+    ],
+    [
+      "Improved accuracy in media content recommendation",
+      "Leads_To",
+      "Increased user satisfaction"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Inefficient media content recommendation",
+      "causes",
+      "Decreased user satisfaction"
+    ],
+    [
+      "Real-time user interaction data",
+      "is_missing_in",
+      "Inefficient media content recommendation"
+    ],
+    [
+      "Federated learning",
+      "implements",
+      "Machine learning model updates based on user interactions"
+    ],
+    [
+      "Machine learning model",
+      "updates",
+      "Based on user interactions with recommended media content"
+    ],
+    [
+      "Client devices",
+      "receive",
+      "Initial version of the machine learning model"
+    ],
+    [
+      "Media content recommendation",
+      "becomes_more_accurate",
+      "With updated machine learning model"
+    ],
+    [
+      "Increased accuracy in recommending media content",
+      "leads_to",
+      "Increased user satisfaction"
+    ],
+    [
+      "Increased user satisfaction",
+      "potentially_increases",
+      "Application engagement"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client devices",
+    "Federated learning",
+    "Improved accuracy in media content recommendation",
+    "Increased user satisfaction",
+    "Inefficient media content recommendation",
+    "Server",
+    "Update and receive model updates process"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By",
+    "Leads_To"
+  ],
+  "knowledge_graph2_en": [
+    "Application engagement",
+    "Based on user interactions with recommended media content",
+    "Client devices",
+    "Decreased user satisfaction",
+    "Federated learning",
+    "Increased accuracy in recommending media content",
+    "Increased user satisfaction",
+    "Inefficient media content recommendation",
+    "Initial version of the machine learning model",
+    "Machine learning model",
+    "Machine learning model updates based on user interactions",
+    "Media content recommendation",
+    "Real-time user interaction data",
+    "With updated machine learning model"
+  ],
+  "knowledge_graph2_relation": [
+    "becomes_more_accurate",
+    "causes",
+    "implements",
+    "is_missing_in",
+    "leads_to",
+    "potentially_increases",
+    "receive",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "publication_number": "US20220398500A1",
+  "title": "Partially local federated learning",
+  "assignee": "Google LLC",
+  "filing_date": "2021-05-27",
+  "publication_date": "2022-12-15",
+  "pse": {
+    "problem": "Inefficient training of machine learning models, particularly deep models, due to data distribution over multiple clients and privacy concerns.",
+    "solution_function": "Collaborative training of a machine learning model by exchanging local parameters between client devices and a server. Clients determine their local parameter updates based on local data and global parameters received from the server, then send updated parameters back to the server.",
+    "solution_structure": "Client devices maintain local data and local parameters, while the server maintains global parameters. The system uses a dataset split function to partition local data into support and query datasets for training.",
+    "solution_implementation": "Clients initialize local parameters, then iteratively perform gradient descent on those parameters using their local support dataset. Clients send parameter update data to the server after each iteration.",
+    "effect": "Improved model accuracy through collective learning while preserving user privacy by minimizing data sharing"
+  },
+  "knowledge_graph": [
+    [
+      "Collaborative Training",
+      "Addresses_Problem",
+      "Inefficient Training of Machine Learning Models"
+    ],
+    [
+      "Collaborative Training",
+      "Comprises_Component",
+      "Client Devices"
+    ],
+    [
+      "Collaborative Training",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Collaborative Training",
+      "Implemented_By",
+      "Gradient Descent"
+    ],
+    [
+      "Collaborative Training",
+      "Achieves_Effect",
+      "Improved Model Accuracy"
+    ],
+    [
+      "Collaborative Training",
+      "Achieves_Effect",
+      "User Privacy Preservation"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Machine Learning Model",
+      "comprises",
+      "Deep Learning Model"
+    ],
+    [
+      "Machine Learning Model",
+      "causes",
+      "Inefficient Training"
+    ],
+    [
+      "Data Distribution",
+      "controls",
+      "Inefficient Training"
+    ],
+    [
+      "Multiple Clients",
+      "comprises",
+      "Data Distribution"
+    ],
+    [
+      "Privacy Concerns",
+      "controls",
+      "Data Sharing"
+    ],
+    [
+      "Client Devices",
+      "comprises",
+      "Local Data"
+    ],
+    [
+      "Client Devices",
+      "stores",
+      "Local Parameters"
+    ],
+    [
+      "Server",
+      "comprises",
+      "Global Parameters"
+    ],
+    [
+      "Gradient Descent",
+      "reduces",
+      "Inefficient Training"
+    ],
+    [
+      "Gradient Descent",
+      "controls",
+      "Parameter Updates"
+    ],
+    [
+      "Support Datasets",
+      "controls",
+      "Gradient Descent"
+    ],
+    [
+      "Client Devices",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Parameter Update Data",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Collaborative Training",
+      "achieves",
+      "Improved Model Accuracy"
+    ],
+    [
+      "User Privacy",
+      "preserves",
+      "Data Sharing"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client Devices",
+    "Collaborative Training",
+    "Gradient Descent",
+    "Improved Model Accuracy",
+    "Inefficient Training of Machine Learning Models",
+    "Server",
+    "User Privacy Preservation"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client Devices",
+    "Collaborative Training",
+    "Data Distribution",
+    "Data Sharing",
+    "Deep Learning Model",
+    "Global Parameters",
+    "Gradient Descent",
+    "Improved Model Accuracy",
+    "Inefficient Training",
+    "Local Data",
+    "Local Parameters",
+    "Machine Learning Model",
+    "Multiple Clients",
+    "Parameter Update Data",
+    "Parameter Updates",
+    "Privacy Concerns",
+    "Server",
+    "Support Datasets",
+    "User Privacy"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "comprises",
+    "controls",
+    "preserves",
+    "reduces",
+    "stores",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/098"
+  ]
+}

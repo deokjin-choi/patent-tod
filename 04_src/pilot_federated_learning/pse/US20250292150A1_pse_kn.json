@@ -1,0 +1,174 @@
+{
+  "publication_number": "US20250292150A1",
+  "title": "Systems and methods for balanced client selection for decentralized machine learning with non-iid data",
+  "assignee": "Toyota Motor Corp",
+  "filing_date": "2024-03-15",
+  "publication_date": "2025-09-18",
+  "pse": {
+    "problem": "High communication overhead, significant infrastructure resources needed, and high infrastructure costs in centralized machine learning for vehicles",
+    "solution_function": "Real-time client selection for decentralized machine learning using local data from vehicles for training machine learning models and aggregating them in a distributed manner",
+    "solution_structure": "A vehicle with a processor device that trains local machine learning models and a controller device that performs balanced client selection in real-time for communication with connected vehicles",
+    "solution_implementation": "Training of a first local machine learning model at a first mobile client using decentralized machine learning process, calculating class-wide data contribution estimation, aggregating the first and second machine learning models in the same process, and calculating class-wide data contribution for the aggregation",
+    "effect": "Reduced communication overhead, infrastructure resources, and infrastructure costs by moving away from centralized systems towards distributed frameworks"
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Machine Learning",
+      "Addresses_Problem",
+      "High Communication Overhead"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Addresses_Problem",
+      "Significant Infrastructure Resources Needed"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Addresses_Problem",
+      "High Infrastructure Costs"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Comprises_Component",
+      "Vehicle Processor Device"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Comprises_Component",
+      "Controller Device"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Implemented_By",
+      "Local Data from Vehicles for Training Models"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Implemented_By",
+      "Distributed Aggregation of Models"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Achieves_Effect",
+      "Reduced Communication Overhead"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Achieves_Effect",
+      "Reduced Infrastructure Resources"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "Achieves_Effect",
+      "Reduced Infrastructure Costs"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Centralized Machine Learning",
+      "causes",
+      "High Communication Overhead"
+    ],
+    [
+      "Centralized Machine Learning",
+      "requires",
+      "Significant Infrastructure Resources"
+    ],
+    [
+      "Centralized Machine Learning",
+      "incurs",
+      "High Infrastructure Costs"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "reduces",
+      "Communication Overhead"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "reduces",
+      "Infrastructure Resources Needed"
+    ],
+    [
+      "Decentralized Machine Learning",
+      "reduces",
+      "Infrastructure Costs"
+    ],
+    [
+      "Vehicle",
+      "comprises",
+      "Processor Device"
+    ],
+    [
+      "Processor Device",
+      "trains",
+      "Local Machine Learning Models"
+    ],
+    [
+      "Controller Device",
+      "performs",
+      "Balanced Client Selection"
+    ],
+    [
+      "Controller Device",
+      "communicates_with",
+      "Connected Vehicles"
+    ],
+    [
+      "Machine Learning Model",
+      "aggregates",
+      "Other Machine Learning Models"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Controller Device",
+    "Decentralized Machine Learning",
+    "Distributed Aggregation of Models",
+    "High Communication Overhead",
+    "High Infrastructure Costs",
+    "Local Data from Vehicles for Training Models",
+    "Reduced Communication Overhead",
+    "Reduced Infrastructure Costs",
+    "Reduced Infrastructure Resources",
+    "Significant Infrastructure Resources Needed",
+    "Vehicle Processor Device"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Balanced Client Selection",
+    "Centralized Machine Learning",
+    "Communication Overhead",
+    "Connected Vehicles",
+    "Controller Device",
+    "Decentralized Machine Learning",
+    "High Communication Overhead",
+    "High Infrastructure Costs",
+    "Infrastructure Costs",
+    "Infrastructure Resources Needed",
+    "Local Machine Learning Models",
+    "Machine Learning Model",
+    "Other Machine Learning Models",
+    "Processor Device",
+    "Significant Infrastructure Resources",
+    "Vehicle"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "causes",
+    "communicates_with",
+    "comprises",
+    "incurs",
+    "performs",
+    "reduces",
+    "requires",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "publication_number": "US20230048920A1",
+  "title": "System and method for implementing federated learning engine for integration of vertical and horizontal ai",
+  "assignee": "Oracle International Corp",
+  "filing_date": "2021-08-11",
+  "publication_date": "2023-02-16",
+  "pse": {
+    "problem": "Inefficiency in distributed machine learning and federated learning due to limited data availability at each user environment",
+    "solution_function": "The system receives a global model from a central aggregator, trains a mini model on local data, uploads the mini model to the central aggregator, receives other mini models, creates a fusion model by combining data and layers from the received mini models, and generates predictions",
+    "solution_structure": "Memory, at least one processor, global model, mini model, central aggregator, user environments",
+    "solution_implementation": "Receiving global model: communication between central aggregator and user environment\nTraining mini model: processing data with local model\nUploading mini model: stripping classifier head and uploading binary\nReceiving mini models: communication between central aggregator and user environment\nCreating fusion model: combining layers and weights from received mini models, generating a classifier head, and applying it to layers\nPrediction generation: ingesting data, intermediate outputs, and outputting predictions",
+    "effect": "Improved machine learning model performance by leveraging distributed data and computation resources"
+  },
+  "knowledge_graph": [
+    [
+      "Distributed Machine Learning System",
+      "Addresses_Problem",
+      "Inefficiency in Distributed Machine Learning"
+    ],
+    [
+      "Distributed Machine Learning System",
+      "Comprises_Component",
+      "Global Model"
+    ],
+    [
+      "Distributed Machine Learning System",
+      "Comprises_Component",
+      "Mini Model"
+    ],
+    [
+      "Distributed Machine Learning System",
+      "Implemented_By",
+      "Data Training Process"
+    ],
+    [
+      "Distributed Machine Learning System",
+      "Implemented_By",
+      "Model Fusion Process"
+    ],
+    [
+      "Distributed Machine Learning System",
+      "Implemented_By",
+      "Prediction Generation Process"
+    ],
+    [
+      "Distributed Machine Learning System",
+      "Achieves_Effect",
+      "Improved Model Performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Central Aggregator",
+      "controls",
+      "Global Model Distribution"
+    ],
+    [
+      "User Environment",
+      "provides",
+      "Local Data"
+    ],
+    [
+      "User Environment",
+      "includes",
+      "At least one Processor"
+    ],
+    [
+      "Mini Model",
+      "processes",
+      "Local Data"
+    ],
+    [
+      "Mini Model",
+      "stores",
+      "Classifier Head"
+    ],
+    [
+      "Central Aggregator",
+      "comprises",
+      "Fusion Model Creation"
+    ],
+    [
+      "Fusion Model",
+      "combines",
+      "Data and Layers from Mini Models"
+    ],
+    [
+      "Fusion Model",
+      "applies",
+      "Generated Classifier Head"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Data Transmission Latency"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Fusion Model and Predictions"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Training Process",
+    "Distributed Machine Learning System",
+    "Global Model",
+    "Improved Model Performance",
+    "Inefficiency in Distributed Machine Learning",
+    "Mini Model",
+    "Model Fusion Process",
+    "Prediction Generation Process"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "At least one Processor",
+    "Central Aggregator",
+    "Classifier Head",
+    "Cloud Storage",
+    "Data Transmission Latency",
+    "Data and Layers from Mini Models",
+    "Edge Node",
+    "Fusion Model",
+    "Fusion Model Creation",
+    "Fusion Model and Predictions",
+    "Generated Classifier Head",
+    "Global Model Distribution",
+    "Local Data",
+    "Mini Model",
+    "User Environment"
+  ],
+  "knowledge_graph2_relation": [
+    "applies",
+    "combines",
+    "comprises",
+    "controls",
+    "includes",
+    "processes",
+    "provides",
+    "reduces",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06N3/045",
+    "G06N3/08",
+    "G06N3/098"
+  ]
+}

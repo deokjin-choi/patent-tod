@@ -1,0 +1,200 @@
+{
+  "publication_number": "CN118246575A",
+  "title": "Training method for cluster vehicle cooperative learning",
+  "assignee": "Nanjing University of Posts and Telecommunications",
+  "filing_date": "2024-03-18",
+  "publication_date": "2024-06-25",
+  "pse": {
+    "problem": "Existing CVFL methods have limitations in accurately clustering vehicle clients and encouraging multiple clusters to train federated learning tasks simultaneously.",
+    "solution_function": "The invention presents a method for cooperative learning of cluster vehicles that uses an iterative K-means algorithm to group and aggregate local models of vehicle clients obtained from the server's broadcasted global model, performs accurate clustering of the local model by cluster head selection, cluster head matching model, and vehicle client matching cluster head, utilizes a two-layer incentive mechanism for motivating both cluster heads and vehicle clients, and sends optimal contracts and global model information within the cluster to each vehicle client for local training.",
+    "solution_structure": "The system consists of server, cluster heads, and vehicle clients. The server broadcasts and aggregates global models, cluster heads perform accurate clustering and contract formation, and vehicle clients perform local training and data uploading.",
+    "solution_implementation": "In the first step, the server broadcasts the global model to vehicle clients within its coverage area, receives local models from each vehicle client, and aggregates them using the K-means algorithm. In the second step, the vehicle client performs accurate clustering through cluster head selection, matching of cluster head model, and matching with a cluster head. In the third step, a two-layer incentive mechanism is used: an upper layer incentivizes each cluster head using a master-slave game mechanism, and a lower layer encourages vehicle clients in the cluster using a multi-dimensional contract theory mechanism. In the fourth step, the cluster head sends the optimal contract and global model information within the cluster to each vehicle client for local training.",
+    "effect": "The solution results in accurate clustering of vehicle clients and simultaneous training of multiple federated learning tasks, improving training efficiency."
+  },
+  "knowledge_graph": [
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Addresses_Problem",
+      "Limited Accuracy in Clustering Vehicle Clients"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Comprises_Component",
+      "Iterative K-means Algorithm"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Comprises_Component",
+      "Cluster Head Selection"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Comprises_Component",
+      "Cluster Head Matching Model"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Comprises_Component",
+      "Vehicle Client Matching Cluster Head"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Comprises_Component",
+      "Two-layer Incentive Mechanism"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Implemented_By",
+      "Server Broadcasting and Aggregating Global Models"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Implemented_By",
+      "Local Training and Data Uploading"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Achieves_Effect",
+      "Simultaneous Training of Multiple Federated Learning Tasks"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "Achieves_Effect",
+      "Improved Training Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "performs",
+      "Accurate Clustering of Local Models"
+    ],
+    [
+      "Server",
+      "broadcasts",
+      "Global Model"
+    ],
+    [
+      "Vehicle Client",
+      "receives",
+      "Broadcasted Global Model"
+    ],
+    [
+      "Aggregator (K-means Algorithm)",
+      "aggregates",
+      "Local Models"
+    ],
+    [
+      "Cluster Head Selection",
+      "selects",
+      "Cluster Heads"
+    ],
+    [
+      "Cluster Head Matching Model",
+      "matches",
+      "Cluster Heads"
+    ],
+    [
+      "Vehicle Client Matching Cluster Head",
+      "assigns",
+      "Vehicle Clients to Cluster Heads"
+    ],
+    [
+      "Cluster Head",
+      "motivates",
+      "Vehicle Clients"
+    ],
+    [
+      "Master-Slave Game Mechanism",
+      "motivates",
+      "Cluster Heads"
+    ],
+    [
+      "Multi-dimensional Contract Theory Mechanism",
+      "motivates",
+      "Vehicle Clients"
+    ],
+    [
+      "Cluster Head",
+      "sends",
+      "Optimal Contract and Global Model Information to Vehicle Clients"
+    ],
+    [
+      "Local Training",
+      "performs",
+      "Vehicle Client"
+    ],
+    [
+      "Data Uploading",
+      "performs",
+      "Vehicle Client"
+    ],
+    [
+      "Cooperative Learning of Cluster Vehicles",
+      "improves",
+      "Training Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Cluster Head Matching Model",
+    "Cluster Head Selection",
+    "Cooperative Learning of Cluster Vehicles",
+    "Improved Training Efficiency",
+    "Iterative K-means Algorithm",
+    "Limited Accuracy in Clustering Vehicle Clients",
+    "Local Training and Data Uploading",
+    "Server Broadcasting and Aggregating Global Models",
+    "Simultaneous Training of Multiple Federated Learning Tasks",
+    "Two-layer Incentive Mechanism",
+    "Vehicle Client Matching Cluster Head"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accurate Clustering of Local Models",
+    "Aggregator (K-means Algorithm)",
+    "Broadcasted Global Model",
+    "Cluster Head",
+    "Cluster Head Matching Model",
+    "Cluster Head Selection",
+    "Cluster Heads",
+    "Cooperative Learning of Cluster Vehicles",
+    "Data Uploading",
+    "Global Model",
+    "Local Models",
+    "Local Training",
+    "Master-Slave Game Mechanism",
+    "Multi-dimensional Contract Theory Mechanism",
+    "Optimal Contract and Global Model Information to Vehicle Clients",
+    "Server",
+    "Training Efficiency",
+    "Vehicle Client",
+    "Vehicle Client Matching Cluster Head",
+    "Vehicle Clients",
+    "Vehicle Clients to Cluster Heads"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "assigns",
+    "broadcasts",
+    "improves",
+    "matches",
+    "motivates",
+    "performs",
+    "receives",
+    "selects",
+    "sends"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F18/23213",
+    "G06F18/241",
+    "G06N20/20",
+    "G06N5/042",
+    "Y02T10/40"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "publication_number": "CN116503420A",
+  "title": "An image segmentation method and related equipment based on federated learning",
+  "assignee": "Foshan University",
+  "filing_date": "2023-04-26",
+  "publication_date": "2023-07-28",
+  "pse": {
+    "problem": "Precise segmentation of grape stems is a challenge in non-destructive robot picking due to the complexity of the environment and variations in grape varieties.",
+    "solution_function": "Federated learning enables multiple clients (robots) to train an image segmentation model locally using their own data, then send parameters to a server for aggregation. The global model is updated and sent back to the clients for improved segmentation.",
+    "solution_structure": "The system consists of servers and multiple client devices (robots).",
+    "solution_implementation": "Initially, servers send an initialized image segmentation model to clients. Clients train this model using their local data and send the resulting parameters back to the server. The server aggregates these parameters to form a global model which is then sent back to the clients for improved image segmentation.",
+    "effect": "By leveraging federated learning, this method can improve the accuracy of grape stem segmentation, enabling more efficient non-destructive robot picking."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Precise Grape Stem Segmentation Challenge"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Robots (Clients)"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Servers"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Local Training and Parameter Sending"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Improved Accuracy of Grape Stem Segmentation"
+    ],
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Complex Environment and Grape Variety Variations"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "enables",
+      "Multiple Clients"
+    ],
+    [
+      "Image Segmentation Model",
+      "is_initialized_with",
+      "Server's Initial Model"
+    ],
+    [
+      "Client Devices (Robots)",
+      "receive",
+      "Server's Initial Model"
+    ],
+    [
+      "Clients",
+      "train",
+      "Image Segmentation Model Locally"
+    ],
+    [
+      "Trained Parameters",
+      "are_sent_to",
+      "Server"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Parameters"
+    ],
+    [
+      "Aggregated Model",
+      "is_sent_back",
+      "Clients"
+    ],
+    [
+      "Improved Image Segmentation Model",
+      "is_used_by",
+      "Clients"
+    ],
+    [
+      "Grape Stem Segmentation",
+      "becomes",
+      "More Accurate"
+    ],
+    [
+      "Non-Destructive Robot Picking",
+      "benefits",
+      "From Improved Grape Stem Segmentation"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Complex Environment and Grape Variety Variations",
+    "Federated Learning",
+    "Improved Accuracy of Grape Stem Segmentation",
+    "Local Training and Parameter Sending",
+    "Precise Grape Stem Segmentation Challenge",
+    "Robots (Clients)",
+    "Servers"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Model",
+    "Client Devices (Robots)",
+    "Clients",
+    "Federated Learning",
+    "From Improved Grape Stem Segmentation",
+    "Grape Stem Segmentation",
+    "Image Segmentation Model",
+    "Image Segmentation Model Locally",
+    "Improved Image Segmentation Model",
+    "More Accurate",
+    "Multiple Clients",
+    "Non-Destructive Robot Picking",
+    "Parameters",
+    "Server",
+    "Server's Initial Model",
+    "Trained Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "are_sent_to",
+    "becomes",
+    "benefits",
+    "enables",
+    "is_initialized_with",
+    "is_sent_back",
+    "is_used_by",
+    "receive",
+    "train"
+  ],
+  "cpc_code": [
+    "G06N3/0464",
+    "G06N3/08",
+    "G06T2207/20081",
+    "G06T2207/20084",
+    "G06T2207/20221",
+    "G06T2207/30188",
+    "G06T5/50",
+    "G06T7/10"
+  ]
+}

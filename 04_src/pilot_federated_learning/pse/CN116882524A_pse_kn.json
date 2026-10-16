@@ -1,0 +1,197 @@
+{
+  "publication_number": "CN116882524A",
+  "title": "Federal learning method and system for meeting personalized privacy protection requirements of participants",
+  "assignee": "Harbin Engineering University",
+  "filing_date": "2023-06-14",
+  "publication_date": "2023-10-13",
+  "pse": {
+    "problem": "Privacy leakage in federated learning due to gradients or model parameters uploaded by participants being analyzable by attackers using methods like differential attacks and model inversion attacks.",
+    "solution_function": "Federated learning method based on differential privacy aims to protect user data privacy while allowing model training across multiple devices. It modifies the uploaded gradients or model parameters with noise to prevent leakage of sensitive information.",
+    "solution_structure": "The system consists of participating devices, each containing local data and a device-specific model, and a central aggregation server responsible for collecting and averaging the perturbed gradients from all participants.",
+    "solution_implementation": "Local differential privacy adds noise to parameters before uploading, while centralized differential privacy modifies the central aggregation server's processing of collected gradients. The noise level is adjusted based on the user's sensitivity level and privacy requirements.",
+    "effect": "The method reduces the risk of privacy leakage in federated learning and provides flexible privacy protection tailored to individual users."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method based on Differential Privacy",
+      "Addresses_Problem",
+      "Privacy leakage in federated learning"
+    ],
+    [
+      "Federated Learning Method based on Differential Privacy",
+      "Comprises_Component",
+      "Participating Devices"
+    ],
+    [
+      "Federated Learning Method based on Differential Privacy",
+      "Comprises_Component",
+      "Central Aggregation Server"
+    ],
+    [
+      "Federated Learning Method based on Differential Privacy",
+      "Implemented_By",
+      "Local Differential Privacy"
+    ],
+    [
+      "Federated Learning Method based on Differential Privacy",
+      "Implemented_By",
+      "Centralized Differential Privacy"
+    ],
+    [
+      "Federated Learning Method based on Differential Privacy",
+      "Achieves_Effect",
+      "Reduced Risk of Privacy Leakage"
+    ],
+    [
+      "Federated Learning Method based on Differential Privacy",
+      "Achieves_Effect",
+      "Flexible Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Privacy Leakage",
+      "causes",
+      "Federated Learning"
+    ],
+    [
+      "Gradients or Model Parameters",
+      "uploaded_by",
+      "Participants"
+    ],
+    [
+      "Attackers",
+      "analyzes",
+      "Gradients or Model Parameters"
+    ],
+    [
+      "Differential Attacks",
+      "performed_on",
+      "Gradients or Model Parameters"
+    ],
+    [
+      "Model Inversion Attacks",
+      "performed_on",
+      "Model Parameters"
+    ],
+    [
+      "Federated Learning Method",
+      "based_on",
+      "Differential Privacy"
+    ],
+    [
+      "Federated Learning Method",
+      "protects",
+      "User Data Privacy"
+    ],
+    [
+      "Participating Devices",
+      "comprise",
+      "Local Data and Device-Specific Model"
+    ],
+    [
+      "Central Aggregation Server",
+      "collects",
+      "Perturbed Gradients"
+    ],
+    [
+      "Central Aggregation Server",
+      "averages",
+      "Perturbed Gradients"
+    ],
+    [
+      "Noise",
+      "added_to",
+      "Parameters before uploading"
+    ],
+    [
+      "Local Differential Privacy",
+      "responsible_for",
+      "Adding Noise to Parameters"
+    ],
+    [
+      "Centralized Differential Privacy",
+      "modifies",
+      "Central Aggregation Server's Processing"
+    ],
+    [
+      "Noise Level",
+      "adjusted_based_on",
+      "User's Sensitivity Level and Privacy Requirements"
+    ],
+    [
+      "Federated Learning Method",
+      "reduces",
+      "Risk of Privacy Leakage"
+    ],
+    [
+      "Federated Learning Method",
+      "provides",
+      "Flexible Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Aggregation Server",
+    "Centralized Differential Privacy",
+    "Federated Learning Method based on Differential Privacy",
+    "Flexible Privacy Protection",
+    "Local Differential Privacy",
+    "Participating Devices",
+    "Privacy leakage in federated learning",
+    "Reduced Risk of Privacy Leakage"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adding Noise to Parameters",
+    "Attackers",
+    "Central Aggregation Server",
+    "Central Aggregation Server's Processing",
+    "Centralized Differential Privacy",
+    "Differential Attacks",
+    "Differential Privacy",
+    "Federated Learning",
+    "Federated Learning Method",
+    "Flexible Privacy Protection",
+    "Gradients or Model Parameters",
+    "Local Data and Device-Specific Model",
+    "Local Differential Privacy",
+    "Model Inversion Attacks",
+    "Model Parameters",
+    "Noise",
+    "Noise Level",
+    "Parameters before uploading",
+    "Participants",
+    "Participating Devices",
+    "Perturbed Gradients",
+    "Privacy Leakage",
+    "Risk of Privacy Leakage",
+    "User Data Privacy",
+    "User's Sensitivity Level and Privacy Requirements"
+  ],
+  "knowledge_graph2_relation": [
+    "added_to",
+    "adjusted_based_on",
+    "analyzes",
+    "averages",
+    "based_on",
+    "causes",
+    "collects",
+    "comprise",
+    "modifies",
+    "performed_on",
+    "protects",
+    "provides",
+    "reduces",
+    "responsible_for",
+    "uploaded_by"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/20"
+  ]
+}

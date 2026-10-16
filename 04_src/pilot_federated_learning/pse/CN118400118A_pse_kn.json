@@ -1,0 +1,180 @@
+{
+  "publication_number": "CN118400118A",
+  "title": "A network intrusion detection method, device and system based on federated learning",
+  "assignee": "Beijing University of Posts and Telecommunications",
+  "filing_date": "2024-01-31",
+  "publication_date": "2024-07-26",
+  "pse": {
+    "problem": "Existing network intrusion detection methods have data privacy issues, high computing resource requirements, and limited model generalization ability",
+    "solution_function": "The method performs decentralized network intrusion detection using federated learning to improve accuracy and robustness while protecting user data privacy",
+    "solution_structure": "Key components include participating devices (edge devices) for data collection, a central server for model aggregation, and a federated learning algorithm for cooperative training",
+    "solution_implementation": "Participating devices collect and preprocess network traffic data locally, then send model updates to the central server. The central server aggregates these updates to update the global model. This process is repeated iteratively until convergence or a predefined number of iterations",
+    "effect": "Improved data privacy through local processing and reduced need for user data storage, improved generalization ability through cooperative learning across multiple devices, and potential reduction in computing resource requirements due to distributed training"
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Network Intrusion Detection",
+      "Addresses_Problem",
+      "Data Privacy Issues"
+    ],
+    [
+      "Decentralized Network Intrusion Detection",
+      "Comprises_Component",
+      "Participating Devices"
+    ],
+    [
+      "Decentralized Network Intrusion Detection",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Decentralized Network Intrusion Detection",
+      "Implemented_By",
+      "Cooperative Training"
+    ],
+    [
+      "Decentralized Network Intrusion Detection",
+      "Achieves_Effect",
+      "Improved Data Privacy"
+    ],
+    [
+      "Decentralized Network Intrusion Detection",
+      "Achieves_Effect",
+      "Improved Generalization Ability"
+    ],
+    [
+      "Decentralized Network Intrusion Detection",
+      "Achieves_Effect",
+      "Potential Reduction in Computing Resource Requirements"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Network Intrusion Detection Methods",
+      "causes",
+      "Data Privacy Issues"
+    ],
+    [
+      "Existing Network Intrusion Detection Methods",
+      "requires",
+      "High Computing Resources"
+    ],
+    [
+      "Existing Network Intrusion Detection Methods",
+      "has_limited",
+      "Model Generalization Ability"
+    ],
+    [
+      "Decentralized Network Intrusion Detection Method",
+      "improves",
+      "Accuracy"
+    ],
+    [
+      "Decentralized Network Intrusion Detection Method",
+      "improves",
+      "Robustness"
+    ],
+    [
+      "Decentralized Network Intrusion Detection Method",
+      "protects",
+      "User Data Privacy"
+    ],
+    [
+      "Participating Devices (edge devices)",
+      "collects",
+      "Network Traffic Data"
+    ],
+    [
+      "Participating Devices",
+      "located_in",
+      "Edge of the Network"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Model Updates"
+    ],
+    [
+      "Central Server",
+      "is_connected_to",
+      "Participating Devices"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "performs",
+      "Cooperative Training"
+    ],
+    [
+      "Local Processing",
+      "reduces",
+      "Need for User Data Storage"
+    ],
+    [
+      "Distributed Training",
+      "potentially_reduces",
+      "Computing Resource Requirements"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Cooperative Training",
+    "Data Privacy Issues",
+    "Decentralized Network Intrusion Detection",
+    "Improved Data Privacy",
+    "Improved Generalization Ability",
+    "Participating Devices",
+    "Potential Reduction in Computing Resource Requirements"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Central Server",
+    "Computing Resource Requirements",
+    "Cooperative Training",
+    "Data Privacy Issues",
+    "Decentralized Network Intrusion Detection Method",
+    "Distributed Training",
+    "Edge of the Network",
+    "Existing Network Intrusion Detection Methods",
+    "Federated Learning Algorithm",
+    "High Computing Resources",
+    "Local Processing",
+    "Model Generalization Ability",
+    "Model Updates",
+    "Need for User Data Storage",
+    "Network Traffic Data",
+    "Participating Devices",
+    "Participating Devices (edge devices)",
+    "Robustness",
+    "User Data Privacy"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "causes",
+    "collects",
+    "has_limited",
+    "improves",
+    "is_connected_to",
+    "located_in",
+    "performs",
+    "potentially_reduces",
+    "protects",
+    "reduces",
+    "requires"
+  ],
+  "cpc_code": [
+    "G06F18/24323",
+    "G06N20/20",
+    "G06N3/098",
+    "G06N5/01",
+    "H04L63/1408",
+    "H04L63/1416",
+    "H04L63/1425",
+    "Y02D30/50"
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "publication_number": "CN113435125A",
+  "title": "Model training acceleration method and system for federal Internet of things system",
+  "assignee": "Shandong University",
+  "filing_date": "2021-07-06",
+  "publication_date": "2021-09-24",
+  "pse": {
+    "problem": "Inefficient model training in federated IoT systems due to large variations in client data attributes and non-independent/identically distributed data.",
+    "solution_function": "The method optimizes federal learning aggregation by considering the characteristics of data distribution for each client. It improves convergence speed by reducing time consumption during model training.",
+    "solution_structure": "The system consists of federated IoT clients and a server. Each client has a model and powerful sensors (cameras, microphones, GPS, etc.).",
+    "solution_implementation": "During the t-th round, each client sends its locally trained model to the server. The server aggregates the received models using an optimized scheme that considers the data distribution of each client. This can be done through custom weighting strategies for each co-located parameter or for parameters of identical positions across all models.",
+    "effect": "The optimized method accelerates the convergence speed of the models, reducing time consumption during model training and improving the expression of models on federated learning clients."
+  },
+  "knowledge_graph": [
+    [
+      "Optimized Federated Learning Aggregation Method",
+      "Addresses_Problem",
+      "Inefficient Model Training in Federated IoT Systems"
+    ],
+    [
+      "Optimized Federated Learning Aggregation Method",
+      "Comprises_Component",
+      "Federated IoT Clients"
+    ],
+    [
+      "Optimized Federated Learning Aggregation Method",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Optimized Federated Learning Aggregation Method",
+      "Implemented_By",
+      "Custom Weighting Strategies for Co-located Parameters"
+    ],
+    [
+      "Optimized Federated Learning Aggregation Method",
+      "Implemented_By",
+      "Custom Weighting Strategies for Identical Position Parameters"
+    ],
+    [
+      "Optimized Federated Learning Aggregation Method",
+      "Achieves_Effect",
+      "Accelerated Convergence Speed of Models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated IoT Clients",
+      "connects_to",
+      "Remote Server"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Data Processing Time"
+    ],
+    [
+      "Model",
+      "stores",
+      "Local Data"
+    ],
+    [
+      "Client",
+      "processes",
+      "Local Data"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Models"
+    ],
+    [
+      "Model",
+      "controls",
+      "Performance in Federated Learning"
+    ],
+    [
+      "Federated Learning Clients",
+      "suffers_from",
+      "Inefficient Model Training"
+    ],
+    [
+      "Federated Learning",
+      "improves",
+      "Convergence Speed"
+    ],
+    [
+      "Custom Weighting Strategies",
+      "reduces",
+      "Time Consumption during Model Training"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Accelerated Convergence Speed of Models",
+    "Custom Weighting Strategies for Co-located Parameters",
+    "Custom Weighting Strategies for Identical Position Parameters",
+    "Federated IoT Clients",
+    "Inefficient Model Training in Federated IoT Systems",
+    "Optimized Federated Learning Aggregation Method",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client",
+    "Convergence Speed",
+    "Custom Weighting Strategies",
+    "Data Processing Time",
+    "Edge Node",
+    "Federated IoT Clients",
+    "Federated Learning",
+    "Federated Learning Clients",
+    "Inefficient Model Training",
+    "Local Data",
+    "Model",
+    "Models",
+    "Performance in Federated Learning",
+    "Remote Server",
+    "Server",
+    "Time Consumption during Model Training"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "connects_to",
+    "controls",
+    "improves",
+    "processes",
+    "reduces",
+    "stores",
+    "suffers_from"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F18/24",
+    "G06F30/27",
+    "G06N3/04",
+    "G06N3/08"
+  ]
+}

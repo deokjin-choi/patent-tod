@@ -1,0 +1,209 @@
+{
+  "publication_number": "CN115481755A",
+  "title": "Personalized federal learning method based on self-adaptive local aggregation",
+  "assignee": "Shanghai Jiao Tong University",
+  "filing_date": "2022-10-13",
+  "publication_date": "2022-12-16",
+  "pse": {
+    "problem": "Lack of data for specific applications due to privacy concerns and data ownership issues, leading to inefficiencies in training large AI models. Inconsistency among clients' data collection methods results in a global model that fails to adapt to local data and poor generalization.",
+    "solution_function": "A personalized federated learning method based on adaptive local aggregation aims to learn a model suitable for the local data set for each client by accurately extracting useful information from the global model at low network communication cost, reducing data privacy leakage risk and improving training efficiency.",
+    "solution_structure": "The system consists of multiple clients, a server, and AI models (global and local). The local model is trained on the client's data, while the global model aggregates information from all participating clients after each round of training.",
+    "solution_implementation": "In each round of training, the server sends the global model to clients. Clients train their local models using their data and send updated local models back to the server. The server performs adaptive local aggregation by identifying important information from the received local models, generating a new global model.",
+    "effect": "The solution allows for efficient personalized training of AI models while protecting data privacy, reducing network communication costs, minimizing data privacy leakage risks, and improving the quality of the learned local models"
+  },
+  "knowledge_graph": [
+    [
+      "Personalized Federated Learning Method",
+      "Addresses_Problem",
+      "Lack of data for specific applications due to privacy concerns and data ownership issues"
+    ],
+    [
+      "Personalized Federated Learning Method",
+      "Comprises_Component",
+      "Multiple Clients"
+    ],
+    [
+      "Personalized Federated Learning Method",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Personalized Federated Learning Method",
+      "Comprises_Component",
+      "AI Models (Global and Local)"
+    ],
+    [
+      "Personalized Federated Learning Method",
+      "Implemented_By",
+      "Adaptive Local Aggregation"
+    ],
+    [
+      "Personalized Federated Learning Method",
+      "Achieves_Effect",
+      "Efficient personalized training of AI models while protecting data privacy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Privacy Concerns",
+      "causes",
+      "Lack of Data"
+    ],
+    [
+      "Data Ownership Issues",
+      "causes",
+      "Lack of Data"
+    ],
+    [
+      "Lack of Data",
+      "affects",
+      "Training Large AI Models"
+    ],
+    [
+      "Inconsistency",
+      "among",
+      "Clients' Data Collection Methods"
+    ],
+    [
+      "Inconsistency",
+      "results_in",
+      "Global Model Failure to Adapt"
+    ],
+    [
+      "Global Model",
+      "fails_to",
+      "Adapt to Local Data"
+    ],
+    [
+      "Global Model",
+      "causes",
+      "Poor Generalization"
+    ],
+    [
+      "Personalized Federated Learning Method",
+      "aims_to",
+      "Learn a Model Suitable for Local Data Set"
+    ],
+    [
+      "Personalized Federated Learning Method",
+      "reduces",
+      "Data Privacy Leakage Risk"
+    ],
+    [
+      "Personalized Federated Learning Method",
+      "improves",
+      "Training Efficiency"
+    ],
+    [
+      "Multiple Clients",
+      "comprise",
+      "System Components"
+    ],
+    [
+      "Server",
+      "sends",
+      "Global Model to Clients"
+    ],
+    [
+      "Clients' Data",
+      "trains",
+      "Local Models"
+    ],
+    [
+      "Local Models",
+      "send_back",
+      "Server"
+    ],
+    [
+      "Server",
+      "performs",
+      "Adaptive Local Aggregation"
+    ],
+    [
+      "Adaptive Local Aggregation",
+      "generates",
+      "New Global Model"
+    ],
+    [
+      "Efficient Personalized Training",
+      "allows_for",
+      "Protection of Data Privacy"
+    ],
+    [
+      "Efficient Personalized Training",
+      "minimizes",
+      "Network Communication Costs"
+    ],
+    [
+      "Efficient Personalized Training",
+      "improves",
+      "Quality of Local Models"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "AI Models (Global and Local)",
+    "Adaptive Local Aggregation",
+    "Efficient personalized training of AI models while protecting data privacy",
+    "Lack of data for specific applications due to privacy concerns and data ownership issues",
+    "Multiple Clients",
+    "Personalized Federated Learning Method",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adapt to Local Data",
+    "Adaptive Local Aggregation",
+    "Clients' Data",
+    "Clients' Data Collection Methods",
+    "Data Ownership Issues",
+    "Data Privacy Leakage Risk",
+    "Efficient Personalized Training",
+    "Global Model",
+    "Global Model Failure to Adapt",
+    "Global Model to Clients",
+    "Inconsistency",
+    "Lack of Data",
+    "Learn a Model Suitable for Local Data Set",
+    "Local Models",
+    "Multiple Clients",
+    "Network Communication Costs",
+    "New Global Model",
+    "Personalized Federated Learning Method",
+    "Poor Generalization",
+    "Privacy Concerns",
+    "Protection of Data Privacy",
+    "Quality of Local Models",
+    "Server",
+    "System Components",
+    "Training Efficiency",
+    "Training Large AI Models"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "aims_to",
+    "allows_for",
+    "among",
+    "causes",
+    "comprise",
+    "fails_to",
+    "generates",
+    "improves",
+    "minimizes",
+    "performs",
+    "reduces",
+    "results_in",
+    "send_back",
+    "sends",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/082",
+    "G06N3/084"
+  ]
+}

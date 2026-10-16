@@ -1,0 +1,124 @@
+{
+  "publication_number": "CN112966741A",
+  "title": "Federal learning image classification method capable of defending Byzantine attack",
+  "assignee": "Beijing Institute of Technology BIT",
+  "filing_date": "2021-03-05",
+  "publication_date": "2021-06-15",
+  "pse": {
+    "problem": "Data privacy concerns and vulnerability to Byzantine attacks in federated learning image classification method using Parameter Server structure",
+    "solution_function": "Robust aggregation algorithm to defend against Byzantine attacks by either calculating aggregate model parameters resistant to attacks (defense-based) or distinguishing malicious workers from benign ones and cleaning the malicious ones during global model aggregation (detection-based)",
+    "solution_structure": "Working nodes for local model training and server nodes for global model updating",
+    "solution_implementation": "Iterative process: selection of working nodes for training, preprocessing image data, local model training using latest global model parameters, updating global model with latest local model parameters, broadcasting updated global model to all working nodes",
+    "effect": "Improved precision and convergence of the global model by preventing Byzantine attacks"
+  },
+  "knowledge_graph": [
+    [
+      "Robust aggregation algorithm",
+      "Addresses_Problem",
+      "Data privacy concerns and Byzantine attacks in federated learning image classification"
+    ],
+    [
+      "Robust aggregation algorithm",
+      "Comprises_Component",
+      "Local model training nodes"
+    ],
+    [
+      "Robust aggregation algorithm",
+      "Comprises_Component",
+      "Server nodes for global model updating"
+    ],
+    [
+      "Robust aggregation algorithm",
+      "Implemented_By",
+      "Iterative process with selected working nodes, image data preprocessing, local model training, global model updating, and broadcasting"
+    ],
+    [
+      "Robust aggregation algorithm",
+      "Achieves_Effect",
+      "Improved precision and convergence of the global model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Privacy",
+      "concerns",
+      "Federated Learning Image Classification"
+    ],
+    [
+      "Federated Learning Image Classification",
+      "is vulnerable to",
+      "Byzantine Attacks"
+    ],
+    [
+      "Robust Aggregation Algorithm",
+      "defends against",
+      "Byzantine Attacks"
+    ],
+    [
+      "Robust Aggregation Algorithm",
+      "either calculates",
+      "Resistant Parameters"
+    ],
+    [
+      "Robust Aggregation Algorithm",
+      "or distinguishes",
+      "Malicious Workers"
+    ],
+    [
+      "Working Nodes",
+      "are for",
+      "Local Model Training"
+    ],
+    [
+      "Server Nodes",
+      "are for",
+      "Global Model Updating"
+    ],
+    [
+      "Federated Learning Image Classification",
+      "Improves",
+      "Precision and Convergence"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data privacy concerns and Byzantine attacks in federated learning image classification",
+    "Improved precision and convergence of the global model",
+    "Iterative process with selected working nodes, image data preprocessing, local model training, global model updating, and broadcasting",
+    "Local model training nodes",
+    "Robust aggregation algorithm",
+    "Server nodes for global model updating"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Byzantine Attacks",
+    "Data Privacy",
+    "Federated Learning Image Classification",
+    "Global Model Updating",
+    "Local Model Training",
+    "Malicious Workers",
+    "Precision and Convergence",
+    "Resistant Parameters",
+    "Robust Aggregation Algorithm",
+    "Server Nodes",
+    "Working Nodes"
+  ],
+  "knowledge_graph2_relation": [
+    "Improves",
+    "are for",
+    "concerns",
+    "defends against",
+    "either calculates",
+    "is vulnerable to",
+    "or distinguishes"
+  ],
+  "cpc_code": [
+    "G06F18/241",
+    "G06N20/20",
+    "G06N3/045"
+  ]
+}

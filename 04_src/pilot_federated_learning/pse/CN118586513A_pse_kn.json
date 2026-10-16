@@ -1,0 +1,158 @@
+{
+  "publication_number": "CN118586513A",
+  "title": "A method, system and storage medium for constructing intra-cluster and extra-cluster aggregation cycles for cluster federated learning",
+  "assignee": "Nanjing University of Posts and Telecommunications",
+  "filing_date": "2024-03-26",
+  "publication_date": "2024-09-03",
+  "pse": {
+    "problem": "The traditional centralized federated learning architecture has high global resource consumption due to multiple rounds of model upload and communication energy consumption of client local training. Also, the impact of non-independent and identically distributed data of clients affects training efficiency and convergence speed.",
+    "solution_function": "Constructs intra-cluster and extra-cluster aggregation cycles for clustered federated learning to reduce inter-cluster communication aggregations by setting multiple clusters and corresponding cluster heads. These cluster heads perform local averaging before global aggregation of the model. The mathematical relationship between inter-cluster and intra-cluster model communication aggregation periods is dynamically adjusted based on data distribution similarity.",
+    "solution_structure": "Multiple clusters, corresponding cluster heads, central server.",
+    "solution_implementation": "Dynamic adjustment of inter-cluster and intra-cluster model communication aggregation periods based on data distribution similarity. Local averaging by cluster heads before global aggregation.",
+    "effect": "Improves the efficiency of federated learning, accelerates model convergence, reduces global energy consumption and latency."
+  },
+  "knowledge_graph": [
+    [
+      "Clustered Federated Learning",
+      "Addresses_Problem",
+      "High global resource consumption and inefficient convergence speed due to centralized architecture"
+    ],
+    [
+      "Clustered Federated Learning",
+      "Comprises_Component",
+      "Multiple clusters"
+    ],
+    [
+      "Clustered Federated Learning",
+      "Comprises_Component",
+      "Corresponding cluster heads"
+    ],
+    [
+      "Clustered Federated Learning",
+      "Implemented_By",
+      "Dynamic adjustment of inter-cluster and intra-cluster model communication aggregation periods based on data distribution similarity"
+    ],
+    [
+      "Clustered Federated Learning",
+      "Achieves_Effect",
+      "Improved federated learning efficiency, accelerated model convergence, reduced global energy consumption and latency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Centralized Federated Learning Architecture",
+      "causes",
+      "High Global Resource Consumption"
+    ],
+    [
+      "Traditional Centralized Federated Learning Architecture",
+      "causes",
+      "Multiple Rounds of Model Upload and Communication Energy Consumption"
+    ],
+    [
+      "Non-Independent and Identically Distributed Data of Clients",
+      "affects",
+      "Training Efficiency and Convergence Speed"
+    ],
+    [
+      "Intra-Cluster Aggregation Cycles",
+      "controls",
+      "Inter-Cluster Communication Aggregations"
+    ],
+    [
+      "Clustered Federated Learning",
+      "reduces",
+      "Inter-Cluster Communication Aggregations"
+    ],
+    [
+      "Multiple Clusters",
+      "comprises",
+      "Corresponding Cluster Heads"
+    ],
+    [
+      "Multiple Clusters",
+      "comprises",
+      "Central Server"
+    ],
+    [
+      "Cluster Heads",
+      "performs",
+      "Local Averaging"
+    ],
+    [
+      "Cluster Heads",
+      "transmits_to",
+      "Global Aggregation of the Model"
+    ],
+    [
+      "Data Distribution Similarity",
+      "dynamically adjusts",
+      "Inter-Cluster and Intra-Cluster Model Communication Aggregation Periods"
+    ],
+    [
+      "Clustered Federated Learning",
+      "improves",
+      "Efficiency of Federated Learning"
+    ],
+    [
+      "Clustered Federated Learning",
+      "accelerates",
+      "Model Convergence"
+    ],
+    [
+      "Clustered Federated Learning",
+      "reduces",
+      "Global Energy Consumption and Latency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Clustered Federated Learning",
+    "Corresponding cluster heads",
+    "Dynamic adjustment of inter-cluster and intra-cluster model communication aggregation periods based on data distribution similarity",
+    "High global resource consumption and inefficient convergence speed due to centralized architecture",
+    "Improved federated learning efficiency, accelerated model convergence, reduced global energy consumption and latency",
+    "Multiple clusters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Cluster Heads",
+    "Clustered Federated Learning",
+    "Corresponding Cluster Heads",
+    "Data Distribution Similarity",
+    "Efficiency of Federated Learning",
+    "Global Aggregation of the Model",
+    "Global Energy Consumption and Latency",
+    "High Global Resource Consumption",
+    "Inter-Cluster Communication Aggregations",
+    "Inter-Cluster and Intra-Cluster Model Communication Aggregation Periods",
+    "Intra-Cluster Aggregation Cycles",
+    "Local Averaging",
+    "Model Convergence",
+    "Multiple Clusters",
+    "Multiple Rounds of Model Upload and Communication Energy Consumption",
+    "Non-Independent and Identically Distributed Data of Clients",
+    "Traditional Centralized Federated Learning Architecture",
+    "Training Efficiency and Convergence Speed"
+  ],
+  "knowledge_graph2_relation": [
+    "accelerates",
+    "affects",
+    "causes",
+    "comprises",
+    "controls",
+    "dynamically adjusts",
+    "improves",
+    "performs",
+    "reduces",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

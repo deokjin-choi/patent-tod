@@ -1,0 +1,223 @@
+{
+  "publication_number": "CN116614498A",
+  "title": "A federated learning client selection method, device, equipment and storage medium",
+  "assignee": "Wuhan University WHU",
+  "filing_date": "2023-04-26",
+  "publication_date": "2023-08-18",
+  "pse": {
+    "problem": "Overlapping areas where clients are located within the range of multiple edge servers result in the same client being chosen by multiple edge servers for training, prolonging the entire training time.",
+    "solution_function": "The method selects clients for each edge server in turn based on their reward ratio and budget, aiming to determine a set of efficient clients that minimize latency and cost, thereby improving convergence speed and computing efficiency.",
+    "solution_structure": "The system consists of clients, edge servers, and the clients' area. The edge servers are responsible for client selection and training within their small area.",
+    "solution_implementation": "The method involves sorting clients based on reward ratio, calculating delay scores, selecting clients with highest score as candidates, marking selected clients and corresponding edge server, clearing unmarked sets of candidate clients, and using a client's estimated return ratio to aid in selection.",
+    "effect": "The solution reduces the training time by preventing multiple edge servers from choosing the same client for training, speeds up model convergence, and improves computing efficiency."
+  },
+  "knowledge_graph": [
+    [
+      "Client Selection Method",
+      "Addresses_Problem",
+      "Overlapping Clients Problem"
+    ],
+    [
+      "Client Selection Method",
+      "Comprises_Component",
+      "Clients"
+    ],
+    [
+      "Client Selection Method",
+      "Comprises_Component",
+      "Edge Servers"
+    ],
+    [
+      "Client Selection Method",
+      "Comprises_Component",
+      "Clients' Area"
+    ],
+    [
+      "Client Selection Method",
+      "Implemented_By",
+      "Sorting Clients Based on Reward Ratio"
+    ],
+    [
+      "Client Selection Method",
+      "Implemented_By",
+      "Calculating Delay Scores"
+    ],
+    [
+      "Client Selection Method",
+      "Implemented_By",
+      "Selecting Candidates from Highest Scored Clients"
+    ],
+    [
+      "Client Selection Method",
+      "Implemented_By",
+      "Marking Selected Clients and Corresponding Edge Server"
+    ],
+    [
+      "Client Selection Method",
+      "Implemented_By",
+      "Clearing Unmarked Sets of Candidate Clients"
+    ],
+    [
+      "Client Selection Method",
+      "Implemented_By",
+      "Using Client's Estimated Return Ratio for Selection"
+    ],
+    [
+      "Client Selection Method",
+      "Achieves_Effect",
+      "Reduced Training Time"
+    ],
+    [
+      "Client Selection Method",
+      "Achieves_Effect",
+      "Improved Model Convergence Speed"
+    ],
+    [
+      "Client Selection Method",
+      "Achieves_Effect",
+      "Enhanced Computing Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Overlapping Areas",
+      "causes",
+      "Choosing Same Client by Multiple Edge Servers"
+    ],
+    [
+      "Clients",
+      "located_in",
+      "Overlapping Areas"
+    ],
+    [
+      "Edge Server",
+      "controls",
+      "Client Selection"
+    ],
+    [
+      "Edge Server",
+      "responsible_for",
+      "Training within Small Area"
+    ],
+    [
+      "Clients",
+      "comprises",
+      "Efficient Clients"
+    ],
+    [
+      "Efficient Clients",
+      "minimizes",
+      "Latency and Cost"
+    ],
+    [
+      "Method",
+      "aims_to",
+      "Determine Efficient Clients"
+    ],
+    [
+      "Method",
+      "sorts",
+      "Clients based on Reward Ratio"
+    ],
+    [
+      "Method",
+      "calculates",
+      "Delay Scores"
+    ],
+    [
+      "Method",
+      "selects",
+      "Clients with Highest Score as Candidates"
+    ],
+    [
+      "Method",
+      "marks",
+      "Selected Clients and Corresponding Edge Server"
+    ],
+    [
+      "Method",
+      "clears",
+      "Unmarked Sets of Candidate Clients"
+    ],
+    [
+      "Method",
+      "uses",
+      "Client's Estimated Return Ratio to Aid in Selection"
+    ],
+    [
+      "Solution",
+      "improves",
+      "Convergence Speed"
+    ],
+    [
+      "Solution",
+      "improves",
+      "Computing Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculating Delay Scores",
+    "Clearing Unmarked Sets of Candidate Clients",
+    "Client Selection Method",
+    "Clients",
+    "Clients' Area",
+    "Edge Servers",
+    "Enhanced Computing Efficiency",
+    "Improved Model Convergence Speed",
+    "Marking Selected Clients and Corresponding Edge Server",
+    "Overlapping Clients Problem",
+    "Reduced Training Time",
+    "Selecting Candidates from Highest Scored Clients",
+    "Sorting Clients Based on Reward Ratio",
+    "Using Client's Estimated Return Ratio for Selection"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Choosing Same Client by Multiple Edge Servers",
+    "Client Selection",
+    "Client's Estimated Return Ratio to Aid in Selection",
+    "Clients",
+    "Clients based on Reward Ratio",
+    "Clients with Highest Score as Candidates",
+    "Computing Efficiency",
+    "Convergence Speed",
+    "Delay Scores",
+    "Determine Efficient Clients",
+    "Edge Server",
+    "Efficient Clients",
+    "Latency and Cost",
+    "Method",
+    "Overlapping Areas",
+    "Selected Clients and Corresponding Edge Server",
+    "Solution",
+    "Training within Small Area",
+    "Unmarked Sets of Candidate Clients"
+  ],
+  "knowledge_graph2_relation": [
+    "aims_to",
+    "calculates",
+    "causes",
+    "clears",
+    "comprises",
+    "controls",
+    "improves",
+    "located_in",
+    "marks",
+    "minimizes",
+    "responsible_for",
+    "selects",
+    "sorts",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L41/0823",
+    "H04L67/10",
+    "Y02D10/00"
+  ]
+}

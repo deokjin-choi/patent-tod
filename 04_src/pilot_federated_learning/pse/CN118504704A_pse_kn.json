@@ -1,0 +1,64 @@
+{
+  "publication_number": "CN118504704A",
+  "title": "Federal learning method and device combined with differential privacy and storage medium",
+  "assignee": "Fudan University",
+  "filing_date": "2024-01-30",
+  "publication_date": "2024-08-16",
+  "pse": {
+    "problem": "Privacy threats due to data leakage and data heterogeneity in federated learning",
+    "solution_function": "The method combines federated learning and differential privacy for secure and robust personalized learning. It updates local model parameters on participating clients, aggregates updated parameters, and iteratively refines the global model.",
+    "solution_structure": "Key components include a server managing global model parameters, selected clients performing local updates of model parameters, and a weighted aggregation method for combining local updates.",
+    "solution_implementation": "The server initializes global model parameters before training. It selects a subset of clients in each round to receive updated global parameters. Clients perform local internal/external updates on their own data sets, send updated local model parameters to the server, and the server aggregates these updates to obtain new global model parameters.",
+    "effect": "Improved privacy protection through differential privacy and increased robustness due to reduced data heterogeneity effects in federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning and Differential Privacy",
+      "Addresses_Problem",
+      "Privacy Threats Due to Data Leakage and Heterogeneity"
+    ],
+    [
+      "Federated Learning and Differential Privacy",
+      "Comprises_Component",
+      "Server Managing Global Model Parameters"
+    ],
+    [
+      "Federated Learning and Differential Privacy",
+      "Comprises_Component",
+      "Selected Clients Performing Local Updates"
+    ],
+    [
+      "Federated Learning and Differential Privacy",
+      "Implemented_By",
+      "Core Operation Logic of Initializing, Selecting, Updating, and Aggregating Model Parameters"
+    ],
+    [
+      "Federated Learning and Differential Privacy",
+      "Achieves_Effect",
+      "Improved Privacy Protection and Increased Robustness"
+    ]
+  ],
+  "knowledge_graph_v2": [],
+  "knowledge_graph_en": [
+    "Core Operation Logic of Initializing, Selecting, Updating, and Aggregating Model Parameters",
+    "Federated Learning and Differential Privacy",
+    "Improved Privacy Protection and Increased Robustness",
+    "Privacy Threats Due to Data Leakage and Heterogeneity",
+    "Selected Clients Performing Local Updates",
+    "Server Managing Global Model Parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [],
+  "knowledge_graph2_relation": [],
+  "cpc_code": [
+    "G06F17/18",
+    "G06F21/6245",
+    "G06N20/00",
+    "G06N3/084"
+  ]
+}

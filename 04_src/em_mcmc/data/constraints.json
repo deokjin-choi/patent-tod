@@ -1,0 +1,21 @@
+{
+  "comment": "Hypothesized pairwise bans, not proven laws. The note's example is ultra-low power together with high-performance / full-scale compute. MCMC estimates how much co-occurrence data support each ban. Empty cells are not automatically forbidden.",
+  "pairs": [
+    {
+      "id": "low_power_full_footprint",
+      "axis_a": "power",
+      "level_a": "low",
+      "axis_b": "footprint",
+      "level_b": "full",
+      "rationale": "ultra-low power + full-scale model (note: high-performance vs extreme low-power)"
+    },
+    {
+      "id": "high_power_compact",
+      "axis_a": "power",
+      "level_a": "high",
+      "axis_b": "footprint",
+      "level_b": "compact",
+      "rationale": "high-performance compute + tiny footprint; strained pairing used as a second test"
+    }
+  ]
+}

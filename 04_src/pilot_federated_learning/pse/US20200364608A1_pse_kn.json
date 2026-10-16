@@ -1,0 +1,196 @@
+{
+  "publication_number": "US20200364608A1",
+  "title": "Communicating in a federated learning environment",
+  "assignee": "International Business Machines Corp",
+  "filing_date": "2019-05-13",
+  "publication_date": "2020-11-19",
+  "pse": {
+    "problem": "Inefficiencies and delays in federated learning due to variable response times among participants and potential drop-outs during training sessions.",
+    "solution_function": "In the federated learning environment, a monitoring operation identifies stragglers (late responders) or drop-outs (non-responders). The system assigns participants into tiers based on their factors, each tier having a designated wait time. The aggregator queries the selected tier and tracks response times of the participants. If a participant fails to respond within the designated wait time, they are either classified as stragglers or drop-outs depending on the embodiment. The training of the federated learning model is updated using collected replies from participating federated learning participants, along with computed predictions for the stragglers or drop-outs.",
+    "solution_structure": "The system comprises a plurality of federated learning participants, an aggregator, and possibly a communication module. The federated learning participants maintain local data sources and collaborate with the aggregator during training sessions.",
+    "solution_implementation": "During each round of updating the training of the federated learning model, the system monitors the response times of federated learning participants. If a number of run epochs is less than a number of synchronization epochs, responses are received and the response time is updated until a maximum time elapses. If a number of run epochs exceeds the number of synchronization epochs, federated learning participants are designated as drop-outs when their response time exceeds a predetermined threshold. In some embodiments, the system creates histograms of remaining response times or assigns average reply times to each tier.",
+    "effect": "The solution reduces delays and inefficiencies by efficiently managing communication between the aggregator and federated learning participants, minimizing impact from stragglers and drop-outs during federated learning training sessions."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Monitoring System",
+      "Addresses_Problem",
+      "Inefficiencies and delays in federated learning"
+    ],
+    [
+      "Federated Learning Monitoring System",
+      "Comprises_Component",
+      "Plurality of Federated Learning Participants"
+    ],
+    [
+      "Federated Learning Monitoring System",
+      "Comprises_Component",
+      "Aggregator"
+    ],
+    [
+      "Federated Learning Monitoring System",
+      "Implemented_By",
+      "Monitoring Operation"
+    ],
+    [
+      "Federated Learning Monitoring System",
+      "Achieves_Effect",
+      "Reduces delays and inefficiencies"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning System",
+      "comprises",
+      "Plurality of Federated Learning Participants"
+    ],
+    [
+      "Federated Learning System",
+      "comprises",
+      "Aggregator"
+    ],
+    [
+      "Federated Learning System",
+      "may_comprise",
+      "Communication Module"
+    ],
+    [
+      "Participant",
+      "maintains",
+      "Local Data Source"
+    ],
+    [
+      "Participant",
+      "collaborates_with",
+      "Aggregator"
+    ],
+    [
+      "Aggregator",
+      "monitors",
+      "Response Times of Participants"
+    ],
+    [
+      "Aggregator",
+      "tracks",
+      "Response Time of Participants"
+    ],
+    [
+      "Participant",
+      "may_be_classified_as",
+      "Straggler"
+    ],
+    [
+      "Participant",
+      "may_be_classified_as",
+      "Drop-out"
+    ],
+    [
+      "System",
+      "updates",
+      "Training of Federated Learning Model"
+    ],
+    [
+      "System",
+      "receives",
+      "Replies from Participants"
+    ],
+    [
+      "System",
+      "computes",
+      "Predictions for Stragglers or Drop-outs"
+    ],
+    [
+      "Aggregator",
+      "queries",
+      "Selected Tier"
+    ],
+    [
+      "Designated Wait Time",
+      "applies_to",
+      "Participant"
+    ],
+    [
+      "Epochs",
+      "less_than",
+      "Synchronization Epochs",
+      "Response is received"
+    ],
+    [
+      "Epochs",
+      "greater_than",
+      "Synchronization Epochs",
+      "Participant is designated as Drop-out"
+    ],
+    [
+      "Predefined Threshold",
+      "applies_to",
+      "Response Time"
+    ],
+    [
+      "System",
+      "creates",
+      "Histograms of Remaining Response Times"
+    ],
+    [
+      "System",
+      "assigns",
+      "Average Reply Times to Each Tier"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregator",
+    "Federated Learning Monitoring System",
+    "Inefficiencies and delays in federated learning",
+    "Monitoring Operation",
+    "Plurality of Federated Learning Participants",
+    "Reduces delays and inefficiencies"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregator",
+    "Average Reply Times to Each Tier",
+    "Communication Module",
+    "Designated Wait Time",
+    "Drop-out",
+    "Federated Learning System",
+    "Histograms of Remaining Response Times",
+    "Local Data Source",
+    "Participant",
+    "Plurality of Federated Learning Participants",
+    "Predefined Threshold",
+    "Predictions for Stragglers or Drop-outs",
+    "Replies from Participants",
+    "Response Time",
+    "Response Time of Participants",
+    "Response Times of Participants",
+    "Selected Tier",
+    "Straggler",
+    "System",
+    "Training of Federated Learning Model"
+  ],
+  "knowledge_graph2_relation": [
+    "applies_to",
+    "assigns",
+    "collaborates_with",
+    "comprises",
+    "computes",
+    "creates",
+    "maintains",
+    "may_be_classified_as",
+    "may_comprise",
+    "monitors",
+    "queries",
+    "receives",
+    "tracks",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N20/20"
+  ]
+}

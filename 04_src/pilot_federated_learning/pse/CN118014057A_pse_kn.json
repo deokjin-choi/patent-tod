@@ -1,0 +1,213 @@
+{
+  "publication_number": "CN118014057A",
+  "title": "Cloud and fog edge cooperation-based joint learning model construction method",
+  "assignee": "University of Electronic Science and Technology of China",
+  "filing_date": "2024-03-05",
+  "publication_date": "2024-05-10",
+  "pse": {
+    "problem": "Inefficient and secure deployment of large AI models in lightweight devices and vertical field applications",
+    "solution_function": "Construction of a joint learning model that leverages the computational power of cloud servers and the response speed of edge devices for efficient, secure, and private machine learning",
+    "solution_structure": "Deep neural network model, distributed federated learning model, edge nodes, fog nodes, central server",
+    "solution_implementation": "1. Select training tasks and initialize deep neural network model and distributed federated learning model\n2. Collect data in real-time based on edge nodes\n3. Transmit the data to nearby fog nodes for processing\n4. Based on processed data and judgment conditions, choose between centralized deep neural network outsourcing authorization training or distributed federated learning training",
+    "effect": "Reduced communication costs, improved training efficiency while maintaining data privacy"
+  },
+  "knowledge_graph": [
+    [
+      "Joint Learning Model",
+      "Addresses_Problem",
+      "Inefficient and Secure Deployment"
+    ],
+    [
+      "Joint Learning Model",
+      "Comprises_Component",
+      "Deep Neural Network Model"
+    ],
+    [
+      "Joint Learning Model",
+      "Comprises_Component",
+      "Distributed Federated Learning Model"
+    ],
+    [
+      "Joint Learning Model",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Joint Learning Model",
+      "Achieves_Effect",
+      "Reduced Communication Costs"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Deep Neural Network Model",
+      "comprises",
+      "Solution Structure"
+    ],
+    [
+      "Distributed Federated Learning Model",
+      "comprises",
+      "Solution Structure"
+    ],
+    [
+      "Edge Node",
+      "connected_to",
+      "Solution Structure"
+    ],
+    [
+      "Fog Node",
+      "connected_to",
+      "Solution Structure"
+    ],
+    [
+      "Central Server",
+      "connected_to",
+      "Solution Structure"
+    ],
+    [
+      "Data",
+      "causes",
+      "Inefficient Deployment"
+    ],
+    [
+      "Large AI Models",
+      "increases",
+      "Data Size"
+    ],
+    [
+      "Lightweight Devices",
+      "reduces",
+      "Computational Power"
+    ],
+    [
+      "Vertical Field Applications",
+      "requires",
+      "Customized Solutions"
+    ],
+    [
+      "Central Server",
+      "processes",
+      "Training Tasks"
+    ],
+    [
+      "Deep Neural Network Model",
+      "controls",
+      "Authorization Training"
+    ],
+    [
+      "Distributed Federated Learning Model",
+      "controls",
+      "Federated Learning Training"
+    ],
+    [
+      "Edge Node",
+      "captures",
+      "Real-time Data"
+    ],
+    [
+      "Data",
+      "transmits_to",
+      "Fog Node"
+    ],
+    [
+      "Fog Node",
+      "processes",
+      "Data"
+    ],
+    [
+      "Judgment Conditions",
+      "decides",
+      "Training Method"
+    ],
+    [
+      "Central Server",
+      "provides",
+      "Outsourced Authorization Training"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Communication Costs"
+    ],
+    [
+      "Fog Node",
+      "improves",
+      "Training Efficiency"
+    ],
+    [
+      "Solution Structure",
+      "maintains",
+      "Data Privacy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Deep Neural Network Model",
+    "Distributed Federated Learning Model",
+    "Inefficient and Secure Deployment",
+    "Joint Learning Model",
+    "Reduced Communication Costs"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Authorization Training",
+    "Central Server",
+    "Communication Costs",
+    "Computational Power",
+    "Customized Solutions",
+    "Data",
+    "Data Privacy",
+    "Data Size",
+    "Deep Neural Network Model",
+    "Distributed Federated Learning Model",
+    "Edge Node",
+    "Federated Learning Training",
+    "Fog Node",
+    "Inefficient Deployment",
+    "Judgment Conditions",
+    "Large AI Models",
+    "Lightweight Devices",
+    "Outsourced Authorization Training",
+    "Real-time Data",
+    "Solution Structure",
+    "Training Efficiency",
+    "Training Method",
+    "Training Tasks",
+    "Vertical Field Applications"
+  ],
+  "knowledge_graph2_relation": [
+    "captures",
+    "causes",
+    "comprises",
+    "connected_to",
+    "controls",
+    "decides",
+    "improves",
+    "increases",
+    "maintains",
+    "processes",
+    "provides",
+    "reduces",
+    "requires",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6245",
+    "G06F21/64",
+    "G06F2209/502",
+    "G06F9/5072",
+    "G06N3/098",
+    "H04L63/0442",
+    "H04L63/102",
+    "H04L63/123",
+    "H04L67/10",
+    "H04L9/008",
+    "H04L9/40"
+  ]
+}

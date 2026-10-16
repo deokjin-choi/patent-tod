@@ -1,0 +1,191 @@
+{
+  "publication_number": "CN118366622A",
+  "title": "A multi-datacenter collaborative approach combining medical imaging omics and federated learning",
+  "assignee": "Yang Chen",
+  "filing_date": "2024-04-24",
+  "publication_date": "2024-07-19",
+  "pse": {
+    "problem": "Limited model generalization ability due to differences in imaging equipment and specific shooting techniques across regions, high operational cost for multiple models needed for various diseases and examination methods, and data privacy concerns during data collection.",
+    "solution_function": "A method combines a user center, data centers, an imaging omics platform, and a federated learning platform. The user center manages users, the data centers manage user data. The imaging omics platform accesses local data centers, performs localized centralized training, and outputs an AI model report. The federated learning platform obtains the data usage rights of other institutions' data centers through a network interface, performs distributed federated training, and aggregates the model.",
+    "solution_structure": "The structure includes a user center, multiple data centers, an imaging omics platform, and a federated learning platform. The data centers store user data. The imaging omics platform accesses local data centers, performs training, and outputs AI models. The federated learning platform communicates with other institutions' data centers for distributed federated training.",
+    "solution_implementation": "The imaging omics platform processes data in two stages to generate a comparison report and define an output AI model report. The federated learning platform coordinates the federated training process across multiple data centers to obtain an aggregated model.",
+    "effect": "Improved model generalization ability due to localized training, reduced operational cost by sharing resources among institutions, and enhanced data privacy protection through federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Platform",
+      "Addresses_Problem",
+      "Limited model generalization ability due to differences in imaging equipment and specific shooting techniques across regions, high operational cost for multiple models needed for various diseases and examination methods, and data privacy concerns during data collection."
+    ],
+    [
+      "Federated Learning Platform",
+      "Comprises_Component",
+      "Distributed Federated Training"
+    ],
+    [
+      "Federated Learning Platform",
+      "Comprises_Component",
+      "Aggregation of Models"
+    ],
+    [
+      "Federated Learning Platform",
+      "Implemented_By",
+      "Coordination of Federated Training Process across multiple data centers"
+    ],
+    [
+      "Federated Learning Platform",
+      "Achieves_Effect",
+      "Improved model generalization ability due to localized training"
+    ],
+    [
+      "Federated Learning Platform",
+      "Achieves_Effect",
+      "Reduced operational cost by sharing resources among institutions"
+    ],
+    [
+      "Federated Learning Platform",
+      "Achieves_Effect",
+      "Enhanced data privacy protection through federated learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "User Center",
+      "manages",
+      "Users"
+    ],
+    [
+      "Data Centers",
+      "store",
+      "User Data"
+    ],
+    [
+      "Imaging Omics Platform",
+      "accesses",
+      "Local Data Centers"
+    ],
+    [
+      "Imaging Omics Platform",
+      "performs",
+      "Localized Centralized Training"
+    ],
+    [
+      "Imaging Omics Platform",
+      "outputs",
+      "AI Model Report"
+    ],
+    [
+      "Federated Learning Platform",
+      "obtains",
+      "Data Usage Rights"
+    ],
+    [
+      "Federated Learning Platform",
+      "performs",
+      "Distributed Federated Training"
+    ],
+    [
+      "Federated Learning Platform",
+      "aggregates",
+      "Model"
+    ],
+    [
+      "Imaging Omics Platform",
+      "processes",
+      "Data (two stages)"
+    ],
+    [
+      "Imaging Omics Platform",
+      "generates",
+      "Comparison Report"
+    ],
+    [
+      "Imaging Omics Platform",
+      "defines",
+      "Output AI Model Report"
+    ],
+    [
+      "Federated Learning Platform",
+      "coordinates",
+      "Federated Training Process"
+    ],
+    [
+      "Model (after training)",
+      "improves",
+      "Model Generalization Ability"
+    ],
+    [
+      "Method",
+      "reduces",
+      "Operational Cost"
+    ],
+    [
+      "Method",
+      "enhances",
+      "Data Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregation of Models",
+    "Coordination of Federated Training Process across multiple data centers",
+    "Distributed Federated Training",
+    "Enhanced data privacy protection through federated learning",
+    "Federated Learning Platform",
+    "Improved model generalization ability due to localized training",
+    "Limited model generalization ability due to differences in imaging equipment and specific shooting techniques across regions, high operational cost for multiple models needed for various diseases and examination methods, and data privacy concerns during data collection.",
+    "Reduced operational cost by sharing resources among institutions"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "AI Model Report",
+    "Comparison Report",
+    "Data (two stages)",
+    "Data Centers",
+    "Data Privacy Protection",
+    "Data Usage Rights",
+    "Distributed Federated Training",
+    "Federated Learning Platform",
+    "Federated Training Process",
+    "Imaging Omics Platform",
+    "Local Data Centers",
+    "Localized Centralized Training",
+    "Method",
+    "Model",
+    "Model (after training)",
+    "Model Generalization Ability",
+    "Operational Cost",
+    "Output AI Model Report",
+    "User Center",
+    "User Data",
+    "Users"
+  ],
+  "knowledge_graph2_relation": [
+    "accesses",
+    "aggregates",
+    "coordinates",
+    "defines",
+    "enhances",
+    "generates",
+    "improves",
+    "manages",
+    "obtains",
+    "outputs",
+    "performs",
+    "processes",
+    "reduces",
+    "store"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N3/0464",
+    "G06N3/08",
+    "G06V10/806",
+    "G16H30/20",
+    "Y02A90/10"
+  ]
+}

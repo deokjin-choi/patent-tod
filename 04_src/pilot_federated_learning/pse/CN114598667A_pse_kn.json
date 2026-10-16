@@ -1,0 +1,152 @@
+{
+  "publication_number": "CN114598667A",
+  "title": "An efficient device selection and resource allocation method based on federated learning",
+  "assignee": "Chongqing University of Post and Telecommunications",
+  "filing_date": "2022-03-04",
+  "publication_date": "2022-06-07",
+  "pse": {
+    "problem": "Excessive communication overhead in federated learning process due to too many parameter transmissions in a centralized manner, resulting in high communication overhead on the backbone network.",
+    "solution_function": "The invention presents an efficient device selection and resource allocation method based on federated learning. It reduces communication overhead by selecting devices participating in the federated learning and optimizing resource allocation. The main functions include parameter initialization, off-policy experience sampling, parameter update, and target network update.",
+    "solution_structure": "The key components are actor and critic networks for all edge agents, an experience replay pool with certain memory capacity, and a target network for each agent.",
+    "solution_implementation": "The system initializes parameters, adopts off-policy technology based on experience replay technology to sample experiences, coordinates edge agents to update parameters, and updates the target network using the updated parameters. The parameter update phase involves alternately updating between the experience gathered from all individual environments and the current agent's policy.",
+    "effect": "The method reduces communication overhead by reducing communication frequency and the total number of bits uploaded in a single round of communication."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Excessive Communication Overhead"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Actor Network"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Critic Network"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Experience Replay Pool"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Off-Policy Experience Sampling"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Parameter Update"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Target Network Update"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Communication Frequency"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Total Number of Bits Uploaded"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Process",
+      "causes",
+      "Excessive Communication Overhead"
+    ],
+    [
+      "Centralized Parameter Transmissions",
+      "causes",
+      "High Communication Overhead on Backbone Network"
+    ],
+    [
+      "Edge Agents",
+      "comprises",
+      "Actor and Critic Networks"
+    ],
+    [
+      "Experience Replay Pool",
+      "stores",
+      "Off-Policy Experiences"
+    ],
+    [
+      "Target Network",
+      "stores",
+      "Updated Parameters"
+    ],
+    [
+      "Federated Learning Method",
+      "achieves",
+      "Reduced Communication Overhead"
+    ],
+    [
+      "Parameter Update Phase",
+      "reduces",
+      "Communication Frequency"
+    ],
+    [
+      "Parameter Update Phase",
+      "reduces",
+      "Total Number of Bits Uploaded in a Single Round of Communication"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Actor Network",
+    "Critic Network",
+    "Excessive Communication Overhead",
+    "Experience Replay Pool",
+    "Federated Learning Method",
+    "Off-Policy Experience Sampling",
+    "Parameter Update",
+    "Reduced Communication Frequency",
+    "Reduced Total Number of Bits Uploaded",
+    "Target Network Update"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Actor and Critic Networks",
+    "Centralized Parameter Transmissions",
+    "Communication Frequency",
+    "Edge Agents",
+    "Excessive Communication Overhead",
+    "Experience Replay Pool",
+    "Federated Learning Method",
+    "Federated Learning Process",
+    "High Communication Overhead on Backbone Network",
+    "Off-Policy Experiences",
+    "Parameter Update Phase",
+    "Reduced Communication Overhead",
+    "Target Network",
+    "Total Number of Bits Uploaded in a Single Round of Communication",
+    "Updated Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "comprises",
+    "reduces",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "H04L47/783",
+    "H04L67/1023",
+    "H04L67/12",
+    "Y02D30/70"
+  ]
+}

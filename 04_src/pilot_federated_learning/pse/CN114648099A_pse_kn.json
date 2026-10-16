@@ -1,0 +1,153 @@
+{
+  "publication_number": "CN114648099A",
+  "title": "Multi-party multi-category data generation method and system for longitudinal federal learning",
+  "assignee": "Chongqing University of Post and Telecommunications",
+  "filing_date": "2022-04-01",
+  "publication_date": "2022-06-21",
+  "pse": {
+    "problem": "Isolation of data owned by different organizations or institutions, making it difficult to aggregate data for high-performance machine learning models while protecting data privacy.",
+    "solution_function": "A dual conditional generative adversarial network (DCTGAN) is constructed for vertical federated learning to expand the sample dimensions and number of samples in the training dataset, enabling multiple parties to build high-quality table training datasets that meet the needs of machine learning model training in big data application scenarios.",
+    "solution_structure": "The system consists of a vertical federated learning training dataset, a dual conditional generative adversarial network (DCTGAN), and a multi-party loss function for the DCTGAN. The DCTGAN includes a generator that creates synthetic data and a discriminator that evaluates the quality of the generated data.",
+    "solution_implementation": "The system begins by establishing a vertical federated learning training dataset for generating multi-party and multi-class data model training. A dual conditional generative adversarial network is built, with a multi-party loss function designed specifically for the DCTGAN. The DCTGAN is trained through a specified process, and a multi-party multi-class data generation scheme is implemented based on the DCTGAN.",
+    "effect": "The system addresses the issue of inadequate training data by generating synthetic data, improving the quality and quantity of training datasets, thereby enabling high-performance machine learning models to be trained for big data application scenarios."
+  },
+  "knowledge_graph": [
+    [
+      "Dual conditional generative adversarial network (DCTGAN)",
+      "Addresses_Problem",
+      "Data isolation problem in multi-party big data scenarios"
+    ],
+    [
+      "Dual conditional generative adversarial network (DCTGAN)",
+      "Comprises_Component",
+      "Vertical federated learning training dataset"
+    ],
+    [
+      "Dual conditional generative adversarial network (DCTGAN)",
+      "Comprises_Component",
+      "Generator for synthetic data creation"
+    ],
+    [
+      "Dual conditional generative adversarial network (DCTGAN)",
+      "Comprises_Component",
+      "Discriminator for evaluating generated data quality"
+    ],
+    [
+      "Dual conditional generative adversarial network (DCTGAN)",
+      "Implemented_By",
+      "Multi-party loss function for DCTGAN training"
+    ],
+    [
+      "Dual conditional generative adversarial network (DCTGAN)",
+      "Achieves_Effect",
+      "Improved training datasets for high-performance machine learning models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Vertical Federated Learning Training Dataset",
+      "causes",
+      "Multi-party and Multi-class Data Model Training"
+    ],
+    [
+      "Dual Conditional Generative Adversarial Network (DCTGAN)",
+      "generates",
+      "Synthetic Data"
+    ],
+    [
+      "Dual Conditional Generative Adversarial Network (DCTGAN)",
+      "evaluates",
+      "Quality of Generated Data"
+    ],
+    [
+      "Vertical Federated Learning Training Dataset",
+      "comprises",
+      "Data from Multiple Parties"
+    ],
+    [
+      "Vertical Federated Learning Training Dataset",
+      "comprises",
+      "Multi-class Data"
+    ],
+    [
+      "Dual Conditional Generative Adversarial Network (DCTGAN)",
+      "implements",
+      "Multi-party Loss Function"
+    ],
+    [
+      "Generator (in DCTGAN)",
+      "creates",
+      "Synthetic Training Data"
+    ],
+    [
+      "Discriminator (in DCTGAN)",
+      "evaluates",
+      "Quality of Synthetic Data"
+    ],
+    [
+      "Dual Conditional Generative Adversarial Network (DCTGAN)",
+      "addresses",
+      "Issue of Inadequate Training Data"
+    ],
+    [
+      "Data Aggregation for Machine Learning Models",
+      "improves",
+      "Quality and Quantity of Training Datasets"
+    ],
+    [
+      "High-Performance Machine Learning Models",
+      "trains",
+      "Using Improved Training Datasets"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data isolation problem in multi-party big data scenarios",
+    "Discriminator for evaluating generated data quality",
+    "Dual conditional generative adversarial network (DCTGAN)",
+    "Generator for synthetic data creation",
+    "Improved training datasets for high-performance machine learning models",
+    "Multi-party loss function for DCTGAN training",
+    "Vertical federated learning training dataset"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Data Aggregation for Machine Learning Models",
+    "Data from Multiple Parties",
+    "Discriminator (in DCTGAN)",
+    "Dual Conditional Generative Adversarial Network (DCTGAN)",
+    "Generator (in DCTGAN)",
+    "High-Performance Machine Learning Models",
+    "Issue of Inadequate Training Data",
+    "Multi-class Data",
+    "Multi-party Loss Function",
+    "Multi-party and Multi-class Data Model Training",
+    "Quality and Quantity of Training Datasets",
+    "Quality of Generated Data",
+    "Quality of Synthetic Data",
+    "Synthetic Data",
+    "Synthetic Training Data",
+    "Using Improved Training Datasets",
+    "Vertical Federated Learning Training Dataset"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "causes",
+    "comprises",
+    "creates",
+    "evaluates",
+    "generates",
+    "implements",
+    "improves",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/045",
+    "G06N3/084"
+  ]
+}

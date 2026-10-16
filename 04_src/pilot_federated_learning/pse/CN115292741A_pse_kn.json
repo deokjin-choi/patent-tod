@@ -1,0 +1,114 @@
+{
+  "publication_number": "CN115292741A",
+  "title": "A Data Privacy Protection Method for Industrial Internet of Things Oriented to Federated Learning Architecture",
+  "assignee": "Xijing University",
+  "filing_date": "2022-01-25",
+  "publication_date": "2022-11-04",
+  "pse": {
+    "problem": "Limited computing power of industrial IoT terminal nodes and data isolation in most industries make it difficult to obtain a new intrusion detection model through single-node training for dynamic network attacks.",
+    "solution_function": "The method uses federated learning architecture to allow edge nodes to perform distributed model training and intrusion detection, improving the efficiency of updating the industrial IoT's intrusion detection model without compromising data privacy.",
+    "solution_structure": "The system consists of terminal nodes that provide sample data, edge nodes that store behavior data, and a federated learning architecture for distributed training and intrusion detection.",
+    "solution_implementation": "Edge nodes compare the difference between data in the database and the data used for the last model update. If necessary, they retrain to update their model parameters without sharing sensitive data with other nodes.",
+    "effect": "The method provides a more complete intrusion detection model that can adapt to ever-changing network attacks, improving the security of the Industrial Internet of Things."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Architecture",
+      "Addresses_Problem",
+      "Limited Computing Power and Data Isolation in Industrial IoT"
+    ],
+    [
+      "Federated Learning Architecture",
+      "Comprises_Component",
+      "Terminal Nodes"
+    ],
+    [
+      "Federated Learning Architecture",
+      "Comprises_Component",
+      "Edge Nodes"
+    ],
+    [
+      "Federated Learning Architecture",
+      "Implemented_By",
+      "Distributed Training and Intrusion Detection"
+    ],
+    [
+      "Federated Learning Architecture",
+      "Achieves_Effect",
+      "Improved Intrusion Detection Model for Industrial IoT"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Industrial IoT Terminal Nodes",
+      "has_limited_computing_power"
+    ],
+    [
+      "Data Isolation (in Industries)",
+      "prevents_single_node_training"
+    ],
+    [
+      "Industrial IoT Terminal Nodes",
+      "isolates_data"
+    ],
+    [
+      "Federated Learning Architecture",
+      "allows_distributed_model_training"
+    ],
+    [
+      "Terminal Nodes",
+      "provides_sample_data"
+    ],
+    [
+      "Edge Nodes",
+      "stores_behavior_data"
+    ],
+    [
+      "Industrial IoT Terminal Nodes",
+      "sends_data_to_edge_nodes"
+    ],
+    [
+      "Edge Nodes",
+      "updates_model_parameters"
+    ],
+    [
+      "Edge Nodes",
+      "preserves_data_privacy"
+    ],
+    [
+      "Federated Learning Architecture",
+      "improves_intrusion_detection_model"
+    ],
+    [
+      "Intrusion Detection Model (updated)",
+      "adapts_to_dynamic_network_attacks"
+    ],
+    [
+      "Updated Intrusion Detection Model",
+      "increases_Industrial_IoT_security"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Distributed Training and Intrusion Detection",
+    "Edge Nodes",
+    "Federated Learning Architecture",
+    "Improved Intrusion Detection Model for Industrial IoT",
+    "Limited Computing Power and Data Isolation in Industrial IoT",
+    "Terminal Nodes"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [],
+  "knowledge_graph2_relation": [],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00",
+    "G06Q50/04",
+    "G16Y10/25",
+    "G16Y40/50"
+  ]
+}

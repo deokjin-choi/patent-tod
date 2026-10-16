@@ -1,0 +1,163 @@
+{
+  "publication_number": "CN118296651A",
+  "title": "Federal learning gradient attack defense method based on joint differential privacy",
+  "assignee": "Yunnan Vocational Institute Of Energy Technology",
+  "filing_date": "2024-04-29",
+  "publication_date": "2024-07-05",
+  "pse": {
+    "problem": "Gradient attacks on multi-classification tasks in federated learning scenarios",
+    "solution_function": "Defends against gradient attacks by clipping micro-batch gradients, adding Gaussian noise to clipped gradients, and updating the global model parameters in a differential privacy manner.",
+    "solution_structure": "System model parameters (initial learning rate, privacy parameter, gradient sensitivity threshold, Gaussian noise standard deviation factor), mini-batches, micro-batches, participants",
+    "solution_implementation": "Step 1: Initialize system model parameters\nStep 2: Randomly select participants and calculate micro-batch gradients\nStep 3: Perform threshold-limited clipping on micro-batch gradients\nStep 4: Add Gaussian noise to clipped gradient vectors\nStep 5: Calculate gradient parameter loss and update global model parameters in a differential privacy manner",
+    "effect": "Enhanced privacy protection for federated learning participants while maintaining accuracy of model classification tasks"
+  },
+  "knowledge_graph": [
+    [
+      "Defend Against Gradient Attacks",
+      "Addresses_Problem",
+      "Gradient attacks on multi-classification tasks in federated learning scenarios"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Comprises_Component",
+      "System model parameters"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Comprises_Component",
+      "Mini-batches"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Comprises_Component",
+      "Micro-batches"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Comprises_Component",
+      "Participants"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Implemented_By",
+      "Initialize system model parameters"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Implemented_By",
+      "Randomly select participants and calculate micro-batch gradients"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Implemented_By",
+      "Perform threshold-limited clipping on micro-batch gradients"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Implemented_By",
+      "Add Gaussian noise to clipped gradient vectors"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Implemented_By",
+      "Calculate gradient parameter loss and update global model parameters in a differential privacy manner"
+    ],
+    [
+      "Defend Against Gradient Attacks",
+      "Achieves_Effect",
+      "Enhanced privacy protection for federated learning participants while maintaining accuracy of model classification tasks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "causes",
+      "Data Distributed Across Participants"
+    ],
+    [
+      "Participant",
+      "stores",
+      "Local Model Parameters"
+    ],
+    [
+      "Participant",
+      "processes",
+      "Local Data"
+    ],
+    [
+      "Participant",
+      "transmits_to",
+      "Server Aggregator"
+    ],
+    [
+      "Server Aggregator",
+      "aggregates",
+      "Local Model Updates"
+    ],
+    [
+      "Aggregated Model",
+      "updates",
+      "Global Model Parameters"
+    ],
+    [
+      "Global Model",
+      "serves",
+      "Predictions for New Data"
+    ],
+    [
+      "Data Privacy Mechanism",
+      "protects",
+      "Sensitive Information"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Add Gaussian noise to clipped gradient vectors",
+    "Calculate gradient parameter loss and update global model parameters in a differential privacy manner",
+    "Defend Against Gradient Attacks",
+    "Enhanced privacy protection for federated learning participants while maintaining accuracy of model classification tasks",
+    "Gradient attacks on multi-classification tasks in federated learning scenarios",
+    "Initialize system model parameters",
+    "Micro-batches",
+    "Mini-batches",
+    "Participants",
+    "Perform threshold-limited clipping on micro-batch gradients",
+    "Randomly select participants and calculate micro-batch gradients",
+    "System model parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Model",
+    "Data Distributed Across Participants",
+    "Data Privacy Mechanism",
+    "Federated Learning",
+    "Global Model",
+    "Global Model Parameters",
+    "Local Data",
+    "Local Model Parameters",
+    "Local Model Updates",
+    "Participant",
+    "Predictions for New Data",
+    "Sensitive Information",
+    "Server Aggregator"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "causes",
+    "processes",
+    "protects",
+    "serves",
+    "stores",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F18/241",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

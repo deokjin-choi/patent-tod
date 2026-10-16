@@ -1,0 +1,164 @@
+{
+  "publication_number": "CN114980157A",
+  "title": "A method and device for trajectory optimization based on federated learning in UAV relay network",
+  "assignee": "University of Science and Technology Beijing USTB",
+  "filing_date": "2022-04-18",
+  "publication_date": "2022-08-30",
+  "pse": {
+    "problem": "The capacity optimization problem in a multi-UAV relay network",
+    "solution_function": "Optimizes the relay network capacity by constructing an optimization target model and using reinforcement learning algorithm for local model training to find optimal flight direction and transmit power for each UAV in each time slot, followed by federated learning for trajectory optimization.",
+    "solution_structure": "A multi-UAV system with local end devices, dividing the operating time into several equal time slots, assuming uniform speed during each time slot.",
+    "solution_implementation": "In each time slot, a reinforcement learning algorithm is used for local model training to find optimal flight direction and transmit power; federated learning is employed to achieve trajectory optimization in UAV relay networks.",
+    "effect": "Improves the communication performance of the network by optimizing relay network capacity while considering fuel consumption for a multi-UAV relay network"
+  },
+  "knowledge_graph": [
+    [
+      "Optimization Model for Multi-UAV Relay Network Capacity",
+      "Addresses_Problem",
+      "Capacity Optimization Problem in a Multi-UAV Relay Network"
+    ],
+    [
+      "Optimization Model for Multi-UAV Relay Network Capacity",
+      "Comprises_Component",
+      "Local End Devices"
+    ],
+    [
+      "Optimization Model for Multi-UAV Relay Network Capacity",
+      "Comprises_Component",
+      "Time Slot Division"
+    ],
+    [
+      "Reinforcement Learning Algorithm",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Optimization Model for Multi-UAV Relay Network Capacity",
+      "Achieves_Effect",
+      "Improved Communication Performance"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Trajectory Optimization"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Multi-UAV Relay Network",
+      "has_problem",
+      "Capacity Optimization Problem"
+    ],
+    [
+      "Optimization Target Model",
+      "is_used_by",
+      "Reinforcement Learning Algorithm"
+    ],
+    [
+      "Reinforcement Learning Algorithm",
+      "performs",
+      "Local Model Training"
+    ],
+    [
+      "Local Model Training",
+      "optimizes",
+      "Flight Direction"
+    ],
+    [
+      "Local Model Training",
+      "optimizes",
+      "Transmit Power"
+    ],
+    [
+      "Time Slot",
+      "has_property",
+      "Equal Time Intervals"
+    ],
+    [
+      "UAV",
+      "moves_within",
+      "Time Slot"
+    ],
+    [
+      "Reinforcement Learning Algorithm",
+      "is_used_for",
+      "Optimal Flight Direction"
+    ],
+    [
+      "Reinforcement Learning Algorithm",
+      "is_used_for",
+      "Optimal Transmit Power"
+    ],
+    [
+      "Federated Learning",
+      "achieves",
+      "Trajectory Optimization"
+    ],
+    [
+      "UAV Relay Network",
+      "benefits_from",
+      "Improved Communication Performance"
+    ],
+    [
+      "Multi-UAV Relay Network",
+      "considers",
+      "Fuel Consumption"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Capacity Optimization Problem in a Multi-UAV Relay Network",
+    "Core Operation Logic",
+    "Federated Learning",
+    "Improved Communication Performance",
+    "Local End Devices",
+    "Optimization Model for Multi-UAV Relay Network Capacity",
+    "Reinforcement Learning Algorithm",
+    "Time Slot Division",
+    "Trajectory Optimization"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Capacity Optimization Problem",
+    "Equal Time Intervals",
+    "Federated Learning",
+    "Flight Direction",
+    "Fuel Consumption",
+    "Improved Communication Performance",
+    "Local Model Training",
+    "Multi-UAV Relay Network",
+    "Optimal Flight Direction",
+    "Optimal Transmit Power",
+    "Optimization Target Model",
+    "Reinforcement Learning Algorithm",
+    "Time Slot",
+    "Trajectory Optimization",
+    "Transmit Power",
+    "UAV",
+    "UAV Relay Network"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "benefits_from",
+    "considers",
+    "has_problem",
+    "has_property",
+    "is_used_by",
+    "is_used_for",
+    "moves_within",
+    "optimizes",
+    "performs"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04B7/18504",
+    "H04B7/18506",
+    "H04W24/02",
+    "H04W4/40",
+    "Y02T10/40"
+  ]
+}

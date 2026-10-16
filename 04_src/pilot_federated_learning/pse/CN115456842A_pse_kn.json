@@ -1,0 +1,184 @@
+{
+  "publication_number": "CN115456842A",
+  "title": "Emergency scheme generation method, system and storage medium under federated learning framework",
+  "assignee": "Information and Telecommunication Branch of State Grid Liaoning Electric Power Co Ltd",
+  "filing_date": "2022-09-14",
+  "publication_date": "2022-12-09",
+  "pse": {
+    "problem": "Existing methods for emergency plan generation suffer from low accuracy due to ignoring the privacy and security of local historical case databases, limited historical case base of single industrial enterprises, and difficulty in solving emergency decision-making problems with characteristics of high uncertainty and complexity.",
+    "solution_function": "The invention generates an emergency plan under a federated learning framework by collectively training a K-means clustering model using local historical emergency case data from multiple industrial enterprises. The model calculates the similarity between the target case and the historical emergency cases based on the eigenvalue vector, extracts the most relevant local historical case emergency plan, and sends it to a central server.",
+    "solution_structure": "The system consists of n enterprise clients (FF1, F2, ..., Fn) and a central server. Each enterprise client has its own historical emergency case set (Zzi), data scale (Si), and local historical cases (iai).",
+    "solution_implementation": "The enterprise clients preprocess their local historical emergency case data to form a training data set. They jointly train the K-means clustering model based on their respective training data sets. Upon receiving the eigenvalue vector of the target case from the central server, each client calculates the similarity between the target case and its historical emergency cases based on the eigenvalue vector and extracts the local historical case emergency plan according to the similarity ranking.",
+    "effect": "The solution enhances the accuracy of emergency plan generation by effectively mining and utilizing local historical case databases from multiple industrial enterprises. This results in more efficient and effective emergency measures and plans."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Framework",
+      "Addresses_Problem",
+      "Existing methods for emergency plan generation"
+    ],
+    [
+      "Federated Learning Framework",
+      "Comprises_Component",
+      "K-means clustering model"
+    ],
+    [
+      "Federated Learning Framework",
+      "Comprises_Component",
+      "Local historical emergency case data from multiple industrial enterprises"
+    ],
+    [
+      "Federated Learning Framework",
+      "Implemented_By",
+      "Training of K-means clustering model"
+    ],
+    [
+      "Federated Learning Framework",
+      "Achieves_Effect",
+      "Enhanced accuracy of emergency plan generation"
+    ],
+    [
+      "n enterprise clients (FF1, F2, ..., Fn)",
+      "Comprises_Component",
+      "Central server"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Emergency Plan Generation",
+      "suffers_from",
+      "Low Accuracy"
+    ],
+    [
+      "Local Historical Case Databases",
+      "ignored_in",
+      "Existing Methods for Emergency Plan Generation"
+    ],
+    [
+      "Single Industrial Enterprises",
+      "limited_historical_case_base_of"
+    ],
+    [
+      "High Uncertainty and Complexity",
+      "characteristics_of",
+      "Emergency Decision-Making Problems"
+    ],
+    [
+      "K-means Clustering Model",
+      "used_for",
+      "Collective Training"
+    ],
+    [
+      "Local Historical Emergency Case Data",
+      "used_to_form",
+      "Training Data Set"
+    ],
+    [
+      "Enterprise Clients",
+      "possesses",
+      "Historical Emergency Case Set"
+    ],
+    [
+      "Data Scale",
+      "associated_with",
+      "Each Enterprise Client"
+    ],
+    [
+      "Local Historical Cases",
+      "belongs_to",
+      "Each Enterprise Client"
+    ],
+    [
+      "Eigenvalue Vector",
+      "used_for",
+      "Calculating Similarity"
+    ],
+    [
+      "Central Server",
+      "receives",
+      "Eigenvalue Vector of Target Case"
+    ],
+    [
+      "Emergency Plan",
+      "extracted_from",
+      "Local Historical Case Emergency Plan"
+    ],
+    [
+      "Similarity Ranking",
+      "used_for",
+      "Extracting Local Historical Case Emergency Plan"
+    ],
+    [
+      "Federated Learning Framework",
+      "used_for",
+      "Generating Emergency Plan"
+    ],
+    [
+      "Emergency Measures and Plans",
+      "results_in",
+      "More Efficient and Effective Emergency Response"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central server",
+    "Enhanced accuracy of emergency plan generation",
+    "Existing methods for emergency plan generation",
+    "Federated Learning Framework",
+    "K-means clustering model",
+    "Local historical emergency case data from multiple industrial enterprises",
+    "Training of K-means clustering model",
+    "n enterprise clients (FF1, F2, ..., Fn)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Calculating Similarity",
+    "Central Server",
+    "Collective Training",
+    "Data Scale",
+    "Each Enterprise Client",
+    "Eigenvalue Vector",
+    "Eigenvalue Vector of Target Case",
+    "Emergency Decision-Making Problems",
+    "Emergency Measures and Plans",
+    "Emergency Plan",
+    "Emergency Plan Generation",
+    "Enterprise Clients",
+    "Existing Methods for Emergency Plan Generation",
+    "Extracting Local Historical Case Emergency Plan",
+    "Federated Learning Framework",
+    "Generating Emergency Plan",
+    "High Uncertainty and Complexity",
+    "Historical Emergency Case Set",
+    "K-means Clustering Model",
+    "Local Historical Case Databases",
+    "Local Historical Case Emergency Plan",
+    "Local Historical Cases",
+    "Local Historical Emergency Case Data",
+    "Low Accuracy",
+    "More Efficient and Effective Emergency Response",
+    "Similarity Ranking",
+    "Training Data Set"
+  ],
+  "knowledge_graph2_relation": [
+    "associated_with",
+    "belongs_to",
+    "characteristics_of",
+    "extracted_from",
+    "ignored_in",
+    "possesses",
+    "receives",
+    "results_in",
+    "suffers_from",
+    "used_for",
+    "used_to_form"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06Q50/265"
+  ]
+}

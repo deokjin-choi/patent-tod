@@ -1,0 +1,167 @@
+{
+  "publication_number": "US20230102732A1",
+  "title": "Privacy-preserving data curation for federated learning",
+  "assignee": "Siemens Healthineers AG",
+  "filing_date": "2021-09-28",
+  "publication_date": "2023-03-30",
+  "pse": {
+    "problem": "Limited access to large, diverse healthcare datasets due to regulatory concerns over sharing sensitive data",
+    "solution_function": "Federated learning approach enables multiple collaborators to train a machine learning model without sharing sensitive data. Collaborators receive global model parameters from a parameter aggregation server, acquire and anonymize sample data, and transmit local model parameters for the model back to the parameter aggregregation server after training on validated sample data.",
+    "solution_structure": "The system consists of multiple collaborators, a curation server, and a parameter aggregation server.",
+    "solution_implementation": "Collaborators anonymize their sample data and submit it to the curation server for validation. The curation server identifies valid data samples based on predefined conditions, while a machine-trained model is used by some collaborators to identify invalid samples. Collaborators train their models using validated sample data and transmit local model parameters back to the parameter aggregation server.",
+    "effect": "Improved data privacy and reduced data movement in distributed machine learning scenarios"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Approach",
+      "Addresses_Problem",
+      "Limited Access to Large, Diverse Healthcare Datasets"
+    ],
+    [
+      "Federated Learning Approach",
+      "Comprises_Component",
+      "Multiple Collaborators"
+    ],
+    [
+      "Federated Learning Approach",
+      "Comprises_Component",
+      "Curation Server"
+    ],
+    [
+      "Federated Learning Approach",
+      "Comprises_Component",
+      "Parameter Aggregation Server"
+    ],
+    [
+      "Federated Learning Approach",
+      "Implemented_By",
+      "Data Anonymization Process"
+    ],
+    [
+      "Federated Learning Approach",
+      "Implemented_By",
+      "Model Validation Process"
+    ],
+    [
+      "Federated Learning Approach",
+      "Achieves_Effect",
+      "Improved Data Privacy"
+    ],
+    [
+      "Federated Learning Approach",
+      "Achieves_Effect",
+      "Reduced Data Movement"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Regulatory Concerns",
+      "causes",
+      "Limited Access to Healthcare Datasets"
+    ],
+    [
+      "Federated Learning Approach",
+      "addresses",
+      "Limited Access to Healthcare Datasets"
+    ],
+    [
+      "Multiple Collaborators",
+      "implemented_by",
+      "Federated Learning Approach"
+    ],
+    [
+      "Parameter Aggregation Server",
+      "controls",
+      "Global Model Parameters"
+    ],
+    [
+      "Collaborator",
+      "receives",
+      "Global Model Parameters"
+    ],
+    [
+      "Collaborator",
+      "anonymizes",
+      "Sample Data"
+    ],
+    [
+      "Curation Server",
+      "validates",
+      "Sample Data"
+    ],
+    [
+      "Validated Sample Data",
+      "transmitted_to",
+      "Collaborator"
+    ],
+    [
+      "Parameter Aggregation Server",
+      "receives",
+      "Local Model Parameters"
+    ],
+    [
+      "Federated Learning Approach",
+      "achieves",
+      "Improved Data Privacy"
+    ],
+    [
+      "Federated Learning Approach",
+      "reduces",
+      "Data Movement"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Curation Server",
+    "Data Anonymization Process",
+    "Federated Learning Approach",
+    "Improved Data Privacy",
+    "Limited Access to Large, Diverse Healthcare Datasets",
+    "Model Validation Process",
+    "Multiple Collaborators",
+    "Parameter Aggregation Server",
+    "Reduced Data Movement"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Collaborator",
+    "Curation Server",
+    "Data Movement",
+    "Federated Learning Approach",
+    "Global Model Parameters",
+    "Improved Data Privacy",
+    "Limited Access to Healthcare Datasets",
+    "Local Model Parameters",
+    "Multiple Collaborators",
+    "Parameter Aggregation Server",
+    "Regulatory Concerns",
+    "Sample Data",
+    "Validated Sample Data"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "addresses",
+    "anonymizes",
+    "causes",
+    "controls",
+    "implemented_by",
+    "receives",
+    "reduces",
+    "transmitted_to",
+    "validates"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06F21/6254",
+    "G06N20/00",
+    "G06N20/20",
+    "G16H30/40",
+    "G16H50/20",
+    "G16H50/70",
+    "G16H80/00"
+  ]
+}

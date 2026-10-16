@@ -1,0 +1,216 @@
+{
+  "publication_number": "CN118607618A",
+  "title": "A federated learning method and system for parameter granularity adaptive frequency modulation",
+  "assignee": "Shanghai Jiao Tong University",
+  "filing_date": "2024-06-18",
+  "publication_date": "2024-09-06",
+  "pse": {
+    "problem": "Inefficient federated learning due to limited client network resources, data distribution differences among edge devices, and high communication overhead.",
+    "solution_function": "Adaptive frequency modulation of parameter granularity for improving training efficiency and reducing communication overhead while maintaining model accuracy.",
+    "solution_structure": "Client network, federated learning system (aggregation server, selection module, update module), edge devices (local models).",
+    "solution_implementation": "1. Selection Module: Selects a subset of clients for each round based on the data distribution and device capabilities. 2. Local Models: Train on local data using selected parameters from previous round. 3. Update Module: Aggregate updated model parameters from selected clients and send to all clients. 4. Aggregation Server: Distribute updated parameters and manage client selection.",
+    "effect": "Improved training efficiency, reduced communication overhead, and optimal global model performance."
+  },
+  "knowledge_graph": [
+    [
+      "Adaptive frequency modulation",
+      "Addresses_Problem",
+      "Inefficient federated learning"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Comprises_Component",
+      "Client network"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Comprises_Component",
+      "Federated learning system"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Implemented_By",
+      "Selection Module"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Implemented_By",
+      "Local Models"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Implemented_By",
+      "Update Module"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Implemented_By",
+      "Aggregation Server"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Achieves_Effect",
+      "Improved training efficiency"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Achieves_Effect",
+      "Reduced communication overhead"
+    ],
+    [
+      "Adaptive frequency modulation",
+      "Achieves_Effect",
+      "Optimal global model performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Client Network",
+      "limits",
+      "Resource Availability"
+    ],
+    [
+      "Edge Devices",
+      "differ",
+      "Data Distribution"
+    ],
+    [
+      "Federated Learning System",
+      "consists_of",
+      "Aggregation Server"
+    ],
+    [
+      "Federated Learning System",
+      "consists_of",
+      "Selection Module"
+    ],
+    [
+      "Federated Learning System",
+      "consists_of",
+      "Update Module"
+    ],
+    [
+      "Edge Devices",
+      "operate",
+      "Local Models"
+    ],
+    [
+      "Parameter Granularity",
+      "modulates",
+      "Training Efficiency"
+    ],
+    [
+      "Parameter Granularity",
+      "reduces",
+      "Communication Overhead"
+    ],
+    [
+      "Selection Module",
+      "determines",
+      "Client Selection"
+    ],
+    [
+      "Update Module",
+      "receives",
+      "Updated Model Parameters"
+    ],
+    [
+      "Update Module",
+      "sends",
+      "Updated Model Parameters to Clients"
+    ],
+    [
+      "Aggregation Server",
+      "distributes",
+      "Updated Parameters"
+    ],
+    [
+      "Aggregation Server",
+      "manages",
+      "Client Selection"
+    ],
+    [
+      "Federated Learning System",
+      "improves",
+      "Training Efficiency"
+    ],
+    [
+      "Federated Learning System",
+      "reduces",
+      "Communication Overhead"
+    ],
+    [
+      "Federated Learning System",
+      "maintains",
+      "Model Accuracy"
+    ],
+    [
+      "Improved Training Efficiency",
+      "results_in",
+      "Optimal Global Model Performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adaptive frequency modulation",
+    "Aggregation Server",
+    "Client network",
+    "Federated learning system",
+    "Improved training efficiency",
+    "Inefficient federated learning",
+    "Local Models",
+    "Optimal global model performance",
+    "Reduced communication overhead",
+    "Selection Module",
+    "Update Module"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregation Server",
+    "Client Network",
+    "Client Selection",
+    "Communication Overhead",
+    "Data Distribution",
+    "Edge Devices",
+    "Federated Learning System",
+    "Improved Training Efficiency",
+    "Local Models",
+    "Model Accuracy",
+    "Optimal Global Model Performance",
+    "Parameter Granularity",
+    "Resource Availability",
+    "Selection Module",
+    "Training Efficiency",
+    "Update Module",
+    "Updated Model Parameters",
+    "Updated Model Parameters to Clients",
+    "Updated Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "consists_of",
+    "determines",
+    "differ",
+    "distributes",
+    "improves",
+    "limits",
+    "maintains",
+    "manages",
+    "modulates",
+    "operate",
+    "receives",
+    "reduces",
+    "results_in",
+    "sends"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N3/0442",
+    "G06N3/0464",
+    "G06N3/098",
+    "H04L67/10"
+  ]
+}

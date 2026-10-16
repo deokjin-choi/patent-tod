@@ -1,0 +1,124 @@
+{
+  "publication_number": "CN114186213A",
+  "title": "Data transmission method, device, equipment and medium based on federal learning",
+  "assignee": "Shenzhen Zhixing Technology Co Ltd",
+  "filing_date": "2022-02-16",
+  "publication_date": "2022-03-15",
+  "pse": {
+    "problem": "The problem addressed is the need for a method that allows multiple participants in a federal learning task to collaborate without exchanging sensitive data, maintaining privacy and data security.",
+    "solution_function": "The solution performs federated learning by using a reverse proxy server. The server authenticates credential information with target participants, stores their addresses, and enables data transmission between the local federated learning framework and the target participants through encryption and decryption of data packets.",
+    "solution_structure": "Key components include: participants (data owners), reverse proxy server, and a local federated learning framework.",
+    "solution_implementation": "The reverse proxy server receives/transmits encrypted data packets from/to the target participants, decrypts incoming packets, and sends them to the local federated learning framework for federated learning. The local federated learning framework queries the address of a target participant to send encrypted data packets to them.",
+    "effect": "The method ensures user privacy by not revealing or influencing data specifications while still allowing participants to collaborate in a federal learning task"
+  },
+  "knowledge_graph": [
+    [
+      "Reverse Proxy Server",
+      "Addresses_Problem",
+      "Federal Learning Privacy Problem"
+    ],
+    [
+      "Reverse Proxy Server",
+      "Comprises_Component",
+      "Participants (Data Owners)"
+    ],
+    [
+      "Reverse Proxy Server",
+      "Comprises_Component",
+      "Local Federated Learning Framework"
+    ],
+    [
+      "Reverse Proxy Server",
+      "Implemented_By",
+      "Data Encryption and Decryption"
+    ],
+    [
+      "Reverse Proxy Server",
+      "Achieves_Effect",
+      "User Privacy in Federal Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Task",
+      "requires",
+      "Collaboration without Sensitive Data Exchange"
+    ],
+    [
+      "Reverse Proxy Server",
+      "authenticates",
+      "Credential Information"
+    ],
+    [
+      "Reverse Proxy Server",
+      "stores",
+      "Participants' Addresses"
+    ],
+    [
+      "Reverse Proxy Server",
+      "encrypts/decrypts",
+      "Data Packets"
+    ],
+    [
+      "Federated Learning Framework",
+      "receives",
+      "Encrypted Data Packets"
+    ],
+    [
+      "Federated Learning Framework",
+      "queries",
+      "Participants' Addresses"
+    ],
+    [
+      "Federated Learning Framework",
+      "sends",
+      "Encrypted Data Packets"
+    ],
+    [
+      "Federal Learning Task",
+      "maintains",
+      "Privacy and Data Security"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Encryption and Decryption",
+    "Federal Learning Privacy Problem",
+    "Local Federated Learning Framework",
+    "Participants (Data Owners)",
+    "Reverse Proxy Server",
+    "User Privacy in Federal Learning"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Collaboration without Sensitive Data Exchange",
+    "Credential Information",
+    "Data Packets",
+    "Encrypted Data Packets",
+    "Federal Learning Task",
+    "Federated Learning Framework",
+    "Participants' Addresses",
+    "Privacy and Data Security",
+    "Reverse Proxy Server"
+  ],
+  "knowledge_graph2_relation": [
+    "authenticates",
+    "encrypts/decrypts",
+    "maintains",
+    "queries",
+    "receives",
+    "requires",
+    "sends",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06F21/33",
+    "G06F21/602",
+    "G06F21/64",
+    "G06N20/00"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "publication_number": "CN113642664A",
+  "title": "A privacy-preserving image classification method based on federated learning",
+  "assignee": "Anhui University",
+  "filing_date": "2021-08-24",
+  "publication_date": "2021-11-12",
+  "pse": {
+    "problem": "The invention aims to efficiently utilize unmarked data and discretely distributed marked data in image classification while protecting privacy.",
+    "solution_function": "The system performs a privacy-preserving image classification based on federal learning. It utilizes a network consisting of a server, a card shuffler, and N clients. The server obtains unmarked public data, normalizes it, and initializes a global neural network. Each client acquires local real data, normalizes it, trains a local neural network, calculates the local global neural network, and sends it to the server.",
+    "solution_structure": "The system comprises a server, a card shuffler, and N clients. The server has components for obtaining, normalizing, and initializing global neural networks. Each client has components for acquiring, normalizing local data, training local neural networks, and calculating the local global neural network.",
+    "solution_implementation": "The server first obtains unmarked public data, normalizes it, and initializes a global neural network M G. It then sends the public key pk, the global neural network M G, and a common data set D P to the card shuffler. Each client acquires local real data, normalizes it, trains a local neural network, calculates the local global neural network M according to the formula (1) Gi Cross entropy loss between prediction results and local sample ma, and sends it back to the server.",
+    "effect": "The system effectively utilizes unmarked data by marking data, protects privacy using differential privacy technology, improves image classification precision while maintaining data privacy of clients."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Efficiently Utilize Unmarked Data and Discretely Distributed Marked Data in Image Classification"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Card Shuffler"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "N Clients"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Initialize Global Neural Network"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Train Local Neural Networks"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Calculate Local Global Neural Network"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Protect Privacy Using Differential Privacy Technology"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Improve Image Classification Precision"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Maintain Data Privacy of Clients"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning",
+      "achieves",
+      "Privacy-Preserving Image Classification"
+    ],
+    [
+      "Server",
+      "obtains",
+      "Unmarked Public Data"
+    ],
+    [
+      "Server",
+      "normalizes",
+      "Public Data"
+    ],
+    [
+      "Server",
+      "initializes",
+      "Global Neural Network M G"
+    ],
+    [
+      "Server",
+      "sends",
+      "Public Key pk"
+    ],
+    [
+      "Server",
+      "sends",
+      "Global Neural Network M G"
+    ],
+    [
+      "Server",
+      "sends",
+      "Common Data Set D P"
+    ],
+    [
+      "Card Shuffler",
+      "receives",
+      "Public Key pk"
+    ],
+    [
+      "Card Shuffler",
+      "receives",
+      "Global Neural Network M G"
+    ],
+    [
+      "Card Shuffler",
+      "receives",
+      "Common Data Set D P"
+    ],
+    [
+      "Client",
+      "acquires",
+      "Local Real Data"
+    ],
+    [
+      "Client",
+      "normalizes",
+      "Local Data"
+    ],
+    [
+      "Client",
+      "trains",
+      "Local Neural Network"
+    ],
+    [
+      "Client",
+      "calculates",
+      "Local Global Neural Network M Gi"
+    ],
+    [
+      "Client",
+      "sends",
+      "Local Global Neural Network M Gi"
+    ],
+    [
+      "Server",
+      "receives",
+      "Local Global Neural Network M Gi"
+    ],
+    [
+      "Global Neural Network M G",
+      "updates",
+      "Based on Local Global Neural Network M Gi"
+    ],
+    [
+      "Data Cross Entropy Loss",
+      "measures",
+      "Prediction Results and Local Sample ma"
+    ],
+    [
+      "Client",
+      "calculates",
+      "Cross Entropy Loss"
+    ],
+    [
+      "Neural Networks",
+      "interact",
+      "Through Cross Entropy Loss Calculation"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculate Local Global Neural Network",
+    "Card Shuffler",
+    "Efficiently Utilize Unmarked Data and Discretely Distributed Marked Data in Image Classification",
+    "Federated Learning",
+    "Improve Image Classification Precision",
+    "Initialize Global Neural Network",
+    "Maintain Data Privacy of Clients",
+    "N Clients",
+    "Protect Privacy Using Differential Privacy Technology",
+    "Server",
+    "Train Local Neural Networks"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Based on Local Global Neural Network M Gi",
+    "Card Shuffler",
+    "Client",
+    "Common Data Set D P",
+    "Cross Entropy Loss",
+    "Data Cross Entropy Loss",
+    "Federal Learning",
+    "Global Neural Network M G",
+    "Local Data",
+    "Local Global Neural Network M Gi",
+    "Local Neural Network",
+    "Local Real Data",
+    "Neural Networks",
+    "Prediction Results and Local Sample ma",
+    "Privacy-Preserving Image Classification",
+    "Public Data",
+    "Public Key pk",
+    "Server",
+    "Through Cross Entropy Loss Calculation",
+    "Unmarked Public Data"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "acquires",
+    "calculates",
+    "initializes",
+    "interact",
+    "measures",
+    "normalizes",
+    "obtains",
+    "receives",
+    "sends",
+    "trains",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F18/2415",
+    "G06F21/6245",
+    "G06N3/045",
+    "G06N3/047",
+    "G06N3/08"
+  ]
+}

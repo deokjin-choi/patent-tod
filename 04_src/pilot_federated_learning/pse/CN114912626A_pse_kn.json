@@ -1,0 +1,174 @@
+{
+  "publication_number": "CN114912626A",
+  "title": "Method for processing distributed data of federal learning mobile equipment based on summer pril value",
+  "assignee": "Shanghai Jiao Tong University",
+  "filing_date": "2022-04-15",
+  "publication_date": "2022-08-16",
+  "pse": {
+    "problem": "Limited by the communication bandwidth and computing resources of the central server, in each round of federated learning, only some mobile devices can be selected to participate in the model training process, which reduces the convergence speed and final performance of the model.",
+    "solution_function": "The method selects mobile devices based on their contribution to the model training process using Shapley value, thereby reducing data communication overhead, increasing convergence speed, and improving model performance.",
+    "solution_structure": "The solution involves multiple mobile devices and a central node for federated learning. The Shapley value is used as a selection criterion for mobile devices.",
+    "solution_implementation": "An estimation method of federal Shapley value is proposed, which combines the traditional Monte-Carlo sampling method to measure the impact of data sets of each mobile terminal on the model training process. This allows for the selection of mobile devices with the highest contribution in each round.",
+    "effect": "The solution results in reduced data communication overhead, increased convergence speed, and improved model performance."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Limited Communication Bandwidth and Computing Resources"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Mobile Devices"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Central Node"
+    ],
+    [
+      "Estimation Method of Federal Shapley Value",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Data Communication Overhead"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Increased Convergence Speed"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Improved Model Performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Central Server",
+      "has_limited_resources",
+      "Communication Bandwidth"
+    ],
+    [
+      "Central Server",
+      "has_limited_resources",
+      "Computing Resources"
+    ],
+    [
+      "Central Server",
+      "controls",
+      "Model Training Process Selection"
+    ],
+    [
+      "Shapley Value",
+      "is_used_for",
+      "Mobile Device Selection"
+    ],
+    [
+      "Shapley Value",
+      "reduces",
+      "Data Communication Overhead"
+    ],
+    [
+      "Shapley Value",
+      "increases",
+      "Convergence Speed"
+    ],
+    [
+      "Shapley Value",
+      "improves",
+      "Model Performance"
+    ],
+    [
+      "Federated Learning",
+      "includes",
+      "Multiple Mobile Devices"
+    ],
+    [
+      "Federated Learning",
+      "connects_to",
+      "Central Node"
+    ],
+    [
+      "Monte-Carlo Sampling Method",
+      "measures",
+      "Impact of Data Sets on Model Training"
+    ],
+    [
+      "Mobile Device",
+      "contributes_to",
+      "Model Training Process"
+    ],
+    [
+      "Mobile Device",
+      "is_selected_for",
+      "Participation in Model Training"
+    ],
+    [
+      "Estimation Method of Federal Shapley Value",
+      "proposes",
+      "Selection Criterion for Mobile Devices"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Node",
+    "Core Operation Logic",
+    "Estimation Method of Federal Shapley Value",
+    "Federated Learning Method",
+    "Improved Model Performance",
+    "Increased Convergence Speed",
+    "Limited Communication Bandwidth and Computing Resources",
+    "Mobile Devices",
+    "Reduced Data Communication Overhead"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Node",
+    "Central Server",
+    "Communication Bandwidth",
+    "Computing Resources",
+    "Convergence Speed",
+    "Data Communication Overhead",
+    "Estimation Method of Federal Shapley Value",
+    "Federated Learning",
+    "Impact of Data Sets on Model Training",
+    "Mobile Device",
+    "Mobile Device Selection",
+    "Model Performance",
+    "Model Training Process",
+    "Model Training Process Selection",
+    "Monte-Carlo Sampling Method",
+    "Multiple Mobile Devices",
+    "Participation in Model Training",
+    "Selection Criterion for Mobile Devices",
+    "Shapley Value"
+  ],
+  "knowledge_graph2_relation": [
+    "connects_to",
+    "contributes_to",
+    "controls",
+    "has_limited_resources",
+    "improves",
+    "includes",
+    "increases",
+    "is_selected_for",
+    "is_used_for",
+    "measures",
+    "proposes",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06F18/217",
+    "G06N20/00"
+  ]
+}

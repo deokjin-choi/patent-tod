@@ -1,0 +1,203 @@
+{
+  "publication_number": "CN114579957A",
+  "title": "Credible sandbox-based federated learning model training method and device and electronic equipment",
+  "assignee": "Yunnan Provincial Academy Of Science And Technology",
+  "filing_date": "2022-01-20",
+  "publication_date": "2022-06-03",
+  "pse": {
+    "problem": "Privacy-preserving data sharing and protection of trust issues during transmission and computation in traditional federated learning",
+    "solution_function": "A method performs federated learning model training within a trusted sandbox created by the MEC server based on blockchain state channel. It involves registering device information, selecting target local devices for federated learning, distributing global model and training request, collecting local models, aggregating them to obtain a new global model, and applying incentive mechanism.",
+    "solution_structure": "The structure includes MEC server, blockchain platform, multiple local devices communicatively connected to the MEC server, and trusted sandbox created by MEC server based on blockchain state channel.",
+    "solution_implementation": "The method involves sending device information for registration, determining target local devices for federated learning, receiving global model and training request from blockchain platform, distributing them to multiple target local devices, collecting local models, aggregating them to obtain new global model, sending first device information and second device information to blockchain platform for consensus, obtaining incentive mechanism of blockchain platform, applying it to the target local device.",
+    "effect": "Privacy-preserving federated learning model training with trust issues protected during transmission and computation on a blockchain platform"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Addresses_Problem",
+      "Privacy-preserving data sharing and protection of trust issues"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Comprises_Component",
+      "MEC Server"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Comprises_Component",
+      "Blockchain Platform"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Implemented_By",
+      "Device Information Registration"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Implemented_By",
+      "Target Local Device Selection"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Implemented_By",
+      "Global Model and Training Request Distribution"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Implemented_By",
+      "Local Models Collection"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Implemented_By",
+      "Aggregation of Local Models"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Implemented_By",
+      "Consensus on Device Information"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Implemented_By",
+      "Incentive Mechanism Application"
+    ],
+    [
+      "Federated Learning Model Training within Trusted Sandbox",
+      "Achieves_Effect",
+      "Privacy-preserving federated learning model training with trust issues protected"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "MEC Server",
+      "creates",
+      "Trusted Sandbox"
+    ],
+    [
+      "Blockchain Platform",
+      "enables",
+      "State Channel"
+    ],
+    [
+      "MEC Server",
+      "communicates_with",
+      "Multiple Local Devices"
+    ],
+    [
+      "Local Device",
+      "receives",
+      "Global Model"
+    ],
+    [
+      "Local Device",
+      "receives",
+      "Training Request"
+    ],
+    [
+      "Blockchain Platform",
+      "assigns",
+      "Device Information"
+    ],
+    [
+      "MEC Server",
+      "selects",
+      "Target Local Devices"
+    ],
+    [
+      "Blockchain Platform",
+      "applies",
+      "Incentive Mechanism"
+    ],
+    [
+      "Local Device",
+      "participates_in",
+      "Federated Learning"
+    ],
+    [
+      "Local Model",
+      "is_collected",
+      "MEC Server"
+    ],
+    [
+      "Local Models",
+      "are_aggregated",
+      "New Global Model"
+    ],
+    [
+      "Blockchain Platform",
+      "verifies",
+      "Consensus"
+    ],
+    [
+      "Global Model",
+      "transmits_to",
+      "Multiple Local Devices"
+    ],
+    [
+      "Data",
+      "stays_within",
+      "Trusted Sandbox"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregation of Local Models",
+    "Blockchain Platform",
+    "Consensus on Device Information",
+    "Device Information Registration",
+    "Federated Learning Model Training within Trusted Sandbox",
+    "Global Model and Training Request Distribution",
+    "Incentive Mechanism Application",
+    "Local Models Collection",
+    "MEC Server",
+    "Privacy-preserving data sharing and protection of trust issues",
+    "Privacy-preserving federated learning model training with trust issues protected",
+    "Target Local Device Selection"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Blockchain Platform",
+    "Consensus",
+    "Data",
+    "Device Information",
+    "Federated Learning",
+    "Global Model",
+    "Incentive Mechanism",
+    "Local Device",
+    "Local Model",
+    "Local Models",
+    "MEC Server",
+    "Multiple Local Devices",
+    "New Global Model",
+    "State Channel",
+    "Target Local Devices",
+    "Training Request",
+    "Trusted Sandbox"
+  ],
+  "knowledge_graph2_relation": [
+    "applies",
+    "are_aggregated",
+    "assigns",
+    "communicates_with",
+    "creates",
+    "enables",
+    "is_collected",
+    "participates_in",
+    "receives",
+    "selects",
+    "stays_within",
+    "transmits_to",
+    "verifies"
+  ],
+  "cpc_code": [
+    "G06F21/53",
+    "G06F21/6245",
+    "G06F21/64",
+    "G06N20/20"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "publication_number": "CN112000527A",
+  "title": "A FPGA Engineering Test Method for Federated Learning System",
+  "assignee": "Shenzhen Zhixing Technology Co Ltd",
+  "filing_date": "2020-07-10",
+  "publication_date": "2020-11-27",
+  "pse": {
+    "problem": "Complex structure and many test points make direct testing of FPGAs for federated learning systems difficult, especially when the working state of the FPGA is hard to judge from the outside.",
+    "solution_function": "The system performs FPGA engineering testing by using a host computer to send configuration data and test source data to an FPGA. The FPGA processes the test source data according to the configuration data in designated modules to obtain test result data.",
+    "solution_structure": "The heterogeneous processing system consists of a host computer and an FPGA with multiple computing modules. The FPGA can process test source data based on specified test configuration data.",
+    "solution_implementation": "1. Host computer sends configuration data to FPGA.\n2. Host computer sends test source data to FPGA.\n3. FPGA receives and records the test source data according to the configuration data.\n4. The designated test module processes the test source data to obtain test result data.",
+    "effect": "The method allows for targeted testing of specified modules, narrows the scope of troubleshooting, and improves the efficiency of FPGA engineering testing."
+  },
+  "knowledge_graph": [
+    [
+      "FPGA Engineering Testing System",
+      "Addresses_Problem",
+      "Complex Structure and Many Test Points in Federated Learning Systems"
+    ],
+    [
+      "FPGA Engineering Testing System",
+      "Comprises_Component",
+      "Host Computer"
+    ],
+    [
+      "FPGA Engineering Testing System",
+      "Comprises_Component",
+      "FPGA with Multiple Computing Modules"
+    ],
+    [
+      "FPGA Engineering Testing System",
+      "Implemented_By",
+      "Core Operation Logic: Host sends config & test data, FPGA processes data & obtains results"
+    ],
+    [
+      "FPGA Engineering Testing System",
+      "Achieves_Effect",
+      "Targeted Testing of Specified Modules, Narrows Troubleshooting Scope, Improves FPGA Engineering Testing Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Host Computer",
+      "sends",
+      "Configuration Data"
+    ],
+    [
+      "Host Computer",
+      "sends",
+      "Test Source Data"
+    ],
+    [
+      "FPGA",
+      "receives",
+      "Test Source Data"
+    ],
+    [
+      "FPGA",
+      "records",
+      "Test Source Data"
+    ],
+    [
+      "FPGA",
+      "processes",
+      "Test Source Data"
+    ],
+    [
+      "Designated Module",
+      "obtains",
+      "Test Result Data"
+    ],
+    [
+      "FPGA",
+      "comprises",
+      "Designated Modules"
+    ],
+    [
+      "Configuration Data",
+      "controls",
+      "FPGA Processing"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Complex Structure and Many Test Points in Federated Learning Systems",
+    "Core Operation Logic: Host sends config & test data, FPGA processes data & obtains results",
+    "FPGA Engineering Testing System",
+    "FPGA with Multiple Computing Modules",
+    "Host Computer",
+    "Targeted Testing of Specified Modules, Narrows Troubleshooting Scope, Improves FPGA Engineering Testing Efficiency"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Configuration Data",
+    "Designated Module",
+    "Designated Modules",
+    "FPGA",
+    "FPGA Processing",
+    "Host Computer",
+    "Test Result Data",
+    "Test Source Data"
+  ],
+  "knowledge_graph2_relation": [
+    "comprises",
+    "controls",
+    "obtains",
+    "processes",
+    "receives",
+    "records",
+    "sends"
+  ],
+  "cpc_code": [
+    "G06F11/2247",
+    "G06F11/2273",
+    "G06N20/00"
+  ]
+}

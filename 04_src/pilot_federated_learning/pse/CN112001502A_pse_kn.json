@@ -1,0 +1,180 @@
+{
+  "publication_number": "CN112001502A",
+  "title": "Federal learning training method and device for high-delay network environment robustness",
+  "assignee": "Ping An Technology Shenzhen Co Ltd",
+  "filing_date": "2020-08-24",
+  "publication_date": "2020-11-27",
+  "pse": {
+    "problem": "Federated learning training method based on synchronous parameter aggregation technology is inefficient in high-latency network environments due to severe network delay.",
+    "solution_function": "The invention introduces a robust federated learning training method that adapts to high-latency network environments. It coordinates time, network delay values, and system time to ensure all encrypted data from multiple data uploading terminals are received before resuming local federal learning training.",
+    "solution_structure": "The key components include a system clock for acquiring current system time, network delay value sensors for measuring network delays of target data uploading terminals, and a storage device to store the called unit time sequence interval step length.",
+    "solution_implementation": "The method begins by judging if encrypted data from each terminal is received. If not, it identifies target data uploading terminals, measures network delays of these terminals, calculates a delay step based on maximum network delay and the called unit time sequence interval step length, sums current system time with the delay step to obtain target system time, and resumes training only when all target encrypted data are received.",
+    "effect": "The solution improves training efficiency by allowing federal learning to function properly even in networks with high latency, such as those commonly found between remote nodes."
+  },
+  "knowledge_graph": [
+    [
+      "Robust Federated Learning Training Method",
+      "Addresses_Problem",
+      "Inefficient Federated Learning in High-Latency Networks"
+    ],
+    [
+      "Robust Federated Learning Training Method",
+      "Comprises_Component",
+      "System Clock"
+    ],
+    [
+      "Robust Federated Learning Training Method",
+      "Comprises_Component",
+      "Network Delay Value Sensors"
+    ],
+    [
+      "Robust Federated Learning Training Method",
+      "Comprises_Component",
+      "Storage Device"
+    ],
+    [
+      "Robust Federated Learning Training Method",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Robust Federated Learning Training Method",
+      "Achieves_Effect",
+      "Improved Training Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Training Method",
+      "causes",
+      "Inefficiency"
+    ],
+    [
+      "Synchronous Parameter Aggregation Technology",
+      "causes",
+      "Inefficiency"
+    ],
+    [
+      "High-Latency Network Environment",
+      "causes",
+      "Inefficiency"
+    ],
+    [
+      "Network Delay",
+      "increases",
+      "Training Inefficiency"
+    ],
+    [
+      "Robust Federated Learning Training Method",
+      "addresses",
+      "High-Latency Networks"
+    ],
+    [
+      "System Clock",
+      "provides",
+      "Current System Time"
+    ],
+    [
+      "Network Delay Value Sensors",
+      "measures",
+      "Network Delays"
+    ],
+    [
+      "Data Uploading Terminals",
+      "affected by",
+      "Network Delays"
+    ],
+    [
+      "Storage Device",
+      "stores",
+      "Unit Time Sequence Interval Step Length"
+    ],
+    [
+      "Encrypted Data",
+      "transmitted to",
+      "System"
+    ],
+    [
+      "Federal Learning Training",
+      "resumes",
+      "When All Data Received"
+    ],
+    [
+      "Remote Nodes",
+      "have",
+      "High Latency"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Network Delay for Remote Nodes"
+    ],
+    [
+      "Processed Data",
+      "stored in",
+      "Cloud Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Improved Training Efficiency",
+    "Inefficient Federated Learning in High-Latency Networks",
+    "Network Delay Value Sensors",
+    "Robust Federated Learning Training Method",
+    "Storage Device",
+    "System Clock"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Cloud Storage",
+    "Current System Time",
+    "Data Uploading Terminals",
+    "Edge Node",
+    "Encrypted Data",
+    "Federal Learning Training",
+    "Federated Learning Training Method",
+    "High Latency",
+    "High-Latency Network Environment",
+    "High-Latency Networks",
+    "Inefficiency",
+    "Network Delay",
+    "Network Delay Value Sensors",
+    "Network Delay for Remote Nodes",
+    "Network Delays",
+    "Processed Data",
+    "Remote Nodes",
+    "Robust Federated Learning Training Method",
+    "Storage Device",
+    "Synchronous Parameter Aggregation Technology",
+    "System",
+    "System Clock",
+    "Training Inefficiency",
+    "Unit Time Sequence Interval Step Length",
+    "When All Data Received"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "affected by",
+    "causes",
+    "have",
+    "increases",
+    "measures",
+    "provides",
+    "reduces",
+    "resumes",
+    "stored in",
+    "stores",
+    "transmitted to"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "H04L43/0852",
+    "H04L63/0442",
+    "H04L67/10"
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "publication_number": "CN119378651A",
+  "title": "A model training method and system based on federated learning",
+  "assignee": "Guangdong Provincial Laboratory Of Artificial Intelligence And Digital Economy Shenzhen",
+  "filing_date": "2024-10-31",
+  "publication_date": "2025-01-28",
+  "pse": {
+    "problem": "Model training inefficiency and instability in federated learning scenarios with heterogeneous data distribution",
+    "solution_function": "The system performs federated learning by dividing the target dataset into sub-training sets for each client, conducting gradient update training on feature extraction and recognition layers, and aggregating selected layer parameters to the central server for average calculation to improve precision, accuracy, and convergence.",
+    "solution_structure": "Central Server: manages client set, controls data distribution, aggregates layer parameters. Basic Clients: perform gradient update training on feature extraction and recognition layers, send updated parameters to the central server.",
+    "solution_implementation": "Central Server: initiates the training round, determines data category amounts for clients, creates sub-training sets, distributes basic neural network and sub-training sets to clients. Clients: perform gradient update training on assigned sub-training set, send updated layer parameters to central server.",
+    "effect": "Improved precision, accuracy, and convergence of federated learning models in heterogeneous data environments"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Model Training Inefficiency And Instability In Federated Learning Scenarios With Heterogeneous Data Distribution"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Basic Clients"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Gradient Update Training On Feature Extraction And Recognition Layers"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Improved Precision, Accuracy, And Convergence Of Federated Learning Models In Heterogeneous Data Environments"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Scenarios",
+      "has_problem",
+      "Model training inefficiency and instability"
+    ],
+    [
+      "Heterogeneous Data Distribution",
+      "is_aspect_of",
+      "Federated Learning Scenarios"
+    ],
+    [
+      "Central Server",
+      "comprises",
+      "Management Module"
+    ],
+    [
+      "Management Module",
+      "controls",
+      "Client Set"
+    ],
+    [
+      "Management Module",
+      "controls",
+      "Data Distribution"
+    ],
+    [
+      "Management Module",
+      "aggregates",
+      "Layer Parameters"
+    ],
+    [
+      "Basic Clients",
+      "contains",
+      "Feature Extraction Layers"
+    ],
+    [
+      "Basic Clients",
+      "contains",
+      "Recognition Layers"
+    ],
+    [
+      "Gradient Update Training",
+      "operates_on",
+      "Feature Extraction Layers"
+    ],
+    [
+      "Gradient Update Training",
+      "operates_on",
+      "Recognition Layers"
+    ],
+    [
+      "Central Server",
+      "sends_to",
+      "Central Server (Layer Parameters Aggregation)"
+    ],
+    [
+      "Clients",
+      "receives_from",
+      "Central Server (Neural Network and Sub-training Sets)"
+    ],
+    [
+      "Clients",
+      "performs",
+      "Gradient Update Training"
+    ],
+    [
+      "Clients",
+      "sends_to",
+      "Central Server (Updated Layer Parameters)"
+    ],
+    [
+      "Central Server (Average Calculation)",
+      "improves",
+      "Precision"
+    ],
+    [
+      "Central Server (Average Calculation)",
+      "improves",
+      "Accuracy"
+    ],
+    [
+      "Central Server (Average Calculation)",
+      "improves",
+      "Convergence"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Basic Clients",
+    "Central Server",
+    "Federated Learning System",
+    "Gradient Update Training On Feature Extraction And Recognition Layers",
+    "Improved Precision, Accuracy, And Convergence Of Federated Learning Models In Heterogeneous Data Environments",
+    "Model Training Inefficiency And Instability In Federated Learning Scenarios With Heterogeneous Data Distribution"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Basic Clients",
+    "Central Server",
+    "Central Server (Average Calculation)",
+    "Central Server (Layer Parameters Aggregation)",
+    "Central Server (Neural Network and Sub-training Sets)",
+    "Central Server (Updated Layer Parameters)",
+    "Client Set",
+    "Clients",
+    "Convergence",
+    "Data Distribution",
+    "Feature Extraction Layers",
+    "Federated Learning Scenarios",
+    "Gradient Update Training",
+    "Heterogeneous Data Distribution",
+    "Layer Parameters",
+    "Management Module",
+    "Model training inefficiency and instability",
+    "Precision",
+    "Recognition Layers"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "comprises",
+    "contains",
+    "controls",
+    "has_problem",
+    "improves",
+    "is_aspect_of",
+    "operates_on",
+    "performs",
+    "receives_from",
+    "sends_to"
+  ],
+  "cpc_code": [
+    "G06F18/241",
+    "G06N3/04",
+    "G06N3/098"
+  ]
+}

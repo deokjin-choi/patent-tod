@@ -1,0 +1,152 @@
+{
+  "publication_number": "US11676074B2",
+  "title": "Heterogeneous processing system for federated learning and privacy-preserving computation",
+  "assignee": "Clustar Technology Co Ltd",
+  "filing_date": "2022-08-15",
+  "publication_date": "2023-06-13",
+  "pse": {
+    "problem": "The challenge is to efficiently process large volumes of encrypted data in various complex computations involving cyclic, recursive, and dependent operations, which are common in federated learning, privacy-preserving computation, and distributed artificial intelligence.",
+    "solution_function": "The system performs heterogeneous processing for federated learning and privacy-preserving computation, enabling efficient handling of complex computations with large data volumes, ensuring low processing delay, and high memory utilization.",
+    "solution_structure": "The system consists of multiple processors capable of handling various computational tasks. It supports encrypted state operations and operates on large integer bit-width data.",
+    "solution_implementation": "The system coordinates the processors to perform cyclic, recursive, and dependent computations in a manner that optimizes resource usage and reduces processing delay. The data is kept encrypted throughout the process.",
+    "effect": "Benefits include efficient computation, low processing delay, and high memory utilization, which help address the challenges posed by handling large volumes of encrypted data with complex computations."
+  },
+  "knowledge_graph": [
+    [
+      "System for Encrypted Data Processing",
+      "Addresses_Problem",
+      "Large Volumes of Encrypted Data with Complex Computations"
+    ],
+    [
+      "System for Encrypted Data Processing",
+      "Comprises_Component",
+      "Multiple Processors"
+    ],
+    [
+      "System for Encrypted Data Processing",
+      "Comprises_Component",
+      "Encrypted State Operations"
+    ],
+    [
+      "System for Encrypted Data Processing",
+      "Implemented_By",
+      "Optimized Resource Usage and Reduced Processing Delay Logic"
+    ],
+    [
+      "System for Encrypted Data Processing",
+      "Achieves_Effect",
+      "Efficient Computation Benefit"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Large Volumes of Encrypted Data",
+      "is_processed_by",
+      "System"
+    ],
+    [
+      "Complex Computations",
+      "are_performed_on",
+      "Large Volumes of Encrypted Data"
+    ],
+    [
+      "Federated Learning",
+      "uses",
+      "System"
+    ],
+    [
+      "Privacy-Preserving Computation",
+      "uses",
+      "System"
+    ],
+    [
+      "Distributed Artificial Intelligence",
+      "uses",
+      "System"
+    ],
+    [
+      "Cyclic Operations",
+      "are_performed_by",
+      "System"
+    ],
+    [
+      "Recursive Operations",
+      "are_performed_by",
+      "System"
+    ],
+    [
+      "Dependent Operations",
+      "are_performed_by",
+      "System"
+    ],
+    [
+      "Encrypted Data",
+      "is_handled_by",
+      "System"
+    ],
+    [
+      "Processors",
+      "comprise",
+      "System"
+    ],
+    [
+      "State Operations",
+      "support",
+      "Encrypted Data"
+    ],
+    [
+      "Large Integer Bit-Width Data",
+      "is_operated_on_by",
+      "System"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Efficient Computation Benefit",
+    "Encrypted State Operations",
+    "Large Volumes of Encrypted Data with Complex Computations",
+    "Multiple Processors",
+    "Optimized Resource Usage and Reduced Processing Delay Logic",
+    "System for Encrypted Data Processing"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Complex Computations",
+    "Cyclic Operations",
+    "Dependent Operations",
+    "Distributed Artificial Intelligence",
+    "Encrypted Data",
+    "Federated Learning",
+    "Large Integer Bit-Width Data",
+    "Large Volumes of Encrypted Data",
+    "Privacy-Preserving Computation",
+    "Processors",
+    "Recursive Operations",
+    "State Operations",
+    "System"
+  ],
+  "knowledge_graph2_relation": [
+    "are_performed_by",
+    "are_performed_on",
+    "comprise",
+    "is_handled_by",
+    "is_operated_on_by",
+    "is_processed_by",
+    "support",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F9/4881",
+    "G06F9/5027",
+    "G06F9/5066",
+    "G06N20/00",
+    "H04L2209/125",
+    "H04L9/008",
+    "H04L9/0841",
+    "H04L9/302"
+  ]
+}

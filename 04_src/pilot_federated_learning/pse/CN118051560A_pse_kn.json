@@ -1,0 +1,205 @@
+{
+  "publication_number": "CN118051560A",
+  "title": "Multitasking federation learning method and system based on segmented block chain",
+  "assignee": "Zhejiang Normal University CJNU",
+  "filing_date": "2023-11-09",
+  "publication_date": "2024-05-17",
+  "pse": {
+    "problem": "Federated Learning (FL) faces challenges like unreliability, single point failure of the aggregation server, and scalability problems due to multi-task concurrency when dealing with large-scale parallel tasks.",
+    "solution_function": "The system performs decentralized federated learning by dividing the blockchain into a global chain and a local chain, improving the security, computational efficiency, transparency, and reliability of the system.",
+    "solution_structure": "The key components include blockchain (global and local), Raft consensus algorithm for sharding chain, directed acyclic graph for main chain, and pre-deployed smart contracts in the blockchain.",
+    "solution_implementation": "Local models are saved and global model is retrieved from the blockchain to prevent potential attacks on the server and reduce single point failure risk. Blockchain sharding balances security and computational efficiency. The system also uses an efficient and low-energy Byzantine fault-tolerant consensus protocol deployed on multiple edge servers for tamper resistance.",
+    "effect": "The solution improves execution efficiency, scalability, and reliability of the federated learning system."
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Federated Learning System",
+      "Addresses_Problem",
+      "Unreliability"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Addresses_Problem",
+      "Single Point Failure of Aggregation Server"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Addresses_Problem",
+      "Scalability Problems due to Multi-task Concurrency"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Comprises_Component",
+      "Blockchain (Global and Local)"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Comprises_Component",
+      "Raft Consensus Algorithm for Sharding Chain"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Comprises_Component",
+      "Directed Acyclic Graph for Main Chain"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Comprises_Component",
+      "Pre-deployed Smart Contracts in the Blockchain"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Implemented_By",
+      "Local Models Saved and Global Model Retrieved from the Blockchain"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Implemented_By",
+      "Blockchain Sharding for Balancing Security and Computational Efficiency"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Implemented_By",
+      "Low-energy Byzantine fault-tolerant consensus protocol on Edge Servers"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Achieves_Effect",
+      "Improved Execution Efficiency"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Achieves_Effect",
+      "Improved Scalability"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Achieves_Effect",
+      "Improved Reliability"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning (FL)",
+      "causes",
+      "Unreliability"
+    ],
+    [
+      "Federated Learning (FL)",
+      "causes",
+      "Single Point Failure"
+    ],
+    [
+      "Federated Learning (FL)",
+      "faces",
+      "Scalability Problems"
+    ],
+    [
+      "Blockchain (Global)",
+      "comprises",
+      "Raft Consensus Algorithm"
+    ],
+    [
+      "Blockchain (Local)",
+      "comprises",
+      "Raft Consensus Algorithm"
+    ],
+    [
+      "Blockchain",
+      "balances",
+      "Security and Computational Efficiency"
+    ],
+    [
+      "Blockchain",
+      "stores",
+      "Local Models"
+    ],
+    [
+      "Blockchain",
+      "retrieves",
+      "Global Model"
+    ],
+    [
+      "Blockchain",
+      "deploys",
+      "Byzantine Fault-Tolerant Consensus Protocol"
+    ],
+    [
+      "Byzantine Fault-Tolerant Consensus Protocol",
+      "deployed_on",
+      "Edge Servers"
+    ],
+    [
+      "System",
+      "improves",
+      "Execution Efficiency"
+    ],
+    [
+      "System",
+      "improves",
+      "Scalability"
+    ],
+    [
+      "System",
+      "improves",
+      "Reliability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain (Global and Local)",
+    "Blockchain Sharding for Balancing Security and Computational Efficiency",
+    "Decentralized Federated Learning System",
+    "Directed Acyclic Graph for Main Chain",
+    "Improved Execution Efficiency",
+    "Improved Reliability",
+    "Improved Scalability",
+    "Local Models Saved and Global Model Retrieved from the Blockchain",
+    "Low-energy Byzantine fault-tolerant consensus protocol on Edge Servers",
+    "Pre-deployed Smart Contracts in the Blockchain",
+    "Raft Consensus Algorithm for Sharding Chain",
+    "Scalability Problems due to Multi-task Concurrency",
+    "Single Point Failure of Aggregation Server",
+    "Unreliability"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Blockchain",
+    "Blockchain (Global)",
+    "Blockchain (Local)",
+    "Byzantine Fault-Tolerant Consensus Protocol",
+    "Edge Servers",
+    "Execution Efficiency",
+    "Federated Learning (FL)",
+    "Global Model",
+    "Local Models",
+    "Raft Consensus Algorithm",
+    "Reliability",
+    "Scalability",
+    "Scalability Problems",
+    "Security and Computational Efficiency",
+    "Single Point Failure",
+    "System",
+    "Unreliability"
+  ],
+  "knowledge_graph2_relation": [
+    "balances",
+    "causes",
+    "comprises",
+    "deployed_on",
+    "deploys",
+    "faces",
+    "improves",
+    "retrieves",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06F16/27",
+    "G06F21/6245",
+    "G06N20/20"
+  ]
+}

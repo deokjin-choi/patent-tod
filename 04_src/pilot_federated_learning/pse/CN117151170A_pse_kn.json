@@ -1,0 +1,150 @@
+{
+  "publication_number": "CN117151170A",
+  "title": "A dual model replacement backdoor attack method and system based on federated learning",
+  "assignee": "Chongqing University of Post and Telecommunications",
+  "filing_date": "2023-09-01",
+  "publication_date": "2023-12-01",
+  "pse": {
+    "problem": "The invention aims to address the problem of dual model replacement backdoor attacks in federated learning, particularly focusing on the challenge of low concealment of triggers and single attack targets.",
+    "solution_function": "The invention presents a method for performing steganographic trigger generation, data poisoning, and model training in a coordinated manner to achieve multi-target backdoor attacks within federated learning. The system aims to improve the concealment of triggers and diversify attack targets.",
+    "solution_structure": "The key components include: (1) Trigger Generator for producing steganographic triggers, (2) Data Poisoning Module for adding the generated triggers into images in a reasonable manner, and (3) Model Training Module for training the backdoor model under federated learning.",
+    "solution_implementation": "The system first generates steganographic triggers using improved trigger generation methods. Then, it adds these triggers to images through Data Poisoning Module, aiming at multiple targets. Lastly, it trains the backdoor model using the poisoned data under federated learning in the Model Training Module.",
+    "effect": "The effect of this solution is the ability to perform multi-target backdoor attacks with increased concealment, enhancing the stealthiness and effectiveness of the attack."
+  },
+  "knowledge_graph": [
+    [
+      "Steganographic Trigger Generation Method",
+      "Addresses_Problem",
+      "Dual model replacement backdoor attacks in federated learning (focus on low concealment of triggers and single attack targets)"
+    ],
+    [
+      "Steganographic Trigger Generation Method",
+      "Comprises_Component",
+      "Trigger Generator"
+    ],
+    [
+      "Steganographic Trigger Generation Method",
+      "Implemented_By",
+      "Improved trigger generation methods"
+    ],
+    [
+      "Data Poisoning Module",
+      "Comprises_Component",
+      "Key Component 2"
+    ],
+    [
+      "Model Training Module",
+      "Comprises_Component",
+      "Key Component 3"
+    ],
+    [
+      "Steganographic Trigger Generation Method",
+      "Achieves_Effect",
+      "Multi-target backdoor attacks with increased concealment"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "addresses",
+      "Dual Model Replacement Backdoor Attacks"
+    ],
+    [
+      "Steganographic Trigger Generator",
+      "controls",
+      "Trigger Generation"
+    ],
+    [
+      "Data Poisoning Module",
+      "adds",
+      "Triggers to Images"
+    ],
+    [
+      "Model Training Module",
+      "trains",
+      "Backdoor Model"
+    ],
+    [
+      "Improved Trigger Generation Methods",
+      "generates",
+      "Steganographic Triggers"
+    ],
+    [
+      "Images",
+      "contains",
+      "Triggers"
+    ],
+    [
+      "Model Training Module",
+      "uses",
+      "Poisoned Data"
+    ],
+    [
+      "Multiple Targets",
+      "affects",
+      "Backdoor Attack"
+    ],
+    [
+      "Trigger Generator",
+      "improves",
+      "Concealment of Triggers"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Poisoning Module",
+    "Dual model replacement backdoor attacks in federated learning (focus on low concealment of triggers and single attack targets)",
+    "Improved trigger generation methods",
+    "Key Component 2",
+    "Key Component 3",
+    "Model Training Module",
+    "Multi-target backdoor attacks with increased concealment",
+    "Steganographic Trigger Generation Method",
+    "Trigger Generator"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Backdoor Attack",
+    "Backdoor Model",
+    "Concealment of Triggers",
+    "Data Poisoning Module",
+    "Dual Model Replacement Backdoor Attacks",
+    "Federated Learning",
+    "Images",
+    "Improved Trigger Generation Methods",
+    "Model Training Module",
+    "Multiple Targets",
+    "Poisoned Data",
+    "Steganographic Trigger Generator",
+    "Steganographic Triggers",
+    "Trigger Generation",
+    "Trigger Generator",
+    "Triggers",
+    "Triggers to Images"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "adds",
+    "affects",
+    "contains",
+    "controls",
+    "generates",
+    "improves",
+    "trains",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00",
+    "G06N3/0464",
+    "G06N3/0475",
+    "G06N3/048",
+    "G06N3/098",
+    "G06V10/764",
+    "Y02T10/40"
+  ]
+}

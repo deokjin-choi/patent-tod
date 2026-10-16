@@ -1,0 +1,171 @@
+{
+  "publication_number": "CN120031157A",
+  "title": "Vertical federated learning optimization method, device, equipment, storage medium and product",
+  "assignee": "WeBank Co Ltd",
+  "filing_date": "2023-11-22",
+  "publication_date": "2025-05-23",
+  "pse": {
+    "problem": "Low prediction accuracy of models obtained by training due to insufficient available training samples in federated learning",
+    "solution_function": "Coordinates a federated machine learning process between two devices (first and second) by aligning samples, extracting sample features, determining sample relationship features, calculating losses for federal machine learning and sample relation, and iteratively optimizing the first party feature extraction model",
+    "solution_structure": "First device with a first party characteristic extraction model, second device with a second square feature extraction model",
+    "solution_implementation": "Sample alignment, extraction of first and second sample features, determination of sample relationship features, calculation of federal machine learning loss and sample relation loss, iterative optimization of the first party feature extraction model",
+    "effect": "Improves prediction accuracy of models obtained by federated training through utilization of a larger number of available training samples"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Machine Learning Process",
+      "Addresses_Problem",
+      "Insufficient Training Samples Problem"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Comprises_Component",
+      "First Party Characteristic Extraction Model"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Composes_Component",
+      "Second Square Feature Extraction Model"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Implemented_By",
+      "Sample Alignment"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Implemented_By",
+      "First and Second Sample Feature Extraction"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Implemented_By",
+      "Determination of Sample Relationship Features"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Implemented_By",
+      "Calculation of Federal Machine Learning Loss"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Implemented_By",
+      "Calculation of Sample Relation Loss"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Implemented_By",
+      "Iterative Optimization of First Party Feature Extraction Model"
+    ],
+    [
+      "Federated Machine Learning Process",
+      "Achieves_Effect",
+      "Improved Prediction Accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "causes",
+      "Low Prediction Accuracy"
+    ],
+    [
+      "Insufficient Training Samples",
+      "reduces",
+      "Prediction Accuracy"
+    ],
+    [
+      "First Party Feature Extraction Model",
+      "improves",
+      "Prediction Accuracy"
+    ],
+    [
+      "First Device",
+      "comprises",
+      "First Party Feature Extraction Model"
+    ],
+    [
+      "Second Device",
+      "comprises",
+      "Second Square Feature Extraction Model"
+    ],
+    [
+      "Sample Alignment",
+      "controls",
+      "Sample Distribution"
+    ],
+    [
+      "Sample Features Extraction",
+      "controls",
+      "Feature Representation"
+    ],
+    [
+      "Sample Relationship Features Determination",
+      "improves",
+      "Model Generalization"
+    ],
+    [
+      "Federal Machine Learning Loss Calculation",
+      "evaluates",
+      "Model Performance"
+    ],
+    [
+      "Iterative Optimization of the First Party Feature Extraction Model",
+      "optimizes",
+      "Prediction Accuracy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculation of Federal Machine Learning Loss",
+    "Calculation of Sample Relation Loss",
+    "Determination of Sample Relationship Features",
+    "Federated Machine Learning Process",
+    "First Party Characteristic Extraction Model",
+    "First and Second Sample Feature Extraction",
+    "Improved Prediction Accuracy",
+    "Insufficient Training Samples Problem",
+    "Iterative Optimization of First Party Feature Extraction Model",
+    "Sample Alignment",
+    "Second Square Feature Extraction Model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Composes_Component",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Feature Representation",
+    "Federal Machine Learning Loss Calculation",
+    "Federated Learning",
+    "First Device",
+    "First Party Feature Extraction Model",
+    "Insufficient Training Samples",
+    "Iterative Optimization of the First Party Feature Extraction Model",
+    "Low Prediction Accuracy",
+    "Model Generalization",
+    "Model Performance",
+    "Prediction Accuracy",
+    "Sample Alignment",
+    "Sample Distribution",
+    "Sample Features Extraction",
+    "Sample Relationship Features Determination",
+    "Second Device",
+    "Second Square Feature Extraction Model"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "comprises",
+    "controls",
+    "evaluates",
+    "improves",
+    "optimizes",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06F18/213",
+    "G06N20/00",
+    "Y02T10/40"
+  ]
+}

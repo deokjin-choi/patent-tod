@@ -1,0 +1,167 @@
+{
+  "publication_number": "CN118298506A",
+  "title": "Clustered federal split learning method, system and medium for human activity recognition",
+  "assignee": "South China University of Technology SCUT",
+  "filing_date": "2024-04-10",
+  "publication_date": "2024-07-05",
+  "pse": {
+    "problem": "Addresses the challenge of training a global model with non-IID data in human activity recognition scenarios under resource constraints and device privacy protection.",
+    "solution_function": "Combines federated learning and split learning to mine non-IID data using a server-side model, employ hierarchical clustering on intermediate feature vectors for faster convergence and improved accuracy in human activity recognition.",
+    "solution_structure": "Central server with server-side model (W body), each client with lightweight client-side models (W head and W tail).",
+    "solution_implementation": "Initialization of the server-side model, distribution of lightweight client-side models to clients, computation of intermediate feature vectors on the client-side, reception of intermediate feature vectors by the server, hierarchical clustering of data using these vectors, and federated learning based on clustered data.",
+    "effect": "Improves final accuracy of federated split learning in human activity recognition scenarios, faster convergence, overcomes cold start challenges of traditional clustering federated learning, and allows for quick re-clustering when a new client joins."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning and Split Learning",
+      "Addresses_Problem",
+      "Challenge in training global model with non-IID data in human activity recognition"
+    ],
+    [
+      "Federated Learning and Split Learning",
+      "Comprises_Component",
+      "Server-side model"
+    ],
+    [
+      "Federated Learning and Split Learning",
+      "Comprises_Component",
+      "Lightweight client-side models (W head, W tail)"
+    ],
+    [
+      "Federated Learning and Split Learning",
+      "Implemented_By",
+      "Distribution of lightweight client-side models to clients, computation of intermediate feature vectors on the client-side, reception of intermediate feature vectors by the server, hierarchical clustering of data using these vectors, federated learning based on clustered data"
+    ],
+    [
+      "Federated Learning and Split Learning",
+      "Achieves_Effect",
+      "Improved final accuracy of federated split learning in human activity recognition scenarios, faster convergence, overcomes cold start challenges of traditional clustering federated learning, allows for quick re-clustering when a new client joins"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "addresses",
+      "Challenge in training global models with non-IID data"
+    ],
+    [
+      "Split Learning",
+      "used_in",
+      "Addressing challenge in training global models"
+    ],
+    [
+      "Server-side Model",
+      "employed",
+      "Mining non-IID data"
+    ],
+    [
+      "Central Server",
+      "comprises",
+      "Server-side Model"
+    ],
+    [
+      "Client-side Models",
+      "divided_into",
+      "W head and W tail"
+    ],
+    [
+      "Intermediate Feature Vectors",
+      "computed",
+      "On client-side models"
+    ],
+    [
+      "Server",
+      "receives",
+      "Intermediate feature vectors"
+    ],
+    [
+      "Hierarchical Clustering",
+      "applied_on",
+      "Data using intermediate feature vectors"
+    ],
+    [
+      "Federated Learning",
+      "based_on",
+      "Clustered data"
+    ],
+    [
+      "Federated Split Learning",
+      "improves",
+      "Final accuracy in human activity recognition scenarios"
+    ],
+    [
+      "Federated Split Learning",
+      "speeds_up",
+      "Convergence"
+    ],
+    [
+      "Traditional Clustering Federated Learning",
+      "overcome_challenges",
+      "Cold start challenges"
+    ],
+    [
+      "New Client",
+      "allows_quick_reclustering",
+      "When joins"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Challenge in training global model with non-IID data in human activity recognition",
+    "Distribution of lightweight client-side models to clients, computation of intermediate feature vectors on the client-side, reception of intermediate feature vectors by the server, hierarchical clustering of data using these vectors, federated learning based on clustered data",
+    "Federated Learning and Split Learning",
+    "Improved final accuracy of federated split learning in human activity recognition scenarios, faster convergence, overcomes cold start challenges of traditional clustering federated learning, allows for quick re-clustering when a new client joins",
+    "Lightweight client-side models (W head, W tail)",
+    "Server-side model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Addressing challenge in training global models",
+    "Central Server",
+    "Challenge in training global models with non-IID data",
+    "Client-side Models",
+    "Clustered data",
+    "Cold start challenges",
+    "Convergence",
+    "Data using intermediate feature vectors",
+    "Federated Learning",
+    "Federated Split Learning",
+    "Final accuracy in human activity recognition scenarios",
+    "Hierarchical Clustering",
+    "Intermediate Feature Vectors",
+    "Intermediate feature vectors",
+    "Mining non-IID data",
+    "New Client",
+    "On client-side models",
+    "Server",
+    "Server-side Model",
+    "Split Learning",
+    "Traditional Clustering Federated Learning",
+    "W head and W tail",
+    "When joins"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "allows_quick_reclustering",
+    "applied_on",
+    "based_on",
+    "comprises",
+    "computed",
+    "divided_into",
+    "employed",
+    "improves",
+    "overcome_challenges",
+    "receives",
+    "speeds_up",
+    "used_in"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06V10/762",
+    "G06V40/20"
+  ]
+}

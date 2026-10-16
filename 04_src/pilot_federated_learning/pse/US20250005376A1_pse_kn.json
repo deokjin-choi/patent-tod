@@ -1,0 +1,141 @@
+{
+  "publication_number": "US20250005376A1",
+  "title": "Federated learning with model diversity and backup in case of disconnected client",
+  "assignee": "Robert Bosch GmbH",
+  "filing_date": "2023-06-30",
+  "publication_date": "2025-01-02",
+  "pse": {
+    "problem": "Limitation in efficiently training global machine learning algorithms using multiple local datasets without exchanging sensitive data",
+    "solution_function": "Federated learning method trains local machine learning models at each client with locally-stored data, determines loss and updates weights. Server trains server-maintained models with updated weights sent from clients and identifies disconnected clients to send model portions from neighboring clients.",
+    "solution_structure": "Server maintains global machine learning models, each client has local data and local machine learning models, a client is connected to a neighboring client in case of disconnection.",
+    "solution_implementation": "Clients train local models, determine loss, update weights, and transfer updated weights to the server. Server trains global models with received updates and identifies disconnected clients and sends portions of models from neighbors.",
+    "effect": "Avoidance of sensitive data exchange while training a shared model using locally stored data"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Limitation in efficiently training global machine learning algorithms"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Local Machine Learning Models"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Global Machine Learning Models"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Training local models, determining loss, updating weights, transferring updated weights to the server, and training global models with received updates"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Avoidance of sensitive data exchange"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Local Machine Learning Algorithms",
+      "trains",
+      "Locally-Stored Data"
+    ],
+    [
+      "Local Machine Learning Algorithms",
+      "controls",
+      "Loss Determination"
+    ],
+    [
+      "Local Machine Learning Algorithms",
+      "updates",
+      "Weights"
+    ],
+    [
+      "Clients",
+      "stores",
+      "Local Machine Learning Models"
+    ],
+    [
+      "Server",
+      "receives",
+      "Updated Weights"
+    ],
+    [
+      "Server",
+      "trains",
+      "Global Machine Learning Models"
+    ],
+    [
+      "Server",
+      "identifies",
+      "Disconnected Clients"
+    ],
+    [
+      "Server",
+      "sends",
+      "Model Portions"
+    ],
+    [
+      "Neighboring Clients",
+      "provides",
+      "Model Portions"
+    ],
+    [
+      "Clients",
+      "communicates_with",
+      "Server"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Avoidance of sensitive data exchange",
+    "Federated Learning Method",
+    "Global Machine Learning Models",
+    "Limitation in efficiently training global machine learning algorithms",
+    "Local Machine Learning Models",
+    "Training local models, determining loss, updating weights, transferring updated weights to the server, and training global models with received updates"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Clients",
+    "Disconnected Clients",
+    "Global Machine Learning Models",
+    "Local Machine Learning Algorithms",
+    "Local Machine Learning Models",
+    "Locally-Stored Data",
+    "Loss Determination",
+    "Model Portions",
+    "Neighboring Clients",
+    "Server",
+    "Updated Weights",
+    "Weights"
+  ],
+  "knowledge_graph2_relation": [
+    "communicates_with",
+    "controls",
+    "identifies",
+    "provides",
+    "receives",
+    "sends",
+    "stores",
+    "trains",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/045",
+    "G06N3/063",
+    "G06N3/08",
+    "G06N3/084",
+    "G06N3/098",
+    "H04L67/10"
+  ]
+}

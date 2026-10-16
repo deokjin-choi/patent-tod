@@ -1,0 +1,160 @@
+{
+  "publication_number": "CN113704776A",
+  "title": "Machine learning method based on federal learning",
+  "assignee": "Hangzhou Yikang Huilian Technology Co ltd",
+  "filing_date": "2021-07-15",
+  "publication_date": "2021-11-26",
+  "pse": {
+    "problem": "Inefficiency in converging machine learning models based on federal learning due to poor interaction between training nodes during data collaboration",
+    "solution_function": "A federated learning method performs character processing and model training on local training data using a Poisson regression algorithm. It exchanges gradient information and updates model weights among training nodes, encrypts intermediate data, and collaboratively calculates updated results.",
+    "solution_structure": "The system consists of training nodes (initiating node and participating node) and a forwarding node. Each node has the capability to perform character processing, model training, gradient calculation, encryption, and decryption.",
+    "solution_implementation": "Training nodes process local data, send gradient information to the forwarding node, receive gradient information from other nodes, update local model weights, encrypt intermediate data, and collaboratively calculate updated results. The forwarding node distributes encrypted intermediate data to each training node.",
+    "effect": "Improved convergence of machine learning models due to efficient interaction between training nodes in a networked data collaboration mode"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Inefficiency in converging machine learning models"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Training Nodes"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Forwarding Node"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Character Processing"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Model Training"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Gradient Calculation"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Encryption and Decryption"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Improved convergence of machine learning models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning",
+      "causes",
+      "Inefficiency in converging machine learning models"
+    ],
+    [
+      "Training Nodes",
+      "controls",
+      "Interaction between training nodes during data collaboration"
+    ],
+    [
+      "Training Node (initiating node)",
+      "processes",
+      "Local Data"
+    ],
+    [
+      "Training Node (participating node)",
+      "processes",
+      "Local Data"
+    ],
+    [
+      "Poisson Regression Algorithm",
+      "implements",
+      "Model Training"
+    ],
+    [
+      "Gradient Information",
+      "transmits_to",
+      "Forwarding Node"
+    ],
+    [
+      "Gradient Information",
+      "transmits_to",
+      "Other Nodes"
+    ],
+    [
+      "Forwarding Node",
+      "updates",
+      "Local Model Weights"
+    ],
+    [
+      "Encrypted Intermediate Data",
+      "collaboratively_calculates",
+      "Updated Results"
+    ],
+    [
+      "Federated Learning Method",
+      "achieves",
+      "Improved convergence of machine learning models"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Character Processing",
+    "Encryption and Decryption",
+    "Federated Learning Method",
+    "Forwarding Node",
+    "Gradient Calculation",
+    "Improved convergence of machine learning models",
+    "Inefficiency in converging machine learning models",
+    "Model Training",
+    "Training Nodes"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Encrypted Intermediate Data",
+    "Federal Learning",
+    "Federated Learning Method",
+    "Forwarding Node",
+    "Gradient Information",
+    "Improved convergence of machine learning models",
+    "Inefficiency in converging machine learning models",
+    "Interaction between training nodes during data collaboration",
+    "Local Data",
+    "Local Model Weights",
+    "Model Training",
+    "Other Nodes",
+    "Poisson Regression Algorithm",
+    "Training Node (initiating node)",
+    "Training Node (participating node)",
+    "Training Nodes",
+    "Updated Results"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "collaboratively_calculates",
+    "controls",
+    "implements",
+    "processes",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

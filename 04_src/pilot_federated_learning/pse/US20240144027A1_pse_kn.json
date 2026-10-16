@@ -1,0 +1,142 @@
+{
+  "publication_number": "US20240144027A1",
+  "title": "Personalized federated learning of gradient boosted trees",
+  "assignee": "International Business Machines Corp",
+  "filing_date": "2023-02-27",
+  "publication_date": "2024-05-02",
+  "pse": {
+    "problem": "Training a global machine learning model across multiple parties holding local data samples without exchanging the samples.",
+    "solution_function": "Federated learning technique trains a global machine learning model iteratively by distributing it to each party, generating personalized model updates from updated models boosted locally using their respective local data, fusing these updates to produce a boosted decision tree, and updating the global model accordingly.",
+    "solution_structure": "A system consists of multiple parties, each having local data and a local machine learning model. A global machine learning model, which is initially distributed, acts as a central model for fusion of personalized model updates.",
+    "solution_implementation": "The global machine learning model (initially distributed to each party) is trained using federated learning by employing gradient boosted trees. Each party trains local models using their respective local data, generates updated models through boosting, and sends these updates to a fusion center for consolidation into the global model.",
+    "effect": "This approach provides efficient training of a personalized machine learning model without exchanging sensitive local data among parties, thus ensuring privacy and reducing communication overhead."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Global Machine Learning Model Training Across Multiple Parties"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Multiple Parties with Local Data"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Global Machine Learning Model"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Gradient Boosted Trees"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Privacy and Reduced Communication Overhead"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Global Machine Learning Model",
+      "comprises",
+      "Federated Learning Technique"
+    ],
+    [
+      "Party",
+      "has",
+      "Local Data"
+    ],
+    [
+      "Party",
+      "has",
+      "Local Machine Learning Model"
+    ],
+    [
+      "Global Machine Learning Model",
+      "distributes_to",
+      "Each Party"
+    ],
+    [
+      "Global Machine Learning Model",
+      "updates_accordingly",
+      "Fusion of Personalized Model Updates"
+    ],
+    [
+      "Each Party",
+      "generates",
+      "Personalized Model Updates"
+    ],
+    [
+      "Local Data",
+      "boosts",
+      "Local Machine Learning Model"
+    ],
+    [
+      "Gradient Boosted Trees",
+      "trains",
+      "Global Machine Learning Model"
+    ],
+    [
+      "Local Model Updates",
+      "sent_to",
+      "Fusion Center"
+    ],
+    [
+      "Fusion Center",
+      "consolidates",
+      "Local Model Updates"
+    ],
+    [
+      "Consolidated Updates",
+      "updates",
+      "Global Machine Learning Model"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated Learning",
+    "Global Machine Learning Model",
+    "Global Machine Learning Model Training Across Multiple Parties",
+    "Gradient Boosted Trees",
+    "Multiple Parties with Local Data",
+    "Privacy and Reduced Communication Overhead"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Consolidated Updates",
+    "Each Party",
+    "Federated Learning Technique",
+    "Fusion Center",
+    "Fusion of Personalized Model Updates",
+    "Global Machine Learning Model",
+    "Gradient Boosted Trees",
+    "Local Data",
+    "Local Machine Learning Model",
+    "Local Model Updates",
+    "Party",
+    "Personalized Model Updates"
+  ],
+  "knowledge_graph2_relation": [
+    "boosts",
+    "comprises",
+    "consolidates",
+    "distributes_to",
+    "generates",
+    "has",
+    "sent_to",
+    "trains",
+    "updates",
+    "updates_accordingly"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/098"
+  ]
+}

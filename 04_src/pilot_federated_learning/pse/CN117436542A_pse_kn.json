@@ -1,0 +1,148 @@
+{
+  "publication_number": "CN117436542A",
+  "title": "Chain federal learning method based on grouping and weight self-optimization",
+  "assignee": "Henan University",
+  "filing_date": "2023-09-21",
+  "publication_date": "2024-01-23",
+  "pse": {
+    "problem": "Heterogeneity in federated learning leads to performance degradation and slow convergence speed.",
+    "solution_function": "Chain federated learning method based on grouping and weight self-optimization optimizes the global model by utilizing client computing power, improving convergence speed and accuracy.",
+    "solution_structure": "The system consists of servers and clients divided into n groups, each containing m clients. Relevant parameters include the initial global model, initial weight distribution model, and initial weights of each client's local model.",
+    "solution_implementation": "1. Server divides all clients into n groups. 2. Server initializes relevant parameters and saves the test set. 3. Starting from the first group of clients, the server updates the global model and weight distribution model based on the local models of clients in each group.",
+    "effect": "Improved convergence speed and accuracy in federated learning due to efficient utilization of client and server computing power."
+  },
+  "knowledge_graph": [
+    [
+      "Chain federated learning method",
+      "Addresses_Problem",
+      "Heterogeneity in federated learning"
+    ],
+    [
+      "Chain federated learning method",
+      "Comprises_Component",
+      "Groups of clients"
+    ],
+    [
+      "Chain federated learning method",
+      "Comprises_Component",
+      "Initial global model, initial weight distribution model, and initial weights of each client's local model"
+    ],
+    [
+      "Chain federated learning method",
+      "Implemented_By",
+      "Updating the global model and weight distribution model based on the local models of clients in each group"
+    ],
+    [
+      "Chain federated learning method",
+      "Achieves_Effect",
+      "Improved convergence speed and accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Heterogeneity",
+      "causes",
+      "Performance Degradation"
+    ],
+    [
+      "Heterogeneity",
+      "causes",
+      "Slow Convergence Speed"
+    ],
+    [
+      "Chain Federated Learning Method",
+      "controls",
+      "Global Model Optimization"
+    ],
+    [
+      "Chain Federated Learning Method",
+      "utilizes",
+      "Client Computing Power"
+    ],
+    [
+      "Grouping",
+      "comprises",
+      "Clients Division"
+    ],
+    [
+      "Weight Self-Optimization",
+      "controls",
+      "Initial Weight Distribution Model"
+    ],
+    [
+      "Server",
+      "initializes",
+      "Relevant Parameters"
+    ],
+    [
+      "Server",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Client",
+      "stores",
+      "Local Model Weights"
+    ],
+    [
+      "Improved Convergence Speed",
+      "caused by",
+      "Efficient Utilization of Client and Server Computing Power"
+    ],
+    [
+      "Accuracy",
+      "improved by",
+      "Efficient Utilization of Client and Server Computing Power"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Chain federated learning method",
+    "Groups of clients",
+    "Heterogeneity in federated learning",
+    "Improved convergence speed and accuracy",
+    "Initial global model, initial weight distribution model, and initial weights of each client's local model",
+    "Updating the global model and weight distribution model based on the local models of clients in each group"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Chain Federated Learning Method",
+    "Client",
+    "Client Computing Power",
+    "Clients Division",
+    "Efficient Utilization of Client and Server Computing Power",
+    "Global Model",
+    "Global Model Optimization",
+    "Grouping",
+    "Heterogeneity",
+    "Improved Convergence Speed",
+    "Initial Weight Distribution Model",
+    "Local Model Weights",
+    "Performance Degradation",
+    "Relevant Parameters",
+    "Server",
+    "Slow Convergence Speed",
+    "Weight Self-Optimization"
+  ],
+  "knowledge_graph2_relation": [
+    "caused by",
+    "causes",
+    "comprises",
+    "controls",
+    "improved by",
+    "initializes",
+    "stores",
+    "updates",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06F17/10",
+    "G06F17/16",
+    "G06N20/00"
+  ]
+}

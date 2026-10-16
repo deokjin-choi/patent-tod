@@ -1,0 +1,202 @@
+{
+  "publication_number": "CN115082193A",
+  "title": "A modeling method, device, equipment and medium based on federated learning",
+  "assignee": "Bank of China Ltd",
+  "filing_date": "2022-06-21",
+  "publication_date": "2022-09-20",
+  "pse": {
+    "problem": "Building an intelligent and effective quota approval model for customizing accurate quotas for customers in financial and banking applications, where data isolation between banks and regulatory requirements make it difficult to achieve data sharing and build a high-quality quota approval model.",
+    "solution_function": "The method combines the data of two participants (first and second) to establish a quota approval model using federated learning. It involves training models on user feature data, exchanging encrypted model parameters and intermediate results for iterative training, and updating models based on gradient information.",
+    "solution_structure": "The key components include user intersection determination, encrypted data exchange, and machine learning models (first model and second model).",
+    "solution_implementation": "The method first determines a user intersection between the first participant's first sample and the second participant's second sample. Then, it receives encrypted first model parameters and first intermediate results from the second participant. Subsequently, it trains the first model using the first data (first user feature data corresponding to the determined user intersection) to obtain model parameters and intermediate results. The gradient information is then used to train the second model with the first participant's second data (second user feature data and label data corresponding to the user intersection). This process continues iteratively until training is completed. Optional steps include data cleaning, abnormal value processing, and differential privacy techniques for determining user intersections.",
+    "effect": "Improved accuracy of the quota approval model by leveraging data from various banking institutions while maintaining customer privacy"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Quota Approval Model Building Problem"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "User Intersection Determination"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Encrypted Data Exchange"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Improved Quota Approval Model Accuracy"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "First Model"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Second Model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Intelligent Quota Approval Model",
+      "controls",
+      "Quotas for Customers"
+    ],
+    [
+      "Data Isolation",
+      "hinders",
+      "Data Sharing"
+    ],
+    [
+      "Regulatory Requirements",
+      "imposes",
+      "Data Sharing Limitations"
+    ],
+    [
+      "Federated Learning",
+      "enables",
+      "Data Combination"
+    ],
+    [
+      "Participant (First)",
+      "provides",
+      "User Feature Data (first sample)"
+    ],
+    [
+      "Participant (Second)",
+      "provides",
+      "User Feature Data (second sample)"
+    ],
+    [
+      "Quota Approval Model",
+      "comprises",
+      "First Model"
+    ],
+    [
+      "Quota Approval Model",
+      "comprises",
+      "Second Model"
+    ],
+    [
+      "Encrypted Data Exchange",
+      "exchanges",
+      "Model Parameters"
+    ],
+    [
+      "Encrypted Data Exchange",
+      "exchanges",
+      "Intermediate Results"
+    ],
+    [
+      "First Model",
+      "trains_on",
+      "First User Feature Data"
+    ],
+    [
+      "Second Model",
+      "trains_on",
+      "First User Feature Data and Label Data"
+    ],
+    [
+      "Gradient Information",
+      "updates",
+      "Second Model"
+    ],
+    [
+      "Iterative Training",
+      "involves",
+      "Exchanging Encrypted Model Parameters"
+    ],
+    [
+      "Iterative Training",
+      "involves",
+      "Exchanging Intermediate Results"
+    ],
+    [
+      "Improved Accuracy",
+      "results_from",
+      "Leveraging Data from Multiple Banks"
+    ],
+    [
+      "Improved Accuracy",
+      "maintains",
+      "Customer Privacy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Encrypted Data Exchange",
+    "Federated Learning Method",
+    "First Model",
+    "Improved Quota Approval Model Accuracy",
+    "Quota Approval Model Building Problem",
+    "Second Model",
+    "User Intersection Determination"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Customer Privacy",
+    "Data Combination",
+    "Data Isolation",
+    "Data Sharing",
+    "Data Sharing Limitations",
+    "Encrypted Data Exchange",
+    "Exchanging Encrypted Model Parameters",
+    "Exchanging Intermediate Results",
+    "Federated Learning",
+    "First Model",
+    "First User Feature Data",
+    "First User Feature Data and Label Data",
+    "Gradient Information",
+    "Improved Accuracy",
+    "Intelligent Quota Approval Model",
+    "Intermediate Results",
+    "Iterative Training",
+    "Leveraging Data from Multiple Banks",
+    "Model Parameters",
+    "Participant (First)",
+    "Participant (Second)",
+    "Quota Approval Model",
+    "Quotas for Customers",
+    "Regulatory Requirements",
+    "Second Model",
+    "User Feature Data (first sample)",
+    "User Feature Data (second sample)"
+  ],
+  "knowledge_graph2_relation": [
+    "comprises",
+    "controls",
+    "enables",
+    "exchanges",
+    "hinders",
+    "imposes",
+    "involves",
+    "maintains",
+    "provides",
+    "results_from",
+    "trains_on",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F16/215",
+    "G06N20/00",
+    "G06Q10/103"
+  ]
+}

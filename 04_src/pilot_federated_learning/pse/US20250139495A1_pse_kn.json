@@ -1,0 +1,161 @@
+{
+  "publication_number": "US20250139495A1",
+  "title": "Selectively shared condensed data for efficient federated learning",
+  "assignee": "Capital One Services LLC",
+  "filing_date": "2023-10-26",
+  "publication_date": "2025-05-01",
+  "pse": {
+    "problem": "Excessive energy consumption due to overfitting problems caused by the use of redundant and duplicative condensed data during federated machine learning model training.",
+    "solution_function": "Selects and distributes a subset of diverse condensed datasets to multiple client devices for training their respective local models, reducing duplicative training and energy consumption.",
+    "solution_structure": "A central computing system, plurality of client devices, machine learning model parameters (weights, activation function parameters, biases), condensed datasets.",
+    "solution_implementation": "Client devices receive machine learning model parameters, perform data condensation operations on their respective local data to generate condensed datasets. The central system selects a subset of condensed datasets based on feature space distance, and sends the selected subset to client devices for training their respective local models.",
+    "effect": "Improved energy efficiency by reducing duplicative training in lower-resource computing environments."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Machine Learning Model Training Algorithm",
+      "Addresses_Problem",
+      "Excessive Energy Consumption Due To Overfitting"
+    ],
+    [
+      "Federated Machine Learning Model Training Algorithm",
+      "Comprises_Component",
+      "Central Computing System"
+    ],
+    [
+      "Federated Machine Learning Model Training Algorithm",
+      "Comprises_Component",
+      "Plurality of Client Devices"
+    ],
+    [
+      "Federated Machine Learning Model Training Algorithm",
+      "Implemented_By",
+      "Data Condensation Operations"
+    ],
+    [
+      "Federated Machine Learning Model Training Algorithm",
+      "Achieves_Effect",
+      "Improved Energy Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Overfitting Problem",
+      "causes",
+      "Excessive Energy Consumption"
+    ],
+    [
+      "Redundant and Duplicative Condensed Data",
+      "contributes_to",
+      "Overfitting Problem"
+    ],
+    [
+      "Machine Learning Model Training",
+      "suffers_from",
+      "Overfitting Problem"
+    ],
+    [
+      "Central Computing System",
+      "selects",
+      "Subset of Condensed Datasets"
+    ],
+    [
+      "Central Computing System",
+      "distributes",
+      "Machine Learning Model Parameters"
+    ],
+    [
+      "Client Device",
+      "receives",
+      "Machine Learning Model Parameters"
+    ],
+    [
+      "Client Device",
+      "performs",
+      "Data Condensation Operations"
+    ],
+    [
+      "Condensed Data",
+      "sent_to",
+      "Client Devices"
+    ],
+    [
+      "Client Device",
+      "trains",
+      "Local Models"
+    ],
+    [
+      "Central Computing System",
+      "chooses",
+      "Subset of Condensed Datasets based on Feature Space Distance"
+    ],
+    [
+      "Machine Learning Model Parameters (weights, activation function parameters, biases)",
+      "used_by",
+      "Training of Local Models"
+    ],
+    [
+      "Redundant Training",
+      "reduces",
+      "Energy Consumption"
+    ],
+    [
+      "Lower-Resource Computing Environments",
+      "benefits_from",
+      "Improved Energy Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Computing System",
+    "Data Condensation Operations",
+    "Excessive Energy Consumption Due To Overfitting",
+    "Federated Machine Learning Model Training Algorithm",
+    "Improved Energy Efficiency",
+    "Plurality of Client Devices"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Computing System",
+    "Client Device",
+    "Client Devices",
+    "Condensed Data",
+    "Data Condensation Operations",
+    "Energy Consumption",
+    "Excessive Energy Consumption",
+    "Improved Energy Efficiency",
+    "Local Models",
+    "Lower-Resource Computing Environments",
+    "Machine Learning Model Parameters",
+    "Machine Learning Model Parameters (weights, activation function parameters, biases)",
+    "Machine Learning Model Training",
+    "Overfitting Problem",
+    "Redundant Training",
+    "Redundant and Duplicative Condensed Data",
+    "Subset of Condensed Datasets",
+    "Subset of Condensed Datasets based on Feature Space Distance",
+    "Training of Local Models"
+  ],
+  "knowledge_graph2_relation": [
+    "benefits_from",
+    "causes",
+    "chooses",
+    "contributes_to",
+    "distributes",
+    "performs",
+    "receives",
+    "reduces",
+    "selects",
+    "sent_to",
+    "suffers_from",
+    "trains",
+    "used_by"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "publication_number": "CN115115059A",
+  "title": "Similarity measurement-based centralized federated learning method",
+  "assignee": "Henan University of Technology",
+  "filing_date": "2022-05-13",
+  "publication_date": "2022-09-27",
+  "pse": {
+    "problem": "Traditional ML paradigms require large datasets collected by a central server for training models, but in many practical applications of the Internet, data can be sensitive to privacy, and the cost of aggregating large datasets on a central server can be high. This limitation prevents data-driven machine learning from meeting the needs of the IoT systems.",
+    "solution_function": "The decentralized federated learning method based on similarity measurement solves this problem by training models using decentralized training data in IoT systems without requiring clients to transmit their original datasets, thus reducing communication costs and guaranteeing data privacy.",
+    "solution_structure": "The solution consists of multiple clients, a server or edge device, and potentially multiple central servers. Clients perform local computations on their own data, and the server or central servers aggregate the results to construct a global model.",
+    "solution_implementation": "The Federated Average Algorithm (FedAvg) is a key method in this solution. It involves uploading parameters from each client's local model for aggregation and update on the server, allowing the construction of a global model from a subset of clients with non-IID data. Other methods like Fedprox, FedPAQ, and Hyper-Sphere Quantization are also used to further reduce communication costs and improve efficiency.",
+    "effect": "The result is a decrease in communication costs, preservation of data privacy, and the ability to train models using decentralized training data, making data-driven machine learning suitable for IoT systems."
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Federated Learning Method",
+      "Addresses_Problem",
+      "Core Problem Concept"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Comprises_Component",
+      "Multiple Clients"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Comprises_Component",
+      "Server or Edge Device"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Comprises_Component",
+      "Potentially Multiple Central Servers"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Implemented_By",
+      "Federated Average Algorithm (FedAvg)"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Implemented_By",
+      "Other Methods like Fedprox, FedPAQ, and Hyper-Sphere Quantization"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Achieves_Effect",
+      "Decrease in Communication Costs"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Achieves_Effect",
+      "Preservation of Data Privacy"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Achieves_Effect",
+      "Ability to Train Models Using Decentralized Training Data"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Central Server",
+      "causes",
+      "High Costs"
+    ],
+    [
+      "Data Privacy",
+      "addresses",
+      "Traditional ML paradigms"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "reduces",
+      "Communication Costs"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "guarantees",
+      "Data Privacy"
+    ],
+    [
+      "Decentralized Training Data",
+      "used_for",
+      "Training Models"
+    ],
+    [
+      "Clients",
+      "perform",
+      "Local Computations"
+    ],
+    [
+      "Server or Edge Device",
+      "aggregates",
+      "Results"
+    ],
+    [
+      "Global Model",
+      "constructed_from",
+      "Aggregated Results"
+    ],
+    [
+      "Federated Average Algorithm (FedAvg)",
+      "used_for",
+      "Parameter Aggregation and Update"
+    ],
+    [
+      "Federated Learning Method",
+      "involves",
+      "Federated Average Algorithm (FedAvg)"
+    ],
+    [
+      "Federated Learning Method",
+      "may_use",
+      "Fedprox, FedPAQ, Hyper-Sphere Quantization"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "allows",
+      "Data-driven Machine Learning for IoT Systems"
+    ],
+    [
+      "IoT Systems",
+      "benefits_from",
+      "Decentralized Federated Learning Method"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Ability to Train Models Using Decentralized Training Data",
+    "Core Problem Concept",
+    "Decentralized Federated Learning Method",
+    "Decrease in Communication Costs",
+    "Federated Average Algorithm (FedAvg)",
+    "Multiple Clients",
+    "Other Methods like Fedprox, FedPAQ, and Hyper-Sphere Quantization",
+    "Potentially Multiple Central Servers",
+    "Preservation of Data Privacy",
+    "Server or Edge Device"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Results",
+    "Central Server",
+    "Clients",
+    "Communication Costs",
+    "Data Privacy",
+    "Data-driven Machine Learning for IoT Systems",
+    "Decentralized Federated Learning Method",
+    "Decentralized Training Data",
+    "Federated Average Algorithm (FedAvg)",
+    "Federated Learning Method",
+    "Fedprox, FedPAQ, Hyper-Sphere Quantization",
+    "Global Model",
+    "High Costs",
+    "IoT Systems",
+    "Local Computations",
+    "Parameter Aggregation and Update",
+    "Results",
+    "Server or Edge Device",
+    "Traditional ML paradigms",
+    "Training Models"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "allows",
+    "benefits_from",
+    "causes",
+    "constructed_from",
+    "guarantees",
+    "involves",
+    "may_use",
+    "perform",
+    "reduces",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/08",
+    "Y02T10/40"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "publication_number": "CN119377959A",
+  "title": "Vulnerability exploitability assessment method and device based on federated learning",
+  "assignee": "University of Science and Technology of China USTC",
+  "filing_date": "2023-07-25",
+  "publication_date": "2025-01-28",
+  "pse": {
+    "problem": "The rapid increase in vulnerabilities poses a threat to security workers and platforms, and there's a need for an effective method to evaluate the availability of discovered vulnerabilities.",
+    "solution_function": "Evaluates the availability of vulnerabilities using federal learning-based models, which are trained on both vulnerability text information and non-text information. The evaluation results represent the vulnerability's potential utility.",
+    "solution_structure": "Includes a system for obtaining, extracting, fusing, and inputting vulnerability feature information, and a federal learning-based vulnerability availability evaluation model.",
+    "solution_implementation": "The vulnerability availability evaluation method uses transverse or horizontal federal learning to train classification models. It involves homomorphic encryption of client gradients, information aggregation, and model updates based on converged classification models.",
+    "effect": "Improves the efficiency in exploiting discovered vulnerabilities by evaluating their potential utility."
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning-Based Models",
+      "Addresses_Problem",
+      "Rapid Increase in Vulnerabilities"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "Comprises_Component",
+      "Vulnerability Text Information"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "Comprises_Component",
+      "Non-Text Information"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "Implemented_By",
+      "Transverse or Horizontal Federal Learning"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "Implemented_By",
+      "Homomorphic Encryption of Client Gradients"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "Implemented_By",
+      "Information Aggregation"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "Implemented_By",
+      "Model Updates based on Converged Classification Models"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "Achieves_Effect",
+      "Efficiency in Exploiting Discovered Vulnerabilities"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning-Based Models",
+      "controls",
+      "Vulnerability Evaluation"
+    ],
+    [
+      "Vulnerability Text Information",
+      "comprises",
+      "Input for Federal Learning-Based Models"
+    ],
+    [
+      "Non-Text Information",
+      "comprises",
+      "Input for Federal Learning-Based Models"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "trains_on",
+      "Vulnerability Text Information"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "trains_on",
+      "Non-Text Information"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "evaluates",
+      "Availability of Vulnerabilities"
+    ],
+    [
+      "Federal Learning-Based Models",
+      "generates",
+      "Evaluation Results"
+    ],
+    [
+      "Evaluation Results",
+      "represents",
+      "Vulnerability's Potential Utility"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Efficiency in Exploiting Discovered Vulnerabilities",
+    "Federal Learning-Based Models",
+    "Homomorphic Encryption of Client Gradients",
+    "Information Aggregation",
+    "Model Updates based on Converged Classification Models",
+    "Non-Text Information",
+    "Rapid Increase in Vulnerabilities",
+    "Transverse or Horizontal Federal Learning",
+    "Vulnerability Text Information"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Availability of Vulnerabilities",
+    "Evaluation Results",
+    "Federal Learning-Based Models",
+    "Input for Federal Learning-Based Models",
+    "Non-Text Information",
+    "Vulnerability Evaluation",
+    "Vulnerability Text Information",
+    "Vulnerability's Potential Utility"
+  ],
+  "knowledge_graph2_relation": [
+    "comprises",
+    "controls",
+    "evaluates",
+    "generates",
+    "represents",
+    "trains_on"
+  ],
+  "cpc_code": [
+    "G06F18/24",
+    "G06F18/25",
+    "G06F21/577",
+    "G06N20/00"
+  ]
+}

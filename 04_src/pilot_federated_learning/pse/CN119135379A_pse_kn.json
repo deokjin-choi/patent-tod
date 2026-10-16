@@ -1,0 +1,155 @@
+{
+  "publication_number": "CN119135379A",
+  "title": "Knowledge plane construction method and system based on ensemble learning and federated learning",
+  "assignee": "Guangzhou University",
+  "filing_date": "2024-08-16",
+  "publication_date": "2024-12-13",
+  "pse": {
+    "problem": "Limitation in DDOS attack detection accuracy and robustness due to relying on a single detection model",
+    "solution_function": "Trains an initial DDOS flow identification classification model using federal learning, then aggregates multiple final DDOS flow identification classification models through integrated learning (specifically stacked generalization algorithm) to create a DDOS knowledge plane that improves the accuracy of DDOS attack detection and robustness of the model.",
+    "solution_structure": "Historical flow log information, primary threat information, multiple initial DDOS flow identification classification models, data set, federal learning results, integrated learning result",
+    "solution_implementation": "Acquiring historical flow log information and classifying it to label as primary threat information, preprocessing primary threat information to create a data set, performing federal learning on the multiple initial DDOS flow identification classification models using the data set to obtain final models, integrating the final models through stacked generalization algorithm to produce the DDOS knowledge plane",
+    "effect": "Improved accuracy of DDOS attack detection and robustness of the model"
+  },
+  "knowledge_graph": [
+    [
+      "DDOS Knowledge Plane",
+      "Addresses_Problem",
+      "Limitation in DDOS attack detection accuracy and robustness"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "Comprises_Component",
+      "Historical flow log information"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "Comprises_Component",
+      "Primary threat information"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "Comprises_Component",
+      "Multiple initial DDOS flow identification classification models"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "Implemented_By",
+      "Federal learning"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "Implemented_By",
+      "Integrated learning (Stacked Generalization Algorithm)"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "Achieves_Effect",
+      "Improved accuracy of DDOS attack detection"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "Achieves_Effect",
+      "Robustness of the model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Single Detection Model",
+      "causes",
+      "Limitation in DDOS attack detection accuracy and robustness"
+    ],
+    [
+      "Federal Learning",
+      "trains",
+      "Initial DDOS flow identification classification model"
+    ],
+    [
+      "Integrated Learning (Stacked Generalization Algorithm)",
+      "aggregates",
+      "Multiple final DDOS flow identification classification models"
+    ],
+    [
+      "Integrated Learning Result",
+      "creates",
+      "DDOS Knowledge Plane"
+    ],
+    [
+      "Historical Flow Log Information",
+      "labels",
+      "Primary Threat Information"
+    ],
+    [
+      "Primary Threat Information",
+      "preprocessed",
+      "Data Set"
+    ],
+    [
+      "Multiple Initial DDOS flow identification classification models",
+      "used",
+      "Federal Learning Results"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "improves",
+      "Accuracy of DDOS attack detection"
+    ],
+    [
+      "DDOS Knowledge Plane",
+      "increases",
+      "Robustness of the model"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "DDOS Knowledge Plane",
+    "Federal learning",
+    "Historical flow log information",
+    "Improved accuracy of DDOS attack detection",
+    "Integrated learning (Stacked Generalization Algorithm)",
+    "Limitation in DDOS attack detection accuracy and robustness",
+    "Multiple initial DDOS flow identification classification models",
+    "Primary threat information",
+    "Robustness of the model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy of DDOS attack detection",
+    "DDOS Knowledge Plane",
+    "Data Set",
+    "Federal Learning",
+    "Federal Learning Results",
+    "Historical Flow Log Information",
+    "Initial DDOS flow identification classification model",
+    "Integrated Learning (Stacked Generalization Algorithm)",
+    "Integrated Learning Result",
+    "Limitation in DDOS attack detection accuracy and robustness",
+    "Multiple Initial DDOS flow identification classification models",
+    "Multiple final DDOS flow identification classification models",
+    "Primary Threat Information",
+    "Robustness of the model",
+    "Single Detection Model"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "causes",
+    "creates",
+    "improves",
+    "increases",
+    "labels",
+    "preprocessed",
+    "trains",
+    "used"
+  ],
+  "cpc_code": [
+    "G06F18/241",
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/0464",
+    "H04L63/1458"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "publication_number": "CN118868078A",
+  "title": "Distributed load control method and system on power demand side based on federated learning",
+  "assignee": "Nanjing Institute of Technology",
+  "filing_date": "2024-08-12",
+  "publication_date": "2024-10-29",
+  "pse": {
+    "problem": "Tight electricity supply and demand situation with increasing difficulty for supply-side regulation. Need for a method to ensure power supply while utilizing and mining value of load resources.",
+    "solution_function": "Collect encrypted load status information from adjustable load units, jointly train distributed load control model using edge computing power at load terminals, and apply the trained model to ensure participation of multiple loads on demand side in control, promoting intelligent interactive mode of power grid operation.",
+    "solution_structure": "Load terminal, adjustable load unit, encrypted load status information, federated learning-based distributed load control model.",
+    "solution_implementation": "Collect load status information, encrypt the data, upload to terminal, jointly train and apply the distributed load control model using the encrypted data at each terminal in a decentralized manner.",
+    "effect": "Enhanced reliability and safety of grid operation, increased participation of distributed load resources in market interaction, and improved power grid control capability."
+  },
+  "knowledge_graph": [
+    [
+      "Distributed Load Control Model",
+      "Addresses_Problem",
+      "Tight Electricity Supply and Demand Situation"
+    ],
+    [
+      "Distributed Load Control Model",
+      "Comprises_Component",
+      "Load Terminal"
+    ],
+    [
+      "Distributed Load Control Model",
+      "Comprises_Component",
+      "Adjustable Load Unit"
+    ],
+    [
+      "Distributed Load Control Model",
+      "Implemented_By",
+      "Encrypted Data Processing"
+    ],
+    [
+      "Distributed Load Control Model",
+      "Achieves_Effect",
+      "Enhanced Reliability and Safety of Grid Operation"
+    ],
+    [
+      "Distributed Load Control Model",
+      "Achieves_Effect",
+      "Increased Participation of Distributed Load Resources in Market Interaction"
+    ],
+    [
+      "Distributed Load Control Model",
+      "Achieves_Effect",
+      "Improved Power Grid Control Capability"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Adjustable Load Unit",
+      "provides",
+      "Load Status Information"
+    ],
+    [
+      "Load Terminal",
+      "comprises",
+      "Adjustable Load Unit"
+    ],
+    [
+      "Load Terminal",
+      "contains",
+      "Encrypted Load Status Information"
+    ],
+    [
+      "Terminal",
+      "implements",
+      "Federated Learning-based Distributed Load Control Model"
+    ],
+    [
+      "Distributed Load Control Model",
+      "controls",
+      "Multiple Loads"
+    ],
+    [
+      "Power Grid",
+      "achieves",
+      "Intelligent Interactive Mode"
+    ],
+    [
+      "Power Grid",
+      "ensures",
+      "Participation of Distributed Load Resources"
+    ],
+    [
+      "Power Grid Operation",
+      "benefits_from",
+      "Enhanced Reliability and Safety"
+    ],
+    [
+      "Market Interaction",
+      "benefits_from",
+      "Increased Participation of Distributed Load Resources"
+    ],
+    [
+      "Power Grid Control Capability",
+      "improves",
+      "Power Grid Control"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adjustable Load Unit",
+    "Distributed Load Control Model",
+    "Encrypted Data Processing",
+    "Enhanced Reliability and Safety of Grid Operation",
+    "Improved Power Grid Control Capability",
+    "Increased Participation of Distributed Load Resources in Market Interaction",
+    "Load Terminal",
+    "Tight Electricity Supply and Demand Situation"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adjustable Load Unit",
+    "Distributed Load Control Model",
+    "Encrypted Load Status Information",
+    "Enhanced Reliability and Safety",
+    "Federated Learning-based Distributed Load Control Model",
+    "Increased Participation of Distributed Load Resources",
+    "Intelligent Interactive Mode",
+    "Load Status Information",
+    "Load Terminal",
+    "Market Interaction",
+    "Multiple Loads",
+    "Participation of Distributed Load Resources",
+    "Power Grid",
+    "Power Grid Control",
+    "Power Grid Control Capability",
+    "Power Grid Operation",
+    "Terminal"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "benefits_from",
+    "comprises",
+    "contains",
+    "controls",
+    "ensures",
+    "implements",
+    "improves",
+    "provides"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06Q50/06",
+    "H02J2203/20",
+    "H02J3/0075"
+  ]
+}

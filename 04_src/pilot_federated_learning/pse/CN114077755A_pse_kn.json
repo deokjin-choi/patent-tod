@@ -1,0 +1,223 @@
+{
+  "publication_number": "CN114077755A",
+  "title": "Controllable and lightweight federated learning method, system and detection method for privacy protection",
+  "assignee": "Nanjing University of Posts and Telecommunications",
+  "filing_date": "2022-01-19",
+  "publication_date": "2022-02-22",
+  "pse": {
+    "problem": "The method and system aim to solve privacy protection issues in network traffic detection through distributed federated learning, where direct interaction with network data may result in privacy leakage.",
+    "solution_function": "The invention performs controllable and lightweight federated learning for privacy-preserving network traffic detection. It trains local models on each subnet node using a local dataset and predefined model and parameters. The local models are pruned to generate compressed snapshots, which are used to determine the global snapshot via weighted aggregation of other subnet nodes' snapshots. A global compression model is formed by pruning the output channels of each layer of the aggregated global model. Each subnet node then trains the global compression model using its local training set.",
+    "solution_structure": "The key components include subnet nodes, a preset model and parameters, adjustment factors for calculating output channels, compressed snapshots of local models, a benchmark snapshot, channel recovery threshold, aggregated global model, and global compression model.",
+    "solution_implementation": "1. Each subnet node trains a local model based on its local dataset and predefined model/parameters. 2. Calculate adjustment factors for each layer of the local model to determine output channels that need pruning. 3. Generate compressed snapshots of the local model. 4. Determine the optimal sub-network node based on the number of data in its training set. 5. Use the benchmark snapshot, channel recovery threshold, and other subnet nodes' compressed snapshots to determine the global snapshot. 6. Perform weighted aggregation on the models of other subnet nodes to form an aggregated global model. 7. Prune the output channels of each layer of the aggregated global model to create a global compression model. 8. Each subnet node trains the global compression model using its local training set.",
+    "effect": "The solution provides privacy protection, lightweight processing for large-scale neural network models, and efficient distributed network traffic detection"
+  },
+  "knowledge_graph": [
+    [
+      "Privacy-Preserving Network Traffic Detection System",
+      "Addresses_Problem",
+      "Privacy Protection Issues in Network Traffic Detection"
+    ],
+    [
+      "Privacy-Preserving Network Traffic Detection System",
+      "Comprises_Component",
+      "Subnet Nodes"
+    ],
+    [
+      "Privacy-Preserving Network Traffic Detection System",
+      "Comprises_Component",
+      "Local Models"
+    ],
+    [
+      "Privacy-Preserving Network Traffic Detection System",
+      "Implemented_By",
+      "Local Model Training Process"
+    ],
+    [
+      "Privacy-Preserving Network Traffic Detection System",
+      "Achieves_Effect",
+      "Privacy Protection"
+    ],
+    [
+      "Privacy-Preserving Network Traffic Detection System",
+      "Achieves_Effect",
+      "Lightweight Processing for Large-Scale Neural Network Models"
+    ],
+    [
+      "Privacy-Preserving Network Traffic Detection System",
+      "Achieves_Effect",
+      "Efficient Distributed Network Traffic Detection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "applies_to",
+      "Privacy-Preserving Network Traffic Detection"
+    ],
+    [
+      "Distributed Federated Learning",
+      "aims_to",
+      "Solve Privacy Protection Issues"
+    ],
+    [
+      "Direct Interaction",
+      "results_in",
+      "Privacy Leakage"
+    ],
+    [
+      "Local Dataset",
+      "used_by",
+      "Subnet Node"
+    ],
+    [
+      "Preset Model and Parameters",
+      "used_by",
+      "Subnet Node"
+    ],
+    [
+      "Local Model",
+      "trained_on",
+      "Local Dataset"
+    ],
+    [
+      "Output Channels",
+      "determined_by",
+      "Adjustment Factors"
+    ],
+    [
+      "Compressed Snapshots",
+      "generated_from",
+      "Pruned Local Models"
+    ],
+    [
+      "Global Snapshot",
+      "determined_by",
+      "Weighted Aggregation"
+    ],
+    [
+      "Aggregated Global Model",
+      "created_by",
+      "Weighted Aggregation"
+    ],
+    [
+      "Output Channels",
+      "pruned_from",
+      "Aggregated Global Model"
+    ],
+    [
+      "Global Compression Model",
+      "created_by",
+      "Pruned Output Channels"
+    ],
+    [
+      "Subnet Node",
+      "trains",
+      "Global Compression Model"
+    ],
+    [
+      "Local Training Set",
+      "used_by",
+      "Subnet Node"
+    ],
+    [
+      "Subnet Nodes",
+      "comprises",
+      "Network"
+    ],
+    [
+      "Benchmark Snapshot",
+      "used_for",
+      "Determining Global Snapshot"
+    ],
+    [
+      "Channel Recovery Threshold",
+      "used_in",
+      "Determining Global Snapshot"
+    ],
+    [
+      "Optimal Sub-Network Node",
+      "determined_by",
+      "Number of Data"
+    ],
+    [
+      "Local Models",
+      "aggregated_into",
+      "Aggregated Global Model"
+    ],
+    [
+      "Processed Data",
+      "stored_in",
+      "Cloud Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Efficient Distributed Network Traffic Detection",
+    "Lightweight Processing for Large-Scale Neural Network Models",
+    "Local Model Training Process",
+    "Local Models",
+    "Privacy Protection",
+    "Privacy Protection Issues in Network Traffic Detection",
+    "Privacy-Preserving Network Traffic Detection System",
+    "Subnet Nodes"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adjustment Factors",
+    "Aggregated Global Model",
+    "Benchmark Snapshot",
+    "Channel Recovery Threshold",
+    "Cloud Storage",
+    "Compressed Snapshots",
+    "Determining Global Snapshot",
+    "Direct Interaction",
+    "Distributed Federated Learning",
+    "Federated Learning",
+    "Global Compression Model",
+    "Global Snapshot",
+    "Local Dataset",
+    "Local Model",
+    "Local Models",
+    "Local Training Set",
+    "Network",
+    "Number of Data",
+    "Optimal Sub-Network Node",
+    "Output Channels",
+    "Preset Model and Parameters",
+    "Privacy Leakage",
+    "Privacy-Preserving Network Traffic Detection",
+    "Processed Data",
+    "Pruned Local Models",
+    "Pruned Output Channels",
+    "Solve Privacy Protection Issues",
+    "Subnet Node",
+    "Subnet Nodes",
+    "Weighted Aggregation"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregated_into",
+    "aims_to",
+    "applies_to",
+    "comprises",
+    "created_by",
+    "determined_by",
+    "generated_from",
+    "pruned_from",
+    "results_in",
+    "stored_in",
+    "trained_on",
+    "trains",
+    "used_by",
+    "used_for",
+    "used_in"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N3/045",
+    "G06N3/08"
+  ]
+}

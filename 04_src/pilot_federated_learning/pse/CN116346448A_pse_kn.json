@@ -1,0 +1,271 @@
+{
+  "publication_number": "CN116346448A",
+  "title": "Group image drawing method and device based on federal learning",
+  "assignee": "China Telecom Cloud Technology Co Ltd",
+  "filing_date": "2023-03-10",
+  "publication_date": "2023-06-27",
+  "pse": {
+    "problem": "Inflexible position calculation complexity and accuracy adjustment, incomplete authorization link in traditional federal learning-based group portrait methods",
+    "solution_function": "Federal learning-based guest group portrait method performs data analysis, encoding, encryption sample alignment, and joint modeling to achieve accurate user image complementation through cooperative modeling in a federal learning mode.",
+    "solution_structure": "The solution involves DPI log data, user ID, mapping relation, POI position information, geohash coding, and federal learning model.",
+    "solution_implementation": "DPI log data is obtained and analyzed to get ur1, mdn, and userID. A mapping relation between userID and mdn is established. POI position information is geohash coded and the coding bits are adjusted according to precision requirement. Encryption sample alignment is carried out on the sample set, followed by joint modeling in a federal learning mode.",
+    "effect": "The solution provides flexible position calculation, accuracy adjustment, and complete authorization link, enabling efficient and secure group portrait generation."
+  },
+  "knowledge_graph": [
+    [
+      "Federal learning-based guest group portrait method",
+      "Addresses_Problem",
+      "Inflexible position calculation complexity and accuracy adjustment, incomplete authorization link"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Comprises_Component",
+      "DPI log data"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Comprises_Component",
+      "user ID"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Comprises_Component",
+      "mapping relation"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Comprises_Component",
+      "POI position information"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Comprises_Component",
+      "geohash coding"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Comprises_Component",
+      "federal learning model"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Implemented_By",
+      "ur1, mdn, and userID extraction from DPI log data"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Implemented_By",
+      "establishing mapping relation between userID and mdn"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Implemented_By",
+      "geohash coding bit adjustment according to precision requirement"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Implemented_By",
+      "encryption sample alignment"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Implemented_By",
+      "joint modeling in a federal learning mode"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Achieves_Effect",
+      "flexible position calculation"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Achieves_Effect",
+      "accuracy adjustment"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Achieves_Effect",
+      "complete authorization link"
+    ],
+    [
+      "Federal learning-based guest group portrait method",
+      "Achieves_Effect",
+      "efficient and secure group portrait generation"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Federal Learning-Based Group Portrait Method",
+      "causes",
+      "Inefficient Position Calculation and Incomplete Authorization Link"
+    ],
+    [
+      "Federal Learning-Based Guest Group Portrait Method",
+      "achieves",
+      "Flexible Position Calculation, Accuracy Adjustment, and Complete Authorization Link"
+    ],
+    [
+      "DPI Log Data",
+      "controls",
+      "Data Analysis"
+    ],
+    [
+      "User ID",
+      "connects_to",
+      "Mapping Relation"
+    ],
+    [
+      "POI Position Information",
+      "is_geohash_coded"
+    ],
+    [
+      "Coding Bits",
+      "adjusted",
+      "According to Precision Requirement"
+    ],
+    [
+      "Sample Set",
+      "undergoes",
+      "Encryption Sample Alignment"
+    ],
+    [
+      "Federal Learning Model",
+      "performs",
+      "Joint Modeling"
+    ],
+    [
+      "Cloud Computing",
+      "causes",
+      "Packet Delay"
+    ],
+    [
+      "Wireless Router",
+      "contributes_to",
+      "Packet Delay"
+    ],
+    [
+      "Sensor",
+      "monitors",
+      "Environmental Parameters"
+    ],
+    [
+      "Sensor",
+      "transmits_data_to",
+      "Valve"
+    ],
+    [
+      "Valve",
+      "controls",
+      "Actuating Mechanism"
+    ],
+    [
+      "Sensor",
+      "transmits_data_to",
+      "Router"
+    ],
+    [
+      "Router",
+      "transmits_data_to",
+      "Remote Server"
+    ],
+    [
+      "Remote Server",
+      "processes",
+      "Data"
+    ],
+    [
+      "Remote Server",
+      "relays_data_to",
+      "Cloud Storage"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Network Delay"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Processed Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "DPI log data",
+    "Federal learning-based guest group portrait method",
+    "Inflexible position calculation complexity and accuracy adjustment, incomplete authorization link",
+    "POI position information",
+    "accuracy adjustment",
+    "complete authorization link",
+    "efficient and secure group portrait generation",
+    "encryption sample alignment",
+    "establishing mapping relation between userID and mdn",
+    "federal learning model",
+    "flexible position calculation",
+    "geohash coding",
+    "geohash coding bit adjustment according to precision requirement",
+    "joint modeling in a federal learning mode",
+    "mapping relation",
+    "ur1, mdn, and userID extraction from DPI log data",
+    "user ID"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "According to Precision Requirement",
+    "Actuating Mechanism",
+    "Cloud Computing",
+    "Cloud Storage",
+    "Coding Bits",
+    "DPI Log Data",
+    "Data",
+    "Data Analysis",
+    "Edge Node",
+    "Encryption Sample Alignment",
+    "Environmental Parameters",
+    "Federal Learning Model",
+    "Federal Learning-Based Guest Group Portrait Method",
+    "Flexible Position Calculation, Accuracy Adjustment, and Complete Authorization Link",
+    "Inefficient Position Calculation and Incomplete Authorization Link",
+    "Joint Modeling",
+    "Mapping Relation",
+    "Network Delay",
+    "Packet Delay",
+    "Processed Data",
+    "Remote Server",
+    "Router",
+    "Sample Set",
+    "Sensor",
+    "Traditional Federal Learning-Based Group Portrait Method",
+    "User ID",
+    "Valve",
+    "Wireless Router"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "adjusted",
+    "causes",
+    "connects_to",
+    "contributes_to",
+    "controls",
+    "monitors",
+    "performs",
+    "processes",
+    "reduces",
+    "relays_data_to",
+    "stores",
+    "transmits_data_to",
+    "undergoes"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "H04L2209/46",
+    "H04L41/069",
+    "H04L41/145",
+    "H04L63/04",
+    "Y02D10/00"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "publication_number": "CN118036778A",
+  "title": "Federal learning method and device, electronic equipment and storage medium",
+  "assignee": "China Mobile Communications Group Co Ltd",
+  "filing_date": "2022-11-07",
+  "publication_date": "2024-05-14",
+  "pse": {
+    "problem": "The limitation lies in the existing federated learning methods that use only one encryption technology for data privacy protection. Different encryption technologies have varying requirements for modeling conditions, leading to potential instability during model training and resource prioritization conflicts for enterprises.",
+    "solution_function": "The invention presents a method for adjusting the privacy protection protocol of federated learning based on the modeling environment, ensuring compatibility between the adopted encryption technology and the actual modeling requirements. The method involves predicting user spatial distribution data in a target cell using a user distribution prediction model, determining the training loss of the model, and selecting an appropriate privacy protection protocol for the current or future time window based on the modeling conditions and environment.",
+    "solution_structure": "The system consists of a user distribution prediction model and modules for protocol selection and notification. The user distribution prediction model is responsible for data prediction, while the protocol selection module determines the suitable encryption technology based on the modeling conditions and environment.",
+    "solution_implementation": "The method involves acquiring user distribution spatiotemporal sequence samples, inputting them into the user distribution prediction model to obtain predicted spatial distribution data, determining the training loss of the model, and selecting a privacy protection protocol (homomorphic encryption or secret sharing) based on the modeling requirements and environment. The system sends notifications as needed.",
+    "effect": "The solution allows for more stable model training by adapting to the actual modeling conditions and environment, resulting in improved compatibility between encryption technologies and reduced potential conflicts over resource prioritization."
+  },
+  "knowledge_graph": [
+    [
+      "Adjusting Privacy Protocol",
+      "Addresses_Problem",
+      "Core Problem Concept: Limitations in existing federated learning methods' encryption technology"
+    ],
+    [
+      "Adjusting Privacy Protocol",
+      "Comprises_Component",
+      "Key Component 1: User Distribution Prediction Model"
+    ],
+    [
+      "Adjusting Privacy Protocol",
+      "Comprises_Component",
+      "Key Component 2: Protocol Selection and Notification Modules"
+    ],
+    [
+      "Adjusting Privacy Protocol",
+      "Implemented_By",
+      "Core Operation Logic: Spatiotemporal Sequence Samples Acquisition, Data Prediction, Model Training Loss Determination, Encryption Technology Selection"
+    ],
+    [
+      "Adjusting Privacy Protocol",
+      "Achieves_Effect",
+      "Primary Benefit: Improved compatibility, stable model training, reduced resource prioritization conflicts"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Methods",
+      "uses",
+      "One Encryption Technology"
+    ],
+    [
+      "Encryption Technology",
+      "impacts",
+      "Modeling Conditions"
+    ],
+    [
+      "Modeling Conditions",
+      "influences",
+      "Model Training Stability"
+    ],
+    [
+      "Modeling Conditions",
+      "influences",
+      "Resource Prioritization Conflicts"
+    ],
+    [
+      "User Distribution Prediction Model",
+      "predicts",
+      "Spatial Distribution Data"
+    ],
+    [
+      "Training Loss",
+      "determines",
+      "Privacy Protection Protocol"
+    ],
+    [
+      "Modeling Environment",
+      "impacts",
+      "Privacy Protection Protocol"
+    ],
+    [
+      "Predicted Spatial Distribution Data",
+      "influences",
+      "Privacy Protection Protocol"
+    ],
+    [
+      "Protocol Selection Module",
+      "determines",
+      "Appropriate Privacy Protection Protocol"
+    ],
+    [
+      "Environment",
+      "affects",
+      "Privacy Protection Protocol"
+    ],
+    [
+      "System",
+      "sends",
+      "Notifications"
+    ],
+    [
+      "Federated Learning Methods",
+      "benefits_from",
+      "Adaptation to Actual Modeling Conditions"
+    ],
+    [
+      "Adaptation",
+      "results_in",
+      "Improved Compatibility Between Encryption Technologies"
+    ],
+    [
+      "Adaptation",
+      "reduces",
+      "Potential Resource Prioritization Conflicts"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adjusting Privacy Protocol",
+    "Core Operation Logic: Spatiotemporal Sequence Samples Acquisition, Data Prediction, Model Training Loss Determination, Encryption Technology Selection",
+    "Core Problem Concept: Limitations in existing federated learning methods' encryption technology",
+    "Key Component 1: User Distribution Prediction Model",
+    "Key Component 2: Protocol Selection and Notification Modules",
+    "Primary Benefit: Improved compatibility, stable model training, reduced resource prioritization conflicts"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adaptation",
+    "Adaptation to Actual Modeling Conditions",
+    "Appropriate Privacy Protection Protocol",
+    "Encryption Technology",
+    "Environment",
+    "Federated Learning Methods",
+    "Improved Compatibility Between Encryption Technologies",
+    "Model Training Stability",
+    "Modeling Conditions",
+    "Modeling Environment",
+    "Notifications",
+    "One Encryption Technology",
+    "Potential Resource Prioritization Conflicts",
+    "Predicted Spatial Distribution Data",
+    "Privacy Protection Protocol",
+    "Protocol Selection Module",
+    "Resource Prioritization Conflicts",
+    "Spatial Distribution Data",
+    "System",
+    "Training Loss",
+    "User Distribution Prediction Model"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "benefits_from",
+    "determines",
+    "impacts",
+    "influences",
+    "predicts",
+    "reduces",
+    "results_in",
+    "sends",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/20"
+  ]
+}

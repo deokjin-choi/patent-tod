@@ -1,0 +1,191 @@
+{
+  "publication_number": "CN118301092A",
+  "title": "Distributed Internet of things equipment identification method and system based on federal learning",
+  "assignee": "Nanjing University of Aeronautics and Astronautics",
+  "filing_date": "2024-03-15",
+  "publication_date": "2024-07-05",
+  "pse": {
+    "problem": "Challenge in developing an effective internet of things equipment identification algorithm due to privacy concerns, regulations, and transmission loads, which makes it often not feasible or prohibited to directly transmit data from an edge device to a central server to train a unified device fingerprinting model.",
+    "solution_function": "Federated learning-based distributed device identification algorithm that enables cooperative processing of the traffic of internet of things devices distributed on different edge devices, while protecting privacy by periodically exchanging local model parameters without sharing original data.",
+    "solution_structure": "Edge devices (e.g., mobile phones, medical care equipment, wearable equipment), a server model, and the locally trained models at each edge device.",
+    "solution_implementation": "Federated learning algorithm that performs knowledge distillation in a generative manner by initializing a server model, weighting integrated local model with metadata from the logic-vector output of the local model, and sharing the metadata between edge devices.",
+    "effect": "Improved internet of things equipment identification accuracy while preserving privacy and reducing the cost of exchanging model parameters"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning-based Distributed Device Identification Algorithm",
+      "Addresses_Problem",
+      "Core Problem Concept: Internet of Things Equipment Identification"
+    ],
+    [
+      "Federated Learning-based Distributed Device Identification Algorithm",
+      "Comprises_Component",
+      "Key Component 1: Edge Devices (e.g., mobile phones, medical care equipment, wearable equipment)"
+    ],
+    [
+      "Federated Learning-based Distributed Device Identification Algorithm",
+      "Comprises_Component",
+      "Key Component 2: Server Model"
+    ],
+    [
+      "Federated Learning-based Distributed Device Identification Algorithm",
+      "Implemented_By",
+      "Core Operation Logic: Federated Learning Algorithm with Knowledge Distillation"
+    ],
+    [
+      "Federated Learning-based Distributed Device Identification Algorithm",
+      "Achieves_Effect",
+      "Primary Benefit: Improved Internet of Things Equipment Identification Accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Internet of Things Equipment",
+      "causes",
+      "Privacy Concerns"
+    ],
+    [
+      "Internet of Things Equipment",
+      "causes",
+      "Regulations"
+    ],
+    [
+      "Internet of Things Equipment",
+      "causes",
+      "Transmission Loads"
+    ],
+    [
+      "Central Server",
+      "receives_data_from",
+      "Edge Device"
+    ],
+    [
+      "Central Server",
+      "processes_data",
+      "Data"
+    ],
+    [
+      "Unified Device Fingerprinting Model",
+      "requires",
+      "Direct Data Transmission"
+    ],
+    [
+      "Federated Learning-based Distributed Algorithm",
+      "addresses",
+      "Privacy Concerns"
+    ],
+    [
+      "Federated Learning-based Distributed Algorithm",
+      "addresses",
+      "Regulations"
+    ],
+    [
+      "Federated Learning-based Distributed Algorithm",
+      "reduces",
+      "Transmission Loads"
+    ],
+    [
+      "Edge Devices",
+      "exchange_parameters",
+      "Locally Trained Models"
+    ],
+    [
+      "Edge Device",
+      "generates",
+      "Local Model Parameters"
+    ],
+    [
+      "Server Model",
+      "initializes",
+      "Federated Learning Algorithm"
+    ],
+    [
+      "Server Model",
+      "integrates",
+      "Weighted Local Model"
+    ],
+    [
+      "Metadata",
+      "derived_from",
+      "Logic-Vector Output"
+    ],
+    [
+      "Edge Devices",
+      "share_metadata",
+      "Each Other"
+    ],
+    [
+      "Edge Device",
+      "improves",
+      "Internet of Things Equipment Identification Accuracy"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "achieves",
+      "Improved Internet of Things Equipment Identification"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Federated Learning Algorithm with Knowledge Distillation",
+    "Core Problem Concept: Internet of Things Equipment Identification",
+    "Federated Learning-based Distributed Device Identification Algorithm",
+    "Key Component 1: Edge Devices (e.g., mobile phones, medical care equipment, wearable equipment)",
+    "Key Component 2: Server Model",
+    "Primary Benefit: Improved Internet of Things Equipment Identification Accuracy"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Data",
+    "Direct Data Transmission",
+    "Each Other",
+    "Edge Device",
+    "Edge Devices",
+    "Federated Learning Algorithm",
+    "Federated Learning-based Distributed Algorithm",
+    "Improved Internet of Things Equipment Identification",
+    "Internet of Things Equipment",
+    "Internet of Things Equipment Identification Accuracy",
+    "Local Model Parameters",
+    "Locally Trained Models",
+    "Logic-Vector Output",
+    "Metadata",
+    "Privacy Concerns",
+    "Regulations",
+    "Server Model",
+    "Transmission Loads",
+    "Unified Device Fingerprinting Model",
+    "Weighted Local Model"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "addresses",
+    "causes",
+    "derived_from",
+    "exchange_parameters",
+    "generates",
+    "improves",
+    "initializes",
+    "integrates",
+    "processes_data",
+    "receives_data_from",
+    "reduces",
+    "requires",
+    "share_metadata"
+  ],
+  "cpc_code": [
+    "G06F18/2415",
+    "G06F18/2431",
+    "G06N3/042",
+    "G06N3/0455",
+    "G06N3/098",
+    "H04L47/2483",
+    "H04L67/10",
+    "H04L67/12"
+  ]
+}

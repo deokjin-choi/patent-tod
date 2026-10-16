@@ -1,0 +1,179 @@
+{
+  "publication_number": "CN118690406A",
+  "title": "A Collusion-Resistant Byzantine Robust Privacy-Preserving Federated Learning Optimization Method",
+  "assignee": "Hefei University",
+  "filing_date": "2024-06-17",
+  "publication_date": "2024-09-24",
+  "pse": {
+    "problem": "The federated learning method faces threats of poisoning and inference attacks during model training, affecting data privacy and reducing model performance.",
+    "solution_function": "The invention presents an anti-collusion Byzantine robust privacy protection federated learning optimization method that aims to defend against both poisoning and inference attacks. It employs a secure aggregation mechanism for local gradients and maintains their privacy, while also detecting malicious clients responsible for poisoning attacks.",
+    "solution_structure": "The system consists of clients, a central server, and potentially a trusted dataset. Clients perform local model training and generate local gradients. The central server aggregates and processes the encrypted local gradients using secure multi-party computation or homomorphic encryption, ensuring data privacy. A trusted dataset is used for comparison to screen malicious clients.",
+    "solution_implementation": "The central server calculates a trusted local gradient from the trusted dataset. It then compares the cosine similarity between the local gradient uploaded by each client and the trusted gradient. Clients with significant deviations are flagged as potential malicious clients. The system also implements noise addition to local gradients for inference attack resistance.",
+    "effect": "The proposed method effectively defends against both poisoning and inference attacks, maintaining data privacy while preserving model accuracy."
+  },
+  "knowledge_graph": [
+    [
+      "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+      "Addresses_Problem",
+      "Core Problem Concept: Federated learning method threats"
+    ],
+    [
+      "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+      "Comprises_Component",
+      "Key Component 1: Secure aggregation mechanism for local gradients"
+    ],
+    [
+      "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+      "Comprises_Component",
+      "Key Component 2: Comparison of cosine similarity between local and trusted gradient"
+    ],
+    [
+      "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+      "Implemented_By",
+      "Core Operation Logic: Detecting malicious clients and noise addition to local gradients"
+    ],
+    [
+      "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+      "Achieves_Effect",
+      "Primary Benefit: Effective defense against poisoning and inference attacks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Method",
+      "is affected by",
+      "Poisoning Attacks"
+    ],
+    [
+      "Federated Learning Method",
+      "is affected by",
+      "Inference Attacks"
+    ],
+    [
+      "Data Privacy",
+      "is compromised due to",
+      "Poisoning Attacks"
+    ],
+    [
+      "Data Privacy",
+      "is compromised due to",
+      "Inference Attacks"
+    ],
+    [
+      "Model Performance",
+      "is reduced due to",
+      "Poisoning Attacks"
+    ],
+    [
+      "Model Performance",
+      "is reduced due to",
+      "Inference Attacks"
+    ],
+    [
+      "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+      "aims to defend against",
+      "Poisoning Attacks"
+    ],
+    [
+      "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+      "aims to defend against",
+      "Inference Attacks"
+    ],
+    [
+      "Secure Aggregation Mechanism",
+      "ensures privacy of",
+      "Local Gradients"
+    ],
+    [
+      "Malicious Clients",
+      "are detected by",
+      "Secure Aggregation Mechanism"
+    ],
+    [
+      "Central Server",
+      "calculates a trusted local gradient from",
+      "Trusted Dataset"
+    ],
+    [
+      "Cosine Similarity",
+      "is calculated between",
+      "Local Gradient",
+      "Trusted Local Gradient"
+    ],
+    [
+      "Clients with significant deviations",
+      "are flagged as potential",
+      "Malicious Clients"
+    ],
+    [
+      "Noise Addition",
+      "is implemented for resistance against",
+      "Inference Attacks"
+    ],
+    [
+      "Proposed Method",
+      "effectively defends against",
+      "Poisoning Attacks"
+    ],
+    [
+      "Proposed Method",
+      "effectively defends against",
+      "Inference Attacks"
+    ],
+    [
+      "Proposed Method",
+      "maintains data privacy while preserving",
+      "Model Accuracy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+    "Core Operation Logic: Detecting malicious clients and noise addition to local gradients",
+    "Core Problem Concept: Federated learning method threats",
+    "Key Component 1: Secure aggregation mechanism for local gradients",
+    "Key Component 2: Comparison of cosine similarity between local and trusted gradient",
+    "Primary Benefit: Effective defense against poisoning and inference attacks"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Anti-Collusion Byzantine Robust Privacy Protection Federated Learning Optimization Method",
+    "Central Server",
+    "Clients with significant deviations",
+    "Data Privacy",
+    "Federated Learning Method",
+    "Inference Attacks",
+    "Local Gradients",
+    "Malicious Clients",
+    "Model Accuracy",
+    "Model Performance",
+    "Noise Addition",
+    "Poisoning Attacks",
+    "Proposed Method",
+    "Secure Aggregation Mechanism",
+    "Trusted Dataset"
+  ],
+  "knowledge_graph2_relation": [
+    "aims to defend against",
+    "are detected by",
+    "are flagged as potential",
+    "calculates a trusted local gradient from",
+    "effectively defends against",
+    "ensures privacy of",
+    "is affected by",
+    "is compromised due to",
+    "is implemented for resistance against",
+    "is reduced due to",
+    "maintains data privacy while preserving"
+  ],
+  "cpc_code": [
+    "G06F18/22",
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N20/20"
+  ]
+}

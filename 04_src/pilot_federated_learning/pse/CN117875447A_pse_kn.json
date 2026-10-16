@@ -1,0 +1,204 @@
+{
+  "publication_number": "CN117875447A",
+  "title": "FPGA acceleration scheme for federally learning Paillier algorithm",
+  "assignee": "Hefei University of Technology",
+  "filing_date": "2023-12-29",
+  "publication_date": "2024-04-12",
+  "pse": {
+    "problem": "The traditional federated learning direction requires a lot of computing power for neural network reasoning and Paillier encryption algorithm, introducing significant overheads that can be compensated by dedicated circuits.",
+    "solution_function": "The invention optimizes the Montgomery large number modular multiplication algorithm to improve division operation efficiency in binary chips, replacing it with a process using displacement, multiplication, and other processes. This improves FPGA's computing efficiency and speed for the Paillier algorithm.",
+    "solution_structure": "The solution uses an Ethernet interface for high-speed data transmission between the host and FPGA, FIFO as a cache for data input and output, and C language to improve the Montgomery modular multiplication algorithm and combine it with the large number Karatsuba algorithm.",
+    "solution_implementation": "Data is transmitted quickly from the host system to the FPGA to meet GPU parallel computing requirements using an Ethernet interface. FIFO is used as a cache for data input and output. The improved Montgomery modular multiplication algorithm is implemented using C language and combined with the large number Karatsuba algorithm.",
+    "effect": "The solution provides computing power support for its encryption algorithm, improving efficiency and reducing GOU computing power costs."
+  },
+  "knowledge_graph": [
+    [
+      "Montgomery Modular Multiplication Algorithm Optimization",
+      "Addresses_Problem",
+      "Significant Overheads in Federated Learning"
+    ],
+    [
+      "Montgomery Modular Multiplication Algorithm Optimization",
+      "Comprises_Component",
+      "Displacement, Multiplication, and Other Processes"
+    ],
+    [
+      "Montgomery Modular Multiplication Algorithm Optimization",
+      "Comprises_Component",
+      "C Language Implementation"
+    ],
+    [
+      "Montgomery Modular Multiplication Algorithm Optimization",
+      "Implemented_By",
+      "Improved Montgomery Modular Multiplication Algorithm"
+    ],
+    [
+      "Montgomery Modular Multiplication Algorithm Optimization",
+      "Achieves_Effect",
+      "Reduced GOU Computing Power Costs"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Federated Learning",
+      "requires",
+      "A lot of Computing Power"
+    ],
+    [
+      "Neural Network Reasoning",
+      "takes place in",
+      "Traditional Federated Learning"
+    ],
+    [
+      "Paillier Encryption Algorithm",
+      "occurs in",
+      "Traditional Federated Learning"
+    ],
+    [
+      "Significant Overheads",
+      "are introduced by",
+      "Traditional Federated Learning"
+    ],
+    [
+      "Dedicated Circuits",
+      "compensate for",
+      "Significant Overheads"
+    ],
+    [
+      "Montgomery Large Number Modular Multiplication Algorithm",
+      "is optimized",
+      "Invention"
+    ],
+    [
+      "Division Operation Efficiency",
+      "is improved by",
+      "Optimized Montgomery Algorithm"
+    ],
+    [
+      "Binary Chips",
+      "use",
+      "Improved Montgomery Algorithm"
+    ],
+    [
+      "FPGA's Computing Efficiency and Speed",
+      "are improved for",
+      "Paillier Algorithm"
+    ],
+    [
+      "Ethernet Interface",
+      "is used for",
+      "High-Speed Data Transmission"
+    ],
+    [
+      "Host System",
+      "transmits data to",
+      "FPGA via Ethernet"
+    ],
+    [
+      "FIFO",
+      "acts as a cache for",
+      "Data Input and Output"
+    ],
+    [
+      "C Language",
+      "improves",
+      "Montgomery Modular Multiplication Algorithm"
+    ],
+    [
+      "Karatsuba Algorithm",
+      "is combined with",
+      "Improved Montgomery Modular Multiplication Algorithm"
+    ],
+    [
+      "FPGA",
+      "uses",
+      "Improved and Karatsuba Combined Algorithms"
+    ],
+    [
+      "Computing Power Support",
+      "is provided for",
+      "Encryption Algorithm"
+    ],
+    [
+      "Efficiency",
+      "is improved by",
+      "Computing Power Support"
+    ],
+    [
+      "GOU Computing Power Costs",
+      "are reduced by",
+      "Improved Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "C Language Implementation",
+    "Displacement, Multiplication, and Other Processes",
+    "Improved Montgomery Modular Multiplication Algorithm",
+    "Montgomery Modular Multiplication Algorithm Optimization",
+    "Reduced GOU Computing Power Costs",
+    "Significant Overheads in Federated Learning"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "A lot of Computing Power",
+    "Binary Chips",
+    "C Language",
+    "Computing Power Support",
+    "Data Input and Output",
+    "Dedicated Circuits",
+    "Division Operation Efficiency",
+    "Efficiency",
+    "Encryption Algorithm",
+    "Ethernet Interface",
+    "FIFO",
+    "FPGA",
+    "FPGA via Ethernet",
+    "FPGA's Computing Efficiency and Speed",
+    "GOU Computing Power Costs",
+    "High-Speed Data Transmission",
+    "Host System",
+    "Improved Efficiency",
+    "Improved Montgomery Algorithm",
+    "Improved Montgomery Modular Multiplication Algorithm",
+    "Improved and Karatsuba Combined Algorithms",
+    "Invention",
+    "Karatsuba Algorithm",
+    "Montgomery Large Number Modular Multiplication Algorithm",
+    "Montgomery Modular Multiplication Algorithm",
+    "Neural Network Reasoning",
+    "Optimized Montgomery Algorithm",
+    "Paillier Algorithm",
+    "Paillier Encryption Algorithm",
+    "Significant Overheads",
+    "Traditional Federated Learning"
+  ],
+  "knowledge_graph2_relation": [
+    "acts as a cache for",
+    "are improved for",
+    "are introduced by",
+    "are reduced by",
+    "compensate for",
+    "improves",
+    "is combined with",
+    "is improved by",
+    "is optimized",
+    "is provided for",
+    "is used for",
+    "occurs in",
+    "requires",
+    "takes place in",
+    "transmits data to",
+    "use",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06G7/16",
+    "G06N20/00"
+  ]
+}

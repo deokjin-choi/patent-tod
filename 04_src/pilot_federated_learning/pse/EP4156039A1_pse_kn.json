@@ -1,0 +1,190 @@
+{
+  "publication_number": "EP4156039A1",
+  "title": "Method and apparatus for federated learning, and chip",
+  "assignee": "Huawei Technologies Co Ltd",
+  "filing_date": "2021-06-15",
+  "publication_date": "2023-03-29",
+  "pse": {
+    "problem": "Limited by data privacy concerns, users cannot share personal data, forming 'data islands'. This hinders training large-scale machine learning models via federated learning due to long training times and high communication overheads.",
+    "solution_function": "The method performs federated learning on a machine learning model whose parameter is distributed. It allows nodes to exchange prior and posterior distributions of the model parameter, enabling faster convergence and reduced communication overheads.",
+    "solution_structure": "The system consists of first and second nodes that have local training data and can communicate with each other for federated learning.",
+    "solution_implementation": "Each node receives a prior distribution from another node. It trains the model based on the prior distribution and its local data to obtain a posterior distribution. The nodes exchange their posterior distributions to update the federated model.",
+    "effect": "The method reduces training time of federated learning and communication overheads by finding a better improvement direction for the machine learning model, allowing for more controlled federated learning processes."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Data Islands Problem"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Local Training Node"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Communicating Nodes"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Parameter Distribution Exchange"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Model Update Based on Posteriors"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Training Time"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Communication Overheads"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Privacy Concerns",
+      "hinders",
+      "Training Large-scale Machine Learning Models"
+    ],
+    [
+      "Data Privacy Concerns",
+      "forms",
+      "Data Islands"
+    ],
+    [
+      "Federated Learning",
+      "addresses",
+      "Limited Data Sharing"
+    ],
+    [
+      "Machine Learning Model Parameter",
+      "is_distributed"
+    ],
+    [
+      "Nodes",
+      "exchange",
+      "Prior and Posterior Distributions"
+    ],
+    [
+      "Nodes",
+      "enables",
+      "Faster Convergence"
+    ],
+    [
+      "Nodes",
+      "reduces",
+      "Communication Overheads"
+    ],
+    [
+      "First Node",
+      "has",
+      "Local Training Data"
+    ],
+    [
+      "Second Node",
+      "has",
+      "Local Training Data"
+    ],
+    [
+      "First Node",
+      "communicates_with",
+      "Second Node"
+    ],
+    [
+      "First Node",
+      "receives",
+      "Prior Distribution"
+    ],
+    [
+      "Second Node",
+      "receives",
+      "Prior Distribution"
+    ],
+    [
+      "Node",
+      "trains",
+      "Machine Learning Model"
+    ],
+    [
+      "Node",
+      "updates",
+      "Federated Model"
+    ],
+    [
+      "Method",
+      "finds",
+      "Better Improvement Direction"
+    ],
+    [
+      "Method",
+      "allows_for",
+      "More Controlled Federation Learning Processes"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Communicating Nodes",
+    "Data Islands Problem",
+    "Federated Learning Method",
+    "Local Training Node",
+    "Model Update Based on Posteriors",
+    "Parameter Distribution Exchange",
+    "Reduced Communication Overheads",
+    "Reduced Training Time"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Better Improvement Direction",
+    "Communication Overheads",
+    "Data Islands",
+    "Data Privacy Concerns",
+    "Faster Convergence",
+    "Federated Learning",
+    "Federated Model",
+    "First Node",
+    "Limited Data Sharing",
+    "Local Training Data",
+    "Machine Learning Model",
+    "Method",
+    "More Controlled Federation Learning Processes",
+    "Node",
+    "Nodes",
+    "Prior Distribution",
+    "Prior and Posterior Distributions",
+    "Second Node",
+    "Training Large-scale Machine Learning Models"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "allows_for",
+    "communicates_with",
+    "enables",
+    "exchange",
+    "finds",
+    "forms",
+    "has",
+    "hinders",
+    "receives",
+    "reduces",
+    "trains",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/0464",
+    "G06N3/0475",
+    "G06N3/098"
+  ]
+}

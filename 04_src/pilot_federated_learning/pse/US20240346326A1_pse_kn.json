@@ -1,0 +1,204 @@
+{
+  "publication_number": "US20240346326A1",
+  "title": "Learning system, learning server apparatus, processing apparatus, learning method, and program",
+  "assignee": "Nippon Telegraph and Telephone Corp",
+  "filing_date": "2021-08-02",
+  "publication_date": "2024-10-17",
+  "pse": {
+    "problem": "Long search time for Neural Architecture Search (NAS) in federated learning",
+    "solution_function": "The system performs federated learning using an optimal neural network selected by a score-based search method. It cooperatively uses a first federated learning unit in the learning server and second federated learning units in n processing apparatuses for federated NAS.",
+    "solution_structure": "Each processing apparatus includes a second federated learning unit, a local data storage, and a score calculation unit. The learning server has a first federated learning unit and an aggregation unit.",
+    "solution_implementation": "The system performs iterative rounds of local training on each processing apparatus, score calculation by the score calculation unit, and neural network selection and global update by the aggregation unit in the learning server. The search is guided by a score that indicates the quality of a neural network.",
+    "effect": "Significant reduction in NAS search time, enabling practical machine learning"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Long Search Time NAS in Federated Learning"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "First Federated Learning Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Second Federated Learning Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Iterative Local Training and Global Update"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Score Calculation by Score Calculation Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Significant Reduction in NAS Search Time"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Practical Machine Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Neural Architecture Search (NAS)",
+      "causes",
+      "Long search time"
+    ],
+    [
+      "Federated Learning System",
+      "reduces",
+      "Long search time"
+    ],
+    [
+      "Score-based Search Method",
+      "controls",
+      "Neural Network Selection"
+    ],
+    [
+      "First Federated Learning Unit",
+      "located_in",
+      "Learning Server"
+    ],
+    [
+      "Second Federated Learning Unit",
+      "located_in",
+      "Processing Apparatus"
+    ],
+    [
+      "Local Data Storage",
+      "located_in",
+      "Processing Apparatus"
+    ],
+    [
+      "Score Calculation Unit",
+      "located_in",
+      "Processing Apparatus"
+    ],
+    [
+      "Aggregation Unit",
+      "located_in",
+      "Learning Server"
+    ],
+    [
+      "Processing Apparatus",
+      "comprises",
+      "Second Federated Learning Unit"
+    ],
+    [
+      "Processing Apparatus",
+      "comprises",
+      "Local Data Storage"
+    ],
+    [
+      "Processing Apparatus",
+      "comprises",
+      "Score Calculation Unit"
+    ],
+    [
+      "Learning Server",
+      "comprises",
+      "First Federated Learning Unit"
+    ],
+    [
+      "Learning Server",
+      "comprises",
+      "Aggregation Unit"
+    ],
+    [
+      "Iterative Rounds",
+      "includes",
+      "Local Training"
+    ],
+    [
+      "Iterative Rounds",
+      "includes",
+      "Score Calculation"
+    ],
+    [
+      "Iterative Rounds",
+      "includes",
+      "Neural Network Selection"
+    ],
+    [
+      "Iterative Rounds",
+      "includes",
+      "Global Update"
+    ],
+    [
+      "Score",
+      "indicates",
+      "Quality of Neural Network"
+    ],
+    [
+      "Practical Machine Learning",
+      "achieves",
+      "Significant Reduction in NAS search time"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated Learning System",
+    "First Federated Learning Unit",
+    "Iterative Local Training and Global Update",
+    "Long Search Time NAS in Federated Learning",
+    "Practical Machine Learning",
+    "Score Calculation by Score Calculation Unit",
+    "Second Federated Learning Unit",
+    "Significant Reduction in NAS Search Time"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregation Unit",
+    "Federated Learning System",
+    "First Federated Learning Unit",
+    "Global Update",
+    "Iterative Rounds",
+    "Learning Server",
+    "Local Data Storage",
+    "Local Training",
+    "Long search time",
+    "Neural Architecture Search (NAS)",
+    "Neural Network Selection",
+    "Practical Machine Learning",
+    "Processing Apparatus",
+    "Quality of Neural Network",
+    "Score",
+    "Score Calculation",
+    "Score Calculation Unit",
+    "Score-based Search Method",
+    "Second Federated Learning Unit",
+    "Significant Reduction in NAS search time"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "comprises",
+    "controls",
+    "includes",
+    "indicates",
+    "located_in",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06N3/044",
+    "G06N3/045",
+    "G06N3/063",
+    "G06N3/08",
+    "G06N3/084",
+    "G06N3/098"
+  ]
+}

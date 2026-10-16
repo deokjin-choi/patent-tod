@@ -1,0 +1,191 @@
+{
+  "publication_number": "CN117033698A",
+  "title": "Federal learning video recommendation method, system and device based on clustering",
+  "assignee": "Guangdong University of Technology",
+  "filing_date": "2023-08-04",
+  "publication_date": "2023-11-10",
+  "pse": {
+    "problem": "Privacy leakage in video recommendation method due to data upload and server operations",
+    "solution_function": "Clustering-based federated learning for secure video recommendation by calculating Hellinger distance matrix, performing hierarchical clustering, training models on local data, and aggregating models based on clusters",
+    "solution_structure": "Client (generates tag vector, encrypts it), Server (calculates Hellinger distance matrix, performs hierarchical clustering, initializes cluster model, aggregates local models)",
+    "solution_implementation": "Client generates a label vector, adjusts data processing with a specific formula, multiplies the orthogonal matrix by the data-processed label vector to obtain an encrypted label vector; Server calculates Hellinger distance based on encrypted tag vectors, performs hierarchical clustering, initializes cluster models for clusters, aggregates local models based on clusters, and loops until convergence",
+    "effect": "Reduction of privacy leakage risk in video recommendation process"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning for Video Recommendation",
+      "Addresses_Problem",
+      "Privacy Leakage in Video Recommendation"
+    ],
+    [
+      "Federated Learning for Video Recommendation",
+      "Comprises_Component",
+      "Client"
+    ],
+    [
+      "Federated Learning for Video Recommendation",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Federated Learning for Video Recommendation",
+      "Implemented_By",
+      "Data Processing with Specific Formula"
+    ],
+    [
+      "Federated Learning for Video Recommendation",
+      "Implemented_By",
+      "Hierarchical Clustering"
+    ],
+    [
+      "Federated Learning for Video Recommendation",
+      "Implemented_By",
+      "Model Aggregation"
+    ],
+    [
+      "Federated Learning for Video Recommendation",
+      "Achieves_Effect",
+      "Reduction of Privacy Leakage Risk"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Upload",
+      "causes",
+      "Privacy Leakage"
+    ],
+    [
+      "Server Operations",
+      "causes",
+      "Privacy Leakage"
+    ],
+    [
+      "Clustering-based Federated Learning",
+      "reduces",
+      "Privacy Leakage Risk"
+    ],
+    [
+      "Client",
+      "generates",
+      "Label Vector"
+    ],
+    [
+      "Client",
+      "encrypts",
+      "Label Vector"
+    ],
+    [
+      "Client",
+      "adjusts",
+      "Data Processing"
+    ],
+    [
+      "Specific Formula",
+      "applies_to",
+      "Data Processing"
+    ],
+    [
+      "Orthogonal Matrix",
+      "multiplies",
+      "Data-processed Label Vector"
+    ],
+    [
+      "Orthogonal Matrix",
+      "produces",
+      "Encrypted Label Vector"
+    ],
+    [
+      "Server",
+      "calculates",
+      "Hellinger Distance Matrix"
+    ],
+    [
+      "Server",
+      "performs",
+      "Hierarchical Clustering"
+    ],
+    [
+      "Server",
+      "initializes",
+      "Cluster Model"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Local Models"
+    ],
+    [
+      "Clusters",
+      "comprises",
+      "Trained Models"
+    ],
+    [
+      "Convergence",
+      "occurs",
+      "After Server Looping"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client",
+    "Data Processing with Specific Formula",
+    "Federated Learning for Video Recommendation",
+    "Hierarchical Clustering",
+    "Model Aggregation",
+    "Privacy Leakage in Video Recommendation",
+    "Reduction of Privacy Leakage Risk",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "After Server Looping",
+    "Client",
+    "Cluster Model",
+    "Clustering-based Federated Learning",
+    "Clusters",
+    "Convergence",
+    "Data Processing",
+    "Data Upload",
+    "Data-processed Label Vector",
+    "Encrypted Label Vector",
+    "Hellinger Distance Matrix",
+    "Hierarchical Clustering",
+    "Label Vector",
+    "Local Models",
+    "Orthogonal Matrix",
+    "Privacy Leakage",
+    "Privacy Leakage Risk",
+    "Server",
+    "Server Operations",
+    "Specific Formula",
+    "Trained Models"
+  ],
+  "knowledge_graph2_relation": [
+    "adjusts",
+    "aggregates",
+    "applies_to",
+    "calculates",
+    "causes",
+    "comprises",
+    "encrypts",
+    "generates",
+    "initializes",
+    "multiplies",
+    "occurs",
+    "performs",
+    "produces",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06F16/735",
+    "G06F16/75",
+    "G06F18/231",
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

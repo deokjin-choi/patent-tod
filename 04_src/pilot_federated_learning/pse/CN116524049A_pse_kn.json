@@ -1,0 +1,160 @@
+{
+  "publication_number": "CN116524049A",
+  "title": "An intelligent imaging system capable of interactive training",
+  "assignee": "Southern Medical University",
+  "filing_date": "2023-03-02",
+  "publication_date": "2023-08-01",
+  "pse": {
+    "problem": "Excessive CT doses can induce genetic diseases. Reducing radiation dose leads to a decrease in the quality of CT images.",
+    "solution_function": "The system performs interactive training on federated learning modules using local CT data and paired standardized low-dose detection data-normal dose image data from each imaging center. It reconstructs low-dose CT original acquisition data into normal-dose CT images using the obtained local imaging models and local network parameters.",
+    "solution_structure": "The system includes a data acquisition module, federated learning module, and image reconstruction module. The federated learning module is further divided into basic networks for global and local training.",
+    "solution_implementation": "In supervised training, the cloud basic network is input with paired standardized CT low-dose detection data-normal dose image data to obtain the global imaging model and global network parameters. These parameters are then distributed to each image center for local training using their respective local CT data. The aggregated local network parameters from each image center are uploaded to the cloud.",
+    "effect": "The system provides low-dose CT images of high quality while protecting patient privacy."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Excessive CT Dose Genetic Disease Risk"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Data Acquisition Module"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Federated Learning Module"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Supervised Training Process"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "High-Quality Low-Dose CT Images Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Excessive CT Doses",
+      "causes",
+      "Genetic Diseases"
+    ],
+    [
+      "Reducing Radiation Dose",
+      "reduces",
+      "Quality of CT Images"
+    ],
+    [
+      "Local Imaging Center",
+      "comprises",
+      "Imaging Data"
+    ],
+    [
+      "Local Imaging Center",
+      "provides",
+      "Local CT Data"
+    ],
+    [
+      "Federated Learning Modules",
+      "processes",
+      "Local Imaging Data"
+    ],
+    [
+      "Federated Learning Modules",
+      "utilizes",
+      "Paired Standardized Low-Dose Detection Data-Normal Dose Image Data"
+    ],
+    [
+      "Global Basic Network",
+      "controls",
+      "Obtaining Global Imaging Model"
+    ],
+    [
+      "Cloud Computing",
+      "stores",
+      "Global Network Parameters"
+    ],
+    [
+      "Local CT Data",
+      "transmits_to",
+      "Local Training"
+    ],
+    [
+      "Local Training",
+      "uses",
+      "Local Network Parameters"
+    ],
+    [
+      "Aggregated Local Network Parameters",
+      "uploads_to",
+      "Cloud"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Aggregated Local Network Parameters"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Acquisition Module",
+    "Excessive CT Dose Genetic Disease Risk",
+    "Federated Learning Module",
+    "Federated Learning System",
+    "High-Quality Low-Dose CT Images Privacy Protection",
+    "Supervised Training Process"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Local Network Parameters",
+    "Cloud",
+    "Cloud Computing",
+    "Cloud Storage",
+    "Excessive CT Doses",
+    "Federated Learning Modules",
+    "Genetic Diseases",
+    "Global Basic Network",
+    "Global Network Parameters",
+    "Imaging Data",
+    "Local CT Data",
+    "Local Imaging Center",
+    "Local Imaging Data",
+    "Local Network Parameters",
+    "Local Training",
+    "Obtaining Global Imaging Model",
+    "Paired Standardized Low-Dose Detection Data-Normal Dose Image Data",
+    "Quality of CT Images",
+    "Reducing Radiation Dose"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "comprises",
+    "controls",
+    "processes",
+    "provides",
+    "reduces",
+    "stores",
+    "transmits_to",
+    "uploads_to",
+    "uses",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06N3/08",
+    "G06T11/003",
+    "G06T2207/10081",
+    "G06T2207/20081",
+    "G06T2207/20084",
+    "G06T7/0012",
+    "Y02T10/40"
+  ]
+}

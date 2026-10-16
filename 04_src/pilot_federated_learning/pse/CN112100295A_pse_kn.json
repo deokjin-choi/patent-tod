@@ -1,0 +1,246 @@
+{
+  "publication_number": "CN112100295A",
+  "title": "User data classification method, device, equipment and medium based on federated learning",
+  "assignee": "Ping An Technology Shenzhen Co Ltd",
+  "filing_date": "2020-10-12",
+  "publication_date": "2020-12-18",
+  "pse": {
+    "problem": "The current method for classifying user data based on federated learning shares training data with the central server, posing a risk of user data leakage.",
+    "solution_function": "The invention proposes a method that protects user privacy data by generating a gradient matrix during each training cycle, selecting the target channel and gradient matrix, using the selected gradient matrix as the weight of the server to update the local model, and classifying user data based on the updated local model.",
+    "solution_structure": "The solution includes training data, a local model, a gradient matrix, a tensor for saving calculation results, and a channel selection threshold.",
+    "solution_implementation": "The process involves obtaining training data, parsing user data, training the local model with the training data, generating a gradient matrix based on the change gradient of the weight matrix during each training cycle, selecting the target channel and gradient matrix, using the selected gradient matrix as the weight of the server to update the local model, and classifying user data based on the updated local model.",
+    "effect": "The proposed method improves the security of user privacy data by reducing the risk of user data leakage."
+  },
+  "knowledge_graph": [
+    [
+      "Gradient Matrix Method",
+      "Addresses_Problem",
+      "User Data Leakage Risk"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Comprises_Component",
+      "Training Data"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Comprises_Component",
+      "Local Model"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Comprises_Component",
+      "Gradient Matrix"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Comprises_Component",
+      "Tensor for Calculation Results"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Implemented_By",
+      "Obtaining Training Data"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Implemented_By",
+      "Parsing User Data"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Implemented_By",
+      "Training Local Model"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Implemented_By",
+      "Generating Gradient Matrix"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Implemented_By",
+      "Selecting Channel and Gradient Matrix"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Implemented_By",
+      "Updating Local Model"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Implemented_By",
+      "Classifying User Data"
+    ],
+    [
+      "Gradient Matrix Method",
+      "Achieves_Effect",
+      "Improved Security of User Privacy Data"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Current Method",
+      "causes",
+      "Data Leakage Risk"
+    ],
+    [
+      "Central Server",
+      "receives",
+      "Training Data"
+    ],
+    [
+      "Invention",
+      "proposes",
+      "Privacy Protecting Method"
+    ],
+    [
+      "Method",
+      "generates",
+      "Gradient Matrix"
+    ],
+    [
+      "Method",
+      "selects",
+      "Target Channel"
+    ],
+    [
+      "Method",
+      "uses",
+      "Selected Gradient Matrix"
+    ],
+    [
+      "Server",
+      "updates",
+      "Local Model"
+    ],
+    [
+      "Updated Local Model",
+      "classifies",
+      "User Data"
+    ],
+    [
+      "Solution",
+      "includes",
+      "Training Data"
+    ],
+    [
+      "Solution",
+      "includes",
+      "Local Model"
+    ],
+    [
+      "Solution",
+      "includes",
+      "Gradient Matrix"
+    ],
+    [
+      "Solution",
+      "includes",
+      "Tensor"
+    ],
+    [
+      "Solution",
+      "has",
+      "Channel Selection Threshold"
+    ],
+    [
+      "Method",
+      "obtains",
+      "Training Data"
+    ],
+    [
+      "Method",
+      "parses",
+      "User Data"
+    ],
+    [
+      "Local Model",
+      "trains_with",
+      "Training Data"
+    ],
+    [
+      "Gradient Matrix",
+      "depends_on",
+      "Change Gradient of Weight Matrix"
+    ],
+    [
+      "Selected Gradient Matrix",
+      "serves_as",
+      "Weight of Server"
+    ],
+    [
+      "Data",
+      "improves_security_of",
+      "User Privacy Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Classifying User Data",
+    "Generating Gradient Matrix",
+    "Gradient Matrix",
+    "Gradient Matrix Method",
+    "Improved Security of User Privacy Data",
+    "Local Model",
+    "Obtaining Training Data",
+    "Parsing User Data",
+    "Selecting Channel and Gradient Matrix",
+    "Tensor for Calculation Results",
+    "Training Data",
+    "Training Local Model",
+    "Updating Local Model",
+    "User Data Leakage Risk"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Change Gradient of Weight Matrix",
+    "Channel Selection Threshold",
+    "Current Method",
+    "Data",
+    "Data Leakage Risk",
+    "Gradient Matrix",
+    "Invention",
+    "Local Model",
+    "Method",
+    "Privacy Protecting Method",
+    "Selected Gradient Matrix",
+    "Server",
+    "Solution",
+    "Target Channel",
+    "Tensor",
+    "Training Data",
+    "Updated Local Model",
+    "User Data",
+    "User Privacy Data",
+    "Weight of Server"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "classifies",
+    "depends_on",
+    "generates",
+    "has",
+    "improves_security_of",
+    "includes",
+    "obtains",
+    "parses",
+    "proposes",
+    "receives",
+    "selects",
+    "serves_as",
+    "trains_with",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F16/285",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

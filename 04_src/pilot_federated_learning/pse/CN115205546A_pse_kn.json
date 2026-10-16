@@ -1,0 +1,180 @@
+{
+  "publication_number": "CN115205546A",
+  "title": "Model training method and device, electronic equipment and storage medium",
+  "assignee": "Ping An Technology Shenzhen Co Ltd",
+  "filing_date": "2022-07-29",
+  "publication_date": "2022-10-18",
+  "pse": {
+    "problem": "Data heterogeneity between image data of different clients leads to poor model training results in federated learning",
+    "solution_function": "The system performs label prediction and feature extraction on unlabeled image data using an original model (consisting of a graph convolutional network and a convolutional neural network). It then performs projection clustering to obtain domain labels and domain combination labels. A distance loss function is calculated based on these labels, which are used to update the original model parameters for global model improvement.",
+    "solution_structure": "The system comprises a client with an original model, consisting of a graph convolutional network and a convolutional neural network. It communicates with a server to send updated model parameters.",
+    "solution_implementation": "The original image data is input into the original model for label prediction and feature extraction. The extracted features are projected and clustered to obtain domain labels and domain combination labels. A distance loss function is calculated, and model parameters are updated based on this loss function and cross-entropy loss function using a preset activation function.",
+    "effect": "Improved training efficiency and accuracy of the model"
+  },
+  "knowledge_graph": [
+    [
+      "Graph Convolutional Network and Convolutional Neural Network",
+      "Addresses_Problem",
+      "Data Heterogeneity Problem"
+    ],
+    [
+      "Graph Convolutional Network and Convolutional Neural Network",
+      "Comprises_Component",
+      "Key Component 1"
+    ],
+    [
+      "Graph Convolutional Network and Convolutional Neural Network",
+      "Comprises_Component",
+      "Key Component 2"
+    ],
+    [
+      "Label Prediction and Feature Extraction Process",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Projection Clustering Process",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Distance Loss Function",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Improved Training Efficiency and Accuracy",
+      "Achieves_Effect",
+      "Primary Benefit"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Heterogeneity",
+      "causes",
+      "Poor Model Training Results"
+    ],
+    [
+      "Graph Convolutional Network",
+      "controls",
+      "Label Prediction"
+    ],
+    [
+      "Convolutional Neural Network",
+      "controls",
+      "Feature Extraction"
+    ],
+    [
+      "Original Model (consisting of GCN and CNN)",
+      "comprises",
+      "System"
+    ],
+    [
+      "Client",
+      "includes",
+      "Original Model"
+    ],
+    [
+      "Server",
+      "connected_to",
+      "Client"
+    ],
+    [
+      "Server",
+      "receives",
+      "Updated Model Parameters"
+    ],
+    [
+      "Unlabeled Image Data",
+      "inputs_into",
+      "Original Model"
+    ],
+    [
+      "Extracted Features",
+      "undergoes",
+      "Projection Clustering"
+    ],
+    [
+      "Projected and Clustered Features",
+      "provides",
+      "Domain Labels"
+    ],
+    [
+      "Projected and Clustered Features",
+      "provides",
+      "Domain Combination Labels"
+    ],
+    [
+      "Distance Loss Function",
+      "calculates",
+      "Based on Domain Labels"
+    ],
+    [
+      "Updated Model Parameters",
+      "modifies",
+      "Global Model Improvement"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Data Heterogeneity Problem",
+    "Distance Loss Function",
+    "Graph Convolutional Network and Convolutional Neural Network",
+    "Improved Training Efficiency and Accuracy",
+    "Key Component 1",
+    "Key Component 2",
+    "Label Prediction and Feature Extraction Process",
+    "Primary Benefit",
+    "Projection Clustering Process"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Based on Domain Labels",
+    "Client",
+    "Convolutional Neural Network",
+    "Data Heterogeneity",
+    "Distance Loss Function",
+    "Domain Combination Labels",
+    "Domain Labels",
+    "Extracted Features",
+    "Feature Extraction",
+    "Global Model Improvement",
+    "Graph Convolutional Network",
+    "Label Prediction",
+    "Original Model",
+    "Original Model (consisting of GCN and CNN)",
+    "Poor Model Training Results",
+    "Projected and Clustered Features",
+    "Projection Clustering",
+    "Server",
+    "System",
+    "Unlabeled Image Data",
+    "Updated Model Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "calculates",
+    "causes",
+    "comprises",
+    "connected_to",
+    "controls",
+    "includes",
+    "inputs_into",
+    "modifies",
+    "provides",
+    "receives",
+    "undergoes"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/08",
+    "G06V10/44",
+    "G06V10/762",
+    "G06V10/764",
+    "G06V10/82"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "publication_number": "CN113037662A",
+  "title": "Mobile equipment radio frequency distribution identification method based on federal learning",
+  "assignee": "University of Electronic Science and Technology of China",
+  "filing_date": "2021-03-02",
+  "publication_date": "2021-06-25",
+  "pse": {
+    "problem": "Inefficient user authentication in untrusted environments due to limitations of traditional methods and hardware resources in mobile devices",
+    "solution_function": "Performs mobile equipment identification using a federal learning-based method that involves preprocessing time domain data, constructing a distributed computing model, and training the model with a dynamic sample selection algorithm",
+    "solution_structure": "Includes Rayleigh fading channel for acquiring time domain data, federated learning-based distributed computing model built using mobile equipment, and a hierarchical division of time domain data",
+    "solution_implementation": "Preprocessing of time domain data, construction of the distributed computing model based on federal learning using mobile equipment, dynamic sample selection algorithm for training the model",
+    "effect": "Provides privacy protection for local sensitive data and identifies mobile equipment in a distributed and resource-efficient manner"
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning-based Method",
+      "Addresses_Problem",
+      "Inefficient User Authentication in Untrusted Environments"
+    ],
+    [
+      "Federal Learning-based Method",
+      "Comprises_Component",
+      "Rayleigh Fading Channel"
+    ],
+    [
+      "Federal Learning-based Method",
+      "Comprises_Component",
+      "Hierarchical Division of Time Domain Data"
+    ],
+    [
+      "Federal Learning-based Method",
+      "Implemented_By",
+      "Preprocessing of Time Domain Data"
+    ],
+    [
+      "Federal Learning-based Method",
+      "Implemented_By",
+      "Construction of Distributed Computing Model"
+    ],
+    [
+      "Federal Learning-based Method",
+      "Implemented_By",
+      "Dynamic Sample Selection Algorithm"
+    ],
+    [
+      "Federal Learning-based Method",
+      "Achieves_Effect",
+      "Privacy Protection for Local Sensitive Data"
+    ],
+    [
+      "Federal Learning-based Method",
+      "Achieves_Effect",
+      "Identification of Mobile Equipment"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Inefficient user authentication",
+      "causes",
+      "Security concerns"
+    ],
+    [
+      "Traditional methods",
+      "limits",
+      "Mobile devices"
+    ],
+    [
+      "Hardware resources in mobile devices",
+      "limits",
+      "Authentication processes"
+    ],
+    [
+      "Federal learning-based method",
+      "performs",
+      "Mobile equipment identification"
+    ],
+    [
+      "Time domain data",
+      "is_processed",
+      "Preprocessing"
+    ],
+    [
+      "Rayleigh fading channel",
+      "acquires",
+      "Time domain data"
+    ],
+    [
+      "Distributed computing model",
+      "built using",
+      "Mobile equipment"
+    ],
+    [
+      "Federated learning",
+      "applied to",
+      "Distributed computing model"
+    ],
+    [
+      "Dynamic sample selection algorithm",
+      "is_used for",
+      "Model training"
+    ],
+    [
+      "Local sensitive data",
+      "protected by",
+      "Privacy protection"
+    ],
+    [
+      "Local sensitive data",
+      "identified in",
+      "Distributed manner"
+    ],
+    [
+      "Rayleigh fading channel",
+      "comprises",
+      "Time domain acquisition component"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Construction of Distributed Computing Model",
+    "Dynamic Sample Selection Algorithm",
+    "Federal Learning-based Method",
+    "Hierarchical Division of Time Domain Data",
+    "Identification of Mobile Equipment",
+    "Inefficient User Authentication in Untrusted Environments",
+    "Preprocessing of Time Domain Data",
+    "Privacy Protection for Local Sensitive Data",
+    "Rayleigh Fading Channel"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Authentication processes",
+    "Distributed computing model",
+    "Distributed manner",
+    "Dynamic sample selection algorithm",
+    "Federal learning-based method",
+    "Federated learning",
+    "Hardware resources in mobile devices",
+    "Inefficient user authentication",
+    "Local sensitive data",
+    "Mobile devices",
+    "Mobile equipment",
+    "Mobile equipment identification",
+    "Model training",
+    "Preprocessing",
+    "Privacy protection",
+    "Rayleigh fading channel",
+    "Security concerns",
+    "Time domain acquisition component",
+    "Time domain data",
+    "Traditional methods"
+  ],
+  "knowledge_graph2_relation": [
+    "acquires",
+    "applied to",
+    "built using",
+    "causes",
+    "comprises",
+    "identified in",
+    "is_processed",
+    "is_used for",
+    "limits",
+    "performs",
+    "protected by"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L25/0256",
+    "H04L5/0005"
+  ]
+}

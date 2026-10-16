@@ -1,0 +1,129 @@
+{
+  "publication_number": "KR20250131174A",
+  "title": "Federated learning system of calibrating the heterogeneity of clients with non-IID data",
+  "assignee": "(no assignee found)",
+  "filing_date": "2024-02-26",
+  "publication_date": "2025-09-02",
+  "pse": {
+    "problem": "Non-IID (Independently and Identically Distributed) data among clients in Federated Learning causes reduced convergence speed and performance of the global model",
+    "solution_function": "The system performs bias adjustment on a classifier during local learning by applying a bias adjustment coefficient to alleviate distortion and measure the accuracy of a label, and central server updates the classifier based on the accuracy of labels from each client to correct heterogeneity among clients",
+    "solution_structure": "Key components include local models at distributed clients, classifiers (FedRS), central server",
+    "solution_implementation": "Local clients train local models and transmit model parameters to the central server. The central server aggregates the parameters, updates a global model, and adjusts the classifier based on the accuracy of labels from each client. FedRS uses a Restricted Softmax method to limit weight updates based on presence or absence of labels during local learning",
+    "effect": "Improved convergence speed and performance of the global model in Non-IID data environments"
+  },
+  "knowledge_graph": [
+    [
+      "Bias Adjustment in Federated Learning",
+      "Addresses_Problem",
+      "Non-IID data distribution among clients"
+    ],
+    [
+      "Bias Adjustment in Federated Learning",
+      "Comprises_Component",
+      "Local models at distributed clients"
+    ],
+    [
+      "Bias Adjustment in Federated Learning",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Bias Adjustment in Federated Learning",
+      "Implemented_By",
+      "Restricted Softmax method and label accuracy adjustments"
+    ],
+    [
+      "Bias Adjustment in Federated Learning",
+      "Achieves_Effect",
+      "Improved convergence speed and performance of the global model"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Non-IID data among clients",
+      "causes",
+      "Reduced convergence speed and performance of the global model"
+    ],
+    [
+      "Local models at distributed clients",
+      "controls",
+      "Local learning process"
+    ],
+    [
+      "Classifiers (FedRS)",
+      "processes",
+      "Data during local learning"
+    ],
+    [
+      "Central server",
+      "updates",
+      "Global model based on accuracy of labels from each client"
+    ],
+    [
+      "Central server",
+      "applies",
+      "Bias adjustment coefficient to alleviate distortion and measure the accuracy of a label"
+    ],
+    [
+      "Local clients",
+      "transmit_to",
+      "Central server (model parameters)"
+    ],
+    [
+      "FedRS",
+      "uses",
+      "Restricted Softmax method to limit weight updates based on presence or absence of labels during local learning"
+    ],
+    [
+      "Heterogeneity among clients",
+      "is_addressed_by",
+      "Updates to the classifier by the central server"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Bias Adjustment in Federated Learning",
+    "Central server",
+    "Improved convergence speed and performance of the global model",
+    "Local models at distributed clients",
+    "Non-IID data distribution among clients",
+    "Restricted Softmax method and label accuracy adjustments"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Bias adjustment coefficient to alleviate distortion and measure the accuracy of a label",
+    "Central server",
+    "Central server (model parameters)",
+    "Classifiers (FedRS)",
+    "Data during local learning",
+    "FedRS",
+    "Global model based on accuracy of labels from each client",
+    "Heterogeneity among clients",
+    "Local clients",
+    "Local learning process",
+    "Local models at distributed clients",
+    "Non-IID data among clients",
+    "Reduced convergence speed and performance of the global model",
+    "Restricted Softmax method to limit weight updates based on presence or absence of labels during local learning",
+    "Updates to the classifier by the central server"
+  ],
+  "knowledge_graph2_relation": [
+    "applies",
+    "causes",
+    "controls",
+    "is_addressed_by",
+    "processes",
+    "transmit_to",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N3/048",
+    "G06N3/098",
+    "H04L67/10"
+  ]
+}

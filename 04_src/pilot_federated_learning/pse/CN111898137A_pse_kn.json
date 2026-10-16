@@ -1,0 +1,163 @@
+{
+  "publication_number": "CN111898137A",
+  "title": "Private data processing method, equipment and system for federated learning",
+  "assignee": "Shenzhen Zhixing Technology Co Ltd",
+  "filing_date": "2020-06-30",
+  "publication_date": "2020-11-06",
+  "pse": {
+    "problem": "The limitation lies in the inability to perform large integer operations (1024-bit or more) using current machine instructions in federated learning.",
+    "solution_function": "Performs secret calculation on update model parameters using an encryption algorithm like Paillier or RSA, disassembling a first operand into multiple second operands with bit number smaller than the first operand, and performing parallel operations on these second operands. The coordinating device or other participating devices use this information to obtain updated aggregation model parameters.",
+    "solution_structure": "Includes a processor that performs disassembly of large operands into multiple smaller operands and a communication interface for data exchange with the coordinating device or other participating devices.",
+    "solution_implementation": "The participating device receives aggregated model parameters, acquires local training data, performs local training, generates ciphertext data by secret calculation on update model parameters using an encryption algorithm, disassembles a large operand into multiple smaller operands, converts the operation of the large operand into parallel operations of the smaller operands, sends the ciphertext data to the coordinating device or other participating devices.",
+    "effect": "Enables federated learning to operate on larger integer values not natively supported by machine instructions, improving the efficiency and applicability of federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Encryption Algorithm",
+      "Addresses_Problem",
+      "Large Integer Operations Limitations"
+    ],
+    [
+      "Encryption Algorithm",
+      "Comprises_Component",
+      "Disassembly of Large Operands"
+    ],
+    [
+      "Encryption Algorithm",
+      "Comprises_Component",
+      "Parallel Operations"
+    ],
+    [
+      "Encryption Algorithm",
+      "Implemented_By",
+      "Secret Calculation on Update Model Parameters"
+    ],
+    [
+      "Encryption Algorithm",
+      "Achieves_Effect",
+      "Improved Efficiency and Applicability of Federated Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "causes",
+      "Limitation in Large Integer Operations"
+    ],
+    [
+      "Machine Instructions",
+      "controls",
+      "Performing Large Integer Operations"
+    ],
+    [
+      "Current Machine Instructions",
+      "does_not_support",
+      "Large Integer Operations (1024-bit or more)"
+    ],
+    [
+      "Encryption Algorithm (Paillier or RSA)",
+      "performs",
+      "Secret Calculation on Update Model Parameters"
+    ],
+    [
+      "Encryption Algorithm (Paillier or RSA)",
+      "disassembles",
+      "First Operand into Multiple Second Operands"
+    ],
+    [
+      "Participating Device",
+      "performs",
+      "Parallel Operations on Second Operands"
+    ],
+    [
+      "Coordinating Device or Other Participating Devices",
+      "obtains",
+      "Updated Aggregation Model Parameters"
+    ],
+    [
+      "Participating Device",
+      "receives",
+      "Aggregated Model Parameters"
+    ],
+    [
+      "Participating Device",
+      "acquires",
+      "Local Training Data"
+    ],
+    [
+      "Participating Device",
+      "performs",
+      "Local Training"
+    ],
+    [
+      "Participating Device",
+      "generates",
+      "Ciphertext Data"
+    ],
+    [
+      "Federated Learning",
+      "enables",
+      "Operating on Larger Integer Values"
+    ],
+    [
+      "Federated Learning",
+      "improves",
+      "Efficiency and Applicability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Disassembly of Large Operands",
+    "Encryption Algorithm",
+    "Improved Efficiency and Applicability of Federated Learning",
+    "Large Integer Operations Limitations",
+    "Parallel Operations",
+    "Secret Calculation on Update Model Parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Model Parameters",
+    "Ciphertext Data",
+    "Coordinating Device or Other Participating Devices",
+    "Current Machine Instructions",
+    "Efficiency and Applicability",
+    "Encryption Algorithm (Paillier or RSA)",
+    "Federated Learning",
+    "First Operand into Multiple Second Operands",
+    "Large Integer Operations (1024-bit or more)",
+    "Limitation in Large Integer Operations",
+    "Local Training",
+    "Local Training Data",
+    "Machine Instructions",
+    "Operating on Larger Integer Values",
+    "Parallel Operations on Second Operands",
+    "Participating Device",
+    "Performing Large Integer Operations",
+    "Secret Calculation on Update Model Parameters",
+    "Updated Aggregation Model Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "acquires",
+    "causes",
+    "controls",
+    "disassembles",
+    "does_not_support",
+    "enables",
+    "generates",
+    "improves",
+    "obtains",
+    "performs",
+    "receives"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N20/00",
+    "G06N3/045",
+    "G06N3/08"
+  ]
+}

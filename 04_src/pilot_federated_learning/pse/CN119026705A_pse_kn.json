@@ -1,0 +1,165 @@
+{
+  "publication_number": "CN119026705A",
+  "title": "A hierarchical personalized federated learning method integrating device scheduling",
+  "assignee": "Xiangjiang Laboratory",
+  "filing_date": "2024-10-25",
+  "publication_date": "2024-11-26",
+  "pse": {
+    "problem": "Increasing network congestion, communication overhead, and energy consumption in the internet of vehicles due to an increasing number of vehicles.",
+    "solution_function": "Performs hierarchical personalized federal learning on IOT equipment by creating micro auxiliary models, dividing clusters, screening out equipment, model splitting and federation learning, local personalized federal learning, and task distribution. The goal is to adapt the final local personalized model parameters to task requirements of different vehicle devices for providing more accurate personalized services.",
+    "solution_structure": "Cloud server, IOT equipment in a region, micro auxiliary models, clusters, random scheduling equipment set.",
+    "solution_implementation": "Local training on micro auxiliary models by all IOT equipment to obtain different model parameters, dividing clusters based on model parameters, screening out IOT equipment from the partitioned clusters, model splitting and federation learning on IOT equipment in the random scheduling equipment set, local personalized federal learning according to partial global model parameters and similarity between IOT equipment, task distribution based on local personalized model parameters.",
+    "effect": "Provides more accurate personalized services by adapting final local personalized model parameters to task requirements of different vehicle devices."
+  },
+  "knowledge_graph": [
+    [
+      "Performs hierarchical personalized federal learning",
+      "Addresses_Problem",
+      "Increasing network congestion, communication overhead, and energy consumption in the internet of vehicles due to an increasing number of vehicles"
+    ],
+    [
+      "Performs hierarchical personalized federal learning",
+      "Comprises_Component",
+      "micro auxiliary models"
+    ],
+    [
+      "Performs hierarchical personalized federal learning",
+      "Comprises_Component",
+      "cloud server"
+    ],
+    [
+      "Performs hierarchical personalized federal learning",
+      "Implemented_By",
+      "Local training on micro auxiliary models by all IOT equipment to obtain different model parameters, dividing clusters based on model parameters, screening out IOT equipment from the partitioned clusters, model splitting and federation learning on IOT equipment in the random scheduling equipment set, local personalized federal learning according to partial global model parameters and similarity between IOT equipment, task distribution based on local personalized model parameters"
+    ],
+    [
+      "Performs hierarchical personalized federal learning",
+      "Achieves_Effect",
+      "Provides more accurate personalized services by adapting final local personalized model parameters to task requirements of different vehicle devices"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Increasing Number of Vehicles",
+      "causes",
+      "Network Congestion"
+    ],
+    [
+      "Increasing Number of Vehicles",
+      "increases",
+      "Communication Overhead"
+    ],
+    [
+      "Increasing Number of Vehicles",
+      "increases",
+      "Energy Consumption"
+    ],
+    [
+      "IOT Equipment",
+      "performs",
+      "Hierarchical Personalized Federal Learning"
+    ],
+    [
+      "IOT Equipment",
+      "creates",
+      "Micro Auxiliary Models"
+    ],
+    [
+      "IOT Equipment",
+      "divides",
+      "Clusters"
+    ],
+    [
+      "IOT Equipment",
+      "screens_out",
+      "Equipment"
+    ],
+    [
+      "IOT Equipment",
+      "model_splits",
+      "Federation Learning"
+    ],
+    [
+      "IOT Equipment",
+      "performs",
+      "Local Personalized Federal Learning"
+    ],
+    [
+      "IOT Equipment",
+      "distributes",
+      "Tasks"
+    ],
+    [
+      "Micro Auxiliary Models",
+      "obtains",
+      "Different Model Parameters"
+    ],
+    [
+      "Clusters",
+      "is_based_on",
+      "Model Parameters"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Network Delay"
+    ],
+    [
+      "Processed Data",
+      "stored_in",
+      "Cloud Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Increasing network congestion, communication overhead, and energy consumption in the internet of vehicles due to an increasing number of vehicles",
+    "Local training on micro auxiliary models by all IOT equipment to obtain different model parameters, dividing clusters based on model parameters, screening out IOT equipment from the partitioned clusters, model splitting and federation learning on IOT equipment in the random scheduling equipment set, local personalized federal learning according to partial global model parameters and similarity between IOT equipment, task distribution based on local personalized model parameters",
+    "Performs hierarchical personalized federal learning",
+    "Provides more accurate personalized services by adapting final local personalized model parameters to task requirements of different vehicle devices",
+    "cloud server",
+    "micro auxiliary models"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Cloud Storage",
+    "Clusters",
+    "Communication Overhead",
+    "Different Model Parameters",
+    "Edge Node",
+    "Energy Consumption",
+    "Equipment",
+    "Federation Learning",
+    "Hierarchical Personalized Federal Learning",
+    "IOT Equipment",
+    "Increasing Number of Vehicles",
+    "Local Personalized Federal Learning",
+    "Micro Auxiliary Models",
+    "Model Parameters",
+    "Network Congestion",
+    "Network Delay",
+    "Processed Data",
+    "Tasks"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "creates",
+    "distributes",
+    "divides",
+    "increases",
+    "is_based_on",
+    "model_splits",
+    "obtains",
+    "performs",
+    "reduces",
+    "screens_out",
+    "stored_in"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L41/16"
+  ]
+}

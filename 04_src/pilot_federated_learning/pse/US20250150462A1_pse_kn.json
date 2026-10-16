@@ -1,0 +1,146 @@
+{
+  "publication_number": "US20250150462A1",
+  "title": "Federated Learning Process",
+  "assignee": "Telefonaktiebolaget LM Ericsson AB",
+  "filing_date": "2022-12-23",
+  "publication_date": "2025-05-08",
+  "pse": {
+    "problem": "Leakage of client's private data in Federated Learning processes due to server analyzing encrypted updates",
+    "solution_function": "Anonymized data forwarding between clients to prevent the server from learning individual model updates and originators",
+    "solution_structure": "Clients (originators and forwardees), a federated learning server",
+    "solution_implementation": "Originator encrypts its local model update, forwards it to a forwardee who either submits or forwards the update to another forwardee. This multi-hop process continues until the update reaches the server.",
+    "effect": "Prevents leakage of individual client's private data while maintaining privacy and anonymity in federated learning processes"
+  },
+  "knowledge_graph": [
+    [
+      "Anonymized Data Forwarding",
+      "Addresses_Problem",
+      "Leakage of client's private data"
+    ],
+    [
+      "Anonymized Data Forwarding",
+      "Comprises_Component",
+      "Clients (Originators, Forwardees)"
+    ],
+    [
+      "Anonymized Data Forwarding",
+      "Comprises_Component",
+      "Federated Learning Server"
+    ],
+    [
+      "Anonymized Data Forwarding",
+      "Implemented_By",
+      "Multi-hop update forwarding process"
+    ],
+    [
+      "Anonymized Data Forwarding",
+      "Achieves_Effect",
+      "Prevention of individual client's private data leakage"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Client",
+      "encrypts",
+      "Local Model Update"
+    ],
+    [
+      "Originator",
+      "is",
+      "Client"
+    ],
+    [
+      "Forwardee",
+      "receives",
+      "Encrypted Update"
+    ],
+    [
+      "Forwardee",
+      "chooses",
+      "Submit or Forward"
+    ],
+    [
+      "Client",
+      "forwards",
+      "Encrypted Update"
+    ],
+    [
+      "Federated Learning Server",
+      "receives",
+      "Encrypted Updates"
+    ],
+    [
+      "Server",
+      "cannot_learn",
+      "Individual Model Updates"
+    ],
+    [
+      "Clients",
+      "anonymize",
+      "Data Forwarding"
+    ],
+    [
+      "Client's Private Data",
+      "is",
+      "Anonymized"
+    ],
+    [
+      "Federated Learning Processes",
+      "maintains",
+      "Privacy and Anonymity"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Anonymized Data Forwarding",
+    "Clients (Originators, Forwardees)",
+    "Federated Learning Server",
+    "Leakage of client's private data",
+    "Multi-hop update forwarding process",
+    "Prevention of individual client's private data leakage"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Anonymized",
+    "Client",
+    "Client's Private Data",
+    "Clients",
+    "Data Forwarding",
+    "Encrypted Update",
+    "Encrypted Updates",
+    "Federated Learning Processes",
+    "Federated Learning Server",
+    "Forwardee",
+    "Individual Model Updates",
+    "Local Model Update",
+    "Originator",
+    "Privacy and Anonymity",
+    "Server",
+    "Submit or Forward"
+  ],
+  "knowledge_graph2_relation": [
+    "anonymize",
+    "cannot_learn",
+    "chooses",
+    "encrypts",
+    "forwards",
+    "is",
+    "maintains",
+    "receives"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L63/1408",
+    "H04L63/1441",
+    "H04L67/10",
+    "H04L67/56",
+    "H04L9/0643",
+    "H04L9/0891",
+    "H04L9/0894",
+    "H04L9/3257"
+  ]
+}

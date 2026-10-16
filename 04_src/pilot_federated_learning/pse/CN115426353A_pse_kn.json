@@ -1,0 +1,267 @@
+{
+  "publication_number": "CN115426353A",
+  "title": "A method for building a federated learning architecture that integrates blockchain state sharding and reputation mechanisms",
+  "assignee": "Guangdong University of Technology",
+  "filing_date": "2022-08-29",
+  "publication_date": "2022-12-02",
+  "pse": {
+    "problem": "Traditional federated learning has issues of single point of failure for centralized gradient aggregation server and low efficiency due to synchronous training. Also, traditional blockchains have low throughput, storage scalability is low, and federated learning nodes and blockchain nodes are isolated.",
+    "solution_function": "The method constructs a decentralized federated learning architecture by integrating blockchain state sharding and reputation mechanisms. It distributes nodes into shards, trains local models using local data within each shard, aggregates local models to form global models within the shard, and performs inter-shard consensus to select an inter-shard master node that uploads the model to the main chain and aggregates it to obtain a new global model.",
+    "solution_structure": "The architecture consists of nodes divided into shards, each shard having a sub-chain, a master node, and other participating nodes. The main chain serves as the final storage for the aggregated global model.",
+    "solution_implementation": "The process involves grouping nodes into shards, sending the initial model to each node in a shard, training local models using local data, broadcasting local models within the shard, aggregating local models to form a global model within the shard, and performing inter-shard consensus to select an inter-shard master node. The reputation mechanism is used to assign weights to local models during aggregation.",
+    "effect": "The solution aims to solve the problems of low throughput in traditional blockchains, low storage scalability, and isolation between federated learning nodes and blockchain nodes, by implementing decentralized federated learning using blockchain state sharding and reputation mechanisms."
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Federated Learning Architecture",
+      "Addresses_Problem",
+      "Single point of failure for centralized gradient aggregation server"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Addresses_Problem",
+      "Low efficiency due to synchronous training"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Addresses_Problem",
+      "Traditional blockchains with low throughput"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Addresses_Problem",
+      "Federated learning nodes and blockchain nodes isolation"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Comprises_Component",
+      "Nodes divided into shards"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Comprises_Component",
+      "Sub-chain for each shard"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Comprises_Component",
+      "Master node within each shard"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Implemented_By",
+      "Grouping nodes into shards"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Implemented_By",
+      "Sending initial model to each node in a shard"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Implemented_By",
+      "Training local models using local data"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Implemented_By",
+      "Broadcasting local models within the shard"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Implemented_By",
+      "Aggregating local models to form a global model within the shard"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Implemented_By",
+      "Performing inter-shard consensus"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Achieves_Effect",
+      "High throughput in blockchains"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "Achieves_Effect",
+      "Improved storage scalability in blockchains"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Federated Learning",
+      "causes",
+      "Single Point of Failure"
+    ],
+    [
+      "Traditional Federated Learning",
+      "causes",
+      "Low Efficiency"
+    ],
+    [
+      "Centralized Gradient Aggregation Server",
+      "comprises",
+      "Single Point of Failure"
+    ],
+    [
+      "Synchronous Training",
+      "reduces",
+      "Efficiency in Traditional Federated Learning"
+    ],
+    [
+      "Traditional Blockchains",
+      "causes",
+      "Low Throughput"
+    ],
+    [
+      "Traditional Blockchains",
+      "has",
+      "Low Storage Scalability"
+    ],
+    [
+      "Federated Learning Nodes",
+      "are Isolated from",
+      "Blockchain Nodes"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "comprises",
+      "Blockchain State Sharding"
+    ],
+    [
+      "Decentralized Federated Learning Architecture",
+      "implements",
+      "Reputation Mechanisms"
+    ],
+    [
+      "Nodes",
+      "are divided into",
+      "Shards"
+    ],
+    [
+      "Shard",
+      "has",
+      "Sub-Chain"
+    ],
+    [
+      "Shard",
+      "contains",
+      "Master Node"
+    ],
+    [
+      "Shard",
+      "consists of",
+      "Participating Nodes"
+    ],
+    [
+      "Local Models",
+      "are aggregated within",
+      "Each Shard"
+    ],
+    [
+      "Global Model",
+      "is formed within",
+      "Each Shard"
+    ],
+    [
+      "Inter-shard Master Node",
+      "uploads",
+      "Global Model to Main Chain"
+    ],
+    [
+      "Main Chain",
+      "stores",
+      "Aggregated Global Model"
+    ],
+    [
+      "Local Models",
+      "are broadcasted within",
+      "Shard"
+    ],
+    [
+      "Reputation Mechanism",
+      "is used for",
+      "Assigning Weights to Local Models"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregating local models to form a global model within the shard",
+    "Broadcasting local models within the shard",
+    "Decentralized Federated Learning Architecture",
+    "Federated learning nodes and blockchain nodes isolation",
+    "Grouping nodes into shards",
+    "High throughput in blockchains",
+    "Improved storage scalability in blockchains",
+    "Low efficiency due to synchronous training",
+    "Master node within each shard",
+    "Nodes divided into shards",
+    "Performing inter-shard consensus",
+    "Sending initial model to each node in a shard",
+    "Single point of failure for centralized gradient aggregation server",
+    "Sub-chain for each shard",
+    "Traditional blockchains with low throughput",
+    "Training local models using local data"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Global Model",
+    "Assigning Weights to Local Models",
+    "Blockchain Nodes",
+    "Blockchain State Sharding",
+    "Centralized Gradient Aggregation Server",
+    "Decentralized Federated Learning Architecture",
+    "Each Shard",
+    "Efficiency in Traditional Federated Learning",
+    "Federated Learning Nodes",
+    "Global Model",
+    "Global Model to Main Chain",
+    "Inter-shard Master Node",
+    "Local Models",
+    "Low Efficiency",
+    "Low Storage Scalability",
+    "Low Throughput",
+    "Main Chain",
+    "Master Node",
+    "Nodes",
+    "Participating Nodes",
+    "Reputation Mechanism",
+    "Reputation Mechanisms",
+    "Shard",
+    "Shards",
+    "Single Point of Failure",
+    "Sub-Chain",
+    "Synchronous Training",
+    "Traditional Blockchains",
+    "Traditional Federated Learning"
+  ],
+  "knowledge_graph2_relation": [
+    "are Isolated from",
+    "are aggregated within",
+    "are broadcasted within",
+    "are divided into",
+    "causes",
+    "comprises",
+    "consists of",
+    "contains",
+    "has",
+    "implements",
+    "is formed within",
+    "is used for",
+    "reduces",
+    "stores",
+    "uploads"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L41/145",
+    "H04L63/12",
+    "H04L67/10",
+    "H04L67/1095"
+  ]
+}

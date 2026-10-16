@@ -1,0 +1,227 @@
+{
+  "publication_number": "CN114881247A",
+  "title": "Longitudinal federal feature derivation method, device and medium based on privacy computation",
+  "assignee": "Hangzhou Bodun Xiyan Technology Co ltd",
+  "filing_date": "2022-06-10",
+  "publication_date": "2022-08-09",
+  "pse": {
+    "problem": "Inefficient model training in longitudinal federal learning due to many invalid eigenvalues and high dimensionality of samples",
+    "solution_function": "A method for deriving longitudinal federal features based on privacy calculations that improves model training efficiency. It involves parties exchanging encrypted linear and interactive features, updating model parameters with decrypted target gradients, and determining a loss function.",
+    "solution_structure": "Parties (first and second), feature labels, local samples, model parameters",
+    "solution_implementation": "First party determines linear and interactive features from their local sample, second party does the same with their local sample and sends them. First party generates a residual error ciphertext from the first gradient, sends it to the second party who responds with a gradient ciphertext. The first party decrypts this to obtain a target data containing a second gradient. This second gradient is used to update the second model parameter.",
+    "effect": "Improved model training efficiency in longitudinal federal learning"
+  },
+  "knowledge_graph": [
+    [
+      "Method for deriving longitudinal federal features",
+      "Addresses_Problem",
+      "Inefficient model training in longitudinal federal learning"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Comprises_Component",
+      "Parties"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Comprises_Component",
+      "Feature labels"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Comprises_Component",
+      "Local samples"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Comprises_Component",
+      "Model parameters"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Implemented_By",
+      "First party determines linear and interactive features"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Implemented_By",
+      "Second party sends encrypted linear and interactive features"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Implemented_By",
+      "First party generates a residual error ciphertext"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Implemented_By",
+      "First party sends residual error ciphertext to second party"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Implemented_By",
+      "Second party responds with gradient ciphertext"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Implemented_By",
+      "First party decrypts gradient ciphertext"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Implemented_By",
+      "First party obtains target data containing a second gradient"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Implemented_By",
+      "Second party updates the second model parameter with decrypted target gradient"
+    ],
+    [
+      "Method for deriving longitudinal federal features",
+      "Achieves_Effect",
+      "Improved model training efficiency in longitudinal federal learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Longitudinal Federal Learning",
+      "affects",
+      "Model Training Efficiency"
+    ],
+    [
+      "Inefficient Model Training",
+      "causes",
+      "Many Invalid Eigenvalues"
+    ],
+    [
+      "Inefficient Model Training",
+      "causes",
+      "High Dimensionality of Samples"
+    ],
+    [
+      "Parties (First and Second)",
+      "implemented_by",
+      "Method for Deriving Longitudinal Federal Features"
+    ],
+    [
+      "First Party",
+      "calculates",
+      "Linear and Interactive Features"
+    ],
+    [
+      "Second Party",
+      "calculates",
+      "Linear and Interactive Features"
+    ],
+    [
+      "First Party",
+      "sends",
+      "Encrypted Linear and Interactive Features to Second Party"
+    ],
+    [
+      "Second Party",
+      "sends",
+      "Encrypted Linear and Interactive Features"
+    ],
+    [
+      "First Party",
+      "generates",
+      "Residual Error Ciphertext"
+    ],
+    [
+      "First Party",
+      "sends",
+      "Residual Error Ciphertext to Second Party"
+    ],
+    [
+      "Second Party",
+      "responds with",
+      "Gradient Ciphertext"
+    ],
+    [
+      "First Party",
+      "decrypts",
+      "Gradient Ciphertext to obtain Target Data"
+    ],
+    [
+      "Target Data",
+      "contains",
+      "Second Gradient"
+    ],
+    [
+      "Second Gradient",
+      "updates",
+      "Model Parameters"
+    ],
+    [
+      "Improved Model Training Efficiency",
+      "results_in",
+      "Efficient Model Training in Longitudinal Federal Learning"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Feature labels",
+    "First party decrypts gradient ciphertext",
+    "First party determines linear and interactive features",
+    "First party generates a residual error ciphertext",
+    "First party obtains target data containing a second gradient",
+    "First party sends residual error ciphertext to second party",
+    "Improved model training efficiency in longitudinal federal learning",
+    "Inefficient model training in longitudinal federal learning",
+    "Local samples",
+    "Method for deriving longitudinal federal features",
+    "Model parameters",
+    "Parties",
+    "Second party responds with gradient ciphertext",
+    "Second party sends encrypted linear and interactive features",
+    "Second party updates the second model parameter with decrypted target gradient"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Efficient Model Training in Longitudinal Federal Learning",
+    "Encrypted Linear and Interactive Features",
+    "Encrypted Linear and Interactive Features to Second Party",
+    "First Party",
+    "Gradient Ciphertext",
+    "Gradient Ciphertext to obtain Target Data",
+    "High Dimensionality of Samples",
+    "Improved Model Training Efficiency",
+    "Inefficient Model Training",
+    "Linear and Interactive Features",
+    "Longitudinal Federal Learning",
+    "Many Invalid Eigenvalues",
+    "Method for Deriving Longitudinal Federal Features",
+    "Model Parameters",
+    "Model Training Efficiency",
+    "Parties (First and Second)",
+    "Residual Error Ciphertext",
+    "Residual Error Ciphertext to Second Party",
+    "Second Gradient",
+    "Second Party",
+    "Target Data"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "calculates",
+    "causes",
+    "contains",
+    "decrypts",
+    "generates",
+    "implemented_by",
+    "responds with",
+    "results_in",
+    "sends",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F2211/008",
+    "G06N20/20"
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "publication_number": "CN114169433A",
+  "title": "An Industrial Fault Prediction Method Based on Federated Learning + Graph Learning + CNN",
+  "assignee": "China University of Petroleum East China",
+  "filing_date": "2021-12-07",
+  "publication_date": "2022-03-11",
+  "pse": {
+    "problem": "Industrial fault prediction method based on traditional methods may reveal data privacy and have limited generalization.",
+    "solution_function": "The invention utilizes a federal learning, image learning CNN method to cluster and generate graphs from industrial equipment sensor data. It performs data fusion using learned graph structures as final input for the neural network to integrate information of related features for improved prediction accuracy.",
+    "solution_structure": "The system consists of three parts: feature clustering, graph generation, and data fusion. The former uses K-Means clustering on feature data points, the latter generates a directed graph based on hierarchical sampling and standardized Euclidean distance between vectors, and the final part performs data fusion using selectable functions like sum, average, or max.",
+    "solution_implementation": "The solution involves several steps: feature clustering, graph generation, and data fusion. In feature clustering, K-Means algorithm is used to categorize the data points of each feature. Graph generation consists of hierarchical sampling in clusters followed by similarity measurement using standardized Euclidean distance between vectors. Data fusion is done using a defined fusion function that integrates information from multiple sensors.",
+    "effect": "The solution reduces space complexity during calculation while preserving original feature data information, effectively captures the relationship among multiple sensors, and improves prediction accuracy by integrating information of related features through learned graph structures."
+  },
+  "knowledge_graph": [
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Addresses_Problem",
+      "Industrial Fault Prediction Method"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Comprises_Component",
+      "Feature Clustering"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Comprises_Component",
+      "Graph Generation"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Implemented_By",
+      "K-Means Algorithm"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Implemented_By",
+      "Hierarchical Sampling"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Implemented_By",
+      "Standardized Euclidean Distance"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Implemented_By",
+      "Selectable Fusion Function"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Achieves_Effect",
+      "Reduced Space Complexity"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Achieves_Effect",
+      "Preservation of Original Feature Data Information"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Achieves_Effect",
+      "Capture Relationship Among Multiple Sensors"
+    ],
+    [
+      "Federal Learning Image Learning CNN Method",
+      "Achieves_Effect",
+      "Improved Prediction Accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Fault Prediction Method (Traditional)",
+      "reveals",
+      "Data Privacy"
+    ],
+    [
+      "Fault Prediction Method (Traditional)",
+      "has limited generalization"
+    ],
+    [
+      "Federal Learning",
+      "utilizes",
+      "Image Learning CNN Method"
+    ],
+    [
+      "CNN Method",
+      "clusters",
+      "Industrial Equipment Sensor Data"
+    ],
+    [
+      "CNN Method",
+      "generates",
+      "Graphs"
+    ],
+    [
+      "Learned Graph Structures",
+      "integrate",
+      "Information of Related Features"
+    ],
+    [
+      "Neural Network",
+      "receives",
+      "Learned Graph Structures as Input"
+    ],
+    [
+      "K-Means Clustering",
+      "categorizes",
+      "Data Points"
+    ],
+    [
+      "Hierarchical Sampling",
+      "is applied",
+      "in Clusters"
+    ],
+    [
+      "Standardized Euclidean Distance",
+      "measures",
+      "Similarity Between Vectors"
+    ],
+    [
+      "Data Fusion Function",
+      "integrates",
+      "Information from Multiple Sensors"
+    ],
+    [
+      "Data Fusion Function",
+      "applies",
+      "Selectable Functions like Sum, Average, or Max"
+    ],
+    [
+      "K-Means Algorithm",
+      "reduces",
+      "Space Complexity during Calculation"
+    ],
+    [
+      "K-Means Algorithm",
+      "preserves",
+      "Original Feature Data Information"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Capture Relationship Among Multiple Sensors",
+    "Feature Clustering",
+    "Federal Learning Image Learning CNN Method",
+    "Graph Generation",
+    "Hierarchical Sampling",
+    "Improved Prediction Accuracy",
+    "Industrial Fault Prediction Method",
+    "K-Means Algorithm",
+    "Preservation of Original Feature Data Information",
+    "Reduced Space Complexity",
+    "Selectable Fusion Function",
+    "Standardized Euclidean Distance"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "CNN Method",
+    "Data Fusion Function",
+    "Data Points",
+    "Data Privacy",
+    "Fault Prediction Method (Traditional)",
+    "Federal Learning",
+    "Graphs",
+    "Hierarchical Sampling",
+    "Image Learning CNN Method",
+    "Industrial Equipment Sensor Data",
+    "Information from Multiple Sensors",
+    "Information of Related Features",
+    "K-Means Algorithm",
+    "K-Means Clustering",
+    "Learned Graph Structures",
+    "Learned Graph Structures as Input",
+    "Neural Network",
+    "Original Feature Data Information",
+    "Selectable Functions like Sum, Average, or Max",
+    "Similarity Between Vectors",
+    "Space Complexity during Calculation",
+    "Standardized Euclidean Distance",
+    "in Clusters"
+  ],
+  "knowledge_graph2_relation": [
+    "applies",
+    "categorizes",
+    "clusters",
+    "generates",
+    "integrate",
+    "integrates",
+    "is applied",
+    "measures",
+    "preserves",
+    "receives",
+    "reduces",
+    "reveals",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06F18/22",
+    "G06F18/23213",
+    "G06N3/045",
+    "G06N3/08"
+  ]
+}

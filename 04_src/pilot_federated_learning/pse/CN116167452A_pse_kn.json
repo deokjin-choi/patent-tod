@@ -1,0 +1,133 @@
+{
+  "publication_number": "CN116167452A",
+  "title": "A method for cluster federated learning based on model similarity",
+  "assignee": "Chongqing University of Post and Telecommunications",
+  "filing_date": "2022-12-13",
+  "publication_date": "2023-05-26",
+  "pse": {
+    "problem": "Data heterogeneity in federated learning, particularly when dealing with non-IID data, leading to performance degradation in inference or classification",
+    "solution_function": "Cluster federated learning based on model similarity that addresses the influence of Non-IID and unbalanced data by implementing local training adjustment strategy and client clustering strategy",
+    "solution_structure": "Central server, multiple clients with local data, global model",
+    "solution_implementation": "Local training adjustment strategy: adaptively adjusts the number of local training epochs for each client. Client clustering strategy: clusters clients based on model similarity",
+    "effect": "Improves correctness and adaptability of clustering, leading to better performance in inference or classification"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Clustering Strategy",
+      "Addresses_Problem",
+      "Data Heterogeneity in Federated Learning (Non-IID, Unbalanced Data)"
+    ],
+    [
+      "Federated Learning Clustering Strategy",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Federated Learning Clustering Strategy",
+      "Comprises_Component",
+      "Multiple Clients with Local Data"
+    ],
+    [
+      "Federated Learning Clustering Strategy",
+      "Comprises_Component",
+      "Global Model"
+    ],
+    [
+      "Federated Learning Clustering Strategy",
+      "Implemented_By",
+      "Local Training Adjustment Strategy"
+    ],
+    [
+      "Federated Learning Clustering Strategy",
+      "Implemented_By",
+      "Client Clustering Strategy"
+    ],
+    [
+      "Federated Learning Clustering Strategy",
+      "Achieves_Effect",
+      "Improved Correctness and Adaptability of Clustering"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "addresses",
+      "Data Heterogeneity"
+    ],
+    [
+      "Non-IID Data",
+      "causes",
+      "Performance Degradation"
+    ],
+    [
+      "Model Similarity",
+      "controls",
+      "Client Clustering Strategy"
+    ],
+    [
+      "Local Training Adjustment Strategy",
+      "adjusts",
+      "Number of Local Training Epochs"
+    ],
+    [
+      "Client Clustering Strategy",
+      "groups",
+      "Clients Based on Model Similarity"
+    ],
+    [
+      "Global Model",
+      "processes",
+      "Inference or Classification"
+    ],
+    [
+      "Improved Clustering",
+      "leads to",
+      "Better Performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Client Clustering Strategy",
+    "Data Heterogeneity in Federated Learning (Non-IID, Unbalanced Data)",
+    "Federated Learning Clustering Strategy",
+    "Global Model",
+    "Improved Correctness and Adaptability of Clustering",
+    "Local Training Adjustment Strategy",
+    "Multiple Clients with Local Data"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Better Performance",
+    "Client Clustering Strategy",
+    "Clients Based on Model Similarity",
+    "Data Heterogeneity",
+    "Federated Learning",
+    "Global Model",
+    "Improved Clustering",
+    "Inference or Classification",
+    "Local Training Adjustment Strategy",
+    "Model Similarity",
+    "Non-IID Data",
+    "Number of Local Training Epochs",
+    "Performance Degradation"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "adjusts",
+    "causes",
+    "controls",
+    "groups",
+    "leads to",
+    "processes"
+  ],
+  "cpc_code": [
+    "G06F9/5072",
+    "G06N20/00",
+    "Y02D10/00"
+  ]
+}

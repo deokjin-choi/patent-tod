@@ -1,0 +1,143 @@
+{
+  "publication_number": "CN111798002A",
+  "title": "A global model aggregation method for federated learning with controllable proportion of local models",
+  "assignee": "University of Science and Technology Beijing USTB",
+  "filing_date": "2020-05-31",
+  "publication_date": "2020-10-20",
+  "pse": {
+    "problem": "Existing federated learning global model aggregation method loses historical state when a new global model is adopted, leading to potential performance degradation.",
+    "solution_function": "Design and propose a global model aggregation method for federated learning with controllable proportion of local models that retains historical state by blending current and previous global models.",
+    "solution_structure": "Involves n IoT local ends in the same working domain, each contributing data for model training. Each IoT local end generates a local model which is securely transmitted to a central aggregator.",
+    "solution_implementation": "The central aggregator calculates a weighted average of the received local models based on their respective contribution factors (e.g., sample size, quality). The new global model is then a linear combination of the current and previous global models according to a controlled proportion.",
+    "effect": "Preservation of historical state enables consistent performance in federated learning systems and prevents potential degradation caused by adopting poor-performing global models"
+  },
+  "knowledge_graph": [
+    [
+      "Global Model Aggregation Method (Federated Learning)",
+      "Addresses_Problem",
+      "Performance Degradation in Federated Learning Systems"
+    ],
+    [
+      "Global Model Aggregation Method (Federated Learning)",
+      "Comprises_Component",
+      "IoT Local Ends"
+    ],
+    [
+      "Global Model Aggregation Method (Federated Learning)",
+      "Comprises_Component",
+      "Central Aggregator"
+    ],
+    [
+      "Global Model Aggregation Method (Federated Learning)",
+      "Implemented_By",
+      "Weighted Average Calculation"
+    ],
+    [
+      "Global Model Aggregation Method (Federated Learning)",
+      "Achieves_Effect",
+      "Preservation of Historical State"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Global Model Aggregation Method",
+      "causes",
+      "Potential Performance Degradation"
+    ],
+    [
+      "Existing Federated Learning Global Model Aggregation Method",
+      "loses",
+      "Historical State"
+    ],
+    [
+      "New Global Model",
+      "adopted",
+      "Existing Global Model"
+    ],
+    [
+      "Design and Propose Global Model Aggregation Method",
+      "retains",
+      "Historical State"
+    ],
+    [
+      "Global Model Aggregation Method for Federated Learning",
+      "controls",
+      "Proportion of Local Models"
+    ],
+    [
+      "Local Models",
+      "blend with",
+      "Previous Global Models"
+    ],
+    [
+      "Central Aggregator",
+      "calculates",
+      "Weighted Average"
+    ],
+    [
+      "Central Aggregator",
+      "receives",
+      "Local Models"
+    ],
+    [
+      "Each IoT Local End",
+      "contributes",
+      "Data for Model Training"
+    ],
+    [
+      "IOT Local Ends",
+      "comprise",
+      "n IoT Local Ends"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Aggregator",
+    "Global Model Aggregation Method (Federated Learning)",
+    "IoT Local Ends",
+    "Performance Degradation in Federated Learning Systems",
+    "Preservation of Historical State",
+    "Weighted Average Calculation"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Aggregator",
+    "Data for Model Training",
+    "Design and Propose Global Model Aggregation Method",
+    "Each IoT Local End",
+    "Existing Federated Learning Global Model Aggregation Method",
+    "Existing Global Model",
+    "Federated Learning Global Model Aggregation Method",
+    "Global Model Aggregation Method for Federated Learning",
+    "Historical State",
+    "IOT Local Ends",
+    "Local Models",
+    "New Global Model",
+    "Potential Performance Degradation",
+    "Previous Global Models",
+    "Proportion of Local Models",
+    "Weighted Average",
+    "n IoT Local Ends"
+  ],
+  "knowledge_graph2_relation": [
+    "adopted",
+    "blend with",
+    "calculates",
+    "causes",
+    "comprise",
+    "contributes",
+    "controls",
+    "loses",
+    "receives",
+    "retains"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/045",
+    "G06N3/08"
+  ]
+}

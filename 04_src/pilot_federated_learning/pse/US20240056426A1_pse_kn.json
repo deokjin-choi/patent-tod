@@ -1,0 +1,153 @@
+{
+  "publication_number": "US20240056426A1",
+  "title": "Vertical federated learning platform and methods for using same",
+  "assignee": "Chopra Kartik",
+  "filing_date": "2023-03-28",
+  "publication_date": "2024-02-15",
+  "pse": {
+    "problem": "The limitation is the need to build and train vertical federated machine learning models using datasets with different data schemas without directly accessing or receiving the raw data stored at the satellite sites.",
+    "solution_function": "The system performs distributed data analysis and model training by coordinating federated devices, each containing a local dataset with a unique data schema. The central authority collects encrypted data samples from each device, decrypts them using secure multi-party computation (SMPC) techniques, and integrates the combined data to build a global machine learning model.",
+    "solution_structure": "The key components include: 1. Federated devices with local datasets, 2. Secure communication channel for encrypted data transfer, 3. Central authority for orchestrating data collection, decryption, and model training.",
+    "solution_implementation": "The process involves: (a) federated devices encrypting their local dataset samples using public keys, (b) secure transmission of encrypted data samples to the central authority, (c) the central authority decrypting received samples with private keys using SMPC, (d) data integration and model training on the combined encrypted dataset, (e) the central authority encrypts the final global model parameters, and (f) the federated devices download the encrypted model parameters for local use.",
+    "effect": "The solution allows for building vertical federated learning models without compromising data privacy by avoiding direct access to raw data. It enables valuable analytics across datasets with different information about some of the same entities."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Limitation of Building and Training Vertical Federated Machine Learning Models"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Federated Devices"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Secure Communication Channel"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Distributed Data Analysis and Model Training Process"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Data Privacy Preservation During Vertical Federated Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Devices",
+      "comprises",
+      "Local Datasets"
+    ],
+    [
+      "Secure Communication Channel",
+      "transmits_to",
+      "Central Authority"
+    ],
+    [
+      "Public Key Encryption",
+      "applies_to",
+      "Data Samples"
+    ],
+    [
+      "Secure Multi-Party Computation (SMPC)",
+      "decrypts",
+      "Encrypted Data Samples"
+    ],
+    [
+      "Private Key Encryption",
+      "applies_to",
+      "Model Parameters"
+    ],
+    [
+      "Central Authority",
+      "integrates",
+      "Combined Data"
+    ],
+    [
+      "Central Authority",
+      "trains",
+      "Global Machine Learning Model"
+    ],
+    [
+      "Global Machine Learning Model",
+      "encrypts",
+      "Final Model Parameters"
+    ],
+    [
+      "Federated Devices",
+      "downloads",
+      "Encrypted Model Parameters"
+    ],
+    [
+      "Vertical Federated Machine Learning Models",
+      "avoids_direct_access",
+      "Raw Data"
+    ],
+    [
+      "Solution",
+      "enables",
+      "Valuable Analytics"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Privacy Preservation During Vertical Federated Learning",
+    "Distributed Data Analysis and Model Training Process",
+    "Federated Devices",
+    "Federated Learning System",
+    "Limitation of Building and Training Vertical Federated Machine Learning Models",
+    "Secure Communication Channel"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Authority",
+    "Combined Data",
+    "Data Samples",
+    "Encrypted Data Samples",
+    "Encrypted Model Parameters",
+    "Federated Devices",
+    "Final Model Parameters",
+    "Global Machine Learning Model",
+    "Local Datasets",
+    "Model Parameters",
+    "Private Key Encryption",
+    "Public Key Encryption",
+    "Raw Data",
+    "Secure Communication Channel",
+    "Secure Multi-Party Computation (SMPC)",
+    "Solution",
+    "Valuable Analytics",
+    "Vertical Federated Machine Learning Models"
+  ],
+  "knowledge_graph2_relation": [
+    "applies_to",
+    "avoids_direct_access",
+    "comprises",
+    "decrypts",
+    "downloads",
+    "enables",
+    "encrypts",
+    "integrates",
+    "trains",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00",
+    "G06N3/02",
+    "G06N3/098",
+    "H04L63/0421",
+    "H04L63/0428",
+    "H04L9/0656"
+  ]
+}

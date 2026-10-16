@@ -1,0 +1,248 @@
+{
+  "publication_number": "CN119312947A",
+  "title": "A training method for segmented federated learning model based on heterogeneous systems",
+  "assignee": "Beijing University of Posts and Telecommunications",
+  "filing_date": "2024-11-28",
+  "publication_date": "2025-01-14",
+  "pse": {
+    "problem": "The current segmentation learning framework faces low training efficiency due to serial training mode and resource disparities among heterogeneous devices.",
+    "solution_function": "The invention offers a parallel training method for a split federal learning model based on a heterogeneous system. Each client trains its local model using local data, sends crushed data and labels to the central server's server local model for forward calculation and prediction. The server local model calculates gradients and transmits them back to clients for updating their local models. After all local models are updated, the edge server collects parameters from the public layer of the global model and updates it.",
+    "solution_structure": "The system comprises a plurality of clients, a central server, and an edge server. The global model is split into client local models and corresponding server local models based on each client's resources (storage, calculation frequency, channel conditions).",
+    "solution_implementation": "In each training round, clients train their local models in parallel, perform forward calculations using local data, and send crushed data and labels to the central server. The central server's server local model performs forward calculations and predicts, calculates gradients, backpropagates them to clients for updating local models. After updates, the edge server collects parameters from the public layer of global models.",
+    "effect": "Improved training efficiency by parallelizing training and adaptively adjusting to client resources."
+  },
+  "knowledge_graph": [
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Addresses_Problem",
+      "Low Training Efficiency due to Serial Training Mode and Resource Disparities among Heterogeneous Devices"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Comprises_Component",
+      "Plurality of Clients"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Comprises_Component",
+      "Edge Server"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Implemented_By",
+      "Training Local Models in Parallel by Clients"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Implemented_By",
+      "Forward Calculations using Local Data"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Implemented_By",
+      "Crushed Data and Labels Sent to Central Server"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Implemented_By",
+      "Central Server's Server Local Model Performs Forward Calculations and Predicts"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Implemented_By",
+      "Calculation of Gradients by Central Server"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Implemented_By",
+      "Backpropagation of Gradients to Clients for Updating Local Models"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Implemented_By",
+      "Edge Server Collects Parameters from Global Model's Public Layer"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Implemented_By",
+      "Updating of Global Model"
+    ],
+    [
+      "Parallel Training Method for Split Federal Learning Model",
+      "Achieves_Effect",
+      "Improved Training Efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Segmentation Learning Framework",
+      "faces",
+      "Low Training Efficiency"
+    ],
+    [
+      "Serial Training Mode",
+      "causes",
+      "Low Training Efficiency"
+    ],
+    [
+      "Resource Disparities",
+      "causes",
+      "Low Training Efficiency"
+    ],
+    [
+      "Heterogeneous Devices",
+      "experience",
+      "Resource Disparities"
+    ],
+    [
+      "Parallel Training Method",
+      "improves",
+      "Training Efficiency"
+    ],
+    [
+      "Split Federal Learning Model",
+      "is_used_for",
+      "Parallel Training"
+    ],
+    [
+      "Local Data",
+      "is_processed_by",
+      "Client Local Models"
+    ],
+    [
+      "Local Data",
+      "is_sent_from",
+      "Clients"
+    ],
+    [
+      "Local Models",
+      "send",
+      "Crushed Data and Labels"
+    ],
+    [
+      "Central Server",
+      "receives",
+      "Crushed Data and Labels"
+    ],
+    [
+      "Server Local Model",
+      "performs",
+      "Forward Calculations"
+    ],
+    [
+      "Server Local Model",
+      "predicts"
+    ],
+    [
+      "Server Local Model",
+      "calculates_gradients"
+    ],
+    [
+      "Gradients",
+      "are_transmitted_to",
+      "Clients"
+    ],
+    [
+      "Clients",
+      "update_their_local_models_with",
+      "Received Gradients"
+    ],
+    [
+      "Edge Server",
+      "collects_parameters_from",
+      "Public Layer of Global Model"
+    ],
+    [
+      "Edge Server",
+      "updates",
+      "Global Model Parameters"
+    ],
+    [
+      "Global Model",
+      "is_split_into",
+      "Client Local Models and Server Local Models"
+    ],
+    [
+      "Resources (Storage, Calculation Frequency, Channel Conditions)",
+      "determine",
+      "Model Splitting"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Backpropagation of Gradients to Clients for Updating Local Models",
+    "Calculation of Gradients by Central Server",
+    "Central Server",
+    "Central Server's Server Local Model Performs Forward Calculations and Predicts",
+    "Crushed Data and Labels Sent to Central Server",
+    "Edge Server",
+    "Edge Server Collects Parameters from Global Model's Public Layer",
+    "Forward Calculations using Local Data",
+    "Improved Training Efficiency",
+    "Low Training Efficiency due to Serial Training Mode and Resource Disparities among Heterogeneous Devices",
+    "Parallel Training Method for Split Federal Learning Model",
+    "Plurality of Clients",
+    "Training Local Models in Parallel by Clients",
+    "Updating of Global Model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Client Local Models",
+    "Client Local Models and Server Local Models",
+    "Clients",
+    "Crushed Data and Labels",
+    "Edge Server",
+    "Forward Calculations",
+    "Global Model",
+    "Global Model Parameters",
+    "Gradients",
+    "Heterogeneous Devices",
+    "Local Data",
+    "Local Models",
+    "Low Training Efficiency",
+    "Model Splitting",
+    "Parallel Training",
+    "Parallel Training Method",
+    "Public Layer of Global Model",
+    "Received Gradients",
+    "Resource Disparities",
+    "Resources (Storage, Calculation Frequency, Channel Conditions)",
+    "Segmentation Learning Framework",
+    "Serial Training Mode",
+    "Server Local Model",
+    "Split Federal Learning Model",
+    "Training Efficiency"
+  ],
+  "knowledge_graph2_relation": [
+    "are_transmitted_to",
+    "causes",
+    "collects_parameters_from",
+    "determine",
+    "experience",
+    "faces",
+    "improves",
+    "is_processed_by",
+    "is_sent_from",
+    "is_split_into",
+    "is_used_for",
+    "performs",
+    "receives",
+    "send",
+    "update_their_local_models_with",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/006"
+  ]
+}

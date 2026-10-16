@@ -1,0 +1,143 @@
+{
+  "publication_number": "KR20240017623A",
+  "title": "Decentralized federated learning system and federated learning method",
+  "assignee": "(no assignee found)",
+  "filing_date": "2022-08-01",
+  "publication_date": "2024-02-08",
+  "pse": {
+    "problem": "Existing federated learning methods have limitations in terms of security and stability due to centralization and potential performance differences between IoT devices.",
+    "solution_function": "The system performs decentralized federated learning by creating a blockchain network and an Inter-Planetary File System (IPFS) network. Participating nodes create local models based on their data sets, and a leader node generates a global model based on the parameters of the local models.",
+    "solution_structure": "The system consists of participating nodes that participate in federated learning and create local models, and a leader node that generates the global model. Both nodes are part of a blockchain network and an IPFS network.",
+    "solution_implementation": "Participating nodes create local models using their data sets, and the leader node generates the global model by collecting the parameters of the local models from the participating nodes. The blockchain network ensures secure communication and data sharing among the nodes, while the IPFS network stores the shared data.",
+    "effect": "The system improves security and stability in federated learning by distributing the learning process across multiple IoT devices and utilizing a decentralized approach to protect data from poisoning attacks"
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Federated Learning System",
+      "Addresses_Problem",
+      "Security and Stability Limitations"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Comprises_Component",
+      "Blockchain Network"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Comprises_Component",
+      "Inter-Planetary File System (IPFS) Network"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Implemented_By",
+      "Local Models Creation by Nodes"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Implemented_By",
+      "Global Model Generation by Leader Node"
+    ],
+    [
+      "Decentralized Federated Learning System",
+      "Achieves_Effect",
+      "Improved Security and Stability"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "has_limitation",
+      "Security and Stability"
+    ],
+    [
+      "Federated Learning",
+      "is_centralized",
+      "True"
+    ],
+    [
+      "IoT Devices",
+      "have_performance_difference"
+    ],
+    [
+      "Blockchain Network",
+      "enables",
+      "Secure Communication"
+    ],
+    [
+      "Blockchain Network",
+      "enables",
+      "Data Sharing"
+    ],
+    [
+      "Inter-Planetary File System (IPFS)",
+      "stores",
+      "Shared Data"
+    ],
+    [
+      "Participating Nodes",
+      "create",
+      "Local Models"
+    ],
+    [
+      "Leader Node",
+      "generates",
+      "Global Model"
+    ],
+    [
+      "Leader Node",
+      "collects_parameters_from",
+      "Participating Nodes"
+    ],
+    [
+      "Decentralized Approach",
+      "prevents",
+      "Data Poisoning Attacks"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain Network",
+    "Decentralized Federated Learning System",
+    "Global Model Generation by Leader Node",
+    "Improved Security and Stability",
+    "Inter-Planetary File System (IPFS) Network",
+    "Local Models Creation by Nodes",
+    "Security and Stability Limitations"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Blockchain Network",
+    "Data Poisoning Attacks",
+    "Data Sharing",
+    "Decentralized Approach",
+    "Federated Learning",
+    "Global Model",
+    "Inter-Planetary File System (IPFS)",
+    "Leader Node",
+    "Local Models",
+    "Participating Nodes",
+    "Secure Communication",
+    "Security and Stability",
+    "Shared Data",
+    "True"
+  ],
+  "knowledge_graph2_relation": [
+    "collects_parameters_from",
+    "create",
+    "enables",
+    "generates",
+    "has_limitation",
+    "is_centralized",
+    "prevents",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06F16/182",
+    "G06N20/20",
+    "H04L9/50"
+  ]
+}

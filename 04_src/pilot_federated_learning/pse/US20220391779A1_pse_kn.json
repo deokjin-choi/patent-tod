@@ -1,0 +1,148 @@
+{
+  "publication_number": "US20220391779A1",
+  "title": "Systems and methods for reward-driven federated learning",
+  "assignee": "JPMorgan Chase Bank NA",
+  "filing_date": "2022-06-01",
+  "publication_date": "2022-12-08",
+  "pse": {
+    "problem": "Privacy preservation and lack of fair incentivization in federated learning",
+    "solution_function": "Reward-driven federated learning for fair distribution of rewards to model contributors based on their contributions to the current global machine learning model.",
+    "solution_structure": "A federated node with a federated contribution computer program, distributed ledger network, clients, and local machine learning models.",
+    "solution_implementation": "The federated contribution computer program receives local machine learning model updates from clients, calculates the current global machine learning model based on these updates, determines each client's federated contribution, issues rewards to clients, and refuses updates from low-contributing clients.",
+    "effect": "Improved privacy preservation, fair incentivization, and potential increase in contributions from individual nodes"
+  },
+  "knowledge_graph": [
+    [
+      "Reward-driven federated learning",
+      "Addresses_Problem",
+      "Privacy preservation and lack of fair incentivization"
+    ],
+    [
+      "Reward-driven federated learning",
+      "Comprises_Component",
+      "Federated node"
+    ],
+    [
+      "Reward-driven federated learning",
+      "Comprises_Component",
+      "Distributed ledger network"
+    ],
+    [
+      "Reward-driven federated learning",
+      "Comprises_Component",
+      "Clients"
+    ],
+    [
+      "Reward-driven federated learning",
+      "Comprises_Component",
+      "Local machine learning models"
+    ],
+    [
+      "Reward-driven federated learning",
+      "Implemented_By",
+      "Federated contribution computer program"
+    ],
+    [
+      "Reward-driven federated learning",
+      "Achieves_Effect",
+      "Improved privacy preservation"
+    ],
+    [
+      "Reward-driven federated learning",
+      "Achieves_Effect",
+      "Fair incentivization"
+    ],
+    [
+      "Reward-driven federated learning",
+      "Achieves_Effect",
+      "Potential increase in contributions"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Sensor Node",
+      "transmits_to",
+      "Wireless Router"
+    ],
+    [
+      "Wireless Router",
+      "transmits_to",
+      "Remote Server"
+    ],
+    [
+      "Sensor Node",
+      "controls",
+      "Data Priority"
+    ],
+    [
+      "Optimized Scheduling Algorithm",
+      "reduces",
+      "Unnecessary Transmissions"
+    ],
+    [
+      "Optimized Scheduling Algorithm",
+      "assigns",
+      "Time Slots"
+    ],
+    [
+      "Wireless Router",
+      "causes",
+      "Network Congestion (initial state)"
+    ],
+    [
+      "Reduced Network Congestion",
+      "achieves",
+      "Improved Data Reliability"
+    ],
+    [
+      "Extended Battery Life of Sensor Nodes",
+      "achieves",
+      "Energy Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Clients",
+    "Distributed ledger network",
+    "Fair incentivization",
+    "Federated contribution computer program",
+    "Federated node",
+    "Improved privacy preservation",
+    "Local machine learning models",
+    "Potential increase in contributions",
+    "Privacy preservation and lack of fair incentivization",
+    "Reward-driven federated learning"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Data Priority",
+    "Energy Efficiency",
+    "Extended Battery Life of Sensor Nodes",
+    "Improved Data Reliability",
+    "Network Congestion (initial state)",
+    "Optimized Scheduling Algorithm",
+    "Reduced Network Congestion",
+    "Remote Server",
+    "Sensor Node",
+    "Time Slots",
+    "Unnecessary Transmissions",
+    "Wireless Router"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "assigns",
+    "causes",
+    "controls",
+    "reduces",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N20/20",
+    "G06Q20/145"
+  ]
+}

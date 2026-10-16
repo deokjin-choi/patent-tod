@@ -1,0 +1,176 @@
+{
+  "publication_number": "CN112529027A",
+  "title": "Data processing method, client, device and computer readable storage medium",
+  "assignee": "China Telecom Corp Ltd",
+  "filing_date": "2019-09-19",
+  "publication_date": "2021-03-19",
+  "pse": {
+    "problem": "Low training efficiency and poor classification performance of a federal learning model due to manual labeling of private data and potential error labeling by users",
+    "solution_function": "Downloading pre-labeled public data from the cloud, using it to tag private data locally, training a federal learning model with labeled private data, uploading the trained model's parameters to the cloud",
+    "solution_structure": "Cloud (data storage and model distribution), client (private data storage, federated learning model, convolution layer)",
+    "solution_implementation": "Extracting a feature vector of private data using a convolution layer of the federal learning model, clustering the characteristic vectors of the private data to assign pseudo labels, training the federal learning model with pseudo-labeled private data, obtaining classifier and convolutional layer parameters for the federated learning model",
+    "effect": "Improved training efficiency due to pre-labeled public data and reduced error labeling by users"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Model",
+      "Addresses_Problem",
+      "Low training efficiency and poor classification performance of a federal learning model"
+    ],
+    [
+      "Federated Learning Model",
+      "Comprises_Component",
+      "Cloud"
+    ],
+    [
+      "Federated Learning Model",
+      "Comprises_Component",
+      "Client"
+    ],
+    [
+      "Federated Learning Model",
+      "Implemented_By",
+      "Extracting a feature vector using convolution layer"
+    ],
+    [
+      "Federated Learning Model",
+      "Implemented_By",
+      "Clustering characteristic vectors to assign pseudo labels"
+    ],
+    [
+      "Federated Learning Model",
+      "Implemented_By",
+      "Training with pseudo-labeled private data"
+    ],
+    [
+      "Federated Learning Model",
+      "Achieves_Effect",
+      "Improved training efficiency"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Model",
+      "causes",
+      "Low training efficiency"
+    ],
+    [
+      "Private Data",
+      "is_labeled_manually",
+      "Error"
+    ],
+    [
+      "Private Data",
+      "is_labeled_by",
+      "Users"
+    ],
+    [
+      "Private Data",
+      "becomes_labeled",
+      "Public Data"
+    ],
+    [
+      "Cloud",
+      "stores",
+      "Pre-labeled Public Data"
+    ],
+    [
+      "Client",
+      "comprises",
+      "Federated Learning Model"
+    ],
+    [
+      "Federated Learning Model",
+      "includes",
+      "Convolution Layer"
+    ],
+    [
+      "Convolution Layer",
+      "processes",
+      "Private Data Feature Vector"
+    ],
+    [
+      "Clustering Algorithm",
+      "assigns",
+      "Pseudo Labels"
+    ],
+    [
+      "Pseudo-labeled Private Data",
+      "trains",
+      "Federal Learning Model"
+    ],
+    [
+      "Trained Federal Learning Model Parameters",
+      "are_uploaded_to",
+      "Cloud"
+    ],
+    [
+      "Improved Training Efficiency",
+      "results_from",
+      "Pre-labeled Public Data"
+    ],
+    [
+      "Improved Training Efficiency",
+      "reduces",
+      "Error Labeling by Users"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client",
+    "Cloud",
+    "Clustering characteristic vectors to assign pseudo labels",
+    "Extracting a feature vector using convolution layer",
+    "Federated Learning Model",
+    "Improved training efficiency",
+    "Low training efficiency and poor classification performance of a federal learning model",
+    "Training with pseudo-labeled private data"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client",
+    "Cloud",
+    "Clustering Algorithm",
+    "Convolution Layer",
+    "Error",
+    "Error Labeling by Users",
+    "Federal Learning Model",
+    "Federated Learning Model",
+    "Improved Training Efficiency",
+    "Low training efficiency",
+    "Pre-labeled Public Data",
+    "Private Data",
+    "Private Data Feature Vector",
+    "Pseudo Labels",
+    "Pseudo-labeled Private Data",
+    "Public Data",
+    "Trained Federal Learning Model Parameters",
+    "Users"
+  ],
+  "knowledge_graph2_relation": [
+    "are_uploaded_to",
+    "assigns",
+    "becomes_labeled",
+    "causes",
+    "comprises",
+    "includes",
+    "is_labeled_by",
+    "is_labeled_manually",
+    "processes",
+    "reduces",
+    "results_from",
+    "stores",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F18/23",
+    "G06F18/241",
+    "G06N20/00",
+    "G06V30/194"
+  ]
+}

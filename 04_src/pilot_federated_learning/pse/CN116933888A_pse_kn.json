@@ -1,0 +1,170 @@
+{
+  "publication_number": "CN116933888A",
+  "title": "Method, apparatus and storage medium for evaluating contribution degree",
+  "assignee": "Fujitsu Ltd",
+  "filing_date": "2022-03-29",
+  "publication_date": "2023-10-24",
+  "pse": {
+    "problem": "Distributed data islands make it difficult to share data among organizations for joint modeling in federated learning while preserving privacy and security.",
+    "solution_function": "Evaluates the contribution of each participant in a federated learning network using the Shapley Value method, which calculates the marginal contribution of each participant to the overall organization by considering all possible permutations of participants.",
+    "solution_structure": "Involves a blockchain network, servers for storing initial models, and multiple participating devices for local data training.",
+    "solution_implementation": "Participants download initial models from servers, train models with local data, and upload updated models to the server. The server aggregates models, updates parameters, and sends the updated model to each participant. Participants retrain the received updated model with their local data until a satisfactory performance model is obtained.",
+    "effect": "Provides an incentive mechanism for participants by fairly evaluating their contributions, encouraging participation and sharing of models in joint modeling"
+  },
+  "knowledge_graph": [
+    [
+      "Shapley Value Method",
+      "Addresses_Problem",
+      "Distributed Data Islands Problem"
+    ],
+    [
+      "Shapley Value Method",
+      "Comprises_Component",
+      "Blockchain Network"
+    ],
+    [
+      "Shapley Value Method",
+      "Comprises_Component",
+      "Servers for Storing Initial Models"
+    ],
+    [
+      "Shapley Value Method",
+      "Comprises_Component",
+      "Multiple Participating Devices"
+    ],
+    [
+      "Shapley Value Method",
+      "Implemented_By",
+      "Participant Interaction Logic"
+    ],
+    [
+      "Shapley Value Method",
+      "Achieves_Effect",
+      "Incentive Mechanism for Participants"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Distributed Data",
+      "causes",
+      "Data Isolation"
+    ],
+    [
+      "Federated Learning Network",
+      "evaluates_contribution_with",
+      "Shapley Value Method"
+    ],
+    [
+      "Blockchain Network",
+      "comprises",
+      "Participating Nodes"
+    ],
+    [
+      "Servers",
+      "stores",
+      "Initial Models"
+    ],
+    [
+      "Participants",
+      "downloads",
+      "Initial Models"
+    ],
+    [
+      "Participants",
+      "trains_models_with",
+      "Local Data"
+    ],
+    [
+      "Participants",
+      "uploads_updated_models_to",
+      "Server"
+    ],
+    [
+      "Server",
+      "aggregates_models",
+      "Updates Parameters"
+    ],
+    [
+      "Server",
+      "updates_parameters_and_sends",
+      "Updated Model"
+    ],
+    [
+      "Participants",
+      "retrains_models_with",
+      "Received Updated Model"
+    ],
+    [
+      "Performance Model",
+      "is_obtained",
+      "Satisfactory Performance"
+    ],
+    [
+      "Blockchain Network",
+      "provides",
+      "Incentive Mechanism"
+    ],
+    [
+      "Blockchain Network",
+      "encourages",
+      "Participation"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain Network",
+    "Distributed Data Islands Problem",
+    "Incentive Mechanism for Participants",
+    "Multiple Participating Devices",
+    "Participant Interaction Logic",
+    "Servers for Storing Initial Models",
+    "Shapley Value Method"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Blockchain Network",
+    "Data Isolation",
+    "Distributed Data",
+    "Federated Learning Network",
+    "Incentive Mechanism",
+    "Initial Models",
+    "Local Data",
+    "Participants",
+    "Participating Nodes",
+    "Participation",
+    "Performance Model",
+    "Received Updated Model",
+    "Satisfactory Performance",
+    "Server",
+    "Servers",
+    "Shapley Value Method",
+    "Updated Model",
+    "Updates Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates_models",
+    "causes",
+    "comprises",
+    "downloads",
+    "encourages",
+    "evaluates_contribution_with",
+    "is_obtained",
+    "provides",
+    "retrains_models_with",
+    "stores",
+    "trains_models_with",
+    "updates_parameters_and_sends",
+    "uploads_updated_models_to"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06N20/00",
+    "H04L67/1059",
+    "H04L9/008",
+    "H04L9/3218"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "publication_number": "CN113570068A",
+  "title": "A Federated Learning Logistic Regression Method Compatible with Unilateral Feature and Bilateral Feature Modeling",
+  "assignee": "Shenpu Technology Shanghai Co ltd",
+  "filing_date": "2021-07-28",
+  "publication_date": "2021-10-29",
+  "pse": {
+    "problem": "Inability of existing federated learning logistic regression methods to handle unilateral features and bilateral features securely, potentially leading to data leakage",
+    "solution_function": "Federated learning logistic regression method that allows for secure handling of both unilateral and bilateral features, enabling accurate model updates even when only partial feature values are available on either the host or guest",
+    "solution_structure": "Consists of a host and a guest. The host calculates encrypted intermediate results (E(W) B X B), while the guest decrypts and performs calculations based on local feature values, sending gradient values (L B) back to the host for model updates",
+    "solution_implementation": "The host sends encrypted intermediate results (E(W) B X B) to the guest. The guest determines if it has local feature values. If so, it decrypts the intermediate results and calculates a gradient value (L). If not, it directly calculates the gradient value (L) based on available information and sends it back encrypted. The host then updates its model parameters using received gradient values",
+    "effect": "Improved security by eliminating potential data leakage in federated learning logistic regression modeling, while still allowing for accurate model updates with partial feature information"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Logistic Regression Method Secure for Unilateral and Bilateral Features",
+      "Addresses_Problem",
+      "Inability of existing federated learning logistic regression methods to handle unilateral features and bilateral features securely"
+    ],
+    [
+      "Federated Learning Logistic Regression Method Secure for Unilateral and Bilateral Features",
+      "Comprises_Component",
+      "Host"
+    ],
+    [
+      "Federated Learning Logistic Regression Method Secure for Unilateral and Bilateral Features",
+      "Comprises_Component",
+      "Guest"
+    ],
+    [
+      "Federated Learning Logistic Regression Method Secure for Unilateral and Bilateral Features",
+      "Implemented_By",
+      "Encrypted Intermediate Results Calculation and Gradient Value Exchange"
+    ],
+    [
+      "Federated Learning Logistic Regression Method Secure for Unilateral and Bilateral Features",
+      "Achieves_Effect",
+      "Improved security by eliminating potential data leakage in federated learning logistic regression modeling"
+    ]
+  ],
+  "knowledge_graph_v2": [],
+  "knowledge_graph_en": [
+    "Encrypted Intermediate Results Calculation and Gradient Value Exchange",
+    "Federated Learning Logistic Regression Method Secure for Unilateral and Bilateral Features",
+    "Guest",
+    "Host",
+    "Improved security by eliminating potential data leakage in federated learning logistic regression modeling",
+    "Inability of existing federated learning logistic regression methods to handle unilateral features and bilateral features securely"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [],
+  "knowledge_graph2_relation": [],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

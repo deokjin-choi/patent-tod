@@ -1,0 +1,193 @@
+{
+  "publication_number": "CN116957062A",
+  "title": "Federal learning method and device based on calculation network",
+  "assignee": "China Mobile Communications Group Co Ltd",
+  "filing_date": "2022-11-29",
+  "publication_date": "2023-10-27",
+  "pse": {
+    "problem": "Low model recognition accuracy in security systems due to special scenarios and difficulty in timely upgrades.",
+    "solution_function": "Federated learning method facilitates continuous improvement of neural network models by collecting second model parameters from various security nodes, determining third model parameters based on parameter distances between groups, and updating participating nodes with the latest parameters.",
+    "solution_structure": "Computing power network consisting of security nodes (with hardware components such as logical computing chips, parallel computing chips, and neural network chips) that run a common neural network model and communicate to exchange parameters.",
+    "solution_implementation": "Security nodes send parameter requests for first model parameters, receive the neural network model and first parameters, perform local training to generate second model parameters, compare connection request data (computing power value and data information quantified value) with existing values to establish connections, and exchange second model parameters. Central entity aggregates second model parameters, compares distances between groups, determines third model parameters if distance is less than set value.",
+    "effect": "Improved recognition accuracy of neural network models in security systems by continuous learning from multiple nodes without requiring on-site updates."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Low Model Recognition Accuracy in Security Systems"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Security Nodes"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Neural Network Model"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Parameter Exchange and Comparison"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Improved Recognition Accuracy of Neural Network Models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Security System",
+      "has_problem",
+      "Low Model Recognition Accuracy"
+    ],
+    [
+      "Security System",
+      "uses_method",
+      "Federated Learning"
+    ],
+    [
+      "Neural Network Model",
+      "improves_due_to",
+      "Federated Learning"
+    ],
+    [
+      "Computing Power Network",
+      "comprises",
+      "Security Nodes"
+    ],
+    [
+      "Security Node",
+      "contains",
+      "Logical Computing Chips"
+    ],
+    [
+      "Security Node",
+      "contains",
+      "Parallel Computing Chips"
+    ],
+    [
+      "Security Node",
+      "contains",
+      "Neural Network Chips"
+    ],
+    [
+      "Security Node",
+      "runs",
+      "Common Neural Network Model"
+    ],
+    [
+      "Security Node",
+      "communicates_with",
+      "Other Security Nodes"
+    ],
+    [
+      "Security Node",
+      "sends",
+      "Parameter Requests"
+    ],
+    [
+      "Security Node",
+      "receives",
+      "Neural Network Model Parameters"
+    ],
+    [
+      "Security Node",
+      "generates",
+      "Second Model Parameters"
+    ],
+    [
+      "Security Node",
+      "updates",
+      "Latest Parameters"
+    ],
+    [
+      "Central Entity",
+      "aggregates",
+      "Second Model Parameters"
+    ],
+    [
+      "Central Entity",
+      "compares",
+      "Distance Between Groups"
+    ],
+    [
+      "Central Entity",
+      "determines",
+      "Third Model Parameters"
+    ],
+    [
+      "Neural Network Model",
+      "is_updated_by",
+      "Latest Parameters"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated Learning Method",
+    "Improved Recognition Accuracy of Neural Network Models",
+    "Low Model Recognition Accuracy in Security Systems",
+    "Neural Network Model",
+    "Parameter Exchange and Comparison",
+    "Security Nodes"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Entity",
+    "Common Neural Network Model",
+    "Computing Power Network",
+    "Distance Between Groups",
+    "Federated Learning",
+    "Latest Parameters",
+    "Logical Computing Chips",
+    "Low Model Recognition Accuracy",
+    "Neural Network Chips",
+    "Neural Network Model",
+    "Neural Network Model Parameters",
+    "Other Security Nodes",
+    "Parallel Computing Chips",
+    "Parameter Requests",
+    "Second Model Parameters",
+    "Security Node",
+    "Security Nodes",
+    "Security System",
+    "Third Model Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "communicates_with",
+    "compares",
+    "comprises",
+    "contains",
+    "determines",
+    "generates",
+    "has_problem",
+    "improves_due_to",
+    "is_updated_by",
+    "receives",
+    "runs",
+    "sends",
+    "updates",
+    "uses_method"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6245",
+    "G06F2209/502",
+    "G06F9/5072",
+    "G06N3/08",
+    "G06V10/82",
+    "G06V10/95",
+    "G06V10/96",
+    "G06V20/40",
+    "G06V20/52",
+    "H04L63/0428"
+  ]
+}

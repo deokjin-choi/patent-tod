@@ -1,0 +1,141 @@
+{
+  "publication_number": "US20230153633A1",
+  "title": "Moderator for federated learning",
+  "assignee": "Telefonaktiebolaget LM Ericsson AB",
+  "filing_date": "2019-10-07",
+  "publication_date": "2023-05-18",
+  "pse": {
+    "problem": "Inefficiency in federated learning systems due to non-uniform updates of local models, leading to potential bias and degraded performance for some nodes.",
+    "solution_function": "Moderation of updates to the central model to prevent skewing or overfitting based on data from specific nodes, ensuring balanced performance across all distributed nodes.",
+    "solution_structure": "Central model at the central node and local models at each distributed node. A moderator system for checking and adjusting updates to the central model.",
+    "solution_implementation": "Moderator system checks individual updates from distributed nodes for drastic changes that may lead to bias. It prevents application of updates causing significant reductions in accuracy or enforces a limit on cumulative small changes favoring specific models.",
+    "effect": "Improved performance and balance across all distributed nodes by preventing overfitting and bias in the central model."
+  },
+  "knowledge_graph": [
+    [
+      "Moderation System",
+      "Addresses_Problem",
+      "Inefficiency in Federated Learning Systems"
+    ],
+    [
+      "Moderation System",
+      "Comprises_Component",
+      "Central Model"
+    ],
+    [
+      "Moderation System",
+      "Comprises_Component",
+      "Local Models"
+    ],
+    [
+      "Moderation System",
+      "Implemented_By",
+      "Moderator Operation"
+    ],
+    [
+      "Moderation System",
+      "Achieves_Effect",
+      "Improved Performance and Balance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Systems",
+      "causes",
+      "Inefficiency"
+    ],
+    [
+      "Non-uniform Updates",
+      "causes",
+      "Inefficiency"
+    ],
+    [
+      "Local Models",
+      "controls",
+      "Data Distribution"
+    ],
+    [
+      "Specific Nodes",
+      "causes",
+      "Potential Bias"
+    ],
+    [
+      "Central Model",
+      "affected_by",
+      "Updates from Distributed Nodes"
+    ],
+    [
+      "Central Model",
+      "controls",
+      "Performance Balance"
+    ],
+    [
+      "Moderator System",
+      "monitors",
+      "Individual Updates"
+    ],
+    [
+      "Moderator System",
+      "adjusts",
+      "Updates to Central Model"
+    ],
+    [
+      "Moderator System",
+      "prevents",
+      "Skewing or Overfitting"
+    ],
+    [
+      "Moderated Updates",
+      "ensures",
+      "Balanced Performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Model",
+    "Improved Performance and Balance",
+    "Inefficiency in Federated Learning Systems",
+    "Local Models",
+    "Moderation System",
+    "Moderator Operation"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Balanced Performance",
+    "Central Model",
+    "Data Distribution",
+    "Federated Learning Systems",
+    "Individual Updates",
+    "Inefficiency",
+    "Local Models",
+    "Moderated Updates",
+    "Moderator System",
+    "Non-uniform Updates",
+    "Performance Balance",
+    "Potential Bias",
+    "Skewing or Overfitting",
+    "Specific Nodes",
+    "Updates from Distributed Nodes",
+    "Updates to Central Model"
+  ],
+  "knowledge_graph2_relation": [
+    "adjusts",
+    "affected_by",
+    "causes",
+    "controls",
+    "ensures",
+    "monitors",
+    "prevents"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/006",
+    "G06N3/063",
+    "G06N3/098",
+    "G06N7/01"
+  ]
+}

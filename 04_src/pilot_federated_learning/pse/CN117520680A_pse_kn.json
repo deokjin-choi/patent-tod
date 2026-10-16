@@ -1,0 +1,211 @@
+{
+  "publication_number": "CN117520680A",
+  "title": "A personalized edge caching method empowered by federated forgetting",
+  "assignee": "Dalian University of Technology",
+  "filing_date": "2023-10-23",
+  "publication_date": "2024-02-06",
+  "pse": {
+    "problem": "Inefficiency in personalized caching due to poor convergence on highly heterogeneous data and limited handling of invalid data in federal learning.",
+    "solution_function": "A federally forgotten-enabled personalized edge caching method improves caching performance by designing a personalized federal learning scheme that reserves potential characteristics of different users, and a federal forgetting algorithm that eliminates the influence of invalid data on the federal learning model.",
+    "solution_structure": "The solution involves distributed edge nodes, local devices (clients), a central server, and a federated learning model.",
+    "solution_implementation": "Each client uploads only federal learning model parameters to the central server. The personalized federal learning scheme is used to train a more efficient machine learning model that makes use of the computing power of each data source while protecting their data security. The federal forgetting algorithm eliminates the influence of invalid data on the federated learning model.",
+    "effect": "The solution results in great improvement of caching performance, reduction of service delay, and enhancement of accuracy."
+  },
+  "knowledge_graph": [
+    [
+      "Personalized Edge Caching Method",
+      "Addresses_Problem",
+      "Inefficiency in Personalized Caching"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Comprises_Component",
+      "Distributed Edge Nodes"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Comprises_Component",
+      "Local Devices (Clients)"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Comprises_Component",
+      "Federated Learning Model"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Implemented_By",
+      "Personalized Federal Learning Scheme"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Implemented_By",
+      "Federal Forgetting Algorithm"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Achieves_Effect",
+      "Improvement of Caching Performance"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Achieves_Effect",
+      "Reduction of Service Delay"
+    ],
+    [
+      "Personalized Edge Caching Method",
+      "Achieves_Effect",
+      "Enhancement of Accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Personalized Caching",
+      "inefficient",
+      "Heterogeneous Data"
+    ],
+    [
+      "Federal Learning",
+      "poor convergence",
+      "Heterogeneous Data"
+    ],
+    [
+      "Federal Learning",
+      "limited handling",
+      "Invalid Data"
+    ],
+    [
+      "Edge Nodes",
+      "comprises",
+      "Distributed Edge Nodes"
+    ],
+    [
+      "Local Devices (Clients)",
+      "comprises",
+      "Local Devices"
+    ],
+    [
+      "Central Server",
+      "comprises",
+      "Central Server"
+    ],
+    [
+      "Federated Learning Model",
+      "comprises",
+      "Solution"
+    ],
+    [
+      "Client",
+      "uploads",
+      "Federal Learning Model Parameters"
+    ],
+    [
+      "Personalized Federal Learning Scheme",
+      "used to train",
+      "Efficient Machine Learning Model"
+    ],
+    [
+      "Machine Learning Model",
+      "makes use of",
+      "Computing Power of Each Data Source"
+    ],
+    [
+      "Machine Learning Model",
+      "protects",
+      "Data Security"
+    ],
+    [
+      "Federal Forgetting Algorithm",
+      "eliminates influence of",
+      "Invalid Data"
+    ],
+    [
+      "Federated Learning Model",
+      "influence of invalid data is eliminated by",
+      "Federal Forgetting Algorithm"
+    ],
+    [
+      "Caching Performance",
+      "great improvement",
+      "Inefficient Personalized Caching"
+    ],
+    [
+      "Service Delay",
+      "reduction",
+      "Caching Performance"
+    ],
+    [
+      "Accuracy",
+      "enhancement",
+      "Caching Performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Distributed Edge Nodes",
+    "Enhancement of Accuracy",
+    "Federal Forgetting Algorithm",
+    "Federated Learning Model",
+    "Improvement of Caching Performance",
+    "Inefficiency in Personalized Caching",
+    "Local Devices (Clients)",
+    "Personalized Edge Caching Method",
+    "Personalized Federal Learning Scheme",
+    "Reduction of Service Delay"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy",
+    "Caching Performance",
+    "Central Server",
+    "Client",
+    "Computing Power of Each Data Source",
+    "Data Security",
+    "Distributed Edge Nodes",
+    "Edge Nodes",
+    "Efficient Machine Learning Model",
+    "Federal Forgetting Algorithm",
+    "Federal Learning",
+    "Federal Learning Model Parameters",
+    "Federated Learning Model",
+    "Heterogeneous Data",
+    "Inefficient Personalized Caching",
+    "Invalid Data",
+    "Local Devices",
+    "Local Devices (Clients)",
+    "Machine Learning Model",
+    "Personalized Caching",
+    "Personalized Federal Learning Scheme",
+    "Service Delay",
+    "Solution"
+  ],
+  "knowledge_graph2_relation": [
+    "comprises",
+    "eliminates influence of",
+    "enhancement",
+    "great improvement",
+    "inefficient",
+    "influence of invalid data is eliminated by",
+    "limited handling",
+    "makes use of",
+    "poor convergence",
+    "protects",
+    "reduction",
+    "uploads",
+    "used to train"
+  ],
+  "cpc_code": [
+    "G06F16/9574",
+    "G06N20/00"
+  ]
+}

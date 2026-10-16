@@ -1,0 +1,184 @@
+{
+  "publication_number": "US20240330708A1",
+  "title": "Model training method and face recognition method based on adaptive split learning-federated learning",
+  "assignee": "Xidian University",
+  "filing_date": "2024-06-08",
+  "publication_date": "2024-10-03",
+  "pse": {
+    "problem": "The limitations of existing solutions in addressing heterogeneity issues among participating user devices and strengthening privacy protection for face recognition tasks.",
+    "solution_function": "Adaptive split learning-federated learning method that addresses heterogeneity by scheduling straggled devices, ensuring important data is included in training, and enhancing privacy protection through additional mechanisms without compromising system efficiency or model performance.",
+    "solution_structure": "User devices (with varying capabilities), central server, adaptive split learning modules.",
+    "solution_implementation": "Local data preprocessing on user devices, gradient calculation, scheduling of straggled devices, aggregation of gradients by the central server, model updates.",
+    "effect": "Improved efficiency and accuracy in face recognition tasks, enhanced privacy protection"
+  },
+  "knowledge_graph": [
+    [
+      "Adaptive split learning-federated learning method",
+      "Addresses_Problem",
+      "Heterogeneity issues among participating user devices and privacy protection for face recognition tasks"
+    ],
+    [
+      "Adaptive split learning-federated learning method",
+      "Comprises_Component",
+      "User devices (varying capabilities)"
+    ],
+    [
+      "Adaptive split learning-federated learning method",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Adaptive split learning-federated learning method",
+      "Comprises_Component",
+      "Adaptive split learning modules"
+    ],
+    [
+      "Adaptive split learning-federated learning method",
+      "Implemented_By",
+      "Local data preprocessing on user devices, gradient calculation, scheduling of straggled devices, aggregation of gradients by the central server, model updates"
+    ],
+    [
+      "Adaptive split learning-federated learning method",
+      "Achieves_Effect",
+      "Improved efficiency and accuracy in face recognition tasks"
+    ],
+    [
+      "Adaptive split learning-federated learning method",
+      "Achieves_Effect",
+      "Enhanced privacy protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Adaptive Split Learning-Federated Learning Method",
+      "addresses",
+      "Heterogeneity Issues"
+    ],
+    [
+      "Adaptive Split Learning-Federated Learning Method",
+      "ensures",
+      "Important Data Inclusion"
+    ],
+    [
+      "Adaptive Split Learning-Federated Learning Method",
+      "enhances",
+      "Privacy Protection"
+    ],
+    [
+      "User Devices",
+      "varies",
+      "Capabilities"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Gradients"
+    ],
+    [
+      "Central Server",
+      "updates",
+      "Model"
+    ],
+    [
+      "Straggled Devices",
+      "scheduled by",
+      "Adaptive Split Learning-Federated Learning Method"
+    ],
+    [
+      "Face Recognition Tasks",
+      "improved efficiency and accuracy of",
+      "Adaptive Split Learning-Federated Learning Method"
+    ],
+    [
+      "Privacy Protection",
+      "enhanced by",
+      "Additional Mechanisms"
+    ],
+    [
+      "Sensor",
+      "monitors",
+      "Environmental Parameters"
+    ],
+    [
+      "Sensor",
+      "transmits_to",
+      "User Device"
+    ],
+    [
+      "User Device",
+      "contains",
+      "Adaptive Split Learning-Federated Learning Module"
+    ],
+    [
+      "Router",
+      "transmits_to",
+      "Central Server"
+    ],
+    [
+      "Remote Server",
+      "processes",
+      "Data Packets"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adaptive split learning modules",
+    "Adaptive split learning-federated learning method",
+    "Central server",
+    "Enhanced privacy protection",
+    "Heterogeneity issues among participating user devices and privacy protection for face recognition tasks",
+    "Improved efficiency and accuracy in face recognition tasks",
+    "Local data preprocessing on user devices, gradient calculation, scheduling of straggled devices, aggregation of gradients by the central server, model updates",
+    "User devices (varying capabilities)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adaptive Split Learning-Federated Learning Method",
+    "Adaptive Split Learning-Federated Learning Module",
+    "Additional Mechanisms",
+    "Capabilities",
+    "Central Server",
+    "Data Packets",
+    "Environmental Parameters",
+    "Face Recognition Tasks",
+    "Gradients",
+    "Heterogeneity Issues",
+    "Important Data Inclusion",
+    "Model",
+    "Privacy Protection",
+    "Remote Server",
+    "Router",
+    "Sensor",
+    "Straggled Devices",
+    "User Device",
+    "User Devices"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "contains",
+    "enhanced by",
+    "enhances",
+    "ensures",
+    "improved efficiency and accuracy of",
+    "monitors",
+    "processes",
+    "scheduled by",
+    "transmits_to",
+    "updates",
+    "varies"
+  ],
+  "cpc_code": [
+    "G06F9/5083",
+    "G06N3/04",
+    "G06N3/045",
+    "G06N3/08",
+    "G06N3/084",
+    "G06N3/098",
+    "G06V40/172"
+  ]
+}

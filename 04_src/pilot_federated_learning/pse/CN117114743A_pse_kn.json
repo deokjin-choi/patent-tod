@@ -1,0 +1,197 @@
+{
+  "publication_number": "CN117114743A",
+  "title": "Financial product conversion rate improving method based on federal learning and blockchain",
+  "assignee": "Hangzhou Beisaidi Technology Co ltd",
+  "filing_date": "2023-02-23",
+  "publication_date": "2023-11-24",
+  "pse": {
+    "problem": "Traditional identification methods ignore semantic information between tags and words as well as the gap between tag types.",
+    "solution_function": "Improves financial product conversion rate by implementing a federated learning method with an incentive distribution mechanism. The method involves model training, evaluation, reward distribution, customer mining, and product recommendation.",
+    "solution_structure": "The system consists of financial companies participating in federated learning, a regulatory agency coordinating the process, and a basic model provided by one financial company for improvement.",
+    "solution_implementation": "The system functions as follows: 1. A financial company issues a model training request; 2. The request is broadcast to other financial companies; 3. Companies respond to the request (optional); 4. Federated model training occurs with data preprocessing, customer ID alignment, and model training; 5. Model evaluation takes place; 6. Reward distribution based on model performance; 7. Potential customer mining; 8. Recommendation of financial products.",
+    "effect": "Improves financial product conversion rate by utilizing distributed data from various sources and offering incentives for participation."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Core Problem Concept"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Financial Companies Participating"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Regulatory Agency Coordinating"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Primary Benefit"
+    ],
+    [
+      "Incentive Distribution Mechanism",
+      "Comprises_Component",
+      "Reward Distribution"
+    ],
+    [
+      "Incentive Distribution Mechanism",
+      "Comprises_Component",
+      "Customer Mining"
+    ],
+    [
+      "Product Recommendation",
+      "Comprises_Component",
+      "Recommendation of Financial Products"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Identification Methods",
+      "ignores",
+      "Semantic Information"
+    ],
+    [
+      "Federated Learning Method",
+      "implements",
+      "Incentive Distribution Mechanism"
+    ],
+    [
+      "Financial Companies",
+      "participates_in",
+      "Federated Learning"
+    ],
+    [
+      "Regulatory Agency",
+      "coordinates",
+      "Process"
+    ],
+    [
+      "Financial Company",
+      "provides",
+      "Basic Model"
+    ],
+    [
+      "Financial Product Conversion Rate",
+      "is_improved_by",
+      "Federated Learning Method"
+    ],
+    [
+      "Model Training Request",
+      "broadcasts_to",
+      "Financial Companies"
+    ],
+    [
+      "Financial Company",
+      "responds_to",
+      "Model Training Request"
+    ],
+    [
+      "Federated Model Training",
+      "includes",
+      "Data Preprocessing"
+    ],
+    [
+      "Federated Model Training",
+      "includes",
+      "Customer ID Alignment"
+    ],
+    [
+      "Federated Model Training",
+      "includes",
+      "Model Training"
+    ],
+    [
+      "Model Evaluation",
+      "occurs_after",
+      "Federated Model Training"
+    ],
+    [
+      "Reward Distribution",
+      "based_on",
+      "Model Performance"
+    ],
+    [
+      "Potential Customer Mining",
+      "takes_place_after",
+      "Reward Distribution"
+    ],
+    [
+      "Financial Product Recommendation",
+      "results_from",
+      "Potential Customer Mining"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic",
+    "Core Problem Concept",
+    "Customer Mining",
+    "Federated Learning Method",
+    "Financial Companies Participating",
+    "Incentive Distribution Mechanism",
+    "Primary Benefit",
+    "Product Recommendation",
+    "Recommendation of Financial Products",
+    "Regulatory Agency Coordinating",
+    "Reward Distribution"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Basic Model",
+    "Customer ID Alignment",
+    "Data Preprocessing",
+    "Federated Learning",
+    "Federated Learning Method",
+    "Federated Model Training",
+    "Financial Companies",
+    "Financial Company",
+    "Financial Product Conversion Rate",
+    "Financial Product Recommendation",
+    "Incentive Distribution Mechanism",
+    "Model Evaluation",
+    "Model Performance",
+    "Model Training",
+    "Model Training Request",
+    "Potential Customer Mining",
+    "Process",
+    "Regulatory Agency",
+    "Reward Distribution",
+    "Semantic Information",
+    "Traditional Identification Methods"
+  ],
+  "knowledge_graph2_relation": [
+    "based_on",
+    "broadcasts_to",
+    "coordinates",
+    "ignores",
+    "implements",
+    "includes",
+    "is_improved_by",
+    "occurs_after",
+    "participates_in",
+    "provides",
+    "responds_to",
+    "results_from",
+    "takes_place_after"
+  ],
+  "cpc_code": [
+    "G06F40/295",
+    "G06F40/30",
+    "G06N20/00",
+    "G06Q30/0202",
+    "G06Q40/06"
+  ]
+}

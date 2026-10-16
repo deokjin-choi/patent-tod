@@ -1,0 +1,150 @@
+{
+  "publication_number": "CN119129780A",
+  "title": "Federated learning method, electronic device and storage medium based on node selection strategy",
+  "assignee": "Beijing Topsec Technology Co Ltd",
+  "filing_date": "2024-11-08",
+  "publication_date": "2024-12-13",
+  "pse": {
+    "problem": "Limited computing processing performance and network bandwidth of a parameter server in federation learning when a large number of nodes participate in each round of iterative training.",
+    "solution_function": "A federal learning method selects nodes with larger influence on reducing overall training loss of a global model to participate in local model training of each round, thereby accelerating the convergence speed of the federal learning model.",
+    "solution_structure": "The system includes client nodes, a parameter server, and possibly storage media. Client nodes provide local training samples, evaluation values, and update gradients. The parameter server issues model parameters to selected client nodes.",
+    "solution_implementation": "Client nodes determine if they are fully selected. If not, each node obtains an evaluation value corresponding to the node, weights the number of local training samples by taking a module of the evaluation value as a weight, calculates the selected probability according to the ratio of the weighted number of local training samples to the sum of the weighted numbers in the federal learning system, and selects a set of nodes based on their calculated probabilities. The parameter server issues model parameters to these selected nodes which use them for local training and obtain update gradients.",
+    "effect": "The method results in an increase in convergence speed of the federal learning model and a reduction in overall training time."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Limited Processing Performance & Network Bandwidth"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Client Nodes"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Parameter Server"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Selection Procedure"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Increased Convergence Speed"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Parameter Server",
+      "controls",
+      "Model Parameters"
+    ],
+    [
+      "Federation Learning",
+      "includes",
+      "Parameter Server"
+    ],
+    [
+      "Federation Learning",
+      "achieves",
+      "Accelerated Convergence Speed"
+    ],
+    [
+      "Federation Learning",
+      "reduces",
+      "Overall Training Time"
+    ],
+    [
+      "Client Node",
+      "comprises",
+      "Local Training Samples"
+    ],
+    [
+      "Client Node",
+      "evaluates",
+      "Evaluation Values"
+    ],
+    [
+      "Client Node",
+      "calculates",
+      "Selected Probability"
+    ],
+    [
+      "Federal Learning System",
+      "comprises",
+      "All Client Nodes"
+    ],
+    [
+      "Gradient Update",
+      "transmits_to",
+      "Parameter Server"
+    ],
+    [
+      "Local Model Training",
+      "processes",
+      "Model Parameters"
+    ],
+    [
+      "Local Model Training",
+      "updates",
+      "Gradient"
+    ],
+    [
+      "Node Selection Algorithm",
+      "calculates",
+      "Selected Nodes"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client Nodes",
+    "Federated Learning Method",
+    "Increased Convergence Speed",
+    "Limited Processing Performance & Network Bandwidth",
+    "Parameter Server",
+    "Selection Procedure"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accelerated Convergence Speed",
+    "All Client Nodes",
+    "Client Node",
+    "Evaluation Values",
+    "Federal Learning System",
+    "Federation Learning",
+    "Gradient",
+    "Gradient Update",
+    "Local Model Training",
+    "Local Training Samples",
+    "Model Parameters",
+    "Node Selection Algorithm",
+    "Overall Training Time",
+    "Parameter Server",
+    "Selected Nodes",
+    "Selected Probability"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "calculates",
+    "comprises",
+    "controls",
+    "evaluates",
+    "includes",
+    "processes",
+    "reduces",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

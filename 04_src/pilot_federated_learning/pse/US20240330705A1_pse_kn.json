@@ -1,0 +1,144 @@
+{
+  "publication_number": "US20240330705A1",
+  "title": "Systems and Methods for Federated Learning of Machine-Learned Models with Sampled Softmax",
+  "assignee": "Google LLC",
+  "filing_date": "2021-07-12",
+  "publication_date": "2024-10-03",
+  "pse": {
+    "problem": "Inefficient resource usage in federated learning of machine-learned models",
+    "solution_function": "Sampling negative class labels locally and communicating them along with local positive class labels to a server. The server sends classification submodels to each client, which determine a model update based on sampled SoftMax loss using the local training dataset. The server aggregates model updates from clients.",
+    "solution_structure": "Client computing system: one or more computing devices, local training dataset, sampling mechanism. Server computing system: one or more computing devices, current version of machine-learned global classification model, communication channel.",
+    "solution_implementation": "Clients sample negative class labels and communicate client class sets to the server. The server sends classification submodels to clients, which use them with local training datasets to compute sampled SoftMax loss and determine model updates. The server aggregates model updates from all clients.",
+    "effect": "Reduced computing resource usage in federated learning of machine-learned models"
+  },
+  "knowledge_graph": [
+    [
+      "Sampling negative class labels locally and communicating them along with local positive class labels to a server",
+      "Addresses_Problem",
+      "Inefficient resource usage in federated learning of machine-learned models"
+    ],
+    [
+      "Sampling negative class labels locally and communicating them along with local positive class labels to a server",
+      "Comprises_Component",
+      "Client computing system"
+    ],
+    [
+      "Sampling negative class labels locally and communicating them along with local positive class labels to a server",
+      "Composes_Component",
+      "Server computing system"
+    ],
+    [
+      "Sampling negative class labels locally and communicating them along with local positive class labels to a server",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Sampling negative class labels locally and communicating them along with local positive class labels to a server",
+      "Achieves_Effect",
+      "Reduced computing resource usage in federated learning of machine-learned models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "performs",
+      "Machine-Learned Model Training"
+    ],
+    [
+      "Inefficient Resource Usage",
+      "affects",
+      "Federated Learning"
+    ],
+    [
+      "Sampling Mechanism (Client)",
+      "controls",
+      "Label Sampling"
+    ],
+    [
+      "Client",
+      "stores",
+      "Local Training Dataset"
+    ],
+    [
+      "Client",
+      "performs",
+      "Model Update Computation"
+    ],
+    [
+      "Server",
+      "stores",
+      "Global Classification Model"
+    ],
+    [
+      "Communication Channel",
+      "transmits_to",
+      "Client and Server"
+    ],
+    [
+      "SoftMax Loss Function",
+      "uses",
+      "Local Training Dataset"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Model Updates"
+    ],
+    [
+      "Reduced Computing Resource Usage",
+      "results_from",
+      "Sampling Strategy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client computing system",
+    "Core Operation Logic",
+    "Inefficient resource usage in federated learning of machine-learned models",
+    "Reduced computing resource usage in federated learning of machine-learned models",
+    "Sampling negative class labels locally and communicating them along with local positive class labels to a server",
+    "Server computing system"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Composes_Component",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client",
+    "Client and Server",
+    "Communication Channel",
+    "Federated Learning",
+    "Global Classification Model",
+    "Inefficient Resource Usage",
+    "Label Sampling",
+    "Local Training Dataset",
+    "Machine-Learned Model Training",
+    "Model Update Computation",
+    "Model Updates",
+    "Reduced Computing Resource Usage",
+    "Sampling Mechanism (Client)",
+    "Sampling Strategy",
+    "Server",
+    "SoftMax Loss Function"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "aggregates",
+    "controls",
+    "performs",
+    "results_from",
+    "stores",
+    "transmits_to",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/0464",
+    "G06N3/047",
+    "G06N3/048",
+    "G06N3/084",
+    "G06N3/098"
+  ]
+}

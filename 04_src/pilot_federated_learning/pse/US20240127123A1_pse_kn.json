@@ -1,0 +1,172 @@
+{
+  "publication_number": "US20240127123A1",
+  "title": "Federated learning model training method and apparatus, and electronic device",
+  "assignee": "Jingdong Technology Holding Co Ltd",
+  "filing_date": "2021-12-31",
+  "publication_date": "2024-04-18",
+  "pse": {
+    "problem": "Inefficiency in federated learning due to limited data availability and slow model updates across multiple nodes.",
+    "solution_function": "The system performs distributed training of a boosting tree (a type of machine learning algorithm) for a federated learning model. The server determines if a node satisfies a splitting condition, notifies the client to split the node, and iteratively trains the model until no more nodes meet the splitting condition. The client performs node splitting based on the target split mode received from the server.",
+    "solution_structure": "The system includes servers and clients (electronic devices). Servers have processors, memory, and run software for federated learning model training. Clients also have processors, memory, and run the same software as servers to perform node splitting based on instructions from servers.",
+    "solution_implementation": "The server determines if a node satisfies a splitting condition (e.g., maximum depth, minimum samples). If so, it sends a target split mode to the client. The client splits the node based on the target split mode, which defines the criteria for the new nodes (e.g., feature values or impurity measures). The server then takes one of the generated left subtree nodes as a new training node until no more splitting conditions are met. It repeats this process with another non-leaf node until the entire boosting tree is trained, and a federated learning model is generated.",
+    "effect": "The system improves efficiency in federated learning by reducing the number of iterations required for model updates due to more effective data distribution and faster node splitting."
+  },
+  "knowledge_graph": [
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Addresses_Problem",
+      "Inefficiency in Federated Learning"
+    ],
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Comprises_Component",
+      "Distributed Training"
+    ],
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Comprises_Component",
+      "Server Processor & Memory"
+    ],
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Comprises_Component",
+      "Client Processor & Memory"
+    ],
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Implemented_By",
+      "Node Splitting Condition Evaluation"
+    ],
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Implemented_By",
+      "Sending Target Split Mode"
+    ],
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Implemented_By",
+      "Client Node Splitting"
+    ],
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Implemented_By",
+      "Server Model Training"
+    ],
+    [
+      "Boosting Tree (Machine Learning Algorithm)",
+      "Achieves_Effect",
+      "Efficient Federated Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Boosting Tree",
+      "performs",
+      "Distributed Training"
+    ],
+    [
+      "Federated Learning Model",
+      "benefits_from",
+      "Distributed Training"
+    ],
+    [
+      "Server",
+      "determines",
+      "Splitting Condition"
+    ],
+    [
+      "Server",
+      "notifies",
+      "Client"
+    ],
+    [
+      "Client",
+      "splits",
+      "Node"
+    ],
+    [
+      "Client",
+      "receives",
+      "Target Split Mode"
+    ],
+    [
+      "Client",
+      "generates",
+      "Left Subtree Nodes"
+    ],
+    [
+      "Federated Learning Model",
+      "improves",
+      "Efficiency in Federated Learning"
+    ],
+    [
+      "Node",
+      "meets",
+      "Splitting Condition"
+    ],
+    [
+      "Server",
+      "repeats",
+      "Process"
+    ],
+    [
+      "Boosting Tree",
+      "comprises",
+      "Tree Nodes"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Boosting Tree (Machine Learning Algorithm)",
+    "Client Node Splitting",
+    "Client Processor & Memory",
+    "Distributed Training",
+    "Efficient Federated Learning",
+    "Inefficiency in Federated Learning",
+    "Node Splitting Condition Evaluation",
+    "Sending Target Split Mode",
+    "Server Model Training",
+    "Server Processor & Memory"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Boosting Tree",
+    "Client",
+    "Distributed Training",
+    "Efficiency in Federated Learning",
+    "Federated Learning Model",
+    "Left Subtree Nodes",
+    "Node",
+    "Process",
+    "Server",
+    "Splitting Condition",
+    "Target Split Mode",
+    "Tree Nodes"
+  ],
+  "knowledge_graph2_relation": [
+    "benefits_from",
+    "comprises",
+    "determines",
+    "generates",
+    "improves",
+    "meets",
+    "notifies",
+    "performs",
+    "receives",
+    "repeats",
+    "splits"
+  ],
+  "cpc_code": [
+    "G06F18/2148",
+    "G06F18/217",
+    "G06N20/20",
+    "G06N3/04",
+    "G06N3/084",
+    "G06N3/098",
+    "G06N5/01"
+  ]
+}

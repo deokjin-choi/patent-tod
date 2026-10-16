@@ -1,0 +1,163 @@
+{
+  "publication_number": "EP4500410A1",
+  "title": "Method for selecting local entities for federated learning training",
+  "assignee": "Nokia Technologies Oy",
+  "filing_date": "2022-03-29",
+  "publication_date": "2025-02-05",
+  "pse": {
+    "problem": "The patent describes a limitation in network data analytics function (NWDAF) for 5G systems. It requires initial training of artificial intelligence and machine learning models, which is a complicated task with continuous need to improve the quality of training data.",
+    "solution_function": "The invention uses federated learning, where distributed local entities collaboratively train a global machine learning model using their local data. The central entity aggregates the results from each iteration, updates the global model, and sends it back to the local entities.",
+    "solution_structure": "The system consists of a service consumer, network function, and multiple local entities. The service consumer requests federated learning training support from the network function, which selects a heterogeneous group of local entities for training. Each local entity receives an instance of a machine learning model to train.",
+    "solution_implementation": "In each iteration, local entities train their instances based on the global model received from the central entity and send updates back. The central entity aggregates the results and updates the global model accordingly. This process continues until satisfactory training is achieved.",
+    "effect": "The solution provides a way to train machine learning models using distributed data while maintaining privacy, allowing for continuous improvement of the model's performance and accuracy."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Core Problem Concept: Network Data Analytics Function (NWDAF) Limitations in 5G Systems"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Key Component 1: Service Consumer"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Key Component 2: Multiple Local Entities"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Core Operation Logic: Collaborative Training of Machine Learning Models using Federated Learning"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Primary Benefit: Continuous Improvement of Model's Performance and Accuracy while Maintaining Privacy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "NWDAF",
+      "controls",
+      "Data Analytics in 5G Systems"
+    ],
+    [
+      "Artificial Intelligence and Machine Learning Models",
+      "requires",
+      "Initial Training"
+    ],
+    [
+      "Federated Learning",
+      "addresses",
+      "Complexity in Initial Training"
+    ],
+    [
+      "Service Consumer",
+      "requests",
+      "Federated Learning Training Support"
+    ],
+    [
+      "Network Function",
+      "selects",
+      "Heterogeneous Group of Local Entities for Training"
+    ],
+    [
+      "Local Entity",
+      "receives",
+      "Instance of a Machine Learning Model to Train"
+    ],
+    [
+      "Local Entity",
+      "updates",
+      "Global Model based on local data"
+    ],
+    [
+      "Central Entity",
+      "aggregates",
+      "Results from each iteration"
+    ],
+    [
+      "Central Entity",
+      "updates",
+      "Global Model with aggregated results"
+    ],
+    [
+      "Local Entity",
+      "sends_updates_to",
+      "Central Entity"
+    ],
+    [
+      "Iteration",
+      "continues",
+      "Until Satisfactory Training is Achieved"
+    ],
+    [
+      "Federated Learning",
+      "allows for",
+      "Continuous Improvement of Model's Performance and Accuracy"
+    ],
+    [
+      "Federated Learning",
+      "maintains",
+      "Privacy in Data Collection"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Collaborative Training of Machine Learning Models using Federated Learning",
+    "Core Problem Concept: Network Data Analytics Function (NWDAF) Limitations in 5G Systems",
+    "Federated Learning",
+    "Key Component 1: Service Consumer",
+    "Key Component 2: Multiple Local Entities",
+    "Primary Benefit: Continuous Improvement of Model's Performance and Accuracy while Maintaining Privacy"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Artificial Intelligence and Machine Learning Models",
+    "Central Entity",
+    "Complexity in Initial Training",
+    "Continuous Improvement of Model's Performance and Accuracy",
+    "Data Analytics in 5G Systems",
+    "Federated Learning",
+    "Federated Learning Training Support",
+    "Global Model based on local data",
+    "Global Model with aggregated results",
+    "Heterogeneous Group of Local Entities for Training",
+    "Initial Training",
+    "Instance of a Machine Learning Model to Train",
+    "Iteration",
+    "Local Entity",
+    "NWDAF",
+    "Network Function",
+    "Privacy in Data Collection",
+    "Results from each iteration",
+    "Service Consumer",
+    "Until Satisfactory Training is Achieved"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "allows for",
+    "continues",
+    "controls",
+    "maintains",
+    "receives",
+    "requests",
+    "requires",
+    "selects",
+    "sends_updates_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L41/16",
+    "H04L41/5051"
+  ]
+}

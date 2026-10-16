@@ -1,0 +1,189 @@
+{
+  "publication_number": "CN118945862A",
+  "title": "Node selection and/or communication resource allocation in hierarchical tree-like federated learning networks",
+  "assignee": "Sony Group Corp",
+  "filing_date": "2023-05-09",
+  "publication_date": "2024-11-12",
+  "pse": {
+    "problem": "Inefficient resource allocation in conventional communications networks due to consideration of only directly connected user equipments.",
+    "solution_function": "The electronic device performs node selection and communication resource allocation in a hierarchical tree federal learning network. It obtains topology information of each communication node, accesses the server node, uploads and downloads data for model learning, and aggregates local patterns from client nodes to update the global learning model.",
+    "solution_structure": "The electronic device comprises processing circuitry that coordinates with a plurality of communication nodes (client nodes and server nodes), each having local data for model learning. The topology information provides a hierarchical structure for resource allocation.",
+    "solution_implementation": "The processing circuitry follows the FedAvg algorithm, which includes initial global learning model download, local model learning iterations, uplink and downlink communication for model updates, and aggregation of local patterns by the server node. The number of iterations and sample size are preset parameters.",
+    "effect": "The solution results in efficient resource allocation across a hierarchical tree federal learning network, as it considers all communication nodes rather than just directly connected ones."
+  },
+  "knowledge_graph": [
+    [
+      "Electronic Device",
+      "Addresses_Problem",
+      "Inefficient Resource Allocation"
+    ],
+    [
+      "Electronic Device",
+      "Comprises_Component",
+      "Processing Circuitry"
+    ],
+    [
+      "Electronic Device",
+      "Comprises_Component",
+      "Communication Nodes"
+    ],
+    [
+      "Electronic Device",
+      "Implemented_By",
+      "FedAvg Algorithm"
+    ],
+    [
+      "Electronic Device",
+      "Achieves_Effect",
+      "Efficient Resource Allocation"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Conventional Communications Networks",
+      "causes",
+      "Inefficient Resource Allocation"
+    ],
+    [
+      "Electronic Device",
+      "controls",
+      "Node Selection"
+    ],
+    [
+      "Electronic Device",
+      "controls",
+      "Communication Resource Allocation"
+    ],
+    [
+      "Hierarchical Tree Federal Learning Network",
+      "comprises",
+      "Electronic Device"
+    ],
+    [
+      "Hierarchical Tree Federal Learning Network",
+      "addresses",
+      "Inefficient Resource Allocation"
+    ],
+    [
+      "Communication Node",
+      "provides",
+      "Topology Information"
+    ],
+    [
+      "Server Node",
+      "accesses",
+      "Cloud Server"
+    ],
+    [
+      "Client Nodes",
+      "communicates_with",
+      "Server Node"
+    ],
+    [
+      "Client Nodes",
+      "contains",
+      "Local Data"
+    ],
+    [
+      "FedAvg Algorithm",
+      "includes",
+      "Initial Global Learning Model Download"
+    ],
+    [
+      "FedAvg Algorithm",
+      "includes",
+      "Local Model Learning Iterations"
+    ],
+    [
+      "FedAvg Algorithm",
+      "includes",
+      "Uplink and Downlink Communication for Model Updates"
+    ],
+    [
+      "Server Node",
+      "aggregates",
+      "Local Patterns"
+    ],
+    [
+      "Server Node",
+      "updates",
+      "Global Learning Model"
+    ],
+    [
+      "Global Learning Model",
+      "presets",
+      "Number of Iterations"
+    ],
+    [
+      "Global Learning Model",
+      "presets",
+      "Sample Size"
+    ],
+    [
+      "Efficient Resource Allocation",
+      "results_from",
+      "Solution Implementation"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Communication Nodes",
+    "Efficient Resource Allocation",
+    "Electronic Device",
+    "FedAvg Algorithm",
+    "Inefficient Resource Allocation",
+    "Processing Circuitry"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client Nodes",
+    "Cloud Server",
+    "Communication Node",
+    "Communication Resource Allocation",
+    "Conventional Communications Networks",
+    "Efficient Resource Allocation",
+    "Electronic Device",
+    "FedAvg Algorithm",
+    "Global Learning Model",
+    "Hierarchical Tree Federal Learning Network",
+    "Inefficient Resource Allocation",
+    "Initial Global Learning Model Download",
+    "Local Data",
+    "Local Model Learning Iterations",
+    "Local Patterns",
+    "Node Selection",
+    "Number of Iterations",
+    "Sample Size",
+    "Server Node",
+    "Solution Implementation",
+    "Topology Information",
+    "Uplink and Downlink Communication for Model Updates"
+  ],
+  "knowledge_graph2_relation": [
+    "accesses",
+    "addresses",
+    "aggregates",
+    "causes",
+    "communicates_with",
+    "comprises",
+    "contains",
+    "controls",
+    "includes",
+    "presets",
+    "provides",
+    "results_from",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L41/16",
+    "H04W72/40",
+    "H04W72/50",
+    "H04W72/535",
+    "H04W72/56"
+  ]
+}

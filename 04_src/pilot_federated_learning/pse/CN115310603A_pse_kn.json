@@ -1,0 +1,269 @@
+{
+  "publication_number": "CN115310603A",
+  "title": "An assembly monitoring model training method and system based on federated transfer learning",
+  "assignee": "South China University of Technology SCUT",
+  "filing_date": "2022-06-30",
+  "publication_date": "2022-11-08",
+  "pse": {
+    "problem": "The existing methods for robot assembly monitoring based on deep learning have high computational and data demands, struggle with diverse tasks, and do not consider task variability.",
+    "solution_function": "The system performs federated transfer learning to build a model library, selectively fuses existing models, and updates the model library using the current task's trained model. This improves the utilization rate and transferability of the model in various task scenarios, reduces the dependence on sample data, and lessens the calculation amount during training.",
+    "solution_structure": "A unified neural network structure model is defined as the robot assembly monitoring model, with multiple monitoring models of the same structure forming a federated learning model library for different subtask scenes.",
+    "solution_implementation": "The system calculates task similarity based on client node characteristic data and selectively fuses existing models to provide initialization models for the current task. It then trains a model for the current task, updates the model library, and integrates fault detection models of different edge platforms.",
+    "effect": "Improved generalization ability and response speed of the fault detection model, increased data transmission efficiency, enhanced industrial data security, reduced network bandwidth pressure, and improved effectiveness of the detection."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Transfer Learning System",
+      "Addresses_Problem",
+      "High Computational and Data Demands"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Addresses_Problem",
+      "Struggle with Diverse Tasks"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Addresses_Problem",
+      "Lack of Consideration for Task Variability"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Comprises_Component",
+      "Model Library"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Comprises_Component",
+      "Selective Model Fusion"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Comprises_Component",
+      "Updating Model Library"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Implemented_By",
+      "Calculating Task Similarity"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Implemented_By",
+      "Providing Initialization Models"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Implemented_By",
+      "Training Current Task Model"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Implemented_By",
+      "Integrating Fault Detection Models"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Achieves_Effect",
+      "Improved Generalization Ability"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Achieves_Effect",
+      "Improved Response Speed"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Achieves_Effect",
+      "Increased Data Transmission Efficiency"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Achieves_Effect",
+      "Enhanced Industrial Data Security"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Achieves_Effect",
+      "Reduced Network Bandwidth Pressure"
+    ],
+    [
+      "Federated Transfer Learning System",
+      "Achieves_Effect",
+      "Improved Detection Effectiveness"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Methods (Robot Assembly Monitoring)",
+      "causes",
+      "High Computational Demands"
+    ],
+    [
+      "Existing Methods (Robot Assembly Monitoring)",
+      "causes",
+      "Data Demands"
+    ],
+    [
+      "Existing Methods (Robot Assembly Monitoring)",
+      "struggles_with",
+      "Diverse Tasks"
+    ],
+    [
+      "Existing Methods (Robot Assembly Monitoring)",
+      "does not consider",
+      "Task Variability"
+    ],
+    [
+      "Federated Transfer Learning",
+      "improves",
+      "Utilization Rate of Model"
+    ],
+    [
+      "Federated Transfer Learning",
+      "improves",
+      "Transferability of Model"
+    ],
+    [
+      "Federated Transfer Learning",
+      "reduces",
+      "Dependence on Sample Data"
+    ],
+    [
+      "Federated Transfer Learning",
+      "lessens",
+      "Calculation Amount during Training"
+    ],
+    [
+      "Unified Neural Network Structure Model",
+      "comprises",
+      "Robot Assembly Monitoring Model"
+    ],
+    [
+      "Multiple Monitoring Models",
+      "form",
+      "Federated Learning Model Library"
+    ],
+    [
+      "System",
+      "calculates",
+      "Task Similarity"
+    ],
+    [
+      "System",
+      "selectively fuses",
+      "Existing Models"
+    ],
+    [
+      "System",
+      "provides initialization models for",
+      "Current Task"
+    ],
+    [
+      "System",
+      "trains a model for",
+      "Current Task"
+    ],
+    [
+      "System",
+      "updates the model library"
+    ],
+    [
+      "System",
+      "integrates fault detection models of different edge platforms"
+    ],
+    [
+      "Fault Detection Model",
+      "improves",
+      "Generalization Ability"
+    ],
+    [
+      "Fault Detection Model",
+      "improves",
+      "Response Speed"
+    ],
+    [
+      "Data Transmission",
+      "increases efficiency"
+    ],
+    [
+      "Industrial Data",
+      "enhances security"
+    ],
+    [
+      "Network",
+      "reduces pressure on Bandwidth"
+    ],
+    [
+      "Detection",
+      "improves effectiveness"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculating Task Similarity",
+    "Enhanced Industrial Data Security",
+    "Federated Transfer Learning System",
+    "High Computational and Data Demands",
+    "Improved Detection Effectiveness",
+    "Improved Generalization Ability",
+    "Improved Response Speed",
+    "Increased Data Transmission Efficiency",
+    "Integrating Fault Detection Models",
+    "Lack of Consideration for Task Variability",
+    "Model Library",
+    "Providing Initialization Models",
+    "Reduced Network Bandwidth Pressure",
+    "Selective Model Fusion",
+    "Struggle with Diverse Tasks",
+    "Training Current Task Model",
+    "Updating Model Library"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Calculation Amount during Training",
+    "Current Task",
+    "Data Demands",
+    "Dependence on Sample Data",
+    "Diverse Tasks",
+    "Existing Methods (Robot Assembly Monitoring)",
+    "Existing Models",
+    "Fault Detection Model",
+    "Federated Learning Model Library",
+    "Federated Transfer Learning",
+    "Generalization Ability",
+    "High Computational Demands",
+    "Multiple Monitoring Models",
+    "Response Speed",
+    "Robot Assembly Monitoring Model",
+    "System",
+    "Task Similarity",
+    "Task Variability",
+    "Transferability of Model",
+    "Unified Neural Network Structure Model",
+    "Utilization Rate of Model"
+  ],
+  "knowledge_graph2_relation": [
+    "calculates",
+    "causes",
+    "comprises",
+    "does not consider",
+    "form",
+    "improves",
+    "lessens",
+    "provides initialization models for",
+    "reduces",
+    "selectively fuses",
+    "struggles_with",
+    "trains a model for"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/08",
+    "Y02P90/30"
+  ]
+}

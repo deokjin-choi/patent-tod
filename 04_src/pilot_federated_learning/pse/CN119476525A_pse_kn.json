@@ -1,0 +1,190 @@
+{
+  "publication_number": "CN119476525A",
+  "title": "Adaptive Optimization Method for Privacy-Preserving Asynchronous Federated Learning Based on Compression and Event-Triggered Communication",
+  "assignee": "Huaiyin Institute of Technology",
+  "filing_date": "2024-10-17",
+  "publication_date": "2025-02-18",
+  "pse": {
+    "problem": "Inefficiencies in asynchronous federated learning due to high delay from low-quality participating nodes and excessive communication cost.",
+    "solution_function": "The proposed method performs adaptive optimization for privacy-preserving asynchronous federal learning by implementing compression and event-triggered communication. It aims to reduce the delay caused by low-quality nodes and decrease communication overhead.",
+    "solution_structure": "The system comprises participating nodes, a central server, and a compression module. The participating nodes perform local iterations on the model, apply privacy protection through noise addition, and send compressed updates to the server using event-triggered communication.",
+    "solution_implementation": "Upon receiving a trigger event, a node compresses its updated model using techniques such as quantization or pruning. The compressed update is then sent to the server when certain conditions are met (e.g., accumulated compression threshold). Upon aggregating updates from multiple nodes, the server updates the global model.",
+    "effect": "The proposed method reduces delay by only requiring high-quality nodes to transmit their updates and decreases communication cost through compression. This results in improved efficiency and precision of the global model updating."
+  },
+  "knowledge_graph": [
+    [
+      "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+      "Addresses_Problem",
+      "Inefficiencies in asynchronous federated learning"
+    ],
+    [
+      "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+      "Comprises_Component",
+      "Participating Nodes"
+    ],
+    [
+      "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+      "Comprises_Component",
+      "Compression Module"
+    ],
+    [
+      "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+      "Implemented_By",
+      "Event-Triggered Communication"
+    ],
+    [
+      "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+      "Implemented_By",
+      "Noise Addition"
+    ],
+    [
+      "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+      "Achieves_Effect",
+      "Reduced Delay"
+    ],
+    [
+      "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+      "Achieves_Effect",
+      "Decreased Communication Cost"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Inefficiencies",
+      "causes",
+      "High Delay"
+    ],
+    [
+      "Low-Quality Participating Nodes",
+      "cause",
+      "High Delay"
+    ],
+    [
+      "Excessive Communication Cost",
+      "results_from",
+      "Inefficiencies"
+    ],
+    [
+      "Participating Nodes",
+      "comprise",
+      "Local Server"
+    ],
+    [
+      "Local Server",
+      "applies",
+      "Privacy Protection"
+    ],
+    [
+      "Privacy Protection",
+      "uses",
+      "Noise Addition"
+    ],
+    [
+      "Participating Nodes",
+      "send",
+      "Compressed Updates"
+    ],
+    [
+      "Central Server",
+      "receives",
+      "Compressed Updates"
+    ],
+    [
+      "Central Server",
+      "aggregates",
+      "Updates"
+    ],
+    [
+      "Central Server",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Event-Triggered Communication",
+      "reduces",
+      "Network Delay"
+    ],
+    [
+      "Quantization Techniques",
+      "compresses",
+      "Updates"
+    ],
+    [
+      "Pruning Techniques",
+      "compresses",
+      "Updates"
+    ],
+    [
+      "Certain Conditions",
+      "triggers",
+      "Communication"
+    ],
+    [
+      "Accumulated Compression Threshold",
+      "triggers",
+      "Communication"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adaptive Optimization for Privacy-Preserving Asynchronous Federal Learning",
+    "Central Server",
+    "Compression Module",
+    "Decreased Communication Cost",
+    "Event-Triggered Communication",
+    "Inefficiencies in asynchronous federated learning",
+    "Noise Addition",
+    "Participating Nodes",
+    "Reduced Delay"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accumulated Compression Threshold",
+    "Central Server",
+    "Certain Conditions",
+    "Communication",
+    "Compressed Updates",
+    "Event-Triggered Communication",
+    "Excessive Communication Cost",
+    "Global Model",
+    "High Delay",
+    "Inefficiencies",
+    "Local Server",
+    "Low-Quality Participating Nodes",
+    "Network Delay",
+    "Noise Addition",
+    "Participating Nodes",
+    "Privacy Protection",
+    "Pruning Techniques",
+    "Quantization Techniques",
+    "Updates"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "applies",
+    "cause",
+    "causes",
+    "compresses",
+    "comprise",
+    "receives",
+    "reduces",
+    "results_from",
+    "send",
+    "triggers",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

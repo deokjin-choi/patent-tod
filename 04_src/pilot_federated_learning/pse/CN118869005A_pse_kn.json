@@ -1,0 +1,160 @@
+{
+  "publication_number": "CN118869005A",
+  "title": "Adaptive frequency hopping anti-interference method, device and electronic equipment based on federated learning",
+  "assignee": "Beijing University of Posts and Telecommunications",
+  "filing_date": "2024-07-15",
+  "publication_date": "2024-10-29",
+  "pse": {
+    "problem": "Communication systems face difficulties in maintaining quality due to complex electromagnetic environments and advanced interference technologies.",
+    "solution_function": "An adaptive frequency hopping strategy is determined based on the communication environment for each drone device within a flight self-organizing network system. The strategy is learned using federated learning, which involves training an initial dual deep Q network model by the drone devices and a base station, generating an aggregate network model, and performing secondary learning training on the dual deep Q network model.",
+    "solution_structure": "The solution consists of drone devices, each equipped with a dual deep Q network model, and a base station. The base station generates the aggregate network model.",
+    "solution_implementation": "Each drone device trains its initial dual deep Q network model based on interaction information between itself and the environment, which includes its own communication state, actions (carrier frequency selection), rewards, and new state information. The model parameters are uploaded to the base station, generating an aggregate network model using federated average algorithm. Each drone device receives the aggregate network model for secondary learning training.",
+    "effect": "The adaptive frequency hopping strategy provides versatility in diverse interference environments, improving the anti-interference ability and communication quality of the system."
+  },
+  "knowledge_graph": [
+    [
+      "Adaptive Frequency Hopping Strategy",
+      "Addresses_Problem",
+      "Complex Electromagnetic Environments and Advanced Interference Technologies"
+    ],
+    [
+      "Adaptive Frequency Hopping Strategy",
+      "Comprises_Component",
+      "Drone Devices"
+    ],
+    [
+      "Adaptive Frequency Hopping Strategy",
+      "Comprises_Component",
+      "Base Station"
+    ],
+    [
+      "Adaptive Frequency Hopping Strategy",
+      "Implemented_By",
+      "Dual Deep Q Network Model"
+    ],
+    [
+      "Adaptive Frequency Hopping Strategy",
+      "Achieves_Effect",
+      "Improved Anti-Interference Ability and Communication Quality"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Complex Electromagnetic Environments",
+      "causes",
+      "Difficulties in Maintaining Quality"
+    ],
+    [
+      "Advanced Interference Technologies",
+      "causes",
+      "Difficulties in Maintaining Quality"
+    ],
+    [
+      "Drone Device",
+      "controls",
+      "Carrier Frequency Selection"
+    ],
+    [
+      "Drone Device",
+      "monitors",
+      "Communication State"
+    ],
+    [
+      "Dual Deep Q Network Model (Drone Devices)",
+      "learns",
+      "Adaptive Frequency Hopping Strategy"
+    ],
+    [
+      "Base Station",
+      "generates",
+      "Aggregate Network Model"
+    ],
+    [
+      "Base Station",
+      "stores",
+      "Model Parameters"
+    ],
+    [
+      "Federated Learning",
+      "involves",
+      "Training Initial Dual Deep Q Network Model"
+    ],
+    [
+      "Dual Deep Q Network Model (Drone Devices)",
+      "interacts_with",
+      "Environment"
+    ],
+    [
+      "Dual Deep Q Network Model (Base Station)",
+      "generates",
+      "Aggregate Network Model using Federated Average Algorithm"
+    ],
+    [
+      "Dual Deep Q Network Model (Drone Devices)",
+      "receives",
+      "Aggregate Network Model for Secondary Learning Training"
+    ],
+    [
+      "Adaptive Frequency Hopping Strategy",
+      "provides",
+      "Versatility in Diverse Interference Environments"
+    ],
+    [
+      "Adaptive Frequency Hopping Strategy",
+      "improves",
+      "Anti-Interference Ability and Communication Quality of the System"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adaptive Frequency Hopping Strategy",
+    "Base Station",
+    "Complex Electromagnetic Environments and Advanced Interference Technologies",
+    "Drone Devices",
+    "Dual Deep Q Network Model",
+    "Improved Anti-Interference Ability and Communication Quality"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adaptive Frequency Hopping Strategy",
+    "Advanced Interference Technologies",
+    "Aggregate Network Model",
+    "Aggregate Network Model for Secondary Learning Training",
+    "Aggregate Network Model using Federated Average Algorithm",
+    "Anti-Interference Ability and Communication Quality of the System",
+    "Base Station",
+    "Carrier Frequency Selection",
+    "Communication State",
+    "Complex Electromagnetic Environments",
+    "Difficulties in Maintaining Quality",
+    "Drone Device",
+    "Dual Deep Q Network Model (Base Station)",
+    "Dual Deep Q Network Model (Drone Devices)",
+    "Environment",
+    "Federated Learning",
+    "Model Parameters",
+    "Training Initial Dual Deep Q Network Model",
+    "Versatility in Diverse Interference Environments"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "controls",
+    "generates",
+    "improves",
+    "interacts_with",
+    "involves",
+    "learns",
+    "monitors",
+    "provides",
+    "receives",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06N3/08",
+    "H04B1/715"
+  ]
+}

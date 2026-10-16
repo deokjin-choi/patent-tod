@@ -1,0 +1,187 @@
+{
+  "publication_number": "CN111553484A",
+  "title": "Method, device and system for federal learning",
+  "assignee": "Tongdun Holdings Co Ltd",
+  "filing_date": "2020-04-30",
+  "publication_date": "2020-08-18",
+  "pse": {
+    "problem": "High network transmission overhead and data security issues in existing federated learning systems",
+    "solution_function": "Federated server trains the model based on compressed updating gradients from clients, reducing network transmission overhead and improving system performance. Clients continue training their models using the received compressed global update gradient.",
+    "solution_structure": "The system consists of federal servers and multiple clients, each with a neural network model. Clients have local data sets and are capable of obtaining gradients for model updates.",
+    "solution_implementation": "Clients send their updated gradients to the federal server which performs aggregation processing and singular value decomposition (SVD) to obtain a first global update gradient. Alternatively, clients send the last k layers' updated gradients of an initial p-layer structure model, where k > 0 and < p. The federal server aggregates these gradients to obtain a second global update gradient.",
+    "effect": "Reduced network transmission overhead leading to improved system performance. Enhanced data security by minimizing the visibility of individual client updates to the federated server."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Server",
+      "Addresses_Problem",
+      "High network transmission overhead and data security issues"
+    ],
+    [
+      "Federated Server",
+      "Comprises_Component",
+      "Federal server"
+    ],
+    [
+      "Federated Server",
+      "Comprises_Component",
+      "Multiple clients"
+    ],
+    [
+      "Federated Server",
+      "Implemented_By",
+      "Gradient compression and aggregation processing with SVD"
+    ],
+    [
+      "Federated Server",
+      "Achieves_Effect",
+      "Reduced network transmission overhead leading to improved system performance"
+    ],
+    [
+      "Federated Server",
+      "Achieves_Effect",
+      "Enhanced data security"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Systems",
+      "causes",
+      "High Network Transmission Overhead"
+    ],
+    [
+      "Federated Learning Systems",
+      "causes",
+      "Data Security Issues"
+    ],
+    [
+      "Federal Server",
+      "controls",
+      "Model Training"
+    ],
+    [
+      "Federal Server",
+      "reduces",
+      "Network Transmission Overhead"
+    ],
+    [
+      "Federal Server",
+      "improves",
+      "System Performance"
+    ],
+    [
+      "Clients",
+      "comprises",
+      "Neural Network Models"
+    ],
+    [
+      "Clients",
+      "possesses",
+      "Local Data Sets"
+    ],
+    [
+      "Clients",
+      "obtains",
+      "Gradients for Model Updates"
+    ],
+    [
+      "Federal Server",
+      "performs",
+      "Aggregation Processing"
+    ],
+    [
+      "Federal Server",
+      "performs",
+      "Singular Value Decomposition (SVD)"
+    ],
+    [
+      "Federal Server",
+      "receives",
+      "Updated Gradients from Clients"
+    ],
+    [
+      "Gradient Aggregation",
+      "produces",
+      "First Global Update Gradient"
+    ],
+    [
+      "Clients",
+      "sends",
+      "Last k Layers' Updated Gradients"
+    ],
+    [
+      "Federal Server",
+      "aggregates",
+      "Gradients to Obtain Second Global Update Gradient"
+    ],
+    [
+      "Aggregated Gradients",
+      "achieves",
+      "Improved System Performance"
+    ],
+    [
+      "System",
+      "enhances",
+      "Data Security"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Enhanced data security",
+    "Federal server",
+    "Federated Server",
+    "Gradient compression and aggregation processing with SVD",
+    "High network transmission overhead and data security issues",
+    "Multiple clients",
+    "Reduced network transmission overhead leading to improved system performance"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Gradients",
+    "Aggregation Processing",
+    "Clients",
+    "Data Security",
+    "Data Security Issues",
+    "Federal Server",
+    "Federated Learning Systems",
+    "First Global Update Gradient",
+    "Gradient Aggregation",
+    "Gradients for Model Updates",
+    "Gradients to Obtain Second Global Update Gradient",
+    "High Network Transmission Overhead",
+    "Improved System Performance",
+    "Last k Layers' Updated Gradients",
+    "Local Data Sets",
+    "Model Training",
+    "Network Transmission Overhead",
+    "Neural Network Models",
+    "Singular Value Decomposition (SVD)",
+    "System",
+    "System Performance",
+    "Updated Gradients from Clients"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "aggregates",
+    "causes",
+    "comprises",
+    "controls",
+    "enhances",
+    "improves",
+    "obtains",
+    "performs",
+    "possesses",
+    "produces",
+    "receives",
+    "reduces",
+    "sends"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "Y02D10/00"
+  ]
+}

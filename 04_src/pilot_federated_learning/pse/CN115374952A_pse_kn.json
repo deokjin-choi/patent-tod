@@ -1,0 +1,128 @@
+{
+  "publication_number": "CN115374952A",
+  "title": "Model contribution evaluation method, device, computer equipment, medium and product",
+  "assignee": "Shenzhen Power Supply Bureau Co Ltd",
+  "filing_date": "2022-08-26",
+  "publication_date": "2022-11-22",
+  "pse": {
+    "problem": "The traditional method for evaluating model contribution in a federated learning setup lacks accuracy, as it relies on the cumulative use of features without accurately reflecting their contribution to model training.",
+    "solution_function": "The invention presents a method for evaluating model contribution that calculates the contribution of each participant based on their provided data's quality index and the standard model accuracy rate of the federated learning model.",
+    "solution_structure": "The system comprises participants (first and second), original sample data, intermediate sample data (perturbed version of original data), a federated learning model, and potentially a communication channel for exchanging data and model accuracy rates.",
+    "solution_implementation": "The method involves obtaining first and second model accuracy rates by inputting participant-specific features into the federated learning model. The first model accuracy rate is calculated from the original sample data of the first participant, while the second model accuracy rate is obtained from the perturbed second intermediate sample data received from the second participant.",
+    "effect": "The proposed method promises a more accurate evaluation of model contribution, thereby promoting fairer distribution of benefits among participants in federated learning collaborations."
+  },
+  "knowledge_graph": [
+    [
+      "Evaluating Model Contribution Method",
+      "Addresses_Problem",
+      "Traditional Method Problem"
+    ],
+    [
+      "Evaluating Model Contribution Method",
+      "Comprises_Component",
+      "Participants"
+    ],
+    [
+      "Evaluating Model Contribution Method",
+      "Comprises_Component",
+      "Federated Learning Model"
+    ],
+    [
+      "Evaluating Model Contribution Method",
+      "Implemented_By",
+      "Obtaining Model Accuracy Rates"
+    ],
+    [
+      "Evaluating Model Contribution Method",
+      "Achieves_Effect",
+      "Accurate Evaluation of Model Contribution"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Sensor",
+      "monitors",
+      "Environmental Parameters"
+    ],
+    [
+      "Sensor",
+      "transmits_to",
+      "Valve"
+    ],
+    [
+      "Valve",
+      "controls",
+      "Actuating Mechanism"
+    ],
+    [
+      "Actuating Mechanism",
+      "acts_on",
+      "Valve Position"
+    ],
+    [
+      "Valve",
+      "transmits_to",
+      "Remote Sensor"
+    ],
+    [
+      "Remote Sensor",
+      "transmits_to",
+      "Data Processing Unit"
+    ],
+    [
+      "Data Processing Unit",
+      "processes",
+      "Data"
+    ],
+    [
+      "Data Processing Unit",
+      "relays_to",
+      "Cloud Storage"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Processed Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Accurate Evaluation of Model Contribution",
+    "Evaluating Model Contribution Method",
+    "Federated Learning Model",
+    "Obtaining Model Accuracy Rates",
+    "Participants",
+    "Traditional Method Problem"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Actuating Mechanism",
+    "Cloud Storage",
+    "Data",
+    "Data Processing Unit",
+    "Environmental Parameters",
+    "Processed Data",
+    "Remote Sensor",
+    "Sensor",
+    "Valve",
+    "Valve Position"
+  ],
+  "knowledge_graph2_relation": [
+    "acts_on",
+    "controls",
+    "monitors",
+    "processes",
+    "relays_to",
+    "stores",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F17/18",
+    "G06F21/602",
+    "G06N20/00"
+  ]
+}

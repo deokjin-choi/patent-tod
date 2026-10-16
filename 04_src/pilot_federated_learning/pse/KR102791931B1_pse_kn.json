@@ -1,0 +1,220 @@
+{
+  "publication_number": "KR102791931B1",
+  "title": "User equipment,web server and system for estimating location using federated learning",
+  "assignee": "(no assignee found)",
+  "filing_date": "2020-11-11",
+  "publication_date": "2025-04-07",
+  "pse": {
+    "problem": "The patent addresses the problem of indoor positioning while protecting user privacy in a distributed learning environment.",
+    "solution_function": "The system uses federated learning to generate and update a wide-area model for estimating the location coordinates of a terminal based on Received Signal Strength Indicator (RSSI) information. The server generates, updates, and transmits the wide-area model and initial weight information to terminals. Terminals measure RSSI information, use it to calculate their own weight information that minimizes the error between estimated and actual coordinates, and transmit this weight information back to the server for model update.",
+    "solution_structure": "The system consists of a server with components like a model generation unit, transmitter, weight reception unit, and model update unit. Terminals have components such as an information measuring unit, receiving unit, terminal weight information calculating unit, and transmitting unit.",
+    "solution_implementation": "The server generates a wide-area model (multilayer neural network algorithm) that takes RSSI information as input and outputs estimated location coordinates. Terminals measure RSSI information from access points, use it to calculate their own weight information, and transmit this back to the server for model update. The server updates the wide-area model using the received terminal weight information and the number of RSSI inputs for each terminal.",
+    "effect": "The system provides a solution for indoor positioning while preserving user privacy by utilizing federated learning and RSSI information."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Indoor Positioning Problem in Distributed Learning Environment"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Model Generation Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Transmitter"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Weight Reception Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Model Update Unit"
+    ],
+    [
+      "Terminals",
+      "Comprises_Component",
+      "Information Measuring Unit"
+    ],
+    [
+      "Terminals",
+      "Comprises_Component",
+      "Receiving Unit"
+    ],
+    [
+      "Terminals",
+      "Comprises_Component",
+      "Terminal Weight Information Calculating Unit"
+    ],
+    [
+      "Terminals",
+      "Comprises_Component",
+      "Transmitting Unit"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Multilayer Neural Network Algorithm"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Indoor Positioning While Preserving User Privacy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Indoor Positioning System",
+      "causes",
+      "User Privacy Protection"
+    ],
+    [
+      "Federated Learning",
+      "generates",
+      "Wide-Area Model"
+    ],
+    [
+      "Server",
+      "generates",
+      "Wide-Area Model"
+    ],
+    [
+      "Server",
+      "updates",
+      "Wide-Area Model"
+    ],
+    [
+      "Server",
+      "transmits",
+      "Wide-Area Model"
+    ],
+    [
+      "Server",
+      "transmits",
+      "Initial Weight Information"
+    ],
+    [
+      "Terminal",
+      "receives",
+      "Wide-Area Model"
+    ],
+    [
+      "Terminal",
+      "receives",
+      "Initial Weight Information"
+    ],
+    [
+      "Terminal",
+      "measures",
+      "RSSI Information"
+    ],
+    [
+      "Terminal Weight Information Calculating Unit",
+      "calculates",
+      "Weight Information"
+    ],
+    [
+      "Terminal",
+      "transmits",
+      "Weight Information"
+    ],
+    [
+      "Server",
+      "receives",
+      "Weight Information"
+    ],
+    [
+      "Server",
+      "updates",
+      "Wide-Area Model"
+    ],
+    [
+      "RSSI Information Measuring Unit",
+      "monitors",
+      "RSSI Information"
+    ],
+    [
+      "Access Points",
+      "provides",
+      "RSSI Information"
+    ],
+    [
+      "Multilayer Neural Network Algorithm",
+      "processes",
+      "RSSI Information"
+    ],
+    [
+      "Multilayer Neural Network Algorithm",
+      "outputs",
+      "Estimated Location Coordinates"
+    ],
+    [
+      "Terminal Weight Information",
+      "minimizes",
+      "Error between Estimated and Actual Coordinates"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated Learning System",
+    "Indoor Positioning Problem in Distributed Learning Environment",
+    "Indoor Positioning While Preserving User Privacy",
+    "Information Measuring Unit",
+    "Model Generation Unit",
+    "Model Update Unit",
+    "Multilayer Neural Network Algorithm",
+    "Receiving Unit",
+    "Terminal Weight Information Calculating Unit",
+    "Terminals",
+    "Transmitter",
+    "Transmitting Unit",
+    "Weight Reception Unit"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Access Points",
+    "Error between Estimated and Actual Coordinates",
+    "Estimated Location Coordinates",
+    "Federated Learning",
+    "Indoor Positioning System",
+    "Initial Weight Information",
+    "Multilayer Neural Network Algorithm",
+    "RSSI Information",
+    "RSSI Information Measuring Unit",
+    "Server",
+    "Terminal",
+    "Terminal Weight Information",
+    "Terminal Weight Information Calculating Unit",
+    "User Privacy Protection",
+    "Weight Information",
+    "Wide-Area Model"
+  ],
+  "knowledge_graph2_relation": [
+    "calculates",
+    "causes",
+    "generates",
+    "measures",
+    "minimizes",
+    "monitors",
+    "outputs",
+    "processes",
+    "provides",
+    "receives",
+    "transmits",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N3/045",
+    "G06N3/08"
+  ]
+}

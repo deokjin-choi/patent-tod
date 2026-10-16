@@ -1,0 +1,163 @@
+{
+  "publication_number": "EP4131078A1",
+  "title": "Random greedy algorithm-based horizontal federated gradient boosted tree optimization method",
+  "assignee": "Ennew Digital Technology Co Ltd",
+  "filing_date": "2021-06-21",
+  "publication_date": "2023-02-08",
+  "pse": {
+    "problem": "Existing horizontal federated Gradient Boosting Decision Tree algorithm requires frequent transmission of histogram information, increasing network bandwidth requirements for coordinators and affecting training efficiency. Transmitted histogram information contains user information, posing a privacy risk.",
+    "solution_function": "The system performs distributed optimization of a horizontal federated Gradient Boosting Decision Tree model using a random greedy algorithm. The algorithm makes local optimal decisions step by step without considering all possible overall situations to find an approximate global solution, reducing the need for frequent histogram information transmission and improving training efficiency while maintaining privacy protection.",
+    "solution_structure": "The system consists of multiple participants, each with their local data, and a coordinator. Participants execute the random greedy algorithm locally to update the model. The coordinator aggregates updates from participants using secure computing methods to maintain privacy.",
+    "solution_implementation": "The random greedy algorithm is implemented in a top-down, iterative manner. At each iteration, participants locally select the best feature and corresponding weight based on local data and current model. The updated model is then sent to the coordinator for aggregation. Secure computing methods such as homomorphic encryption and secret sharing are used to protect privacy during aggregation.",
+    "effect": "The proposed method reduces network bandwidth requirements, improves training efficiency, and maintains user privacy compared to existing methods."
+  },
+  "knowledge_graph": [
+    [
+      "Distributed Optimization Algorithm",
+      "Addresses_Problem",
+      "High Network Bandwidth Requirements Problem"
+    ],
+    [
+      "Distributed Optimization Algorithm",
+      "Comprises_Component",
+      "Multiple Participants"
+    ],
+    [
+      "Distributed Optimization Algorithm",
+      "Comprises_Component",
+      "Coordinator"
+    ],
+    [
+      "Distributed Optimization Algorithm",
+      "Implemented_By",
+      "Random Greedy Algorithm"
+    ],
+    [
+      "Distributed Optimization Algorithm",
+      "Achieves_Effect",
+      "Reduced Network Bandwidth Requirements"
+    ],
+    [
+      "Distributed Optimization Algorithm",
+      "Achieves_Effect",
+      "Improved Training Efficiency"
+    ],
+    [
+      "Distributed Optimization Algorithm",
+      "Achieves_Effect",
+      "User Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing horizontal federated Gradient Boosting Decision Tree algorithm",
+      "causes",
+      "Frequent transmission of histogram information"
+    ],
+    [
+      "Existing horizontal federated Gradient Boosting Decision Tree algorithm",
+      "affects",
+      "Training efficiency"
+    ],
+    [
+      "Transmitted histogram information",
+      "contains",
+      "User information"
+    ],
+    [
+      "Transmitted histogram information",
+      "poses a",
+      "Privacy risk"
+    ],
+    [
+      "The system",
+      "reduces",
+      "Need for frequent histogram information transmission"
+    ],
+    [
+      "The system",
+      "improves",
+      "Training efficiency"
+    ],
+    [
+      "The system",
+      "maintains",
+      "Privacy protection"
+    ],
+    [
+      "Random greedy algorithm",
+      "finds an approximate global solution"
+    ],
+    [
+      "Multiple participants",
+      "each has their local data"
+    ],
+    [
+      "Participants",
+      "execute the random greedy algorithm locally"
+    ],
+    [
+      "Participants",
+      "update the model"
+    ],
+    [
+      "Coordinator",
+      "aggregates updates from participants"
+    ],
+    [
+      "Coordinator",
+      "uses secure computing methods"
+    ],
+    [
+      "Secure computing methods",
+      "protect privacy during aggregation"
+    ],
+    [
+      "Homomorphic encryption and secret sharing",
+      "are used for privacy protection"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Coordinator",
+    "Distributed Optimization Algorithm",
+    "High Network Bandwidth Requirements Problem",
+    "Improved Training Efficiency",
+    "Multiple Participants",
+    "Random Greedy Algorithm",
+    "Reduced Network Bandwidth Requirements",
+    "User Privacy Protection"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Existing horizontal federated Gradient Boosting Decision Tree algorithm",
+    "Frequent transmission of histogram information",
+    "Need for frequent histogram information transmission",
+    "Privacy protection",
+    "Privacy risk",
+    "The system",
+    "Training efficiency",
+    "Transmitted histogram information",
+    "User information"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "causes",
+    "contains",
+    "improves",
+    "maintains",
+    "poses a",
+    "reduces"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F18/2148",
+    "G06F18/24323",
+    "G06N20/20",
+    "G06N5/01"
+  ]
+}

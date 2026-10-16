@@ -1,0 +1,145 @@
+{
+  "publication_number": "CN111340558A",
+  "title": "Online information processing method, device, equipment and medium based on federated learning",
+  "assignee": "WeBank Co Ltd",
+  "filing_date": "2020-02-28",
+  "publication_date": "2020-06-26",
+  "pse": {
+    "problem": "Limitation in returning user feature data in prior art leads to decreased positioning accuracy of potential target groups and efficiency of resource promotion",
+    "solution_function": "Online information processing method based on federated learning predicts conversion rates for resource requests using a preset conversion evaluation model, determining potential target group and/or real-time bidding data accordingly",
+    "solution_structure": "The solution includes a conversion evaluation model, back-end conversion evaluation model, prediction model to be trained, first prediction sub-model to be trained, federation process, and federation sub-processes",
+    "solution_implementation": "Upon receiving a resource request, resource feature data is extracted. The resource characteristic data and local user traffic data are input into the conversion evaluation model to obtain the predicted conversion rate. The conversion evaluation model is based on preset traffic conversion data obtained by iteratively training the prediction model. The federated process includes a back-end conversion evaluation model, which is obtained by iteratively training the first prediction sub-model using preset traffic back-end transformation data",
+    "effect": "Improved positioning accuracy of potential target groups and efficiency of resource promotion"
+  },
+  "knowledge_graph": [
+    [
+      "Online Information Processing Method (based on Federated Learning)",
+      "Addresses_Problem",
+      "Limitation in returning user feature data"
+    ],
+    [
+      "Online Information Processing Method (based on Federated Learning)",
+      "Comprises_Component",
+      "Conversion Evaluation Model"
+    ],
+    [
+      "Online Information Processing Method (based on Federated Learning)",
+      "Comprises_Component",
+      "Back-end Conversion Evaluation Model"
+    ],
+    [
+      "Online Information Processing Method (based on Federated Learning)",
+      "Implemented_By",
+      "Core Operation Logic for prediction and training of conversion rates"
+    ],
+    [
+      "Online Information Processing Method (based on Federated Learning)",
+      "Achieves_Effect",
+      "Improved positioning accuracy of potential target groups"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Resource Request",
+      "causes",
+      "Data Extraction"
+    ],
+    [
+      "Resource Request",
+      "transmits_to",
+      "Conversion Evaluation Model"
+    ],
+    [
+      "Local User Traffic Data",
+      "combines_with",
+      "Resource Characteristic Data"
+    ],
+    [
+      "Conversion Evaluation Model",
+      "outputs",
+      "Predicted Conversion Rate"
+    ],
+    [
+      "Predicted Conversion Rate",
+      "determines",
+      "Potential Target Group"
+    ],
+    [
+      "Predicted Conversion Rate",
+      "determines",
+      "Real-Time Bidding Data"
+    ],
+    [
+      "Federation Process",
+      "includes",
+      "Back-end Conversion Evaluation Model"
+    ],
+    [
+      "First Prediction Sub-Model",
+      "is trained_by",
+      "Preset Traffic Back-end Transformation Data"
+    ],
+    [
+      "Prediction Model to be Trained",
+      "is used_in",
+      "Conversion Evaluation Model"
+    ],
+    [
+      "Federation Process",
+      "improves",
+      "Positioning Accuracy"
+    ],
+    [
+      "Federation Process",
+      "improves",
+      "Resource Promotion Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Back-end Conversion Evaluation Model",
+    "Conversion Evaluation Model",
+    "Core Operation Logic for prediction and training of conversion rates",
+    "Improved positioning accuracy of potential target groups",
+    "Limitation in returning user feature data",
+    "Online Information Processing Method (based on Federated Learning)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Back-end Conversion Evaluation Model",
+    "Conversion Evaluation Model",
+    "Data Extraction",
+    "Federation Process",
+    "First Prediction Sub-Model",
+    "Local User Traffic Data",
+    "Positioning Accuracy",
+    "Potential Target Group",
+    "Predicted Conversion Rate",
+    "Prediction Model to be Trained",
+    "Preset Traffic Back-end Transformation Data",
+    "Real-Time Bidding Data",
+    "Resource Characteristic Data",
+    "Resource Promotion Efficiency",
+    "Resource Request"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "combines_with",
+    "determines",
+    "improves",
+    "includes",
+    "is trained_by",
+    "is used_in",
+    "outputs",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06Q30/0242",
+    "G06Q30/0273"
+  ]
+}

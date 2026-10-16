@@ -1,0 +1,201 @@
+{
+  "publication_number": "CN115600690A",
+  "title": "A Discrete Variable Preprocessing Method for Vertical Federated Learning",
+  "assignee": "China Telecom Bestpay Co Ltd",
+  "filing_date": "2022-09-20",
+  "publication_date": "2023-01-13",
+  "pse": {
+    "problem": "The current methods for preprocessing discrete variables in vertical federated learning cause data dimension explosion or overfitting/underfitting issues due to high-cardinality variables.",
+    "solution_function": "The invention presents a Target-Encoding algorithm that encodes high-cardinality discrete variables, reducing memory consumption and improving model performance by minimizing the feature dimensionality increase and addressing underfitting/overfitting issues.",
+    "solution_structure": "Target-Encoding algorithm modifies the LabelEncoder method to encode high-cardinality discrete features without assuming an order relationship between categories. It generates a sparse matrix where each row represents a sample, columns correspond to unique category values, and each non-zero element indicates the presence of a certain category in the respective sample.",
+    "solution_implementation": "During training, Target-Encoding applies cross-validation techniques to optimize the algorithm's hyperparameters. Inference involves encoding high-cardinality discrete features using this optimized algorithm and integrating them into existing machine learning models.",
+    "effect": "The proposed method reduces memory consumption, decreases the dimensionality of feature vectors, and achieves better generalization performance in federated learning scenarios compared to previous methods."
+  },
+  "knowledge_graph": [
+    [
+      "Target-Encoding algorithm",
+      "Addresses_Problem",
+      "Data dimension explosion or overfitting/underfitting issues due to high-cardinality variables"
+    ],
+    [
+      "Target-Encoding algorithm",
+      "Comprises_Component",
+      "Modification of LabelEncoder method"
+    ],
+    [
+      "Target-Encoding algorithm",
+      "Comprises_Component",
+      "Sparse matrix generation for sample representation"
+    ],
+    [
+      "Target-Encoding algorithm",
+      "Implemented_By",
+      "Cross-validation techniques during training"
+    ],
+    [
+      "Target-Encoding algorithm",
+      "Implemented_By",
+      "Integration into existing machine learning models for inference"
+    ],
+    [
+      "Target-Encoding algorithm",
+      "Achieves_Effect",
+      "Reduced memory consumption"
+    ],
+    [
+      "Target-Encoding algorithm",
+      "Achieves_Effect",
+      "Decreased dimensionality of feature vectors"
+    ],
+    [
+      "Target-Encoding algorithm",
+      "Achieves_Effect",
+      "Better generalization performance in federated learning scenarios"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Preprocessing Methods",
+      "causes",
+      "Data Dimension Explosion"
+    ],
+    [
+      "Preprocessing Methods",
+      "causes",
+      "Overfitting/Underfitting Issues"
+    ],
+    [
+      "High-Cardinality Variables",
+      "causes",
+      "Data Dimension Explosion"
+    ],
+    [
+      "High-Cardinality Variables",
+      "causes",
+      "Overfitting/Underfitting Issues"
+    ],
+    [
+      "Target-Encoding Algorithm",
+      "reduces",
+      "Memory Consumption"
+    ],
+    [
+      "Target-Encoding Algorithm",
+      "addresses",
+      "Underfitting/Overfitting Issues"
+    ],
+    [
+      "LabelEncoder Method",
+      "modified by",
+      "Target-Encoding Algorithm"
+    ],
+    [
+      "Target-Encoding Algorithm",
+      "encodes",
+      "High-Cardinality Discrete Features"
+    ],
+    [
+      "Target-Encoding Algorithm",
+      "minimizes",
+      "Feature Dimensionality Increase"
+    ],
+    [
+      "Target-Encoding Algorithm",
+      "applies",
+      "Cross-Validation Techniques"
+    ],
+    [
+      "Training Process",
+      "optimizes",
+      "Algorithm's Hyperparameters"
+    ],
+    [
+      "Inference",
+      "encodes",
+      "High-Cardinality Discrete Features"
+    ],
+    [
+      "Existing Machine Learning Models",
+      "integrates",
+      "Encoded Features"
+    ],
+    [
+      "Target-Encoding Algorithm",
+      "improves",
+      "Model Performance"
+    ],
+    [
+      "Federated Learning Scenarios",
+      "compared to",
+      "Previous Methods"
+    ],
+    [
+      "Preprocessing Methods (old)",
+      "causes",
+      "Inefficient Federated Learning"
+    ],
+    [
+      "Target-Encoding Algorithm",
+      "replaces",
+      "LabelEncoder Method"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Better generalization performance in federated learning scenarios",
+    "Cross-validation techniques during training",
+    "Data dimension explosion or overfitting/underfitting issues due to high-cardinality variables",
+    "Decreased dimensionality of feature vectors",
+    "Integration into existing machine learning models for inference",
+    "Modification of LabelEncoder method",
+    "Reduced memory consumption",
+    "Sparse matrix generation for sample representation",
+    "Target-Encoding algorithm"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Algorithm's Hyperparameters",
+    "Cross-Validation Techniques",
+    "Data Dimension Explosion",
+    "Encoded Features",
+    "Existing Machine Learning Models",
+    "Feature Dimensionality Increase",
+    "Federated Learning Scenarios",
+    "High-Cardinality Discrete Features",
+    "High-Cardinality Variables",
+    "Inefficient Federated Learning",
+    "Inference",
+    "LabelEncoder Method",
+    "Memory Consumption",
+    "Model Performance",
+    "Overfitting/Underfitting Issues",
+    "Preprocessing Methods",
+    "Preprocessing Methods (old)",
+    "Previous Methods",
+    "Target-Encoding Algorithm",
+    "Training Process",
+    "Underfitting/Overfitting Issues"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "applies",
+    "causes",
+    "compared to",
+    "encodes",
+    "improves",
+    "integrates",
+    "minimizes",
+    "modified by",
+    "optimizes",
+    "reduces",
+    "replaces"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06N20/20"
+  ]
+}

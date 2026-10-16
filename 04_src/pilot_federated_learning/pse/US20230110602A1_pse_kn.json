@@ -1,0 +1,116 @@
+{
+  "publication_number": "US20230110602A1",
+  "title": "Federated learning model lineage",
+  "assignee": "International Business Machines Corp",
+  "filing_date": "2021-10-13",
+  "publication_date": "2023-04-13",
+  "pse": {
+    "problem": "Limitation in tracking and recording updates during federated learning, making it difficult to trace the evolution of machine learning models",
+    "solution_function": "A system records initial models and their updates from workers during a round of training in a federated learning system, creating a lineage database for each model",
+    "solution_structure": "The system consists of a model lineage system (aggregator) that receives and records initial models and updates from workers, and a lineage database to store the recorded data",
+    "solution_implementation": "Upon starting a round of training by an aggregator in the federated learning system, the initial model is dispatched to workers. The workers train the model locally and send their updates back to the aggregator, which records them in the lineage database.",
+    "effect": "Enables tracking and tracing the evolution of machine learning models during federated learning, providing accountability and reproducibility for future use or analysis"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Limitation in tracking updates"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Model Lineage System (Aggregator)"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Lineage Database"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Initial model dispatch and update recording"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Accountability and reproducibility"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning System",
+      "causes",
+      "Limitation in tracking and recording updates"
+    ],
+    [
+      "Aggregator (System)",
+      "controls",
+      "Model Lineage Database"
+    ],
+    [
+      "Workers",
+      "send_updates_to",
+      "Aggregator (System)"
+    ],
+    [
+      "Aggregator (System)",
+      "stores",
+      "Updates from Workers"
+    ],
+    [
+      "Model Lineage System (Aggregator)",
+      "comprises",
+      "Lineage Database"
+    ],
+    [
+      "Initial Model",
+      "dispatched_to",
+      "Workers"
+    ],
+    [
+      "Federated Learning System",
+      "achieves",
+      "Accountability and reproducibility for future use or analysis"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Accountability and reproducibility",
+    "Federated Learning System",
+    "Initial model dispatch and update recording",
+    "Limitation in tracking updates",
+    "Lineage Database",
+    "Model Lineage System (Aggregator)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accountability and reproducibility for future use or analysis",
+    "Aggregator (System)",
+    "Federated Learning System",
+    "Initial Model",
+    "Limitation in tracking and recording updates",
+    "Lineage Database",
+    "Model Lineage Database",
+    "Model Lineage System (Aggregator)",
+    "Updates from Workers",
+    "Workers"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "comprises",
+    "controls",
+    "dispatched_to",
+    "send_updates_to",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

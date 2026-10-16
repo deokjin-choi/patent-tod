@@ -1,0 +1,134 @@
+{
+  "publication_number": "CN110874484A",
+  "title": "Data processing method and system based on neural network and federal learning",
+  "assignee": "Zhongan Information Technology Service Co Ltd",
+  "filing_date": "2019-10-16",
+  "publication_date": "2020-03-10",
+  "pse": {
+    "problem": "Incomplete data features in vertical federated learning and transfer federated learning",
+    "solution_function": "Develops a method for joint modeling by using encryption and decryption neural networks trained on randomly generated data. Each client uses local data to train an encrypted neural network, then exchanges loss values to achieve joint modeling.",
+    "solution_structure": "Encryption and decryption neural network consisting of M encryption neural networks and a decryption neural network (M is the number of clients).",
+    "solution_implementation": "Train the encrypted neural networks on randomly generated data until convergence, then send them to each client. Each client trains their encrypted neural network with local data and exchanges loss values for joint modeling.",
+    "effect": "Improves efficiency and reduces complexity compared to previous methods of feature complementation"
+  },
+  "knowledge_graph": [
+    [
+      "Encryption and Decryption Neural Network",
+      "Addresses_Problem",
+      "Incomplete data features in vertical federated learning and transfer federated learning"
+    ],
+    [
+      "Encryption and Decryption Neural Network",
+      "Comprises_Component",
+      "M encryption neural networks"
+    ],
+    [
+      "Encryption and Decryption Neural Network",
+      "Comprises_Component",
+      "Decryption neural network"
+    ],
+    [
+      "Encryption and Decryption Neural Network",
+      "Implemented_By",
+      "Training on randomly generated data until convergence, sending trained networks to clients, client training with local data, and exchanging loss values for joint modeling"
+    ],
+    [
+      "Encryption and Decryption Neural Network",
+      "Achieves_Effect",
+      "Improved efficiency and reduced complexity compared to previous methods of feature complementation"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Encryption Neural Network",
+      "controls",
+      "Data Encryption"
+    ],
+    [
+      "Decryption Neural Network",
+      "controls",
+      "Data Decryption"
+    ],
+    [
+      "Encryption Neural Network",
+      "comprises",
+      "M Encryption Layers"
+    ],
+    [
+      "Local Data",
+      "processes",
+      "Through Encrypted Neural Networks"
+    ],
+    [
+      "Encrypted Neural Networks",
+      "transmits_to",
+      "Clients"
+    ],
+    [
+      "Clients",
+      "implements",
+      "Training on Local Data"
+    ],
+    [
+      "Encrypted Neural Networks",
+      "exchanges",
+      "Loss Values"
+    ],
+    [
+      "Joint Modeling",
+      "achieves",
+      "Improved Efficiency"
+    ],
+    [
+      "Joint Modeling",
+      "reduces",
+      "Complexity Compared to Previous Methods"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Decryption neural network",
+    "Encryption and Decryption Neural Network",
+    "Improved efficiency and reduced complexity compared to previous methods of feature complementation",
+    "Incomplete data features in vertical federated learning and transfer federated learning",
+    "M encryption neural networks",
+    "Training on randomly generated data until convergence, sending trained networks to clients, client training with local data, and exchanging loss values for joint modeling"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Clients",
+    "Complexity Compared to Previous Methods",
+    "Data Decryption",
+    "Data Encryption",
+    "Decryption Neural Network",
+    "Encrypted Neural Networks",
+    "Encryption Neural Network",
+    "Improved Efficiency",
+    "Joint Modeling",
+    "Local Data",
+    "Loss Values",
+    "M Encryption Layers",
+    "Through Encrypted Neural Networks",
+    "Training on Local Data"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "comprises",
+    "controls",
+    "exchanges",
+    "implements",
+    "processes",
+    "reduces",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6245",
+    "G06N3/045",
+    "G06N3/08"
+  ]
+}

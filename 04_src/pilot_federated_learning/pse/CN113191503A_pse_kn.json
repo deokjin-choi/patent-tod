@@ -1,0 +1,185 @@
+{
+  "publication_number": "CN113191503A",
+  "title": "Decentralized distributed learning method and system for non-shared data",
+  "assignee": "Shenzhen International Graduate School of Tsinghua University",
+  "filing_date": "2021-05-20",
+  "publication_date": "2021-07-30",
+  "pse": {
+    "problem": "Data privacy requirements prevent top companies from sharing data for combined modeling in AI industry, leading to slow communication and unstable communication efficiency in federal learning.",
+    "solution_function": "A decentralized distributed learning method performs local updates using participant's data, desensitizes the updated parameters or gradients, and uploads them to update a global model. The server aggregates the results from multiple participants and updates the global model.",
+    "solution_structure": "The system consists of servers and participating clients. Each client has local data and is equipped with hardware for computation. Servers are responsible for managing modeling tasks, initializing the system, aggregating results, and updating the global model.",
+    "solution_implementation": "In each iteration, the server sends a modeling task to a participant and provides the initial parameters of the model. The client performs local update using local data, desensitizes the updated parameters or gradients, and uploads them back to the server for aggregation. After aggregating results from multiple participants, the server updates the global model and sends it to the participating clients for the next iteration.",
+    "effect": "Reduced communication times between server and client, improved communication efficiency, and accelerated convergence process by selecting only part of clients to participate in each iteration based on a fixed rule or protocol."
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Distributed Learning Method",
+      "Addresses_Problem",
+      "Data Privacy Challenges in AI Industry"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "Comprises_Component",
+      "Local Updates"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "Comprises_Component",
+      "Desensitization of Parameters"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "Implemented_By",
+      "Participant-Server Interaction"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "Achieves_Effect",
+      "Improved Communication Efficiency"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "Achieves_Effect",
+      "Accelerated Convergence Process"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Privacy Requirements",
+      "prevents",
+      "Top Companies",
+      "sharing data"
+    ],
+    [
+      "Data Privacy Requirements",
+      "prevents",
+      "Top Companies",
+      "combined modeling"
+    ],
+    [
+      "AI Industry",
+      "suffers from",
+      "Slow Communication"
+    ],
+    [
+      "AI Industry",
+      "suffers from",
+      "Unstable Communication Efficiency"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "addresses",
+      "Data Privacy Requirements"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "performs local updates using participant's data"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "desensitizes updated parameters or gradients"
+    ],
+    [
+      "Decentralized Distributed Learning Method",
+      "uploads desensitized parameters to server"
+    ],
+    [
+      "Server",
+      "aggregates results from multiple participants"
+    ],
+    [
+      "Server",
+      "updates the global model"
+    ],
+    [
+      "Server",
+      "sends updated global model to clients"
+    ],
+    [
+      "Participating Clients",
+      "have local data"
+    ],
+    [
+      "Participating Clients",
+      "equipped with hardware for computation"
+    ],
+    [
+      "Servers",
+      "manage modeling tasks"
+    ],
+    [
+      "Servers",
+      "initialize the system"
+    ],
+    [
+      "Server",
+      "sends a modeling task to a participant"
+    ],
+    [
+      "Server",
+      "provides initial parameters of the model"
+    ],
+    [
+      "Client",
+      "performs local update using local data"
+    ],
+    [
+      "Client",
+      "desensitizes updated parameters or gradients"
+    ],
+    [
+      "Client",
+      "uploads desensitized parameters back to server"
+    ],
+    [
+      "Iteration",
+      "consists of a communication between client and server"
+    ],
+    [
+      "Communication between Client and Server",
+      "reduces with Edge Node implementation"
+    ],
+    [
+      "Edge Node",
+      "improves Communication Efficiency"
+    ],
+    [
+      "Edge Node",
+      "accelerates Convergence Process"
+    ],
+    [
+      "Iteration",
+      "selects only part of clients to participate based on a fixed rule or protocol"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Accelerated Convergence Process",
+    "Data Privacy Challenges in AI Industry",
+    "Decentralized Distributed Learning Method",
+    "Desensitization of Parameters",
+    "Improved Communication Efficiency",
+    "Local Updates",
+    "Participant-Server Interaction"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "AI Industry",
+    "Data Privacy Requirements",
+    "Decentralized Distributed Learning Method",
+    "Slow Communication",
+    "Unstable Communication Efficiency"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "suffers from"
+  ],
+  "cpc_code": [
+    "G06F9/5072",
+    "G06N20/00"
+  ]
+}

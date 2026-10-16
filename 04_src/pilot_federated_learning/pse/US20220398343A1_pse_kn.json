@@ -1,0 +1,141 @@
+{
+  "publication_number": "US20220398343A1",
+  "title": "Dynamic differential privacy to federated learning systems",
+  "assignee": "Hong Kong Applied Science and Technology Research Institute ASTRI",
+  "filing_date": "2021-06-10",
+  "publication_date": "2022-12-15",
+  "pse": {
+    "problem": "Data privacy concerns in federated machine learning due to the need to comply with various data privacy regulations.",
+    "solution_function": "Dynamic differential privacy is applied to input data and ML modeling data in a federated learning process, allowing data sharing while balancing data transparency and privacy protection. This is achieved through noise introduction, anonymization, and encryption, and by dynamically applying hierarchies of loss requirements to different stages and forms of data.",
+    "solution_structure": "The solution involves multiple data owners, each with their own machine learning models generated and trained on their respective data sets. A system for dynamic differential privacy includes components for noise introduction, anonymization, encryption, and hierarchies of loss requirements.",
+    "solution_implementation": "Data is processed through the system in a distributed environment. Noise is introduced to input data and ML modeling data to ensure privacy. Anonymization and encryption techniques are applied to further protect sensitive information. Differently tiered privacy loss requirements are dynamically applied during the federated learning process.",
+    "effect": "The solution enables data sharing among different stakeholders in a federated learning scenario while ensuring compliance with various data privacy regulations, potentially leading to more comprehensive analyses and improved ML model accuracy"
+  },
+  "knowledge_graph": [
+    [
+      "Dynamic Differential Privacy",
+      "Addresses_Problem",
+      "Data privacy concerns in federated machine learning due to various data privacy regulations"
+    ],
+    [
+      "Dynamic Differential Privacy",
+      "Comprises_Component",
+      "Noise introduction"
+    ],
+    [
+      "Dynamic Differential Privacy",
+      "Comprises_Component",
+      "Anonymization and encryption techniques"
+    ],
+    [
+      "Dynamic Differential Privacy",
+      "Implemented_By",
+      "Core Operation Logic: Processing data in a distributed environment with noise introduced to input data and ML modeling data"
+    ],
+    [
+      "Dynamic Differential Privacy",
+      "Achieves_Effect",
+      "Compliance with various data privacy regulations, potentially leading to more comprehensive analyses and improved ML model accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Process",
+      "applies",
+      "Dynamic Differential Privacy"
+    ],
+    [
+      "Input Data",
+      "introduces_noise",
+      "Noise"
+    ],
+    [
+      "ML Modeling Data",
+      "introduces_noise",
+      "Noise"
+    ],
+    [
+      "System for Dynamic Differential Privacy",
+      "includes",
+      "Component for Noise Introduction"
+    ],
+    [
+      "System for Dynamic Differential Privacy",
+      "includes",
+      "Component for Anonymization"
+    ],
+    [
+      "System for Dynamic Differential Privacy",
+      "includes",
+      "Component for Encryption"
+    ],
+    [
+      "System for Dynamic Differential Privacy",
+      "includes",
+      "Component for Hierarchies of Loss Requirements"
+    ],
+    [
+      "Data Owners",
+      "owns",
+      "Respective Data Sets"
+    ],
+    [
+      "Federated Learning Process",
+      "comprises",
+      "Multiple Data Owners"
+    ],
+    [
+      "Machine Learning Models",
+      "generated_and_trained_on",
+      "Respective Data Sets"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Anonymization and encryption techniques",
+    "Compliance with various data privacy regulations, potentially leading to more comprehensive analyses and improved ML model accuracy",
+    "Core Operation Logic: Processing data in a distributed environment with noise introduced to input data and ML modeling data",
+    "Data privacy concerns in federated machine learning due to various data privacy regulations",
+    "Dynamic Differential Privacy",
+    "Noise introduction"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Component for Anonymization",
+    "Component for Encryption",
+    "Component for Hierarchies of Loss Requirements",
+    "Component for Noise Introduction",
+    "Data Owners",
+    "Dynamic Differential Privacy",
+    "Federated Learning Process",
+    "Input Data",
+    "ML Modeling Data",
+    "Machine Learning Models",
+    "Multiple Data Owners",
+    "Noise",
+    "Respective Data Sets",
+    "System for Dynamic Differential Privacy"
+  ],
+  "knowledge_graph2_relation": [
+    "applies",
+    "comprises",
+    "generated_and_trained_on",
+    "includes",
+    "introduces_noise",
+    "owns"
+  ],
+  "cpc_code": [
+    "G06F21/6254",
+    "G06N20/00",
+    "G06N3/084",
+    "G06N3/098",
+    "G06N3/0985",
+    "H04L2209/42",
+    "H04L2209/46",
+    "H04L9/008"
+  ]
+}

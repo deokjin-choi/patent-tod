@@ -1,0 +1,203 @@
+{
+  "publication_number": "CN112149160A",
+  "title": "Federated Learning Privacy Protection Method and System Based on Homomorphic Pseudo-random Numbers",
+  "assignee": "Shandong University",
+  "filing_date": "2020-08-28",
+  "publication_date": "2020-12-29",
+  "pse": {
+    "problem": "Data privacy concerns in federated learning due to the transmission of updated gradient values that may leak sensitive information",
+    "solution_function": "Homomorphic pseudo-random number-based federated learning privacy protection method for secure key generation, data privacy preservation during model training, and efficient recovery of shared keys",
+    "solution_structure": "VSS (Verifiable Secret Sharing) scheme used by clients to generate and share secret keys, each client holding a unique secret share; server for collecting and combining secret shares to recover the key",
+    "solution_implementation": "Clients perform local model training using their own data to produce updated gradient values. Each client applies the homomorphic property of pseudo-random numbers to compute encrypted updates (s i F(s i ,x)). Combined encrypted updates are decrypted by server to obtain final updated gradient values",
+    "effect": "Improved data privacy protection and reduced risk of sensitive information leakage in federated learning scenarios"
+  },
+  "knowledge_graph": [
+    [
+      "Homomorphic Pseudo-Random Number-Based Federated Learning Privacy Protection Method",
+      "Addresses_Problem",
+      "Data privacy concerns in federated learning due to the transmission of updated gradient values that may leak sensitive information"
+    ],
+    [
+      "Homomorphic Pseudo-Random Number-Based Federated Learning Privacy Protection Method",
+      "Comprises_Component",
+      "Verifiable Secret Sharing (VSS) scheme"
+    ],
+    [
+      "Homomorphic Pseudo-Random Number-Based Federated Learning Privacy Protection Method",
+      "Comprises_Component",
+      "Server for collecting and combining secret shares to recover the key"
+    ],
+    [
+      "Homomorphic Pseudo-Random Number-Based Federated Learning Privacy Protection Method",
+      "Implemented_By",
+      "Clients perform local model training using their own data to produce updated gradient values"
+    ],
+    [
+      "Homomorphic Pseudo-Random Number-Based Federated Learning Privacy Protection Method",
+      "Implemented_By",
+      "Each client applies the homomorphic property of pseudo-random numbers to compute encrypted updates (s i F(s i ,x))"
+    ],
+    [
+      "Homomorphic Pseudo-Random Number-Based Federated Learning Privacy Protection Method",
+      "Achieves_Effect",
+      "Improved data privacy protection and reduced risk of sensitive information leakage in federated learning scenarios"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Privacy Concerns",
+      "relates_to",
+      "Federated Learning"
+    ],
+    [
+      "Gradient Values",
+      "transmits",
+      "Sensitive Information"
+    ],
+    [
+      "Homomorphic Pseudo-Random Number-based Federated Learning",
+      "provides",
+      "Privacy Protection"
+    ],
+    [
+      "Verifiable Secret Sharing (VSS)",
+      "used_for",
+      "Secret Key Generation"
+    ],
+    [
+      "Verifiable Secret Sharing (VSS)",
+      "used_by",
+      "Clients"
+    ],
+    [
+      "Clients",
+      "holds",
+      "Unique Secret Share"
+    ],
+    [
+      "Server",
+      "collects",
+      "Secret Shares"
+    ],
+    [
+      "Server",
+      "combines",
+      "Secret Shares"
+    ],
+    [
+      "Server",
+      "recovers",
+      "Shared Keys"
+    ],
+    [
+      "Local Model Training",
+      "performed_by",
+      "Clients"
+    ],
+    [
+      "Local Model Training",
+      "produces",
+      "Updated Gradient Values"
+    ],
+    [
+      "Clients",
+      "applies",
+      "Homomorphic Property"
+    ],
+    [
+      "Clients",
+      "computes",
+      "Encrypted Updates"
+    ],
+    [
+      "Encrypted Updates",
+      "combined_by",
+      "Server"
+    ],
+    [
+      "Server",
+      "decrypts",
+      "Encrypted Updates"
+    ],
+    [
+      "Server",
+      "obtains",
+      "Final Updated Gradient Values"
+    ],
+    [
+      "Homomorphic Pseudo-Random Number-based Federated Learning",
+      "preserves",
+      "Data Privacy"
+    ],
+    [
+      "Homomorphic Pseudo-Random Number-based Federated Learning",
+      "reduces",
+      "Risk of Sensitive Information Leakage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Clients perform local model training using their own data to produce updated gradient values",
+    "Data privacy concerns in federated learning due to the transmission of updated gradient values that may leak sensitive information",
+    "Each client applies the homomorphic property of pseudo-random numbers to compute encrypted updates (s i F(s i ,x))",
+    "Homomorphic Pseudo-Random Number-Based Federated Learning Privacy Protection Method",
+    "Improved data privacy protection and reduced risk of sensitive information leakage in federated learning scenarios",
+    "Server for collecting and combining secret shares to recover the key",
+    "Verifiable Secret Sharing (VSS) scheme"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Clients",
+    "Data Privacy",
+    "Data Privacy Concerns",
+    "Encrypted Updates",
+    "Federated Learning",
+    "Final Updated Gradient Values",
+    "Gradient Values",
+    "Homomorphic Property",
+    "Homomorphic Pseudo-Random Number-based Federated Learning",
+    "Local Model Training",
+    "Privacy Protection",
+    "Risk of Sensitive Information Leakage",
+    "Secret Key Generation",
+    "Secret Shares",
+    "Sensitive Information",
+    "Server",
+    "Shared Keys",
+    "Unique Secret Share",
+    "Updated Gradient Values",
+    "Verifiable Secret Sharing (VSS)"
+  ],
+  "knowledge_graph2_relation": [
+    "applies",
+    "collects",
+    "combined_by",
+    "combines",
+    "computes",
+    "decrypts",
+    "holds",
+    "obtains",
+    "performed_by",
+    "preserves",
+    "produces",
+    "provides",
+    "recovers",
+    "reduces",
+    "relates_to",
+    "transmits",
+    "used_by",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/6263",
+    "G06N20/00",
+    "H04L9/008",
+    "H04L9/085",
+    "H04L9/0869"
+  ]
+}

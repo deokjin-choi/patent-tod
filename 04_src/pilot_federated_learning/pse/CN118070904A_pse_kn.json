@@ -1,0 +1,140 @@
+{
+  "publication_number": "CN118070904A",
+  "title": "Data reasoning method and device, equipment and storage medium",
+  "assignee": "Guangdong Oppo Mobile Telecommunications Corp Ltd",
+  "filing_date": "2024-03-04",
+  "publication_date": "2024-05-24",
+  "pse": {
+    "problem": "Limited flexibility in terminal-side training during federated learning leads to problems affecting model performance",
+    "solution_function": "The system provides a data inference method that allows terminal devices to train an initial model based on their own target data through TFLite, improving the flexibility of terminal-side training and further enhancing model performance",
+    "solution_structure": "Terminal device includes an acquisition module and a processing module. The network device provides the initial model. Optionally, the data reasoning device may include a processor, memory, and communication interface.",
+    "solution_implementation": "The acquisition module acquires target data. The processing module inputs the target data into an algorithm model (obtained by TFLite training the initial model based on training data from the network device) and outputs the inference content of the target data",
+    "effect": "Improved flexibility of terminal-side training leads to enhanced model performance"
+  },
+  "knowledge_graph": [
+    [
+      "TFLite",
+      "Addresses_Problem",
+      "Limited flexibility in terminal-side training during federated learning"
+    ],
+    [
+      "System",
+      "Comprises_Component",
+      "Acquisition Module"
+    ],
+    [
+      "System",
+      "Comprises_Component",
+      "Processing Module"
+    ],
+    [
+      "System",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Main Technology Entity",
+      "Achieves_Effect",
+      "Improved flexibility of terminal-side training"
+    ],
+    [
+      "Main Technology Entity",
+      "Achieves_Effect",
+      "Enhanced model performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Terminal Device",
+      "comprises",
+      "Acquisition Module"
+    ],
+    [
+      "Terminal Device",
+      "comprises",
+      "Processing Module"
+    ],
+    [
+      "Network Device",
+      "provides",
+      "Initial Model"
+    ],
+    [
+      "TFLite",
+      "trains",
+      "Initial Model"
+    ],
+    [
+      "Terminal Device",
+      "processes",
+      "Algorithm Model"
+    ],
+    [
+      "Terminal Device",
+      "produces",
+      "Inference Content"
+    ],
+    [
+      "Federated Learning",
+      "limits",
+      "Flexibility of Terminal-side Training"
+    ],
+    [
+      "TFLite",
+      "enhances",
+      "Flexibility of Terminal-side Training"
+    ],
+    [
+      "Improved Flexibility of Terminal-side Training",
+      "leads_to",
+      "Enhanced Model Performance"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Acquisition Module",
+    "Core Operation Logic",
+    "Enhanced model performance",
+    "Improved flexibility of terminal-side training",
+    "Limited flexibility in terminal-side training during federated learning",
+    "Main Technology Entity",
+    "Processing Module",
+    "System",
+    "TFLite"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Acquisition Module",
+    "Algorithm Model",
+    "Enhanced Model Performance",
+    "Federated Learning",
+    "Flexibility of Terminal-side Training",
+    "Improved Flexibility of Terminal-side Training",
+    "Inference Content",
+    "Initial Model",
+    "Network Device",
+    "Processing Module",
+    "TFLite",
+    "Terminal Device"
+  ],
+  "knowledge_graph2_relation": [
+    "comprises",
+    "enhances",
+    "leads_to",
+    "limits",
+    "processes",
+    "produces",
+    "provides",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06F21/64",
+    "G06N3/098",
+    "G06N5/04"
+  ]
+}

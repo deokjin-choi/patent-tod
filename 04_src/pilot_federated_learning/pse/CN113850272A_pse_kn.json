@@ -1,0 +1,206 @@
+{
+  "publication_number": "CN113850272A",
+  "title": "A Federated Learning Image Classification Method Based on Local Differential Privacy",
+  "assignee": "Xidian University",
+  "filing_date": "2021-09-10",
+  "publication_date": "2021-12-28",
+  "pse": {
+    "problem": "Privacy leakage during data sharing in a plurality of institutions for medical image classification using convolutional neural networks.",
+    "solution_function": "Local differential privacy-based federal learning method performs secure image classification by training local models using private data, and iteratively updating global models with aggregated model parameters from all participants, while ensuring data privacy and preventing reverse deduction of original data.",
+    "solution_structure": "The system consists of a server, participants (each with own data), and an auxiliary server. The server initializes the global model, performs updates based on aggregated model parameters from participants, and generates encryption parameters. Each participant has private keys for encrypting and decrypting model parameters.",
+    "solution_implementation": "Each participant trains a local model using their data, encrypts the gradient vector, and sends it to the server. The server aggregates the gradients, performs homomorphic re-encryption with the auxiliary server, and updates the global model. The updated model is then distributed back to participants.",
+    "effect": "Enhanced privacy protection for medical image data during federated learning and image classification, reducing privacy leakage risks."
+  },
+  "knowledge_graph": [
+    [
+      "Local differential privacy-based federal learning method",
+      "Addresses_Problem",
+      "Privacy leakage during data sharing in a plurality of institutions for medical image classification using convolutional neural networks"
+    ],
+    [
+      "Local differential privacy-based federal learning method",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Local differential privacy-based federal learning method",
+      "Comprises_Component",
+      "Participants"
+    ],
+    [
+      "Local differential privacy-based federal learning method",
+      "Implemented_By",
+      "Training local models using private data and iteratively updating global models with aggregated model parameters"
+    ],
+    [
+      "Local differential privacy-based federal learning method",
+      "Achieves_Effect",
+      "Enhanced privacy protection for medical image data during federated learning and image classification, reducing privacy leakage risks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Institutions",
+      "participates_in",
+      "Medical Image Classification"
+    ],
+    [
+      "Institutions",
+      "shares",
+      "Data"
+    ],
+    [
+      "Convolutional Neural Networks",
+      "used_for",
+      "Image Classification"
+    ],
+    [
+      "Convolutional Neural Networks",
+      "privacy_issue_with",
+      "Data Sharing"
+    ],
+    [
+      "Local Differential Privacy-based Federal Learning Method",
+      "addresses",
+      "Privacy Issue"
+    ],
+    [
+      "Local Differential Privacy-based Federal Learning Method",
+      "performs",
+      "Secure Image Classification"
+    ],
+    [
+      "Local Differential Privacy-based Federal Learning Method",
+      "trains_local_models",
+      "Private Data"
+    ],
+    [
+      "Local Differential Privacy-based Federal Learning Method",
+      "updates_global_models",
+      "Aggregated Model Parameters"
+    ],
+    [
+      "Server",
+      "initializes",
+      "Global Model"
+    ],
+    [
+      "Server",
+      "performs_updates",
+      "Based on Aggregated Model Parameters"
+    ],
+    [
+      "Server",
+      "generates",
+      "Encryption Parameters"
+    ],
+    [
+      "Participant",
+      "has",
+      "Private Keys"
+    ],
+    [
+      "Participant",
+      "encrypts",
+      "Gradient Vector"
+    ],
+    [
+      "Participant",
+      "sends",
+      "Encrypted Gradient to Server"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Gradients"
+    ],
+    [
+      "Server",
+      "performs_homomorphic_re-encryption_with",
+      "Auxiliary Server"
+    ],
+    [
+      "Server",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Server",
+      "distributes",
+      "Updated Model to Participants"
+    ],
+    [
+      "Processed Data",
+      "stored_in",
+      "Cloud Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Enhanced privacy protection for medical image data during federated learning and image classification, reducing privacy leakage risks",
+    "Local differential privacy-based federal learning method",
+    "Participants",
+    "Privacy leakage during data sharing in a plurality of institutions for medical image classification using convolutional neural networks",
+    "Server",
+    "Training local models using private data and iteratively updating global models with aggregated model parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Model Parameters",
+    "Auxiliary Server",
+    "Based on Aggregated Model Parameters",
+    "Cloud Storage",
+    "Convolutional Neural Networks",
+    "Data",
+    "Data Sharing",
+    "Encrypted Gradient to Server",
+    "Encryption Parameters",
+    "Global Model",
+    "Gradient Vector",
+    "Gradients",
+    "Image Classification",
+    "Institutions",
+    "Local Differential Privacy-based Federal Learning Method",
+    "Medical Image Classification",
+    "Participant",
+    "Privacy Issue",
+    "Private Data",
+    "Private Keys",
+    "Processed Data",
+    "Secure Image Classification",
+    "Server",
+    "Updated Model to Participants"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "distributes",
+    "encrypts",
+    "generates",
+    "has",
+    "initializes",
+    "participates_in",
+    "performs",
+    "performs_homomorphic_re-encryption_with",
+    "performs_updates",
+    "privacy_issue_with",
+    "sends",
+    "shares",
+    "stored_in",
+    "trains_local_models",
+    "updates",
+    "updates_global_models",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06F18/241",
+    "G06N20/00",
+    "G06N3/045",
+    "G06N3/048",
+    "G06N3/08"
+  ]
+}

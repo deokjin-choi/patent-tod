@@ -1,0 +1,183 @@
+{
+  "publication_number": "CN114065951A",
+  "title": "Semi-Supervised Federated Learning Method Based on Non-IID Data",
+  "assignee": "Heilongjiang University",
+  "filing_date": "2021-11-17",
+  "publication_date": "2022-02-18",
+  "pse": {
+    "problem": "Existing federated learning methods lack labeled data and suffer from the non-IID problem, which hinders the convergence of the global model.",
+    "solution_function": "The method trains a global unsupervised model and a supervised model using both labeled and unlabeled data. The global unsupervised model is updated by aggregating the unsupervised models from each client, while the supervised model is obtained by training the local labeled dataset on the server. Both models are then combined to form a new global model.",
+    "solution_structure": "The system consists of edge devices (or clients), a server, and a global model. Each client has a local unlabeled dataset and a local optimizer.",
+    "solution_implementation": "1. Server selects a client and sends the global model to it. 2. Server trains a supervised model on the labeled dataset to obtain the supervised model. 3. Each client trains the received global model to get an unsupervised model, which is then sent back to the server. 4. The server aggregates all the unsupervised models to get the global unsupervised model. 5. The server combines the global unsupervised model, the supervised model, and the previous global model to form a new global model. This process repeats until the global model converges.",
+    "effect": "The method reduces the dependence on labeled data and effectively addresses the non-IID problem, enabling high-quality global models in real-world scenarios with limited labeled data."
+  },
+  "knowledge_graph": [
+    [
+      "Unified Federated Learning Method",
+      "Addresses_Problem",
+      "Non-IID Problem in Federated Learning"
+    ],
+    [
+      "Unified Federated Learning Method",
+      "Comprises_Component",
+      "Global Unsupervised Model"
+    ],
+    [
+      "Unified Federated Learning Method",
+      "Comprises_Component",
+      "Supervised Model"
+    ],
+    [
+      "Unified Federated Learning Method",
+      "Implemented_By",
+      "Model Training and Aggregation Process"
+    ],
+    [
+      "Unified Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Dependence on Labeled Data"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Federated Learning Methods",
+      "lacks",
+      "Labeled Data"
+    ],
+    [
+      "Existing Federated Learning Methods",
+      "suffers_from",
+      "Non-IID Problem"
+    ],
+    [
+      "Non-IID Problem",
+      "hinders",
+      "Convergence of Global Model"
+    ],
+    [
+      "Global Unsupervised Model",
+      "is_updated_by",
+      "Aggregating Unsupervised Models"
+    ],
+    [
+      "Server",
+      "selects",
+      "Client"
+    ],
+    [
+      "Server",
+      "sends",
+      "Global Model to Client"
+    ],
+    [
+      "Client",
+      "trains",
+      "Received Global Model"
+    ],
+    [
+      "Client",
+      "gets",
+      "Unsupervised Model"
+    ],
+    [
+      "Server",
+      "receives",
+      "Unsupervised Models"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Unsupervised Models"
+    ],
+    [
+      "Supervised Model",
+      "is_obtained_by",
+      "Training Local Labeled Dataset"
+    ],
+    [
+      "Server",
+      "combines",
+      "Global Unsupervised Model"
+    ],
+    [
+      "Server",
+      "combines",
+      "Supervised Model"
+    ],
+    [
+      "Server",
+      "combines",
+      "Previous Global Model"
+    ],
+    [
+      "New Global Model",
+      "is_formed_by",
+      "Combining Global Models"
+    ],
+    [
+      "Client",
+      "has",
+      "Local Unlabeled Dataset"
+    ],
+    [
+      "Client",
+      "has",
+      "Local Optimizer"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Global Unsupervised Model",
+    "Model Training and Aggregation Process",
+    "Non-IID Problem in Federated Learning",
+    "Reduced Dependence on Labeled Data",
+    "Supervised Model",
+    "Unified Federated Learning Method"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregating Unsupervised Models",
+    "Client",
+    "Combining Global Models",
+    "Convergence of Global Model",
+    "Existing Federated Learning Methods",
+    "Global Model to Client",
+    "Global Unsupervised Model",
+    "Labeled Data",
+    "Local Optimizer",
+    "Local Unlabeled Dataset",
+    "New Global Model",
+    "Non-IID Problem",
+    "Previous Global Model",
+    "Received Global Model",
+    "Server",
+    "Supervised Model",
+    "Training Local Labeled Dataset",
+    "Unsupervised Model",
+    "Unsupervised Models"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "combines",
+    "gets",
+    "has",
+    "hinders",
+    "is_formed_by",
+    "is_obtained_by",
+    "is_updated_by",
+    "lacks",
+    "receives",
+    "selects",
+    "sends",
+    "suffers_from",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06N20/20"
+  ]
+}

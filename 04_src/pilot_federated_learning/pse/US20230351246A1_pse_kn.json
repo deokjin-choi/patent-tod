@@ -1,0 +1,151 @@
+{
+  "publication_number": "US20230351246A1",
+  "title": "Utilizing elastic weight consolidation (ewc) loss term(s) to mitigate catastrophic forgetting in federated learning of machine learning model(s)",
+  "assignee": "Google LLC",
+  "filing_date": "2022-05-02",
+  "publication_date": "2023-11-02",
+  "pse": {
+    "problem": "Catastrophic forgetting in federated learning of machine learning models",
+    "solution_function": "Mitigate catastrophic forgetting by transmitting initial global model and server-based data to a client device for fine-tuning using client data, thereby updating the global model while preserving information learned during initial training",
+    "solution_structure": {
+      "components": [
+        "remote server storing initial global ML model and server data set",
+        "client device with local ML model that can process user input, generate gradients, and transmit them to the remote server"
+      ]
+    },
+    "solution_implementation": {
+      "hardware_operation_sequence": [
+        "Remote server initializes global ML model using server data set",
+        "Server transmits global ML model and server-based data to client device",
+        "Client processes client data using the received global ML model and server-based data to generate a client gradient",
+        "Client transmits the generated client gradient back to the remote server"
+      ],
+      "data_flow": [
+        "Server -> Client: Global ML model, server-based data",
+        "Client -> Server: Client gradients"
+      ]
+    },
+    "effect": "Preservation of information learned during initial training while fine-tuning the global ML model using client data in a privacy-sensitive manner"
+  },
+  "knowledge_graph": [
+    [
+      "Mitigation Strategy",
+      "Addresses_Problem",
+      "Catastrophic forgetting in federated learning"
+    ],
+    [
+      "Mitigation Strategy",
+      "Comprises_Component",
+      "remote server storing initial global ML model and server data set"
+    ],
+    [
+      "Mitigation Strategy",
+      "Comprises_Component",
+      "client device with local ML model"
+    ],
+    [
+      "Mitigation Strategy",
+      "Implemented_By",
+      "Hardware operation sequence"
+    ],
+    [
+      "Mitigation Strategy",
+      "Achieves_Effect",
+      "Preservation of information learned during initial training while fine-tuning the global ML model in a privacy-sensitive manner"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Remote Server",
+      "causes",
+      "Catastrophic Forgetting"
+    ],
+    [
+      "Federated Learning",
+      "addresses",
+      "Catastrophic Forgetting"
+    ],
+    [
+      "Global ML Model",
+      "stores",
+      "Initial Training Information"
+    ],
+    [
+      "Client Device",
+      "processes",
+      "Local Data"
+    ],
+    [
+      "Client Device",
+      "generates",
+      "Client Gradients"
+    ],
+    [
+      "Client Device",
+      "transmits_to",
+      "Remote Server"
+    ],
+    [
+      "Remote Server",
+      "updates",
+      "Global ML Model"
+    ],
+    [
+      "Client Device",
+      "fine-tunes",
+      "Global ML Model"
+    ],
+    [
+      "Client Data",
+      "preserves",
+      "Initial Training Information"
+    ],
+    [
+      "Remote Server",
+      "relays",
+      "Server Data Set"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Catastrophic forgetting in federated learning",
+    "Hardware operation sequence",
+    "Mitigation Strategy",
+    "Preservation of information learned during initial training while fine-tuning the global ML model in a privacy-sensitive manner",
+    "client device with local ML model",
+    "remote server storing initial global ML model and server data set"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Catastrophic Forgetting",
+    "Client Data",
+    "Client Device",
+    "Client Gradients",
+    "Federated Learning",
+    "Global ML Model",
+    "Initial Training Information",
+    "Local Data",
+    "Remote Server",
+    "Server Data Set"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "causes",
+    "fine-tunes",
+    "generates",
+    "preserves",
+    "processes",
+    "relays",
+    "stores",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L67/10"
+  ]
+}

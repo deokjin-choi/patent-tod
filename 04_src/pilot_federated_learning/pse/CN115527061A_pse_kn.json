@@ -1,0 +1,193 @@
+{
+  "publication_number": "CN115527061A",
+  "title": "A differential privacy image classification method and device based on federated learning",
+  "assignee": "Feima Zhike Information Technology Co ltd",
+  "filing_date": "2022-09-07",
+  "publication_date": "2022-12-27",
+  "pse": {
+    "problem": "The existing federated learning algorithms have defects such as low model generalization abilities, easy convergence to a local optimum, high communication cost, and lack of practical privacy-preserving methods.",
+    "solution_function": "The invention proposes a differential privacy image classification method based on federated learning. It uses an adaptive gradient descent algorithm and stochastic gradient descent algorithm to train the local model. The adaptive gradient descent algorithm adjusts the dynamic learning rate automatically, with a standardized first-order Momentum estimation used for bias correction.",
+    "solution_structure": "The key components are local image sets, adaptive gradient descent algorithm, stochastic gradient descent algorithm, dynamic learning rate range, first-order Momentum estimation, and local parameters.",
+    "solution_implementation": "Training of the local model involves using the local image set, adaptive gradient descent algorithm, and stochastic gradient descent algorithm. The adaptive gradient descent algorithm adjusts the learning rate automatically based on a standardized first-order Momentum estimation. The bias correction value is estimated for the first-order momentum.",
+    "effect": "The solution offers improved model generalization abilities by avoiding convergence to a local optimum, reduces high communication cost through parameter interaction and transmission, and provides a practical privacy-preserving method."
+  },
+  "knowledge_graph": [
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Addresses_Problem",
+      "Low Model Generalization Abilities"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Addresses_Problem",
+      "Easy Convergence to a Local Optimum"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Addresses_Problem",
+      "High Communication Cost"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Addresses_Problem",
+      "Lack of Practical Privacy-Preserving Methods"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Comprises_Component",
+      "Local Image Sets"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Comprises_Component",
+      "Adaptive Gradient Descent Algorithm"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Comprises_Component",
+      "Stochastic Gradient Descent Algorithm"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Implemented_By",
+      "Dynamic Learning Rate Adjustment"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Implemented_By",
+      "First-Order Momentum Estimation"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Achieves_Effect",
+      "Improved Model Generalization Abilities"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Achieves_Effect",
+      "Reduced Communication Cost"
+    ],
+    [
+      "Differential Privacy Image Classification Method based on Federated Learning",
+      "Achieves_Effect",
+      "Practical Privacy-Preserving Method"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Algorithms",
+      "causes",
+      "Low Model Generalization Abilities"
+    ],
+    [
+      "Federated Learning Algorithms",
+      "causes",
+      "Easy Convergence to a Local Optimum"
+    ],
+    [
+      "Federated Learning Algorithms",
+      "causes",
+      "High Communication Cost"
+    ],
+    [
+      "Federated Learning Algorithms",
+      "lacks",
+      "Practical Privacy-Preserving Methods"
+    ],
+    [
+      "Differential Privacy Image Classification Method",
+      "achieves",
+      "Improved Model Generalization Abilities"
+    ],
+    [
+      "Differential Privacy Image Classification Method",
+      "reduces",
+      "High Communication Cost"
+    ],
+    [
+      "Differential Privacy Image Classification Method",
+      "provides",
+      "Practical Privacy-Preserving Methods"
+    ],
+    [
+      "Adaptive Gradient Descent Algorithm",
+      "adjusts",
+      "Dynamic Learning Rate"
+    ],
+    [
+      "Standardized First-Order Momentum Estimation",
+      "used_for",
+      "Bias Correction"
+    ],
+    [
+      "Local Model",
+      "trains_with",
+      "Local Image Set"
+    ],
+    [
+      "Local Model",
+      "utilizes",
+      "Adaptive Gradient Descent Algorithm"
+    ],
+    [
+      "Local Model",
+      "utilizes",
+      "Stochastic Gradient Descent Algorithm"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adaptive Gradient Descent Algorithm",
+    "Differential Privacy Image Classification Method based on Federated Learning",
+    "Dynamic Learning Rate Adjustment",
+    "Easy Convergence to a Local Optimum",
+    "First-Order Momentum Estimation",
+    "High Communication Cost",
+    "Improved Model Generalization Abilities",
+    "Lack of Practical Privacy-Preserving Methods",
+    "Local Image Sets",
+    "Low Model Generalization Abilities",
+    "Practical Privacy-Preserving Method",
+    "Reduced Communication Cost",
+    "Stochastic Gradient Descent Algorithm"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adaptive Gradient Descent Algorithm",
+    "Bias Correction",
+    "Differential Privacy Image Classification Method",
+    "Dynamic Learning Rate",
+    "Easy Convergence to a Local Optimum",
+    "Federated Learning Algorithms",
+    "High Communication Cost",
+    "Improved Model Generalization Abilities",
+    "Local Image Set",
+    "Local Model",
+    "Low Model Generalization Abilities",
+    "Practical Privacy-Preserving Methods",
+    "Standardized First-Order Momentum Estimation",
+    "Stochastic Gradient Descent Algorithm"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "adjusts",
+    "causes",
+    "lacks",
+    "provides",
+    "reduces",
+    "trains_with",
+    "used_for",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06V10/473",
+    "G06V10/764",
+    "G06V10/774",
+    "G06V10/778"
+  ]
+}

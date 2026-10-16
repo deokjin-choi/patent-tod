@@ -1,0 +1,157 @@
+{
+  "publication_number": "CN114912630A",
+  "title": "Model training method, device and electronic device based on federated learning",
+  "assignee": "Shanghai Fudata Technology Co ltd",
+  "filing_date": "2022-06-02",
+  "publication_date": "2022-08-16",
+  "pse": {
+    "problem": "Inefficiency in model training during federated learning due to complex data encryption processes",
+    "solution_function": "The method performs denoising on noisy intermediate results, determines a gradient factor based on the denoised result and local label data, adds random noise to the gradient factor, and updates local model parameters using the noised gradient.",
+    "solution_structure": "Involves first participant with label data, second participant with feature data, and potential third-party role for encryption.",
+    "solution_implementation": "First participant performs denoising on noisy intermediate results sent by second participant, determines gradient factor based on denoised result and local label data, adds random noise to the gradient factor, and sends the noised gradient to second participant. Second participant uses the noised gradient to update model parameters.",
+    "effect": "Improved efficiency in model training by omitting complex encryption processes while maintaining consistency with conventional model training process"
+  },
+  "knowledge_graph": [
+    [
+      "Denoisng Method",
+      "Addresses_Problem",
+      "Inefficiency in model training during federated learning"
+    ],
+    [
+      "Denoisng Method",
+      "Comprises_Component",
+      "Noisy Intermediate Results Denoising"
+    ],
+    [
+      "Denoisng Method",
+      "Comprises_Component",
+      "Gradient Factor Determination"
+    ],
+    [
+      "Denoisng Method",
+      "Comprises_Component",
+      "Random Noise Addition"
+    ],
+    [
+      "Denoisng Method",
+      "Comprises_Component",
+      "Local Model Parameters Update"
+    ],
+    [
+      "Denoisng Method",
+      "Implemented_By",
+      "First Participant"
+    ],
+    [
+      "Denoisng Method",
+      "Implemented_By",
+      "Second Participant"
+    ],
+    [
+      "Denoisng Method",
+      "Achieves_Effect",
+      "Improved Efficiency in model training"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "causes",
+      "Inefficiency in Model Training"
+    ],
+    [
+      "Complex Data Encryption Processes",
+      "causes",
+      "Inefficiency in Model Training"
+    ],
+    [
+      "Denoising",
+      "reduces",
+      "Noisy Intermediate Results"
+    ],
+    [
+      "Gradient Factor",
+      "depends_on",
+      "Denoised Result"
+    ],
+    [
+      "Gradient Factor",
+      "depends_on",
+      "Local Label Data"
+    ],
+    [
+      "Random Noise",
+      "applied_to",
+      "Gradient Factor"
+    ],
+    [
+      "Noised Gradient",
+      "sent_from",
+      "First Participant"
+    ],
+    [
+      "Noised Gradient",
+      "used_by",
+      "Second Participant"
+    ],
+    [
+      "Second Participant",
+      "updates",
+      "Model Parameters"
+    ],
+    [
+      "First Participant (and Second Participant)",
+      "communicates_with",
+      "Each Other"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Denoisng Method",
+    "First Participant",
+    "Gradient Factor Determination",
+    "Improved Efficiency in model training",
+    "Inefficiency in model training during federated learning",
+    "Local Model Parameters Update",
+    "Noisy Intermediate Results Denoising",
+    "Random Noise Addition",
+    "Second Participant"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Complex Data Encryption Processes",
+    "Denoised Result",
+    "Denoising",
+    "Each Other",
+    "Federated Learning",
+    "First Participant",
+    "First Participant (and Second Participant)",
+    "Gradient Factor",
+    "Inefficiency in Model Training",
+    "Local Label Data",
+    "Model Parameters",
+    "Noised Gradient",
+    "Noisy Intermediate Results",
+    "Random Noise",
+    "Second Participant"
+  ],
+  "knowledge_graph2_relation": [
+    "applied_to",
+    "causes",
+    "communicates_with",
+    "depends_on",
+    "reduces",
+    "sent_from",
+    "updates",
+    "used_by"
+  ],
+  "cpc_code": [
+    "G06F18/2415",
+    "G06F21/602",
+    "G06N20/00"
+  ]
+}

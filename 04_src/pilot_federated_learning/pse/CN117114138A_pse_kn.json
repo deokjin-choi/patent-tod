@@ -1,0 +1,213 @@
+{
+  "publication_number": "CN117114138A",
+  "title": "A federated learning method and system that supports rapid data revocation",
+  "assignee": "Guangzhou Fanghe Data Co ltd",
+  "filing_date": "2023-09-04",
+  "publication_date": "2023-11-24",
+  "pse": {
+    "problem": "Existing federated learning methods cannot quickly revoke data from a global model without significant computational overhead when dealing with requests for data erasure.",
+    "solution_function": "The system performs rapid data revocation by dividing device participants into groups, collaboratively sharing local models, aggregating hierarchical global models, running multiple levels of the global model on query data, and aggregating prediction results to obtain a final prediction for the query data.",
+    "solution_structure": "Key components include multiple device participants, groups, central server, local models, hierarchical global models, and an aggregation method.",
+    "solution_implementation": "The process involves dividing participants, collaborative sharing of local models, centralized aggregation of hierarchical global models, running multiple levels of the global model on query data, and aggregating prediction results.",
+    "effect": "Reduces computational overhead during data revocation compared to traditional federated learning methods."
+  },
+  "knowledge_graph": [
+    [
+      "Rapid Data Revocation System",
+      "Addresses_Problem",
+      "Existing Federated Learning Methods Problem"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Comprises_Component",
+      "Multiple Device Participants"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Comprises_Component",
+      "Groups"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Comprises_Component",
+      "Local Models"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Comprises_Component",
+      "Hierarchical Global Models"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Comprises_Component",
+      "Aggregation Method"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Implemented_By",
+      "Device Participants Division"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Implemented_By",
+      "Local Models Collaborative Sharing"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Implemented_By",
+      "Centralized Aggregation of Hierarchical Global Models"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Implemented_By",
+      "Running Multiple Levels of the Global Model on Query Data"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Implemented_By",
+      "Aggregating Prediction Results"
+    ],
+    [
+      "Rapid Data Revocation System",
+      "Achieves_Effect",
+      "Reduced Computational Overhead"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Federated Learning Methods",
+      "causes",
+      "Significant Computational Overhead during Data Revocation"
+    ],
+    [
+      "Device Participants",
+      "comprises",
+      "Multiple Device Participants"
+    ],
+    [
+      "Groups",
+      "comprises",
+      "Device Participants"
+    ],
+    [
+      "Central Server",
+      "comprises",
+      "Key Components"
+    ],
+    [
+      "Local Models",
+      "comprises",
+      "Key Components"
+    ],
+    [
+      "Hierarchical Global Models",
+      "comprises",
+      "Key Components"
+    ],
+    [
+      "Aggregation Method",
+      "comprises",
+      "Key Components"
+    ],
+    [
+      "Device Participants",
+      "divides_into",
+      "Groups"
+    ],
+    [
+      "Local Models",
+      "shares_within",
+      "Groups"
+    ],
+    [
+      "Central Server",
+      "aggregates_hierarchical_global_models",
+      "Hierarchical Global Models"
+    ],
+    [
+      "Global Model",
+      "runs_on",
+      "Query Data"
+    ],
+    [
+      "Multiple Levels of the Global Model",
+      "aggregates",
+      "Prediction Results"
+    ],
+    [
+      "Prediction Results",
+      "obtains",
+      "Final Prediction for Query Data"
+    ],
+    [
+      "Traditional Federated Learning Methods",
+      "has_higher_Computational Overhead during Data Revocation compared to System"
+    ],
+    [
+      "System",
+      "reduces",
+      "Computational Overhead during Data Revocation"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregating Prediction Results",
+    "Aggregation Method",
+    "Central Server",
+    "Centralized Aggregation of Hierarchical Global Models",
+    "Device Participants Division",
+    "Existing Federated Learning Methods Problem",
+    "Groups",
+    "Hierarchical Global Models",
+    "Local Models",
+    "Local Models Collaborative Sharing",
+    "Multiple Device Participants",
+    "Rapid Data Revocation System",
+    "Reduced Computational Overhead",
+    "Running Multiple Levels of the Global Model on Query Data"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregation Method",
+    "Central Server",
+    "Computational Overhead during Data Revocation",
+    "Device Participants",
+    "Existing Federated Learning Methods",
+    "Final Prediction for Query Data",
+    "Global Model",
+    "Groups",
+    "Hierarchical Global Models",
+    "Key Components",
+    "Local Models",
+    "Multiple Device Participants",
+    "Multiple Levels of the Global Model",
+    "Prediction Results",
+    "Query Data",
+    "Significant Computational Overhead during Data Revocation",
+    "System"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "aggregates_hierarchical_global_models",
+    "causes",
+    "comprises",
+    "divides_into",
+    "obtains",
+    "reduces",
+    "runs_on",
+    "shares_within"
+  ],
+  "cpc_code": [
+    "G06F9/5072",
+    "G06N20/00"
+  ]
+}

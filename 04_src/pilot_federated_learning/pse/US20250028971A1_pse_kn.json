@@ -1,0 +1,107 @@
+{
+  "publication_number": "US20250028971A1",
+  "title": "Systems and methods for federated learning",
+  "assignee": "Capital One Services LLC",
+  "filing_date": "2023-07-21",
+  "publication_date": "2025-01-23",
+  "pse": {
+    "problem": "Current federated learning systems do not validate local data on a client device prior to training a local model, which may result in using inaccurate training data.",
+    "solution_function": "The system validates local training data on the client device by comparing it with external datasets locally and externally to ensure the accuracy of the training data.",
+    "solution_structure": "The system includes metadata from an external source for corroborating and validating local training data on the client device.",
+    "solution_implementation": "The system identifies relevant portions of a dataset to prompt extraction of de-identified metadata from the client device corresponding to the external database, then compares the de-identified metadata with the external data to ensure the accuracy of the training data on the client device.",
+    "effect": "The system improves the accuracy of the model by preventing training a local model using inaccurate training data in a federated learning environment."
+  },
+  "knowledge_graph": [
+    [
+      "Data Validation System",
+      "Addresses_Problem",
+      "Inaccurate Training Data"
+    ],
+    [
+      "Data Validation System",
+      "Comprises_Component",
+      "Metadata from External Source"
+    ],
+    [
+      "Data Validation System",
+      "Comprises_Component",
+      "De-identified Metadata Extraction Logic"
+    ],
+    [
+      "Data Validation System",
+      "Implemented_By",
+      "External Data Comparison Logic"
+    ],
+    [
+      "Data Validation System",
+      "Achieves_Effect",
+      "Improved Model Accuracy"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Systems",
+      "does_not",
+      "validate_local_data"
+    ],
+    [
+      "Client Device",
+      "validates",
+      "Local Data"
+    ],
+    [
+      "Client Device",
+      "compares_with",
+      "External Datasets"
+    ],
+    [
+      "Client Device",
+      "corroborates_with",
+      "Metadata from External Source"
+    ],
+    [
+      "Local Training Data",
+      "ensures_accuracy_of"
+    ],
+    [
+      "System",
+      "improves",
+      "Model Accuracy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Validation System",
+    "De-identified Metadata Extraction Logic",
+    "External Data Comparison Logic",
+    "Improved Model Accuracy",
+    "Inaccurate Training Data",
+    "Metadata from External Source"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Client Device",
+    "External Datasets",
+    "Federated Learning Systems",
+    "Local Data",
+    "Metadata from External Source",
+    "Model Accuracy",
+    "System",
+    "validate_local_data"
+  ],
+  "knowledge_graph2_relation": [
+    "compares_with",
+    "corroborates_with",
+    "does_not",
+    "improves",
+    "validates"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/098"
+  ]
+}

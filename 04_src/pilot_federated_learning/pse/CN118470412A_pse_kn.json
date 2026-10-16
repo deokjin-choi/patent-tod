@@ -1,0 +1,151 @@
+{
+  "publication_number": "CN118470412A",
+  "title": "Federal target detection learning method based on characterization enhancement and weighted aggregation in cloud edge environment",
+  "assignee": "Zhejiang University of Technology ZJUT",
+  "filing_date": "2024-05-15",
+  "publication_date": "2024-08-09",
+  "pse": {
+    "problem": "Heterogeneous sample distribution between different data sets in federated learning target detection leads to suboptimal global model performance.",
+    "solution_function": "Federated learning for target detection involves local edge server training, weighted aggregation, and central cloud server updates. The function aims to alleviate the problem of heterogeneous sample distribution by adjusting the loss function and weighting during training.",
+    "solution_structure": "The system consists of distributed edge servers, central cloud servers, and client devices. Edge servers perform local training and aggregation; central cloud servers update global models based on aggregated data.",
+    "solution_implementation": "Liu (International Conference on Vision, Image and Signal Processing, 2019) calculates the divergence between client model weight distribution on the server side to generate a mask for the model weight. Sarkar (International Joint Conference on Artificial Intelligence, 2020) introduces the Fed-Focal loss function that weights the loss of well-classified samples during training.",
+    "effect": "The solution can improve the performance of federated target detection learning by addressing the issue of heterogeneous sample distribution and resulting suboptimal global model performance."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning for Target Detection",
+      "Addresses_Problem",
+      "Heterogeneous Sample Distribution Problem"
+    ],
+    [
+      "Federated Learning for Target Detection",
+      "Comprises_Component",
+      "Local Edge Server Training"
+    ],
+    [
+      "Federated Learning for Target Detection",
+      "Comprises_Component",
+      "Weighted Aggregation"
+    ],
+    [
+      "Federated Learning for Target Detection",
+      "Implemented_By",
+      "Calculating Divergence Mask by Liu (ICVISP, 2019)"
+    ],
+    [
+      "Federated Learning for Target Detection",
+      "Implemented_By",
+      "Introducing Fed-Focal Loss Function by Sarkar (IJCAI, 2020)"
+    ],
+    [
+      "Federated Learning for Target Detection",
+      "Achieves_Effect",
+      "Improved Performance of Federated Target Detection Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "addresses",
+      "Heterogeneous Sample Distribution"
+    ],
+    [
+      "Federated Learning",
+      "improves",
+      "Global Model Performance"
+    ],
+    [
+      "Local Edge Server",
+      "comprises",
+      "Training Functionality"
+    ],
+    [
+      "Local Edge Server",
+      "aggregates",
+      "Data"
+    ],
+    [
+      "Central Cloud Server",
+      "updates",
+      "Global Models"
+    ],
+    [
+      "Fed-Focal Loss Function",
+      "weights",
+      "Loss of Well-Classified Samples"
+    ],
+    [
+      "Client Model Weight Distribution",
+      "divergence",
+      "Calculated on Server Side"
+    ],
+    [
+      "Client Model Weight Distribution",
+      "generates",
+      "Mask for Model Weight"
+    ],
+    [
+      "Liu (ICVISP, 2019)",
+      "introduces",
+      "Mask Generation Method"
+    ],
+    [
+      "Sarkar (IJCAI, 2020)",
+      "introduces",
+      "Fed-Focal Loss Function"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculating Divergence Mask by Liu (ICVISP, 2019)",
+    "Federated Learning for Target Detection",
+    "Heterogeneous Sample Distribution Problem",
+    "Improved Performance of Federated Target Detection Learning",
+    "Introducing Fed-Focal Loss Function by Sarkar (IJCAI, 2020)",
+    "Local Edge Server Training",
+    "Weighted Aggregation"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Calculated on Server Side",
+    "Central Cloud Server",
+    "Client Model Weight Distribution",
+    "Data",
+    "Fed-Focal Loss Function",
+    "Federated Learning",
+    "Global Model Performance",
+    "Global Models",
+    "Heterogeneous Sample Distribution",
+    "Liu (ICVISP, 2019)",
+    "Local Edge Server",
+    "Loss of Well-Classified Samples",
+    "Mask Generation Method",
+    "Mask for Model Weight",
+    "Sarkar (IJCAI, 2020)",
+    "Training Functionality"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "comprises",
+    "divergence",
+    "generates",
+    "improves",
+    "introduces",
+    "updates",
+    "weights"
+  ],
+  "cpc_code": [
+    "G06N3/047",
+    "G06N3/08",
+    "G06N3/098",
+    "G06V10/40",
+    "G06V10/765",
+    "G06V10/82",
+    "G06V2201/07"
+  ]
+}

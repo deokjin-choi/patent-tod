@@ -1,0 +1,210 @@
+{
+  "publication_number": "CN119336848A",
+  "title": "Data security transfer and update method based on blockchain and federated learning",
+  "assignee": "Beijing University of Posts and Telecommunications",
+  "filing_date": "2024-10-21",
+  "publication_date": "2025-01-21",
+  "pse": {
+    "problem": "Inefficiencies and potential security hazards in the traditional architecture of federal learning due to centralized control, single-point faults, data security issues, and lack of transparency.",
+    "solution_function": "The invention introduces a method for secure, transparent, and efficient circulation and updating of model parameters by integrating blockchain technology with federal learning. This method ensures safety, privacy, and reliability in multi-party collaboration through decentralized, transparent, and tamper-proof data transactions.",
+    "solution_structure": "The solution consists of a blockchain structure with a chain data structure and encryption algorithm, and the federal learning framework for distributed model training. Each participating terminal updates and records model parameters as transactions on the blockchain, ensuring transparency and traceability.",
+    "solution_implementation": "The method operates by locally training models on each terminal device in the federal learning process, then uploading the model parameters as transactions to the blockchain. The blockchain guarantees non-tamper property, verifies the integrity of data sources, and ensures the reliability and traceability of parameter updates.",
+    "effect": "The proposed method improves the safety, transparency, and efficiency of the federal learning process, addressing potential security hazards, single-point faults, and data circulation opacity in the traditional architecture."
+  },
+  "knowledge_graph": [
+    [
+      "Blockchain Technology",
+      "Addresses_Problem",
+      "Inefficiencies and potential security hazards in federal learning"
+    ],
+    [
+      "Blockchain Technology",
+      "Comprises_Component",
+      "Chain data structure"
+    ],
+    [
+      "Blockchain Technology",
+      "Comprises_Component",
+      "Encryption algorithm"
+    ],
+    [
+      "Blockchain Technology",
+      "Implemented_By",
+      "Local training of models on terminal devices"
+    ],
+    [
+      "Blockchain Technology",
+      "Implemented_By",
+      "Uploading model parameters to blockchain"
+    ],
+    [
+      "Blockchain Technology",
+      "Achieves_Effect",
+      "Improved safety in federal learning"
+    ],
+    [
+      "Blockchain Technology",
+      "Achieves_Effect",
+      "Improved transparency in federal learning"
+    ],
+    [
+      "Blockchain Technology",
+      "Achieves_Effect",
+      "Improved efficiency in federal learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Centralized Control",
+      "causes",
+      "Inefficiencies"
+    ],
+    [
+      "Single-Point Faults",
+      "causes",
+      "Potential Security Hazards"
+    ],
+    [
+      "Data Security Issues",
+      "causes",
+      "Potential Security Hazards"
+    ],
+    [
+      "Lack of Transparency",
+      "causes",
+      "Potential Security Hazards"
+    ],
+    [
+      "Blockchain Technology",
+      "addresses",
+      "Inefficiencies"
+    ],
+    [
+      "Blockchain Technology",
+      "addresses",
+      "Potential Security Hazards"
+    ],
+    [
+      "Blockchain Technology",
+      "addresses",
+      "Lack of Transparency"
+    ],
+    [
+      "Blockchain",
+      "comprises",
+      "Chain Data Structure"
+    ],
+    [
+      "Blockchain",
+      "implements",
+      "Encryption Algorithm"
+    ],
+    [
+      "Federal Learning Framework",
+      "interacts_with",
+      "Distributed Model Training"
+    ],
+    [
+      "Terminal Device",
+      "processes",
+      "Model Parameters"
+    ],
+    [
+      "Terminal Device",
+      "transmits_to",
+      "Blockchain"
+    ],
+    [
+      "Blockchain",
+      "stores",
+      "Transactions"
+    ],
+    [
+      "Blockchain",
+      "verifies",
+      "Integrity of Data Sources"
+    ],
+    [
+      "Blockchain",
+      "ensures",
+      "Reliability and Traceability of Parameter Updates"
+    ],
+    [
+      "Federal Learning Process",
+      "benefits_from",
+      "Decentralization"
+    ],
+    [
+      "Federal Learning Process",
+      "benefits_from",
+      "Transparency"
+    ],
+    [
+      "Federal Learning Process",
+      "benefits_from",
+      "Tamper-Proof Data Transactions"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Blockchain Technology",
+    "Chain data structure",
+    "Encryption algorithm",
+    "Improved efficiency in federal learning",
+    "Improved safety in federal learning",
+    "Improved transparency in federal learning",
+    "Inefficiencies and potential security hazards in federal learning",
+    "Local training of models on terminal devices",
+    "Uploading model parameters to blockchain"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Blockchain",
+    "Blockchain Technology",
+    "Centralized Control",
+    "Chain Data Structure",
+    "Data Security Issues",
+    "Decentralization",
+    "Distributed Model Training",
+    "Encryption Algorithm",
+    "Federal Learning Framework",
+    "Federal Learning Process",
+    "Inefficiencies",
+    "Integrity of Data Sources",
+    "Lack of Transparency",
+    "Model Parameters",
+    "Potential Security Hazards",
+    "Reliability and Traceability of Parameter Updates",
+    "Single-Point Faults",
+    "Tamper-Proof Data Transactions",
+    "Terminal Device",
+    "Transactions",
+    "Transparency"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "benefits_from",
+    "causes",
+    "comprises",
+    "ensures",
+    "implements",
+    "interacts_with",
+    "processes",
+    "stores",
+    "transmits_to",
+    "verifies"
+  ],
+  "cpc_code": [
+    "G06F16/27",
+    "G06F21/602",
+    "G06F21/6245",
+    "G06F21/64",
+    "G06N20/00",
+    "G06N3/084",
+    "G06N3/098"
+  ]
+}

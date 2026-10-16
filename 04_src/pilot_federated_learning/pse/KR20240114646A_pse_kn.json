@@ -1,0 +1,257 @@
+{
+  "publication_number": "KR20240114646A",
+  "title": "Apparatus and method of personalized federated learning based on partial parameters sharing",
+  "assignee": "(no assignee found)",
+  "filing_date": "2023-01-17",
+  "publication_date": "2024-07-24",
+  "pse": {
+    "problem": "Inefficient communication due to large amount of information in conventional federated learning and difficulty in optimizing performance for regional data with different characteristics",
+    "solution_function": "Personalized federated learning by sharing only some parameters of an artificial neural network model and updating the shared parameters based on external devices to improve both communication efficiency and local data optimization",
+    "solution_structure": "Electronic device with one or more processors, a communication circuit, and memory. The local model is an artificial neural network model divided into a first parameter set (corresponding to global parameters) and a second parameter set (corresponding to local parameters). External device generates updated 1-1 parameter sets based on multiple electronic devices' global parameter sets.",
+    "solution_implementation": "Learning local model using local data, transmitting first parameter set to external device, receiving updated 1-1 parameter set, changing first parameter set, learning local model with updated 1-1 parameter set. Global parameter set is fixed during training and only the local parameter set is updated.",
+    "effect": "Improved communication efficiency due to reduced information volume and optimized performance for regional data through personalization"
+  },
+  "knowledge_graph": [
+    [
+      "Personalized Federated Learning",
+      "Addresses_Problem",
+      "Inefficient Communication Due To Large Amount Of Information In Conventional Federated Learning"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Comprises_Component",
+      "Artificial Neural Network Model"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Comprises_Component",
+      "External Device"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Implemented_By",
+      "Learning Local Model Using Local Data"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Implemented_By",
+      "Transmitting First Parameter Set to External Device"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Implemented_By",
+      "Receiving Updated 1-1 Parameter Set"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Implemented_By",
+      "Changing First Parameter Set"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Implemented_By",
+      "Learning Local Model With Updated 1-1 Parameter Set"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Achieves_Effect",
+      "Improved Communication Efficiency Due To Reduced Information Volume"
+    ],
+    [
+      "Personalized Federated Learning",
+      "Achieves_Effect",
+      "Optimized Performance For Regional Data Through Personalization"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Inefficient Communication",
+      "causes",
+      "Packet Delay"
+    ],
+    [
+      "Conventional Federated Learning",
+      "causes",
+      "Inefficient Communication"
+    ],
+    [
+      "Large Amount of Information",
+      "increases",
+      "Inefficient Communication"
+    ],
+    [
+      "Difficulty in Optimizing Performance",
+      "increases",
+      "Inefficient Communication"
+    ],
+    [
+      "Regional Data with Different Characteristics",
+      "makes difficult",
+      "Optimization for Performance"
+    ],
+    [
+      "Personalized Federated Learning",
+      "reduces",
+      "Inefficient Communication"
+    ],
+    [
+      "Personalized Federated Learning",
+      "improves",
+      "Communication Efficiency"
+    ],
+    [
+      "Artificial Neural Network Model",
+      "comprises",
+      "Parameter Sets"
+    ],
+    [
+      "First Parameter Set",
+      "corresponds_to",
+      "Global Parameters"
+    ],
+    [
+      "Second Parameter Set",
+      "corresponds_to",
+      "Local Parameters"
+    ],
+    [
+      "Electronic Device",
+      "includes",
+      "Processor"
+    ],
+    [
+      "Electronic Device",
+      "includes",
+      "Communication Circuit"
+    ],
+    [
+      "Electronic Device",
+      "includes",
+      "Memory"
+    ],
+    [
+      "Local Model Learning",
+      "uses",
+      "Local Data"
+    ],
+    [
+      "Transmitting First Parameter Set",
+      "occurs_between",
+      "Electronic Device and External Device"
+    ],
+    [
+      "Receiving Updated 1-1 Parameter Set",
+      "occurs_between",
+      "External Device and Electronic Device"
+    ],
+    [
+      "Changing First Parameter Set",
+      "happens_in",
+      "Electronic Device"
+    ],
+    [
+      "Learning Local Model with Updated 1-1 Parameter Set",
+      "takes_place_in",
+      "Electronic Device"
+    ],
+    [
+      "Global Parameter Set",
+      "fixed_during",
+      "Training"
+    ],
+    [
+      "Only the Local Parameter Set",
+      "updates",
+      "During Training"
+    ],
+    [
+      "External Device",
+      "generates",
+      "Updated 1-1 Parameter Sets"
+    ],
+    [
+      "Optimized Performance for Regional Data",
+      "achieved_through",
+      "Personalization"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Artificial Neural Network Model",
+    "Changing First Parameter Set",
+    "External Device",
+    "Improved Communication Efficiency Due To Reduced Information Volume",
+    "Inefficient Communication Due To Large Amount Of Information In Conventional Federated Learning",
+    "Learning Local Model Using Local Data",
+    "Learning Local Model With Updated 1-1 Parameter Set",
+    "Optimized Performance For Regional Data Through Personalization",
+    "Personalized Federated Learning",
+    "Receiving Updated 1-1 Parameter Set",
+    "Transmitting First Parameter Set to External Device"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Artificial Neural Network Model",
+    "Changing First Parameter Set",
+    "Communication Circuit",
+    "Communication Efficiency",
+    "Conventional Federated Learning",
+    "Difficulty in Optimizing Performance",
+    "During Training",
+    "Electronic Device",
+    "Electronic Device and External Device",
+    "External Device",
+    "External Device and Electronic Device",
+    "First Parameter Set",
+    "Global Parameter Set",
+    "Global Parameters",
+    "Inefficient Communication",
+    "Large Amount of Information",
+    "Learning Local Model with Updated 1-1 Parameter Set",
+    "Local Data",
+    "Local Model Learning",
+    "Local Parameters",
+    "Memory",
+    "Only the Local Parameter Set",
+    "Optimization for Performance",
+    "Optimized Performance for Regional Data",
+    "Packet Delay",
+    "Parameter Sets",
+    "Personalization",
+    "Personalized Federated Learning",
+    "Processor",
+    "Receiving Updated 1-1 Parameter Set",
+    "Regional Data with Different Characteristics",
+    "Second Parameter Set",
+    "Training",
+    "Transmitting First Parameter Set",
+    "Updated 1-1 Parameter Sets"
+  ],
+  "knowledge_graph2_relation": [
+    "achieved_through",
+    "causes",
+    "comprises",
+    "corresponds_to",
+    "fixed_during",
+    "generates",
+    "happens_in",
+    "improves",
+    "includes",
+    "increases",
+    "makes difficult",
+    "occurs_between",
+    "reduces",
+    "takes_place_in",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N3/045",
+    "G06N3/08",
+    "G06N3/098"
+  ]
+}

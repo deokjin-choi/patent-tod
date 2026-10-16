@@ -1,0 +1,225 @@
+{
+  "publication_number": "CN118445848A",
+  "title": "A federated learning method for data privacy protection in connected vehicles",
+  "assignee": "Huaqiao University",
+  "filing_date": "2024-05-16",
+  "publication_date": "2024-08-06",
+  "pse": {
+    "problem": "Data privacy concerns in a data-centralized approach for training intelligent services in Internet of Vehicles due to potential data leakage",
+    "solution_function": "Federated learning method for secure sharing and model optimization of Internet of Vehicles data, utilizing a central server, roadside units, and target vehicles. The method involves data classification based on SHAP model interpretation, differential privacy perturbation, local training, and parameter exchange.",
+    "solution_structure": "Central server, multiple roadside units, target vehicles (with networking functions) within the communication coverage of each roadside unit",
+    "solution_implementation": "1. Central server initializes global model parameters, global iteration number, and target accuracy. 2. Central server sends model training request to all roadside units along with initialization details. 3. Each roadside unit requests participating vehicles (target vehicles), selects a suitable vehicle based on a preset strategy, and sends model training request and initialization details to the selected vehicle. 4. Each target vehicle classifies data based on contribution value using SHAP model interpretation, applies differential privacy perturbation to data with high contribution values, uses back propagation algorithm for local training, optimizes local model parameters, and sends parameter updates and loss values to corresponding roadside unit.",
+    "effect": "Ensures privacy protection of shared data in Internet of Vehicles by implementing a secure federated learning method"
+  },
+  "knowledge_graph": [
+    [
+      "Federated learning method",
+      "Addresses_Problem",
+      "Data privacy concerns in a data-centralized approach for training intelligent services in Internet of Vehicles"
+    ],
+    [
+      "Federated learning method",
+      "Comprises_Component",
+      "Central server"
+    ],
+    [
+      "Federated learning method",
+      "Comprises_Component",
+      "Roadside units"
+    ],
+    [
+      "Federated learning method",
+      "Comprises_Component",
+      "Target vehicles"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "SHAP model interpretation"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "Differential privacy perturbation"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "Local training"
+    ],
+    [
+      "Federated learning method",
+      "Implemented_By",
+      "Parameter exchange"
+    ],
+    [
+      "Federated learning method",
+      "Achieves_Effect",
+      "Privacy protection of shared data in Internet of Vehicles"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Central Server",
+      "controls",
+      "Global Model Parameters"
+    ],
+    [
+      "Central Server",
+      "controls",
+      "Global Iteration Number"
+    ],
+    [
+      "Central Server",
+      "controls",
+      "Target Accuracy"
+    ],
+    [
+      "Central Server",
+      "sends",
+      "Model Training Request"
+    ],
+    [
+      "Roadside Unit",
+      "receives",
+      "Model Training Request"
+    ],
+    [
+      "Roadside Unit",
+      "selects",
+      "Suitable Vehicle"
+    ],
+    [
+      "Vehicle",
+      "receives",
+      "Model Training Request"
+    ],
+    [
+      "Vehicle",
+      "classifies",
+      "Data Based on Contribution Value"
+    ],
+    [
+      "Vehicle",
+      "applies",
+      "Differential Privacy Perturbation"
+    ],
+    [
+      "Vehicle",
+      "uses",
+      "Back Propagation Algorithm"
+    ],
+    [
+      "Vehicle",
+      "optimizes",
+      "Local Model Parameters"
+    ],
+    [
+      "Vehicle",
+      "sends",
+      "Parameter Updates"
+    ],
+    [
+      "Roadside Unit",
+      "receives",
+      "Parameter Updates"
+    ],
+    [
+      "Roadside Unit",
+      "sends",
+      "Model Training Response"
+    ],
+    [
+      "Edge Node",
+      "comprises",
+      "Roadside Unit"
+    ],
+    [
+      "Target Vehicle",
+      "comprises",
+      "Networking Functions"
+    ],
+    [
+      "Internet of Vehicles Data",
+      "transmits_to",
+      "Roadside Unit"
+    ],
+    [
+      "Roadside Unit",
+      "transmits_to",
+      "Central Server"
+    ],
+    [
+      "Federated Learning Method",
+      "implements",
+      "Secure Sharing and Model Optimization"
+    ],
+    [
+      "Internet of Vehicles Data",
+      "protects",
+      "Privacy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central server",
+    "Data privacy concerns in a data-centralized approach for training intelligent services in Internet of Vehicles",
+    "Differential privacy perturbation",
+    "Federated learning method",
+    "Local training",
+    "Parameter exchange",
+    "Privacy protection of shared data in Internet of Vehicles",
+    "Roadside units",
+    "SHAP model interpretation",
+    "Target vehicles"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Back Propagation Algorithm",
+    "Central Server",
+    "Data Based on Contribution Value",
+    "Differential Privacy Perturbation",
+    "Edge Node",
+    "Federated Learning Method",
+    "Global Iteration Number",
+    "Global Model Parameters",
+    "Internet of Vehicles Data",
+    "Local Model Parameters",
+    "Model Training Request",
+    "Model Training Response",
+    "Networking Functions",
+    "Parameter Updates",
+    "Privacy",
+    "Roadside Unit",
+    "Secure Sharing and Model Optimization",
+    "Suitable Vehicle",
+    "Target Accuracy",
+    "Target Vehicle",
+    "Vehicle"
+  ],
+  "knowledge_graph2_relation": [
+    "applies",
+    "classifies",
+    "comprises",
+    "controls",
+    "implements",
+    "optimizes",
+    "protects",
+    "receives",
+    "selects",
+    "sends",
+    "transmits_to",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00",
+    "G16Y40/50",
+    "H04L67/12",
+    "Y02T10/40"
+  ]
+}

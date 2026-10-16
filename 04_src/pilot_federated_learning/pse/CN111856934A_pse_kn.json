@@ -1,0 +1,217 @@
+{
+  "publication_number": "CN111856934A",
+  "title": "A Federated Learning Data Processing Algorithm Between Homogeneous Smart Workshops",
+  "assignee": "Nanjing Taliang Numeric Control Tech Co ltd",
+  "filing_date": "2020-07-16",
+  "publication_date": "2020-10-30",
+  "pse": {
+    "problem": "Existing federated learning methods based on model iterative gradient are sensitive to noise in production data of smart workshops, leading to unreliable data and poor control model performance.",
+    "solution_function": "The proposed algorithm encrypts and pre-trains models on consumer servers, performs scale unification, wavelet transform, inverse wavelet transform on noisy training data, calculates confidence and income values, computes gradient values, decrypts them back when the loss function converges.",
+    "solution_structure": "The solution consists of two consumer servers, each with encryption capabilities for model pre-training. The data processing involves scale unification, wavelet transform, inverse wavelet transform components.",
+    "solution_implementation": "The algorithm encrypts shared public sample sets, calculates gradient values on consumer servers, and uses tag data to calculate loss values. It utilizes encryption technology for masking and wavelet transform for noise reduction.",
+    "effect": "The proposed federated learning algorithm reduces noise in data learning, improving the learning effect and reliability of the control model."
+  },
+  "knowledge_graph": [
+    [
+      "Proposed Algorithm",
+      "Addresses_Problem",
+      "Core Problem Concept: Smart Workshop Noisy Data"
+    ],
+    [
+      "Proposed Algorithm",
+      "Comprises_Component",
+      "Key Component 1: Encryption Capabilities for Model Pre-Training"
+    ],
+    [
+      "Proposed Algorithm",
+      "Comprises_Component",
+      "Key Component 2: Data Processing Components (Scale Unification, Wavelet Transform, Inverse Wavelet Transform)"
+    ],
+    [
+      "Proposed Algorithm",
+      "Implemented_By",
+      "Core Operation Logic: Encryption Technology and Wavelet Transform for Noise Reduction"
+    ],
+    [
+      "Proposed Algorithm",
+      "Achieves_Effect",
+      "Primary Benefit: Reduced Noise in Data Learning, Improved Model Performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Methods",
+      "are sensitive to",
+      "Noise"
+    ],
+    [
+      "Smart Workshops",
+      "produce",
+      "Noisy Data"
+    ],
+    [
+      "Existing Federated Learning Methods",
+      "lead to",
+      "Unreliable Data"
+    ],
+    [
+      "Unreliable Data",
+      "affects",
+      "Control Model Performance"
+    ],
+    [
+      "Proposed Algorithm",
+      "encrypts",
+      "Models"
+    ],
+    [
+      "Proposed Algorithm",
+      "pre-trains",
+      "Models on consumer servers"
+    ],
+    [
+      "Consumer Servers",
+      "possess",
+      "Encryption Capabilities"
+    ],
+    [
+      "Data Processing",
+      "involves",
+      "Scale Unification"
+    ],
+    [
+      "Data Processing",
+      "involves",
+      "Wavelet Transform"
+    ],
+    [
+      "Data Processing",
+      "involves",
+      "Inverse Wavelet Transform"
+    ],
+    [
+      "Noisy Training Data",
+      "undergoes",
+      "Wavelet Transform"
+    ],
+    [
+      "Wavelet Transform",
+      "reduces",
+      "Noise in Data Learning"
+    ],
+    [
+      "Confidence and Income Values",
+      "are calculated",
+      "from Noisy Training Data"
+    ],
+    [
+      "Gradient Values",
+      "are decrypted when",
+      "Loss Function Converges"
+    ],
+    [
+      "Shared Public Sample Sets",
+      "are encrypted"
+    ],
+    [
+      "Consumer Servers",
+      "calculate",
+      "Gradient Values"
+    ],
+    [
+      "Tag Data",
+      "is used to",
+      "Calculate Loss Values"
+    ],
+    [
+      "Proposed Algorithm",
+      "utilizes",
+      "Encryption Technology"
+    ],
+    [
+      "Proposed Algorithm",
+      "utilizes",
+      "Wavelet Transform for Noise Reduction"
+    ],
+    [
+      "Improved Learning Effect and Reliability",
+      "results from",
+      "Reduced Noise in Data Learning"
+    ],
+    [
+      "Control Model",
+      "benefits from",
+      "Improved Learning Effect and Reliability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Encryption Technology and Wavelet Transform for Noise Reduction",
+    "Core Problem Concept: Smart Workshop Noisy Data",
+    "Key Component 1: Encryption Capabilities for Model Pre-Training",
+    "Key Component 2: Data Processing Components (Scale Unification, Wavelet Transform, Inverse Wavelet Transform)",
+    "Primary Benefit: Reduced Noise in Data Learning, Improved Model Performance",
+    "Proposed Algorithm"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Calculate Loss Values",
+    "Confidence and Income Values",
+    "Consumer Servers",
+    "Control Model",
+    "Control Model Performance",
+    "Data Processing",
+    "Encryption Capabilities",
+    "Encryption Technology",
+    "Existing Federated Learning Methods",
+    "Federated Learning Methods",
+    "Gradient Values",
+    "Improved Learning Effect and Reliability",
+    "Inverse Wavelet Transform",
+    "Loss Function Converges",
+    "Models",
+    "Models on consumer servers",
+    "Noise",
+    "Noise in Data Learning",
+    "Noisy Data",
+    "Noisy Training Data",
+    "Proposed Algorithm",
+    "Reduced Noise in Data Learning",
+    "Scale Unification",
+    "Smart Workshops",
+    "Tag Data",
+    "Unreliable Data",
+    "Wavelet Transform",
+    "Wavelet Transform for Noise Reduction",
+    "from Noisy Training Data"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "are calculated",
+    "are decrypted when",
+    "are sensitive to",
+    "benefits from",
+    "calculate",
+    "encrypts",
+    "involves",
+    "is used to",
+    "lead to",
+    "possess",
+    "pre-trains",
+    "produce",
+    "reduces",
+    "results from",
+    "undergoes",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G05B13/027",
+    "G05B13/042",
+    "G06F17/148",
+    "G06N20/20"
+  ]
+}

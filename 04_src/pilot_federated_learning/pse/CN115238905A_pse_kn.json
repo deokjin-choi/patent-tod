@@ -1,0 +1,188 @@
+{
+  "publication_number": "CN115238905A",
+  "title": "Transverse federated learning training method capable of improving system fairness under sensitive scene",
+  "assignee": "Shenzhen International Graduate School of Tsinghua University",
+  "filing_date": "2022-07-05",
+  "publication_date": "2022-10-25",
+  "pse": {
+    "problem": "Inadequate system fairness due to heterogeneous data distribution and size across multiple clients in federal learning, leading to decreased accuracy and extended training time.",
+    "solution_function": "Improves system fairness in a sensitive scene by implementing a transverse federated learning method that guarantees best performance while maintaining fairness. The method aims to relieve potential conflicts between clients before the average gradient is distributed, using maximum minimum optimization.",
+    "solution_structure": "The method consists of multiple clients with local models and a server for aggregating parameters. Fairness is used as a resource for allocation in this system.",
+    "solution_implementation": "The method trains local models on individual client data, then transmits model parameters to the server. The server aggregates these parameters using maximum minimum optimization, ensuring overall fairness without sacrificing client performances. Conflicts between clients are relieved before the average gradient is distributed.",
+    "effect": "Improves system fairness across clients while maintaining performance levels, allowing for better predictions in sensitive scenarios and reducing the potential for biased outcomes."
+  },
+  "knowledge_graph": [
+    [
+      "Transverse Federated Learning Method",
+      "Addresses_Problem",
+      "Inadequate System Fairness Due To Heterogeneous Data Distribution"
+    ],
+    [
+      "Transverse Federated Learning Method",
+      "Comprises_Component",
+      "Multiple Clients With Local Models"
+    ],
+    [
+      "Transverse Federated Learning Method",
+      "Comprises_Component",
+      "Server For Aggregating Parameters"
+    ],
+    [
+      "Transverse Federated Learning Method",
+      "Implemented_By",
+      "Training Local Models On Individual Client Data"
+    ],
+    [
+      "Transverse Federated Learning Method",
+      "Implemented_By",
+      "Aggregating Parameters Using Maximum Minimum Optimization"
+    ],
+    [
+      "Transverse Federated Learning Method",
+      "Achieves_Effect",
+      "Improved System Fairness Across Clients"
+    ],
+    [
+      "Transverse Federated Learning Method",
+      "Achieves_Effect",
+      "Maintaining Performance Levels"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "System Fairness",
+      "is_affected_by",
+      "Heterogeneous Data Distribution"
+    ],
+    [
+      "System Fairness",
+      "is_affected_by",
+      "Data Size Across Multiple Clients"
+    ],
+    [
+      "Federal Learning System",
+      "has_problem",
+      "Inadequate Fairness"
+    ],
+    [
+      "Federated Learning Method",
+      "implements",
+      "Transverse Federated Learning"
+    ],
+    [
+      "Transverse Federated Learning",
+      "achieves",
+      "Improved Fairness"
+    ],
+    [
+      "Transverse Federated Learning",
+      "ensures",
+      "Best Performance"
+    ],
+    [
+      "Transverse Federated Learning",
+      "guarantees",
+      "Maintaining Fairness"
+    ],
+    [
+      "Transverse Federated Learning",
+      "relieves",
+      "Potential Conflicts Between Clients"
+    ],
+    [
+      "Server",
+      "aggregates",
+      "Parameters"
+    ],
+    [
+      "Local Models",
+      "are_located_in",
+      "Multiple Clients"
+    ],
+    [
+      "Local Models",
+      "receive",
+      "Data From Clients"
+    ],
+    [
+      "Maximum Minimum Optimization",
+      "is_used_by",
+      "Server to Aggregate Parameters"
+    ],
+    [
+      "Client Performances",
+      "are_preserved",
+      "During Fairness Allocation"
+    ],
+    [
+      "Decreased Accuracy",
+      "results_from",
+      "Inadequate System Fairness"
+    ],
+    [
+      "Extended Training Time",
+      "results_from",
+      "Inadequate System Fairness"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregating Parameters Using Maximum Minimum Optimization",
+    "Improved System Fairness Across Clients",
+    "Inadequate System Fairness Due To Heterogeneous Data Distribution",
+    "Maintaining Performance Levels",
+    "Multiple Clients With Local Models",
+    "Server For Aggregating Parameters",
+    "Training Local Models On Individual Client Data",
+    "Transverse Federated Learning Method"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Best Performance",
+    "Client Performances",
+    "Data From Clients",
+    "Data Size Across Multiple Clients",
+    "Decreased Accuracy",
+    "During Fairness Allocation",
+    "Extended Training Time",
+    "Federal Learning System",
+    "Federated Learning Method",
+    "Heterogeneous Data Distribution",
+    "Improved Fairness",
+    "Inadequate Fairness",
+    "Inadequate System Fairness",
+    "Local Models",
+    "Maintaining Fairness",
+    "Maximum Minimum Optimization",
+    "Multiple Clients",
+    "Parameters",
+    "Potential Conflicts Between Clients",
+    "Server",
+    "Server to Aggregate Parameters",
+    "System Fairness",
+    "Transverse Federated Learning"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "aggregates",
+    "are_located_in",
+    "are_preserved",
+    "ensures",
+    "guarantees",
+    "has_problem",
+    "implements",
+    "is_affected_by",
+    "is_used_by",
+    "receive",
+    "relieves",
+    "results_from"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/08"
+  ]
+}

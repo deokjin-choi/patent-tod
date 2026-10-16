@@ -1,0 +1,157 @@
+{
+  "publication_number": "CN117454303A",
+  "title": "Federal active emotion calculating method for heterogeneous data",
+  "assignee": "Inner Mongolia University",
+  "filing_date": "2023-09-21",
+  "publication_date": "2024-01-26",
+  "pse": {
+    "problem": "Non-independent and identically distributed (non-IID) data, unbalanced label distribution in federated learning for affective computing, high labeling cost",
+    "solution_function": "Federated active emotion computing method (FAL) aims to select the most beneficial samples from the unlabeled data set, pass them to an Oracle (human annotator) for labeling, and update the shared global model using federated averaging algorithm (FEDAVG), while maintaining performance and reducing labeling cost",
+    "solution_structure": "Local devices with local datasets, global model, federated averaging algorithm (parameters of local models are merged to update the shared global model)",
+    "solution_implementation": "FAL uses a disagreement-based approach to build a committee of local models, select data points that cause significant disagreement among the committee members for labeling, and update the global model using FEDAVG",
+    "effect": "Improved emotion classification performance, reduced labeling cost while maintaining privacy in federated learning frameworks"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Active Emotion Computing Method (FAL)",
+      "Addresses_Problem",
+      "Non-IID data, unbalanced label distribution in federated learning for affective computing, high labeling cost"
+    ],
+    [
+      "Federated Active Emotion Computing Method (FAL)",
+      "Comprises_Component",
+      "Local devices with local datasets"
+    ],
+    [
+      "Federated Active Emotion Computing Method (FAL)",
+      "Comprises_Component",
+      "Global model"
+    ],
+    [
+      "Federated Active Emotion Computing Method (FAL)",
+      "Implemented_By",
+      "Disagreement-based approach to build a committee of local models and select data points for labeling"
+    ],
+    [
+      "Federated Active Emotion Computing Method (FAL)",
+      "Achieves_Effect",
+      "Improved emotion classification performance"
+    ],
+    [
+      "Federated Active Emotion Computing Method (FAL)",
+      "Achieves_Effect",
+      "Reduced labeling cost while maintaining privacy in federated learning frameworks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Non-IID data",
+      "causes",
+      "Problem in Federated Learning"
+    ],
+    [
+      "Unbalanced label distribution",
+      "causes",
+      "Problem in Federated Learning"
+    ],
+    [
+      "High labeling cost",
+      "causes",
+      "Problem in Federated Learning"
+    ],
+    [
+      "Federated Active Emotion Computing Method (FAL)",
+      "addresses",
+      "Problem in Federated Learning"
+    ],
+    [
+      "Local devices with local datasets",
+      "comprises",
+      "Local System Architecture"
+    ],
+    [
+      "Global model",
+      "stores",
+      "Shared Model Parameters"
+    ],
+    [
+      "Federated Averaging Algorithm (FEDAVG)",
+      "controls",
+      "Updating Shared Global Model"
+    ],
+    [
+      "Disagreement-based approach",
+      "achieves",
+      "Selection of Data Points for Labeling"
+    ],
+    [
+      "Local models committee",
+      "monitors",
+      "Data Point Disagreements"
+    ],
+    [
+      "Labeled data points",
+      "transmits_to",
+      "Global Model"
+    ],
+    [
+      "FEDAVG",
+      "reduces",
+      "Labeling Cost"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Disagreement-based approach to build a committee of local models and select data points for labeling",
+    "Federated Active Emotion Computing Method (FAL)",
+    "Global model",
+    "Improved emotion classification performance",
+    "Local devices with local datasets",
+    "Non-IID data, unbalanced label distribution in federated learning for affective computing, high labeling cost",
+    "Reduced labeling cost while maintaining privacy in federated learning frameworks"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Data Point Disagreements",
+    "Disagreement-based approach",
+    "FEDAVG",
+    "Federated Active Emotion Computing Method (FAL)",
+    "Federated Averaging Algorithm (FEDAVG)",
+    "Global Model",
+    "Global model",
+    "High labeling cost",
+    "Labeled data points",
+    "Labeling Cost",
+    "Local System Architecture",
+    "Local devices with local datasets",
+    "Local models committee",
+    "Non-IID data",
+    "Problem in Federated Learning",
+    "Selection of Data Points for Labeling",
+    "Shared Model Parameters",
+    "Unbalanced label distribution",
+    "Updating Shared Global Model"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "addresses",
+    "causes",
+    "comprises",
+    "controls",
+    "monitors",
+    "reduces",
+    "stores",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06F18/23",
+    "G06F18/24",
+    "G06F18/259",
+    "G06N20/00",
+    "Y02D10/00"
+  ]
+}

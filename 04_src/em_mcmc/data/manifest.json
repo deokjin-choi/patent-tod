@@ -1,0 +1,11 @@
+{
+  "source": "/mnt/e/Scenario-Space-Construct/data/edge-ai-all-2010-2025.csv",
+  "n_source_rows": 50000,
+  "n_with_abstract": 48970,
+  "n_no_abstract": 1030,
+  "n_kept": 400,
+  "seed": 42,
+  "method": "reservoir sample among rows with a non-empty abstract",
+  "created_utc": "2026-08-25T00:16:15Z",
+  "note": "This file is the working corpus for EM/MCMC. It is not a FL slice."
+}

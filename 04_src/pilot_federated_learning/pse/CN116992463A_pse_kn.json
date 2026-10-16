@@ -1,0 +1,195 @@
+{
+  "publication_number": "CN116992463A",
+  "title": "Contribution evaluation method and system of lightweight ciphertext model for federated learning",
+  "assignee": "Guangzhou University",
+  "filing_date": "2023-06-28",
+  "publication_date": "2023-11-03",
+  "pse": {
+    "problem": "The current technology in federated learning has security risks due to member inference attacks and attribute inference attacks, and there's a need for a lightweight method that can encrypt local models efficiently while ensuring fine-grained contribution evaluation.",
+    "solution_function": "The invention proposes a lightweight ciphertext model contribution evaluation method for federated learning. It involves grouping users by the central server, adding pre-noise to the base starting from a randomly selected user in each group, subtracting the base from the first user to obtain the sum of all pre-noises, and sending it to all users in the group. Users use the sum of all pre-noises to correct their pre-noise and add it to their model to create a noise model. The central server performs group aggregation and contribution evaluation on the noise models.",
+    "solution_structure": "Key components include: Central Server (for user grouping, base selection, pre-noise distribution, noise model collection, group aggregation, and contribution evaluation), Users (for adding pre-noise to their model and sending the corrected noise to the central server).",
+    "solution_implementation": "The central server sends grouping information to users, selects a first user in each group and a random number as the base. It then calculates the sum of all pre-noises from the first user onwards. The base is subtracted from the first user's model to obtain the sum of all pre-noises, which is sent to all users in the group. Users correct their pre-noise using the sum of all pre-noises and add it to their model to create a noise model. The central server aggregates and evaluates the contribution of each noise model within its respective group.",
+    "effect": "The solution reduces performance overhead by using a lightweight method for ciphertext data generation and provides fine-grained contribution evaluation results, enabling refined management of users and models."
+  },
+  "knowledge_graph": [
+    [
+      "Lightweight ciphertext model contribution evaluation method",
+      "Addresses_Problem",
+      "Security risks in federated learning due to member inference attacks and attribute inference attacks"
+    ],
+    [
+      "Lightweight ciphertext model contribution evaluation method",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Lightweight ciphertext model contribution evaluation method",
+      "Comprises_Component",
+      "Users"
+    ],
+    [
+      "Lightweight ciphertext model contribution evaluation method",
+      "Implemented_By",
+      "Grouping users, pre-noise distribution, noise model collection, group aggregation, and contribution evaluation"
+    ],
+    [
+      "Lightweight ciphertext model contribution evaluation method",
+      "Achieves_Effect",
+      "Reduced performance overhead and fine-grained contribution evaluation results"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "has_security_risks",
+      "Member Inference Attacks"
+    ],
+    [
+      "Federated Learning",
+      "has_security_risks",
+      "Attribute Inference Attacks"
+    ],
+    [
+      "Lightweight Ciphertext Model Contribution Evaluation Method",
+      "causes",
+      "Efficient Encryption of Local Models"
+    ],
+    [
+      "Central Server",
+      "grouping_function",
+      "Users"
+    ],
+    [
+      "Random User (in each group)",
+      "selected_by",
+      "Central Server"
+    ],
+    [
+      "Central Server",
+      "pre_noise_distribution_function",
+      "Base"
+    ],
+    [
+      "Grouped Users",
+      "receive",
+      "Grouping Information from Central Server"
+    ],
+    [
+      "Central Server",
+      "calculation_function",
+      "Sum of all pre-noises"
+    ],
+    [
+      "First User (in each group)",
+      "subtraction_operation_with",
+      "Base"
+    ],
+    [
+      "Resultant Value",
+      "sent_to",
+      "Grouped Users"
+    ],
+    [
+      "Users",
+      "correction_function",
+      "Pre-noise"
+    ],
+    [
+      "Corrected Pre-noise",
+      "added_to",
+      "Noise Model"
+    ],
+    [
+      "Noise Models",
+      "collection_point",
+      "Central Server"
+    ],
+    [
+      "Central Server",
+      "group_aggregation_function",
+      "Noise Models"
+    ],
+    [
+      "Central Server",
+      "contribution_evaluation_function",
+      "Noise Models"
+    ],
+    [
+      "Solution",
+      "reduces",
+      "Performance Overhead"
+    ],
+    [
+      "Solution",
+      "provides",
+      "Fine-grained Contribution Evaluation Results"
+    ],
+    [
+      "Solution",
+      "enables",
+      "Refined Management of Users and Models"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Grouping users, pre-noise distribution, noise model collection, group aggregation, and contribution evaluation",
+    "Lightweight ciphertext model contribution evaluation method",
+    "Reduced performance overhead and fine-grained contribution evaluation results",
+    "Security risks in federated learning due to member inference attacks and attribute inference attacks",
+    "Users"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Attribute Inference Attacks",
+    "Base",
+    "Central Server",
+    "Corrected Pre-noise",
+    "Efficient Encryption of Local Models",
+    "Federated Learning",
+    "Fine-grained Contribution Evaluation Results",
+    "First User (in each group)",
+    "Grouped Users",
+    "Grouping Information from Central Server",
+    "Lightweight Ciphertext Model Contribution Evaluation Method",
+    "Member Inference Attacks",
+    "Noise Model",
+    "Noise Models",
+    "Performance Overhead",
+    "Pre-noise",
+    "Random User (in each group)",
+    "Refined Management of Users and Models",
+    "Resultant Value",
+    "Solution",
+    "Sum of all pre-noises",
+    "Users"
+  ],
+  "knowledge_graph2_relation": [
+    "added_to",
+    "calculation_function",
+    "causes",
+    "collection_point",
+    "contribution_evaluation_function",
+    "correction_function",
+    "enables",
+    "group_aggregation_function",
+    "grouping_function",
+    "has_security_risks",
+    "pre_noise_distribution_function",
+    "provides",
+    "receive",
+    "reduces",
+    "selected_by",
+    "sent_to",
+    "subtraction_operation_with"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06F21/64",
+    "G06N20/00"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "publication_number": "US20240104427A1",
+  "title": "Systems and methods for federated learning with heterogeneous clients via data-free knowledge distillation",
+  "assignee": "Toyota Motor Corp",
+  "filing_date": "2022-09-27",
+  "publication_date": "2024-03-28",
+  "pse": {
+    "problem": "The technical limitation is the need for a machine learning model that does not require raw data transmission to address privacy concerns and communication constraints in vehicular technologies.",
+    "solution_function": "The system performs federated learning, where each vehicle extracts features from images and makes predictions based on these features. The vehicles transmit knowledge data (information about feature vectors and predictions) to a server, receive aggregated knowledge from the server, and train their local models using this aggregated knowledge.",
+    "solution_structure": "The key components include vehicles with feature extractors, classifiers, and controllers. The server averages knowledge data from multiple vehicles to generate aggregated knowledge.",
+    "solution_implementation": "In the vehicle, the controller controls the feature extractor to output feature vectors from images and the classifier to output predictions based on these features. The controller transmits this knowledge data to the server, receives aggregated knowledge in return, and trains the local model using this information.",
+    "effect": "This solution reduces data communication cost and can be implemented in heterogeneous edge nodes with varying local dataset size and computation resources."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Core Problem Concept: Machine Learning Model Requirements for Vehicular Technologies"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Key Component 1: Feature Extractor"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Key Component 2: Classifier"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Core Operation Logic: Local Model Training Process"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Primary Benefit: Reduced Data Communication Cost"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Machine Learning Model",
+      "does not require",
+      "Raw Data Transmission"
+    ],
+    [
+      "Machine Learning Model",
+      "addresses",
+      "Privacy Concerns"
+    ],
+    [
+      "Machine Learning Model",
+      "addresses",
+      "Communication Constraints"
+    ],
+    [
+      "Vehicular Technologies",
+      "implies",
+      "Privacy Concerns"
+    ],
+    [
+      "Vehicular Technologies",
+      "implies",
+      "Communication Constraints"
+    ],
+    [
+      "Federated Learning",
+      "enables",
+      "Each Vehicle to Extract Features from Images"
+    ],
+    [
+      "Federated Learning",
+      "enables",
+      "Making Predictions based on Feature Vectors"
+    ],
+    [
+      "Vehicles",
+      "includes",
+      "Feature Extractors"
+    ],
+    [
+      "Vehicles",
+      "includes",
+      "Classifiers"
+    ],
+    [
+      "Vehicles",
+      "includes",
+      "Controllers"
+    ],
+    [
+      "Server",
+      "processes",
+      "Aggregated Knowledge Data"
+    ],
+    [
+      "Server",
+      "averages",
+      "Knowledge Data from Multiple Vehicles"
+    ],
+    [
+      "Controller (in the vehicle)",
+      "controls",
+      "Feature Extractor"
+    ],
+    [
+      "Controller (in the vehicle)",
+      "controls",
+      "Classifier"
+    ],
+    [
+      "Controller (in the vehicle)",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Vehicle",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Vehicle",
+      "transmits",
+      "Knowledge Data"
+    ],
+    [
+      "Knowledge Data",
+      "contains",
+      "Information about Feature Vectors and Predictions"
+    ],
+    [
+      "Local Model (in the vehicle)",
+      "trains using",
+      "Aggregated Knowledge"
+    ],
+    [
+      "Solution",
+      "reduces",
+      "Data Communication Cost"
+    ],
+    [
+      "Heterogeneous Edge Nodes",
+      "can implement",
+      "This Solution"
+    ],
+    [
+      "Heterogeneous Edge Nodes",
+      "have varying",
+      "Local Dataset Size"
+    ],
+    [
+      "Heterogeneous Edge Nodes",
+      "have varying",
+      "Computation Resources"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Network Delay"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Local Model Training Process",
+    "Core Problem Concept: Machine Learning Model Requirements for Vehicular Technologies",
+    "Federated Learning",
+    "Key Component 1: Feature Extractor",
+    "Key Component 2: Classifier",
+    "Primary Benefit: Reduced Data Communication Cost"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated Knowledge",
+    "Aggregated Knowledge Data",
+    "Classifier",
+    "Classifiers",
+    "Communication Constraints",
+    "Computation Resources",
+    "Controller (in the vehicle)",
+    "Controllers",
+    "Data Communication Cost",
+    "Each Vehicle to Extract Features from Images",
+    "Edge Node",
+    "Feature Extractor",
+    "Feature Extractors",
+    "Federated Learning",
+    "Heterogeneous Edge Nodes",
+    "Information about Feature Vectors and Predictions",
+    "Knowledge Data",
+    "Knowledge Data from Multiple Vehicles",
+    "Local Dataset Size",
+    "Local Model (in the vehicle)",
+    "Machine Learning Model",
+    "Making Predictions based on Feature Vectors",
+    "Network Delay",
+    "Privacy Concerns",
+    "Raw Data Transmission",
+    "Server",
+    "Solution",
+    "This Solution",
+    "Vehicle",
+    "Vehicles",
+    "Vehicular Technologies"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "averages",
+    "can implement",
+    "contains",
+    "controls",
+    "does not require",
+    "enables",
+    "have varying",
+    "implies",
+    "includes",
+    "processes",
+    "reduces",
+    "trains using",
+    "transmits",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

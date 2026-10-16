@@ -1,0 +1,233 @@
+{
+  "publication_number": "CN114662796A",
+  "title": "Distributed data-driven process modeling optimization method and system",
+  "assignee": "East China University of Science and Technology",
+  "filing_date": "2022-05-05",
+  "publication_date": "2022-06-24",
+  "pse": {
+    "problem": "Data security and user privacy concerns due to the need for collecting decentralized node data from different devices in existing centralized data-driven modeling decision-making processes",
+    "solution_function": "A distributed method performs data preprocessing, model selection, model fitting, and model deployment on local nodes. The method aggregates node models to obtain a global model which is used for decision-making optimization. Evolutionary optimization is performed in combination with the optimization strategy to search for feasible solutions.",
+    "solution_structure": "The system comprises distributed full-process equipment or cross-regional sub-factories (nodes), a parameter server, and a carrier for decision-making optimization.",
+    "solution_implementation": "Nodes preprocess local offline data set and online data set to train node models. The parameter server aggregates node models to form a global model, which is sent to the corresponding nodes. Decision-making optimization is performed using the global model and node model on the carrier, with evolutionary optimization and an optimization strategy applied.",
+    "effect": "The distributed method addresses data security concerns by eliminating the need for centralized data collection, potentially improving privacy protection."
+  },
+  "knowledge_graph": [
+    [
+      "Distributed Method",
+      "Addresses_Problem",
+      "Data Security Concerns"
+    ],
+    [
+      "Distributed Method",
+      "Comprises_Component",
+      "Local Nodes"
+    ],
+    [
+      "Distributed Method",
+      "Comprises_Component",
+      "Parameter Server"
+    ],
+    [
+      "Distributed Method",
+      "Comprises_Component",
+      "Carrier"
+    ],
+    [
+      "Distributed Method",
+      "Implemented_By",
+      "Data Preprocessing"
+    ],
+    [
+      "Distributed Method",
+      "Implemented_By",
+      "Model Selection"
+    ],
+    [
+      "Distributed Method",
+      "Implemented_By",
+      "Model Fitting"
+    ],
+    [
+      "Distributed Method",
+      "Implemented_By",
+      "Model Deployment"
+    ],
+    [
+      "Distributed Method",
+      "Implemented_By",
+      "Aggregation of Node Models"
+    ],
+    [
+      "Distributed Method",
+      "Implemented_By",
+      "Decision-making Optimization"
+    ],
+    [
+      "Distributed Method",
+      "Implemented_By",
+      "Evolutionary Optimization"
+    ],
+    [
+      "Distributed Method",
+      "Implemented_By",
+      "Optimization Strategy"
+    ],
+    [
+      "Distributed Method",
+      "Achieves_Effect",
+      "Improved Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Decentralized node data",
+      "collects",
+      "Different devices"
+    ],
+    [
+      "Existing centralized data-driven modeling decision-making processes",
+      "uses",
+      "Centralized data collection"
+    ],
+    [
+      "Data security concerns",
+      "arises_from",
+      "Centralized data collection"
+    ],
+    [
+      "User privacy concerns",
+      "arises_from",
+      "Centralized data collection"
+    ],
+    [
+      "Distributed method",
+      "eliminates",
+      "Centralized data collection"
+    ],
+    [
+      "Distributed full-process equipment or cross-regional sub-factories (nodes)",
+      "comprises",
+      "Local nodes"
+    ],
+    [
+      "Parameter server",
+      "aggregates",
+      "Node models"
+    ],
+    [
+      "Global model",
+      "is_created_from",
+      "Aggregated node models"
+    ],
+    [
+      "Global model",
+      "used_for",
+      "Decision-making optimization"
+    ],
+    [
+      "Distributed method",
+      "addresses",
+      "Data security concerns"
+    ],
+    [
+      "Distributed method",
+      "potentially_improves",
+      "Privacy protection"
+    ],
+    [
+      "Nodes",
+      "preprocess",
+      "Local offline data set"
+    ],
+    [
+      "Nodes",
+      "train",
+      "Node models"
+    ],
+    [
+      "Global model",
+      "sent_to",
+      "Corresponding nodes"
+    ],
+    [
+      "Decision-making optimization",
+      "performed_on",
+      "Carrier"
+    ],
+    [
+      "Evolutionary optimization and an optimization strategy",
+      "applied_to",
+      "Decision-making optimization"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregation of Node Models",
+    "Carrier",
+    "Data Preprocessing",
+    "Data Security Concerns",
+    "Decision-making Optimization",
+    "Distributed Method",
+    "Evolutionary Optimization",
+    "Improved Privacy Protection",
+    "Local Nodes",
+    "Model Deployment",
+    "Model Fitting",
+    "Model Selection",
+    "Optimization Strategy",
+    "Parameter Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregated node models",
+    "Carrier",
+    "Centralized data collection",
+    "Corresponding nodes",
+    "Data security concerns",
+    "Decentralized node data",
+    "Decision-making optimization",
+    "Different devices",
+    "Distributed full-process equipment or cross-regional sub-factories (nodes)",
+    "Distributed method",
+    "Evolutionary optimization and an optimization strategy",
+    "Existing centralized data-driven modeling decision-making processes",
+    "Global model",
+    "Local nodes",
+    "Local offline data set",
+    "Node models",
+    "Nodes",
+    "Parameter server",
+    "Privacy protection",
+    "User privacy concerns"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "aggregates",
+    "applied_to",
+    "arises_from",
+    "collects",
+    "comprises",
+    "eliminates",
+    "is_created_from",
+    "performed_on",
+    "potentially_improves",
+    "preprocess",
+    "sent_to",
+    "train",
+    "used_for",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06N20/00",
+    "G06N3/006",
+    "G06N3/045",
+    "G06N3/084",
+    "G06Q10/04",
+    "G06Q10/0633"
+  ]
+}

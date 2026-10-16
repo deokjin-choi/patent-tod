@@ -1,0 +1,173 @@
+{
+  "publication_number": "CN116757296A",
+  "title": "A federated learning algorithm for non-independent and identically distributed data",
+  "assignee": "Huaneng Yimin Coal and Electricity Co Ltd",
+  "filing_date": "2023-07-06",
+  "publication_date": "2023-09-15",
+  "pse": {
+    "problem": "Data heterogeneity problem in federated learning scenarios due to non-identical and non-independent (non-IID) distribution of data among participating devices",
+    "solution_function": "Balances the non-IID problem by calculating the distance between the global model and local model, using a slice random selection strategy for participant selection and a calculation tilt strategy to optimize aggregation model by training participants closer to the global model in more rounds",
+    "solution_structure": "Includes federated learning system architecture with a global model, local models at each participating device, and communication channels for data exchange",
+    "solution_implementation": "The algorithm uses slice random selection strategy to select participants and calculation tilt strategy to adjust training rounds based on the distance between global model and local model. It also includes data exchange protocols for transmitting model updates during aggregation process",
+    "effect": "Improves model accuracy, reduces communication overhead, and speeds up model convergence by addressing non-IID problem in federated learning scenarios"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Algorithm",
+      "Addresses_Problem",
+      "Data Heterogeneity Problem"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "Comprises_Component",
+      "Global Model"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "Comprises_Component",
+      "Local Models"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "Comprises_Component",
+      "Communication Channels"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "Implemented_By",
+      "Slice Random Selection Strategy"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "Implemented_By",
+      "Calculation Tilt Strategy"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "Achieves_Effect",
+      "Improved Model Accuracy"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "Achieves_Effect",
+      "Reduced Communication Overhead"
+    ],
+    [
+      "Federated Learning Algorithm",
+      "Achieves_Effect",
+      "Faster Model Convergence"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Heterogeneity Problem",
+      "exists_in",
+      "Federated Learning Scenarios"
+    ],
+    [
+      "Participating Devices",
+      "have",
+      "Non-Identical and Non-Independent Data Distribution"
+    ],
+    [
+      "Balancing Algorithm",
+      "addresses",
+      "Non-IID Problem in Federated Learning Scenarios"
+    ],
+    [
+      "Balancing Algorithm",
+      "uses",
+      "Slice Random Selection Strategy for Participant Selection"
+    ],
+    [
+      "Balancing Algorithm",
+      "applies",
+      "Calculation Tilt Strategy"
+    ],
+    [
+      "Global Model",
+      "interacts_with",
+      "Local Models at Each Participating Device"
+    ],
+    [
+      "Communication Channels",
+      "facilitates",
+      "Data Exchange"
+    ],
+    [
+      "Aggregation Model",
+      "optimized_by",
+      "Training Participants Closer to the Global Model in More Rounds"
+    ],
+    [
+      "Model Accuracy",
+      "improved_by",
+      "Balancing Algorithm"
+    ],
+    [
+      "Communication Overhead",
+      "reduced_by",
+      "Balancing Algorithm"
+    ],
+    [
+      "Model Convergence Speed",
+      "increased_by",
+      "Balancing Algorithm"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculation Tilt Strategy",
+    "Communication Channels",
+    "Data Heterogeneity Problem",
+    "Faster Model Convergence",
+    "Federated Learning Algorithm",
+    "Global Model",
+    "Improved Model Accuracy",
+    "Local Models",
+    "Reduced Communication Overhead",
+    "Slice Random Selection Strategy"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregation Model",
+    "Balancing Algorithm",
+    "Calculation Tilt Strategy",
+    "Communication Channels",
+    "Communication Overhead",
+    "Data Exchange",
+    "Data Heterogeneity Problem",
+    "Federated Learning Scenarios",
+    "Global Model",
+    "Local Models at Each Participating Device",
+    "Model Accuracy",
+    "Model Convergence Speed",
+    "Non-IID Problem in Federated Learning Scenarios",
+    "Non-Identical and Non-Independent Data Distribution",
+    "Participating Devices",
+    "Slice Random Selection Strategy for Participant Selection",
+    "Training Participants Closer to the Global Model in More Rounds"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "applies",
+    "exists_in",
+    "facilitates",
+    "have",
+    "improved_by",
+    "increased_by",
+    "interacts_with",
+    "optimized_by",
+    "reduced_by",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06N20/00",
+    "Y02T10/40"
+  ]
+}

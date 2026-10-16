@@ -1,0 +1,245 @@
+{
+  "publication_number": "US20210374502A1",
+  "title": "Technique to perform neural network architecture search with federated learning",
+  "assignee": "Nvidia Corp",
+  "filing_date": "2020-06-01",
+  "publication_date": "2021-12-02",
+  "pse": {
+    "problem": "Training a neural network that is shared amongst multiple clients presents data privacy concerns due to sensitive training data, and applying static neural networks to unknown input can cause data inconsistencies.",
+    "solution_function": "In a federated learning setting, the system constructs a unique neural network for each client based on the input they infer. The neural networks from each client are combined to train the overall neural network.",
+    "solution_structure": "The system includes multiple federated learning client sites with their respective neural network structures, a cloud-based server for data exchange and coordination, and autonomous vehicles as an example use case.",
+    "solution_implementation": "At each client site, a sub-network is constructed based on the input being inferred. The system selects a neural network using information from inferencing an input at each client site. If a new input is encountered, the system selects a different neural network.",
+    "effect": "The solution improves the performance of neural networks by addressing data privacy concerns and reducing data inconsistencies caused by applying static neural networks to unknown inputs."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning",
+      "Addresses_Problem",
+      "Data Privacy Concerns in Shared Neural Networks"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Neural Network Structures per Client"
+    ],
+    [
+      "Federated Learning",
+      "Comprises_Component",
+      "Cloud-based Server"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Input Inference-based Sub-network Construction"
+    ],
+    [
+      "Federated Learning",
+      "Implemented_By",
+      "Neural Network Selection based on Input"
+    ],
+    [
+      "Federated Learning",
+      "Achieves_Effect",
+      "Improved Neural Network Performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Neural Network",
+      "causes",
+      "Data Privacy Concerns"
+    ],
+    [
+      "Static Neural Network",
+      "causes",
+      "Data Inconsistencies"
+    ],
+    [
+      "Federated Learning Client Sites",
+      "comprises",
+      "Multiple Federated Learning Client Site Entities"
+    ],
+    [
+      "Cloud-Based Server",
+      "coordinates",
+      "Data Exchange"
+    ],
+    [
+      "Autonomous Vehicles",
+      "example_use_case_of",
+      "Federated Learning Setting"
+    ],
+    [
+      "Client Site",
+      "constructs",
+      "Sub-Network"
+    ],
+    [
+      "Inference",
+      "produces",
+      "Input Being Inferred"
+    ],
+    [
+      "System",
+      "selects",
+      "Neural Network Based On Information From Inferencing An Input At Each Client Site"
+    ],
+    [
+      "New Input",
+      "encountered",
+      "Different Neural Network Selected"
+    ],
+    [
+      "Federated Learning Client Sites",
+      "comprises",
+      "Respective Neural Network Structures Entities"
+    ],
+    [
+      "Sensor",
+      "monitors",
+      "Environmental Parameters"
+    ],
+    [
+      "Sensor",
+      "transmits_to",
+      "Valve"
+    ],
+    [
+      "Valve",
+      "controls",
+      "Actuating Mechanism"
+    ],
+    [
+      "Sensor",
+      "transmits_to",
+      "Router"
+    ],
+    [
+      "Router",
+      "transmits_to",
+      "Remote Server"
+    ],
+    [
+      "Remote Server",
+      "processes",
+      "Data"
+    ],
+    [
+      "Remote Server",
+      "relays_to",
+      "Cloud Storage"
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Network Delay"
+    ],
+    [
+      "Cloud Storage",
+      "stores",
+      "Processed Data"
+    ],
+    [
+      "Federated Learning Setting",
+      "addresses",
+      "Data Privacy Concerns"
+    ],
+    [
+      "Federated Learning Setting",
+      "reduces",
+      "Data Inconsistencies Caused By Applying Static Neural Networks To Unknown Inputs"
+    ],
+    [
+      "Federated Learning Setting",
+      "improves",
+      "Performance Of Neural Networks"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Cloud-based Server",
+    "Data Privacy Concerns in Shared Neural Networks",
+    "Federated Learning",
+    "Improved Neural Network Performance",
+    "Input Inference-based Sub-network Construction",
+    "Neural Network Selection based on Input",
+    "Neural Network Structures per Client"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Actuating Mechanism",
+    "Autonomous Vehicles",
+    "Client Site",
+    "Cloud Storage",
+    "Cloud-Based Server",
+    "Data",
+    "Data Exchange",
+    "Data Inconsistencies",
+    "Data Inconsistencies Caused By Applying Static Neural Networks To Unknown Inputs",
+    "Data Privacy Concerns",
+    "Different Neural Network Selected",
+    "Edge Node",
+    "Environmental Parameters",
+    "Federated Learning Client Sites",
+    "Federated Learning Setting",
+    "Inference",
+    "Input Being Inferred",
+    "Multiple Federated Learning Client Site Entities",
+    "Network Delay",
+    "Neural Network",
+    "Neural Network Based On Information From Inferencing An Input At Each Client Site",
+    "New Input",
+    "Performance Of Neural Networks",
+    "Processed Data",
+    "Remote Server",
+    "Respective Neural Network Structures Entities",
+    "Router",
+    "Sensor",
+    "Static Neural Network",
+    "Sub-Network",
+    "System",
+    "Valve"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "causes",
+    "comprises",
+    "constructs",
+    "controls",
+    "coordinates",
+    "encountered",
+    "example_use_case_of",
+    "improves",
+    "monitors",
+    "processes",
+    "produces",
+    "reduces",
+    "relays_to",
+    "selects",
+    "stores",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N3/045",
+    "G06N3/0455",
+    "G06N3/0464",
+    "G06N3/063",
+    "G06N3/08",
+    "G06N3/082",
+    "G06N3/084",
+    "G06N3/09",
+    "G06N3/096",
+    "G06N3/098",
+    "G06T2207/20081",
+    "G06T2207/20084",
+    "G06T7/10",
+    "G06V10/95",
+    "G06V10/955",
+    "G06V20/56",
+    "G06V20/695"
+  ]
+}

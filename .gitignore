@@ -1,0 +1,31 @@
+# 환경
+**/.env
+
+# 원자료 (용량 큼)
+05_data/
+
+# 분석 중간 산출물
+04_src/**/out/
+04_src/**/out_*/
+04_src/**/fetched/
+04_src/**/__pycache__/
+
+# 오피스 문서
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.hwp
+*.hwpx
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 선행연구 수집 캐시·백업
+03_literature/cache/
+03_literature/bib_backup/
+
+# Windows download metadata
+*:Zone.Identifier

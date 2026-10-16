@@ -1,0 +1,175 @@
+{
+  "publication_number": "CN119026706A",
+  "title": "A method and system for executing vertical federated learning tasks based on generative model",
+  "assignee": "China Citic Bank Corp Ltd",
+  "filing_date": "2024-04-25",
+  "publication_date": "2024-11-26",
+  "pse": {
+    "problem": "The problem addressed is the limitation of universality in federal learning tasks, which requires participants to have all data modalities.",
+    "solution_function": "The system performs a longitudinal federation learning task based on a generation model. It locally stores learning data selected for each participant, decomposes the task into subtasks containing part of the learning data, calculates gradient and loss information in the subtasks, maps random noise to obtain a mapping result using a generation model, sends the mapping result to the opposite party for validation, and repeats the process until the validation meets a threshold or upper limit.",
+    "solution_structure": "The system consists of participants with local storage for learning data, a generation model for mapping random noise, and potentially a label provider for introducing random noise. A data alignment algorithm is used to align learning data, and a back propagation algorithm may be utilized for calculating gradient and loss information.",
+    "solution_implementation": "The system initiates by local storage of learning data, joint selection of a preset model for the federation learning task, decomposition into subtasks with respective learning data, calculation of gradient and loss information using back propagation algorithm, mapping random noise to obtain a result using the generation model, sending the result to the opposite party for validation using a loss function, comparing the validation result to a threshold or upper limit, and repeating the process if necessary.",
+    "effect": "The solution promotes the universality of federal learning by reducing dependence on other participant data."
+  },
+  "knowledge_graph": [
+    [
+      "Longitudinal Federated Learning System",
+      "Addresses_Problem",
+      "Universality Limit in Federal Learning Tasks"
+    ],
+    [
+      "Longitudinal Federated Learning System",
+      "Comprises_Component",
+      "Local Storage for Learning Data"
+    ],
+    [
+      "Longitudinal Federated Learning System",
+      "Comprises_Component",
+      "Generation Model"
+    ],
+    [
+      "Longitudinal Federated Learning System",
+      "Implemented_By",
+      "Data Alignment Algorithm"
+    ],
+    [
+      "Longitudinal Federated Learning System",
+      "Implemented_By",
+      "Back Propagation Algorithm"
+    ],
+    [
+      "Longitudinal Federated Learning System",
+      "Implemented_By",
+      "Generation Model for Mapping Random Noise"
+    ],
+    [
+      "Longitudinal Federated Learning System",
+      "Implemented_By",
+      "Loss Function for Validation"
+    ],
+    [
+      "Longitudinal Federated Learning System",
+      "Achieves_Effect",
+      "Universality in Federal Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Task",
+      "requires",
+      "All Data Modalities"
+    ],
+    [
+      "System",
+      "performs",
+      "Longitudinal Federation Learning Task"
+    ],
+    [
+      "Generation Model",
+      "maps",
+      "Random Noise"
+    ],
+    [
+      "Participants",
+      "store",
+      "Learning Data Locally"
+    ],
+    [
+      "System",
+      "decomposes",
+      "Task into Subtasks"
+    ],
+    [
+      "Subtask",
+      "contains",
+      "Part of the Learning Data"
+    ],
+    [
+      "Gradient and Loss Information",
+      "calculated in",
+      "Subtasks"
+    ],
+    [
+      "Generation Model",
+      "obtains",
+      "Mapping Result"
+    ],
+    [
+      "Opposite Party",
+      "validates",
+      "Mapping Result"
+    ],
+    [
+      "Validation",
+      "meets",
+      "Threshold or Upper Limit"
+    ],
+    [
+      "Solution",
+      "promotes",
+      "Universality of Federal Learning"
+    ],
+    [
+      "Solution",
+      "reduces",
+      "Dependence on Other Participant Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Back Propagation Algorithm",
+    "Data Alignment Algorithm",
+    "Generation Model",
+    "Generation Model for Mapping Random Noise",
+    "Local Storage for Learning Data",
+    "Longitudinal Federated Learning System",
+    "Loss Function for Validation",
+    "Universality Limit in Federal Learning Tasks",
+    "Universality in Federal Learning"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "All Data Modalities",
+    "Dependence on Other Participant Data",
+    "Federal Learning Task",
+    "Generation Model",
+    "Gradient and Loss Information",
+    "Learning Data Locally",
+    "Longitudinal Federation Learning Task",
+    "Mapping Result",
+    "Opposite Party",
+    "Part of the Learning Data",
+    "Participants",
+    "Random Noise",
+    "Solution",
+    "Subtask",
+    "Subtasks",
+    "System",
+    "Task into Subtasks",
+    "Threshold or Upper Limit",
+    "Universality of Federal Learning",
+    "Validation"
+  ],
+  "knowledge_graph2_relation": [
+    "calculated in",
+    "contains",
+    "decomposes",
+    "maps",
+    "meets",
+    "obtains",
+    "performs",
+    "promotes",
+    "reduces",
+    "requires",
+    "store",
+    "validates"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/084"
+  ]
+}

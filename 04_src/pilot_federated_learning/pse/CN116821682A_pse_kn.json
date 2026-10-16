@@ -1,0 +1,215 @@
+{
+  "publication_number": "CN116821682A",
+  "title": "A federated learning system and method for autonomous driving car networking",
+  "assignee": "University of Shanghai for Science and Technology",
+  "filing_date": "2023-06-30",
+  "publication_date": "2023-09-29",
+  "pse": {
+    "problem": "Existing federal learning systems for autonomous vehicle networks face security and privacy threats such as model parameter theft, low security performance, and poor model performance.",
+    "solution_function": "The invention creates a federated learning system that reduces the risk of updated model parameters being stolen by malicious attackers, improves the safety of federal learning, protects vehicle privacy information, and enhances the performance of autonomous vehicles.",
+    "solution_structure": "The system comprises a local training unit, a privacy protection unit, an intermediate layer aggregation unit, and a global aggregation unit. The local training unit trains AI models using local data, while the privacy protection unit safeguards sensitive information during model updates sent to the central server.",
+    "solution_implementation": "In this system, each vehicle processes its own data locally for model training. Encrypted model updates are then sent to the intermediate layer aggregation unit, where they are aggregated and forwarded to the global aggregation unit for final model updates. The privacy protection unit ensures secure communication and prevents unauthorized access during these processes.",
+    "effect": "The proposed federated learning system enhances security, protects privacy, and improves the performance of autonomous vehicles in a network, reducing the risks associated with traditional federal learning systems."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Model parameter theft"
+    ],
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Low security performance"
+    ],
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Poor model performance"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Local training unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Privacy protection unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Intermediate layer aggregation unit"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Global aggregation unit"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Local data processing"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Encrypted model updates"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Secure communication"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Enhanced security"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Privacy protection"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Improved performance"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Systems",
+      "causes",
+      "Security and Privacy Threats"
+    ],
+    [
+      "Model Parameter Theft",
+      "affects",
+      "Federal Learning Systems"
+    ],
+    [
+      "Low Security Performance",
+      "affects",
+      "Federal Learning Systems"
+    ],
+    [
+      "Poor Model Performance",
+      "affects",
+      "Federal Learning Systems"
+    ],
+    [
+      "Local Training Unit",
+      "controls",
+      "AI Models Training"
+    ],
+    [
+      "Privacy Protection Unit",
+      "protects",
+      "Sensitive Information"
+    ],
+    [
+      "Intermediate Layer Aggregation Unit",
+      "aggregates",
+      "Encrypted Model Updates"
+    ],
+    [
+      "Global Aggregation Unit",
+      "receives",
+      "Aggregated Model Updates"
+    ],
+    [
+      "Vehicle",
+      "processes",
+      "Local Data"
+    ],
+    [
+      "Vehicle",
+      "sends",
+      "Encrypted Model Updates"
+    ],
+    [
+      "Federated Learning System",
+      "reduces",
+      "Risk of Updated Model Parameters Theft"
+    ],
+    [
+      "Federated Learning System",
+      "improves",
+      "Safety of Federal Learning"
+    ],
+    [
+      "Federated Learning System",
+      "protects",
+      "Vehicle Privacy Information"
+    ],
+    [
+      "Federated Learning System",
+      "enhances",
+      "Performance of Autonomous Vehicles"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Encrypted model updates",
+    "Enhanced security",
+    "Federated Learning System",
+    "Global aggregation unit",
+    "Improved performance",
+    "Intermediate layer aggregation unit",
+    "Local data processing",
+    "Local training unit",
+    "Low security performance",
+    "Model parameter theft",
+    "Poor model performance",
+    "Privacy protection",
+    "Privacy protection unit",
+    "Secure communication"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "AI Models Training",
+    "Aggregated Model Updates",
+    "Encrypted Model Updates",
+    "Federal Learning Systems",
+    "Federated Learning System",
+    "Global Aggregation Unit",
+    "Intermediate Layer Aggregation Unit",
+    "Local Data",
+    "Local Training Unit",
+    "Low Security Performance",
+    "Model Parameter Theft",
+    "Performance of Autonomous Vehicles",
+    "Poor Model Performance",
+    "Privacy Protection Unit",
+    "Risk of Updated Model Parameters Theft",
+    "Safety of Federal Learning",
+    "Security and Privacy Threats",
+    "Sensitive Information",
+    "Vehicle",
+    "Vehicle Privacy Information"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "aggregates",
+    "causes",
+    "controls",
+    "enhances",
+    "improves",
+    "processes",
+    "protects",
+    "receives",
+    "reduces",
+    "sends"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

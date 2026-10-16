@@ -1,0 +1,192 @@
+{
+  "publication_number": "CN111970304A",
+  "title": "Message processing method and device",
+  "assignee": "Everbright Technology Co ltd",
+  "filing_date": "2020-08-28",
+  "publication_date": "2020-11-20",
+  "pse": {
+    "problem": "Data leakage risk due to coordinator collecting individual participant's gradient values in federal learning process",
+    "solution_function": "Fuses multiple encrypted gradient values from participants and sends the fused value to the coordinator for model update, ensuring data security of participants by preventing individual gradient values from being revealed",
+    "solution_structure": "Comprises a first obtaining unit, second obtaining unit, fusion unit, sending unit, first storage module (optional), second storing module (optional), and third storing module (alternative)",
+    "solution_implementation": "First obtaining unit gathers gradient messages from participants, second obtaining unit extracts individual gradient values, fusion unit merges the gradient values to form a target value, sending unit sends the target value to coordinator or stores it in a blockchain, third storing module temporarily saves gradient messages in a message queue (alternative)",
+    "effect": "Improves data security by preventing data leakage and maintains federal learning process integrity"
+  },
+  "knowledge_graph": [
+    [
+      "Fused Encrypted Gradient Values System",
+      "Addresses_Problem",
+      "Data Leakage Risk Due to Coordinator Collecting Individual Participant's Gradient Values"
+    ],
+    [
+      "Fused Encrypted Gradient Values System",
+      "Comprises_Component",
+      "First Obtaining Unit"
+    ],
+    [
+      "Fused Encrypted Gradient Values System",
+      "Comprises_Component",
+      "Second Obtaining Unit"
+    ],
+    [
+      "Fused Encrypted Gradient Values System",
+      "Comprises_Component",
+      "Fusion Unit"
+    ],
+    [
+      "Fused Encrypted Gradient Values System",
+      "Comprises_Component",
+      "Sending Unit"
+    ],
+    [
+      "Optional Storage Module (First)",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "Optional Storage Module (Second)",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "Alternative Storage Module (Third)",
+      "N/A",
+      "Message Queue"
+    ],
+    [
+      "Fused Encrypted Gradient Values System",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Fused Encrypted Gradient Values System",
+      "Achieves_Effect",
+      "Improved Data Security"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Leakage Risk",
+      "causes",
+      "Coordinator"
+    ],
+    [
+      "Coordinator",
+      "collects",
+      "Individual Participant's Gradient Values"
+    ],
+    [
+      "Federal Learning Process",
+      "is affected by",
+      "Data Leakage"
+    ],
+    [
+      "Encrypted Gradient Values",
+      "are obtained by",
+      "First Obtaining Unit"
+    ],
+    [
+      "Gradient Messages",
+      "transmitted_from",
+      "Participants"
+    ],
+    [
+      "First Obtaining Unit",
+      "transmits_to",
+      "Second Obtaining Unit"
+    ],
+    [
+      "Individual Gradient Values",
+      "are extracted by",
+      "Second Obtaining Unit"
+    ],
+    [
+      "Gradient Values",
+      "are fused by",
+      "Fusion Unit"
+    ],
+    [
+      "Target Value",
+      "is sent to",
+      "Coordinator"
+    ],
+    [
+      "Target Value",
+      "may be stored in",
+      "Blockchain"
+    ],
+    [
+      "Data Security",
+      "is improved by",
+      "Fused Gradient Values"
+    ],
+    [
+      "Participants' Data Security",
+      "ensured by",
+      "Preventing Individual Gradient Values Reveal"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Alternative Storage Module (Third)",
+    "Core Operation Logic",
+    "Data Leakage Risk Due to Coordinator Collecting Individual Participant's Gradient Values",
+    "First Obtaining Unit",
+    "Fused Encrypted Gradient Values System",
+    "Fusion Unit",
+    "Improved Data Security",
+    "Message Queue",
+    "N/A",
+    "Optional Storage Module (First)",
+    "Optional Storage Module (Second)",
+    "Second Obtaining Unit",
+    "Sending Unit"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By",
+    "N/A"
+  ],
+  "knowledge_graph2_en": [
+    "Blockchain",
+    "Coordinator",
+    "Data Leakage",
+    "Data Leakage Risk",
+    "Data Security",
+    "Encrypted Gradient Values",
+    "Federal Learning Process",
+    "First Obtaining Unit",
+    "Fused Gradient Values",
+    "Fusion Unit",
+    "Gradient Messages",
+    "Gradient Values",
+    "Individual Gradient Values",
+    "Individual Participant's Gradient Values",
+    "Participants",
+    "Participants' Data Security",
+    "Preventing Individual Gradient Values Reveal",
+    "Second Obtaining Unit",
+    "Target Value"
+  ],
+  "knowledge_graph2_relation": [
+    "are extracted by",
+    "are fused by",
+    "are obtained by",
+    "causes",
+    "collects",
+    "ensured by",
+    "is affected by",
+    "is improved by",
+    "is sent to",
+    "may be stored in",
+    "transmits_to",
+    "transmitted_from"
+  ],
+  "cpc_code": [
+    "G06N3/08",
+    "H04L63/0428",
+    "H04L63/20",
+    "H04L9/008",
+    "H04L9/50"
+  ]
+}

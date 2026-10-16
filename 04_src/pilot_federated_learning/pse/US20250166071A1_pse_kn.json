@@ -1,0 +1,185 @@
+{
+  "publication_number": "US20250166071A1",
+  "title": "Federated learning financial intellect service",
+  "assignee": "American Express Travel Related Services Co Inc",
+  "filing_date": "2023-11-16",
+  "publication_date": "2025-05-22",
+  "pse": {
+    "problem": "Limitation in providing personalized financial insights due to generic rules in traditional financial planning software",
+    "solution_function": "A federated learning financial intellect service generates machine learning models based on user's financial data and external data sources for other users and associated market conditions, thereby providing personalized financial insights without requiring a request from the user.",
+    "solution_structure": "The system includes client devices (for individual users), computing devices in a network environment, and federated learning service running on these computing devices.",
+    "solution_implementation": "Client application executes on the client device to gather user's financial data and send it to the federated learning service. The federated learning service trains machine learning models using this data and external data sources, evaluates potential insights based on confidence threshold, and transmits insight notifications to the client device.",
+    "effect": "Improved approach for generating personalized financial insights from a larger quantity of data sources, leading to more accurate and timely insights for individual users"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Financial Intel Service",
+      "Addresses_Problem",
+      "Limitation in providing personalized financial insights"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "Comprises_Component",
+      "Client Devices"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "Comprises_Component",
+      "Network Environment"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "Comprises_Component",
+      "Federated Learning Service"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "Implemented_By",
+      "Client Application"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "Achieves_Effect",
+      "Improved approach for generating personalized financial insights"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Financial Planning Software",
+      "causes",
+      "Limitation in providing personalized financial insights"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "achieves",
+      "Personalized Financial Insights"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "processes",
+      "User's Financial Data"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "processes",
+      "External Data Sources"
+    ],
+    [
+      "Federated Learning Financial Intel Service",
+      "generates",
+      "Machine Learning Models"
+    ],
+    [
+      "Client Devices",
+      "comprises",
+      "Individual Users"
+    ],
+    [
+      "Network Environment",
+      "comprises",
+      "Computing Devices"
+    ],
+    [
+      "Federated Learning Service",
+      "runs_on",
+      "Computing Devices"
+    ],
+    [
+      "Client Application",
+      "executes_on",
+      "Client Device"
+    ],
+    [
+      "Client Application",
+      "gathers",
+      "User's Financial Data"
+    ],
+    [
+      "Client Application",
+      "sends",
+      "Data to Federated Learning Service"
+    ],
+    [
+      "Federated Learning Service",
+      "evaluates",
+      "Potential Insights based on confidence threshold"
+    ],
+    [
+      "Federated Learning Service",
+      "transmits_to",
+      "Client Device"
+    ],
+    [
+      "Improved Approach",
+      "increases",
+      "Quantity of Data Sources"
+    ],
+    [
+      "Improved Approach",
+      "improves",
+      "Accuracy and Timeliness of Insights"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Client Application",
+    "Client Devices",
+    "Federated Learning Financial Intel Service",
+    "Federated Learning Service",
+    "Improved approach for generating personalized financial insights",
+    "Limitation in providing personalized financial insights",
+    "Network Environment"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Accuracy and Timeliness of Insights",
+    "Client Application",
+    "Client Device",
+    "Client Devices",
+    "Computing Devices",
+    "Data to Federated Learning Service",
+    "External Data Sources",
+    "Federated Learning Financial Intel Service",
+    "Federated Learning Service",
+    "Improved Approach",
+    "Individual Users",
+    "Limitation in providing personalized financial insights",
+    "Machine Learning Models",
+    "Network Environment",
+    "Personalized Financial Insights",
+    "Potential Insights based on confidence threshold",
+    "Quantity of Data Sources",
+    "Traditional Financial Planning Software",
+    "User's Financial Data"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "causes",
+    "comprises",
+    "evaluates",
+    "executes_on",
+    "gathers",
+    "generates",
+    "improves",
+    "increases",
+    "processes",
+    "runs_on",
+    "sends",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N3/08",
+    "G06N5/01",
+    "G06N5/04",
+    "G06Q20/20",
+    "G06Q20/209",
+    "G06Q40/02",
+    "G06Q40/06",
+    "H04L67/306"
+  ]
+}

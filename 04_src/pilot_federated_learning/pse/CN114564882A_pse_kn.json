@@ -1,0 +1,170 @@
+{
+  "publication_number": "CN114564882A",
+  "title": "Construction and application of edge deep learning simulator based on discrete events",
+  "assignee": "Inner Mongolia University of Technology",
+  "filing_date": "2022-01-29",
+  "publication_date": "2022-05-31",
+  "pse": {
+    "problem": "Existing network simulation frameworks cannot support distributed learning on edge devices, especially for discrete event simulations, and do not guarantee the effectiveness of edge learning performance verification.",
+    "solution_function": "The invention constructs an edge deep learning simulator based on discrete events that integrates a deep learning module into the edge simulation environment, enabling distributed learning in the edge environment by caching data at edge nodes and using the deep learning module for deep learning within the simulated edge learning.",
+    "solution_structure": "The solution consists of an in-network cache module for data caching at edge nodes, a deep learning module embedded in the simulation module, and an edge simulation environment that supports deep learning.",
+    "solution_implementation": "The steps include constructing an in-network cache module within the simulation module (step 1), building a deep learning module within the simulation module (step 2.1), creating conditions for joint compilation of the deep learning module and simulation module (step 2.2), and using the deep learning module for deep learning within the simulated edge learning (step 2.3).",
+    "effect": "The solution improves the effectiveness of edge learning performance verification by supporting discrete event simulations and distributed learning on edge devices."
+  },
+  "knowledge_graph": [
+    [
+      "Edge Deep Learning Simulator",
+      "Addresses_Problem",
+      "Inefficient Edge Device Learning Support"
+    ],
+    [
+      "Edge Deep Learning Simulator",
+      "Comprises_Component",
+      "In-Network Cache Module"
+    ],
+    [
+      "Edge Deep Learning Simulator",
+      "Comprises_Component",
+      "Deep Learning Module"
+    ],
+    [
+      "Edge Deep Learning Simulator",
+      "Implemented_By",
+      "Solution Steps"
+    ],
+    [
+      "Edge Deep Learning Simulator",
+      "Achieves_Effect",
+      "Improved Edge Learning Performance Verification"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing network simulation frameworks",
+      "cannot_support",
+      "Distributed Learning on edge devices"
+    ],
+    [
+      "Existing network simulation frameworks",
+      "do_not_guarantee",
+      "Effectiveness of edge learning performance verification"
+    ],
+    [
+      "Discrete event simulations",
+      "are not supported by existing network simulation frameworks"
+    ],
+    [
+      "Edge Devices",
+      "cannot support Distributed Learning with existing network simulation frameworks"
+    ],
+    [
+      "The invention",
+      "constructs",
+      "an Edge Deep Learning Simulator based on Discrete Events"
+    ],
+    [
+      "The Edge Deep Learning Simulator",
+      "integrates",
+      "a deep learning module into the edge simulation environment"
+    ],
+    [
+      "The in-network cache module",
+      "is within",
+      "Simulation Module"
+    ],
+    [
+      "The Deep Learning Module",
+      "is embedded in",
+      "Simulation Module"
+    ],
+    [
+      "Edge Simulation Environment",
+      "supports",
+      "Deep Learning"
+    ],
+    [
+      "In-Network Cache Module",
+      "caches data at edge nodes"
+    ],
+    [
+      "Deep Learning Module",
+      "enables Distributed Learning in the simulated edge learning"
+    ],
+    [
+      "Deep Learning within the Simulated Edge Learning",
+      "uses",
+      "Deep Learning Module for deep learning"
+    ],
+    [
+      "The joint compilation of Deep Learning Module and Simulation Module",
+      "is created under conditions",
+      ""
+    ],
+    [
+      "Edge Node",
+      "reduces",
+      "Network Delay (implicitly due to caching data at edge nodes)"
+    ],
+    [
+      "The solution",
+      "improves",
+      "Effectiveness of edge learning performance verification"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Deep Learning Module",
+    "Edge Deep Learning Simulator",
+    "Improved Edge Learning Performance Verification",
+    "In-Network Cache Module",
+    "Inefficient Edge Device Learning Support",
+    "Solution Steps"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "",
+    "Deep Learning",
+    "Deep Learning Module for deep learning",
+    "Deep Learning within the Simulated Edge Learning",
+    "Distributed Learning on edge devices",
+    "Edge Node",
+    "Edge Simulation Environment",
+    "Effectiveness of edge learning performance verification",
+    "Existing network simulation frameworks",
+    "Network Delay (implicitly due to caching data at edge nodes)",
+    "Simulation Module",
+    "The Deep Learning Module",
+    "The Edge Deep Learning Simulator",
+    "The in-network cache module",
+    "The invention",
+    "The joint compilation of Deep Learning Module and Simulation Module",
+    "The solution",
+    "a deep learning module into the edge simulation environment",
+    "an Edge Deep Learning Simulator based on Discrete Events"
+  ],
+  "knowledge_graph2_relation": [
+    "cannot_support",
+    "constructs",
+    "do_not_guarantee",
+    "improves",
+    "integrates",
+    "is created under conditions",
+    "is embedded in",
+    "is within",
+    "reduces",
+    "supports",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F30/27",
+    "G06F9/5027",
+    "G06F9/5072",
+    "G06F9/544",
+    "G06N20/00",
+    "Y02D10/00"
+  ]
+}

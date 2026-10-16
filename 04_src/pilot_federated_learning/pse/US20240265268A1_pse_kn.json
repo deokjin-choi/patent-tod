@@ -1,0 +1,184 @@
+{
+  "publication_number": "US20240265268A1",
+  "title": "Federated learning with single-round convergence",
+  "assignee": "World Wide Technology Holding Co LLC",
+  "filing_date": "2023-02-08",
+  "publication_date": "2024-08-08",
+  "pse": {
+    "problem": "Local machine learning models may have different training results when encountering different data due to lack of communication between nodes, leading to inaccurate predictions.",
+    "solution_function": "The system performs single-round convergence federated learning by allowing local models to communicate and coordinate their weights during a single round of training. This improves the accuracy of the learned model by ensuring consistent results across all nodes, even when encountering different data.",
+    "solution_structure": "The system consists of multiple nodes, each containing a local machine learning model. There is also a central hub that coordinates the communication and aggregation of model weights between the nodes. Each node has teachers that receive data points and students that train on the received data using their respective models.",
+    "solution_implementation": "In the training phase, each student in a node votes for its predicted output for a given datapoint using majority voting or consistency voting. The teachers aggregate the students' votes to produce a single prediction for the datapoint. In the aggregation phase, the central hub collects model weights from multiple nodes, performs weighted majority voting or another consensus-building method to produce a single cluster model that represents all the nodes in the cluster. The process repeats until a global model is trained that represents all clusters.",
+    "effect": "The system achieves single-round convergence federated learning, reducing the number of training rounds and improving overall efficiency compared to traditional federated learning approaches."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning System",
+      "Addresses_Problem",
+      "Data Inconsistency in Local ML Models"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Local Machine Learning Model"
+    ],
+    [
+      "Federated Learning System",
+      "Comprises_Component",
+      "Central Hub"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Voting Mechanism"
+    ],
+    [
+      "Federated Learning System",
+      "Implemented_By",
+      "Consensus-Building Method"
+    ],
+    [
+      "Federated Learning System",
+      "Achieves_Effect",
+      "Single-Round Convergence"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Local Machine Learning Models",
+      "causes",
+      "Different Training Results"
+    ],
+    [
+      "Nodes (in federated learning system)",
+      "lack_of",
+      "Communication"
+    ],
+    [
+      "Lack of Communication between Nodes",
+      "leads_to",
+      "Inaccurate Predictions"
+    ],
+    [
+      "System",
+      "performs",
+      "Single-Round Convergence Federated Learning"
+    ],
+    [
+      "Nodes (in federated learning system)",
+      "comprise",
+      "Multiple Local Machine Learning Models"
+    ],
+    [
+      "Federated Learning System",
+      "contains",
+      "Central Hub"
+    ],
+    [
+      "Central Hub",
+      "coordinates",
+      "Communication and Aggregation of Model Weights"
+    ],
+    [
+      "Each Node",
+      "has",
+      "Teachers that receive Data Points"
+    ],
+    [
+      "Each Student in a Node",
+      "trains_on",
+      "Received Data using their respective Models"
+    ],
+    [
+      "Majority Voting or Consistency Voting",
+      "used_for",
+      "Voting for Predicted Output"
+    ],
+    [
+      "Teachers",
+      "aggregate",
+      "Students' Votes to produce a single prediction"
+    ],
+    [
+      "Central Hub",
+      "collects",
+      "Model Weights from Multiple Nodes"
+    ],
+    [
+      "Weighted Majority Voting or another Consensus-Building Method",
+      "used_for",
+      "Producing a Single Cluster Model"
+    ],
+    [
+      "Process Repeats until Global Model is Trained",
+      "improves",
+      "Overall Efficiency compared to Traditional Federated Learning Approaches"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Hub",
+    "Consensus-Building Method",
+    "Data Inconsistency in Local ML Models",
+    "Federated Learning System",
+    "Local Machine Learning Model",
+    "Single-Round Convergence",
+    "Voting Mechanism"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Hub",
+    "Communication",
+    "Communication and Aggregation of Model Weights",
+    "Different Training Results",
+    "Each Node",
+    "Each Student in a Node",
+    "Federated Learning System",
+    "Inaccurate Predictions",
+    "Lack of Communication between Nodes",
+    "Local Machine Learning Models",
+    "Majority Voting or Consistency Voting",
+    "Model Weights from Multiple Nodes",
+    "Multiple Local Machine Learning Models",
+    "Nodes (in federated learning system)",
+    "Overall Efficiency compared to Traditional Federated Learning Approaches",
+    "Process Repeats until Global Model is Trained",
+    "Producing a Single Cluster Model",
+    "Received Data using their respective Models",
+    "Single-Round Convergence Federated Learning",
+    "Students' Votes to produce a single prediction",
+    "System",
+    "Teachers",
+    "Teachers that receive Data Points",
+    "Voting for Predicted Output",
+    "Weighted Majority Voting or another Consensus-Building Method"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregate",
+    "causes",
+    "collects",
+    "comprise",
+    "contains",
+    "coordinates",
+    "has",
+    "improves",
+    "lack_of",
+    "leads_to",
+    "performs",
+    "trains_on",
+    "used_for"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/045",
+    "G06N3/098",
+    "G06N5/01",
+    "G06N5/04",
+    "G06N7/01"
+  ]
+}

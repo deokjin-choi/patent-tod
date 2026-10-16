@@ -1,0 +1,123 @@
+{
+  "publication_number": "US20210174243A1",
+  "title": "Efficient private vertical federated learning",
+  "assignee": "International Business Machines Corp",
+  "filing_date": "2019-12-06",
+  "publication_date": "2021-06-10",
+  "pse": {
+    "problem": "Inefficient computation and communication in vertical federated learning due to the implementation of additive homomorphic encryption and garbled-circuit-based secure multi-party computation",
+    "solution_function": "Privacy-preserving vertical federated learning that enables efficient computation, reduced communication overhead, supports dynamic participant groups, and is model-agnostic.",
+    "solution_structure": "A coordinator/aggregator oversees participants. Participants encrypt their data locally using homomorphic encryption schemes. Garbled circuits are used for secure multi-party computation.",
+    "solution_implementation": "Participants encrypt model weights and gradients before sending them to the coordinator, who computes aggregated gradients using homomorphic operations and garbled circuits. Participants then update their local models based on these aggregated gradients without revealing sensitive data.",
+    "effect": "Improved efficiency in computation and communication, support for dynamic participant groups, and model-agnostic design"
+  },
+  "knowledge_graph": [
+    [
+      "Privacy-preserving vertical federated learning",
+      "Addresses_Problem",
+      "Inefficient computation and communication in vertical federated learning"
+    ],
+    [
+      "Privacy-preserving vertical federated learning",
+      "Comprises_Component",
+      "Coordinator/Aggregator"
+    ],
+    [
+      "Privacy-preserving vertical federated learning",
+      "Comprises_Component",
+      "Homomorphic encryption schemes"
+    ],
+    [
+      "Privacy-preserving vertical federated learning",
+      "Comprises_Component",
+      "Garbled circuits"
+    ],
+    [
+      "Privacy-preserving vertical federated learning",
+      "Implemented_By",
+      "Encrypting model weights and gradients"
+    ],
+    [
+      "Privacy-preserving vertical federated learning",
+      "Achieves_Effect",
+      "Improved efficiency in computation and communication"
+    ],
+    [
+      "Privacy-preserving vertical federated learning",
+      "Achieves_Effect",
+      "Support for dynamic participant groups"
+    ],
+    [
+      "Privacy-preserving vertical federated learning",
+      "Achieves_Effect",
+      "Model-agnostic design"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Additive Homomorphic Encryption",
+      "causes",
+      "Inefficient Computation"
+    ],
+    [
+      "Garbled-Circuit-Based Secure Multi-Party Computation",
+      "causes",
+      "Inefficient Communication"
+    ],
+    [
+      "Privacy-Preserving Vertical Federated Learning",
+      "reduces",
+      "Inefficient Computation"
+    ],
+    [
+      "Privacy-Preserving Vertical Federated Learning",
+      "reduces",
+      "Communication Overhead"
+    ],
+    [
+      "Privacy-Preserving Vertical Federated Learning",
+      "supports",
+      "Dynamic Participant Groups"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Coordinator/Aggregator",
+    "Encrypting model weights and gradients",
+    "Garbled circuits",
+    "Homomorphic encryption schemes",
+    "Improved efficiency in computation and communication",
+    "Inefficient computation and communication in vertical federated learning",
+    "Model-agnostic design",
+    "Privacy-preserving vertical federated learning",
+    "Support for dynamic participant groups"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Additive Homomorphic Encryption",
+    "Communication Overhead",
+    "Dynamic Participant Groups",
+    "Garbled-Circuit-Based Secure Multi-Party Computation",
+    "Inefficient Communication",
+    "Inefficient Computation",
+    "Privacy-Preserving Vertical Federated Learning"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "reduces",
+    "supports"
+  ],
+  "cpc_code": [
+    "G06F16/903",
+    "G06N20/00",
+    "G06N20/20",
+    "H04L9/08",
+    "H04L9/0825",
+    "H04L9/083",
+    "H04L9/30"
+  ]
+}

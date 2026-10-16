@@ -1,0 +1,156 @@
+{
+  "publication_number": "CN116192424A",
+  "title": "A method for attacking global data distribution in federated learning scenarios",
+  "assignee": "Shandong University",
+  "filing_date": "2022-12-01",
+  "publication_date": "2023-05-30",
+  "pse": {
+    "problem": "The security of shared gradients in federated learning is insufficient, allowing attackers to recover private training data of each client through leaked shared gradient.",
+    "solution_function": "Adapts deep reinforcement learning algorithm (DDPG) to adjust the distribution of malicious client local data under the supervision and guidance of shared gradients, eventually inferring the distribution of global data in federated learning.",
+    "solution_structure": "Includes various parameters, environments, tools required for attack preparation; utilizes DDPG as part of the overall attack process.",
+    "solution_implementation": "Pre-attack preparation involves setting up necessary parameters and resources. The main attack process involves adjusting the distribution of malicious client local data through DDPG under the supervision and guidance of shared gradients.",
+    "effect": "Potentially allows an attacker to recover sensitive global data in federated learning scenarios"
+  },
+  "knowledge_graph": [
+    [
+      "Deep Reinforcement Learning Algorithm (DDPG)",
+      "Addresses_Problem",
+      "Insufficient Security of Shared Gradients in Federated Learning"
+    ],
+    [
+      "Deep Reinforcement Learning Algorithm (DDPG)",
+      "Comprises_Component",
+      "Various Parameters"
+    ],
+    [
+      "Deep Reinforcement Learning Algorithm (DDPG)",
+      "Comprises_Component",
+      "Environments"
+    ],
+    [
+      "Deep Reinforcement Learning Algorithm (DDPG)",
+      "Comprises_Component",
+      "Tools required for attack preparation"
+    ],
+    [
+      "Deep Reinforcement Learning Algorithm (DDPG)",
+      "Implemented_By",
+      "Adjusting the distribution of malicious client local data"
+    ],
+    [
+      "Deep Reinforcement Learning Algorithm (DDPG)",
+      "Achieves_Effect",
+      "Recovery of Sensitive Global Data in Federated Learning Scenarios"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "causes",
+      "Data Leakage"
+    ],
+    [
+      "Attacker",
+      "controls",
+      "Malicious Client Local Data"
+    ],
+    [
+      "Shared Gradients",
+      "guides",
+      "DDPG Algorithm"
+    ],
+    [
+      "DDPG Algorithm",
+      "adjusts",
+      "Distribution of Malicious Client Local Data"
+    ],
+    [
+      "DDPG Algorithm",
+      "infers",
+      "Global Data Distribution"
+    ],
+    [
+      "Federated Learning",
+      "contains",
+      "Various Parameters"
+    ],
+    [
+      "Federated Learning",
+      "requires",
+      "Environments"
+    ],
+    [
+      "Federated Learning",
+      "requires",
+      "Tools"
+    ],
+    [
+      "Attack Preparation",
+      "prepares",
+      "Necessary Parameters and Resources"
+    ],
+    [
+      "Attack Process",
+      "involves",
+      "Adjusting Malicious Client Local Data Distribution"
+    ],
+    [
+      "Global Data",
+      "is_recovered",
+      "By Attacker"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Adjusting the distribution of malicious client local data",
+    "Deep Reinforcement Learning Algorithm (DDPG)",
+    "Environments",
+    "Insufficient Security of Shared Gradients in Federated Learning",
+    "Recovery of Sensitive Global Data in Federated Learning Scenarios",
+    "Tools required for attack preparation",
+    "Various Parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adjusting Malicious Client Local Data Distribution",
+    "Attack Preparation",
+    "Attack Process",
+    "Attacker",
+    "By Attacker",
+    "DDPG Algorithm",
+    "Data Leakage",
+    "Distribution of Malicious Client Local Data",
+    "Environments",
+    "Federated Learning",
+    "Global Data",
+    "Global Data Distribution",
+    "Malicious Client Local Data",
+    "Necessary Parameters and Resources",
+    "Shared Gradients",
+    "Tools",
+    "Various Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "adjusts",
+    "causes",
+    "contains",
+    "controls",
+    "guides",
+    "infers",
+    "involves",
+    "is_recovered",
+    "prepares",
+    "requires"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L63/1441",
+    "H04L63/205",
+    "H04L63/30",
+    "Y02D30/50"
+  ]
+}

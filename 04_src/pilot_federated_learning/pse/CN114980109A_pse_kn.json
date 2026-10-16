@@ -1,0 +1,191 @@
+{
+  "publication_number": "CN114980109A",
+  "title": "A federated learning-based intrusion detection method for 5G smart grid",
+  "assignee": "Electric Power Research Institute of State Grid Fujian Electric Power Co Ltd",
+  "filing_date": "2022-06-22",
+  "publication_date": "2022-08-30",
+  "pse": {
+    "problem": "Existing methods for intrusion detection in smart grids rely on centralized servers and may compromise user data privacy. The need for fast, secure, and efficient intrusion detection is crucial for the smart grid system.",
+    "solution_function": "The invention proposes a federated learning-based intrusion detection method for 5G smart grids. Smart meters cooperatively train an efficient intrusion detection model by exchanging only model parameters with a cloud server, ensuring data privacy protection and scalability.",
+    "solution_structure": "The system includes smart meters as local devices that collect data, exchange model parameters, and perform local inference. The cloud server receives model parameters from the smart meters for aggregation and global update of the intrusion detection model.",
+    "solution_implementation": "In each round of federated learning, smart meters locally train a neural network using their data, compute gradients based on the trained model, and send updated model parameters to the cloud server. The cloud server aggregates these updates to refine the global intrusion detection model.",
+    "effect": "The solution provides secure and efficient intrusion detection for smart grids by leveraging 5G communication technology, improving the speed and reliability of data transmission while protecting user privacy."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning-based Intrusion Detection Method",
+      "Addresses_Problem",
+      "Core Problem Concept: Existing methods compromise user data privacy"
+    ],
+    [
+      "Federated Learning-based Intrusion Detection Method",
+      "Comprises_Component",
+      "Key Component 1: Smart Meters"
+    ],
+    [
+      "Federated Learning-based Intrusion Detection Method",
+      "Comprises_Component",
+      "Key Component 2: Cloud Server"
+    ],
+    [
+      "Federated Learning-based Intrusion Detection Method",
+      "Implemented_By",
+      "Core Operation Logic: Federated learning with local training, gradient computation, and parameter exchange"
+    ],
+    [
+      "Federated Learning-based Intrusion Detection Method",
+      "Achieves_Effect",
+      "Primary Benefit: Secure and efficient intrusion detection for smart grids"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Existing Methods",
+      "causes",
+      "Data Privacy Compromise"
+    ],
+    [
+      "Smart Grids",
+      "controls",
+      "Intrusion Detection"
+    ],
+    [
+      "Centralized Servers",
+      "stores",
+      "Model Parameters"
+    ],
+    [
+      "Federated Learning-based Method",
+      "replaces",
+      "Existing Methods"
+    ],
+    [
+      "5G Smart Grids",
+      "implements",
+      "Federated Learning-based Method"
+    ],
+    [
+      "Smart Meters",
+      "collects",
+      "Data"
+    ],
+    [
+      "Smart Meters",
+      "transmits_to",
+      "Cloud Server"
+    ],
+    [
+      "Smart Meters",
+      "performs",
+      "Local Inference"
+    ],
+    [
+      "Cloud Server",
+      "aggregates",
+      "Model Parameters"
+    ],
+    [
+      "Cloud Server",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Neural Network",
+      "processes",
+      "Data"
+    ],
+    [
+      "Neural Network",
+      "calculates",
+      "Gradients"
+    ],
+    [
+      "Smart Meters",
+      "sends",
+      "Updated Model Parameters"
+    ],
+    [
+      "Smart Grid System",
+      "benefits_from",
+      "Secure Intrusion Detection"
+    ],
+    [
+      "Smart Grid System",
+      "benefits_from",
+      "Efficient Intrusion Detection"
+    ],
+    [
+      "5G Communication Technology",
+      "improves",
+      "Data Transmission Speed"
+    ],
+    [
+      "5G Communication Technology",
+      "ensures",
+      "User Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Federated learning with local training, gradient computation, and parameter exchange",
+    "Core Problem Concept: Existing methods compromise user data privacy",
+    "Federated Learning-based Intrusion Detection Method",
+    "Key Component 1: Smart Meters",
+    "Key Component 2: Cloud Server",
+    "Primary Benefit: Secure and efficient intrusion detection for smart grids"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "5G Communication Technology",
+    "5G Smart Grids",
+    "Centralized Servers",
+    "Cloud Server",
+    "Data",
+    "Data Privacy Compromise",
+    "Data Transmission Speed",
+    "Efficient Intrusion Detection",
+    "Existing Methods",
+    "Federated Learning-based Method",
+    "Global Model",
+    "Gradients",
+    "Intrusion Detection",
+    "Local Inference",
+    "Model Parameters",
+    "Neural Network",
+    "Secure Intrusion Detection",
+    "Smart Grid System",
+    "Smart Grids",
+    "Smart Meters",
+    "Updated Model Parameters",
+    "User Privacy Protection"
+  ],
+  "knowledge_graph2_relation": [
+    "aggregates",
+    "benefits_from",
+    "calculates",
+    "causes",
+    "collects",
+    "controls",
+    "ensures",
+    "implements",
+    "improves",
+    "performs",
+    "processes",
+    "replaces",
+    "sends",
+    "stores",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06N3/04",
+    "G06N3/08",
+    "H04W12/121",
+    "Y04S40/20"
+  ]
+}

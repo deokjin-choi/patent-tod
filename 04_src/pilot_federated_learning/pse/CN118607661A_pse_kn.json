@@ -1,0 +1,156 @@
+{
+  "publication_number": "CN118607661A",
+  "title": "Local sharpness optimization method and system for federated learning based on approximate global perturbation",
+  "assignee": "Shanghai AI Innovation Center",
+  "filing_date": "2024-05-28",
+  "publication_date": "2024-09-06",
+  "pse": {
+    "problem": "The federated learning method faces challenges due to data heterogeneity, resulting in overfitting and a sharp, uneven loss surface during convergence, limiting its generalization ability.",
+    "solution_function": "Optimizes local sharpness of federated learning by considering global perturbations. It updates the parameters of the local model based on a local loss calculated using an approximated global perturbation and a preset local learning rate.",
+    "solution_structure": "Involves a central server, multiple user nodes, a global model, and a local model.",
+    "solution_implementation": "The global model is used to calculate an approximated global perturbation. A local loss is calculated using the approximated global perturbation and the preset local model. The local model parameters are updated based on the local loss and a preset local learning rate.",
+    "effect": "Improves the generalization ability of federated learning by optimizing the loss surface during convergence, reducing overfitting due to data heterogeneity."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Optimization",
+      "Addresses_Problem",
+      "Data Heterogeneity Problem"
+    ],
+    [
+      "Federated Learning Optimization",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Federated Learning Optimization",
+      "Comprises_Component",
+      "Multiple User Nodes"
+    ],
+    [
+      "Federated Learning Optimization",
+      "Comprises_Component",
+      "Global Model"
+    ],
+    [
+      "Federated Learning Optimization",
+      "Comprises_Component",
+      "Local Model"
+    ],
+    [
+      "Federated Learning Optimization",
+      "Implemented_By",
+      "Calculate Global Perturbation"
+    ],
+    [
+      "Federated Learning Optimization",
+      "Implemented_By",
+      "Calculate Local Loss"
+    ],
+    [
+      "Federated Learning Optimization",
+      "Implemented_By",
+      "Update Local Model Parameters"
+    ],
+    [
+      "Federated Learning Optimization",
+      "Achieves_Effect",
+      "Generalization Ability Improvement"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Method",
+      "faces_challenges_due_to",
+      "Data Heterogeneity"
+    ],
+    [
+      "Data Heterogeneity",
+      "results_in",
+      "Overfitting"
+    ],
+    [
+      "Overfitting",
+      "leads_to",
+      "Sharp, Uneven Loss Surface"
+    ],
+    [
+      "Federated Learning Method",
+      "converges",
+      "Loss Surface"
+    ],
+    [
+      "Local Model",
+      "updates_based_on",
+      "Local Loss"
+    ],
+    [
+      "Local Model",
+      "utilizes",
+      "Preset Local Learning Rate"
+    ],
+    [
+      "Global Model",
+      "calculates",
+      "Approximated Global Perturbation"
+    ],
+    [
+      "Federated Learning Method",
+      "optimizes",
+      "Local Sharpness"
+    ],
+    [
+      "Optimized Federated Learning",
+      "enhances",
+      "Generalization Ability"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculate Global Perturbation",
+    "Calculate Local Loss",
+    "Central Server",
+    "Data Heterogeneity Problem",
+    "Federated Learning Optimization",
+    "Generalization Ability Improvement",
+    "Global Model",
+    "Local Model",
+    "Multiple User Nodes",
+    "Update Local Model Parameters"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Approximated Global Perturbation",
+    "Data Heterogeneity",
+    "Federated Learning Method",
+    "Generalization Ability",
+    "Global Model",
+    "Local Loss",
+    "Local Model",
+    "Local Sharpness",
+    "Loss Surface",
+    "Optimized Federated Learning",
+    "Overfitting",
+    "Preset Local Learning Rate",
+    "Sharp, Uneven Loss Surface"
+  ],
+  "knowledge_graph2_relation": [
+    "calculates",
+    "converges",
+    "enhances",
+    "faces_challenges_due_to",
+    "leads_to",
+    "optimizes",
+    "results_in",
+    "updates_based_on",
+    "utilizes"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "Y02T10/40"
+  ]
+}

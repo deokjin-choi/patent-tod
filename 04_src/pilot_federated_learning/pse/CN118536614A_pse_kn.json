@@ -1,0 +1,187 @@
+{
+  "publication_number": "CN118536614A",
+  "title": "Federal learning modeling method, apparatus, system, device, and medium",
+  "assignee": "Shengdoushi Shanghai Science and Technology Development Co Ltd",
+  "filing_date": "2023-02-21",
+  "publication_date": "2024-08-23",
+  "pse": {
+    "problem": "The invention aims to address the challenge of performing machine learning tasks while maintaining user privacy protection and data security in a federated learning environment with multiple participants.",
+    "solution_function": "The method performs a federated learning modeling task between a first participant and at least one second participant. The first participant uses a model (first model) to perform online predictions, which generates first data. The second participant also uses a separate model (second model), and their contributions generate second data. A training dataset is constructed using both the first and second data. The first model is then updated (third model) based on this dataset. A fourth model is determined based on the performance of both the first and third models, and the first participant continues to use the fourth model for online predictions while the second participant uses the second model.",
+    "solution_structure": "The solution consists of a first training module within a device that coordinates federated learning tasks between multiple participants, generating and updating models, and constructing training datasets.",
+    "solution_implementation": "The online prediction process involves cooperation between the first participant and at least one second participant using their respective models to perform predictions. The training process updates the first model based on the constructed training dataset, and a fourth model is determined based on the performance of both the first and updated models.",
+    "effect": "The invention results in continued online prediction while maintaining user privacy and data security, as well as potential improvements in model performance through iterative updates."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "User Privacy Protection and Data Security in Federated Learning"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "First Participant Model"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Second Participant Model"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Online Prediction Process"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Training Process"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Continued Online Prediction with User Privacy and Data Security"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Machine Learning Tasks",
+      "addresses",
+      "User Privacy Protection and Data Security"
+    ],
+    [
+      "Federated Learning Environment",
+      "comprises",
+      "Multiple Participants"
+    ],
+    [
+      "First Participant",
+      "performs_online_predictions_on",
+      "First Model"
+    ],
+    [
+      "First Model",
+      "causes",
+      "First Data"
+    ],
+    [
+      "Second Participant",
+      "performs_separate_predictions_on",
+      "Second Model"
+    ],
+    [
+      "Second Model",
+      "causes",
+      "Second Data"
+    ],
+    [
+      "Federated Learning Task",
+      "includes",
+      "Construction of Training Dataset"
+    ],
+    [
+      "Training Dataset",
+      "comprises",
+      "First Data and Second Data"
+    ],
+    [
+      "First Model",
+      "updates_to",
+      "Third Model"
+    ],
+    [
+      "Performance of First Model and Third Model",
+      "determines",
+      "Fourth Model"
+    ],
+    [
+      "First Participant",
+      "continues_using",
+      "Fourth Model for Online Predictions"
+    ],
+    [
+      "Second Participant",
+      "continues_using",
+      "Second Model"
+    ],
+    [
+      "Solution",
+      "comprises",
+      "Training Module Within Device"
+    ],
+    [
+      "Online Prediction Process",
+      "involves",
+      "Cooperation Between First and Second Participants"
+    ],
+    [
+      "First Model",
+      "updates_based_on",
+      "Constructed Training Dataset"
+    ],
+    [
+      "Invention",
+      "results_in",
+      "Continued Online Prediction"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Continued Online Prediction with User Privacy and Data Security",
+    "Federated Learning Method",
+    "First Participant Model",
+    "Online Prediction Process",
+    "Second Participant Model",
+    "Training Process",
+    "User Privacy Protection and Data Security in Federated Learning"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Constructed Training Dataset",
+    "Construction of Training Dataset",
+    "Continued Online Prediction",
+    "Cooperation Between First and Second Participants",
+    "Federated Learning Environment",
+    "Federated Learning Task",
+    "First Data",
+    "First Data and Second Data",
+    "First Model",
+    "First Participant",
+    "Fourth Model",
+    "Fourth Model for Online Predictions",
+    "Invention",
+    "Machine Learning Tasks",
+    "Multiple Participants",
+    "Online Prediction Process",
+    "Performance of First Model and Third Model",
+    "Second Data",
+    "Second Model",
+    "Second Participant",
+    "Solution",
+    "Third Model",
+    "Training Dataset",
+    "Training Module Within Device",
+    "User Privacy Protection and Data Security"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "causes",
+    "comprises",
+    "continues_using",
+    "determines",
+    "includes",
+    "involves",
+    "performs_online_predictions_on",
+    "performs_separate_predictions_on",
+    "results_in",
+    "updates_based_on",
+    "updates_to"
+  ],
+  "cpc_code": [
+    "G06N20/00"
+  ]
+}

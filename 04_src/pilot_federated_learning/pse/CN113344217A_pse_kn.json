@@ -1,0 +1,157 @@
+{
+  "publication_number": "CN113344217A",
+  "title": "Federal learning method and system combining personalized differential privacy",
+  "assignee": "University of Science and Technology of China USTC",
+  "filing_date": "2021-06-18",
+  "publication_date": "2021-09-03",
+  "pse": {
+    "problem": "Existing federal learning methods do not efficiently protect data privacy due to the exposure of model parameters and lack of personalized privacy requirements.",
+    "solution_function": "The invention introduces a federated learning method with personalized differential privacy that reduces the impact of the differential privacy mechanism on the model effect while meeting user-specific privacy requirements.",
+    "solution_structure": "The system consists of a server side and multiple user sides, each participating in a round of training. The method utilizes differential privacy to protect data privacy.",
+    "solution_implementation": "The server side selects user sides for the current round of training. The user sides apply the differential privacy mechanism during model updates, reducing precision loss without compromising personalized privacy requirements.",
+    "effect": "This solution provides improved data privacy protection and reduces precision loss in federated learning scenarios."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method with Personalized Differential Privacy",
+      "Addresses_Problem",
+      "Inefficient Data Privacy Protection in Federal Learning Methods"
+    ],
+    [
+      "Federated Learning Method with Personalized Differential Privacy",
+      "Comprises_Component",
+      "Server Side"
+    ],
+    [
+      "Federated Learning Method with Personalized Differential Privacy",
+      "Comprises_Component",
+      "Multiple User Sides"
+    ],
+    [
+      "Federated Learning Method with Personalized Differential Privacy",
+      "Implemented_By",
+      "User Sides Training Selection by Server Side"
+    ],
+    [
+      "Federated Learning Method with Personalized Differential Privacy",
+      "Implemented_By",
+      "Differential Privacy Mechanism Application during Model Updates"
+    ],
+    [
+      "Federated Learning Method with Personalized Differential Privacy",
+      "Achieves_Effect",
+      "Improved Data Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Methods",
+      "lacks",
+      "Personalized Privacy Requirements"
+    ],
+    [
+      "Model Parameters",
+      "are_exposed",
+      "in Federal Learning Methods"
+    ],
+    [
+      "Differential Privacy Mechanism",
+      "protects",
+      "Data Privacy"
+    ],
+    [
+      "Differential Privacy Mechanism",
+      "impacts",
+      "Model Effect"
+    ],
+    [
+      "Personalized Differential Privacy",
+      "reduces",
+      "Impact of Differential Privacy Mechanism on Model Effect"
+    ],
+    [
+      "User-Specific Privacy Requirements",
+      "are_met",
+      "by Personalized Differential Privacy"
+    ],
+    [
+      "Server Side",
+      "selects",
+      "User Sides"
+    ],
+    [
+      "User Sides",
+      "apply",
+      "Differential Privacy Mechanism"
+    ],
+    [
+      "Model Updates",
+      "reduce",
+      "Precision Loss"
+    ],
+    [
+      "Personalized Differential Privacy",
+      "preserves",
+      "Personalized Privacy Requirements"
+    ],
+    [
+      "Federated Learning Methods",
+      "protects",
+      "Data Privacy"
+    ],
+    [
+      "Federated Learning Methods",
+      "reduces",
+      "Precision Loss"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Differential Privacy Mechanism Application during Model Updates",
+    "Federated Learning Method with Personalized Differential Privacy",
+    "Improved Data Privacy Protection",
+    "Inefficient Data Privacy Protection in Federal Learning Methods",
+    "Multiple User Sides",
+    "Server Side",
+    "User Sides Training Selection by Server Side"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Data Privacy",
+    "Differential Privacy Mechanism",
+    "Federal Learning Methods",
+    "Federated Learning Methods",
+    "Impact of Differential Privacy Mechanism on Model Effect",
+    "Model Effect",
+    "Model Parameters",
+    "Model Updates",
+    "Personalized Differential Privacy",
+    "Personalized Privacy Requirements",
+    "Precision Loss",
+    "Server Side",
+    "User Sides",
+    "User-Specific Privacy Requirements",
+    "by Personalized Differential Privacy",
+    "in Federal Learning Methods"
+  ],
+  "knowledge_graph2_relation": [
+    "apply",
+    "are_exposed",
+    "are_met",
+    "impacts",
+    "lacks",
+    "preserves",
+    "protects",
+    "reduce",
+    "reduces",
+    "selects"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

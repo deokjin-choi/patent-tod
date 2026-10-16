@@ -1,0 +1,231 @@
+{
+  "publication_number": "CN119067235A",
+  "title": "Federated learning method and system based on dual-end security protection",
+  "assignee": "Beijing Jiaotong University",
+  "filing_date": "2024-08-22",
+  "publication_date": "2024-12-03",
+  "pse": {
+    "problem": "Security risk in federal learning due to manipulated or hijacked clients causing data poisoning attacks against training data, which cannot be directly reviewed by the server due to privacy protection principles.",
+    "solution_function": "The system filters local client data and calculates local model abnormality degrees. It uses a credibility score to determine the aggregation weight of each local model during federal aggregation.",
+    "solution_structure": "The system includes a data filter, a server for feature extraction, history information saving, model filter based on probability distribution, and a classification self-encoder for training data filtering.",
+    "solution_implementation": "The server receives local models and data descriptions from each client. It filters the local data, extracts features, saves client history information, and calculates local model abnormality degrees using the model filter. The credibility score is determined based on the local data description and local model abnormality degree for each client. The server trains the data filter using a classification self-encoder with main task test data.",
+    "effect": "The system enhances the security and robustness of federal learning by detecting and mitigating potential attacks aiming at local training data and processes, thus improving the global quality of federal learning main tasks."
+  },
+  "knowledge_graph": [
+    [
+      "Filtering and Scoring System",
+      "Addresses_Problem",
+      "Security Risk in Federal Learning due to Data Poisoning Attacks"
+    ],
+    [
+      "Filtering and Scoring System",
+      "Comprises_Component",
+      "Data Filter"
+    ],
+    [
+      "Filtering and Scoring System",
+      "Comprises_Component",
+      "Server for Feature Extraction, History Information Saving, Model Filter"
+    ],
+    [
+      "Filtering and Scoring System",
+      "Implemented_By",
+      "Local Data Filtration"
+    ],
+    [
+      "Filtering and Scoring System",
+      "Implemented_By",
+      "Calculating Local Model Abnormality Degrees"
+    ],
+    [
+      "Filtering and Scoring System",
+      "Implemented_By",
+      "Determining Credibility Score"
+    ],
+    [
+      "Filtering and Scoring System",
+      "Achieves_Effect",
+      "Enhanced Security and Robustness in Federal Learning"
+    ],
+    [
+      "Filtering and Scoring System",
+      "Achieves_Effect",
+      "Improved Global Quality of Federal Learning Main Tasks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning",
+      "suffers_from",
+      "Security Risk"
+    ],
+    [
+      "Clients",
+      "manipulate_or_hijack",
+      "Training Data"
+    ],
+    [
+      "Clients",
+      "cause",
+      "Data Poisoning Attacks"
+    ],
+    [
+      "Server",
+      "cannot_directly_review",
+      "Training Data"
+    ],
+    [
+      "System",
+      "filters",
+      "Local Client Data"
+    ],
+    [
+      "System",
+      "calculates",
+      "Local Model Abnormality Degrees"
+    ],
+    [
+      "System",
+      "determines",
+      "Credibility Score"
+    ],
+    [
+      "Credibility Score",
+      "determines",
+      "Aggregation Weight"
+    ],
+    [
+      "Server",
+      "filters_local_data",
+      "During Federal Aggregation"
+    ],
+    [
+      "Data Filter",
+      "is_a_component_of",
+      "System"
+    ],
+    [
+      "Server",
+      "extracts_features",
+      "From Local Data"
+    ],
+    [
+      "Server",
+      "saves",
+      "Client History Information"
+    ],
+    [
+      "Model Filter",
+      "is_based_on",
+      "Probability Distribution"
+    ],
+    [
+      "Classification Self-Encoder",
+      "is_a_component_of",
+      "System"
+    ],
+    [
+      "Classification Self-Encoder",
+      "trains",
+      "Data Filter"
+    ],
+    [
+      "Server",
+      "receives",
+      "Local Models"
+    ],
+    [
+      "Server",
+      "receives",
+      "Data Descriptions"
+    ],
+    [
+      "Server",
+      "calculates",
+      "Local Model Abnormality Degrees"
+    ],
+    [
+      "System",
+      "improves",
+      "Global Quality of Federal Learning Main Tasks"
+    ],
+    [
+      "System",
+      "mitigates",
+      "Potential Attacks Against Local Training Data"
+    ],
+    [
+      "Security Risk",
+      "aims_at",
+      "Local Training Data and Processes"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Calculating Local Model Abnormality Degrees",
+    "Data Filter",
+    "Determining Credibility Score",
+    "Enhanced Security and Robustness in Federal Learning",
+    "Filtering and Scoring System",
+    "Improved Global Quality of Federal Learning Main Tasks",
+    "Local Data Filtration",
+    "Security Risk in Federal Learning due to Data Poisoning Attacks",
+    "Server for Feature Extraction, History Information Saving, Model Filter"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggregation Weight",
+    "Classification Self-Encoder",
+    "Client History Information",
+    "Clients",
+    "Credibility Score",
+    "Data Descriptions",
+    "Data Filter",
+    "Data Poisoning Attacks",
+    "During Federal Aggregation",
+    "Federal Learning",
+    "From Local Data",
+    "Global Quality of Federal Learning Main Tasks",
+    "Local Client Data",
+    "Local Model Abnormality Degrees",
+    "Local Models",
+    "Local Training Data and Processes",
+    "Model Filter",
+    "Potential Attacks Against Local Training Data",
+    "Probability Distribution",
+    "Security Risk",
+    "Server",
+    "System",
+    "Training Data"
+  ],
+  "knowledge_graph2_relation": [
+    "aims_at",
+    "calculates",
+    "cannot_directly_review",
+    "cause",
+    "determines",
+    "extracts_features",
+    "filters",
+    "filters_local_data",
+    "improves",
+    "is_a_component_of",
+    "is_based_on",
+    "manipulate_or_hijack",
+    "mitigates",
+    "receives",
+    "saves",
+    "suffers_from",
+    "trains"
+  ],
+  "cpc_code": [
+    "G06F18/213",
+    "G06F18/214",
+    "G06F18/24",
+    "G06F21/60",
+    "G06N20/00"
+  ]
+}

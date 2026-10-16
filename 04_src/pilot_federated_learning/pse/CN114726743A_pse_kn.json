@@ -1,0 +1,219 @@
+{
+  "publication_number": "CN114726743A",
+  "title": "Service function chain deployment method based on federal reinforcement learning",
+  "assignee": "Beijing Beishang Xidian Technology Co ltd",
+  "filing_date": "2022-03-04",
+  "publication_date": "2022-07-08",
+  "pse": {
+    "problem": "Existing service function chain (SFC) deployment technologies are not applicable to the complex and changeable IoT network, causing solution delay, local optimum traps, or slow convergence due to exploration of the huge IoT network space.",
+    "solution_function": "The method performs joint optimization of SFC deployment cost and energy consumption in a cloud-edge collaborative network scenario. It establishes two local SFC deployment algorithms based on parameterized deep Q-learning (P-DQN) for latency-sensitive and resource-intensive IoT network application requests at different time scales. A global SFC deployment model is trained using these parameters via federated learning, with a window value-based asynchronous federation.",
+    "solution_structure": "The system consists of cloud servers, edge servers, service function chains (SFC), and a federated learning framework. The federated learning framework coordinates the local P-DQN algorithms on each edge server and the global SFC deployment model.",
+    "solution_implementation": "In the cloud-edge collaborative network, the system deploys SFC at both the edge and the cloud to jointly optimize cost and energy consumption. At the edge level, two local P-DQN algorithms are employed for latency-sensitive and resource-intensive requests. The learned parameters from these algorithms are shared and used to train a global SFC deployment model via federated learning, which implements asynchronous updates based on a window value. ",
+    "effect": "The method improves the efficiency of SFC deployment in IoT networks by addressing solution delay, local optimum traps, and slow convergence issues through the use of parameterized deep Q-learning and federated learning."
+  },
+  "knowledge_graph": [
+    [
+      "Parameterized Deep Q-Learning Method",
+      "Addresses_Problem",
+      "Complex and Changeable IoT Network Deployment Issues"
+    ],
+    [
+      "Parameterized Deep Q-Learning Method",
+      "Comprises_Component",
+      "Local SFC Deployment Algorithms for Latency-Sensitive Requests"
+    ],
+    [
+      "Parameterized Deep Q-Learning Method",
+      "Comprises_Component",
+      "Local SFC Deployment Algorithms for Resource-Intensive Requests"
+    ],
+    [
+      "Parameterized Deep Q-Learning Method",
+      "Implemented_By",
+      "Cloud-Edge Collaborative Network Scenario"
+    ],
+    [
+      "Parameterized Deep Q-Learning Method",
+      "Achieves_Effect",
+      "Improved Efficiency of SFC Deployment in IoT Networks"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "IoT Network",
+      "causes",
+      "Complexity"
+    ],
+    [
+      "IoT Network",
+      "causes",
+      "Changeability"
+    ],
+    [
+      "Existing SFC Deployment Technologies",
+      "does_not_apply_to",
+      "IoT Network"
+    ],
+    [
+      "Solution Delay",
+      "affected_by",
+      "Existing SFC Deployment Technologies"
+    ],
+    [
+      "Local Optimum Traps",
+      "affected_by",
+      "Existing SFC Deployment Technologies"
+    ],
+    [
+      "Slow Convergence",
+      "affected_by",
+      "Existing SFC Deployment Technologies"
+    ],
+    [
+      "IoT Network Space",
+      "is_explored_by",
+      "Existing SFC Deployment Technologies"
+    ],
+    [
+      "Cloud-Edge Collaborative Network Scenario",
+      "optimizes",
+      "SFC Deployment Cost"
+    ],
+    [
+      "Cloud-Edge Collaborative Network Scenario",
+      "optimizes",
+      "Energy Consumption"
+    ],
+    [
+      "Cloud Servers",
+      "comprises",
+      "Cloud Computing"
+    ],
+    [
+      "Edge Servers",
+      "reduces",
+      "Network Delay"
+    ],
+    [
+      "SFC",
+      "is_deployed_at",
+      "Cloud-Edge Collaborative Network"
+    ],
+    [
+      "Latency-Sensitive Requests",
+      "employed_for",
+      "Local P-DQN Algorithm"
+    ],
+    [
+      "Resource-Intensive Requests",
+      "employed_for",
+      "Local P-DQN Algorithm"
+    ],
+    [
+      "Local P-DQN Algorithms",
+      "shared",
+      "Parameters"
+    ],
+    [
+      "Global SFC Deployment Model",
+      "trained_by",
+      "Parameters"
+    ],
+    [
+      "Global SFC Deployment Model",
+      "implements",
+      "Asynchronous Updates"
+    ],
+    [
+      "Window Value",
+      "controls",
+      "Asynchronous Updates"
+    ],
+    [
+      "IoT Network Efficiency",
+      "improved_by",
+      "Method"
+    ],
+    [
+      "Solution Delay",
+      "resolved_by",
+      "Method"
+    ],
+    [
+      "Local Optimum Traps",
+      "resolved_by",
+      "Method"
+    ],
+    [
+      "Slow Convergence",
+      "resolved_by",
+      "Method"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Cloud-Edge Collaborative Network Scenario",
+    "Complex and Changeable IoT Network Deployment Issues",
+    "Improved Efficiency of SFC Deployment in IoT Networks",
+    "Local SFC Deployment Algorithms for Latency-Sensitive Requests",
+    "Local SFC Deployment Algorithms for Resource-Intensive Requests",
+    "Parameterized Deep Q-Learning Method"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Asynchronous Updates",
+    "Changeability",
+    "Cloud Computing",
+    "Cloud Servers",
+    "Cloud-Edge Collaborative Network",
+    "Cloud-Edge Collaborative Network Scenario",
+    "Complexity",
+    "Edge Servers",
+    "Energy Consumption",
+    "Existing SFC Deployment Technologies",
+    "Global SFC Deployment Model",
+    "IoT Network",
+    "IoT Network Efficiency",
+    "IoT Network Space",
+    "Latency-Sensitive Requests",
+    "Local Optimum Traps",
+    "Local P-DQN Algorithm",
+    "Local P-DQN Algorithms",
+    "Method",
+    "Network Delay",
+    "Parameters",
+    "Resource-Intensive Requests",
+    "SFC",
+    "SFC Deployment Cost",
+    "Slow Convergence",
+    "Solution Delay",
+    "Window Value"
+  ],
+  "knowledge_graph2_relation": [
+    "affected_by",
+    "causes",
+    "comprises",
+    "controls",
+    "does_not_apply_to",
+    "employed_for",
+    "implements",
+    "improved_by",
+    "is_deployed_at",
+    "is_explored_by",
+    "optimizes",
+    "reduces",
+    "resolved_by",
+    "shared",
+    "trained_by"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "H04L41/0893",
+    "H04L41/145",
+    "Y02D30/70"
+  ]
+}

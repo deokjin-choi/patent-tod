@@ -1,0 +1,135 @@
+{
+  "publication_number": "US20250190865A1",
+  "title": "Decentralized federated learning using a random walk over a communication graph",
+  "assignee": "Qualcomm Inc",
+  "filing_date": "2023-05-17",
+  "publication_date": "2025-06-12",
+  "pse": {
+    "problem": "Limitations and potential privacy issues in existing federated learning techniques when used for security-sensitive or privacy-sensitive applications, such as biometric authentication or medical applications.",
+    "solution_function": "A decentralized federated learning method using a random walk over a communication graph. The system updates local machine learning model parameters and optimization state values based on a local dataset. A peer device is selected for refining the machine learning model based on the communication graph data object, which represents connections between devices. The updated parameters and optimization state values are sent to the selected peer device for further refinement.",
+    "solution_structure": "The system consists of client devices interconnected in a communication graph. Each device has capabilities to receive optimization parameters, machine learning model parameters, and optimization state values to be updated based on local data sets. There is no central server or coordinator.",
+    "solution_implementation": "Upon receiving the optimization parameters, local machine learning model parameters, and optimization state values, a device updates its machine learning model parameters and optimization state values based on its local dataset. A peer device for refining the machine learning model is selected using random walk traversal over the communication graph. The updated parameters and optimization state values are sent to the selected peer device for further refinement.",
+    "effect": "This method provides improved techniques for training machine learning models using federated learning, enabling security-sensitive or privacy-sensitive applications to train models without exposing data that can be used to break biometric authentication applications or cause a loss of privacy in other sensitive data."
+  },
+  "knowledge_graph": [
+    [
+      "Decentralized Federated Learning Method",
+      "Addresses_Problem",
+      "Core Problem Concept"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Comprises_Component",
+      "Random Walk over Communication Graph"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Comprises_Component",
+      "Local Machine Learning Model Parameters Update"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Implemented_By",
+      "Random Walk Traversal for Peer Device Selection"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "Achieves_Effect",
+      "Improved Techniques for Training ML Models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Decentralized Federated Learning",
+      "addresses",
+      "Limitations and potential privacy issues"
+    ],
+    [
+      "Random Walk",
+      "controls",
+      "Peer Device Selection"
+    ],
+    [
+      "Communication Graph Data Object",
+      "represents",
+      "Connections between Devices"
+    ],
+    [
+      "Local Machine Learning Model Parameters",
+      "updated",
+      "Based on Local Datasets"
+    ],
+    [
+      "Device",
+      "communicates_with",
+      "Selected Peer Device"
+    ],
+    [
+      "Decentralized Federated Learning Method",
+      "achieves",
+      "Improved Techniques for Training ML Models"
+    ],
+    [
+      "Security-Sensitive or Privacy-Sensitive Applications",
+      "benefit from",
+      "Improved Techniques for Training ML Models"
+    ],
+    [
+      "Decentralized Federated Learning",
+      "prevents",
+      "Exposure of Data in Biometric Authentication"
+    ],
+    [
+      "Decentralized Federated Learning",
+      "preserves",
+      "Privacy in Other Sensitive Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Problem Concept",
+    "Decentralized Federated Learning Method",
+    "Improved Techniques for Training ML Models",
+    "Local Machine Learning Model Parameters Update",
+    "Random Walk Traversal for Peer Device Selection",
+    "Random Walk over Communication Graph"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Based on Local Datasets",
+    "Communication Graph Data Object",
+    "Connections between Devices",
+    "Decentralized Federated Learning",
+    "Decentralized Federated Learning Method",
+    "Device",
+    "Exposure of Data in Biometric Authentication",
+    "Improved Techniques for Training ML Models",
+    "Limitations and potential privacy issues",
+    "Local Machine Learning Model Parameters",
+    "Peer Device Selection",
+    "Privacy in Other Sensitive Data",
+    "Random Walk",
+    "Security-Sensitive or Privacy-Sensitive Applications",
+    "Selected Peer Device"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "addresses",
+    "benefit from",
+    "communicates_with",
+    "controls",
+    "preserves",
+    "prevents",
+    "represents",
+    "updated"
+  ],
+  "cpc_code": [
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/098"
+  ]
+}

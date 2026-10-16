@@ -1,0 +1,204 @@
+{
+  "publication_number": "US20240177057A1",
+  "title": "Federated learning method and apparatus, electronic device, and storage medium",
+  "assignee": "Jingdong Technology Holding Co Ltd",
+  "filing_date": "2022-04-02",
+  "publication_date": "2024-05-30",
+  "pse": {
+    "problem": "The invention addresses the limitation in traditional machine learning methods that require large amounts of labeled data to be collected, processed, and transmitted centrally for model training.",
+    "solution_function": "The federated learning method performs decentralized model training by allowing clients (e.g., devices) to collaboratively update a global model by exchanging gradient information. The server coordinates the communication between clients and manages the distribution of target gradient information.",
+    "solution_structure": "The electronic device includes at least one processor and memory, which stores instructions to execute federated learning-based training. The system consists of multiple client devices and a central server.",
+    "solution_implementation": "Each client performs local model training on its data, calculates the gradient, and sends it to the server. The server aggregates the received gradients for the same labeled sample from different clients, determines which client owns each labeled sample, and sends the target gradients back to the corresponding client for updating their local models. This process continues until convergence or a specified number of iterations.",
+    "effect": "The federated learning method reduces the need for central data collection and processing, thereby improving privacy and reducing communication costs. The distributed training can also handle a large number of devices with limited resources."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Method",
+      "Addresses_Problem",
+      "Large Amounts Labeled Data Requirement"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Processor"
+    ],
+    [
+      "Federated Learning Method",
+      "Comprises_Component",
+      "Memory"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Local Model Training"
+    ],
+    [
+      "Federated Learning Method",
+      "Implemented_By",
+      "Gradient Information Exchange"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Central Data Collection"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Improved Privacy"
+    ],
+    [
+      "Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Communication Costs"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Machine Learning",
+      "requires",
+      "Large Amounts of Labeled Data"
+    ],
+    [
+      "Central Server",
+      "collects",
+      "Labeled Data"
+    ],
+    [
+      "Central Server",
+      "processes",
+      "Labeled Data"
+    ],
+    [
+      "Central Server",
+      "transmits",
+      "Gradient Information"
+    ],
+    [
+      "Client Devices",
+      "perform",
+      "Local Model Training"
+    ],
+    [
+      "Federated Learning Method",
+      "allows",
+      "Clients to collaborate"
+    ],
+    [
+      "Global Model",
+      "updates",
+      "by exchanging gradient information"
+    ],
+    [
+      "Server",
+      "coordinates",
+      "Communication between Clients"
+    ],
+    [
+      "Server",
+      "distributes",
+      "Target Gradient Information"
+    ],
+    [
+      "Client Devices",
+      "send",
+      "Gradients to Server"
+    ],
+    [
+      "Client Devices",
+      "receive",
+      "Target Gradients from Server"
+    ],
+    [
+      "Local Models",
+      "update",
+      "by receiving Target Gradients"
+    ],
+    [
+      "Federated Learning Method",
+      "improves",
+      "Privacy"
+    ],
+    [
+      "Federated Learning Method",
+      "reduces",
+      "Communication Costs"
+    ],
+    [
+      "Distributed Training",
+      "handles",
+      "Large Number of Devices"
+    ],
+    [
+      "Limited Resource Devices",
+      "benefit from",
+      "Distributed Training"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Federated Learning Method",
+    "Gradient Information Exchange",
+    "Improved Privacy",
+    "Large Amounts Labeled Data Requirement",
+    "Local Model Training",
+    "Memory",
+    "Processor",
+    "Reduced Central Data Collection",
+    "Reduced Communication Costs"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Client Devices",
+    "Clients to collaborate",
+    "Communication Costs",
+    "Communication between Clients",
+    "Distributed Training",
+    "Federated Learning Method",
+    "Global Model",
+    "Gradient Information",
+    "Gradients to Server",
+    "Labeled Data",
+    "Large Amounts of Labeled Data",
+    "Large Number of Devices",
+    "Limited Resource Devices",
+    "Local Model Training",
+    "Local Models",
+    "Privacy",
+    "Server",
+    "Target Gradient Information",
+    "Target Gradients from Server",
+    "Traditional Machine Learning",
+    "by exchanging gradient information",
+    "by receiving Target Gradients"
+  ],
+  "knowledge_graph2_relation": [
+    "allows",
+    "benefit from",
+    "collects",
+    "coordinates",
+    "distributes",
+    "handles",
+    "improves",
+    "perform",
+    "processes",
+    "receive",
+    "reduces",
+    "requires",
+    "send",
+    "transmits",
+    "update",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F21/602",
+    "G06N20/00",
+    "G06N20/20",
+    "G06N3/08"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "publication_number": "CN118885130A",
+  "title": "A data storage optimization method for railway CTC system cloud platform",
+  "assignee": "China Railway Construction Network Information Technology Co ltd",
+  "filing_date": "2024-09-29",
+  "publication_date": "2024-11-01",
+  "pse": {
+    "problem": "Data transmission delay and bandwidth pressure due to centralized data storage in railway CTC system, prone to single point failure, security and privacy protection issues",
+    "solution_function": "A method that combines edge computing, federated learning, and quantum computing for real-time collection of train operation data, preprocessing, local storage, model training, parameter uploading to the central server, aggregation, and update.",
+    "solution_structure": "Edge computing devices along railways and at stations (data collectors), edge computing device's local storage (for storing trained models), central server (for data aggregation and updates)",
+    "solution_implementation": "Data collection by edge devices -> First preprocessing of operation data -> Second preprocessing and initial storage -> Local training of machine learning model on edge device -> Saving of trained model parameters and structure in local storage -> Regular uploading of model parameters to central server for aggregation and update",
+    "effect": "Improved data storage efficiency, reduced data transmission delays and bandwidth usage, increased system availability, and enhanced data security and privacy protection"
+  },
+  "knowledge_graph": [
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Addresses_Problem",
+      "Data Transmission Delay and Bandwidth Pressure"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Comprises_Component",
+      "Data Collectors"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Comprises_Component",
+      "Local Storage"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Implemented_By",
+      "Preprocessing of Operation Data"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Implemented_By",
+      "Training of Machine Learning Model"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Achieves_Effect",
+      "Improved Data Storage Efficiency"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Achieves_Effect",
+      "Reduced Data Transmission Delays"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Achieves_Effect",
+      "Reduced Bandwidth Usage"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Achieves_Effect",
+      "Increased System Availability"
+    ],
+    [
+      "Edge Computing, Federated Learning, Quantum Computing",
+      "Achieves_Effect",
+      "Enhanced Data Security and Privacy Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Railway CTC system",
+      "causes",
+      "Single point failure"
+    ],
+    [
+      "Railway CTC system",
+      "causes",
+      "Security and privacy protection issues"
+    ],
+    [
+      "Edge computing devices (along railways and at stations)",
+      "comprises",
+      "Data collectors"
+    ],
+    [
+      "Edge computing device's local storage",
+      "stores",
+      "Trained models"
+    ],
+    [
+      "Central server",
+      "processes",
+      "Data aggregation and updates"
+    ],
+    [
+      "Edge computing",
+      "controls",
+      "Real-time collection of train operation data"
+    ],
+    [
+      "Federated learning",
+      "processes",
+      "Local preprocessing of operation data"
+    ],
+    [
+      "Quantum computing",
+      "processes",
+      "Machine learning model training"
+    ],
+    [
+      "Quantum computing",
+      "uploads",
+      "Model parameters to central server"
+    ],
+    [
+      "Edge computing devices (along railways and at stations)",
+      "reduces",
+      "Data transmission delays"
+    ],
+    [
+      "Edge computing devices (along railways and at stations)",
+      "reduces",
+      "Bandwidth usage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Data Collectors",
+    "Data Transmission Delay and Bandwidth Pressure",
+    "Edge Computing, Federated Learning, Quantum Computing",
+    "Enhanced Data Security and Privacy Protection",
+    "Improved Data Storage Efficiency",
+    "Increased System Availability",
+    "Local Storage",
+    "Preprocessing of Operation Data",
+    "Reduced Bandwidth Usage",
+    "Reduced Data Transmission Delays",
+    "Training of Machine Learning Model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Bandwidth usage",
+    "Central server",
+    "Data aggregation and updates",
+    "Data collectors",
+    "Data transmission delays",
+    "Edge computing",
+    "Edge computing device's local storage",
+    "Edge computing devices (along railways and at stations)",
+    "Federated learning",
+    "Local preprocessing of operation data",
+    "Machine learning model training",
+    "Model parameters to central server",
+    "Quantum computing",
+    "Railway CTC system",
+    "Real-time collection of train operation data",
+    "Security and privacy protection issues",
+    "Single point failure",
+    "Trained models"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "comprises",
+    "controls",
+    "processes",
+    "reduces",
+    "stores",
+    "uploads"
+  ],
+  "cpc_code": [
+    "B61L27/40",
+    "G06F3/0611",
+    "G06F3/067",
+    "G06F9/5072",
+    "G06N10/60",
+    "G06N20/00",
+    "H04L67/1095",
+    "H04L67/1097",
+    "H04L67/12",
+    "Y02T10/40"
+  ]
+}

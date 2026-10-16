@@ -1,0 +1,251 @@
+{
+  "publication_number": "CN115134077A",
+  "title": "Enterprise power load joint prediction method and system based on transverse LSTM federal learning",
+  "assignee": "Information Center of Yunnan Power Grid Co Ltd",
+  "filing_date": "2022-06-30",
+  "publication_date": "2022-09-30",
+  "pse": {
+    "problem": "Traditional methods cannot accurately predict enterprise power load due to influence from various unqualified factors and privacy concerns in collecting, storing, and exchanging real-time power load data.",
+    "solution_function": "The method performs joint prediction of enterprise power load using horizontal LSTM federal learning, ensuring privacy and safety of intermediate transfer parameters and local data, fully excavating historical data information, and efficiently and accurately analyzing power load.",
+    "solution_structure": "The solution consists of participants, a secret key, public keys (pk), private keys (sk), an LSTM model with parameters w, learning rate eta, global iteration number j, ciphertexts, and an aggregation model.",
+    "solution_implementation": "1. Generate a secret key and public/private keys based on LSTM model parameters, broadcast the public keys to all participants.\n2. Initialize local iteration times E of each participant, the global iteration number j, parameter w of LSTM model j, and learning rate eta.\n3. Perform local iteration E using the LSTM model, learning rate eta, and global iteration times j with local data of participants to obtain an updated LSTM model.\n4. Encrypt the updated LSTM model based on Paillier addition homomorphic encryption and the local public key pk to get a ciphertext.\n5. Broadcast the updated LSTM model parameters, iteration times, receive ciphertexts from participants, aggregate received ciphertexts after receiving K ciphertexts, and inform other participants not uploaded to stop local iteration.\n6. Decrypt the received ciphertext using private key sk, weight and update the aggregation model according to the data amount locally used by the participants, update the global iteration times j, and broadcast the aggregation result and updated iteration times to all participants.\n7. Repeat steps 3-6 until the global iteration number j is larger than a set threshold value.",
+    "effect": "Improved accuracy in predicting enterprise power load, ensuring privacy and safety of intermediate transfer parameters and local data"
+  },
+  "knowledge_graph": [
+    [
+      "Horizontal LSTM Federal Learning",
+      "Addresses_Problem",
+      "Traditional Methods Prediction Inaccuracy"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "Secret Key"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "Public Keys (pk)"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "Private Keys (sk)"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "LSTM Model"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "Parameters w"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "Learning Rate eta"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "Global Iteration Number j"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "Ciphertexts"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Comprises_Component",
+      "Aggregation Model"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Implemented_By",
+      "Core Operation Logic"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Achieves_Effect",
+      "Improved Accuracy in Predicting Enterprise Power Load"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "Achieves_Effect",
+      "Privacy and Safety of Intermediate Transfer Parameters and Local Data"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Traditional Methods",
+      "cannot_accurately_predict",
+      "Enterprise Power Load"
+    ],
+    [
+      "Various Unqualified Factors",
+      "influence",
+      "Traditional Methods"
+    ],
+    [
+      "Privacy Concerns",
+      "affect",
+      "Collecting, Storing, and Exchanging Real-Time Power Load Data"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "ensures_privacy",
+      "Intermediate Transfer Parameters and Local Data"
+    ],
+    [
+      "Horizontal LSTM Federal Learning",
+      "efficiently_analyzes",
+      "Power Load"
+    ],
+    [
+      "Participants",
+      "possesses",
+      "Secret Key"
+    ],
+    [
+      "Participants",
+      "possesses",
+      "Public Keys (pk)"
+    ],
+    [
+      "Participants",
+      "possesses",
+      "Private Keys (sk)"
+    ],
+    [
+      "LSTM Model",
+      "comprises",
+      "Parameters (w)"
+    ],
+    [
+      "LSTM Model",
+      "requires",
+      "Learning Rate (eta)"
+    ],
+    [
+      "Global Iteration Number",
+      "increments",
+      "j"
+    ],
+    [
+      "Ciphertexts",
+      "received_from_participants",
+      "Aggregation Model"
+    ],
+    [
+      "Encrypted Data",
+      "transmits_to",
+      "Other Participants Not Uploaded"
+    ],
+    [
+      "Paillier Addition Homomorphic Encryption",
+      "encrypts",
+      "Updated LSTM Model Parameters"
+    ],
+    [
+      "Aggreagation Model",
+      "updates",
+      "Global Iteration Times (j)"
+    ],
+    [
+      "Aggregated Data",
+      "transmits_to",
+      "All Participants"
+    ],
+    [
+      "Improved Accuracy",
+      "in",
+      "Predicting Enterprise Power Load"
+    ],
+    [
+      "Privacy and Safety",
+      "ensured",
+      "of Intermediate Transfer Parameters and Local Data"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Aggregation Model",
+    "Ciphertexts",
+    "Core Operation Logic",
+    "Global Iteration Number j",
+    "Horizontal LSTM Federal Learning",
+    "Improved Accuracy in Predicting Enterprise Power Load",
+    "LSTM Model",
+    "Learning Rate eta",
+    "Parameters w",
+    "Privacy and Safety of Intermediate Transfer Parameters and Local Data",
+    "Private Keys (sk)",
+    "Public Keys (pk)",
+    "Secret Key",
+    "Traditional Methods Prediction Inaccuracy"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Aggreagation Model",
+    "Aggregated Data",
+    "Aggregation Model",
+    "All Participants",
+    "Ciphertexts",
+    "Collecting, Storing, and Exchanging Real-Time Power Load Data",
+    "Encrypted Data",
+    "Enterprise Power Load",
+    "Global Iteration Number",
+    "Global Iteration Times (j)",
+    "Horizontal LSTM Federal Learning",
+    "Improved Accuracy",
+    "Intermediate Transfer Parameters and Local Data",
+    "LSTM Model",
+    "Learning Rate (eta)",
+    "Other Participants Not Uploaded",
+    "Paillier Addition Homomorphic Encryption",
+    "Parameters (w)",
+    "Participants",
+    "Power Load",
+    "Predicting Enterprise Power Load",
+    "Privacy Concerns",
+    "Privacy and Safety",
+    "Private Keys (sk)",
+    "Public Keys (pk)",
+    "Secret Key",
+    "Traditional Methods",
+    "Updated LSTM Model Parameters",
+    "Various Unqualified Factors",
+    "j",
+    "of Intermediate Transfer Parameters and Local Data"
+  ],
+  "knowledge_graph2_relation": [
+    "affect",
+    "cannot_accurately_predict",
+    "comprises",
+    "efficiently_analyzes",
+    "encrypts",
+    "ensured",
+    "ensures_privacy",
+    "in",
+    "increments",
+    "influence",
+    "possesses",
+    "received_from_participants",
+    "requires",
+    "transmits_to",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06N3/08",
+    "H04L63/0428",
+    "H04L9/008",
+    "H04L9/0861"
+  ]
+}

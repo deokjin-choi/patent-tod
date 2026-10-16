@@ -1,0 +1,140 @@
+{
+  "publication_number": "CN113609508A",
+  "title": "Block chain-based federal learning method, device, equipment and storage medium",
+  "assignee": "Shanghai Dianrong Information Technology Co ltd",
+  "filing_date": "2021-08-24",
+  "publication_date": "2021-11-05",
+  "pse": {
+    "problem": "Complexity in implementing a federal learning platform, lack of trusted certificate storage and traceability, and risk of acquiring or leaking intermediate training models by aggregation server",
+    "solution_function": "Creates a sub account book for each federated learning instance, stores participant node's training data locally, calls a smart contract-based training algorithm on each participant node to train a model, and encrypts the intermediate training model",
+    "solution_structure": "Business layer, sub account book, private data storage area in participant nodes, smart contract-based training algorithms on participant nodes",
+    "solution_implementation": "Upon federated learning instance start, a sub account book is created. The business layer sends training data and corresponding smart contracts to each participant node. Each participant node stores the data locally, calls their respective smart contract to train a model, and encrypts the intermediate model",
+    "effect": "Simplifies complexity in implementing federal learning platforms, enables trusted certificate storage and traceability, reduces risk of intermediary training model acquisition or leakage"
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Platform",
+      "Addresses_Problem",
+      "Complexity Implementation Federal Learning Platform"
+    ],
+    [
+      "Federated Learning Platform",
+      "Comprises_Component",
+      "Sub Account Book"
+    ],
+    [
+      "Federated Learning Platform",
+      "Comprises_Component",
+      "Private Data Storage Area in Participant Nodes"
+    ],
+    [
+      "Federated Learning Platform",
+      "Implemented_By",
+      "Smart Contract-based Training Algorithms on Participant Nodes"
+    ],
+    [
+      "Federated Learning Platform",
+      "Achieves_Effect",
+      "Trusted Certificate Storage and Traceability"
+    ],
+    [
+      "Federated Learning Platform",
+      "Achieves_Effect",
+      "Reduced Risk of Intermediary Training Model Acquisition or Leakage"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federal Learning Platform Implementation",
+      "causes",
+      "Complexity"
+    ],
+    [
+      "Federal Learning Platform Implementation",
+      "lacks",
+      "Trusted Certificate Storage and Traceability"
+    ],
+    [
+      "Federal Learning Platform Implementation",
+      "poses_risk",
+      "Acquiring or Leaking Intermediate Training Models"
+    ],
+    [
+      "Sub Account Book",
+      "stores",
+      "Participant Node's Training Data Locally"
+    ],
+    [
+      "Smart Contract-based Training Algorithm",
+      "is_called_on",
+      "Each Participant Node"
+    ],
+    [
+      "Encrypted Intermediate Model",
+      "reduces",
+      "Risk of Intermediary Training Model Acquisition or Leakage"
+    ],
+    [
+      "Sub Account Book",
+      "comprises",
+      "Business Layer"
+    ],
+    [
+      "Private Data Storage Area",
+      "includes",
+      "Participant Nodes"
+    ],
+    [
+      "Smart Contract-based Training Algorithm",
+      "is_implemented_by",
+      "Participant Nodes"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Complexity Implementation Federal Learning Platform",
+    "Federated Learning Platform",
+    "Private Data Storage Area in Participant Nodes",
+    "Reduced Risk of Intermediary Training Model Acquisition or Leakage",
+    "Smart Contract-based Training Algorithms on Participant Nodes",
+    "Sub Account Book",
+    "Trusted Certificate Storage and Traceability"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Acquiring or Leaking Intermediate Training Models",
+    "Business Layer",
+    "Complexity",
+    "Each Participant Node",
+    "Encrypted Intermediate Model",
+    "Federal Learning Platform Implementation",
+    "Participant Node's Training Data Locally",
+    "Participant Nodes",
+    "Private Data Storage Area",
+    "Risk of Intermediary Training Model Acquisition or Leakage",
+    "Smart Contract-based Training Algorithm",
+    "Sub Account Book",
+    "Trusted Certificate Storage and Traceability"
+  ],
+  "knowledge_graph2_relation": [
+    "causes",
+    "comprises",
+    "includes",
+    "is_called_on",
+    "is_implemented_by",
+    "lacks",
+    "poses_risk",
+    "reduces",
+    "stores"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F21/602",
+    "G06F21/64",
+    "G06N20/00"
+  ]
+}

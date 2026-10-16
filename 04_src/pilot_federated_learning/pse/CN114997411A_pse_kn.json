@@ -1,0 +1,126 @@
+{
+  "publication_number": "CN114997411A",
+  "title": "Contribution calculation method based on federal learning and related equipment",
+  "assignee": "Chinese University of Hong Kong Shenzhen",
+  "filing_date": "2022-05-11",
+  "publication_date": "2022-09-02",
+  "pse": {
+    "problem": "Traditional federated learning methods struggle to accurately measure the contribution value of different participants in federated learning of a target model.",
+    "solution_function": "The invention proposes a method that calculates target Shapley values for multiple participant devices based on their participation rounds and resource consumption. The participant's contribution value is calculated using these target Shapley values. Additionally, it calculates reward data for federated learning based on the total profit, resource cost of each participant device, and their contribution value.",
+    "solution_structure": "The solution includes a federated server, multiple participant devices, and preset factors corresponding to resource consumption.",
+    "solution_implementation": "The method involves obtaining target Shapley values for each participant device, calculating the resource cost of each participant device based on their resource consumption, obtaining the total profit of the federated learning, and calculating reward data using these values.",
+    "effect": "The solution offers fair and accurate measurement of contribution value for different participants in federated learning, enabling a more equitable distribution of rewards."
+  },
+  "knowledge_graph": [
+    [
+      "Target Shapley Value Calculation Method",
+      "Addresses_Problem",
+      "Federated Learning Contribution Value Struggle"
+    ],
+    [
+      "Target Shapley Value Calculation Method",
+      "Comprises_Component",
+      "Federated Server"
+    ],
+    [
+      "Target Shapley Value Calculation Method",
+      "Comprises_Component",
+      "Participant Devices"
+    ],
+    [
+      "Target Shapley Value Calculation Method",
+      "Implemented_By",
+      "Resource Consumption-based Participation Round Calculation"
+    ],
+    [
+      "Target Shapley Value Calculation Method",
+      "Implemented_By",
+      "Total Profit, Resource Cost and Contribution Value Based Reward Data Calculation"
+    ],
+    [
+      "Target Shapley Value Calculation Method",
+      "Achieves_Effect",
+      "Fair and Accurate Contribution Value Measurement in Federated Learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning",
+      "controls",
+      "Target Model"
+    ],
+    [
+      "Participant Devices",
+      "consumes",
+      "Resources"
+    ],
+    [
+      "Federated Server",
+      "calculates",
+      "Shapley Values"
+    ],
+    [
+      "Preset Factors",
+      "corresponds_to",
+      "Resource Consumption"
+    ],
+    [
+      "Total Profit",
+      "affects",
+      "Reward Data"
+    ],
+    [
+      "Contribution Value",
+      "is_calculated_by",
+      "Target Shapley Values"
+    ],
+    [
+      "Reward Data",
+      "represents",
+      "Distribution of Rewards"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Fair and Accurate Contribution Value Measurement in Federated Learning",
+    "Federated Learning Contribution Value Struggle",
+    "Federated Server",
+    "Participant Devices",
+    "Resource Consumption-based Participation Round Calculation",
+    "Target Shapley Value Calculation Method",
+    "Total Profit, Resource Cost and Contribution Value Based Reward Data Calculation"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Contribution Value",
+    "Distribution of Rewards",
+    "Federated Learning",
+    "Federated Server",
+    "Participant Devices",
+    "Preset Factors",
+    "Resource Consumption",
+    "Resources",
+    "Reward Data",
+    "Shapley Values",
+    "Target Model",
+    "Target Shapley Values",
+    "Total Profit"
+  ],
+  "knowledge_graph2_relation": [
+    "affects",
+    "calculates",
+    "consumes",
+    "controls",
+    "corresponds_to",
+    "is_calculated_by",
+    "represents"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00"
+  ]
+}

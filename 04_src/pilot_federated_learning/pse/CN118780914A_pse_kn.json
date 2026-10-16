@@ -1,0 +1,124 @@
+{
+  "publication_number": "CN118780914A",
+  "title": "Privacy-preserving reinforcement learning green certificate trading method in energy internet",
+  "assignee": "State Grid Heilongjiang Electric Power Co Ltd",
+  "filing_date": "2024-07-05",
+  "publication_date": "2024-10-15",
+  "pse": {
+    "problem": "The method aims to address the challenge of ensuring data privacy while accurately predicting wind power capacity for green certificate scheduling in energy internet.",
+    "solution_function": "The invention presents a reinforcement learning approach that generates synthetic renewable energy data with privacy protection, enabling accurate prediction without data leakage.",
+    "solution_structure": "The solution involves multiple agents using the BGAN generative model algorithm to generate data, with each agent's samples being unique and distinct from other data sets in the system.",
+    "solution_implementation": "The BGAN architecture learns to generate synthetic data based on historical wind farm data, ensuring privacy by making each agent's samples similar only to their own data set and not adjacent ones.",
+    "effect": "This solution improves the accuracy of renewable energy generation prediction while maintaining privacy, thereby enhancing power and green certificate scheduling under the green certificate trading model in the energy internet."
+  },
+  "knowledge_graph": [
+    [
+      "Reinforcement Learning Approach",
+      "Addresses_Problem",
+      "Ensuring Data Privacy in Wind Power Capacity Prediction"
+    ],
+    [
+      "Reinforcement Learning Approach",
+      "Comprises_Component",
+      "BGAN Generative Model Algorithm"
+    ],
+    [
+      "Reinforcement Learning Approach",
+      "Implemented_By",
+      "Synthetic Data Generation Based on Historical Wind Farm Data"
+    ],
+    [
+      "Reinforcement Learning Approach",
+      "Achieves_Effect",
+      "Improved Accuracy in Renewable Energy Generation Prediction"
+    ],
+    [
+      "Reinforcement Learning Approach",
+      "Addresses_Problem",
+      "Maintaining Privacy in Power and Green Certificate Scheduling"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Data Privacy",
+      "addresses",
+      "Challenge"
+    ],
+    [
+      "Reinforcement Learning Approach",
+      "generates",
+      "Synthetic Renewable Energy Data"
+    ],
+    [
+      "BGAN Generative Model Algorithm",
+      "learns",
+      "to generate synthetic data"
+    ],
+    [
+      "Historical Wind Farm Data",
+      "ensures",
+      "Privacy Protection"
+    ],
+    [
+      "Agent's Samples",
+      "are similar only to their own data set"
+    ],
+    [
+      "Agent's Samples",
+      "are distinct from other data sets in the system"
+    ],
+    [
+      "Renewable Energy Generation Prediction",
+      "becomes accurate"
+    ],
+    [
+      "Data Leakage",
+      "is avoided"
+    ],
+    [
+      "Power and Green Certificate Scheduling",
+      "benefits under the green certificate trading model"
+    ],
+    [
+      "Energy Internet",
+      "improves"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "BGAN Generative Model Algorithm",
+    "Ensuring Data Privacy in Wind Power Capacity Prediction",
+    "Improved Accuracy in Renewable Energy Generation Prediction",
+    "Maintaining Privacy in Power and Green Certificate Scheduling",
+    "Reinforcement Learning Approach",
+    "Synthetic Data Generation Based on Historical Wind Farm Data"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "BGAN Generative Model Algorithm",
+    "Challenge",
+    "Data Privacy",
+    "Historical Wind Farm Data",
+    "Privacy Protection",
+    "Reinforcement Learning Approach",
+    "Synthetic Renewable Energy Data",
+    "to generate synthetic data"
+  ],
+  "knowledge_graph2_relation": [
+    "addresses",
+    "ensures",
+    "generates",
+    "learns"
+  ],
+  "cpc_code": [
+    "G06F21/6245",
+    "G06N20/00",
+    "G06N3/092",
+    "G06Q40/04",
+    "H02J3/004"
+  ]
+}

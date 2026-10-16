@@ -1,0 +1,273 @@
+{
+  "publication_number": "CN114707670A",
+  "title": "Non-label data-oriented heterogeneous federated learning method and system",
+  "assignee": "National University of Defense Technology",
+  "filing_date": "2022-04-07",
+  "publication_date": "2022-07-05",
+  "pse": {
+    "problem": "Existing federated learning methods suffer from high communication overhead, data privacy risks, and are unable to effectively utilize system heterogeneity or handle unlabeled data.",
+    "solution_function": "The invention proposes a heterogeneous federated learning method that addresses the above issues by locally training adaptive models on various client devices using unlabeled data. The system collectively trains a global model that incorporates diverse features of the client data while preserving user privacy and reducing communication overhead.",
+    "solution_structure": "The system consists of multiple client devices with varying capabilities, a server, and a central management unit. Each client device has local processing units, memory for storing unlabeled data, and secure communication channels to exchange information with other clients and the server.",
+    "solution_implementation": "The method involves three stages: (1) preprocessing, where the unlabeled data is preprocessed on the client side to extract features; (2) model training, where adaptive models are trained locally on each client device based on their computational resources and system environment; (3) global aggregation, where the trained models are securely shared with the server for model updates, resulting in a globally adapted model.",
+    "effect": "The proposed method reduces communication overhead by minimizing data transmission, preserves user privacy through local training, effectively utilizes system heterogeneity by adapting models to various client devices, and handles unlabeled data without the need for extensive labeling efforts."
+  },
+  "knowledge_graph": [
+    [
+      "Heterogeneous Federated Learning Method",
+      "Addresses_Problem",
+      "High Communication Overhead"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Addresses_Problem",
+      "Data Privacy Risks"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Addresses_Problem",
+      "Ineffective Utilization of System Heterogeneity"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Addresses_Problem",
+      "Inability to Handle Unlabeled Data"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Comprises_Component",
+      "Client Devices"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Comprises_Component",
+      "Server"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Comprises_Component",
+      "Central Management Unit"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Implemented_By",
+      "Preprocessing"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Implemented_By",
+      "Model Training"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Implemented_By",
+      "Global Aggregation"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Achieves_Effect",
+      "Reduced Communication Overhead"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Achieves_Effect",
+      "Preserved User Privacy"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Achieves_Effect",
+      "Effective Utilization of System Heterogeneity"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "Achieves_Effect",
+      "Handling of Unlabeled Data"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Federated Learning Method",
+      "suffers_from",
+      "High Communication Overhead"
+    ],
+    [
+      "Federated Learning Method",
+      "suffers_from",
+      "Data Privacy Risks"
+    ],
+    [
+      "Federated Learning Method",
+      "unable_to",
+      "Effectively utilize system heterogeneity"
+    ],
+    [
+      "Federated Learning Method",
+      "unable_to",
+      "Handle unlabeled data"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "addresses",
+      "High Communication Overhead"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "addresses",
+      "Data Privacy Risks"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "adapts_to",
+      "System Heterogeneity"
+    ],
+    [
+      "Heterogeneous Federated Learning Method",
+      "handles",
+      "Unlabeled Data"
+    ],
+    [
+      "Client Devices",
+      "comprises",
+      "Local Processing Units"
+    ],
+    [
+      "Client Devices",
+      "comprises",
+      "Memory for storing unlabeled data"
+    ],
+    [
+      "Client Devices",
+      "has_secure_communication_channels",
+      "Other Clients and Server"
+    ],
+    [
+      "Server",
+      "manages",
+      "Central Management Unit"
+    ],
+    [
+      "Client Device",
+      "uses",
+      "Unlabeled Data for preprocessing"
+    ],
+    [
+      "Client Device",
+      "trains",
+      "Adaptive Models"
+    ],
+    [
+      "Adaptive Models",
+      "based_on",
+      "Computational Resources and System Environment"
+    ],
+    [
+      "Server",
+      "receives",
+      "Trained Models"
+    ],
+    [
+      "Server",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Global Model",
+      "incorporates",
+      "Diverse Features of Client Data"
+    ],
+    [
+      "Global Model",
+      "preserves",
+      "User Privacy"
+    ],
+    [
+      "Client Device",
+      "transmits_to",
+      "Server"
+    ],
+    [
+      "Data",
+      "processed_by",
+      "Remote Server"
+    ],
+    [
+      "Processed Data",
+      "relayed_to",
+      "Cloud Storage"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Management Unit",
+    "Client Devices",
+    "Data Privacy Risks",
+    "Effective Utilization of System Heterogeneity",
+    "Global Aggregation",
+    "Handling of Unlabeled Data",
+    "Heterogeneous Federated Learning Method",
+    "High Communication Overhead",
+    "Inability to Handle Unlabeled Data",
+    "Ineffective Utilization of System Heterogeneity",
+    "Model Training",
+    "Preprocessing",
+    "Preserved User Privacy",
+    "Reduced Communication Overhead",
+    "Server"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Adaptive Models",
+    "Central Management Unit",
+    "Client Device",
+    "Client Devices",
+    "Cloud Storage",
+    "Computational Resources and System Environment",
+    "Data",
+    "Data Privacy Risks",
+    "Diverse Features of Client Data",
+    "Effectively utilize system heterogeneity",
+    "Federated Learning Method",
+    "Global Model",
+    "Handle unlabeled data",
+    "Heterogeneous Federated Learning Method",
+    "High Communication Overhead",
+    "Local Processing Units",
+    "Memory for storing unlabeled data",
+    "Other Clients and Server",
+    "Processed Data",
+    "Remote Server",
+    "Server",
+    "System Heterogeneity",
+    "Trained Models",
+    "Unlabeled Data",
+    "Unlabeled Data for preprocessing",
+    "User Privacy"
+  ],
+  "knowledge_graph2_relation": [
+    "adapts_to",
+    "addresses",
+    "based_on",
+    "comprises",
+    "handles",
+    "has_secure_communication_channels",
+    "incorporates",
+    "manages",
+    "preserves",
+    "processed_by",
+    "receives",
+    "relayed_to",
+    "suffers_from",
+    "trains",
+    "transmits_to",
+    "unable_to",
+    "updates",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06N20/20"
+  ]
+}

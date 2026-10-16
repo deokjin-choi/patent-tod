@@ -1,0 +1,245 @@
+{
+  "publication_number": "CN114898191A",
+  "title": "Hand-held fabric fiber component nondestructive cleaning analyzer and method",
+  "assignee": "Individual",
+  "filing_date": "2022-04-25",
+  "publication_date": "2022-08-12",
+  "pse": {
+    "problem": "Limitation in data integration and centralization due to confidentiality and cost issues, data isolation problem, data privacy concerns, risk of data leakage during conventional data transmission, monopoly of a data center company, and heavy load on a central server caused by huge data scale in federated learning.",
+    "solution_function": "A portable hand-held fabric fiber component nondestructive cleaning analyzer based on federated learning is designed to address the problems of data safety and data privacy in the market. The instrument performs local storage of training data, uploading of model parameters instead of complete training data, protecting data privacy by eliminating the need for data collection in advance, and applying federated learning to textile component detection.",
+    "solution_structure": "The analyzer includes a power module (input interface, voltage converter, safety valve, battery), and a processing unit (processor, memory). The processing unit controls the overall operation of the analyzer and communicates with other participants for federated learning.",
+    "solution_implementation": "The analyzer operates by collecting fabric data from various sources, preprocessing the data locally to extract features, training a deep learning model on these features using federated learning, and making predictions about the fabric composition. The learning parameters are shared with other participants for collective model updates without sharing raw data.",
+    "effect": "The proposed solution offers benefits such as improved data privacy protection, reduction in data transmission risks, alleviation of central server load, portability, ease of operation, low environmental requirements, efficiency, quick processing, and cost-effectiveness."
+  },
+  "knowledge_graph": [
+    [
+      "Federated Learning Analyzer",
+      "Addresses_Problem",
+      "Data Integration & Centralization Limitations"
+    ],
+    [
+      "Federated Learning Analyzer",
+      "Comprises_Component",
+      "Power Module"
+    ],
+    [
+      "Federated Learning Analyzer",
+      "Comprises_Component",
+      "Processing Unit"
+    ],
+    [
+      "Federated Learning Analyzer",
+      "Implemented_By",
+      "Data Collection, Local Preprocessing, Federated Learning, Deep Learning Model Training"
+    ],
+    [
+      "Federated Learning Analyzer",
+      "Achieves_Effect",
+      "Improved Data Privacy Protection"
+    ],
+    [
+      "Federated Learning Analyzer",
+      "Achieves_Effect",
+      "Reduction in Data Transmission Risks"
+    ],
+    [
+      "Federated Learning Analyzer",
+      "Achieves_Effect",
+      "Alleviation of Central Server Load"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Portable Hand-held Fabric Fiber Component Analyzer",
+      "comprises",
+      "Power Module"
+    ],
+    [
+      "Power Module",
+      "includes",
+      "Input Interface"
+    ],
+    [
+      "Power Module",
+      "includes",
+      "Voltage Converter"
+    ],
+    [
+      "Power Module",
+      "includes",
+      "Safety Valve"
+    ],
+    [
+      "Power Module",
+      "includes",
+      "Battery"
+    ],
+    [
+      "Processing Unit",
+      "comprises",
+      "Processor"
+    ],
+    [
+      "Processing Unit",
+      "comprises",
+      "Memory"
+    ],
+    [
+      "Processing Unit",
+      "controls",
+      "Overall Operation"
+    ],
+    [
+      "Processing Unit",
+      "communicates_with",
+      "Other Participants"
+    ],
+    [
+      "Federated Learning",
+      "applies_to",
+      "Textile Component Detection"
+    ],
+    [
+      "Analyzer",
+      "collects",
+      "Fabric Data"
+    ],
+    [
+      "Analyzer",
+      "preprocesses",
+      "Fabric Data Locally"
+    ],
+    [
+      "Analyzer",
+      "extracts",
+      "Features From Fabric Data"
+    ],
+    [
+      "Deep Learning Model",
+      "trains_on",
+      "Extracted Features"
+    ],
+    [
+      "Learning Parameters",
+      "are_shared_with",
+      "Other Participants"
+    ],
+    [
+      "Other Participants",
+      "updates_collective_model",
+      "Learning Parameters"
+    ],
+    [
+      "Raw Data",
+      "is_not_shared"
+    ],
+    [
+      "Federated Learning",
+      "reduces",
+      "Data Transmission Risks"
+    ],
+    [
+      "Central Server",
+      "alleviates_load_from",
+      "Huge Data Scale"
+    ],
+    [
+      "Data Privacy Protection",
+      "benefits",
+      "Portable Hand-held Fabric Fiber Component Analyzer"
+    ],
+    [
+      "Reduction in Data Transmission Risks",
+      "benefits",
+      "Portable Hand-held Fabric Fiber Component Analyzer"
+    ],
+    [
+      "Efficiency",
+      "benefits",
+      "Portable Hand-held Fabric Fiber Component Analyzer"
+    ],
+    [
+      "Quick Processing",
+      "benefits",
+      "Portable Hand-held Fabric Fiber Component Analyzer"
+    ],
+    [
+      "Cost-Effectiveness",
+      "benefits",
+      "Portable Hand-held Fabric Fiber Component Analyzer"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Alleviation of Central Server Load",
+    "Data Collection, Local Preprocessing, Federated Learning, Deep Learning Model Training",
+    "Data Integration & Centralization Limitations",
+    "Federated Learning Analyzer",
+    "Improved Data Privacy Protection",
+    "Power Module",
+    "Processing Unit",
+    "Reduction in Data Transmission Risks"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Analyzer",
+    "Battery",
+    "Central Server",
+    "Cost-Effectiveness",
+    "Data Privacy Protection",
+    "Data Transmission Risks",
+    "Deep Learning Model",
+    "Efficiency",
+    "Extracted Features",
+    "Fabric Data",
+    "Fabric Data Locally",
+    "Features From Fabric Data",
+    "Federated Learning",
+    "Huge Data Scale",
+    "Input Interface",
+    "Learning Parameters",
+    "Memory",
+    "Other Participants",
+    "Overall Operation",
+    "Portable Hand-held Fabric Fiber Component Analyzer",
+    "Power Module",
+    "Processing Unit",
+    "Processor",
+    "Quick Processing",
+    "Reduction in Data Transmission Risks",
+    "Safety Valve",
+    "Textile Component Detection",
+    "Voltage Converter"
+  ],
+  "knowledge_graph2_relation": [
+    "alleviates_load_from",
+    "applies_to",
+    "are_shared_with",
+    "benefits",
+    "collects",
+    "communicates_with",
+    "comprises",
+    "controls",
+    "extracts",
+    "includes",
+    "preprocesses",
+    "reduces",
+    "trains_on",
+    "updates_collective_model"
+  ],
+  "cpc_code": [
+    "G01N21/359",
+    "G06N20/20",
+    "G06N3/045",
+    "G06N3/047",
+    "G06N3/08",
+    "G06N5/01",
+    "G06V10/806",
+    "G06V10/82",
+    "Y02P90/30"
+  ]
+}

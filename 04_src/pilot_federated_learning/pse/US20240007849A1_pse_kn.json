@@ -1,0 +1,169 @@
+{
+  "publication_number": "US20240007849A1",
+  "title": "Device and method for transmitting signal in wireless communication system",
+  "assignee": "LG Electronics Inc",
+  "filing_date": "2021-11-30",
+  "publication_date": "2024-01-04",
+  "pse": {
+    "problem": "Limitation in secure data transmission during federated learning in a wireless communication system",
+    "solution_function": "The terminal configures and transmits a resource for federated learning, generates a pseudo-random sequence based on differential privacy-related information received from the base station, and transmits data to the base station using this sequence.",
+    "solution_structure": "Terminal (hardware), Base Station (hardware), federated learning configuration information (software), differential privacy level (software), band matrix (data structure)",
+    "solution_implementation": "The terminal receives federated learning-related configuration information, configures a resource based on this information, transmits its differential privacy level to the base station, generates a pseudo random sequence using differential privacy-related information from the base station, and sends data to the base station using the configured resource and the generated pseudo random sequence.",
+    "effect": "Improved privacy security in wireless communication system based on federated learning"
+  },
+  "knowledge_graph": [
+    [
+      "Terminal Configurer",
+      "Addresses_Problem",
+      "Limitation in secure data transmission during federated learning in a wireless communication system"
+    ],
+    [
+      "Terminal Configurer",
+      "Comprises_Component",
+      "Terminal (hardware)"
+    ],
+    [
+      "Terminal Configurer",
+      "Comprises_Component",
+      "federated learning configuration information (software)"
+    ],
+    [
+      "Terminal Configurer",
+      "Implemented_By",
+      "Configures a resource for federated learning"
+    ],
+    [
+      "Terminal Configurer",
+      "Implemented_By",
+      "Transmits its differential privacy level to the base station"
+    ],
+    [
+      "Terminal Configurer",
+      "Implemented_By",
+      "Generates a pseudo random sequence using differential privacy-related information from the base station"
+    ],
+    [
+      "Terminal Configurer",
+      "Implemented_By",
+      "Sends data to the base station using the configured resource and the generated pseudo random sequence"
+    ],
+    [
+      "Terminal Configurer",
+      "Achieves_Effect",
+      "Improved privacy security in wireless communication system based on federated learning"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Terminal (hardware)",
+      "controls",
+      "Resource for Federated Learning"
+    ],
+    [
+      "Base Station (hardware)",
+      "transmits_to",
+      "Terminal (hardware)"
+    ],
+    [
+      "Base Station (hardware)",
+      "receives",
+      "Federated Learning-related Configuration Information"
+    ],
+    [
+      "Terminal (hardware)",
+      "receives",
+      "Federated Learning-related Configuration Information"
+    ],
+    [
+      "Terminal (hardware)",
+      "generates",
+      "Pseudo Random Sequence"
+    ],
+    [
+      "Base Station (hardware)",
+      "provides",
+      "Differential Privacy-related Information"
+    ],
+    [
+      "Terminal (hardware)",
+      "transmits",
+      "Differential Privacy Level"
+    ],
+    [
+      "Terminal (hardware)",
+      "sends",
+      "Data using configured resource and generated pseudo random sequence"
+    ],
+    [
+      "Base Station (hardware)",
+      "receives",
+      "Data"
+    ],
+    [
+      "Terminal (hardware)",
+      "implements",
+      "Privacy Security Improvement"
+    ],
+    [
+      "Wireless Communication System",
+      "achieves",
+      "Improved Privacy Security"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Configures a resource for federated learning",
+    "Generates a pseudo random sequence using differential privacy-related information from the base station",
+    "Improved privacy security in wireless communication system based on federated learning",
+    "Limitation in secure data transmission during federated learning in a wireless communication system",
+    "Sends data to the base station using the configured resource and the generated pseudo random sequence",
+    "Terminal (hardware)",
+    "Terminal Configurer",
+    "Transmits its differential privacy level to the base station",
+    "federated learning configuration information (software)"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Base Station (hardware)",
+    "Data",
+    "Data using configured resource and generated pseudo random sequence",
+    "Differential Privacy Level",
+    "Differential Privacy-related Information",
+    "Federated Learning-related Configuration Information",
+    "Improved Privacy Security",
+    "Privacy Security Improvement",
+    "Pseudo Random Sequence",
+    "Resource for Federated Learning",
+    "Terminal (hardware)",
+    "Wireless Communication System"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "controls",
+    "generates",
+    "implements",
+    "provides",
+    "receives",
+    "sends",
+    "transmits",
+    "transmits_to"
+  ],
+  "cpc_code": [
+    "G06N20/20",
+    "G06N3/04",
+    "G06N3/0442",
+    "G06N3/0464",
+    "G06N3/08",
+    "G06N3/09",
+    "G06N3/098",
+    "H04L2209/08",
+    "H04L65/40",
+    "H04W12/02",
+    "H04W12/033",
+    "H04W72/04"
+  ]
+}

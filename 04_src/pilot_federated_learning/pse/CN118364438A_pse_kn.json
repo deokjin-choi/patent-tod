@@ -1,0 +1,135 @@
+{
+  "publication_number": "CN118364438A",
+  "title": "Federal learning method, system and terminal for injecting model watermark at server side",
+  "assignee": "Harbin Institute Of Technology shenzhen Shenzhen Institute Of Science And Technology Innovation Harbin Institute Of Technology",
+  "filing_date": "2024-03-21",
+  "publication_date": "2024-07-19",
+  "pse": {
+    "problem": "Federated learning can lead to intellectual property infringement due to independent watermark injection during local training, causing mutual interference that reduces the recognition rate of watermarks and main task accuracy.",
+    "solution_function": "The invention enables server-side model watermark injection in federated learning by generating watermark parameters and distributing them to participating devices. These devices then train the target model with the received watermark parameters, improving intellectual property protection and reducing interference during aggregation.",
+    "solution_structure": "The key components include a central server, participating devices, and a watermark generator. The server coordinates federated learning, generates watermark parameters, and distributes them to participating devices.",
+    "solution_implementation": "1. Obtain the target model and watermark strings from multiple participants. 2. Send the target model to participating devices for local training, generating a global model after each federated round. 3. Generate watermark parameters before each training and distribute them to participating devices. 4. During each training, update the global model with the current one and train it using the distributed watermark parameters.",
+    "effect": "Improved intellectual property protection through coordinated server-side watermark injection, minimizing mutual interference during aggregation and preserving main task accuracy."
+  },
+  "knowledge_graph": [
+    [
+      "Server-side Model Watermark Injection",
+      "Addresses_Problem",
+      "Intellectual Property Infringement in Federated Learning"
+    ],
+    [
+      "Server-side Model Watermark Injection",
+      "Comprises_Component",
+      "Central Server"
+    ],
+    [
+      "Server-side Model Watermark Injection",
+      "Comprises_Component",
+      "Participating Devices"
+    ],
+    [
+      "Server-side Model Watermark Injection",
+      "Implemented_By",
+      "Model and Watermark Distribution"
+    ],
+    [
+      "Server-side Model Watermark Injection",
+      "Implemented_By",
+      "Federated Learning Coordination and Aggregation"
+    ],
+    [
+      "Server-side Model Watermark Injection",
+      "Implemented_By",
+      "Watermark Generation before Each Training"
+    ],
+    [
+      "Server-side Model Watermark Injection",
+      "Achieves_Effect",
+      "Improved Intellectual Property Protection"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "Central Server",
+      "generates",
+      "Watermark Parameters"
+    ],
+    [
+      "Central Server",
+      "distributes",
+      "Watermark Parameters"
+    ],
+    [
+      "Participating Devices",
+      "receives",
+      "Watermark Parameters"
+    ],
+    [
+      "Participating Devices",
+      "trains",
+      "Target Model"
+    ],
+    [
+      "Participating Devices",
+      "updates",
+      "Global Model"
+    ],
+    [
+      "Server-side Watermark Injection",
+      "improves",
+      "Intellectual Property Protection"
+    ],
+    [
+      "Server-side Watermark Injection",
+      "minimizes",
+      "Mutual Interference"
+    ],
+    [
+      "Server-side Watermark Injection",
+      "preserves",
+      "Main Task Accuracy"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Central Server",
+    "Federated Learning Coordination and Aggregation",
+    "Improved Intellectual Property Protection",
+    "Intellectual Property Infringement in Federated Learning",
+    "Model and Watermark Distribution",
+    "Participating Devices",
+    "Server-side Model Watermark Injection",
+    "Watermark Generation before Each Training"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Central Server",
+    "Global Model",
+    "Intellectual Property Protection",
+    "Main Task Accuracy",
+    "Mutual Interference",
+    "Participating Devices",
+    "Server-side Watermark Injection",
+    "Target Model",
+    "Watermark Parameters"
+  ],
+  "knowledge_graph2_relation": [
+    "distributes",
+    "generates",
+    "improves",
+    "minimizes",
+    "preserves",
+    "receives",
+    "trains",
+    "updates"
+  ],
+  "cpc_code": [
+    "G06F18/214",
+    "G06F21/16",
+    "G06N20/00"
+  ]
+}

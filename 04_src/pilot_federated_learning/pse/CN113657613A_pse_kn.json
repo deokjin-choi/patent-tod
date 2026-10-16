@@ -1,0 +1,156 @@
+{
+  "publication_number": "CN113657613A",
+  "title": "Prediction model training method, data processing device and system",
+  "assignee": "Beijing Yizhen Xuesi Education Technology Co Ltd",
+  "filing_date": "2021-08-23",
+  "publication_date": "2021-11-16",
+  "pse": {
+    "problem": "Inefficient training of prediction models in federated learning systems due to large calculated amounts.",
+    "solution_function": "A method for training predictive models by performing forward and backward propagation between two machine learning models. Forward propagation involves using first tuning parameters from the second data processing device to generate biases, sending these biases to the second data processing device, receiving a fusion parameter, and using it for further calculations. Backward propagation involves sending the loss value of the second machine learning model to the first machine learning model.",
+    "solution_structure": "First and second data processing apparatuses, first and second machine learning models, user characteristic sample data.",
+    "solution_implementation": "1. Receiving first user characteristic sample data from a second data processing device; 2. Determining training samples based on the first and second user characteristic sample data; 3. Sending the training samples to the second data processing device for input into the second machine learning model; 4. Forward propagation: receiving, generating, and sending biases; 5. Back propagation: receiving loss value from the second machine learning model.",
+    "effect": "Improved training efficiency of the prediction models by reducing the calculated amount."
+  },
+  "knowledge_graph": [
+    [
+      "Method for Training Predictive Models",
+      "Addresses_Problem",
+      "Inefficient Training of Prediction Models in Federated Learning Systems"
+    ],
+    [
+      "Method for Training Predictive Models",
+      "Comprises_Component",
+      "First Data Processing Apparatus"
+    ],
+    [
+      "Method for Training Predictive Models",
+      "Comprises_Component",
+      "Second Data Processing Apparatus"
+    ],
+    [
+      "Method for Training Predictive Models",
+      "Comprises_Component",
+      "First Machine Learning Model"
+    ],
+    [
+      "Method for Training Predictive Models",
+      "Comprises_Component",
+      "Second Machine Learning Model"
+    ],
+    [
+      "Method for Training Predictive Models",
+      "Implemented_By",
+      "Core Operation Logic: Forward Propagation and Back Propagation"
+    ],
+    [
+      "Method for Training Predictive Models",
+      "Achieves_Effect",
+      "Improved Training Efficiency of the Prediction Models"
+    ]
+  ],
+  "knowledge_graph_v2": [
+    [
+      "First Data Processing Apparatus",
+      "comprises",
+      "First Machine Learning Model"
+    ],
+    [
+      "Second Data Processing Apparatus",
+      "comprises",
+      "Second Machine Learning Model"
+    ],
+    [
+      "First Data Processing Apparatus",
+      "receives_from",
+      "Second Data Processing Apparatus"
+    ],
+    [
+      "Second Data Processing Apparatus",
+      "sends_to",
+      "First Data Processing Apparatus"
+    ],
+    [
+      "First Data Processing Apparatus",
+      "generates",
+      "Biases"
+    ],
+    [
+      "Second Data Processing Apparatus",
+      "receives",
+      "Biases"
+    ],
+    [
+      "First Data Processing Apparatus",
+      "receives_from",
+      "Second Data Processing Apparatus",
+      "Fusion Parameter"
+    ],
+    [
+      "First Data Processing Apparatus",
+      "uses",
+      "Fusion Parameter"
+    ],
+    [
+      "Second Data Processing Apparatus",
+      "calculates",
+      "Loss Value"
+    ],
+    [
+      "Second Data Processing Apparatus",
+      "sends_to",
+      "First Data Processing Apparatus",
+      "Loss Value"
+    ],
+    [
+      "First Machine Learning Model",
+      "modifies",
+      "Parameters based on Loss Value"
+    ],
+    [
+      "First Machine Learning Model",
+      "achieves",
+      "Improved Training Efficiency"
+    ]
+  ],
+  "knowledge_graph_en": [
+    "Core Operation Logic: Forward Propagation and Back Propagation",
+    "First Data Processing Apparatus",
+    "First Machine Learning Model",
+    "Improved Training Efficiency of the Prediction Models",
+    "Inefficient Training of Prediction Models in Federated Learning Systems",
+    "Method for Training Predictive Models",
+    "Second Data Processing Apparatus",
+    "Second Machine Learning Model"
+  ],
+  "knowledge_graph_relation": [
+    "Achieves_Effect",
+    "Addresses_Problem",
+    "Comprises_Component",
+    "Implemented_By"
+  ],
+  "knowledge_graph2_en": [
+    "Biases",
+    "First Data Processing Apparatus",
+    "First Machine Learning Model",
+    "Fusion Parameter",
+    "Improved Training Efficiency",
+    "Loss Value",
+    "Parameters based on Loss Value",
+    "Second Data Processing Apparatus",
+    "Second Machine Learning Model"
+  ],
+  "knowledge_graph2_relation": [
+    "achieves",
+    "calculates",
+    "comprises",
+    "generates",
+    "modifies",
+    "receives",
+    "receives_from",
+    "sends_to",
+    "uses"
+  ],
+  "cpc_code": [
+    "G06N20/20"
+  ]
+}
