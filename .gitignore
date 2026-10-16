@@ -24,9 +24,12 @@ __pycache__/
 *.pyc
 *.pyo
 
-# 선행연구 수집 캐시·백업
+# 선행연구 — 캐시·백업·수집 스크립트·실행 로그 (핵심은 md·bib)
 03_literature/cache/
 03_literature/bib_backup/
+03_literature/**/*.py
+03_literature/**/__pycache__/
+03_literature/**/*_log.json
 
 # Windows download metadata
 *:Zone.Identifier

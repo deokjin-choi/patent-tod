@@ -1,2 +1,8 @@
 .env
 cache/
+bib_backup/
+__pycache__/
+
+# 수집·큐레이션 스크립트와 일회성 실행 로그 (폴더 핵심은 md·bib)
+*.py
+*_log.json
