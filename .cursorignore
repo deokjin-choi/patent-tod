@@ -1,0 +1,3 @@
+# 선행연구 폴더는 정리본(md)·원본 bib 중심. 수집/큐레이션 스크립트는 숨김.
+03_literature/**/*.py
+03_literature/**/__pycache__/

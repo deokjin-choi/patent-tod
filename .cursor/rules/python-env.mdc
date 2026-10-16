@@ -1,0 +1,18 @@
+---
+description: Use the conda environment scenario-space for all Python in this repo
+alwaysApply: true
+---
+
+# Python 실행 환경
+
+이 저장소의 모든 Python 실행·패키지 설치·스크립트 확인은 conda 환경 `scenario-space` 를 사용한다.
+
+```bash
+conda activate scenario-space
+```
+
+환경 경로: `/home/deokjinchoi/miniconda3/envs/scenario-space`
+
+- 시스템 `python3` 나 `(base)` 로 돌리지 않는다.
+- 에이전트가 터미널에서 스크립트를 실행할 때도 먼저 이 환경을 활성화한다. 비대화 셸이면 `conda run -n scenario-space python ...` 를 쓴다.
+- `em_mcmc/`, `pilot_federated_learning/`, 앞으로 추가되는 코드도 예외 없다.

@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "03_literature/**/*.py": true,
+    "03_literature/**/__pycache__": true
+  },
+  "search.exclude": {
+    "03_literature/**/*.py": true,
+    "03_literature/**/__pycache__": true
+  }
+}
