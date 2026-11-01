@@ -19,6 +19,9 @@
 *.hwp
 *.hwpx
 
+# 외부 원본 보고서 PDF (FAO·WIPO 등). 공식 링크는 md에 두고 로컬에만 둔다.
+06_references/**/*.pdf
+
 # 파이썬 캐시
 __pycache__/
 *.pyc
