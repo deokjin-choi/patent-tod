@@ -1,0 +1,36 @@
+field,sector,fractional_count,share_of_matched
+18 Food chemistry,Chemistry,8335.9417,0.362117
+07 IT methods for management,Electrical engineering,5882.9714,0.255559
+15 Biotechnology,Chemistry,2753.4500,0.119611
+06 Computer technology,Electrical engineering,2350.6869,0.102115
+29 Other special machines,Mechanical engineering,1637.9310,0.071153
+10 Measurement,Instruments,461.3369,0.020041
+12 Control,Instruments,350.9226,0.015244
+04 Digital communication,Electrical engineering,328.4179,0.014267
+11 Analysis of biological materials,Instruments,146.7226,0.006374
+02 Audio-visual technology,Electrical engineering,145.2024,0.006308
+32 Transport,Mechanical engineering,104.8583,0.004555
+19 Basic materials chemistry,Chemistry,88.9167,0.003863
+13 Medical technology,Instruments,69.2940,0.003010
+"01 Electrical machinery, apparatus, energy",Electrical engineering,64.4274,0.002799
+14 Organic fine chemistry,Chemistry,59.4833,0.002584
+03 Telecommunications,Electrical engineering,53.2036,0.002311
+25 Handling,Mechanical engineering,34.8440,0.001514
+35 Civil engineering,Other fields,33.3619,0.001449
+23 Chemical engineering,Chemistry,28.3762,0.001233
+24 Environmental technology,Chemistry,19.5667,0.000850
+30 Thermal processes and apparatus,Mechanical engineering,18.3345,0.000796
+"27 Engines, pumps, turbines",Mechanical engineering,7.2583,0.000315
+"17 Macromolecular chemistry, polymers",Chemistry,7.1500,0.000311
+09 Optics,Instruments,7.0167,0.000305
+31 Mechanical elements,Mechanical engineering,5.6083,0.000244
+16 Pharmaceuticals,Chemistry,5.5833,0.000243
+"33 Furniture, games",Other fields,5.5667,0.000242
+34 Other consumer goods,Other fields,3.4333,0.000149
+05 Basic communication processes,Electrical engineering,2.5333,0.000110
+"20 Materials, metallurgy",Chemistry,2.4333,0.000106
+"21 Surface technology, coating",Chemistry,1.9000,0.000083
+28 Textile and paper machines,Mechanical engineering,1.4833,0.000064
+08 Semiconductors,Electrical engineering,1.0000,0.000043
+26 Machine tools,Mechanical engineering,0.4500,0.000020
+22 Micro-structural and nano-technology,Chemistry,0.3333,0.000014
