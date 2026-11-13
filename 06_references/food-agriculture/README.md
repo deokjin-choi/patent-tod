@@ -58,3 +58,7 @@ FAO 데이터랩은 PATSTAT 2024년 봄판에서 1980–2023년 농식품 IPC(A0
 WIPO의 [Agrifood 특허 랜드스케이프](https://www.wipo.int/web-publications/patent-landscape-report-agrifood/en/key-findings.html)(2024, 키 파인딩스 정리본은 [wipo/2024_key-findings.md](wipo/2024_key-findings.md), 매핑·영상 검색식은 [wipo/mapping-imagery-queries.md](wipo/mapping-imagery-queries.md))는 최근 20년 공개 패밀리 350만 건을 AgriTech 60%, FoodTech 40%로 나눈다. FAO 가족농업 페이지가 이 보고서를 안내한다. 1차 관청 밖으로 나간 패밀리는 12%(45만)뿐이다. 아시아, 특히 중국 출원은 자국에 머무는 비중이 크다. 국제 패밀리만 보면 AgriTech가 66%이고, 최근 연간 증가율은 AgriTech 6.9%, FoodTech 3.3%다. AgriTech에서 건수가 많은 곳은 병해충, 작물 적응·유전, 가축, 센서·정밀농업이다. 출원인은 미·일·유럽 농기계 회사와 독·중·일 농약 회사이고, IoT는 아시아 기술기업이 많다. FoodTech는 공급망과 식품화학이 앞서고, 식품화학·식품서비스(대체 영양)만 늘었다. 정밀농업의 예측모형은 국제 패밀리 약 1,500건으로 얇지만 최근 연 27%로 늘었고, 자율 장치는 연 10%대이며 중국·미국·독일이 많다. 비농약 병해충 관리는 건수는 있으나 증가가 평탄하고, 미생물 하나가 좁은 해충 범위만 덮는다.
 
 읽을 때 나눌 것은 전체 건수와 국제 패밀리다. 전체를 쓰면 최근 중국 국내 출원이 두껍다. 두 번째 나라에 출원된 45만 건을 쓰면 미국이 연구개발 위치로 오래 남아 있고, 기계·화학 회사의 포트폴리오가 보인다.
+
+## 수확 기능의 공학 문헌
+
+과일·채소 수확을 하위 기능으로 가를 때 먼저 볼 두 장은 [harvest-functional-processes.md](harvest-functional-processes.md)에 두었다. ASABE 교재 13장의 Functional processes(Removal, Control, Selection, Transportation)와 CIGR 핸드북 III권의 Harvesting Functions다. 확인한 범위는 출판사 공개 목차다.

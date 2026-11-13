@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "mapping_fv_harvest_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["in_scope", "functions", "detachment_principle", "overall_confidence", "note"],
+  "$defs": {
+    "evidence": {
+      "type": "array",
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["loc", "quote"],
+        "properties": {
+          "loc": {"type": "string", "pattern": "^\\[P[0-9]{4,5}\\]$"},
+          "quote": {"type": "string", "maxLength": 200}
+        }
+      }
+    },
+    "subfunction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relation", "actor", "card_functions", "evidence"],
+      "properties": {
+        "relation": {"type": "string", "enum": ["direct", "support", "not_mentioned"]},
+        "actor": {"type": "string", "enum": ["machine", "human", "both", "not_specified"]},
+        "card_functions": {"type": "array", "maxItems": 4, "items": {"type": "integer"}},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    }
+  },
+  "properties": {
+    "in_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "evidence"],
+      "properties": {
+        "value": {"type": "string", "enum": ["yes", "no", "unclear"]},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "functions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["F1", "F2", "F3", "F4"],
+      "properties": {
+        "F1": {"$ref": "#/$defs/subfunction"},
+        "F2": {"$ref": "#/$defs/subfunction"},
+        "F3": {"$ref": "#/$defs/subfunction"},
+        "F4": {"$ref": "#/$defs/subfunction"}
+      }
+    },
+    "detachment_principle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["values", "evidence"],
+      "properties": {
+        "values": {"type": "array", "maxItems": 3, "items": {"type": "string", "enum": [
+          "cutting", "twisting", "pulling", "shaking_or_vibration", "suction_or_pneumatic",
+          "digging_or_lifting", "combing_or_stripping", "other", "not_specified", "not_applicable"
+        ]}},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "overall_confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+    "note": {"type": "string", "maxLength": 300}
+  }
+}
