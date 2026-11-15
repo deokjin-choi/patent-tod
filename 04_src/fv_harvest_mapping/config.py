@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -17,8 +18,17 @@ FETCH_LOG = DATA / "fetch_log.csv"
 LLM_INPUT_DIR = DATA / "llm_input"
 
 PROMPT_DIR = ROOT / "prompts"
-PROMPT_VERSION = "v2"
+# 예전 버전을 다시 돌릴 때: PROMPT_VERSION=v2 conda run -n scenario-space python ...
+PROMPT_VERSION = os.environ.get("PROMPT_VERSION", "v5")
 TASK = "fv_harvest"
+
+# v3부터 독립 청구항을 본문 앞에 붙인다. 청구항은 발명의 경계를, 본문은 그 부품이 하는 일을 알려 준다.
+INDEPENDENT_CLAIMS_IN_INPUT = PROMPT_VERSION not in ("v1", "v2")
+# v4부터 카드의 청구항 표시를 매핑 전에 코드로 바로잡는다(claim_check.py).
+# v5는 매핑 프롬프트만 고쳤다(F1 순서 편향). 카드 프롬프트는 v4와 같다.
+VERIFY_CLAIM_TAGS = PROMPT_VERSION not in ("v1", "v2", "v3")
+# 독립 청구항 묶음의 최대 글자 수. 넘으면 뒤를 자른다.
+CLAIMS_MAX_CHARS = 4_000
 
 # 프롬프트에 넣는 특허 본문의 최대 글자 수. 넘으면 배경기술 절을 앞부분만 남기고, 그래도 넘으면 뒤를 자른다.
 MAX_PATENT_CHARS = 200_000

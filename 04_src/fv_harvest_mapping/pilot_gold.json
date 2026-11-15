@@ -1,0 +1,49 @@
+{
+ "_about": "파일럿 8건의 정답. 원문을 읽고 매겼고, 직접 수행은 독립 청구항에 있는 부품의 동작만 센다(v3 기준). F는 [관계, 수행 주체]이고 관계는 direct/support/not_mentioned, 수행 주체는 machine/human이다. 범위 밖 특허는 scope_ok에 맞는 사유를 적고 기능은 채점하지 않는다.",
+ "order": [
+  "US20110252760A1", "US20190239432A1", "US20230081931A1", "US20140260150A1",
+  "US9913427B2", "US20110258978A1", "US8056644B2", "US20160242357A1"
+ ],
+ "patents": {
+  "US20110252760A1": {
+   "scope": "in",
+   "F": {"F1": ["direct", "machine"], "F2": ["direct", "machine"], "F3": ["direct", "machine"], "F4": ["direct", "machine"]},
+   "note": "줄 재배 과일을 찾아 따고 담는 자율 수확 로봇. 청구항 1에 카메라, 로봇팔, 절단·수집 용기가 모두 들어 있다."
+  },
+  "US20190239432A1": {
+   "scope": "in",
+   "F": {"F1": ["not_mentioned", null], "F2": ["support", "machine"], "F3": ["not_mentioned", null], "F4": ["direct", "machine"]},
+   "note": "작업자를 태워 올리는 유압 플랫폼과 빈 채우기·운반 장치를 갖춘 차량. 과일은 사람이 보고 딴다."
+  },
+  "US20230081931A1": {
+   "scope": "in",
+   "F": {"F1": ["direct", "machine"], "F2": ["direct", "machine"], "F3": ["direct", "machine"], "F4": ["not_mentioned", null]},
+   "note": "움직이며 영상으로 과일을 찾고, 멈춰서 엔드이펙터로 따는 수확 장치. 수집 부품은 청구항에 없다."
+  },
+  "US20140260150A1": {
+   "scope": "in",
+   "F": {"F1": ["not_mentioned", null], "F2": ["direct", "machine"], "F3": ["direct", "machine"], "F4": ["not_mentioned", null]},
+   "note": "과일·견과 겸용 털기 헤드. 청구항은 헤드와 구동부, 헤드를 단 수확기 차대까지이고 수집 장치는 없다."
+  },
+  "US9913427B2": {
+   "scope": "in",
+   "F": {"F1": ["not_mentioned", null], "F2": ["direct", "machine"], "F3": ["direct", "machine"], "F4": ["direct", "machine"]},
+   "note": "라피니를 잡고 베어 벨트로 옮기는 채소 수확기. 잡기, 절단, 이송 부품이 모두 청구항에 있다."
+  },
+  "US20110258978A1": {
+   "scope": "out",
+   "scope_ok": ["non_harvest_task"],
+   "note": "사람이 장대에 달아 쓰는 열매 솎기 도구. 솎기는 수확 외 작업이라 범위 밖이다."
+  },
+  "US8056644B2": {
+   "scope": "out",
+   "scope_ok": ["industrial_crop", "non_harvest_task"],
+   "note": "목화 그루터기를 뽑아 써는 기계. 공업용 작물이자 수확 외 작업이라 범위 밖이다."
+  },
+  "US20160242357A1": {
+   "scope": "out",
+   "scope_ok": ["industrial_crop", "post_harvest_handling"],
+   "note": "수확해 쌓아 둔 사탕무 더미를 나누는 기계. 공업용 작물이자 수확 뒤 작업이라 범위 밖이다."
+  }
+ }
+}

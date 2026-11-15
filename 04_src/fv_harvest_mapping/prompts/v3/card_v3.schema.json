@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "patent_card_v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "subject", "host_machine", "functions", "components", "problems", "effects",
+    "target_objects", "target_categories", "form_factor", "power_source",
+    "operating_environment", "infrastructure_requirements", "host_dependency"
+  ],
+  "$defs": {
+    "evidence": {
+      "type": "array",
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["loc", "quote"],
+        "properties": {
+          "loc": {"type": "string", "pattern": "^\\[(P[0-9]{4,5}|C[0-9]{1,3})\\]$"},
+          "quote": {"type": "string", "maxLength": 200}
+        }
+      }
+    },
+    "statement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["statement", "type", "evidence"],
+      "properties": {
+        "statement": {"type": "string", "maxLength": 160},
+        "type": {"type": "string", "enum": [
+          "labor_or_cost", "damage_or_quality_loss", "throughput_or_speed",
+          "accuracy_or_selectivity", "safety_or_ergonomics", "reliability_or_maintenance",
+          "adaptability_to_crop_or_terrain", "energy_or_resource_use", "other"
+        ]},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "claim": {"type": "string", "pattern": "^(\\[C[0-9]{1,3}\\]|none)$"}
+  },
+  "properties": {
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "phrase"],
+      "properties": {
+        "type": {"type": "string", "enum": ["apparatus", "method", "system", "apparatus_and_method", "other"]},
+        "phrase": {"type": "string", "maxLength": 100}
+      }
+    },
+    "host_machine": {"type": "string", "maxLength": 60},
+    "functions": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "verb", "object", "flow", "actor", "means", "claim", "role", "evidence"],
+        "properties": {
+          "id": {"type": "integer"},
+          "verb": {"type": "string", "enum": [
+            "separate", "divide", "extract", "remove", "distribute",
+            "import", "export", "transfer", "transport", "transmit", "guide", "translate", "rotate", "allow_dof",
+            "couple", "join", "link", "mix",
+            "actuate", "regulate", "increase", "decrease", "change", "increment", "decrement", "shape",
+            "condition", "stop", "prevent", "inhibit",
+            "convert", "store", "contain", "collect", "supply",
+            "sense", "detect", "measure", "indicate", "track", "display", "process",
+            "stabilize", "secure", "position"
+          ]},
+          "object": {"type": "string", "maxLength": 40},
+          "flow": {"type": "string", "enum": ["material", "energy", "signal"]},
+          "actor": {"type": "string", "enum": ["invention", "host_machine", "human", "both", "not_specified"]},
+          "means": {"type": "string", "maxLength": 60},
+          "claim": {"$ref": "#/$defs/claim"},
+          "role": {"type": "string", "enum": ["main", "auxiliary"]},
+          "evidence": {"$ref": "#/$defs/evidence"}
+        }
+      }
+    },
+    "components": {"type": "array", "maxItems": 6, "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "claim"],
+      "properties": {
+        "name": {"type": "string", "maxLength": 40},
+        "claim": {"$ref": "#/$defs/claim"}
+      }
+    }},
+    "problems": {"type": "array", "maxItems": 2, "items": {"$ref": "#/$defs/statement"}},
+    "effects": {"type": "array", "maxItems": 2, "items": {"$ref": "#/$defs/statement"}},
+    "target_objects": {"type": "array", "maxItems": 5, "items": {"type": "string", "maxLength": 40}},
+    "target_categories": {"type": "array", "maxItems": 4, "items": {"type": "string", "enum": [
+      "tree_fruit", "vine_or_bush_fruit", "fruiting_vegetable", "leafy_vegetable",
+      "root_vegetable", "other_vegetable", "tree_nut", "grain_or_oilseed",
+      "forage_or_grass", "fiber_crop", "industrial_crop", "other", "not_specified"
+    ]}},
+    "form_factor": {"type": "string", "enum": [
+      "handheld_tool", "walk_behind_or_pushed", "worker_platform_or_cart",
+      "tractor_mounted_or_towed", "self_propelled_harvester", "mobile_robot",
+      "stationary_installation", "component_only", "not_specified"
+    ]},
+    "power_source": {"type": "array", "maxItems": 3, "items": {"type": "string", "enum": [
+      "human_power", "battery_electric", "combustion_engine", "tractor_pto_or_hydraulics",
+      "grid_electric", "pneumatic_compressor", "other", "not_specified"
+    ]}},
+    "operating_environment": {"type": "array", "maxItems": 3, "items": {"type": "string", "enum": [
+      "open_field", "orchard", "vineyard", "greenhouse_or_indoor", "other", "not_specified"
+    ]}},
+    "infrastructure_requirements": {"type": "array", "maxItems": 3, "items": {"type": "string", "enum": [
+      "trellis_or_planar_canopy", "row_or_bed_layout", "rails_or_tracks",
+      "precise_positioning_gps", "network_connectivity", "other", "none_stated"
+    ]}},
+    "host_dependency": {"type": "string", "enum": ["standalone", "general_attachment", "specific_platform", "not_specified"]}
+  }
+}

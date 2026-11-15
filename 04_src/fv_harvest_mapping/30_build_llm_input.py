@@ -12,7 +12,7 @@ from __future__ import annotations
 import argparse
 import json
 
-from config import FULLTEXT_DIR, LLM_INPUT_DIR, PROMPT_VERSION
+from config import FULLTEXT_DIR, INDEPENDENT_CLAIMS_IN_INPUT, LLM_INPUT_DIR, PROMPT_VERSION
 from patent_text import render_patent
 from prompt_build import card_pass
 
@@ -30,7 +30,7 @@ def main() -> None:
 
     for f in files:
         doc = json.loads(f.read_text(encoding="utf-8"))
-        user, meta = render_patent(doc)
+        user, meta = render_patent(doc, with_claims=INDEPENDENT_CLAIMS_IN_INPUT)
         out = {
             "google_id": doc["google_id"],
             "prompt_version": PROMPT_VERSION,

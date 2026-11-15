@@ -1,0 +1,231 @@
+{
+  "subject.type": {
+    "title": "subject.type: what kind of invention",
+    "values": {
+      "apparatus": "a machine, device or tool",
+      "method": "a way of doing something",
+      "system": "several machines or devices working together",
+      "apparatus_and_method": "a device and a way of using it, both presented as the invention",
+      "other": "none of the above"
+    }
+  },
+  "functions.verb": {
+    "title": "functions.verb: functional basis verbs (Hirtz et al. 2002, shortened). A flow is a material, an energy or a signal. Indented groups: use the general verb only when no specific verb under it fits",
+    "values": {
+      "separate": "general: isolate a flow, or parts of it, into distinct components. Specific: divide, extract, remove",
+      "divide": "split one flow into two or more parts (e.g. cut a stem into two parts)",
+      "extract": "draw or forcibly pull out a flow (e.g. pull roots out of soil)",
+      "remove": "take a part of a flow away from its place (e.g. take leaves off a plant)",
+      "distribute": "spread a flow out or break it up over several places",
+      "import": "bring a flow in from outside the device",
+      "export": "send a flow out of the device",
+      "transfer": "general: move a flow from one place to another. Specific: transport, transmit",
+      "transport": "move a material from one place to another",
+      "transmit": "move an energy from one place to another",
+      "guide": "general: direct a flow along a specific path. Specific: translate, rotate, allow_dof",
+      "translate": "move a flow along one straight line",
+      "rotate": "turn a flow about one axis",
+      "allow_dof": "let a flow move freely in one or more directions",
+      "couple": "general: bring flows together so they stay distinguishable. Specific: join, link",
+      "join": "couple flows together in a fixed way",
+      "link": "couple flows together through an intermediate part",
+      "mix": "combine flows into one uniform mass",
+      "actuate": "start a flow in response to a control signal",
+      "regulate": "general: adjust a flow in response to a control signal. Specific: increase, decrease",
+      "increase": "enlarge a flow in response to a control signal",
+      "decrease": "reduce a flow in response to a control signal",
+      "change": "general: adjust a flow in a fixed, predetermined way. Specific: increment, decrement, shape, condition",
+      "increment": "enlarge a flow in a fixed way",
+      "decrement": "reduce a flow in a fixed way",
+      "shape": "mould or form a material into a shape",
+      "condition": "make a flow fit for its intended use (e.g. clean, dry, cool)",
+      "stop": "general: cease or block the transfer of a flow. Specific: prevent, inhibit",
+      "prevent": "keep a flow from happening at all",
+      "inhibit": "strongly restrain a flow while some of it still passes",
+      "convert": "change a flow from one form into another (e.g. electrical into mechanical energy)",
+      "store": "accumulate a flow and keep it for later",
+      "contain": "keep a flow within limits (e.g. hold produce in a bin)",
+      "collect": "bring a flow together into one place",
+      "supply": "provide a flow from storage",
+      "sense": "general: perceive a flow. Specific: detect, measure",
+      "detect": "find out that something is present or what state it is in",
+      "measure": "determine the size or amount of something",
+      "indicate": "general: make something about a flow known to the user. Specific: track, display",
+      "track": "observe and record data about a flow over time",
+      "display": "show something about a flow to the eye",
+      "process": "treat information by a set procedure (e.g. compute a position from images)",
+      "stabilize": "keep a flow from changing its course or position",
+      "secure": "fix a flow firmly in place (e.g. clamp, grip and hold)",
+      "position": "place a material in a specific location or orientation"
+    }
+  },
+  "functions.flow": {
+    "title": "functions.flow: what the action mainly acts on",
+    "values": {
+      "material": "a physical object or substance, e.g. produce, soil, a picking head",
+      "energy": "mechanical, electrical, hydraulic or other energy",
+      "signal": "information, e.g. an image, a position, a control command"
+    }
+  },
+  "functions.actor": {
+    "title": "functions.actor: who performs the action, judged by the power source",
+    "values": {
+      "invention": "the invention performs it with its own powered mechanism or control",
+      "host_machine": "the machine the invention is mounted on or works with performs it with its own power",
+      "human": "a person performs it by muscle power: by hand, or by operating a tool that has no motor, including a human-powered invention",
+      "both": "a powered mechanism and a person each perform part of the same action",
+      "not_specified": "the text does not say who performs it"
+    }
+  },
+  "functions.role": {
+    "title": "functions.role",
+    "values": {
+      "main": "an action the invention exists to perform",
+      "auxiliary": "an action that supports the main actions"
+    }
+  },
+  "statement.type": {
+    "title": "problems[].type and effects[].type",
+    "values": {
+      "labor_or_cost": "amount of manual work, labor cost or other cost",
+      "damage_or_quality_loss": "damage to produce, plants or soil, or loss of quality",
+      "throughput_or_speed": "amount handled per time, or speed",
+      "accuracy_or_selectivity": "picking the right items, positioning precision, detection errors",
+      "safety_or_ergonomics": "risk of injury, strain or discomfort for people",
+      "reliability_or_maintenance": "breakdowns, wear, clogging, maintenance effort",
+      "adaptability_to_crop_or_terrain": "working with different crops, plant shapes, slopes or field conditions",
+      "energy_or_resource_use": "fuel, power, water or other resource use",
+      "other": "none of the above"
+    }
+  },
+  "target_categories": {
+    "title": "target_categories: the crops handled",
+    "values": {
+      "tree_fruit": "fruit from trees, e.g. apple, citrus, cherry, olive, date",
+      "vine_or_bush_fruit": "fruit from vines or bushes, e.g. grape, blueberry, raspberry, kiwi",
+      "fruiting_vegetable": "vegetables eaten as fruit, e.g. tomato, pepper, cucumber, melon, strawberry",
+      "leafy_vegetable": "leaf, stem or flower vegetables, e.g. lettuce, cabbage, spinach, broccoli, asparagus",
+      "root_vegetable": "food roots, tubers and bulbs, e.g. potato, carrot, onion, garlic, sweet potato",
+      "other_vegetable": "other vegetables, e.g. beans, peas, sweet corn, mushrooms",
+      "tree_nut": "nuts from trees, e.g. almond, walnut, pecan, hazelnut",
+      "grain_or_oilseed": "cereals and oilseeds, e.g. wheat, maize for grain, soybean, rapeseed",
+      "forage_or_grass": "hay, silage, turf or lawn grass",
+      "fiber_crop": "crops grown for fiber, e.g. cotton, flax, hemp",
+      "industrial_crop": "crops grown as raw material for processing, e.g. sugar beet, sugarcane, tobacco, hops, chicory root",
+      "other": "none of the above",
+      "not_specified": "the text does not name the crop"
+    }
+  },
+  "form_factor": {
+    "title": "form_factor: the physical form of the invention as used in the field",
+    "values": {
+      "handheld_tool": "held and carried by one person",
+      "walk_behind_or_pushed": "on wheels, pushed or guided by a walking person",
+      "worker_platform_or_cart": "a platform, cart or vehicle that carries workers who do the picking",
+      "tractor_mounted_or_towed": "attached to or pulled by a tractor",
+      "self_propelled_harvester": "a harvesting vehicle with its own drive, driven by an operator",
+      "mobile_robot": "a vehicle or robot that moves and works autonomously",
+      "stationary_installation": "fixed in place, e.g. on rails in a greenhouse",
+      "component_only": "a part or attachment of a larger machine, e.g. a picking head, a sensor unit",
+      "not_specified": "the text does not make it clear"
+    }
+  },
+  "power_source": {
+    "title": "power_source: power sources stated for the invention",
+    "values": {
+      "human_power": "muscle power of the user",
+      "battery_electric": "batteries",
+      "combustion_engine": "its own fuel engine",
+      "tractor_pto_or_hydraulics": "power taken from a tractor or host machine (PTO, hydraulics)",
+      "grid_electric": "mains electricity",
+      "pneumatic_compressor": "compressed air",
+      "other": "another stated source",
+      "not_specified": "no power source stated"
+    }
+  },
+  "operating_environment": {
+    "title": "operating_environment: where the invention is stated to work",
+    "values": {
+      "open_field": "open fields",
+      "orchard": "orchards",
+      "vineyard": "vineyards",
+      "greenhouse_or_indoor": "greenhouses or other indoor growing",
+      "other": "another stated environment",
+      "not_specified": "not stated"
+    }
+  },
+  "infrastructure_requirements": {
+    "title": "infrastructure_requirements: conditions the crop or field must meet for the invention to work",
+    "values": {
+      "trellis_or_planar_canopy": "plants trained on trellises or into flat walls",
+      "row_or_bed_layout": "crops planted in rows or beds of a given spacing",
+      "rails_or_tracks": "rails or tracks laid in the field or greenhouse",
+      "precise_positioning_gps": "GPS or other precise positioning",
+      "network_connectivity": "a data network connection",
+      "other": "another stated requirement",
+      "none_stated": "no requirement stated"
+    }
+  },
+  "host_dependency": {
+    "title": "host_dependency",
+    "values": {
+      "standalone": "the invention works on its own",
+      "general_attachment": "an attachment or component usable with various machines or tools",
+      "specific_platform": "designed for one type of machine",
+      "not_specified": "not clear from the text"
+    }
+  },
+  "scope.category": {
+    "title": "scope.category: what the invention is for",
+    "values": {
+      "fruit_or_vegetable_harvest": "harvesting fruits or vegetables for food, including potatoes and other food root vegetables, and gathering fallen fruit; or a component or accessory specifically for such harvesting",
+      "industrial_crop": "harvesting crops grown as raw material for processing: cotton and other fiber crops, sugar beet, sugarcane, tobacco, hops, chicory root",
+      "grain_forage_or_grass": "harvesting grain, oilseeds, forage, hay, turf or lawn grass",
+      "tree_nut_only": "harvesting tree nuts and no fruit",
+      "non_harvest_task": "a field task other than harvesting: thinning, pruning, leaf removal, spraying, pollinating, planting, or removing stubble, stalks or crop residue",
+      "post_harvest_handling": "handling a crop after it has been harvested and set down: picking up or loading crop heaps or clamps, sorting, cleaning, washing, packing, storing",
+      "unclear": "the card does not make it clear"
+    }
+  },
+  "subfunction.relation": {
+    "title": "relation: the role of the invention in the sub-function",
+    "values": {
+      "direct": "a part recited in an independent claim carries out the action, whether powered by a machine or by a person",
+      "support": "a claimed part does not carry out the action but helps the performer, a person or the host machine, carry it out",
+      "not_mentioned": "the claimed invention neither carries out nor supports the action, including actions described only outside the independent claims"
+    }
+  },
+  "subfunction.actor": {
+    "title": "actor: who performs the sub-function when the invention is used, judged by the power source",
+    "values": {
+      "invention": "the invention performs it with its own powered mechanism or control",
+      "host_machine": "the machine the invention is mounted on or works with performs it with its own power",
+      "human": "a person performs it by muscle power: by hand, or by operating a tool that has no motor, including a human-powered invention",
+      "both": "a powered mechanism and a person each perform part of the same action",
+      "not_specified": "the card does not say who performs it"
+    }
+  },
+  "detachment_principle.values": {
+    "title": "detachment_principle: how the produce is separated from the plant or soil (F3)",
+    "values": {
+      "cutting": "a blade, scissors or saw cuts the stem or stalk",
+      "twisting": "the produce is turned until the stem breaks",
+      "pulling": "the produce or plant is pulled until it comes off",
+      "shaking_or_vibration": "the plant is shaken so that the produce falls",
+      "suction_or_pneumatic": "air flow or vacuum pulls the produce off",
+      "digging_or_lifting": "soil is dug or lifted to free roots or tubers",
+      "combing_or_stripping": "fingers or tines comb or strip produce from branches",
+      "other": "another principle",
+      "not_specified": "F3 is performed but the card does not say how",
+      "not_applicable": "F3 is not_mentioned; use this value alone"
+    }
+  },
+  "overall_confidence": {
+    "title": "overall_confidence",
+    "values": {
+      "high": "the card clearly supports all labels",
+      "medium": "some labels rest on thin evidence",
+      "low": "the card is not enough for several labels"
+    }
+  }
+}

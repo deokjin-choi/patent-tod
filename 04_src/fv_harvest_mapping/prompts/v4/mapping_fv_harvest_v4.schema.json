@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "mapping_fv_harvest_v4",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["scope", "functions", "detachment_principle", "overall_confidence", "note"],
+  "$defs": {
+    "evidence": {
+      "type": "array",
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["loc", "quote"],
+        "properties": {
+          "loc": {"type": "string", "pattern": "^\\[(P[0-9]{4,5}|C[0-9]{1,3})\\]$"},
+          "quote": {"type": "string", "maxLength": 200}
+        }
+      }
+    },
+    "subfunction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["card_functions", "relation", "actor", "evidence"],
+      "properties": {
+        "card_functions": {"type": "array", "maxItems": 4, "items": {"type": "integer"}},
+        "relation": {"type": "string", "enum": ["direct", "support", "not_mentioned"]},
+        "actor": {"type": "string", "enum": ["invention", "host_machine", "human", "both", "not_specified"]},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    }
+  },
+  "properties": {
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["category", "evidence"],
+      "properties": {
+        "category": {"type": "string", "enum": [
+          "fruit_or_vegetable_harvest", "industrial_crop", "grain_forage_or_grass", "tree_nut_only",
+          "non_harvest_task", "post_harvest_handling", "unclear"
+        ]},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "functions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["F1", "F2", "F3", "F4"],
+      "properties": {
+        "F1": {"$ref": "#/$defs/subfunction"},
+        "F2": {"$ref": "#/$defs/subfunction"},
+        "F3": {"$ref": "#/$defs/subfunction"},
+        "F4": {"$ref": "#/$defs/subfunction"}
+      }
+    },
+    "detachment_principle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["values", "evidence"],
+      "properties": {
+        "values": {"type": "array", "maxItems": 3, "items": {"type": "string", "enum": [
+          "cutting", "twisting", "pulling", "shaking_or_vibration", "suction_or_pneumatic",
+          "digging_or_lifting", "combing_or_stripping", "other", "not_specified", "not_applicable"
+        ]}},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "overall_confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+    "note": {"type": "string", "maxLength": 300}
+  }
+}

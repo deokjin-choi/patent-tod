@@ -31,8 +31,9 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", "", s.lower()).strip(".,;:…\"'")
 
 
-def _pnum(loc: str) -> int:
-    return int(re.sub(r"\D", "", loc) or -9)
+def _adjacent(a: str, b: str) -> bool:
+    """같은 종류(본문 P, 청구항 C)에서 번호가 하나 차이."""
+    return a[:2] == b[:2] and abs(int(re.sub(r"\D", "", a) or -9) - int(re.sub(r"\D", "", b) or -9)) == 1
 
 
 def iter_evidence(node, path=""):
@@ -58,7 +59,7 @@ def check_quotes(output: dict, doc: dict) -> list[dict]:
             hit = "exact"
         elif not found:
             hit = "not_found"
-        elif any(abs(_pnum(k) - _pnum(ev["loc"])) == 1 for k in found):
+        elif any(_adjacent(k, ev["loc"]) for k in found):
             hit = "adjacent"
         else:
             hit = "wrong_loc"
@@ -77,6 +78,7 @@ def card_row(card: dict) -> dict:
         "ids_ok": ids == list(range(1, len(fns) + 1)),
         "max_same_verb": max(verbs.values(), default=0),
         "no_quote": sum(not f["evidence"] for f in fns),
+        "claimed_func": sum(f.get("claim", "none") != "none" for f in fns),
         "actors": ",".join(sorted({f["actor"] for f in fns})),
         "n_prob": len(card["problems"]),
         "n_eff": len(card["effects"]),
@@ -87,17 +89,31 @@ def card_row(card: dict) -> dict:
 
 
 def derive(m: dict) -> tuple[str, str]:
-    """(구분, 기계가 맡는 기능). 기계는 발명 자체와 발명이 달리는 기계를 함께 센다."""
-    cat = m["scope"]["category"]
-    if cat != IN_SCOPE:
-        return ("unclear" if cat == "unclear" else "out_of_scope"), ""
+    """(구분, 기계가 맡는 기능). 범위와 따로, 범위 밖 판정을 받은 특허에도 계산한다.
+
+    기계가 맡는 기능은 발명이 직접 수행하거나 지원하는 기능 가운데 수행 주체가 기계(발명 또는 발명이 달리는 기계)인 것이다.
+    """
     f = m["functions"]
-    machine = "·".join(k for k in FUNCS if f[k]["actor"] in MACHINE_ACTORS)
+    machine = "·".join(
+        k for k in FUNCS if f[k]["relation"] != "not_mentioned" and f[k]["actor"] in MACHINE_ACTORS
+    )
     if f["F3"]["relation"] == "direct":
         return "harvest_device", machine
     if any(f[k]["relation"] != "not_mentioned" for k in FUNCS):
         return "component", machine
     return "unmapped", machine
+
+
+def direct_unclaimed(m: dict, card: dict) -> str:
+    """direct로 판정했는데 연결한 카드 기능이 모두 청구항 밖(claim none)인 하위 기능. v2 카드에는 claim 칸이 없다."""
+    claim = {fn["id"]: fn.get("claim") for fn in card["functions"]}
+    if None in claim.values():
+        return ""
+    f = m["functions"]
+    return ",".join(
+        k for k in FUNCS
+        if f[k]["relation"] == "direct" and all(claim.get(i, "none") == "none" for i in f[k]["card_functions"])
+    )
 
 
 def mapping_row(m: dict, card: dict) -> dict:
@@ -107,9 +123,11 @@ def mapping_row(m: dict, card: dict) -> dict:
     f = m["functions"]
     return {
         "scope": m["scope"]["category"],
+        "in_scope": m["scope"]["category"] == IN_SCOPE,
         **{k: f"{f[k]['relation'][:3]}/{f[k]['actor'][:5]}/{f[k]['card_functions']}" for k in FUNCS},
         "class": cls,
         "machine_does": machine,
+        "direct_unclaimed": direct_unclaimed(m, card),
         "detach": ",".join(m["detachment_principle"]["values"]),
         "conf": m["overall_confidence"],
         "quotes_copied": f"{sum(copied)}/{len(copied)}",
@@ -142,8 +160,9 @@ def main() -> None:
                 mrec = json.loads((map_dir / f"{gid}.json").read_text(encoding="utf-8"))
                 row["map_sec"] = mrec["seconds"]
                 row["map_schema_err"] = len(mrec["schema_errors"])
+                row["claim_fixes"] = len(mrec.get("claim_fixes", []))
                 if mrec["output"] is not None:
-                    row |= mapping_row(mrec["output"], card)
+                    row |= mapping_row(mrec["output"], mrec.get("card_used", card))
         rows.append(row)
 
     s = pd.DataFrame(rows)
