@@ -106,7 +106,7 @@ Chiarella et al. (2023)[8]은 FAO, 세계은행 및 IFAD의 농촌생계정보�
 
 특허 데이터는 파종·수확·저장(수확 후 취급 및 이송 포함) 기술 분야의 미국 출원 특허 패밀리 약 20,564건(2004~2023)을 모집단으로 구성하였다. 이 가운데 과일·채소 수확 관련 CPC인 A01D46(따기·털기), A01D45(채소 관련 하위 그룹), A01D13–33(뿌리작물 캐기), A01D51(지면 수확물 수집) 등을 기준으로 약 1,044건을 선정하였다. 최종적으로 Google Patents에서 명세서 원문을 확보한 1,029건을 분석에 활용한다. 분석 단위는 개별 특허이다.
 
-**둘째, 사회적 수요를 요구 기능으로 전개한다.** 과일·채소의 기계적 수확을 상위 기능(F0)으로 정의하고, 이를 하위 기능으로 분해한다. 기능 전개에는 Pahl et al. (2007)[30]의 기능 구조화 방법과 Hirtz et al. (2002)[31]의 표준 기능 어휘를 참고하였다. 이때 기능은 기술이 수행해야 할 동작으로 정의하고, 카메라나 칼날과 같은 구체적인 기술 수단은 기능을 구현하는 메커니즘으로 구분한다.
+**둘째, 사회적 수요를 요구 기능으로 전개한다.** 과일·채소의 기계적 수확을 상위 기능(F0)으로 정의하고, 이를 하위 기능으로 분해한다. 기능 전개에는 Pahl et al. (2007)[29]의 기능 구조화 방법과 Hirtz et al. (2002)[30]의 표준 기능 어휘를 참고하였다. 이때 기능은 기술이 수행해야 할 동작으로 정의하고, 카메라나 칼날과 같은 구체적인 기술 수단은 기능을 구현하는 메커니즘으로 구분한다.
 
 | ID | 요구 기능 | 기능적 역할 |
 |---|---|---|
@@ -122,7 +122,7 @@ Chiarella et al. (2023)[8]은 FAO, 세계은행 및 IFAD의 농촌생계정보�
 
 **셋째, 특허의 기술 기능을 추출하고 요구 기능에 매핑한다.** 이를 위해 LLM을 활용한 2단계 분석 절차를 적용한다. 입력 데이터는 특허의 제목, 독립 청구항 및 상세한 설명으로 구성하며, 로컬 모델의 문맥 처리 범위를 고려하여 입력 길이를 약 13,000자로 제한한다. 독립 청구항은 발명의 기술적 범위를 확인하는 데 활용하고, 상세한 설명에서는 기술의 동작, 수행 주체, 적용 작물 및 해결 과제를 추출한다.
 
-먼저, 개별 특허에서 동작, 구성 부품, 해결 과제, 기술적 효과, 대상 작물, 장치 형태 및 동력원을 추출하여 구조화된 특허 카드를 생성한다. 기능 추출에는 Hirtz et al. (2002)[31]의 표준 동작 어휘를 활용하고, 추출 결과의 근거가 되는 명세서 문장을 함께 기록한다. 독립 청구항에 대한 참조 정보는 별도의 코드 기반 검증을 통해 확인한다.
+먼저, 개별 특허에서 동작, 구성 부품, 해결 과제, 기술적 효과, 대상 작물, 장치 형태 및 동력원을 추출하여 구조화된 특허 카드를 생성한다. 기능 추출에는 Hirtz et al. (2002)[30]의 표준 동작 어휘를 활용하고, 추출 결과의 근거가 되는 명세서 문장을 함께 기록한다. 독립 청구항에 대한 참조 정보는 별도의 코드 기반 검증을 통해 확인한다.
 
 이후 추출된 기술 기능을 F1–F4의 요구 기능과 비교하여 직접 수행, 지원, 언급 없음의 세 가지 관계로 분류한다. 기능 수행 주체는 동력원을 기준으로 판정하며, 인력으로 작동하는 수동 도구의 동작은 사람의 수행 기능으로 처리한다. 또한 식용 과일·채소의 수확 기술 여부를 판정하여 공업용 작물, 솎기 및 잔재 처리, 수확 후 선별·적재 기술은 분석 범위에서 제외한다.
 
@@ -150,7 +150,7 @@ Chiarella et al. (2023)[8]은 FAO, 세계은행 및 IFAD의 농촌생계정보�
 | 실현 가능성 | 관련 부품 및 기술의 존재 여부와 기능적 조합 가능성 |
 | 수요 적합성 | 소농의 자본·농지·기술 접근성 제약 충족 여부와 노동생산성·노동집약도·기술효율 개선에 대한 기대 기여 |
 
-아울러 LLM 기반 특허 기능 매핑의 신뢰성을 확보하기 위해 파일럿 분석 및 표본 수작업 검증을 수행한다. 검증 과정에서 확인된 기능 분류 오류와 F1 매핑의 순서 편향 등은 프롬프트 개선 및 결과 집계 과정에서 보정한다.
+아울러 LLM 기반 특허 기능 매핑의 신뢰성을 확보하기 위해 파일럿 분석 및 표본 수작업 검증을 수행한다. 검증 과정에서 확인된 기능 분류 오류와 매핑의 순서 편향 등은 프롬프트 개선 및 결과 집계 과정에서 보정한다.
 
 기술기회 후보에 대한 정량적 평가와 현장 적용을 통한 효과 검증은 후속 연구에서 수행할 예정이다.
 
@@ -270,7 +270,7 @@ CPC 그룹별로는 따기·털기 기술(A01D46)이 440건으로 가장 많았�
 
 ### 4.2 기술기회 방향과 공백
 
-4.1절의 분석 결과를 바탕으로 기존 수확 기술의 기능적 구성과 장치 규모에 따른 기술 대응의 차이를 검토하였다. 본 연구에서는 소규모 농가의 노동생산성·노동집약도·기술효율 개선에 기여할 가능성이 있으면서, 자본·농지·기술 접근성 제약을 고려할 수 있는 영역을 UIO 후보로 탐색한다. de Morais et al. (2026)[34] 역시 혼농임업 기계화 기술의 소농 적합성을 검토하여 기술의 존재와 실제 적용 가능성을 구분할 필요가 있음을 제시하였다.
+4.1절의 분석 결과를 바탕으로 기존 수확 기술의 기능적 구성과 장치 규모에 따른 기술 대응의 차이를 검토하였다. 본 연구에서는 소규모 농가의 노동생산성·노동집약도·기술효율 개선에 기여할 가능성이 있으면서, 자본·농지·기술 접근성 제약을 고려할 수 있는 영역을 UIO 후보로 탐색한다. de Morais et al. (2026)[31] 역시 혼농임업 기계화 기술의 소농 적합성을 검토하여 기술의 존재와 실제 적용 가능성을 구분할 필요가 있음을 제시하였다.
 
 분석 결과, 부분 기계화의 희소성, 소농형의 기능별 기계 수행 격차, 장치 규모에 따른 기술 공백이라는 세 가지 기회 방향이 도출되었다(표 7).
 
@@ -314,7 +314,10 @@ CPC 그룹별로는 따기·털기 기술(A01D46)이 440건으로 가장 많았�
 | 콩·꼬투리 채소 | F2·F3·F4 | 0 | 0 | 0 | 4 | 0 |
 | 콩·꼬투리 채소 | F2·F3 | 0 | 0 | 0 | 2 | 0 |
 | 콩·꼬투리 채소 | F1·F2·F3 | 0 | 0 | 0 | 1 | 0 |
-| 견과 | F2·F3·F4 등 | 0 | 0 | 0 | 1–2 | 0 |
+| 견과 | F1·F2·F3 | 0 | 0 | 0 | 2 | 0 |
+| 견과 | F1·F2·F3·F4 | 0 | 0 | 0 | 1 | 0 |
+| 견과 | F2·F3 | 0 | 0 | 0 | 1 | 0 |
+| 견과 | F2·F3·F4 | 0 | 0 | 0 | 2 | 0 |
 | 잎·줄기·꽃채소 | F1·F3·F4 | 0 | 0 | 0 | 2 | 0 |
 | 나무 과일 | F1·F3·F4 | 0 | 0 | 0 | 2 | 0 |
 | 열매채소 | F1·F3 | 0 | 1 | 1 | 0 | 0 |
@@ -335,21 +338,27 @@ CPC 그룹별로는 따기·털기 기술(A01D46)이 440건으로 가장 많았�
 
 ## 5. 논의 및 결론 (Discussion and Conclusion)
 
+본 연구는 사회적 수요가 기술개발에 충분히 반영되지 않은 영역을 UIO로 정의하고, 이를 대상으로 기술기회를 발굴하는 방법론을 제안하였다. 기존 TOD가 기술적 공백과 성장·융합 가능성을 중심으로 기회를 탐색했다면, 본 연구는 사회적 수요와 기술적 대응 간 불균형을 새로운 탐색 기준으로 제시한다.
+
 ### 5.1 이론적·방법론적 기여
 
-첫째, TOD의 출발점을 기술적 공백·성장·융합에서 **수요–의제 불균형(UIO)**으로 확장한다. 전환 정책의 수요 표명·방향성 실패 (Weber and Rohracher, 2012[2]; Schot and Steinmueller, 2018[3])를 특허 기능 분석과 연결한다. 둘째, 사회적 수요를 요구 기능·분업 방식으로 구체화하고 특허 카드·매핑으로 대응을 재는 절차를 제시한다. 셋째, 개별 기능의 유무를 넘어 **기능 조합과 수행 주체·적용 규모**를 기회 공간의 축으로 둔다.
+첫째, **TOD의 탐색 대상을 기존 기술의 발전 가능성에서 사회적 수요에 대한 기술적 대응이 부족한 영역으로 확장**한다. 기술개발이 활발한 영역을 중심으로 탐색하는 기존 접근은 이미 형성된 기술개발 방향을 재생산할 수 있다. UIO는 이러한 편중으로 인해 간과될 수 있는 기술기회를 식별하기 위한 보완적 관점을 제공한다.
+
+둘째, 사회적 수요를 요구 기능으로 구체화하고 이를 특허의 기술 기능과 연결하여 기술적 대응 수준을 분석하는 절차를 제시한다. 특히 개별 기능뿐 아니라 **기능 조합, 수행 주체 및 적용 규모**를 함께 고려함으로써 기존 기술의 재조합과 적용 맥락의 전환에서 새로운 기술기회를 탐색할 수 있도록 한다.
 
 ### 5.2 기술혁신 정책 및 실무적 시사점
 
-공공 R&D는 부담·필요 문서에 비해 특허·제품 대응이 얇은 기능·맥락을 우선순위 후보로 올릴 수 있다. 기업·연구소는 대농용 완전 자동화와 다른, 소농 제약 안의 부분 기계화·부품 조합 기회를 탐색할 수 있다. 농업 기술 우선순위 도구 (Brown et al., 2026[33]; Gbegbelegbe et al., 2024[32])와 결합하면, UIO 칸을 다기준 평가의 입력으로 쓸 수 있다.
+공공 R&D 관점에서는 사회적 수요에 비해 기술적 대응이 부족한 영역을 식별하여 연구개발 우선순위 설정에 활용할 수 있다. 이는 기술의 성장 가능성뿐 아니라 사회적 필요와 기술개발의 불균형을 함께 고려하는 의사결정을 지원한다.
 
-### 5.3 연구의 한계와 향후 계획
+기업과 연구기관은 기존 기술의 성능 향상이나 완전 자동화 외에도, 특정 사용자의 제약조건에 맞춘 **부분 기계화, 기능 보완 및 기존 기술의 재조합**을 기술개발 기회로 탐색할 수 있다. 특히 기술이 이미 존재하더라도 적용 규모와 사용 환경이 달라 활용이 어려운 영역에서 새로운 개발 방향을 모색할 수 있다.
 
-한계: (1) 농업 필요의 공통 단위 부재로 불균형 측정이 기능 대리 지표에 의존한다. (2) LLM 매핑의 F1·형태·범위 오류. (3) 사례·기능전개의 전문가 검증 미완. (4) 후보의 현장 노동 효과는 특허만으로 입증할 수 없다.
+### 5.3 연구의 한계와 향후 연구
 
-향후: F1 보정 매핑의 전체 재집계, 표본 검증 반영, 기능전개의 다유형 LLM 실험(method.md 4.4), 수요 적합성·신규성 평가 파일럿, 확장초록의 확정 결과 표 갱신.
+본 연구는 사회적 수요와 특허 기반 기술개발 활동을 동일한 척도로 직접 비교하지 못하였으며, 기능별 기술 대응 수준을 통해 잠재적 불균형을 탐색하였다. 또한 LLM 기반 기능 매핑의 오류 가능성과 요구 기능에 대한 전문가 검증의 한계가 존재한다. 특허 분포의 공백만으로 실제 수요나 기술적 실현 가능성을 입증하기도 어렵다.
 
----
+향후 연구에서는 기능 매핑의 신뢰성과 기능 전개의 타당성을 검증하고, 기존 기술의 기능적 조합을 통해 구체적인 기술기회 후보를 생성할 예정이다. 이후 신규성, 실현 가능성 및 수요 적합성을 평가하여 제안 방법론의 유효성을 검토하고자 한다.
+
+종합하면, 본 연구는 **기술이 어디로 발전하고 있는가뿐 아니라, 사회적으로 필요한 기술이 어디에서 충분히 개발되지 않고 있는가**를 탐색하는 TOD 접근을 제안한다. 이를 통해 기술기회 발굴을 수요 중심의 기술혁신 의사결정과 연결하는 가능성을 제시한다.
 
 ---
 
@@ -411,14 +420,8 @@ CPC 그룹별로는 따기·털기 기술(A01D46)이 440건으로 가장 많았�
 
 [28] Wang, X., Ma, P., Huang, Y., Guo, J., Zhu, D., Porter, A.L. and Wang, Z. (2017) ‘Combining SAO semantic analysis and morphology analysis to identify technology opportunities’, *Scientometrics*, 111(1), pp. 3–24.
 
-[29] Food and Agriculture Organization of the United Nations (2024) *Mapping affordable and transferrable climate-smart technologies for smallholder farmers* (summary). Rome: FAO.
+[29] Pahl, G., Beitz, W., Feldhusen, J. and Grote, K.-H. (2007) *Engineering Design: A Systematic Approach*. Berlin: Springer.
 
-[30] Pahl, G., Beitz, W., Feldhusen, J. and Grote, K.-H. (2007) *Engineering Design: A Systematic Approach*. Berlin: Springer.
+[30] Hirtz, J., Stone, R.B., McAdams, D.A., Szykman, S. and Wood, K.L. (2002) ‘A functional basis for engineering design: Reconciling and evolving previous efforts’, *Research in Engineering Design*, 13, pp. 65–82.
 
-[31] Hirtz, J., Stone, R.B., McAdams, D.A., Szykman, S. and Wood, K.L. (2002) ‘A functional basis for engineering design: Reconciling and evolving previous efforts’, *Research in Engineering Design*, 13, pp. 65–82.
-
-[32] Gbegbelegbe, S., Alene, A., Swamikannu, N. and Frija, A. (2024) ‘Multi-dimensional impact assessment for priority setting of agricultural technologies: An application of TOPSIS for the drylands of sub-Saharan Africa and South Asia’, *PLOS ONE*, 19(11), e0314007.
-
-[33] Brown, B., Coopman, M., Akpatsu, I.B., Nguyen, A., Abera, W., Ibrahim, A., Flor, R.J., Van Nguyen, H., Then, R., Saito, K., Redden, A., Kihara, J., Kumar, V., McDonald, A. and Vanlauwe, B. (2026) ‘Data-driven evaluation of constraints and adaptation priorities in Asian and African rice systems: Outcomes from the PAiCE toolkit’, *Agricultural Systems*, 235, 104718.
-
-[34] de Morais, G.F., Han, D., Freire, A.M., Santos, A.V.A., de Araújo, W.L., Galvão, C.B., Garcia, A.P. and Albiero, D. (2026) ‘Mechanization in agroforestry systems: a systematic review of technologies for improving operational capacity among family farmers’, *Frontiers in Sustainable Food Systems*, 10, 1983415.
+[31] de Morais, G.F., Han, D., Freire, A.M., Santos, A.V.A., de Araújo, W.L., Galvão, C.B., Garcia, A.P. and Albiero, D. (2026) ‘Mechanization in agroforestry systems: a systematic review of technologies for improving operational capacity among family farmers’, *Frontiers in Sustainable Food Systems*, 10, 1983415.
