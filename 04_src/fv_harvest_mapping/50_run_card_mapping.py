@@ -40,6 +40,8 @@ def main() -> None:
     ap.add_argument("--num-ctx", type=int, default=7168)
     ap.add_argument("--num-predict", type=int, default=1536)
     ap.add_argument("--think", choices=["on", "off"], default=None, help="생각 모드가 있는 모델에서만 지정")
+    ap.add_argument("--temperature", type=float, default=0.2)
+    ap.add_argument("--repeat-penalty", type=float, default=None)
     ap.add_argument("--overwrite", action="store_true")
     ap.add_argument("--seed", type=int, default=None, help="채움 순서 난수 시드. 주면 특허마다 seed+공개번호로 순서를 정해 재현 가능하다")
     args = ap.parse_args()
@@ -55,7 +57,7 @@ def main() -> None:
 
     # 스키마는 버전마다 같으므로 한 번만 읽고, 시스템 문구의 채움 순서만 특허마다 바꾼다.
     _, schema, _ = card_mapping()
-    runner = OllamaRunner(args.model, schema, args.num_ctx, args.num_predict, think)
+    runner = OllamaRunner(args.model, schema, args.num_ctx, args.num_predict, think, args.temperature, args.repeat_penalty)
     out_dir = OUT_ROOT / f"{args.card_run}__{run_name(args.model, think)}"
     out_dir.mkdir(parents=True, exist_ok=True)
 

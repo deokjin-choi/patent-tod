@@ -43,13 +43,15 @@ def main() -> None:
     ap.add_argument("--num-predict", type=int, default=2560)
     ap.add_argument("--max-chars", type=int, default=13_000, help="프롬프트에 넣을 특허 텍스트(청구항+본문) 최대 글자 수")
     ap.add_argument("--think", choices=["on", "off"], default=None, help="생각 모드가 있는 모델에서만 지정")
+    ap.add_argument("--temperature", type=float, default=0.2)
+    ap.add_argument("--repeat-penalty", type=float, default=None)
     ap.add_argument("--overwrite", action="store_true")
     args = ap.parse_args()
     ids = pick_ids(args, ap)
     think = None if args.think is None else args.think == "on"
 
     system, schema = card_pass()
-    runner = OllamaRunner(args.model, schema, args.num_ctx, args.num_predict, think)
+    runner = OllamaRunner(args.model, schema, args.num_ctx, args.num_predict, think, args.temperature, args.repeat_penalty)
     out_dir = OUT_ROOT / run_name(args.model, think)
     out_dir.mkdir(parents=True, exist_ok=True)
 

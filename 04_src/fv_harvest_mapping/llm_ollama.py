@@ -29,18 +29,23 @@ def inline_refs(schema: dict) -> dict:
 
 
 class OllamaRunner:
-    def __init__(self, model: str, schema: dict, num_ctx: int, num_predict: int, think: bool | None = None):
+    def __init__(self, model: str, schema: dict, num_ctx: int, num_predict: int, think: bool | None = None, temperature: float = 0.2, repeat_penalty: float | None = None):
         self.model, self.num_ctx, self.num_predict, self.think = model, num_ctx, num_predict, think
+        self.temperature = temperature
+        self.repeat_penalty = repeat_penalty
         self.validator = Draft202012Validator(schema)
         self.format = inline_refs(schema)
 
     def run(self, system: str, user: str) -> dict:
+        options = {"temperature": self.temperature, "num_ctx": self.num_ctx, "num_predict": self.num_predict, "seed": 42}
+        if self.repeat_penalty is not None:
+            options["repeat_penalty"] = self.repeat_penalty
         body = {
             "model": self.model,
             "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
             "format": self.format,
             "stream": False,
-            "options": {"temperature": 0, "num_ctx": self.num_ctx, "num_predict": self.num_predict, "seed": 42},
+            "options": options,
         }
         if self.think is not None:  # 생각 모드가 있는 모델(qwen3 등)에만 보낸다. 없는 모델에 보내면 오류가 난다.
             body["think"] = self.think
@@ -60,7 +65,7 @@ class OllamaRunner:
         prompt_tokens, output_tokens = res.get("prompt_eval_count") or 0, res.get("eval_count") or 0
         return {
             "model": self.model,
-            "options": {"num_ctx": self.num_ctx, "num_predict": self.num_predict, "think": self.think},
+            "options": {"num_ctx": self.num_ctx, "num_predict": self.num_predict, "think": self.think, "temperature": self.temperature, "repeat_penalty": self.repeat_penalty},
             "seconds": round(sec, 1),
             "prompt_tokens": prompt_tokens,
             "output_tokens": output_tokens,

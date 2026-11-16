@@ -2,6 +2,9 @@
 
 확장초록(`01_paper/2026-winter/extended-abstract.md`) 4.1–4.2절의 형태로 특허를 판정하는 작업 폴더다. 특허마다 하위 기능 F1–F4(수확 대상 식별, 수확 위치 조정, 작물 분리·채취, 수확물 수집·이송)와의 관계를 본문 근거와 함께 기록한다.
 
+**전체 흐름(카드→매핑→파생·집계)만 보려면:** [`pipeline_ko.md`](pipeline_ko.md)  
+**선택지 한글 목록:** [`prompts/v5/labels_v5_ko.md`](prompts/v5/labels_v5_ko.md)
+
 Python은 `conda run -n scenario-space python ...`으로 실행한다.
 
 ## 단계
@@ -69,6 +72,7 @@ LLM 호출은 두 번으로 나눈다(프롬프트 v5).
 | `card_mapping.md` | 매핑 단계 시스템 프롬프트 |
 | `function_space_fv_harvest.md` | 과일·채소 수확 기능공간(F0, F1–F4, 판정 예). 매핑 프롬프트의 `{{FUNCTION_SPACE}}` 자리에 들어간다 |
 | `labels_v5.json` | 모든 선택지의 정의. 프롬프트의 `{{OPTIONS}}` 자리에 들어간다 |
+| `labels_v5_ko.md` | 위 선택지의 한글 분류·의미 (참고용) |
 | `card_v5.schema.json` | 카드 형식 |
 | `mapping_fv_harvest_v5.schema.json` | 과일·채소 수확 대응 형식 |
 
