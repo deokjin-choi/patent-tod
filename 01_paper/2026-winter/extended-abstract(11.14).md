@@ -364,15 +364,15 @@ CPC 그룹별로는 따기·털기 기술(A01D46)이 440건으로 가장 많았�
 
 ## 참고문헌 (References)
 
-[1] Dosi, G. (1982) ‘Technological paradigms and technological trajectories: A suggested interpretation of the determinants and directions of technical change’, *Research Policy*, 11(3), pp. 147–162.
+[1] Dosi, G. (1982) ‘Technological paradigms and technological trajectories: A suggested interpretation of the determinants and directions of technical change’, *Research Policy*, 11(3), pp. 147–162. Available at: https://doi.org/10.1016/0048-7333(82)90016-6
 
-[2] Weber, K.M. and Rohracher, H. (2012) ‘Legitimizing research, technology and innovation policies for transformative change: Combining insights from innovation systems and multi-level perspective in a comprehensive “failures” framework’, *Research Policy*, 41(6), pp. 1037–1047.
+[2] Weber, K.M. and Rohracher, H. (2012) ‘Legitimizing research, technology and innovation policies for transformative change: Combining insights from innovation systems and multi-level perspective in a comprehensive “failures” framework’, *Research Policy*, 41(6), pp. 1037–1047. Available at: https://doi.org/10.1016/j.respol.2011.10.015
 
-[3] Schot, J. and Steinmueller, W.E. (2018) ‘Three frames for innovation policy: R&D, systems of innovation and transformative change’, *Research Policy*, 47(9), pp. 1554–1567.
+[3] Schot, J. and Steinmueller, W.E. (2018) ‘Three frames for innovation policy: R&D, systems of innovation and transformative change’, *Research Policy*, 47(9), pp. 1554–1567. Available at: https://doi.org/10.1016/j.respol.2018.08.011
 
-[4] Yegros-Yegros, A., van de Klippe, W., Abad-García, M.F. and Rafols, I. (2020) ‘Exploring why global health needs are unmet by research efforts: the potential influences of geography, industry and publication incentives’, *Health Research Policy and Systems*, 18, 47.
+[4] Yegros-Yegros, A., van de Klippe, W., Abad-García, M.F. and Rafols, I. (2020) ‘Exploring why global health needs are unmet by research efforts: the potential influences of geography, industry and publication incentives’, *Health Research Policy and Systems*, 18, 47. Available at: https://doi.org/10.1186/s12961-020-00560-6
 
-[5] Schmallenbach, L., Bley, M., Bärnighausen, T.W., Sugimoto, C.R., Lerchenmüller, C. and Lerchenmueller, M.J. (2025) ‘Global distribution of research efforts, disease burden, and impact of US public funding withdrawal’, *Nature Medicine*, 31(9), pp. 3101–3109.
+[5] Schmallenbach, L., Bley, M., Bärnighausen, T.W., Sugimoto, C.R., Lerchenmüller, C. and Lerchenmueller, M.J. (2025) ‘Global distribution of research efforts, disease burden, and impact of US public funding withdrawal’, *Nature Medicine*, 31(9), pp. 3101–3109. Available at: https://doi.org/10.1038/s41591-025-03923-0
 
 [6] National Academies of Sciences, Engineering, and Medicine (2025) *Aligning investments in therapeutic development with therapeutic need: Closing the gap*. Washington, DC: National Academies Press. Available at: https://doi.org/10.17226/29157
 
@@ -382,46 +382,46 @@ CPC 그룹별로는 따기·털기 기술(A01D46)이 440건으로 가장 많았�
 
 [9] Food and Agriculture Organization of the United Nations (2022) *The State of Food and Agriculture 2022: Leveraging automation in agriculture for transforming agrifood systems*. Rome: FAO. Available at: https://doi.org/10.4060/cb9479en
 
-[10] Porter, A.L. and Detampel, M.J. (1995) ‘Technology opportunities analysis’, *Technological Forecasting and Social Change*, 49(3), pp. 237–255.
+[10] Porter, A.L. and Detampel, M.J. (1995) ‘Technology opportunities analysis’, *Technological Forecasting and Social Change*, 49(3), pp. 237–255. Available at: https://doi.org/10.1016/0040-1625(95)00022-3
 
-[11] Yoon, B. and Park, Y. (2005) ‘A systematic approach for identifying technology opportunities: Keyword-based morphology analysis’, *Technological Forecasting and Social Change*, 72(2), pp. 145–160.
+[11] Yoon, B. and Park, Y. (2005) ‘A systematic approach for identifying technology opportunities: Keyword-based morphology analysis’, *Technological Forecasting and Social Change*, 72(2), pp. 145–160. Available at: https://doi.org/10.1016/j.techfore.2004.08.011
 
-[12] Yoon, B., Phaal, R. and Probert, D. (2007) ‘Morphology analysis for technology roadmapping: application of text mining’, *R&D Management*, 38(1), pp. 51–68.
+[12] Yoon, B., Phaal, R. and Probert, D. (2007) ‘Morphology analysis for technology roadmapping: application of text mining’, *R&D Management*, 38(1), pp. 51–68. Available at: https://doi.org/10.1111/j.1467-9310.2007.00493.x
 
-[13] Lee, S., Yoon, B. and Park, Y. (2009) ‘An approach to discovering new technology opportunities: Keyword-based patent map approach’, *Technovation*, 29(6–7), pp. 481–497.
+[13] Lee, S., Yoon, B. and Park, Y. (2009) ‘An approach to discovering new technology opportunities: Keyword-based patent map approach’, *Technovation*, 29(6–7), pp. 481–497. Available at: https://doi.org/10.1016/j.technovation.2008.10.006
 
-[14] Son, C., Suh, Y., Jeon, J. and Park, Y. (2012) ‘Development of a GTM-based patent map for identifying patent vacuums’, *Expert Systems with Applications*, 39(3), pp. 2489–2500.
+[14] Son, C., Suh, Y., Jeon, J. and Park, Y. (2012) ‘Development of a GTM-based patent map for identifying patent vacuums’, *Expert Systems with Applications*, 39(3), pp. 2489–2500. Available at: https://doi.org/10.1016/j.eswa.2011.08.101
 
-[15] Teng, F., Sun, Y., Chen, F., Qin, A. and Zhang, X. (2021) ‘Technology opportunity discovery of proton exchange membrane fuel cells based on generative topographic mapping’, *Technological Forecasting and Social Change*, 169, 120859.
+[15] Teng, F., Sun, Y., Chen, F., Qin, A. and Zhang, X. (2021) ‘Technology opportunity discovery of proton exchange membrane fuel cells based on generative topographic mapping’, *Technological Forecasting and Social Change*, 169, 120859. Available at: https://doi.org/10.1016/j.techfore.2021.120859
 
-[16] Lee, C., Kang, B. and Shin, J. (2014) ‘Novelty-focused patent mapping for technology opportunity analysis’, *Technological Forecasting and Social Change*, 90, pp. 355–365.
+[16] Lee, C., Kang, B. and Shin, J. (2014) ‘Novelty-focused patent mapping for technology opportunity analysis’, *Technological Forecasting and Social Change*, 90, pp. 355–365. Available at: https://doi.org/10.1016/j.techfore.2014.05.010
 
-[17] Curran, C.-S. and Leker, J. (2010) ‘Patent indicators for monitoring convergence – examples from NFF and ICT’, *Technological Forecasting and Social Change*, 78(2), pp. 256–273.
+[17] Curran, C.-S. and Leker, J. (2010) ‘Patent indicators for monitoring convergence – examples from NFF and ICT’, *Technological Forecasting and Social Change*, 78(2), pp. 256–273. Available at: https://doi.org/10.1016/j.techfore.2010.06.021
 
-[18] Lee, W.S., Han, E.J. and Sohn, S.Y. (2015) ‘Predicting the pattern of technology convergence using big-data technology on large-scale triadic patents’, *Technological Forecasting and Social Change*, 100, pp. 317–329.
+[18] Lee, W.S., Han, E.J. and Sohn, S.Y. (2015) ‘Predicting the pattern of technology convergence using big-data technology on large-scale triadic patents’, *Technological Forecasting and Social Change*, 100, pp. 317–329. Available at: https://doi.org/10.1016/j.techfore.2015.07.022
 
-[19] Park, M. and Geum, Y. (2022) ‘Two-stage technology opportunity discovery for firm-level decision making: GCN-based link-prediction approach’, *Technological Forecasting and Social Change*, 183, 121934.
+[19] Park, M. and Geum, Y. (2022) ‘Two-stage technology opportunity discovery for firm-level decision making: GCN-based link-prediction approach’, *Technological Forecasting and Social Change*, 183, 121934. Available at: https://doi.org/10.1016/j.techfore.2022.121934
 
-[20] Liu, Z., Feng, J. and Uden, L. (2023) ‘Technology opportunity analysis using hierarchical semantic networks and dual link prediction’, *Technovation*, 128, 102872.
+[20] Liu, Z., Feng, J. and Uden, L. (2023) ‘Technology opportunity analysis using hierarchical semantic networks and dual link prediction’, *Technovation*, 128, 102872. Available at: https://doi.org/10.1016/j.technovation.2023.102872
 
-[21] Shin, J. and Lee, H. (2013) ‘Low-risk opportunity recognition from mature technologies for SMEs’, *Journal of Engineering and Technology Management*, 30(4), pp. 402–418.
+[21] Shin, J. and Lee, H. (2013) ‘Low-risk opportunity recognition from mature technologies for SMEs’, *Journal of Engineering and Technology Management*, 30(4), pp. 402–418. Available at: https://doi.org/10.1016/j.jengtecman.2013.09.002
 
-[22] Kim, J. and Shin, J. (2018) ‘Mapping extended technological trajectories: integration of main path, derivative paths, and technology junctures’, *Scientometrics*, 116(3), pp. 1439–1459.
+[22] Kim, J. and Shin, J. (2018) ‘Mapping extended technological trajectories: integration of main path, derivative paths, and technology junctures’, *Scientometrics*, 116(3), pp. 1439–1459. Available at: https://doi.org/10.1007/s11192-018-2834-3
 
-[23] Hwang, S. and Shin, J. (2019) ‘Extending technological trajectories to latest technological changes by overcoming time lags’, *Technological Forecasting and Social Change*, 143, pp. 142–153.
+[23] Hwang, S. and Shin, J. (2019) ‘Extending technological trajectories to latest technological changes by overcoming time lags’, *Technological Forecasting and Social Change*, 143, pp. 142–153. Available at: https://doi.org/10.1016/j.techfore.2019.04.013
 
 [24] Oh, E., Lee, Y. and Shin, J. (2020) ‘Identifying monitoring indicators for emerging technological opportunities’, *26th International Association for Management of Technology Conference (IAMOT) Proceedings*, pp. 1102–1116.
 
-[25] Yoon, J., Park, H., Seo, W., Lee, J.-M., Coh, B. and Kim, J. (2015) ‘Technology opportunity discovery (TOD) from existing technologies and products: A function-based TOD framework’, *Technological Forecasting and Social Change*, 100, pp. 153–167.
+[25] Yoon, J., Park, H., Seo, W., Lee, J.-M., Coh, B. and Kim, J. (2015) ‘Technology opportunity discovery (TOD) from existing technologies and products: A function-based TOD framework’, *Technological Forecasting and Social Change*, 100, pp. 153–167. Available at: https://doi.org/10.1016/j.techfore.2015.04.012
 
-[26] Choi, S., Park, H., Kang, D., Lee, J.Y. and Kim, K. (2012) ‘An SAO-based text mining approach to building a technology tree for technology planning’, *Expert Systems with Applications*, 39(13), pp. 11443–11455.
+[26] Choi, S., Park, H., Kang, D., Lee, J.Y. and Kim, K. (2012) ‘An SAO-based text mining approach to building a technology tree for technology planning’, *Expert Systems with Applications*, 39(13), pp. 11443–11455. Available at: https://doi.org/10.1016/j.eswa.2012.04.014
 
-[27] Guo, J., Wang, X., Li, Q. and Zhu, D. (2016) ‘Subject–action–object-based morphology analysis for determining the direction of technological change’, *Technological Forecasting and Social Change*, 105, pp. 27–40.
+[27] Guo, J., Wang, X., Li, Q. and Zhu, D. (2016) ‘Subject–action–object-based morphology analysis for determining the direction of technological change’, *Technological Forecasting and Social Change*, 105, pp. 27–40. Available at: https://doi.org/10.1016/j.techfore.2016.01.028
 
-[28] Wang, X., Ma, P., Huang, Y., Guo, J., Zhu, D., Porter, A.L. and Wang, Z. (2017) ‘Combining SAO semantic analysis and morphology analysis to identify technology opportunities’, *Scientometrics*, 111(1), pp. 3–24.
+[28] Wang, X., Ma, P., Huang, Y., Guo, J., Zhu, D., Porter, A.L. and Wang, Z. (2017) ‘Combining SAO semantic analysis and morphology analysis to identify technology opportunities’, *Scientometrics*, 111(1), pp. 3–24. Available at: https://doi.org/10.1007/s11192-017-2260-y
 
-[29] Pahl, G., Beitz, W., Feldhusen, J. and Grote, K.-H. (2007) *Engineering Design: A Systematic Approach*. Berlin: Springer.
+[29] Pahl, G., Beitz, W., Feldhusen, J. and Grote, K.-H. (2007) *Engineering Design: A Systematic Approach*. Berlin: Springer. Available at: https://doi.org/10.1007/978-1-84628-319-2
 
-[30] Hirtz, J., Stone, R.B., McAdams, D.A., Szykman, S. and Wood, K.L. (2002) ‘A functional basis for engineering design: Reconciling and evolving previous efforts’, *Research in Engineering Design*, 13, pp. 65–82.
+[30] Hirtz, J., Stone, R.B., McAdams, D.A., Szykman, S. and Wood, K.L. (2002) ‘A functional basis for engineering design: Reconciling and evolving previous efforts’, *Research in Engineering Design*, 13, pp. 65–82. Available at: https://doi.org/10.1007/s00163-001-0008-3
 
-[31] de Morais, G.F., Han, D., Freire, A.M., Santos, A.V.A., de Araújo, W.L., Galvão, C.B., Garcia, A.P. and Albiero, D. (2026) ‘Mechanization in agroforestry systems: a systematic review of technologies for improving operational capacity among family farmers’, *Frontiers in Sustainable Food Systems*, 10, 1983415.
+[31] de Morais, G.F., Han, D., Freire, A.M., Santos, A.V.A., de Araújo, W.L., Galvão, C.B., Garcia, A.P. and Albiero, D. (2026) ‘Mechanization in agroforestry systems: a systematic review of technologies for improving operational capacity among family farmers’, *Frontiers in Sustainable Food Systems*, 10, 1983415. Available at: https://doi.org/10.3389/fsufs.2026.1983415
