@@ -59,6 +59,10 @@ WIPO의 [Agrifood 특허 랜드스케이프](https://www.wipo.int/web-publicatio
 
 읽을 때 나눌 것은 전체 건수와 국제 패밀리다. 전체를 쓰면 최근 중국 국내 출원이 두껍다. 두 번째 나라에 출원된 45만 건을 쓰면 미국이 연구개발 위치로 오래 남아 있고, 기계·화학 회사의 포트폴리오가 보인다.
 
+## 작물 생산의 작업
+
+소농이 필지에서 하는 작업의 순서와 노동 투입은 [labor/](labor/README.md)에 받은 자료를 두었다. 절차로 옮긴 노트는 [../../01_paper/2026-winter/social-needs/crop_operations.md](../../01_paper/2026-winter/social-needs/crop_operations.md)다. 세계은행 노동 설문 지침, 탄자니아 킬로사 마을의 작업 시간, LSMS-ISA 6개국의 작업별 여성 노동 비중이다. 말라위 골로모티의 옥수수·땅콩 노동은 출판사가 자동 다운로드를 막아 PDF가 없고, 절차 노트에 공개 본문의 수치를 적었다.
+
 ## 수확 기능의 공학 문헌
 
 과일·채소 수확을 하위 기능으로 가를 때 먼저 볼 두 장은 [harvest-functional-processes.md](harvest-functional-processes.md)에 두었다. ASABE 교재 13장의 Functional processes(Removal, Control, Selection, Transportation)와 CIGR 핸드북 III권의 Harvesting Functions다. 확인한 범위는 출판사 공개 목차다.

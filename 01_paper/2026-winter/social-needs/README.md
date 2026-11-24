@@ -4,7 +4,7 @@
 > 논문에 확정된 결과가 아니다. 수요 공간을 체계적으로 탐색한 결과로 쓰지 않는다.
 > 원자료는 `05_data/agri/lsms-worldbank/`. 회의에서 나온 앞단 요구는 `02_meetings/2026-11-16-result(by-e-mail).md`에 있다.
 
-이 폴더는 사회적 수요의 주체와 부담을 자료로 확인하는 노트를 쌓는다. 특허의 기능 공간은 `04_src/fv_harvest_mapping/`에 두고, 여기서는 가구·필지 자료만 다룬다.
+이 폴더는 사회적 수요의 주체와 부담을 자료로 확인하는 노트를 쌓는다. 특허의 기능 공간은 `04_src/fv_harvest_mapping/`에 둔다. 가구·필지 자료와, 그 노동 합계를 작업으로 나누는 문헌 노트를 같이 둔다. 문헌 노트의 일수를 가구 자료의 결과로 합치지 않는다.
 
 지금 쓰는 읽기 순서는 다음과 같다.
 
@@ -22,6 +22,8 @@
 | [analysis_log.md](analysis_log.md) | 라운드별 가설, 결과, 기준 수정, 중단 이유. |
 | [social_needs_report.md](social_needs_report.md) | 최종 보고서. |
 | [social_needs_data_overview.md](social_needs_data_overview.md) | 지도교수 미팅용. 접근의 변화, LSMS-ISA 자료의 출처·범위·구성, UIO에서의 위치. |
+| [crop_operations.md](crop_operations.md) | 작물 생산의 작업 순서. 킬로사 마을의 작업별 시간, 골로모티의 옥수수·땅콩 인일, LSMS-ISA가 필지 노동을 나눈 세 칸. |
+| [weeding_operations.md](weeding_operations.md) | 제초 작업의 현장 방식, 노동 부담, 기존 기계화의 한계, 품팔이와의 구분. 팔롬베, 탄자니아 남부·음베야, 중부 말라위. |
 | [results/](results/) | 표(`tables/`)와 그림(`figures/`). |
 
 재현 코드는 `04_src/social_needs/`에 있다.
