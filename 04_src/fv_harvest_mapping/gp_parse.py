@@ -31,16 +31,24 @@ def _claims(soup: BeautifulSoup) -> list[dict]:
     section = soup.find("section", attrs={"itemprop": "claims"})
     if section is None:
         return []
+    nodes = [n for n in section.find_all("div", class_="claim") if n.get("num")]
+    strip_src = False
+    if not nodes:
+        # 중국어 원문과 영어 번역이 <claim>으로 올 때는 div.claim이 없다.
+        nodes = [n for n in section.find_all("claim") if n.get("num")]
+        strip_src = True
     out = []
-    for node in section.find_all("div", class_="claim"):
-        num = node.get("num")
-        if not num:
-            continue
+    for node in nodes:
+        if strip_src:
+            for src in node.select(".google-src-text"):
+                src.decompose()
         refs = sorted({r.get("idref", "") for r in node.find_all("claim-ref") if r.get("idref")})
+        text = _text(node)
+        dependent = bool(refs) or "according to claim" in text.lower()
         out.append({
-            "num": _claim_num(num),
-            "text": _text(node),
-            "dependent": bool(refs),
+            "num": _claim_num(node.get("num")),
+            "text": text,
+            "dependent": dependent,
             "refs": [_claim_num(r.split("-", 1)[-1]) for r in refs if r.startswith("CLM-")],
         })
     return out
